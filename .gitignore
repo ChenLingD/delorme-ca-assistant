@@ -9,4 +9,5 @@ runs/raw/
 
 # submission bundle (sent privately)
 deliverables/*.zip
-deliverables/Delorme_submission.*
+deliverables/Delorme_submission*
+deliverables/step-*.png

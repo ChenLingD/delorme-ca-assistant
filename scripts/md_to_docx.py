@@ -144,6 +144,8 @@ def convert(src: Path, dst: Path) -> None:
             add_inline(doc.add_heading(level=2), s[4:])
         elif s.startswith("![") and s.endswith(")"):
             img = src.parent / s[s.index("(") + 1:-1]
+            if doc.paragraphs:  # keep a caption line on the same page as its picture
+                doc.paragraphs[-1].paragraph_format.keep_with_next = True
             doc.add_picture(str(img), width=Cm(17.4))
         elif s.startswith("> "):
             p = doc.add_paragraph()
