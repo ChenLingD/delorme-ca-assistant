@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 2,
+    "brand_voice": 4,
+    "naturalness": 4,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "简短且没有擅自答应，但回应偏冷，可先接住客户对展览的兴奋。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "关联了真实的珍珠叠戴笔记，但客户已表示很感兴趣，再说“感觉您会喜欢”略显重复，拍摄问题也应更靠前。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 4,
+    "naturalness": 3,
+    "effectiveness": 4
+   },
+   "sendability": "小改可发",
+   "comment": "明确回应拍摄问题并说明确认后告知，但首句转述生硬，也没有接住客户的热情。"
+  }
+ ],
+ "set": {
+  "diversity": 3,
+  "risk_judgement": "正确",
+  "best_index": 3,
+  "must_coverage": "2/3",
+  "summary": "三条都没有擅自答应拍摄，也说明了需要向公关确认，风险判断恰当。主要问题是都没有自然接住客户的兴奋，且候选 1 和 3 的切入方式较相近。"
+ },
+ "_judge": "openai:gpt-6.1-terra"
+}

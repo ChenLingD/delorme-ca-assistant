@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "替客户决定不再考虑这件戒指；没有回应价格和铺镶质疑，也未跟进此前答应的镶嵌说明。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 2,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 2
+   },
+   "sendability": "小改可发",
+   "comment": "态度克制，但过早替客户下结论，缺少专业回应。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "手镯采用倒角、客户偏爱线条的纯粹均无输入依据；满钻款的视觉重心判断也被说成了确定事实。",
+    "context_failure": "将客户对价格和铺镶工艺的质疑转成审美偏好，没有正面提供可核实的专业信息。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 2,
+    "brand_voice": 2,
+    "naturalness": 2,
+    "effectiveness": 1
+   },
+   "sendability": "不可用",
+   "comment": "借已有手镯作关联，却凭空推断设计细节和客户偏好。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "擅称说明已经整理好，且含排钻与微爪工序图解；输入没有这些事实或工艺资料。",
+    "context_failure": "11 月 16 日的承诺距今是三天，不是前天；也没有回应客户对价格和工艺的具体质疑。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 2,
+    "naturalness": 2,
+    "effectiveness": 1
+   },
+   "sendability": "不可用",
+   "comment": "知道跟进既有承诺，但编造资料进度和工艺细节，归档措辞也生硬。"
+  }
+ ],
+ "set": {
+  "diversity": 4,
+  "risk_judgement": "偏松",
+  "best_index": 1,
+  "must_coverage": "1/2",
+  "summary": "三条都保持了基本的克制，但没有以已知专业事实回应客户的质疑；候选 1 最安全，却替客户作了决定。风险提醒未充分强调核实工艺及跟进既有承诺，候选 2、3 又引入了无依据的信息。"
+ },
+ "_judge": "openai:gpt-6.1-terra"
+}

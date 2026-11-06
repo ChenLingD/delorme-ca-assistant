@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 4,
+    "naturalness": 3,
+    "effectiveness": 3
+   },
+   "sendability": "直接可发",
+   "comment": "回应了两个问题和改圈服务，但大小差异说得偏笼统，“实际评估”等措辞也略显生硬。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "没有回答1克拉与1.5克拉实际看起来差别是否明显，只说观感受多种因素影响。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 4,
+    "naturalness": 3,
+    "effectiveness": 2
+   },
+   "sendability": "小改可发",
+   "comment": "提到了悬浮镶和改圈服务，但需要先正面回答客户关于大小差异的问题。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "对克拉大小的视觉差异仅表示会去确认资料，没有回答客户的问题。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 4,
+    "naturalness": 3,
+    "effectiveness": 2
+   },
+   "sendability": "小改可发",
+   "comment": "照顾到了求婚惊喜和改圈顾虑，但克拉问题被延后处理，称呼放在第二句也略不自然。"
+  }
+ ],
+ "set": {
+  "diversity": 2,
+  "risk_judgement": "偏紧",
+  "best_index": 1,
+  "must_coverage": "2/2",
+  "summary": "候选1覆盖了两个必需项，但对视觉差异的回答仍不够具体；另外两条都没有正面回答这一问题，三条方案也较相似。风险提醒整体有帮助，但“不能建议猜尺寸”说得过于绝对，手册并无此禁令。"
+ },
+ "_judge": "openai:gpt-6.1-terra"
+}

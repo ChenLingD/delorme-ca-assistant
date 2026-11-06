@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 1,
+    "brand_voice": 2,
+    "naturalness": 2,
+    "effectiveness": 2
+   },
+   "sendability": "小改可发",
+   "comment": "没有触及母亲信息，但后半句空泛生硬，也没有接住客户的心情或联系她喜欢的手镯。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 3,
+    "naturalness": 2,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "自然用到了试戴、柱式纹理和毕业礼物，但语句偏长，末句说教感较重。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "手册只确认免费刻字，未确认这款手镯可在内圈刻字；“终身保养”也比手册列明的免费清洗、抛光和检测范围更宽泛。",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 2,
+    "naturalness": 3,
+    "effectiveness": 2
+   },
+   "sendability": "小改可发",
+   "comment": "给了客户考虑空间，但替她判断时间充裕，又把服务范围说得过满。"
+  }
+ ],
+ "set": {
+  "diversity": 3,
+  "risk_judgement": "偏松",
+  "best_index": 2,
+  "must_coverage": "2/2",
+  "summary": "三条均未让价或讨论母亲账户，也没有确认或否认母亲是否为客户；候选 2 的作品细节和个人关联最好，但仍需精简。风险等级虽有提示隐私，但建议直接说明不打折，未遵循本场景绕开凭母亲身份打折这一问题的特殊策略；候选 3 另有服务表述过度的问题。"
+ },
+ "_judge": "openai:gpt-6.1-terra"
+}

@@ -1,0 +1,105 @@
+{
+  "case_id": "C18",
+  "scenario": "post_purchase",
+  "today": "2026-12-08",
+  "occasion": "购买后跟进：12 月 2 日购入的金珠吊坠是送女友的生日礼物（女友生日 12 月 5 日）",
+  "ca": {
+    "name": "邓子琪",
+    "gender": "女",
+    "years_experience": 3,
+    "store": "深圳万象城精品店",
+    "known_client_since": "2026-07",
+    "style": "适中"
+  },
+  "client": {
+    "surname": "韩",
+    "given_name": "亦舟",
+    "gender": "男",
+    "age_range": "30-35",
+    "city": "深圳",
+    "occupation": "服务机器人公司创始人",
+    "client_since": "2026-07",
+    "spend_band": "5-30万",
+    "stage": "入门",
+    "last_visit": "2026-12-02",
+    "last_purchase": "2026-12-02",
+    "wealth_source": "创业",
+    "motivations": [
+      "送礼"
+    ],
+    "social_visibility": "适中",
+    "price_sensitivity": "中",
+    "style_preference": "自己偏简洁；挑礼物会问 CA 意见",
+    "material_preference": "黄金",
+    "owned_pieces": [
+      {
+        "date": "2026-07",
+        "item": "工坊 18K 白金男士戒指",
+        "for_whom": "自戴"
+      },
+      {
+        "date": "2026-12-02",
+        "item": "沧海 南洋金珠吊坠",
+        "for_whom": "送给女友",
+        "note": "女友 12 月 5 日生日礼物，未刻字"
+      }
+    ],
+    "formality": "随意",
+    "reply_habit": "回复快，但多是短句；常在深夜回",
+    "recommendation_openness": "一般",
+    "preferred_contact_time": "晚上 9 点后",
+    "important_dates": [
+      "女友生日 12-05"
+    ],
+    "family_notes": "女友姓许，做室内设计，皮肤偏暖调（客户自述）",
+    "interests": [
+      "越野跑",
+      "机器人比赛"
+    ],
+    "notes": "12 月 2 日到店，十分钟内决定，说女友喜欢有来历的东西；CA 讲了吊扣复刻 1926 年手绘图稿的海浪纹，他说会讲给女友听。"
+  },
+  "conversation_history": [
+    {
+      "sender": "client",
+      "time": "2026-12-01 22:47",
+      "text": "明天下午三点左右过去，上次那个金珠吊坠帮我留一下"
+    },
+    {
+      "sender": "ca",
+      "time": "2026-12-01 22:55",
+      "text": "好的韩先生，给您留着，明天见。"
+    },
+    {
+      "sender": "client",
+      "time": "2026-12-02 15:40",
+      "text": "盒子能不能放张卡片，我自己写"
+    },
+    {
+      "sender": "ca",
+      "time": "2026-12-02 15:42",
+      "text": "可以的，我给您拿一张空白卡，您写好我帮您一起包进去。"
+    },
+    {
+      "sender": "client",
+      "time": "2026-12-02 16:05",
+      "text": "行 谢了"
+    }
+  ],
+  "product_skus": [
+    "MDC-P02"
+  ],
+  "ca_request": "女友生日过了几天，想问问她喜不喜欢，顺便提一句珍珠怎么保养。",
+  "test_meta": {
+    "persona": "P2",
+    "type": "core",
+    "must": [
+      "关心收礼人是否喜欢",
+      "可提珍珠保养一条",
+      "语气可随意些，贴合他的短句风格"
+    ],
+    "must_not": [
+      "推新品",
+      "长篇保养说明"
+    ]
+  }
+}

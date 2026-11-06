@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "轻微：未经确认就说“我正在帮您确认”，输入只说明 CA 想先回复，并未说明已开始确认。",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 2,
+    "brand_voice": 4,
+    "naturalness": 4,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "回复简洁、权限清楚；把“正在确认”改为“我先向公关确认一下”，再稍微回应客户想分享的热情会更好。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "轻微：“我已经在跟他们沟通了”没有依据，备注也未说明这是知情选择；沙龙光线是否适合拍摄亦无资料支持，“稍后给您准信”还作了未经确认的进度和结果承诺。",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 2,
+    "naturalness": 3,
+    "effectiveness": 2
+   },
+   "sendability": "小改可发",
+   "comment": "珍珠叠戴笔记切入贴合客户，但对镜头效果说得过满，确认进度和反馈承诺也需改为如实表述。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "轻微：直接转入日期、人数和设备询问，没有接住客户想拍摄分享的热情，略显流程化。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "报备和确认的边界清楚，但问题稍多；可先回应她的分享想法，再视公关需要补问细节。"
+  }
+ ],
+ "set": {
+  "diversity": 4,
+  "risk_judgement": "正确",
+  "best_index": 3,
+  "must_coverage": "3/3",
+  "summary": "三条均未直接答应拍摄，也都说明需要向公关确认；候选 2 有回应分享热情，但存在事实和承诺问题。主要问题是候选 1、2 擅称已在确认或沟通，而候选 3 虽事实稳妥，却偏流程化，需要补一点亲切回应。"
+ },
+ "_judge": "openai:gpt-6.1-terra"
+}

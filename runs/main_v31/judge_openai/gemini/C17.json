@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 4,
+    "naturalness": 4,
+    "effectiveness": 4
+   },
+   "sendability": "直接可发",
+   "comment": "金珠呼应她对珍珠和低调风格的偏好，香槟色细节也有依据；“日常相伴”略显修饰。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "严重：目录有白珠单串项链，但未说明是短链，也未说明佩戴时落在锁骨处。",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 3,
+    "naturalness": 2,
+    "effectiveness": 2
+   },
+   "sendability": "小改可发",
+   "comment": "心静与耳钉的切入贴合客户，但措辞偏抒情；须改为目录中的白珠单串，并删去未经证实的长度和佩戴位置。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "严重：目录中没有沧海白珠细手链，珠光、轻巧及拍摄上手图均缺乏对应作品依据。",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 1
+   },
+   "sendability": "不可用",
+   "comment": "发图的提议便于客户回应，但推荐的是目录外作品，需要更换作品并重写。"
+  }
+ ],
+ "set": {
+  "diversity": 3,
+  "risk_judgement": "正确",
+  "best_index": 1,
+  "must_coverage": "1/1",
+  "summary": "三条均围绕客户的珍珠及自然风格偏好，且未在客户消息中提及付款人；风险提醒也恰当。最主要的问题是候选 2 添加了无依据的佩戴细节，候选 3 则推荐了目录中不存在的作品。"
+ },
+ "_judge": "openai:gpt-6.1-terra"
+}

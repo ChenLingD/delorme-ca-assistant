@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "轻微：“11号戴着也合适”把实际佩戴效果说得过于确定，尚未试戴确认。",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 5,
+    "brand_voice": 4,
+    "naturalness": 4,
+    "effectiveness": 4
+   },
+   "sendability": "小改可发",
+   "comment": "结合纪念日、简洁喜好和白衬衫推荐一款戒指，理由清楚；删除对佩戴合适的断言即可。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "轻微：借“懂建筑的朋友都偏爱”作人群背书，不符合品牌以具体作品细节沟通的方式。",
+    "privacy_violation": "无",
+    "fabrication": "轻微：目录未说明系列灵感来自穹顶力学，也没有“懂建筑的朋友都偏爱”的依据。",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 2,
+    "naturalness": 2,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "刻字适合纪念日，但建筑灵感和人群偏好未经证实，建议改用目录中确有的穹顶弧线细节。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "轻微：无法确认Grace此刻在店，也无法确认店内有11号戒指可拍摄。",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 4
+   },
+   "sendability": "小改可发",
+   "comment": "推荐理由和发图提议都贴合需求，但应先确认现货及拍摄条件，并收敛“最对味”“绝配”的说法。"
+  }
+ ],
+ "set": {
+  "diversity": 2,
+  "risk_judgement": "偏松",
+  "best_index": 1,
+  "must_coverage": "2/2",
+  "summary": "三条都结合太太的喜好，只推荐了一件作品，但均选同一款戒指，切入差异有限。工具的“无风险”判断偏松：候选2编造产品故事和人群偏好，候选1、3也有待确认的断言。"
+ },
+ "_judge": "openai:gpt-6.1-terra"
+}

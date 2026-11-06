@@ -1,0 +1,364 @@
+{
+ "case_id": "C13",
+ "version": "v2",
+ "model": "openai:gpt-6.1-terra",
+ "risk": {
+  "level": "caution",
+  "flags": [
+   "求婚是惊喜，客户不方便直接询问女友戒圈",
+   "1.5 克拉的价格及是否符合预算尚未确认"
+  ],
+  "advice": "先回应大小差异和戒圈问题，注意保密；1.5 克拉的价格与对比资料先确认，不作预算内保证。"
+ },
+ "candidates": [
+  {
+   "text": "罗先生，大小和戒圈的问题，我确认后再告诉您。",
+   "strategy": "极简",
+   "note_for_ca": "适合先简短回应客户的问题"
+  },
+  {
+   "text": "罗先生，您想给女友留个惊喜，戒圈确实不方便直接问。我会核实两种大小的对比资料；购买后一年内可免费改圈一次，具体适用范围我也再确认。",
+   "strategy": "走心",
+   "note_for_ca": "适合先回应惊喜顾虑，再兼顾两个问题"
+  },
+  {
+   "text": "罗先生，关于您问的誓约单钻，我去确认一下1克拉和1.5克拉的对比图，以及1.5克拉的价格。确认后发您看看，可以吗？",
+   "strategy": "推进",
+   "note_for_ca": "侧重大小对比和价格，适合客户希望进一步了解时使用。"
+  }
+ ],
+ "checks": [
+  {
+   "pass": true,
+   "hard": [],
+   "soft": [],
+   "length": 22
+  },
+  {
+   "pass": true,
+   "hard": [],
+   "soft": [],
+   "length": 65
+  },
+  {
+   "pass": true,
+   "hard": [],
+   "soft": [],
+   "length": 57
+  }
+ ],
+ "trace": {
+  "rounds": [
+   {
+    "rule_checks": [
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 22
+     },
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 51
+     },
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 82
+     }
+    ],
+    "critic": {
+     "reviews": [
+      {
+       "index": 1,
+       "pass": true,
+       "issues": []
+      },
+      {
+       "index": 2,
+       "pass": true,
+       "issues": []
+      },
+      {
+       "index": 3,
+       "pass": true,
+       "issues": []
+      }
+     ],
+     "set_issues": [
+      {
+       "indices": [
+        1,
+        2
+       ],
+       "issue": "两条都以确认钻石大小和戒圈问题后告知客户收尾，意思较接近。极简版保留确认回复；走心版侧重理解客户想保密的顾虑，避免重复同样的收尾。"
+      },
+      {
+       "indices": [
+        2,
+        3
+       ],
+       "issue": "两条都提到戒圈问题需要再确认。走心版可侧重准备惊喜的心意；推进版保留对比图、价格核实和免费改圈服务，让用途更分明。"
+      }
+     ]
+    },
+    "set_issues": [
+     "两条都以确认钻石大小和戒圈问题后告知客户收尾，意思较接近。极简版保留确认回复；走心版侧重理解客户想保密的顾虑，避免重复同样的收尾。",
+     "两条都提到戒圈问题需要再确认。走心版可侧重准备惊喜的心意；推进版保留对比图、价格核实和免费改圈服务，让用途更分明。"
+    ],
+    "to_fix": {
+     "2": [
+      "与其他候选雷同：两条都以确认钻石大小和戒圈问题后告知客户收尾，意思较接近。极简版保留确认回复；走心版侧重理解客户想保密的顾虑，避免重复同样的收尾。"
+     ],
+     "3": [
+      "与其他候选雷同：两条都提到戒圈问题需要再确认。走心版可侧重准备惊喜的心意；推进版保留对比图、价格核实和免费改圈服务，让用途更分明。"
+     ]
+    }
+   },
+   {
+    "rule_checks": [
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 22
+     },
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 41
+     },
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 73
+     }
+    ],
+    "critic": {
+     "reviews": [
+      {
+       "index": 1,
+       "pass": true,
+       "issues": []
+      },
+      {
+       "index": 2,
+       "pass": false,
+       "issues": [
+        "只回应了想保密的心情，没有回应客户关于钻石大小和戒圈的两个问题。建议保留惊喜这一真实细节，并简要说明会确认大小对比；戒圈方面可提一年内免费改圈一次，具体适用范围再核实。"
+       ]
+      },
+      {
+       "index": 3,
+       "pass": true,
+       "issues": []
+      }
+     ],
+     "set_issues": []
+    },
+    "set_issues": [],
+    "to_fix": {
+     "2": [
+      "只回应了想保密的心情，没有回应客户关于钻石大小和戒圈的两个问题。建议保留惊喜这一真实细节，并简要说明会确认大小对比；戒圈方面可提一年内免费改圈一次，具体适用范围再核实。"
+     ]
+    }
+   },
+   {
+    "rule_checks": [
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 22
+     },
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 65
+     },
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 73
+     }
+    ],
+    "critic": {
+     "reviews": [
+      {
+       "index": 1,
+       "pass": true,
+       "issues": []
+      },
+      {
+       "index": 2,
+       "pass": true,
+       "issues": []
+      },
+      {
+       "index": 3,
+       "pass": true,
+       "issues": []
+      }
+     ],
+     "set_issues": [
+      {
+       "indices": [
+        2,
+        3
+       ],
+       "issue": "两条都围绕两种大小的对比，并重复提及一年内免费改圈，侧重点较接近。建议走心版侧重保密惊喜和戒圈顾虑；推进版侧重确认对比图及价格，让客户容易回应。"
+      }
+     ]
+    },
+    "set_issues": [
+     "两条都围绕两种大小的对比，并重复提及一年内免费改圈，侧重点较接近。建议走心版侧重保密惊喜和戒圈顾虑；推进版侧重确认对比图及价格，让客户容易回应。"
+    ],
+    "to_fix": {
+     "3": [
+      "与其他候选雷同：两条都围绕两种大小的对比，并重复提及一年内免费改圈，侧重点较接近。建议走心版侧重保密惊喜和戒圈顾虑；推进版侧重确认对比图及价格，让客户容易回应。"
+     ]
+    }
+   }
+  ],
+  "plan": {
+   "client_read": "罗先生做事细致，正在为女友筹备求婚，希望兼顾惊喜与预算。双方刚认识，他已看过誓约单钻，并主动就钻石大小和戒圈向刘佳请教。",
+   "risk": {
+    "level": "caution",
+    "flags": [
+     "求婚是惊喜，客户不方便直接询问女友戒圈",
+     "1.5 克拉的价格及是否符合预算尚未确认"
+    ],
+    "advice": "先回应大小差异和戒圈问题，注意保密；1.5 克拉的价格与对比资料先确认，不作预算内保证。"
+   },
+   "ca_commitments": [],
+   "usable_facts": [
+    "罗先生看过誓约单钻戒指，预算约 15 万元",
+    "他想了解 1 克拉和 1.5 克拉实际看起来的差别",
+    "他计划明年春天求婚，想给女友惊喜，不方便直接问戒圈",
+    "他习惯认真回复，问题问得很细"
+   ],
+   "do_not_mention": [
+    "客户的内部标签、财富来源及尚未购买等内部判断",
+    "未经确认的 1.5 克拉价格、库存或视觉对比细节",
+    "未经确认的戒圈测量方式、改圈范围或门店安排",
+    "向女友透露求婚计划或相关咨询"
+   ],
+   "products": [
+    "SER-R01"
+   ],
+   "slots": {
+    "极简": "先简短回应他提出的钻石大小和戒圈问题。",
+    "走心": "从他想给女友惊喜切入，让他感到这份心意和保密顾虑都被理解。",
+    "推进": "围绕誓约单钻，确认并提供 1 克拉与 1.5 克拉的对比资料及后者价格；说明购买后一年内可免费改圈一次，并就具体戒圈问题进一步确认。"
+   }
+  },
+  "first_draft": [
+   {
+    "text": "罗先生，大小和戒圈的问题，我确认后再告诉您。",
+    "strategy": "极简",
+    "note_for_ca": "适合先简短回应客户的问题"
+   },
+   {
+    "text": "罗先生，想给女友留个惊喜，又不方便问戒圈，我明白您的顾虑。钻石大小和戒圈怎么处理，我确认清楚再告诉您。",
+    "strategy": "走心",
+    "note_for_ca": "从想保密求婚、不方便问戒圈切入"
+   },
+   {
+    "text": "罗先生，关于誓约单钻，我先确认有没有1克拉和1.5克拉的对比图，也核实一下1.5克拉的价格，再告诉您，可以吗？购买后一年内可免费改圈一次，具体戒圈问题我也会再确认。",
+    "strategy": "推进",
+    "note_for_ca": "适合跟进尺寸对比与戒圈问题"
+   }
+  ],
+  "seconds": 74.9,
+  "diversity_max_sim": 0.03389830508474576,
+  "calls": [
+   {
+    "requested": "gpt-6.1-terra",
+    "served": "gpt-6.1-terra",
+    "seconds": 13.9,
+    "attempt": 1,
+    "in_tokens": 5455,
+    "out_tokens": 856,
+    "reasoning_tokens": 380,
+    "fingerprint": null
+   },
+   {
+    "requested": "gpt-6.1-terra",
+    "served": "gpt-6.1-terra",
+    "seconds": 9.7,
+    "attempt": 1,
+    "in_tokens": 4931,
+    "out_tokens": 559,
+    "reasoning_tokens": 313,
+    "fingerprint": null
+   },
+   {
+    "requested": "gpt-6.1-terra",
+    "served": "gpt-6.1-terra",
+    "seconds": 10.7,
+    "attempt": 1,
+    "in_tokens": 4718,
+    "out_tokens": 679,
+    "reasoning_tokens": 457,
+    "fingerprint": null
+   },
+   {
+    "requested": "gpt-6.1-terra",
+    "served": "gpt-6.1-terra",
+    "seconds": 5.9,
+    "attempt": 1,
+    "in_tokens": 5359,
+    "out_tokens": 362,
+    "reasoning_tokens": 200,
+    "fingerprint": null
+   },
+   {
+    "requested": "gpt-6.1-terra",
+    "served": "gpt-6.1-terra",
+    "seconds": 8.8,
+    "attempt": 1,
+    "in_tokens": 4709,
+    "out_tokens": 482,
+    "reasoning_tokens": 364,
+    "fingerprint": null
+   },
+   {
+    "requested": "gpt-6.1-terra",
+    "served": "gpt-6.1-terra",
+    "seconds": 3.6,
+    "attempt": 1,
+    "in_tokens": 5195,
+    "out_tokens": 209,
+    "reasoning_tokens": 109,
+    "fingerprint": null
+   },
+   {
+    "requested": "gpt-6.1-terra",
+    "served": "gpt-6.1-terra",
+    "seconds": 18.3,
+    "attempt": 1,
+    "in_tokens": 4725,
+    "out_tokens": 1017,
+    "reasoning_tokens": 854,
+    "fingerprint": null
+   },
+   {
+    "requested": "gpt-6.1-terra",
+    "served": "gpt-6.1-terra",
+    "seconds": 3.9,
+    "attempt": 1,
+    "in_tokens": 5225,
+    "out_tokens": 185,
+    "reasoning_tokens": 88,
+    "fingerprint": null
+   }
+  ]
+ }
+}

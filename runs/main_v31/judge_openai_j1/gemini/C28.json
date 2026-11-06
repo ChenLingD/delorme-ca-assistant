@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 4,
+    "naturalness": 4,
+    "effectiveness": 4
+   },
+   "sendability": "直接可发",
+   "comment": "先介绍接手关系，再承认并致歉，简短得体；“负责为您对接”稍显正式。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "在回应未解决的投诉前先谈袖扣，将作品置于客户的不愉快体验之前。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 2,
+    "naturalness": 2,
+    "effectiveness": 2
+   },
+   "sendability": "小改可发",
+   "comment": "袖扣信息虽真实，却与此次联系无关；删去作品评价，先为上次接待致歉更合适。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "“绝不再耽误您的时间”作了不现实的绝对保证；“正式致歉并重新建联”也偏公文化。",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 2,
+    "naturalness": 2,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "接手介绍和致歉都到位，但提及查看记录、使用内部话术及绝对保证，让消息显得生硬。"
+  }
+ ],
+ "set": {
+  "diversity": 2,
+  "risk_judgement": "正确",
+  "best_index": 1,
+  "must_coverage": "2/2",
+  "summary": "风险判断抓住了未解决投诉和新 CA 接手的重点，候选 1 最适合直接发送，完成了自我介绍及先回应投诉两项要求。三条都围绕致歉展开，差异有限；候选 2 的作品铺垫和候选 3 的生硬保证反而削弱了诚意。"
+ },
+ "_judge": "openai:gpt-6.1-terra"
+}

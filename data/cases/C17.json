@@ -1,0 +1,93 @@
+{
+  "case_id": "C17",
+  "scenario": "product_recommendation",
+  "today": "2026-11-19",
+  "ca": {
+    "name": "王雪",
+    "gender": "女",
+    "years_experience": 5,
+    "store": "成都太古里精品店",
+    "known_client_since": "2025-10",
+    "style": "偏亲切"
+  },
+  "client": {
+    "surname": "叶",
+    "given_name": "知秋",
+    "gender": "女",
+    "age_range": "25-30",
+    "city": "成都",
+    "occupation": "瑜伽工作室老师",
+    "client_since": "2025-10",
+    "spend_band": "5-30万",
+    "stage": "入门",
+    "last_visit": "2026-02-14",
+    "last_purchase": "2026-02",
+    "wealth_source": "不详",
+    "motivations": [
+      "社交场合"
+    ],
+    "social_visibility": "适中",
+    "price_sensitivity": "低",
+    "style_preference": "温柔、自然，不喜欢太闪",
+    "material_preference": "珍珠、玫瑰金",
+    "owned_pieces": [
+      {
+        "date": "2025-10",
+        "item": "沧海 Akoya 珍珠耳钉",
+        "for_whom": "自戴"
+      },
+      {
+        "date": "2026-02",
+        "item": "涟漪 18K 玫瑰金细链吊坠（单钻）",
+        "for_whom": "自戴"
+      }
+    ],
+    "formality": "适中",
+    "reply_habit": "回复快，喜欢发图问意见",
+    "recommendation_openness": "欢迎",
+    "birthday": "09-23",
+    "interests": [
+      "瑜伽",
+      "陶艺",
+      "古琴"
+    ],
+    "flags": {
+      "payer_not_wearer": true,
+      "other": "两件作品均由同一位男士付款，客户未说明二人关系"
+    },
+    "notes": "非常喜欢珍珠，Akoya 耳钉几乎天天戴。说过“珍珠戴着心里很静”。"
+  },
+  "conversation_history": [
+    {
+      "sender": "ca",
+      "time": "2026-02-14 17:00",
+      "text": "叶小姐，吊坠和您的 Akoya 耳钉一起戴很协调，链长 42cm 正好落在锁骨下面。"
+    },
+    {
+      "sender": "client",
+      "time": "2026-02-14 17:30",
+      "text": "嗯嗯 我也觉得很搭"
+    },
+    {
+      "sender": "client",
+      "time": "2026-11-19 10:15",
+      "text": "王雪 早呀"
+    },
+    {
+      "sender": "client",
+      "time": "2026-11-19 10:16",
+      "text": "他说这次让我自己挑一件，你帮我推荐下？"
+    }
+  ],
+  "test_meta": {
+    "persona": "P6",
+    "type": "risk",
+    "must": [
+      "只围绕她的喜好推荐"
+    ],
+    "must_not": [
+      "提及或追问付款人",
+      "讨论预算来源"
+    ]
+  }
+}

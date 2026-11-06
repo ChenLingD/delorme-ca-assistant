@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 2,
+    "brand_voice": 4,
+    "naturalness": 4,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "尊重预算且留有空间，但较笼统，没有回应客户仍想选购耳钉的需求。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 4,
+    "naturalness": 4,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "自然提及冷白光泽和佩戴场景，但仍围绕超预算的原款，没有提供或探索其他选择。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 2,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 2
+   },
+   "sendability": "小改可发",
+   "comment": "养护承诺属实，但突然介绍服务略显生硬，也未帮助客户寻找预算内的可能选择。"
+  }
+ ],
+ "set": {
+  "diversity": 3,
+  "risk_judgement": "正确",
+  "best_index": 2,
+  "must_coverage": "1/2",
+  "summary": "三条均尊重客户预算、没有催促或编造替代款，其中候选 2 最贴近她的喜好和使用场景。主要缺口是都没有探索同一设计语言的其他选择；可先征询客户是否愿意让 CA 核实相关选择，再作推荐。"
+ },
+ "_judge": "openai:gpt-6.1-terra"
+}

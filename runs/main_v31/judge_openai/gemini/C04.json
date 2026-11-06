@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 1,
+    "brand_voice": 4,
+    "naturalness": 3,
+    "effectiveness": 3
+   },
+   "sendability": "直接可发",
+   "comment": "简短稳妥，没有营销内容，但祝福稍显套话，缺少这位客户的个人细节。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "轻微：未经确认便说客户年尾手头的工作已忙完。",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "升职纪念吊坠的切入有依据，也没有推新；去掉对工作状态的猜测，并精简措辞会更自然。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "轻微：“手头总算可以稍微松口气”预设了未经确认的工作状态。",
+    "context_failure": "轻微：久未联系便连续询问工作和出行计划，让单纯的节日祝福带上了开启对话的压力。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 2,
+    "naturalness": 2,
+    "effectiveness": 2
+   },
+   "sendability": "小改可发",
+   "comment": "柯基和徒步有档案依据，但工作状态的猜测与追问假期计划都不够贴合祝福目的。"
+  }
+ ],
+ "set": {
+  "diversity": 4,
+  "risk_judgement": "偏松",
+  "best_index": 1,
+  "must_coverage": "2/2",
+  "summary": "三条没有借节日推销，且分别尝试了简洁祝福、吊坠回忆和宠物话题，候选1最稳妥。主要问题是候选2和3都对客户的年末工作状态作了未经确认的预设，候选3还把祝福变成了追问计划。"
+ },
+ "_judge": "openai:gpt-6.1-terra"
+}

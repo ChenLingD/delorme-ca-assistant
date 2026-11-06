@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无（但“您不用特意做什么”有隐患：客户本来就在追问怎样才能拿到，这句话会让她猜“那是不是做点什么就有机会”，等于给门槛话题留了缝）",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 2,
+    "brand_voice": 3,
+    "naturalness": 4,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "坦诚、简短，没有承诺也没有拒绝，但开头偏冷，没有接住她的喜欢，也没有把话题带回工艺，“不用特意做什么”这句建议删掉。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "轻微：“也因为这样，到货时间我确实没办法给您承诺”把无法承诺归因于一位工匠做的工时，输入只说它是配额作品，原因不符。",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 4,
+    "naturalness": 3,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "工艺细节具体（120 工时、工匠记号），留白也得体，但没有称呼、没有先回应她的喜欢，“也因为这样”这个因果要改掉。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 4,
+    "naturalness": 4,
+    "effectiveness": 4
+   },
+   "sendability": "直接可发",
+   "comment": "先接住她的喜欢，再坦白说无法承诺，登记心愿，用工匠记号带回工艺，并给出发图的退路，语气轻松直接，与她的风格相符。“路过万象城”的邀请很轻，不算催促。"
+  }
+ ],
+ "set": {
+  "diversity": 3,
+  "risk_judgement": "正确",
+  "best_index": 3,
+  "must_coverage": "2/3",
+  "summary": "三条都守住了红线：没有承诺到货时间，没有提门槛或价格，也没有拒绝客户，并且都提到登记心愿；其中候选 3 最自然完整。主要问题是都没有把她引向其他系列的工艺语言，这条 must 缺失（候选 2、3 只讲了这只手镯本身的工艺），三条的结构也太接近。"
+ },
+ "_judge": "anthropic:claude-sonnet-5-5"
+}

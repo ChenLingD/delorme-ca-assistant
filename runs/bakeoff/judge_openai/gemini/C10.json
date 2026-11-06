@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "“工坊没有固定现货”缺少依据；已知信息仅说明无法预订到货时间。",
+    "context_failure": "未回答客户明确询问的价格。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 2,
+    "naturalness": 3,
+    "effectiveness": 2
+   },
+   "sendability": "小改可发",
+   "comment": "“压得住场”呼应聚会场合，但应去掉未经证实的库存说法，补充价格并自然引导了解其他系列工艺。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "未回答价格；“急不来”也没有明确说明无法确定到货时间。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 2,
+    "brand_voice": 3,
+    "naturalness": 4,
+    "effectiveness": 2
+   },
+   "sendability": "小改可发",
+   "comment": "简短且工时有据，但“急不来”略显生硬，需要补充价格、明确时间无法确定，并引导了解其他系列工艺。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "“纯手工打磨”未获产品信息证实；邀请试戴并确认手寸，暗含门店有可试戴作品，但输入未证实。",
+    "context_failure": "未回答客户明确询问的价格。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 2,
+    "brand_voice": 2,
+    "naturalness": 3,
+    "effectiveness": 2
+   },
+   "sendability": "小改可发",
+   "comment": "登记心愿和时间口径得当，但夸赞较空泛，试戴条件未经确认，也遗漏了价格和其他系列的工艺引导。"
+  }
+ ],
+ "set": {
+  "diversity": 2,
+  "risk_judgement": "正确",
+  "best_index": 2,
+  "must_coverage": "2/3",
+  "summary": "三条均未拒绝客户或承诺到货时间，也提出登记心愿，但都没有引导了解其他系列工艺。最主要的问题是三条都漏答了客户明确询问的价格，部分候选还加入了未经证实的库存或试戴信息。"
+ },
+ "_judge": "openai:gpt-6.1-terra"
+}

@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "提及整理养护档案及购入后未串线的记录，不符合“记得，但不炫耀记得”的原则。",
+    "privacy_violation": "透露了对客户项链养护情况的内部记录。",
+    "fabrication": "“整理养护档案时留意到”是未经提供信息支持的联系经过。",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 2,
+    "naturalness": 2,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "服务理由具体，但应删去整理档案和未串线记录的说法，直接介绍建议周期即可。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "提及客户常戴项链参加家族聚会，过于突出对私人习惯的掌握，不够含蓄。",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 4
+   },
+   "sendability": "小改可发",
+   "comment": "立冬问候和串线服务结合自然，但建议删去家族聚会细节及假设的岁末场合。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "要求客户在下周平时或周末之间作选择，有催促和追问意味，不符合留白原则。",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "客户回复少且已长期未联系，限定下周到店不符合低压力唤醒的目标。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 2,
+    "naturalness": 3,
+    "effectiveness": 2
+   },
+   "sendability": "小改可发",
+   "comment": "免费串线是合适的服务理由，但应去掉下周二选一的到店追问。"
+  }
+ ],
+ "set": {
+  "diversity": 2,
+  "risk_judgement": "正确",
+  "best_index": 2,
+  "must_coverage": "2/2",
+  "summary": "三条均简短地以串线服务联系客户，没有推产品或制造断线焦虑，但切入角度较为接近。主要问题是档案感、私人习惯细节或到店催促；候选2相对温和，删去家族聚会和岁末场合后更合适。"
+ },
+ "_judge": "openai:gpt-6.1-terra"
+}

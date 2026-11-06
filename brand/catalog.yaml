@@ -1,0 +1,174 @@
+# Maison Delorme 德洛姆 — 产品、活动、门店（全部虚构）
+# 价格为中国大陆零售价（人民币，含税）
+
+collections:
+  ondine:
+    name: 涟漪 Ondine
+    tier: 入门
+    story: 灵感来自塞纳河面被风吹起的细纹。18K 金细链与小面积镶钻，日常可戴。
+  mer_de_chine:
+    name: 沧海 Mer de Chine
+    tier: 入门-核心
+    story: 源自 1920 年代 Henri Delorme 在上海采购南洋珍珠的手绘图稿。2026 年为这段渊源一百周年。
+  coupole:
+    name: 穹顶 Coupole
+    tier: 核心
+    story: 以巴黎穹顶的弧线与旺多姆广场的柱式为灵感，几何感强，18K 金与钻石。
+  serment:
+    name: 誓约 Serment
+    tier: 核心
+    story: 婚嫁系列。标志是“看不见的镶爪”，主石仿佛悬浮。可在内圈刻字。
+  atelier:
+    name: 工坊 Atelier
+    tier: 入门-核心
+    story: 男士系列，袖扣、领针与戒指，取材于工坊工具的形状。
+  etoile:
+    name: 晨星 Étoile
+    tier: 晨星资格（配额）
+    story: 品牌标志作品。每一只由同一位工匠完成，约 120 工时，内圈刻有工匠记号。巴黎工坊按年度排期，数量极少。
+  nuits_vendome:
+    name: 旺多姆之夜 Nuits Vendôme
+    tier: 高级珠宝（私人预约）
+    story: 高级珠宝独一件，仅在私人预约时展示。
+
+products:
+  - sku: OND-P01
+    collection: ondine
+    name: 涟漪 18K 玫瑰金细链吊坠（单钻）
+    price: 18800
+    details: 0.05 克拉单钻，链长 42cm 可调至 40cm。适合每天佩戴，可与其他项链叠戴。
+    craft: 链扣为手工焊接，链身可在 40 / 42cm 两档调节；单钻为四爪镶，日常佩戴不易勾衣物
+  - sku: OND-E02
+    collection: ondine
+    name: 涟漪 18K 黄金耳钉
+    price: 22500
+    details: 波纹形耳钉，轻巧，适合通勤。
+  - sku: OND-B03
+    collection: ondine
+    name: 涟漪 18K 白金手链（三钻）
+    price: 36800
+    details: 三颗小钻沿波纹排列，链身柔软贴腕。
+    craft: 三颗小钻为包边镶，边缘圆润，适合日常和戴表的手腕
+  - sku: MDC-E01
+    collection: mer_de_chine
+    name: 沧海 Akoya 珍珠耳钉
+    price: 26000
+    details: 8–8.5mm 日本 Akoya 白珠，珠层厚，光泽偏冷白，18K 白金托。
+    craft: 每对耳钉在巴黎工坊配对挑选，两颗珠子的光泽与大小经人工比对；珠层厚度不少于 0.35mm
+  - sku: MDC-P02
+    collection: mer_de_chine
+    name: 沧海 南洋金珠吊坠
+    price: 58000
+    details: 12mm 南洋金珠，自然光下偏香槟色；吊扣复刻 1926 年手绘图稿的海浪纹。
+    craft: 金珠为天然色南洋金珠，未经染色；吊扣图样取自 1926 年 Henri Delorme 的手绘海浪纹，由工坊手工雕刻
+  - sku: MDC-N03
+    collection: mer_de_chine
+    name: 沧海 南洋白珠单串项链
+    price: 168000
+    details: 11–13.5mm 渐变南洋白珠，手工打结串制；扣头可拆作胸针。
+    craft: 每颗珍珠之间手工打结，断线时不会散落；建议每 1–2 年重新串线（品牌终身免费）
+  - sku: MDC-N04
+    collection: mer_de_chine
+    name: 沧海·百年 金珠双串项链（周年限定编号款）
+    price: 380000
+    details: 2026 百年纪念编号款，全球编号 100 件；金珠渐变 11–14mm，扣头刻编号。
+  - sku: COU-R01
+    collection: coupole
+    name: 穹顶 18K 黄金戒指
+    price: 58000
+    details: 穹顶弧线戒身，素金，可内圈刻字。
+    craft: 素金戒身为手工抛光，日常佩戴出现细小划痕属正常，可到店免费抛光恢复
+  - sku: COU-R02
+    collection: coupole
+    name: 穹顶 18K 白金满钻戒指
+    price: 168000
+    details: 戒身铺镶 1.2 克拉小钻。
+    craft: 戒身铺镶 1.2 克拉小钻，沿穹顶弧线排列；弧线与穹顶系列手镯同源，适合叠戴；约 40 工时
+  - sku: COU-B03
+    collection: coupole
+    name: 穹顶 18K 玫瑰金手镯
+    price: 128000
+    details: 开口式手镯，侧面柱式纹理，可与晨星叠戴。
+    craft: 开口式设计，可微调松紧；侧面柱式纹理为手工錾刻
+  - sku: COU-W04
+    collection: coupole
+    name: 穹顶 小号腕表款手镯
+    price: 92000
+    details: 无表盘的“手表形状”手镯，适合不戴表的人。
+  - sku: SER-R01
+    collection: serment
+    name: 誓约 铂金单钻戒指（1 克拉起）
+    price: 128000
+    details: 1 克拉 D–F 色 VS 以上，悬浮镶，主石可定制 0.5–3 克拉（0.5 克拉起 ¥45,000）。
+    craft: 主石由“看不见的镶爪”托起，从侧面几乎看不到金属；购买后一年内免费改圈一次
+  - sku: SER-B02
+    collection: serment
+    name: 誓约 铂金对戒
+    price: 39000
+    details: 一对，素圈，可内圈刻字。
+  - sku: ATE-C01
+    collection: atelier
+    name: 工坊 18K 黄金袖扣
+    price: 32000
+    details: 取材于工坊錾刀的形状，袖扣背面刻工坊记号。
+  - sku: ATE-R02
+    collection: atelier
+    name: 工坊 18K 白金男士戒指
+    price: 46000
+    details: 磨砂面与亮面拼接，适合日常。
+  - sku: ETO-B01
+    collection: etoile
+    name: 晨星 18K 黄金镶钻手镯
+    price: 328000
+    details: 约 120 工时，由同一位工匠完成；内圈刻工匠记号。配额作品，无法预订到货时间。
+    craft: 约 120 工时，由同一位工匠从起版到镶嵌完成，内圈刻工匠记号
+  - sku: ETO-N02
+    collection: etoile
+    name: 晨星 18K 白金镶钻项链
+    price: 486000
+    details: 配额作品。
+  - sku: NVD-001
+    collection: nuits_vendome
+    name: 旺多姆之夜 蓝宝石项链（独一件）
+    price: 6800000
+    details: 斯里兰卡皇家蓝蓝宝石 18.6 克拉，仅私人预约展示。
+
+stores:
+  - id: SH-PL
+    name: 上海恒隆广场精品店
+  - id: SH-BD
+    name: 上海外滩源旗舰店（含沙龙与私享厅）
+  - id: BJ-SKP
+    name: 北京 SKP 精品店
+  - id: CD-TGL
+    name: 成都太古里精品店
+  - id: SZ-MX
+    name: 深圳万象城精品店
+  - id: HZ-TC
+    name: 杭州大厦精品店
+
+events:
+  - id: EVT-2611-SH
+    name: 沧海·百年 珍珠特展 私享预览
+    date: 2026-11-20 至 2026-11-22（正式开展 11-23）
+    place: 上海外滩源旗舰店三楼沙龙
+    content: 首次公开 Henri Delorme 1920 年代上海珍珠手绘图稿原件；巴黎工坊珍珠串线师现场演示；可试戴“沧海·百年”编号款。每场 8 位客人，含下午茶。
+  - id: EVT-2612-BJ
+    name: 旺多姆之夜 高级珠宝私人鉴赏
+    date: 2026-12-12 至 2026-12-13
+    place: 北京 SKP 精品店私享厅
+    content: 高级珠宝独一件私人鉴赏，每场 2–4 位客人，提前一周确认。
+  - id: EVT-2612-CD
+    name: 工坊开放日：镶嵌师的一天
+    date: 2026-12-05
+    place: 成都太古里精品店
+    content: 巴黎工坊镶嵌师现场演示“看不见的镶爪”，客人可在放大镜下观看；可携带家人。
+  - id: EVT-2701-ALL
+    name: 新春私宴
+    date: 2027-01-23（各店分别举行）
+    place: 各精品店
+    content: 春节前小型私宴，可现场预约刻字新春礼物。
+
+gifting_policy: >
+  生日当月到店的客人，门店会准备一份小礼物（手写卡片 + 巴黎工坊香氛蜡烛），与是否购买无关。
+  品牌不以赠品作为价格让步。

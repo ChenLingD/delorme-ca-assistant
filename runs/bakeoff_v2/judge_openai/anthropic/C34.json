@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 4,
+    "naturalness": 4,
+    "effectiveness": 2
+   },
+   "sendability": "小改可发",
+   "comment": "自然呼应了看老图稿的心愿，但没有说明是什么活动，也未关联她的珍珠收藏。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 4,
+    "naturalness": 4,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "准确接续了九月的对话，也照顾到她不喜人多，但还需关联珍珠收藏并补充活动时间、地点。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "未呼应客户想看老图稿的明确心愿，也未提及此前答应有消息时告知。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 2,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 2
+   },
+   "sendability": "小改可发",
+   "comment": "活动信息准确且考虑了人少的时段，但像通用通知，结尾催选日期也稍显生硬。"
+  }
+ ],
+ "set": {
+  "diversity": 4,
+  "risk_judgement": "偏松",
+  "best_index": 2,
+  "must_coverage": "2/3",
+  "summary": "三条均未触犯明确禁忌，候选 2 最好地呼应了客户看老图稿的心愿。整体仍未将邀约与她的珍珠收藏明确关联，候选 3 也遗漏了与已有对话的关键连接。"
+ },
+ "_judge": "openai:gpt-6.1-terra"
+}

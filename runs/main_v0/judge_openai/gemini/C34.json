@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "轻微：“来到外滩源了”暗示图稿已经到达，活动资料未确认；备注推荐首日上午或较早午后避开高峰，也缺少场次和客流依据。",
+    "context_failure": "无",
+    "must_not_hit": "轻微：有上述未获证实的图稿到达及场次客流信息。"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 4,
+    "naturalness": 4,
+    "effectiveness": 4
+   },
+   "sendability": "小改可发",
+   "comment": "呼应了她想看图稿的心愿，也照顾了安静偏好；改成预览时可看原件，补充每场8位，并自然联系她的金珠吊坠会更完整。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "严重：“外公 Henri 先生”没有依据，容易被理解为与客户有亲属关系；备注中的沉静氛围和习惯茶饮也未经确认。",
+    "context_failure": "轻微：没有呼应客户此前明确提出想看老图稿的心愿，也未联系她的珍珠收藏。",
+    "must_not_hit": "严重：编造了 Henri 是“外公”的说法。"
+   },
+   "scores": {
+    "personalization": 2,
+    "brand_voice": 2,
+    "naturalness": 2,
+    "effectiveness": 2
+   },
+   "sendability": "不可用",
+   "comment": "“外公”称谓突兀且可能冒犯，还缺少地点、人数和客户的个人连接，需要重写。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "轻微：承诺挑选“客流最少的上午时段”，超出了可确认的安排。",
+    "privacy_violation": "无",
+    "fabrication": "轻微：活动资料未提供上午场次或客流预测；“随时来”也可能让人误以为不受预览场次限制。",
+    "context_failure": "轻微：提到老图稿但未明确呼应客户9月的请求，也没有联系她的珍珠收藏。",
+    "must_not_hit": "轻微：预设了有上午场次且能确定客流最少时段。"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 2
+   },
+   "sendability": "小改可发",
+   "comment": "篇幅简洁，但应写明特展名称和三楼地点，将最少客流改为先确认较安静的时段，并补上收藏与心愿的联系。"
+  }
+ ],
+ "set": {
+  "diversity": 2,
+  "risk_judgement": "偏松",
+  "best_index": 1,
+  "must_coverage": "1/3",
+  "summary": "候选1最贴近客户此前的心愿，但三条都未联系她已有的珍珠收藏，且各有未经确认的信息，不能直接发送。三条均以图稿和安静场次为主，差异有限；尤其候选2的“外公”称谓是明显风险，工具判定“无风险”偏松。"
+ },
+ "_judge": "openai:gpt-6.1-terra"
+}

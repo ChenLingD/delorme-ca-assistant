@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "轻微：“工坊出件很慢”及以工时解释无法确定到货时间，缺少依据。",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "回应了客户想要晨星及到货时间的问题，也登记了心愿，但解释略满，未引导了解其他系列。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "轻微：“每只都不太一样”缺少依据；“从头到尾……手工打磨”也比目录所述的单一工匠完成更具体。",
+    "context_failure": "轻微：客户直接问何时能拿到，只说“需要等一等”，没有明确说明无法确定到货时间。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 2
+   },
+   "sendability": "小改可发",
+   "comment": "有工匠记号这一具体细节，但夸朋友眼光略显多余，也没有引导了解其他系列。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "轻微：“完全由单人工匠手工打磨”中的具体打磨工序没有目录依据。",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 4,
+    "naturalness": 4,
+    "effectiveness": 4
+   },
+   "sendability": "小改可发",
+   "comment": "先回应晨星心愿和时间问题，再结合醒目偏好引向穹顶，建议改正工艺表述并选定一件具体作品。"
+  }
+ ],
+ "set": {
+  "diversity": 3,
+  "risk_judgement": "正确",
+  "best_index": 3,
+  "must_coverage": "3/3",
+  "summary": "三条均未触及配额门槛或承诺到货时间，候选 3 还引导客户了解其他系列，但工艺介绍较笼统。主要问题是部分工艺或出件速度表述缺少依据，发送前应修正。"
+ },
+ "_judge": "openai:gpt-6.1-terra"
+}

@@ -1,0 +1,340 @@
+{
+ "case_id": "C09",
+ "version": "v3.1",
+ "model": "gemini:gemini-3.8-flash",
+ "risk": {
+  "level": "caution",
+  "flags": [
+   "客户不喜欢被推销，直接发产品图通常不回",
+   "回复频率低，只有合心意的内容才会回应"
+  ],
+  "advice": "避免任何销售腔调与催促，将作品作为 7 月聊到的上海珍珠渊源百年落地的历史成果与艺术品来分享，切入其个人情怀。"
+ },
+ "candidates": [
+  {
+   "text": "苏女士，工坊为纪念 Henri 先生 1926 年上海渊源制作的沧海双串金珠编号款到了。想起您之前聊起过这段因缘，便先告知您一声。",
+   "strategy": "极简",
+   "note_for_ca": "删去限量件数与说教痕迹，克制通报作品落地，适合试探意向。"
+  },
+  {
+   "text": "苏女士，上次和您聊起 Henri 先生当年在上海采购珍珠的往事，百年之际工坊依着当年的因缘做了一款金珠双串。从 11 到 14 毫米的渐变配得很沉静，扣头上刻了独立编号，很有老作品的味道。",
+   "strategy": "走心",
+   "note_for_ca": "承接7月聊过的上海珍珠渊源，重点描述金珠渐变与扣头刻号。"
+  },
+  {
+   "text": "苏女士，工坊刚送到了沧海百年的金珠双串纪念款，全球编号一百件。依照当年的手绘意境配了渐变珠串，您若有兴致，我先发几张细节图和图录资料给您看看？",
+   "strategy": "推进",
+   "note_for_ca": "不虚构展览进展，以提供图录细节为切入给出轻度回应空间。"
+  }
+ ],
+ "checks": [
+  {
+   "pass": true,
+   "hard": [],
+   "soft": [],
+   "length": 61
+  },
+  {
+   "pass": true,
+   "hard": [],
+   "soft": [],
+   "length": 88
+  },
+  {
+   "pass": true,
+   "hard": [],
+   "soft": [],
+   "length": 71
+  }
+ ],
+ "trace": {
+  "rounds": [
+   {
+    "rule_checks": [
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 65
+     },
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 88
+     },
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 65
+     }
+    ],
+    "critic": {
+     "reviews": [
+      {
+       "index": 1,
+       "pass": false,
+       "issues": [
+        "提及“全球共 100 件”触犯了品牌手册关于“不制造稀缺或紧迫感”的红线，容易给客户带来限量催促的营销感；建议删去限定件数，专注于作品本身的工艺与背景。",
+        "“知道您对这段历史有心”违背了“记得，但不炫耀记得”的原则，属于直接点破、宣布自己了解客户偏好；建议将历史渊源自然体现在作品描述中，不评价客户的心思。"
+       ]
+      },
+      {
+       "index": 2,
+       "pass": true,
+       "issues": []
+      },
+      {
+       "index": 3,
+       "pass": false,
+       "issues": [
+        "编造事实：资料与聊天记录中均未提及“巴黎那边整理了一份这件作品的图文资料与当年图稿的对照”，违反了“只用确知信息、不编造外部事实”的硬性规定。",
+        "忽略客户习惯：CA 手记明确记录苏女士“不喜欢被推销，发产品图她通常不回”，直接推进询问“发给您看看”容易招致反感；推进建议结合 7 月答应跟进的明年图稿原件展讯，或以更低压力的交流切入。"
+       ]
+      }
+     ],
+     "set_issues": []
+    },
+    "set_issues": [],
+    "to_fix": {
+     "1": [
+      "提及“全球共 100 件”触犯了品牌手册关于“不制造稀缺或紧迫感”的红线，容易给客户带来限量催促的营销感；建议删去限定件数，专注于作品本身的工艺与背景。",
+      "“知道您对这段历史有心”违背了“记得，但不炫耀记得”的原则，属于直接点破、宣布自己了解客户偏好；建议将历史渊源自然体现在作品描述中，不评价客户的心思。"
+     ],
+     "3": [
+      "编造事实：资料与聊天记录中均未提及“巴黎那边整理了一份这件作品的图文资料与当年图稿的对照”，违反了“只用确知信息、不编造外部事实”的硬性规定。",
+      "忽略客户习惯：CA 手记明确记录苏女士“不喜欢被推销，发产品图她通常不回”，直接推进询问“发给您看看”容易招致反感；推进建议结合 7 月答应跟进的明年图稿原件展讯，或以更低压力的交流切入。"
+     ]
+    }
+   },
+   {
+    "rule_checks": [
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 61
+     },
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 88
+     },
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 78
+     }
+    ],
+    "critic": {
+     "reviews": [
+      {
+       "index": 1,
+       "pass": true,
+       "issues": []
+      },
+      {
+       "index": 2,
+       "pass": true,
+       "issues": []
+      },
+      {
+       "index": 3,
+       "pass": false,
+       "issues": [
+        "编造事实：输入资料和 CA 要求中并未提及 Henri 先生手绘图稿来华展览已有‘最新进展’。虽然 7 月聊天中提到过明年会有展览，但在工坊未实际给出确切信息时，不能虚构‘工坊有了最新进展’作为推进由头。建议落实到产品推荐的合规推进动作上，例如询问是否方便先发几张图稿与实物细节给苏女士过目。"
+       ]
+      }
+     ],
+     "set_issues": []
+    },
+    "set_issues": [],
+    "to_fix": {
+     "3": [
+      "编造事实：输入资料和 CA 要求中并未提及 Henri 先生手绘图稿来华展览已有‘最新进展’。虽然 7 月聊天中提到过明年会有展览，但在工坊未实际给出确切信息时，不能虚构‘工坊有了最新进展’作为推进由头。建议落实到产品推荐的合规推进动作上，例如询问是否方便先发几张图稿与实物细节给苏女士过目。"
+     ]
+    }
+   },
+   {
+    "rule_checks": [
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 61
+     },
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 88
+     },
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 71
+     }
+    ],
+    "critic": {
+     "reviews": [
+      {
+       "index": 1,
+       "pass": true,
+       "issues": []
+      },
+      {
+       "index": 2,
+       "pass": true,
+       "issues": []
+      },
+      {
+       "index": 3,
+       "pass": true,
+       "issues": []
+      }
+     ],
+     "set_issues": []
+    },
+    "set_issues": [],
+    "to_fix": {}
+   }
+  ],
+  "plan": {
+   "client_read": "苏女士是位成熟低调、热爱老上海历史与珍珠传承的资深藏家，反感直接推销且极少回复日常微信。目前双方维系着克制长久的默契，上一次深度交流是 7 月她对 Henri Delorme 1920 年代上海采购珍珠图稿表现出浓厚兴趣。",
+   "risk": {
+    "level": "caution",
+    "flags": [
+     "客户不喜欢被推销，直接发产品图通常不回",
+     "回复频率低，只有合心意的内容才会回应"
+    ],
+    "advice": "避免任何销售腔调与催促，将作品作为 7 月聊到的上海珍珠渊源百年落地的历史成果与艺术品来分享，切入其个人情怀。"
+   },
+   "ca_commitments": [],
+   "usable_facts": [
+    "7 月到店时深入探讨过 1920 年代 Henri Delorme 在上海采购珍珠的往事及手绘图稿",
+    "收藏并常佩戴沧海系列的珍珠作品（已有 Akoya 耳钉、南洋白珠项链与金珠吊坠）",
+    "偏爱有历史来历、经典不张扬的珍珠作品"
+   ],
+   "do_not_mention": [
+    "客户累计消费金额（30-100万）、内部核心客户标签",
+    "价格（¥380,000）主动报价",
+    "催促购买、制造稀缺（如'手慢无'、'抢'）",
+    "母亲及家庭私事（未在日常对话中由对方提起）",
+    "宣布'我记得您喜欢历史/我一直放在心上'等炫耀记忆的话"
+   ],
+   "products": [
+    "MDC-N04"
+   ],
+   "unanswerable": "",
+   "slots": {
+    "极简": {
+     "切入点": "直述 1926 年渊源在百年之际完成的作品落地",
+     "唯一信息点": "当年图稿渊源在百年之际做成了全球编号 100 件的双串金珠"
+    },
+    "走心": {
+     "切入点": "接续 7 月聊起 Henri 先生往事的历史情结",
+     "唯一信息点": "金珠渐变比例与扣头刻编号的细节，正是为纪念 1926 年那段上海因缘所作"
+    },
+    "推进": {
+     "切入点": "以分享百年纪念图录与实物画册的角度切入",
+     "唯一信息点": "询问是否先发这件作品的画册与工艺细节图文给她看看"
+    }
+   }
+  },
+  "first_draft": [
+   {
+    "text": "苏女士，工坊为纪念 Henri 先生 1926 年上海渊源做的那条金珠双串编号款到了，全球共 100 件。知道您对这段历史有心，先跟您说一声。",
+    "strategy": "极简",
+    "note_for_ca": "字数极简克制，只陈述作品渊源落地，适合低干扰触达。"
+   },
+   {
+    "text": "苏女士，上次和您聊起 Henri 先生当年在上海采购珍珠的往事，百年之际工坊依着当年的因缘做了一款金珠双串。从 11 到 14 毫米的渐变配得很沉静，扣头上刻了独立编号，很有老作品的味道。",
+    "strategy": "走心",
+    "note_for_ca": "承接7月聊过的上海珍珠渊源，重点描述金珠渐变与扣头刻号。"
+   },
+   {
+    "text": "苏女士，工坊刚完成了沧海百年的金珠双串纪念款，扣头上刻了编号。巴黎那边整理了一份这件作品的图文资料与当年图稿的对照，我发给您看看？",
+    "strategy": "推进",
+    "note_for_ca": "以发送历史图稿对照资料为低门槛轻度推进，契合其古籍偏好。"
+   }
+  ],
+  "seconds": 71.3,
+  "diversity_max_sim": 0.046511627906976744,
+  "calls": [
+   {
+    "requested": "gemini-3.8-flash",
+    "served": "gemini-3.8-flash",
+    "seconds": 7.8,
+    "attempt": 1,
+    "in_tokens": 5990,
+    "out_tokens": 642,
+    "reasoning_tokens": null,
+    "fingerprint": null
+   },
+   {
+    "requested": "gemini-3.8-flash",
+    "served": "gemini-3.8-flash",
+    "seconds": 5.4,
+    "attempt": 1,
+    "in_tokens": 5535,
+    "out_tokens": 341,
+    "reasoning_tokens": null,
+    "fingerprint": null
+   },
+   {
+    "requested": "gemini-3.8-flash",
+    "served": "gemini-3.8-flash",
+    "seconds": 27.5,
+    "attempt": 1,
+    "in_tokens": 5266,
+    "out_tokens": 347,
+    "reasoning_tokens": null,
+    "fingerprint": null
+   },
+   {
+    "requested": "gemini-3.8-flash",
+    "served": "gemini-3.8-flash",
+    "seconds": 5.1,
+    "attempt": 1,
+    "in_tokens": 6100,
+    "out_tokens": 243,
+    "reasoning_tokens": null,
+    "fingerprint": null
+   },
+   {
+    "requested": "gemini-3.8-flash",
+    "served": "gemini-3.8-flash",
+    "seconds": 20.0,
+    "attempt": 1,
+    "in_tokens": 5271,
+    "out_tokens": 205,
+    "reasoning_tokens": null,
+    "fingerprint": null
+   },
+   {
+    "requested": "gemini-3.8-flash",
+    "served": "gemini-3.8-flash",
+    "seconds": 3.7,
+    "attempt": 1,
+    "in_tokens": 5886,
+    "out_tokens": 130,
+    "reasoning_tokens": null,
+    "fingerprint": null
+   },
+   {
+    "requested": "gemini-3.8-flash",
+    "served": "gemini-3.8-flash",
+    "seconds": 1.7,
+    "attempt": 1,
+    "in_tokens": 5271,
+    "out_tokens": 74,
+    "reasoning_tokens": null,
+    "fingerprint": null
+   }
+  ]
+ }
+}

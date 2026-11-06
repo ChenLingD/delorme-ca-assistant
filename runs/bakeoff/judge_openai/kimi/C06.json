@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 5,
+    "naturalness": 4,
+    "effectiveness": 5
+   },
+   "sendability": "直接可发",
+   "comment": "简短克制，记得生日且没有欢庆意味；称呼放在句首会更自然。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "近期丧亲时主动扩展到母亲，并说“都平平安安的，就很好”，容易显得替客户定义处境和感受。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "母亲是已知的真实细节，但此时不必展开，删去后半段更有分寸。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 4,
+    "naturalness": 3,
+    "effectiveness": 4
+   },
+   "sendability": "直接可发",
+   "comment": "以多年相识切入有依据，也照顾到客户不必回复，但末句略显刻意。"
+  }
+ ],
+ "set": {
+  "diversity": 3,
+  "risk_judgement": "正确",
+  "best_index": 1,
+  "must_coverage": "2/2",
+  "summary": "风险判断准确，三条都避开了欢庆语气、产品活动和项链送修，并以安康表达关心。主要问题是候选2在近期丧亲的背景下引入母亲并替客户总结“就很好”，分寸不够稳妥；三条的祝福语气也较为接近。"
+ },
+ "_judge": "openai:gpt-6.1-terra"
+}

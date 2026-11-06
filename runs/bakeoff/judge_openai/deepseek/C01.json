@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 5,
+    "naturalness": 5,
+    "effectiveness": 5
+   },
+   "sendability": "直接可发",
+   "comment": "以生日为唯一切入点，简短得体，不要求回应。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "生日祝福中提起项链扣头，偏离本场景不带产品的要求。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 2
+   },
+   "sendability": "小改可发",
+   "comment": "扣头确有聊天记录依据，但放在生日祝福中显得刻意，删去即可。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 4,
+    "naturalness": 4,
+    "effectiveness": 4
+   },
+   "sendability": "直接可发",
+   "comment": "季节问候与生日祝福自然结合，但添衣提醒略显日常化，可再精简。"
+  }
+ ],
+ "set": {
+  "diversity": 3,
+  "risk_judgement": "正确",
+  "best_index": 1,
+  "must_coverage": "1/2",
+  "summary": "三条整体较克制，候选1最符合极简、不带产品的要求。主要问题是候选2提及作品扣头，既未满足不带产品的要求，也与工具自身的风险提醒不一致。"
+ },
+ "_judge": "openai:gpt-6.1-terra"
+}

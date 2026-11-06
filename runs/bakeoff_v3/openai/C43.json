@@ -1,0 +1,175 @@
+{
+ "case_id": "C43",
+ "version": "v3",
+ "model": "openai:gpt-6.1-terra",
+ "risk": {
+  "level": "ok",
+  "flags": [],
+  "advice": ""
+ },
+ "candidates": [
+  {
+   "text": "冯女士，我理解，超出预算的话，值得再考虑一下。喜欢的耳钉也可以慢慢选。",
+   "strategy": "极简",
+   "note_for_ca": "适合先接住预算顾虑，留出考虑空间"
+  },
+  {
+   "text": "冯女士，您喜欢 Akoya 的冷白光泽，又想年会和日常都能戴，我能理解您为什么会惦记这副。超出预算的顾虑也很实际，可以再想想，不着急决定。",
+   "strategy": "走心",
+   "note_for_ca": "用了冷白光泽和年会、日常佩戴需求"
+  },
+  {
+   "text": "冯女士，超出预算确实要慎重一些。您愿意的话，我可以陪您再试戴一次 Akoya 耳钉，看看是不是您想要的感觉，再决定也不迟。",
+   "strategy": "推进",
+   "note_for_ca": "适合客户仍在犹豫时邀请再次试戴"
+  }
+ ],
+ "checks": [
+  {
+   "pass": true,
+   "hard": [],
+   "soft": [],
+   "length": 35
+  },
+  {
+   "pass": true,
+   "hard": [],
+   "soft": [],
+   "length": 67
+  },
+  {
+   "pass": true,
+   "hard": [],
+   "soft": [],
+   "length": 59
+  }
+ ],
+ "trace": {
+  "rounds": [
+   {
+    "rule_checks": [
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 35
+     },
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 67
+     },
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 59
+     }
+    ],
+    "critic": {
+     "reviews": [
+      {
+       "index": 1,
+       "pass": true,
+       "issues": []
+      },
+      {
+       "index": 2,
+       "pass": true,
+       "issues": []
+      },
+      {
+       "index": 3,
+       "pass": true,
+       "issues": []
+      }
+     ],
+     "set_issues": []
+    },
+    "set_issues": [],
+    "to_fix": {}
+   }
+  ],
+  "plan": {
+   "client_read": "冯女士偏爱低调得体的通勤风格，希望第一副珍珠耳钉兼顾正式场合与日常佩戴。她试戴后喜欢沧海 Akoya 耳钉，但价格超出预算，正在认真考虑。",
+   "risk": {
+    "level": "ok",
+    "flags": [],
+    "advice": ""
+   },
+   "ca_commitments": [],
+   "usable_facts": [
+    "想买第一副珍珠耳钉，用于年会和商务场合",
+    "12 月中有公司年会，还要主持客户答谢活动",
+    "11 月 9 日试戴沧海 Akoya 耳钉，喜欢它的冷白光泽",
+    "觉得 Akoya 耳钉 2.6 万元有些超预算"
+   ],
+   "do_not_mention": [
+    "内部消费区间、客户阶段及财富来源",
+    "折扣、赠品抵价或申请例外",
+    "未经确认的预算数字、产品参数或门店安排",
+    "保值、升值或投资回报"
+   ],
+   "products": [
+    "MDC-E01"
+   ],
+   "slots": {
+    "极简": "接住超预算的顾虑，给她从容考虑的空间。",
+    "走心": "用她喜欢的冷白光泽和年会、客户答谢活动的佩戴需求，让她感到自己的选择被理解。",
+    "推进": "邀请她再试戴一次沧海 Akoya 耳钉，确认是否喜欢后再决定。"
+   }
+  },
+  "first_draft": [
+   {
+    "text": "冯女士，我理解，超出预算的话，值得再考虑一下。喜欢的耳钉也可以慢慢选。",
+    "strategy": "极简",
+    "note_for_ca": "适合先接住预算顾虑，留出考虑空间"
+   },
+   {
+    "text": "冯女士，您喜欢 Akoya 的冷白光泽，又想年会和日常都能戴，我能理解您为什么会惦记这副。超出预算的顾虑也很实际，可以再想想，不着急决定。",
+    "strategy": "走心",
+    "note_for_ca": "用了冷白光泽和年会、日常佩戴需求"
+   },
+   {
+    "text": "冯女士，超出预算确实要慎重一些。您愿意的话，我可以陪您再试戴一次 Akoya 耳钉，看看是不是您想要的感觉，再决定也不迟。",
+    "strategy": "推进",
+    "note_for_ca": "适合客户仍在犹豫时邀请再次试戴"
+   }
+  ],
+  "seconds": 21.0,
+  "diversity_max_sim": 0.05825242718446602,
+  "calls": [
+   {
+    "requested": "gpt-6.1-terra",
+    "served": "gpt-6.1-terra",
+    "seconds": 8.5,
+    "attempt": 1,
+    "in_tokens": 5717,
+    "out_tokens": 451,
+    "reasoning_tokens": 78,
+    "fingerprint": null
+   },
+   {
+    "requested": "gpt-6.1-terra",
+    "served": "gpt-6.1-terra",
+    "seconds": 4.6,
+    "attempt": 1,
+    "in_tokens": 5090,
+    "out_tokens": 257,
+    "reasoning_tokens": 0,
+    "fingerprint": null
+   },
+   {
+    "requested": "gpt-6.1-terra",
+    "served": "gpt-6.1-terra",
+    "seconds": 7.9,
+    "attempt": 1,
+    "in_tokens": 5019,
+    "out_tokens": 488,
+    "reasoning_tokens": 433,
+    "fingerprint": null
+   }
+  ]
+ }
+}

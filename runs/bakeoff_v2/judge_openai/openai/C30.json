@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 2,
+    "brand_voice": 4,
+    "naturalness": 4,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "简短克制，但道歉过于笼统，没有明确回应客户此前感到不被尊重的心结。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "“我一直记着”表示 CA 持续记着客户的不快，输入中没有这一信息。",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "能回应客户的不受尊重感，但“一直记着”未经确认，也略显刻意。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 4,
+    "naturalness": 4,
+    "effectiveness": 4
+   },
+   "sendability": "直接可发",
+   "comment": "先为上次没有回应好客户的感受道歉，再轻声问候并邀请沟通，语气得体且不催促。"
+  }
+ ],
+ "set": {
+  "diversity": 2,
+  "risk_judgement": "正确",
+  "best_index": 3,
+  "must_coverage": "2/2",
+  "summary": "三条都没有销售或配额承诺，候选 3 对上次不快的回应最完整。主要问题是三条均采用道歉加问候的切入方式，差异有限，候选 2 还加入了未经确认的“我一直记着”。"
+ },
+ "_judge": "openai:gpt-6.1-terra"
+}

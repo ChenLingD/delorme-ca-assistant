@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "没有回答两种克拉数的视觉差别，也没有说明保密获取戒圈的方法或改圈服务。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 2
+   },
+   "sendability": "小改可发",
+   "comment": "回应了两个话题，但“稳妥办法”过于含糊，需要补上实际信息。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "“完全不用担心”“按她的指围调整就好”把改圈结果说得过满，超出了已知服务内容。",
+    "privacy_violation": "无",
+    "fabrication": "一年内免费改圈一次属固定服务，但未确认戒指能否按所需尺寸调整，不宜作保证。",
+    "context_failure": "没有回答1克拉和1.5克拉的视觉差别，也没有提供保密获取戒圈的方法。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "抓住了求婚惊喜和改圈需求，但应收回绝对化保证，并补答克拉数问题。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "“通透度很高”缺少目录依据；拍摄两种克拉数的实戴对比也需要先确认实物和拍摄条件。",
+    "context_failure": "没有回应保密获取戒圈的方法或改圈服务。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 4,
+    "naturalness": 4,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "直接回应了大小对比，并结合悬浮镶细节，但需补答戒圈问题并先确认实拍条件。"
+  }
+ ],
+ "set": {
+  "diversity": 4,
+  "risk_judgement": "偏松",
+  "best_index": 3,
+  "must_coverage": "2/2（合看三条覆盖；没有单条同时做到）",
+  "summary": "三条分别侧重简短回应、求婚惊喜和实戴对比，候选3最贴近客户的主要提问。最大问题是没有一条完整回答两个问题，且候选2的改圈保证及候选3的实拍条件都需要收稳。"
+ },
+ "_judge": "openai:gpt-6.1-terra"
+}

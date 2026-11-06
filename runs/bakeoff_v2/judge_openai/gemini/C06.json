@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 4
+   },
+   "sendability": "小改可发",
+   "comment": "简短克制，但“生辰”和“事事顺遂”略显书面、套话。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 3,
+    "naturalness": 2,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "关心较克制，但措辞偏书面，提及母亲也稍显刻意，建议精简。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "“近来家中劳顿”及让家人“休养”缺少事实依据，后者暗示家人需要休养。",
+    "context_failure": "“安心休养就好”替客户及家人安排状态，空泛且欠妥。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 2,
+    "brand_voice": 2,
+    "naturalness": 2,
+    "effectiveness": 2
+   },
+   "sendability": "不可用",
+   "comment": "虽未催回复，但“悄悄”“家中劳顿”和“安心休养”不够自然妥帖。"
+  }
+ ],
+ "set": {
+  "diversity": 2,
+  "risk_judgement": "正确",
+  "best_index": 1,
+  "must_coverage": "2/2",
+  "summary": "风险判断识别了近期丧亲，三条均避免欢快祝福、产品活动和催问售后。候选整体偏书面且差异有限，第三条还对家人的状态作了无依据的暗示。"
+ },
+ "_judge": "openai:gpt-6.1-terra"
+}

@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 4,
+    "naturalness": 4,
+    "effectiveness": 4
+   },
+   "sendability": "直接可发",
+   "comment": "以花呼应客户兴趣，祝福轻盈得体，但“明媚的心情包围”稍显修饰。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "轻微：询问是否已经在巴黎，可能让尚未成行的客户感到尴尬，也让行程盖过了生日祝福；备注已提示行程可能落空。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "呼应了巴黎花店和旺多姆广场，但建议去掉对当前行程的揣测，让祝福更轻松。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "严重：声称平时总在朋友圈看到客户的花艺，输入没有相关依据，备注也未提示这是未经确认的说法。",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 2,
+    "brand_voice": 2,
+    "naturalness": 2,
+    "effectiveness": 2
+   },
+   "sendability": "小改可发",
+   "comment": "花艺切入方向合适，但应删除虚构的朋友圈观察，避免损害客户信任。"
+  }
+ ],
+ "set": {
+  "diversity": 3,
+  "risk_judgement": "偏松",
+  "best_index": 1,
+  "must_coverage": "2/2",
+  "summary": "候选1自然祝福客户本人，满足两项 must；三条均未触及本用例的 must_not。工具虽提示了巴黎行程风险，却未识别候选3虚构朋友圈观察，且风险说明不应将聊天中的“他”直接认定为付款人。"
+ },
+ "_judge": "openai:gpt-6.1-terra"
+}

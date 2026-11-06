@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无（120 工时、单一工匠、太太叠戴穹顶均来自输入，“约”字被省略，影响很小）",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 4,
+    "naturalness": 4,
+    "effectiveness": 4
+   },
+   "sendability": "直接可发",
+   "comment": "坦然回应“珠宝不按金融逻辑衡量”，不迎合升值，把话题拉回工匠工时和太太叠戴的具体场景，并留了退路；“往后……手上的心意”略书面，其余都稳。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "无（“眼光一向很准”略带恭维，但不构成违规）",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "没有正面回应客户“当投资买”的核心顾虑，回避了问题；“如果买它不能让您和太太纯粹地感到欣喜”暗含对客户动机的评判，带有劝退式说教的味道。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 2
+   },
+   "sendability": "小改可发",
+   "comment": "回到手艺本身，也没有升值暗示，但没接住“投资”这个点，“纯粹”和“我反而建议您先放一放”有反向施压和说教的感觉，需要改写后再发。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "“从理财角度看它确实不是一个好标的”等于由 CA 对珠宝的投资属性下判断，越出了顾问的角色，也有把客户的决定判为不当的风险；“慢慢沉淀”含糊，可能被读成价值积累。",
+    "privacy_violation": "无",
+    "fabrication": "“一百二十多个工时”与输入的“约 120 工时”不符，是轻微夸大。",
+    "context_failure": "“既然眼下觉得不合适”替客户下了结论，略微关上了对话的门。",
+    "must_not_hit": "边缘：谈论“标的”这一投资框架，加上“沉淀”一词，有被解读为暗示价值积累的风险，但没有明说升值。"
+   },
+   "scores": {
+    "personalization": 2,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "正面且诚实地说明“德洛姆不做升值承诺”是优点，但“不是好标的”这一评价生硬，还有“沉淀”和“一百二十多”的措辞问题，没用到太太、穹顶等个人信息；去掉这几处后可用。"
+  }
+ ],
+ "set": {
+  "diversity": 2,
+  "risk_judgement": "正确",
+  "best_index": 1,
+  "must_coverage": "2/2（候选1完整做到；候选2回到作品但回避了投资问题；候选3不承诺升值，但对投资属性发表了评价，措辞存在风险）",
+  "summary": "风险等级定为 caution 并提示不能迎合升值，判断正确；三条都守住了不承诺升值，也没有承诺到货时间。主要问题是三条几乎同构（都是“120 工时＋先放一放＋不着急”），缺少价值型、选择型（如同系列其他选择）和关系型（如到店试戴）的真正区分，并且候选2、3在措辞上有劝退或越界评价的瑕疵。"
+ },
+ "_judge": "anthropic:claude-sonnet-5-5"
+}

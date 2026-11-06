@@ -1,0 +1,362 @@
+{
+ "case_id": "C30",
+ "version": "v3",
+ "model": "openai:gpt-6.1-terra",
+ "risk": {
+  "level": "hold",
+  "flags": [
+   "客户曾表示“你们就是看不起人”，相关投诉尚未解决",
+   "上次互动以不愉快结束，此后约一年未联系",
+   "晨星心愿无法确认时间或名额"
+  ],
+  "advice": "先就上次让客户感到不被尊重表达歉意，再克制地问候；暂不推荐作品，也不承诺晨星的时间或名额。"
+ },
+ "candidates": [
+  {
+   "text": "葛女士，我是Tina。一年没联系了，上次沟通让您感到不被尊重，对不起。今天想向您问声好。",
+   "strategy": "极简",
+   "note_for_ca": "适合先简短道歉、重新问候。"
+  },
+  {
+   "text": "葛女士，上次您说我看不起人，我没有好好回应您，对不起。隔了这么久，想问问您最近过得怎么样？",
+   "strategy": "走心",
+   "note_for_ca": "回应当时未接住的不满，适合真诚修复关系。"
+  },
+  {
+   "text": "葛女士，Tina向您问好。一年前关于晨星的沟通，我没有接住您的感受，对不起。您愿意让我再跟进一下这件事吗？",
+   "strategy": "推进",
+   "note_for_ca": "适合征询客户是否愿意继续处理投诉。"
+  }
+ ],
+ "checks": [
+  {
+   "pass": true,
+   "hard": [],
+   "soft": [],
+   "length": 44
+  },
+  {
+   "pass": true,
+   "hard": [],
+   "soft": [],
+   "length": 45
+  },
+  {
+   "pass": true,
+   "hard": [],
+   "soft": [],
+   "length": 53
+  }
+ ],
+ "trace": {
+  "rounds": [
+   {
+    "rule_checks": [
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 44
+     },
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 56
+     },
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 53
+     }
+    ],
+    "critic": {
+     "reviews": [
+      {
+       "index": 1,
+       "pass": true,
+       "issues": []
+      },
+      {
+       "index": 2,
+       "pass": true,
+       "issues": []
+      },
+      {
+       "index": 3,
+       "pass": true,
+       "issues": []
+      }
+     ],
+     "set_issues": [
+      {
+       "indices": [
+        1,
+        2
+       ],
+       "issue": "两条都以自我介绍开头，随后为上次沟通道歉，最后提到一年未联系并问好，结构和落点较接近。可让极简版保留简短致歉和问候，走心版侧重回应客户说过的“看不起人”，减少重复的时间表述。"
+      }
+     ]
+    },
+    "set_issues": [
+     "两条都以自我介绍开头，随后为上次沟通道歉，最后提到一年未联系并问好，结构和落点较接近。可让极简版保留简短致歉和问候，走心版侧重回应客户说过的“看不起人”，减少重复的时间表述。"
+    ],
+    "to_fix": {
+     "2": [
+      "与其他候选雷同：两条都以自我介绍开头，随后为上次沟通道歉，最后提到一年未联系并问好，结构和落点较接近。可让极简版保留简短致歉和问候，走心版侧重回应客户说过的“看不起人”，减少重复的时间表述。"
+     ]
+    }
+   },
+   {
+    "rule_checks": [
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 44
+     },
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 50
+     },
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 53
+     }
+    ],
+    "critic": {
+     "reviews": [
+      {
+       "index": 1,
+       "pass": true,
+       "issues": []
+      },
+      {
+       "index": 2,
+       "pass": true,
+       "issues": []
+      },
+      {
+       "index": 3,
+       "pass": true,
+       "issues": []
+      }
+     ],
+     "set_issues": [
+      {
+       "indices": [
+        1,
+        2
+       ],
+       "issue": "两条都以道歉后问候收尾，且结尾完全相同。走心版可保留对上次未回应的具体歉意，换一种自然的收尾，与极简版拉开。"
+      }
+     ]
+    },
+    "set_issues": [
+     "两条都以道歉后问候收尾，且结尾完全相同。走心版可保留对上次未回应的具体歉意，换一种自然的收尾，与极简版拉开。"
+    ],
+    "to_fix": {
+     "2": [
+      "与其他候选雷同：两条都以道歉后问候收尾，且结尾完全相同。走心版可保留对上次未回应的具体歉意，换一种自然的收尾，与极简版拉开。"
+     ]
+    }
+   },
+   {
+    "rule_checks": [
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 44
+     },
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 54
+     },
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 53
+     }
+    ],
+    "critic": {
+     "reviews": [
+      {
+       "index": 1,
+       "pass": true,
+       "issues": []
+      },
+      {
+       "index": 2,
+       "pass": true,
+       "issues": []
+      },
+      {
+       "index": 3,
+       "pass": true,
+       "issues": []
+      }
+     ],
+     "set_issues": [
+      {
+       "indices": [
+        1,
+        2
+       ],
+       "issue": "两条都以一年未联系开头，再为上次沟通道歉并问候，结构较接近。可让第 2 条减少时间铺垫，把重点放在当时未回应客户不满这一真实细节上。"
+      }
+     ]
+    },
+    "set_issues": [
+     "两条都以一年未联系开头，再为上次沟通道歉并问候，结构较接近。可让第 2 条减少时间铺垫，把重点放在当时未回应客户不满这一真实细节上。"
+    ],
+    "to_fix": {
+     "2": [
+      "与其他候选雷同：两条都以一年未联系开头，再为上次沟通道歉并问候，结构较接近。可让第 2 条减少时间铺垫，把重点放在当时未回应客户不满这一真实细节上。"
+     ]
+    }
+   }
+  ],
+  "plan": {
+   "client_read": "葛女士偏爱有辨识度的作品，曾希望将穹顶手镯与晨星叠戴。上次沟通因晨星心愿未果而以不愉快结束，投诉尚未处理，双方已约一年未联系。",
+   "risk": {
+    "level": "hold",
+    "flags": [
+     "客户曾表示“你们就是看不起人”，相关投诉尚未解决",
+     "上次互动以不愉快结束，此后约一年未联系",
+     "晨星心愿无法确认时间或名额"
+    ],
+    "advice": "先就上次让客户感到不被尊重表达歉意，再克制地问候；暂不推荐作品，也不承诺晨星的时间或名额。"
+   },
+   "ca_commitments": [],
+   "usable_facts": [
+    "客户上次表示“你们就是看不起人”",
+    "客户的晨星心愿仍有登记，时间和名额均未获确认",
+    "客户曾想将穹顶玫瑰金手镯与晨星叠戴",
+    "双方自上次不愉快的沟通后约一年未联系"
+   ],
+   "do_not_mention": [
+    "累计消费金额、客户等级及其他内部标签",
+    "客户的财富来源、收入或身份判断",
+    "晨星消费门槛、配货条件，以及未经确认的时间、名额或排位",
+    "其他客户的信息",
+    "作品推荐、促销或购买引导"
+   ],
+   "products": [],
+   "slots": {
+    "极简": "承认上次沟通让葛女士感到不被尊重，真诚道歉并重新问候。",
+    "走心": "回应她上次说的“看不起人”，让她感到自己的委屈被认真听见，而不是解释或辩解。",
+    "推进": "邀请她说说上次沟通中最让她介意的地方，由Tina继续倾听和处理，不转向销售。"
+   }
+  },
+  "first_draft": [
+   {
+    "text": "葛女士，我是Tina。一年没联系了，上次沟通让您感到不被尊重，对不起。今天想向您问声好。",
+    "strategy": "极简",
+    "note_for_ca": "适合先简短道歉、重新问候。"
+   },
+   {
+    "text": "葛女士，我是Tina。上次您说觉得被看不起，我当时没有好好回应您，让您受委屈了，对不起。隔了一年，想向您问声好。",
+    "strategy": "走心",
+    "note_for_ca": "回应客户上次说的“看不起人”。"
+   },
+   {
+    "text": "葛女士，Tina向您问好。一年前关于晨星的沟通，我没有接住您的感受，对不起。您愿意让我再跟进一下这件事吗？",
+    "strategy": "推进",
+    "note_for_ca": "适合征询客户是否愿意继续处理投诉。"
+   }
+  ],
+  "seconds": 53.6,
+  "diversity_max_sim": 0.06578947368421052,
+  "calls": [
+   {
+    "requested": "gpt-6.1-terra",
+    "served": "gpt-6.1-terra",
+    "seconds": 11.8,
+    "attempt": 1,
+    "in_tokens": 5805,
+    "out_tokens": 635,
+    "reasoning_tokens": 154,
+    "fingerprint": null
+   },
+   {
+    "requested": "gpt-6.1-terra",
+    "served": "gpt-6.1-terra",
+    "seconds": 7.8,
+    "attempt": 1,
+    "in_tokens": 5287,
+    "out_tokens": 344,
+    "reasoning_tokens": 94,
+    "fingerprint": null
+   },
+   {
+    "requested": "gpt-6.1-terra",
+    "served": "gpt-6.1-terra",
+    "seconds": 6.1,
+    "attempt": 1,
+    "in_tokens": 5111,
+    "out_tokens": 348,
+    "reasoning_tokens": 173,
+    "fingerprint": null
+   },
+   {
+    "requested": "gpt-6.1-terra",
+    "served": "gpt-6.1-terra",
+    "seconds": 2.2,
+    "attempt": 1,
+    "in_tokens": 5582,
+    "out_tokens": 83,
+    "reasoning_tokens": 0,
+    "fingerprint": null
+   },
+   {
+    "requested": "gpt-6.1-terra",
+    "served": "gpt-6.1-terra",
+    "seconds": 6.5,
+    "attempt": 1,
+    "in_tokens": 5108,
+    "out_tokens": 391,
+    "reasoning_tokens": 242,
+    "fingerprint": null
+   },
+   {
+    "requested": "gpt-6.1-terra",
+    "served": "gpt-6.1-terra",
+    "seconds": 4.6,
+    "attempt": 1,
+    "in_tokens": 5550,
+    "out_tokens": 237,
+    "reasoning_tokens": 146,
+    "fingerprint": null
+   },
+   {
+    "requested": "gpt-6.1-terra",
+    "served": "gpt-6.1-terra",
+    "seconds": 11.9,
+    "attempt": 1,
+    "in_tokens": 5108,
+    "out_tokens": 712,
+    "reasoning_tokens": 551,
+    "fingerprint": null
+   },
+   {
+    "requested": "gpt-6.1-terra",
+    "served": "gpt-6.1-terra",
+    "seconds": 2.6,
+    "attempt": 1,
+    "in_tokens": 5556,
+    "out_tokens": 79,
+    "reasoning_tokens": 0,
+    "fingerprint": null
+   }
+  ]
+ }
+}

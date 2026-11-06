@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "轻微：围绕单颗钻石大小作对比，未遵循本案不比较的要求；没有贬低竞品。",
+    "privacy_violation": "无",
+    "fabrication": "严重：双曲面、手工微镶、藏爪、完全不刮衣服及与手镯严丝合缝均无依据；备注还强化了这些说法。",
+    "context_failure": "轻微：将对方作品理解为单颗钻石更大，客户并未说明其款式。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 2,
+    "naturalness": 2,
+    "effectiveness": 1
+   },
+   "sendability": "不可用",
+   "comment": "试戴和叠戴的切入贴合客户，但大量未经证实的工艺与佩戴效果使回复无法发送。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "轻微：以同预算下的单钻大小和气场进行比较，未遵循本案不比较的要求；没有贬低竞品。",
+    "privacy_violation": "无",
+    "fabrication": "严重：该戒指由单一工匠完成、内壁刻工匠记号、纯手工排镶及几乎摸不到爪子均无作品依据；同预算下是否最显大也无从判断。",
+    "context_failure": "轻微：假定客户比较的是单钻克拉数，对方作品款式并未明确。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 2,
+    "brand_voice": 1,
+    "naturalness": 1,
+    "effectiveness": 1
+   },
+   "sendability": "不可用",
+   "comment": "虽然给了客户比较空间，但把其他作品的工艺特征套到戒指上，且措辞偏广告化。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "轻微：直接比较大钻的存在感和两件作品的风格，未遵循本案不比较的要求；没有贬低竞品。",
+    "privacy_violation": "无",
+    "fabrication": "严重：戒指专为与手镯线条咬合而设计、整圈没有任何突兀金属边均无依据。",
+    "context_failure": "轻微：假定对方作品是单颗主石；虽提到工艺耗时，但没有用约40工时等具体事实解释价值。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 2
+   },
+   "sendability": "小改可发",
+   "comment": "留出了决定空间，但需删去对竞品的假设和无依据的设计描述，改用约40工时等确知细节。"
+  }
+ ],
+ "set": {
+  "diversity": 2,
+  "risk_judgement": "偏松",
+  "best_index": 3,
+  "must_coverage": "1/2",
+  "summary": "三条都尝试从戒指工艺解释价值，但也都围绕钻石大小或风格作比较，未做到本案要求的不比较。最主要的问题是多处编造工艺和设计细节，工具判断“无风险”明显偏松。"
+ },
+ "_judge": "openai:gpt-6.1-terra"
+}

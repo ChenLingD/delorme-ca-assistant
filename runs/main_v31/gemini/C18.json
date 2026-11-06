@@ -1,0 +1,185 @@
+{
+ "case_id": "C18",
+ "version": "v3.1",
+ "model": "gemini:gemini-3.8-flash",
+ "risk": {
+  "level": "ok",
+  "flags": [],
+  "advice": ""
+ },
+ "candidates": [
+  {
+   "text": "韩先生，许女士收到金珠吊坠还喜欢吗？平时佩戴顺便提一句，珍珠怕化学品，建议喷好香水之后再戴它。",
+   "strategy": "极简",
+   "note_for_ca": "字数最少，快速询问反馈并带出最关键的保养注意。"
+  },
+  {
+   "text": "韩先生，前几天许女士生日过得开心吗？上次您亲笔写了卡片一起放进去，不知她听您讲吊扣上那道1926年的海浪纹，喜不喜欢这个故事？珍珠平时摘下来用软布擦一下就好，常戴它光泽会更好。",
+   "strategy": "走心",
+   "note_for_ca": "引用了手写卡片与1926年海浪纹细节，适合注重心意的他。"
+  },
+  {
+   "text": "韩先生，许女士这几天戴着金珠吊坠还习惯吗？当时走得匆忙没来得及刻字，购买后30天内都支持免费刻字服务的。如果之后想加刻特别的日期或字母，随时带过来找我。",
+   "strategy": "推进",
+   "note_for_ca": "以30天内免费刻字作为轻量下一步，方便推进后续到店服务。"
+  }
+ ],
+ "checks": [
+  {
+   "pass": true,
+   "hard": [],
+   "soft": [],
+   "length": 47
+  },
+  {
+   "pass": true,
+   "hard": [],
+   "soft": [],
+   "length": 88
+  },
+  {
+   "pass": true,
+   "hard": [],
+   "soft": [],
+   "length": 76
+  }
+ ],
+ "trace": {
+  "rounds": [
+   {
+    "rule_checks": [
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 47
+     },
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 88
+     },
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 76
+     }
+    ],
+    "critic": {
+     "reviews": [
+      {
+       "index": 1,
+       "pass": true,
+       "issues": []
+      },
+      {
+       "index": 2,
+       "pass": true,
+       "issues": []
+      },
+      {
+       "index": 3,
+       "pass": true,
+       "issues": []
+      }
+     ],
+     "set_issues": []
+    },
+    "set_issues": [],
+    "to_fix": {}
+   }
+  ],
+  "plan": {
+   "client_read": "韩先生做事干脆、注重心意与物件背后的故事，沟通习惯短句且多在晚间。目前刚完成送礼购买，对品牌有基础信任，正处于交付后的体验反馈阶段。",
+   "risk": {
+    "level": "ok",
+    "flags": [],
+    "advice": ""
+   },
+   "ca_commitments": [],
+   "usable_facts": [
+    "12月5日是女友生日，礼物盒内放了他亲手写的卡片",
+    "女友喜欢有来历的设计，当时特意聊过吊扣复刻1926年手绘图稿的海浪纹",
+    "选的是沧海金珠吊坠，金珠自然光下带香槟色",
+    "购买未满一周，作品支持购买后30天内免费刻字"
+   ],
+   "do_not_mention": [
+    "消费金额及内部客户等级",
+    "推销新品或其他系列作品",
+    "空洞套话或长篇说明书式保养清单",
+    "天气与气温"
+   ],
+   "products": [
+    "MDC-P02"
+   ],
+   "unanswerable": "",
+   "slots": {
+    "极简": {
+     "切入点": "直接问候送礼反馈与核心佩戴提示",
+     "唯一信息点": "提醒一条最关键的珍珠保养习惯：喷完香水或护肤后再佩戴"
+    },
+    "走心": {
+     "切入点": "从当时韩先生亲手写的卡片与海浪纹手稿故事切入",
+     "唯一信息点": "关心许女士听到1926年图稿来历和收到手写卡片时的感受"
+    },
+    "推进": {
+     "切入点": "从吊坠的日常佩戴习惯与长久养护切入",
+     "唯一信息点": "提出具体的后续服务安排：告知30天内仍可免费刻字，或随时带回店里做专业清洗"
+    }
+   }
+  },
+  "first_draft": [
+   {
+    "text": "韩先生，许女士收到金珠吊坠还喜欢吗？平时佩戴顺便提一句，珍珠怕化学品，建议喷好香水之后再戴它。",
+    "strategy": "极简",
+    "note_for_ca": "字数最少，快速询问反馈并带出最关键的保养注意。"
+   },
+   {
+    "text": "韩先生，前几天许女士生日过得开心吗？上次您亲笔写了卡片一起放进去，不知她听您讲吊扣上那道1926年的海浪纹，喜不喜欢这个故事？珍珠平时摘下来用软布擦一下就好，常戴它光泽会更好。",
+    "strategy": "走心",
+    "note_for_ca": "引用了手写卡片与1926年海浪纹细节，适合注重心意的他。"
+   },
+   {
+    "text": "韩先生，许女士这几天戴着金珠吊坠还习惯吗？当时走得匆忙没来得及刻字，购买后30天内都支持免费刻字服务的。如果之后想加刻特别的日期或字母，随时带过来找我。",
+    "strategy": "推进",
+    "note_for_ca": "以30天内免费刻字作为轻量下一步，方便推进后续到店服务。"
+   }
+  ],
+  "seconds": 22.7,
+  "diversity_max_sim": 0.06930693069306931,
+  "calls": [
+   {
+    "requested": "gemini-3.8-flash",
+    "served": "gemini-3.8-flash",
+    "seconds": 13.6,
+    "attempt": 1,
+    "in_tokens": 6065,
+    "out_tokens": 489,
+    "reasoning_tokens": null,
+    "fingerprint": null
+   },
+   {
+    "requested": "gemini-3.8-flash",
+    "served": "gemini-3.8-flash",
+    "seconds": 6.8,
+    "attempt": 1,
+    "in_tokens": 5457,
+    "out_tokens": 328,
+    "reasoning_tokens": null,
+    "fingerprint": null
+   },
+   {
+    "requested": "gemini-3.8-flash",
+    "served": "gemini-3.8-flash",
+    "seconds": 2.2,
+    "attempt": 1,
+    "in_tokens": 5279,
+    "out_tokens": 74,
+    "reasoning_tokens": null,
+    "fingerprint": null
+   }
+  ]
+ }
+}

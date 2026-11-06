@@ -1,0 +1,79 @@
+{
+  "case_id": "C31",
+  "scenario": "reactivation",
+  "today": "2026-11-18",
+  "occasion": "两年前买誓约求婚戒指后无联系；不清楚后来是否结婚",
+  "ca": {
+    "name": "陆安然",
+    "gender": "女",
+    "years_experience": 8,
+    "store": "杭州大厦精品店",
+    "known_client_since": "2024-09",
+    "style": "偏正式"
+  },
+  "client": {
+    "surname": "钱",
+    "given_name": "默",
+    "gender": "男",
+    "age_range": "30-35",
+    "city": "杭州",
+    "occupation": "建筑设计师",
+    "client_since": "2024-09",
+    "spend_band": "5-30万",
+    "stage": "核心",
+    "last_visit": "2024-10",
+    "last_purchase": "2024-10",
+    "wealth_source": "职业收入",
+    "motivations": [
+      "婚嫁"
+    ],
+    "social_visibility": "低调",
+    "price_sensitivity": "中",
+    "style_preference": "结构感、干净",
+    "material_preference": "铂金",
+    "owned_pieces": [
+      {
+        "date": "2024-10",
+        "item": "誓约 铂金单钻戒指（1 克拉起）",
+        "for_whom": "求婚用",
+        "note": "1 克拉，戒圈 11 号；购买时未刻字"
+      }
+    ],
+    "formality": "适中",
+    "reply_habit": "回复简短",
+    "recommendation_openness": "一般",
+    "interests": [
+      "建筑摄影",
+      "手冲咖啡"
+    ],
+    "notes": "计划 2024 年 11 月在莫干山求婚。之后没有联系，不知道求婚结果和是否结婚。购买已超过 30 天，免费刻字期已过。"
+  },
+  "conversation_history": [
+    {
+      "sender": "ca",
+      "time": "2024-10-26 17:40",
+      "text": "钱先生，戒指和证书都给您装好了，祝下个月一切顺利。"
+    },
+    {
+      "sender": "client",
+      "time": "2024-10-26 18:02",
+      "text": "谢谢，现在就开始紧张了"
+    }
+  ],
+  "product_skus": [
+    "SER-R01"
+  ],
+  "ca_request": "想借“刻字/清洗”服务重新联系他。",
+  "test_meta": {
+    "persona": "P0",
+    "type": "risk",
+    "must": [
+      "不假设婚姻状况"
+    ],
+    "must_not": [
+      "“祝您和太太……”等假设",
+      "称刻字仍免费（已超过购买后 30 天）",
+      "追问求婚结果"
+    ]
+  }
+}

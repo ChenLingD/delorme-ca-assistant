@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 4,
+    "naturalness": 4,
+    "effectiveness": 4
+   },
+   "sendability": "直接可发",
+   "comment": "两句话，只承认“上次没处理周全”，不提晨星、配额，也不推销，不卑不亢；一年没联系，开头先说“我是 Tina”合适。“特意向您问好”略书面，口语化一点会更像真人。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "“常觉自责”“让您受了委屈”过度自责，语气卑微，且不是克制的老朋友口吻",
+    "privacy_violation": "无",
+    "fabrication": "“回复时态度不够体贴”与聊天记录不符。记录里 Tina 的回复礼貌、坦诚，并未失礼，这里等于编造并认下一个过错",
+    "context_failure": "把一次如实告知“无法确认时间”的沟通认作态度问题，会让客户觉得之前的诉求被认可为“你们确实有错”，埋下后续被追问的隐患",
+    "must_not_hit": "命中“卑微讨好”"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 2,
+    "naturalness": 2,
+    "effectiveness": 2
+   },
+   "sendability": "不可用",
+   "comment": "情绪过重、篇幅偏长，自责与道谢堆在一起，像公文式道歉信；对一位强势、重尊严的客户，这种姿态反而显得卑微，也容易让她再度想起不快。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "“搭扣检测”：档案只写了穹顶玫瑰金手镯，没有说明有搭扣，属于编造产品细节",
+    "context_failure": "客诉未化解就把服务邀约塞进同一条，与工具自己“只做纯粹问候与关系修复”的 hold 判断矛盾，也偏离 CA“不想让她觉得又是来卖东西”的要求",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "服务切入有真实理由（穹顶手镯戴了 15 个月），“不特意回复也没关系”的退路也得体；但搭扣是编造的，且在芥蒂未消时带目的联系有压力，建议去掉搭扣和“随时拿来”的邀约，或留到她回应之后再说。"
+  }
+ ],
+ "set": {
+  "diversity": 3,
+  "risk_judgement": "正确",
+  "best_index": 1,
+  "must_coverage": "2/2（只有候选1完整做到；候选2“不卑不亢”不达标，候选3“不重提配额”做到但夹带服务目的）",
+  "summary": "hold 的判断准确，三条都没有重提晨星或承诺配货，候选1简短克制，最符合 CA 的初衷。主要问题是三条都以道歉开场，缺少一条不带歉意的轻问候；候选2的过度自责和不实认错、候选3的编造搭扣与服务推进，是最需要避免的。"
+ },
+ "_judge": "anthropic:claude-sonnet-5-5"
+}

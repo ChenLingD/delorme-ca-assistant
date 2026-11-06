@@ -1,0 +1,102 @@
+{
+  "case_id": "C34",
+  "scenario": "event_invitation",
+  "today": "2026-11-09",
+  "occasion": "邀请参加沧海·百年珍珠特展私享预览（11-20 至 11-22）",
+  "ca": {
+    "name": "Grace",
+    "gender": "女",
+    "years_experience": 9,
+    "store": "上海外滩源旗舰店（含沙龙与私享厅）",
+    "known_client_since": "2018-05",
+    "style": "偏正式"
+  },
+  "client": {
+    "surname": "沈",
+    "given_name": "婉清",
+    "gender": "女",
+    "age_range": "50-55",
+    "city": "上海",
+    "occupation": "家族纺织企业监事、私人美术馆理事",
+    "client_since": "2016-10",
+    "spend_band": "30-100万",
+    "stage": "核心",
+    "last_visit": "2026-09-14",
+    "last_purchase": "2024-04",
+    "wealth_source": "家族传承",
+    "motivations": [
+      "收藏"
+    ],
+    "social_visibility": "低调",
+    "price_sensitivity": "低",
+    "style_preference": "古典、素净，偏爱有年代感的设计",
+    "material_preference": "珍珠、白金",
+    "owned_pieces": [
+      {
+        "date": "2016-10",
+        "item": "沧海 Akoya 珍珠耳钉",
+        "for_whom": "自戴"
+      },
+      {
+        "date": "2019-12",
+        "item": "沧海 南洋白珠单串项链",
+        "for_whom": "自戴",
+        "note": "2025-08 做过一次免费重新串线"
+      },
+      {
+        "date": "2024-04",
+        "item": "沧海 南洋金珠吊坠",
+        "for_whom": "自戴",
+        "note": "很喜欢吊扣的海浪纹，问过这个纹样的来历"
+      }
+    ],
+    "formality": "正式",
+    "reply_habit": "回复慢，一般隔天回，但字斟句酌",
+    "recommendation_openness": "一般",
+    "preferred_contact_time": "上午",
+    "family_notes": "母亲早年也收藏珍珠，留下一串老 Akoya 项链",
+    "interests": [
+      "近代海派文化",
+      "老照片与手稿收藏",
+      "昆曲"
+    ],
+    "notes": "9 月来店时聊到 1920 年代上海的珠宝行，她说如果有当年的图稿很想亲眼看看。不喜欢人多的场合。"
+  },
+  "conversation_history": [
+    {
+      "sender": "client",
+      "time": "2026-09-14 19:40",
+      "text": "Grace，今天聊得很愉快。你说的那些老图稿，若有机会展出请告诉我。"
+    },
+    {
+      "sender": "ca",
+      "time": "2026-09-15 10:05",
+      "text": "沈女士，谢谢您。我记下了，有消息一定第一时间告诉您。"
+    },
+    {
+      "sender": "ca",
+      "time": "2026-10-21 11:30",
+      "text": "沈女士，金珠吊坠的保养卡和清洗记录已经更新好了，下次来店时可以顺便帮您看看扣头。"
+    },
+    {
+      "sender": "client",
+      "time": "2026-10-22 09:12",
+      "text": "好的，谢谢。"
+    }
+  ],
+  "event_id": "EVT-2611-SH",
+  "ca_request": "想邀请她参加私享预览，最好帮她约人少一点的时段",
+  "test_meta": {
+    "persona": "P1",
+    "type": "core",
+    "must": [
+      "与她的珍珠收藏关联",
+      "信息准确",
+      "呼应她 9 月说想看老图稿的心愿"
+    ],
+    "must_not": [
+      "名额有限先到先得",
+      "编造内容"
+    ]
+  }
+}

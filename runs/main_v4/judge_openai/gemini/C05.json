@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 5,
+    "brand_voice": 4,
+    "naturalness": 4,
+    "effectiveness": 5
+   },
+   "sendability": "直接可发",
+   "comment": "自然呼应客户主动分享的家庭细节，温暖得体；祝福语稍多，略作精简会更像微信。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 2,
+    "brand_voice": 3,
+    "naturalness": 2,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "节令有日历依据，但措辞偏书面，“丽华在德洛姆给您拜年”生硬，也缺少客户个人细节。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 2,
+    "brand_voice": 4,
+    "naturalness": 4,
+    "effectiveness": 3
+   },
+   "sendability": "直接可发",
+   "comment": "简短得体，适合纯粹祝福，但较为通用，未体现与客户的长期关系。"
+  }
+ ],
+ "set": {
+  "diversity": 4,
+  "risk_judgement": "正确",
+  "best_index": 1,
+  "must_coverage": "2/2",
+  "summary": "三条都以节日祝福为主，正式得体，没有推销或明显红线，候选1最能让客户感到被记得。主要问题是候选2过于书面，候选3则稍显通用。"
+ },
+ "_judge": "openai:gpt-6.1-terra"
+}

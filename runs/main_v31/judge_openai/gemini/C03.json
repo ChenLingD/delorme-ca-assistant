@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 2,
+    "brand_voice": 4,
+    "naturalness": 4,
+    "effectiveness": 4
+   },
+   "sendability": "直接可发",
+   "comment": "祝福简短得体，略显通用，但没有借生日推进其他话题。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "花艺切入有依据，但“做自己喜欢的事本身就很美”和后半句修饰偏多，精简后更像微信。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 5,
+    "brand_voice": 3,
+    "naturalness": 4,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "承接了客户最近聊过的巴黎花店，但追问是否出发和提出协助，让生日祝福的重心略偏向互动。"
+  }
+ ],
+ "set": {
+  "diversity": 4,
+  "risk_judgement": "正确",
+  "best_index": 1,
+  "must_coverage": "2/2",
+  "summary": "三条均只与客户本人交流，未提及付款人或同行人；候选1最克制，候选2和3分别有修饰偏多、祝福重心偏移的问题。风险提醒方向正确，但不应将聊天中的“他”与付款人视为同一人，现有信息不足以确认。"
+ },
+ "_judge": "openai:gpt-6.1-terra"
+}

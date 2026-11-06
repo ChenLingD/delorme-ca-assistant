@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 4,
+    "naturalness": 4,
+    "effectiveness": 4
+   },
+   "sendability": "直接可发",
+   "comment": "先为去年的沟通致歉，不推销、不解释配额；虽未单独问候，但适合以此重新打开对话。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "购买记录不能证明 Tina 曾陪客户挑选单钻细链。",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "道歉方向对，但回溯关系略显刻意，应删去未经证实的陪选经历，缩短铺垫。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "购入一年多不等于佩戴了一年多；资料也未说明手镯是否有卡扣。",
+    "context_failure": "道歉后立即引出保养和到店，容易冲淡对未解决投诉的回应，也不符合此次只想重新问候的意图。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 2
+   },
+   "sendability": "小改可发",
+   "comment": "先道歉是对的，但此时叠加保养邀约容易显得另有目的，建议删去服务段落。"
+  }
+ ],
+ "set": {
+  "diversity": 3,
+  "risk_judgement": "正确",
+  "best_index": 1,
+  "must_coverage": "3/3",
+  "summary": "整体都避开了配额细节和购买承诺，也没有卑微讨好；将未解决的投诉列为主要风险是恰当的。最大问题是候选 2 补写了未经证实的经历，候选 3 则过早转向保养邀约，反而削弱了真诚致歉。"
+ },
+ "_judge": "openai:gpt-6.1-terra"
+}

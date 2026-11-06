@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "严重：“很衬花艺师的气质”将客户职业与个人气质作关联评价。",
+    "fabrication": "严重：光泽配对花费很多时间、胸针扣头由巴黎工坊特别开模，均无依据。",
+    "context_failure": "轻微：说明了不打折，但未提供十万内的同系列选择。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 2,
+    "naturalness": 2,
+    "effectiveness": 2
+   },
+   "sendability": "不可用",
+   "comment": "用到了客户喜欢的胸针扣头，但职业化评价和未经证实的工艺细节都需删除。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "严重：目录没有单独的沧海胸针，也不能确认门店有这些作品可拿给客户看。",
+    "context_failure": "轻微：提及预算选择，但没有给出确实存在且十万内的同系列作品。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 2
+   },
+   "sendability": "不可用",
+   "comment": "切入客户喜欢的扣头较自然，但应改为目录中确有的十万内沧海作品，不能虚构胸针。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "严重：目录未说明这条南洋白珠项链珠层厚，也未给出其两用结构工时很长的依据。",
+    "context_failure": "轻微：说明了不打折并给予空间，但未提供十万内的同系列选择。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 2,
+    "naturalness": 2,
+    "effectiveness": 2
+   },
+   "sendability": "不可用",
+   "comment": "接纳客户权衡的方向是对的，但工艺描述缺乏依据，后半段也偏空泛。"
+  }
+ ],
+ "set": {
+  "diversity": 3,
+  "risk_judgement": "偏松",
+  "best_index": 2,
+  "must_coverage": "1/2",
+  "summary": "三条都说明了不打折，但没有一条给出目录中确实存在的十万内同系列选择。候选 2 最接近目标，但三条均有未经证实的作品信息，不能直接发送，工具判断为无风险偏松。"
+ },
+ "_judge": "openai:gpt-6.1-terra"
+}

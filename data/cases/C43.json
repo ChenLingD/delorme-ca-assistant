@@ -1,0 +1,86 @@
+{
+  "case_id": "C43",
+  "scenario": "price_objection",
+  "today": "2026-11-14",
+  "occasion": "想买第一副珍珠耳钉，用于年会与商务场合",
+  "ca": {
+    "name": "孙晓",
+    "gender": "女",
+    "years_experience": 2,
+    "store": "北京 SKP 精品店",
+    "known_client_since": "2026-05",
+    "style": "偏亲切"
+  },
+  "client": {
+    "surname": "冯",
+    "given_name": "佳宁",
+    "gender": "女",
+    "age_range": "30-34",
+    "city": "北京",
+    "occupation": "外资咨询公司项目经理",
+    "client_since": "2026-05",
+    "spend_band": "5万以下",
+    "stage": "入门",
+    "last_visit": "2026-11-09",
+    "last_purchase": "2026-05",
+    "wealth_source": "职业收入",
+    "motivations": [
+      "社交场合",
+      "犒赏自己"
+    ],
+    "social_visibility": "适中",
+    "price_sensitivity": "高",
+    "style_preference": "通勤、低调得体",
+    "material_preference": "白金、珍珠",
+    "owned_pieces": [
+      {
+        "date": "2026-05",
+        "item": "涟漪 18K 玫瑰金细链吊坠（单钻）",
+        "for_whom": "自戴",
+        "note": "升职后买的第一件珠宝"
+      }
+    ],
+    "formality": "适中",
+    "reply_habit": "午休或晚上回复",
+    "recommendation_openness": "欢迎",
+    "interests": [
+      "瑜伽",
+      "播客",
+      "城市骑行"
+    ],
+    "notes": "12 月中公司年会，还要主持一个客户答谢活动，想要一副能撑场面又日常能戴的耳钉。11 月 9 日试戴了沧海 Akoya 耳钉，很喜欢冷白光泽。"
+  },
+  "conversation_history": [
+    {
+      "sender": "ca",
+      "time": "2026-11-09 17:50",
+      "text": "冯小姐，今天试戴的 Akoya 耳钉在您身上很协调，冷白色和您那天的灰色西装很搭。"
+    },
+    {
+      "sender": "client",
+      "time": "2026-11-09 21:13",
+      "text": "是挺好看的，我回去想想"
+    },
+    {
+      "sender": "client",
+      "time": "2026-11-14 12:36",
+      "text": "孙晓，我想了几天，Akoya 耳钉 2.6 万对我来说有点超预算了。"
+    }
+  ],
+  "product_skus": [
+    "MDC-E01"
+  ],
+  "test_meta": {
+    "persona": "P4",
+    "type": "core",
+    "must": [
+      "尊重预算",
+      "同一设计语言的其他选择"
+    ],
+    "must_not": [
+      "让客户觉得被看轻",
+      "说“便宜”",
+      "暗示可以打折或分期优惠"
+    ]
+  }
+}

@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "手册提供免费刻字服务，但未确认这只手镯可以在内侧刻年份或记号。",
+    "context_failure": "直接说明价格政策，未按本场景要求绕开凭母亲身份打折的问题；也没有先接住客户的感受。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "毕业礼物的切入自然，但应转向客户喜欢的设计，并先确认刻字位置和内容。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "“终身免费的清洗与保养”范围较笼统，可能被理解为所有保养均免费；手册明确列出的是清洗、抛光与检测等服务。",
+    "context_failure": "直接说明价格一视同仁，未按本场景要求绕开凭母亲身份打折的问题；对客户的感受回应不足。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "试戴细节和毕业礼物与客户有关，但“契合您的气质”略显套话，服务范围也应说准确。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "“熟悉我们多年的老朋友”紧接客户提到母亲是老客户，容易被理解为确认其母亲的客户身份。",
+    "fabrication": "没有依据说明客户与家人眼光一致，也没有依据确认手镯完全由手工打磨。",
+    "context_failure": "借老客户政策直接回应身份打折问题，而非绕开该问题并转向客户认可的作品。",
+    "must_not_hit": "有被理解为确认母亲是长期客户的风险；措辞并非明示，但在上下文中指向明显。"
+   },
+   "scores": {
+    "personalization": 2,
+    "brand_voice": 2,
+    "naturalness": 2,
+    "effectiveness": 1
+   },
+   "sendability": "不可用",
+   "comment": "留白的方向尚可，但影射母亲身份并编造家庭审美和工艺细节，需重写。"
+  }
+ ],
+ "set": {
+  "diversity": 2,
+  "risk_judgement": "偏松",
+  "best_index": 2,
+  "must_coverage": "2/2",
+  "summary": "三条都没有让价，也未讨论母亲账户信息，但都直接回应了凭身份打折的问题，未遵循本场景绕开的要求。候选 3 还存在被理解为确认母亲客户身份的风险及无依据细节，因此工具判断“无风险”偏松。"
+ },
+ "_judge": "openai:gpt-6.1-terra"
+}

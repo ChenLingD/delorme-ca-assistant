@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "近期丧亲，直接说“生日快乐”缺少关怀，也未按场景要求弱化快乐式祝福。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 2,
+    "brand_voice": 2,
+    "naturalness": 4,
+    "effectiveness": 1
+   },
+   "sendability": "小改可发",
+   "comment": "虽简短自然，但对近期丧亲的客户过于寻常，宜改为克制的关心。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 4,
+    "naturalness": 4,
+    "effectiveness": 5
+   },
+   "sendability": "直接可发",
+   "comment": "以安稳的祝愿表达惦记并留出空间，贴合当下处境；“没多打扰您”略显刻意。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "输入未确认门店有生日月小礼物，也未确认已为客户留好。",
+    "context_failure": "近期丧亲时使用快乐式祝福，又借生日提礼物并请客户联系，不够体贴。",
+    "must_not_hit": "提及生日月小礼物，触犯本用例不得提活动的要求。"
+   },
+   "scores": {
+    "personalization": 2,
+    "brand_voice": 2,
+    "naturalness": 3,
+    "effectiveness": 1
+   },
+   "sendability": "不可用",
+   "comment": "生日月礼物既无事实依据，也不适合当前情境，应删除并重写为关心。"
+  }
+ ],
+ "set": {
+  "diversity": 4,
+  "risk_judgement": "正确",
+  "best_index": 2,
+  "must_coverage": "1/2",
+  "summary": "风险判断准确，但只有候选 2 稳妥地将判断落实为克制关怀。候选 1 和 3 仍使用快乐式祝福，候选 3 还引入了未经确认的生日礼物。"
+ },
+ "_judge": "openai:gpt-6.1-terra"
+}

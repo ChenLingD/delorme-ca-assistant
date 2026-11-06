@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 4,
+    "naturalness": 4,
+    "effectiveness": 5
+   },
+   "sendability": "直接可发",
+   "comment": "接住了客户的喜爱，也清楚说明价格和置换边界；末句略显修饰，但整体自然。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "轻微：资料只说明门店不能承诺合作或赠送，不能据此断言没有合作置换安排。",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 2,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "有礼貌地守住了价格，但工坊和平等条件的解释偏泛，也未用上客户认可的金珠细节。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "轻微：资料只说合作由公关部对接，没有说明由巴黎和总部的公关团队统筹。",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "海浪纹与度假穿搭的连接较具体，但应删去未经证实的组织信息，“纯粹因为喜欢”也略有说教感。"
+  }
+ ],
+ "set": {
+  "diversity": 2,
+  "risk_judgement": "偏松",
+  "best_index": 1,
+  "must_coverage": "2/2",
+  "summary": "三条都礼貌说明了价格或门店权限，未承诺合作、赠送或索要数据，候选 1 最稳妥。主要问题是候选 2 和 3 对合作安排或公关架构说得超出了已知事实，且三条整体切入方式较相近。"
+ },
+ "_judge": "openai:gpt-6.1-terra"
+}

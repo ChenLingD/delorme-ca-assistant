@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "“挑个最安静的时段”暗示能确定并安排最安静的场次，现有资料不足以支持这一承诺。",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 4,
+    "naturalness": 4,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "自然呼应了客户想看老图稿的心愿，但未关联她的珍珠收藏，应改为帮她了解人较少的场次，并补充预览日期。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "轻量地承接了看图稿的心愿，但“挂心”略显揣测，也未关联珍珠收藏；建议注明展览名称和完整日期。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 2,
+    "brand_voice": 4,
+    "naturalness": 4,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "日期、地点和规模清楚，也照顾了她对安静场次的偏好，但应点明她想看老图稿及已有珍珠藏品的关联。"
+  }
+ ],
+ "set": {
+  "diversity": 3,
+  "risk_judgement": "偏松",
+  "best_index": 1,
+  "must_coverage": "2/3",
+  "summary": "三条都提到了图稿，候选1和2呼应了客户此前想看的心愿，活动日期等已写出的关键信息总体准确。主要缺口是没有一条关联她的珍珠收藏；候选1还对能否安排“最安静”的时段作了缺乏依据的承诺。"
+ },
+ "_judge": "openai:gpt-6.1-terra"
+}

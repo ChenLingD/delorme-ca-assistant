@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 2,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 2
+   },
+   "sendability": "小改可发",
+   "comment": "准确回应了到货问题，但过于简短生硬，未接住客户对晨星的喜爱。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "客户没有询价，却主动报价，不符合本场景避免主动报价的策略。",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "客户说“多少钱都行”并非询问价格，报价没有回应她最关心的取得时间之外的需求。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 2,
+    "naturalness": 2,
+    "effectiveness": 2
+   },
+   "sendability": "小改可发",
+   "comment": "复述客户刚说过的话并加上“我记得”略显刻意，还主动报了客户未问的价格。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "客户没有询价，却主动报价，不符合本场景避免主动报价的策略。",
+    "privacy_violation": "无",
+    "fabrication": "资料未提供穹顶黄金戒指及其弧线戒身的信息，不能据此推荐。",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 2
+   },
+   "sendability": "不可用",
+   "comment": "登记心愿和关注黄金偏好的方向合适，但主动报价且推荐了未经证实的作品细节。"
+  }
+ ],
+ "set": {
+  "diversity": 3,
+  "risk_judgement": "偏松",
+  "best_index": 1,
+  "must_coverage": "2/3",
+  "summary": "候选整体没有拒绝客户或承诺到货时间，候选 3 也征求了登记心愿的意愿，但引导了解其他系列时使用了未经证实的作品细节，不能算有效覆盖。风险判断误将“多少钱都行”理解为询价，导致两条候选主动报价；候选 1 最安全，但仍需增加对客户兴趣的回应。"
+ },
+ "_judge": "openai:gpt-6.1-terra"
+}

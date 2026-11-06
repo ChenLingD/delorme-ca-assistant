@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 2,
+    "brand_voice": 4,
+    "naturalness": 4,
+    "effectiveness": 4
+   },
+   "sendability": "直接可发",
+   "comment": "两句话、不带产品、不要求回复，正合这位低回复、不爱被打扰的正式客户。'愿这一年顺遂'略套话，但无害，也没有堆砌。个性化弱，不过这个场景下可以接受。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "轻微：'珠子是越养越温润的'是输入里没有的产品性状说法；'整六年'是由 2020-09 购买推算的，大致成立，但表述偏满。",
+    "context_failure": "无",
+    "must_not_hit": "无（但违背 must '不带产品'：主体是她的项链，且三句话偏长）"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 2
+   },
+   "sendability": "小改可发",
+   "comment": "6 月串线、项链陪伴六年这个细节真实，也有温度，但整条围绕作品，生日变成了铺垫，'慢慢地、好好地过'也偏文艺。删掉项链部分只留祝福，或砍成一句，才符合这位客户的低打扰需求。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "轻微：'我懂得不多'是替 CA 加的个人表态；昆曲兴趣只出现在档案里，聊天记录中她从未提过，用'忽然想起'有炫耀记得的风险。",
+    "context_failure": "有：向一个很少回复、不喜欢频繁联系的客户抛问题（'近来可有再听？'）并加'您有兴致时提一句就好'，等于主动拉长对话，与工具自己写的'不宜借生日拉长对话'矛盾；口吻也偏随意，不贴周敏偏正式的风格。",
+    "must_not_hit": "无（但违背 must '极简、克制'，四句话偏长）"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 2
+   },
+   "sendability": "小改可发",
+   "comment": "'有闲、有茶、有戏可听'一句其实不错，但前面的提问和后面的邀回复把祝福变成了寻求互动，对这位客户是负担。去掉提问和收尾，只留祝福句才可发。"
+  }
+ ],
+ "set": {
+  "diversity": 3,
+  "risk_judgement": "正确",
+  "best_index": 1,
+  "must_coverage": "2/2（仅候选 1 完整做到；候选 2 带了产品、候选 3 不够极简且引导回复）",
+  "summary": "风险判断准确，也明确要求'短、干净、不带作品也不邀约'，候选 1 完全照做，可直接发。但候选 2 和 3 偏离了工具自己的提醒：一条以作品为主，一条主动提问拉长对话，三条在篇幅和意图上虽有差异，却有两条不适合这位客户。"
+ },
+ "_judge": "anthropic:claude-sonnet-5-5"
+}

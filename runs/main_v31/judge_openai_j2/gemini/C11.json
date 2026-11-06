@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "轻微：目录中的涟漪单钻吊坠为18K玫瑰金，不是黄金。",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 2,
+    "naturalness": 2,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "结合了黑色礼服和上台场合，但需改正材质；“凝聚的光”“台风会很稳”也偏广告腔。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "轻微：目录中可对应的涟漪细链吊坠为玫瑰金，且未提供吊坠有水波造型的依据。",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 5,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "用常戴耳钉做搭配理由很自然，但需明确作品并改正材质，删去未经证实的水波描述。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "轻微：目录中的涟漪单钻项链为18K玫瑰金，不是黄金；不同长度的佩戴效果图是否可提供也未确认。",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "围绕一字肩推荐并询问是否看图有助于推进，但应改正材质、确认图片，并明确上台场合。"
+  }
+ ],
+ "set": {
+  "diversity": 2,
+  "risk_judgement": "偏松",
+  "best_index": 2,
+  "must_coverage": "2/2",
+  "summary": "按三条均意在推荐目录中的涟漪单钻吊坠计算，作品在预算内，也都直接或通过礼服关联了领奖场合。主要问题是三条均将玫瑰金写成黄金，且切入角度相近；候选2的耳钉搭配理由最贴合客户。"
+ },
+ "_judge": "openai:gpt-6.1-terra"
+}

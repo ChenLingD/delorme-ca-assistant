@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "未经检查即承诺划痕可完全修复如新；CA 只授权去公司取件，未承诺明天取件及处理后送回。",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "先接住了客户的心情，也给出了免费抛光和时间，但应删除完全修复及未经授权的取送承诺。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "未经检查即保证能还原原本光泽；资料只说明店里有维修师傅，未说明是工坊师傅。",
+    "context_failure": "以“别着急”“不用担心”安抚，却没有先承认客户对新戒指划伤及质量的失望。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 2,
+    "naturalness": 3,
+    "effectiveness": 2
+   },
+   "sendability": "小改可发",
+   "comment": "到店和取件选项清楚，但先劝客户别着急、再提喝茶，不如先回应投诉感受来得妥帖。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "未经检查即承诺划痕可完全打磨消除；CA 只授权去公司取件，未承诺明天取件及处理后送回。",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "回应了佩戴不舒心并给出方案，但“明天直接”略显替客户做决定，且修复效果和送回承诺需要删除。"
+  }
+ ],
+ "set": {
+  "diversity": 2,
+  "risk_judgement": "偏松",
+  "best_index": 1,
+  "must_coverage": "3/3",
+  "summary": "候选 1 和 3 覆盖了共情、免费抛光及所需时间，也没有推卸责任；候选 2 对投诉情绪回应不足。三条都对修复效果作了未经检查的保证，且候选 1 和 3 擅自增加明日取件和送回承诺，风险判断为“无”偏松。"
+ },
+ "_judge": "openai:gpt-6.1-terra"
+}

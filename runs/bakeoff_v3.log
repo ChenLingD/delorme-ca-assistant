@@ -1,0 +1,23 @@
+20 jobs to run
+[1/20] openai:gpt-6.1-terra C43 21.0s
+[2/20] openai:gpt-6.1-terra C34 31.9s
+[3/20] openai:gpt-6.1-terra C21 39.4s
+[4/20] openai:gpt-6.1-terra C01 44.8s
+[5/20] openai:gpt-6.1-terra C39 46.3s
+[6/20] openai:gpt-6.1-terra C13 47.9s
+[7/20] openai:gpt-6.1-terra C30 53.6s
+[8/20] openai:gpt-6.1-terra C50 55.6s
+[9/20] openai:gpt-6.1-terra C06 65.7s
+[10/20] gemini:gemini-3.8-flash C13 34.0s
+[11/20] gemini:gemini-3.8-flash C34 28.6s
+[12/20] gemini:gemini-3.8-flash C39 33.9s
+[13/20] openai:gpt-6.1-terra C10 93.8s
+[14/20] gemini:gemini-3.8-flash C21 63.5s
+[15/20] gemini:gemini-3.8-flash C10 88.5s
+[16/20] gemini:gemini-3.8-flash C01 109.7s
+[17/20] gemini:gemini-3.8-flash C43 67.2s
+[18/20] gemini:gemini-3.8-flash C30 93.9s
+[19/20] gemini:gemini-3.8-flash C06 137.3s
+[20/20] gemini:gemini-3.8-flash C50 101.4s
+
+finished 20, failed 0 in 180s

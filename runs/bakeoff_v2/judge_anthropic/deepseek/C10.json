@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "客户问了“什么时候能拿到”，这条完全没有回应时间问题。只说“先登记”，对一位直接点名要晨星的客户显得过于简短，可能被读成敷衍或打发。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 2,
+    "brand_voice": 4,
+    "naturalness": 4,
+    "effectiveness": 2
+   },
+   "sendability": "小改可发",
+   "comment": "短、安全、像真人，登记心愿也符合手册。但没有回应到货时间，也没有把话题引向工艺或其他系列，对话会停在“等通知”上。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "“抬手的时候很亮，但不吵”的描述与客户偏好“醒目、有辨识度”相反，还带有评价口吻。",
+    "privacy_violation": "无",
+    "fabrication": "“8 月您自己挑的”“很亮但不吵”是对佩戴效果的主观描述，输入里没有依据，属于轻微编造。",
+    "context_failure": "客户刚发来“我要晨星手镯，什么时候能拿到”，这条完全不接话，转去回忆旧手链，答非所问。对想买晨星的客户，这像是把她的诉求绕开。",
+    "must_not_hit": "无（没有说门槛，也没有承诺时间；但也没有做到任何 must 项）"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 2,
+    "naturalness": 3,
+    "effectiveness": 1
+   },
+   "sendability": "不可用",
+   "comment": "用了真实的手链信息，但完全无视客户当下的请求，与聊天脱节；“不吵”还和她偏好醒目的审美相悖。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "“穹顶手镯”不在本次相关作品里，输入只给了晨星手镯，不能确认穹顶系列有手镯款。“把照片拍几张给您”是 CA 的行动承诺，输入里没有 CA 的授权。",
+    "context_failure": "无（正面回应了时间问题）",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 4,
+    "naturalness": 4,
+    "effectiveness": 4
+   },
+   "sendability": "小改可发",
+   "comment": "坦率说明给不了时间，不拒绝、不承诺，并用“同一位工匠、约 120 工时、内圈记号”讲工艺，再引到另一系列，方向最对。发送前需核实穹顶确有手镯款再保留，或改成已确认的作品；最好补上“心愿我先登记”。"
+  }
+ ],
+ "set": {
+  "diversity": 3,
+  "risk_judgement": "正确",
+  "best_index": 3,
+  "must_coverage": "单条最高 2/3（候选 3：不承诺到货时间、引导了解工艺，缺心愿登记）；三条合计覆盖 3/3，但分散在不同候选里，没有一条同时做到",
+  "summary": "风险识别全面：配额门槛、到货时间、他人信息、内部等级都点到了，三条也没有越过红线。主要问题是候选 1 太薄、候选 2 答非所问，只有候选 3 正面回应了诉求，但它引入了未经确认的“穹顶手镯”，且缺少“登记心愿”这一最稳的动作。"
+ },
+ "_judge": "anthropic:claude-sonnet-5-5"
+}

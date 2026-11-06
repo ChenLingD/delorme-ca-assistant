@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无。不过“是我没跟上”指向不清：客户的质问只晾了几分钟，她也没说过 CA 失职。这句既显得多余，又让客户不明白哪里“没跟上”。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 2,
+    "brand_voice": 4,
+    "naturalness": 3,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "态度对、短、不辩解，也明确说了免费。但只有“尽快安排”，没有师傅在店的日子和 40 分钟，也没有上门取件，对性子急的客户太虚。CA 手里的具体方案基本没用上。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无。唯一的小缺口是全文没写“免费”，客户在气头上可能会先想要不要付钱。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 4,
+    "naturalness": 4,
+    "effectiveness": 4
+   },
+   "sendability": "小改可发",
+   "comment": "完整用上了 CA 的方案：周二到周日、现场 40 分钟、上门取件，并把选择权交给她，也不解释成因，最贴合需求。补上“免费”两个字就能直接发；开头“费心了”对质问来说也略轻。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "“抛完痕迹会淡很多”是输入里没有的效果承诺。CA 只说了能抛光，没说效果；工具自己也写了“不打包票”，这句仍然等于打了包票。“绒袋”也是编造的细节。",
+    "context_failure": "客户在投诉质量，此时加一条“别和别的戒指挨着”的收纳提示，读起来像在暗示是她保管不当。这与工具自己写的“不解释成因”相矛盾，也违背场景里“先承认、给方案”的原则。同时漏了 CA 提出的上门取件。",
+    "must_not_hit": "收纳提示近似“划痕是你用法/存放问题”的说教，接近第一条 must_not（辩解式说教）。"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 2
+   },
+   "sendability": "小改可发",
+   "comment": "前半段（致歉、免费、时间）不错，但“淡很多”承诺过头，收纳提示会激怒爱面子的客户。必须删掉这两处才能发，删完基本就是候选 2 少了取件选项。"
+  }
+ ],
+ "set": {
+  "diversity": 3,
+  "risk_judgement": "正确",
+  "best_index": 2,
+  "must_coverage": "2/3（以最佳候选 2 计：做到“先承认感受”和“不推卸”，免费抛光的方案与时间已给全，但没有明说“免费”）",
+  "summary": "三条都没提新品、没解释成因，风险提醒（投诉未回复、客户爱面子、会公开分享）也准确。但三条没有一条能直接发：候选 1 太虚，候选 2 漏了“免费”，候选 3 加了“淡很多”的承诺和暗指客户保管不当的收纳提示。候选 3 基本是候选 2 加一条提示，三条之间的真实差异不大。"
+ },
+ "_judge": "anthropic:claude-sonnet-5-5"
+}

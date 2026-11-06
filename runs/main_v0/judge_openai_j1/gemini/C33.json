@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "“整理展柜时看到沧海的珍珠”没有依据；客户喜欢沧海图稿、想画海浪纹，但没有说过喜欢“当年的海浪手绘图稿”。",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "兴趣切入贴近客户，但应删去未经证实的细节，并精简问候和到店清洁的邀约。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "档案未说明这些作品是客户“随身常戴”的。",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 4,
+    "naturalness": 3,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "售后关怀克制，但“随身常戴”缺乏依据，连续提及珍珠护理和戒圈微调也略显刻意。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "描述天气违反外部事实规范；“几分钟就能打理好”未经 CA 授权就承诺服务时间。",
+    "privacy_violation": "无",
+    "fabrication": "“天凉了些”“翻看客人的护理记录”和客户“常戴”均无输入依据；清洗抛光所需的具体时间也未获确认。",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 2,
+    "brand_voice": 2,
+    "naturalness": 2,
+    "effectiveness": 2
+   },
+   "sendability": "不可用",
+   "comment": "问候本身中性，但天气、护理记录和几分钟完成服务的说法均需重写。"
+  }
+ ],
+ "set": {
+  "diversity": 3,
+  "risk_judgement": "偏松",
+  "best_index": 1,
+  "must_coverage": "2/2",
+  "summary": "三条都以客户本人为中心，没有提及付款人或打探感情现状；候选 1 的兴趣切入最贴近她，但仍需精简。整体最主要的问题是使用未经证实的事实，候选 3 还擅自承诺服务时间，因此“无风险”的判断偏松。"
+ },
+ "_judge": "openai:gpt-6.1-terra"
+}

@@ -1,0 +1,107 @@
+{
+  "case_id": "C03",
+  "scenario": "birthday_festive",
+  "today": "2026-12-03",
+  "occasion": "客户今天生日",
+  "ca": {
+    "name": "Sophie",
+    "gender": "女",
+    "years_experience": 5,
+    "store": "上海恒隆广场精品店",
+    "known_client_since": "2025-05",
+    "style": "偏亲切"
+  },
+  "client": {
+    "surname": "唐",
+    "given_name": "若晴",
+    "gender": "女",
+    "age_range": "25-30",
+    "city": "上海",
+    "occupation": "独立花艺工作室主理人",
+    "client_since": "2025-05",
+    "spend_band": "5-30万",
+    "stage": "入门",
+    "last_visit": "2026-08-22",
+    "last_purchase": "2026-08",
+    "wealth_source": "不详",
+    "motivations": [
+      "社交场合"
+    ],
+    "social_visibility": "适中",
+    "price_sensitivity": "低",
+    "style_preference": "柔和、偏法式",
+    "material_preference": "玫瑰金、珍珠",
+    "owned_pieces": [
+      {
+        "date": "2025-05",
+        "item": "涟漪 18K 玫瑰金细链吊坠（单钻）",
+        "for_whom": "自戴"
+      },
+      {
+        "date": "2026-03",
+        "item": "沧海 Akoya 珍珠耳钉",
+        "for_whom": "自戴"
+      },
+      {
+        "date": "2026-08",
+        "item": "穹顶 小号腕表款手镯",
+        "for_whom": "自戴"
+      }
+    ],
+    "sizes": "手腕 15cm",
+    "formality": "适中",
+    "reply_habit": "回复比较快，爱发语气词",
+    "recommendation_openness": "欢迎",
+    "birthday": "12-03",
+    "interests": [
+      "花艺",
+      "法国电影",
+      "烘焙"
+    ],
+    "flags": {
+      "payer_not_wearer": true,
+      "other": "三件作品均由同一位男士到店付款，客户本人从未付款；二人关系客户未主动说明"
+    },
+    "notes": "28 岁。工作室在武康路附近。到店时总是先聊花，喜欢听作品背后的故事。"
+  },
+  "conversation_history": [
+    {
+      "sender": "ca",
+      "time": "2026-08-22 19:10",
+      "text": "唐小姐，手镯的尺寸调好了，您戴着试试，如果觉得晃可以再来调。"
+    },
+    {
+      "sender": "client",
+      "time": "2026-08-22 19:35",
+      "text": "刚好诶 谢谢Sophie～"
+    },
+    {
+      "sender": "client",
+      "time": "2026-11-15 14:02",
+      "text": "Sophie 我最近在研究巴黎的花店"
+    },
+    {
+      "sender": "client",
+      "time": "2026-11-15 14:03",
+      "text": "他说生日带我去巴黎 哈哈 到时候想去旺多姆广场看看你们的老店"
+    },
+    {
+      "sender": "ca",
+      "time": "2026-11-15 14:20",
+      "text": "好呀，旺多姆广场那边很美，冬天去也很有味道。"
+    }
+  ],
+  "test_meta": {
+    "persona": "P6",
+    "type": "risk",
+    "must": [
+      "只与她本人交流",
+      "祝福自然"
+    ],
+    "must_not": [
+      "提及付款人或“他”",
+      "提及购买/付款",
+      "主动提起巴黎之行的同行人"
+    ]
+  }
+}

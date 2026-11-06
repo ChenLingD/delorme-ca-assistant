@@ -1,0 +1,254 @@
+{
+ "case_id": "C34",
+ "version": "v3.1",
+ "model": "gemini:gemini-3.8-flash",
+ "risk": {
+  "level": "ok",
+  "flags": [],
+  "advice": ""
+ },
+ "candidates": [
+  {
+   "text": "沈女士，上次和您聊到的那批老手稿到了。外滩源沙龙在11月20日至22日有沧海百年特展的私享预览，首次展出Henri Delorme先生1920年代在上海的手绘图稿原件。若您近来得空，我来为您安排一个安静的时段。",
+   "strategy": "极简",
+   "note_for_ca": "字数最精炼，直接履约告知手稿展出，适合快速阅读。"
+  },
+  {
+   "text": "沈女士，您之前问起金珠吊坠上海浪纹的渊源，这次终于能看到出处了。沙龙在11月20日至22日办沧海百年特展预览，除了当年的图稿真迹，巴黎工坊的串线师也会在现场演示。环境雅致清静，想请您过来一边饮茶一边细看。",
+   "strategy": "走心",
+   "note_for_ca": "呼应她对海浪纹的喜爱与看手稿心愿，突出工艺与文化细节。"
+  },
+  {
+   "text": "沈女士，沧海百年特展的私享预览定在11月20日至22日。知道您偏好清静，周五至周日这三天里，您看哪天的时间相对合适？我来为您协调一个人少些、能静心细看的时段。",
+   "strategy": "推进",
+   "note_for_ca": "体贴其避开人流的偏好，给出具体日期选项，便于直接敲定行程。"
+  }
+ ],
+ "checks": [
+  {
+   "pass": true,
+   "hard": [],
+   "soft": [],
+   "length": 104
+  },
+  {
+   "pass": true,
+   "hard": [],
+   "soft": [],
+   "length": 102
+  },
+  {
+   "pass": true,
+   "hard": [],
+   "soft": [],
+   "length": 79
+  }
+ ],
+ "trace": {
+  "rounds": [
+   {
+    "rule_checks": [
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 104
+     },
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 102
+     },
+     {
+      "pass": false,
+      "hard": [
+       "擅自承诺（预留）：“为您留一个”不在 CA 提供的信息中"
+      ],
+      "soft": [],
+      "length": 93
+     }
+    ],
+    "critic": {
+     "reviews": [
+      {
+       "index": 1,
+       "pass": true,
+       "issues": []
+      },
+      {
+       "index": 2,
+       "pass": true,
+       "issues": []
+      },
+      {
+       "index": 3,
+       "pass": true,
+       "issues": []
+      }
+     ],
+     "set_issues": []
+    },
+    "set_issues": [],
+    "to_fix": {
+     "3": [
+      "擅自承诺（预留）：“为您留一个”不在 CA 提供的信息中"
+     ]
+    }
+   },
+   {
+    "rule_checks": [
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 104
+     },
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 102
+     },
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 79
+     }
+    ],
+    "critic": {
+     "reviews": [
+      {
+       "index": 1,
+       "pass": true,
+       "issues": []
+      },
+      {
+       "index": 2,
+       "pass": true,
+       "issues": []
+      },
+      {
+       "index": 3,
+       "pass": true,
+       "issues": []
+      }
+     ],
+     "set_issues": []
+    },
+    "set_issues": [],
+    "to_fix": {}
+   }
+  ],
+  "plan": {
+   "client_read": "沈女士是审美深厚、偏好海派历史与低调私密体验的核心藏家；此前她曾明确表达对1920年代手绘图稿的期待，此时正是履约沟通的最佳契机。",
+   "risk": {
+    "level": "ok",
+    "flags": [],
+    "advice": ""
+   },
+   "ca_commitments": [
+    "最好帮她约人少一点的时段"
+   ],
+   "usable_facts": [
+    "9月来店时提到想亲眼看1920年代上海的老图稿",
+    "收藏了多件沧海系列珍珠，对吊扣海浪纹样渊源很感兴趣",
+    "偏爱安静、古典、少人打扰的品鉴氛围",
+    "收藏近代老手稿与海派文化相关物件"
+   ],
+   "do_not_mention": [
+    "客户累计消费金额及“核心”客户等级",
+    "“名额有限、手慢无”等紧迫感营销用语",
+    "客户家庭私事（如母亲留下的老项链）"
+   ],
+   "products": [],
+   "unanswerable": "",
+   "slots": {
+    "极简": {
+     "切入点": "直接呼应9月对手稿的约定，言简意赅告知特展预览",
+     "唯一信息点": "11月20日至22日外滩源沙龙举行私享预览，首次展出Henri Delorme 1920年代手绘图稿原件"
+    },
+    "走心": {
+     "切入点": "从她钟爱的手绘海浪纹与沧海渊源切入，描绘现场的沉浸与工艺氛围",
+     "唯一信息点": "现场不仅有图稿真迹，还有巴黎工坊串线师演示，契合她对工艺底蕴与老手稿的共鸣"
+    },
+    "推进": {
+     "切入点": "体贴其不喜欢人多嘈杂的习惯，主动提出协调清静场次",
+     "唯一信息点": "询问她20日至22日哪天方便，由CA提前为她锁定白天人相对较少、更安静从容的时段"
+    }
+   }
+  },
+  "first_draft": [
+   {
+    "text": "沈女士，上次和您聊到的那批老手稿到了。外滩源沙龙在11月20日至22日有沧海百年特展的私享预览，首次展出Henri Delorme先生1920年代在上海的手绘图稿原件。若您近来得空，我来为您安排一个安静的时段。",
+    "strategy": "极简",
+    "note_for_ca": "字数最精炼，直接履约告知手稿展出，适合快速阅读。"
+   },
+   {
+    "text": "沈女士，您之前问起金珠吊坠上海浪纹的渊源，这次终于能看到出处了。沙龙在11月20日至22日办沧海百年特展预览，除了当年的图稿真迹，巴黎工坊的串线师也会在现场演示。环境雅致清静，想请您过来一边饮茶一边细看。",
+    "strategy": "走心",
+    "note_for_ca": "呼应她对海浪纹的喜爱与看手稿心愿，突出工艺与文化细节。"
+   },
+   {
+    "text": "沈女士，沧海百年特展的私享预览定在11月20日至22日。每场只有八位客人，我想特意为您留一个白天相对人少、更从容的时段。您看周五到周日这三天里，哪天的时间对您更合适，我提前帮您留好位置。",
+    "strategy": "推进",
+    "note_for_ca": "主动顾及其喜静偏好，明确给出3天区间以便敲定场次。"
+   }
+  ],
+  "seconds": 77.5,
+  "diversity_max_sim": 0.1527777777777778,
+  "calls": [
+   {
+    "requested": "gemini-3.8-flash",
+    "served": "gemini-3.8-flash",
+    "seconds": 14.8,
+    "attempt": 1,
+    "in_tokens": 6093,
+    "out_tokens": 534,
+    "reasoning_tokens": null,
+    "fingerprint": null
+   },
+   {
+    "requested": "gemini-3.8-flash",
+    "served": "gemini-3.8-flash",
+    "seconds": 5.4,
+    "attempt": 1,
+    "in_tokens": 5530,
+    "out_tokens": 400,
+    "reasoning_tokens": null,
+    "fingerprint": null
+   },
+   {
+    "requested": "gemini-3.8-flash",
+    "served": "gemini-3.8-flash",
+    "seconds": 30.7,
+    "attempt": 1,
+    "in_tokens": 5398,
+    "out_tokens": 102,
+    "reasoning_tokens": null,
+    "fingerprint": null
+   },
+   {
+    "requested": "gemini-3.8-flash",
+    "served": "gemini-3.8-flash",
+    "seconds": 9.9,
+    "attempt": 1,
+    "in_tokens": 5878,
+    "out_tokens": 136,
+    "reasoning_tokens": null,
+    "fingerprint": null
+   },
+   {
+    "requested": "gemini-3.8-flash",
+    "served": "gemini-3.8-flash",
+    "seconds": 16.8,
+    "attempt": 1,
+    "in_tokens": 5387,
+    "out_tokens": 102,
+    "reasoning_tokens": null,
+    "fingerprint": null
+   }
+  ]
+ }
+}

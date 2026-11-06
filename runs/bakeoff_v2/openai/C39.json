@@ -1,0 +1,248 @@
+{
+ "case_id": "C39",
+ "version": "v2",
+ "model": "openai:gpt-6.1-terra",
+ "risk": {
+  "level": "caution",
+  "flags": [
+   "客户希望带摄影师拍摄，门店拍摄需向品牌公关报备，CA 无权直接同意外部摄影。"
+  ],
+  "advice": "先回应她的拍摄问题，向品牌公关确认后再告知结果，不预设能否拍摄。"
+ },
+ "candidates": [
+  {
+   "text": "江女士，带摄影师拍摄的事，我先问问公关。",
+   "strategy": "极简",
+   "note_for_ca": "适合先简短回应拍摄问题"
+  },
+  {
+   "text": "江女士，想到您之前分享的珍珠叠戴笔记，这次特展里的上海珍珠手绘图稿，感觉您会喜欢。带摄影师拍摄的事，我得先向品牌公关确认一下。",
+   "strategy": "走心",
+   "note_for_ca": "用她的珍珠叠戴笔记切入，适合回应创作热情"
+  },
+  {
+   "text": "江女士，看到您想带摄影师来拍一篇分享了。我先向品牌公关确认一下能否带摄影师拍摄，确认后再告诉您。",
+   "strategy": "推进",
+   "note_for_ca": "适合说明下一步并等确认结果"
+  }
+ ],
+ "checks": [
+  {
+   "pass": true,
+   "hard": [],
+   "soft": [],
+   "length": 20
+  },
+  {
+   "pass": true,
+   "hard": [],
+   "soft": [],
+   "length": 63
+  },
+  {
+   "pass": true,
+   "hard": [],
+   "soft": [],
+   "length": 48
+  }
+ ],
+ "trace": {
+  "rounds": [
+   {
+    "rule_checks": [
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 20
+     },
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 52
+     },
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 48
+     }
+    ],
+    "critic": {
+     "reviews": [
+      {
+       "index": 1,
+       "pass": true,
+       "issues": []
+      },
+      {
+       "index": 2,
+       "pass": true,
+       "issues": []
+      },
+      {
+       "index": 3,
+       "pass": true,
+       "issues": []
+      }
+     ],
+     "set_issues": []
+    },
+    "set_issues": [
+     "候选 1 和 2 结尾相同（“先问问公关”）"
+    ],
+    "to_fix": {
+     "2": [
+      "候选 1 和 2 结尾相同（“先问问公关”）"
+     ]
+    }
+   },
+   {
+    "rule_checks": [
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 20
+     },
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 63
+     },
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 48
+     }
+    ],
+    "critic": {
+     "reviews": [
+      {
+       "index": 1,
+       "pass": true,
+       "issues": []
+      },
+      {
+       "index": 2,
+       "pass": true,
+       "issues": []
+      },
+      {
+       "index": 3,
+       "pass": true,
+       "issues": []
+      }
+     ],
+     "set_issues": []
+    },
+    "set_issues": [],
+    "to_fix": {}
+   }
+  ],
+  "plan": {
+   "client_read": "江女士喜欢珍珠与复古审美，也会分享自己的佩戴体验。她对特展邀约反应积极，目前正在询问能否带摄影师拍摄。",
+   "risk": {
+    "level": "caution",
+    "flags": [
+     "客户希望带摄影师拍摄，门店拍摄需向品牌公关报备，CA 无权直接同意外部摄影。"
+    ],
+    "advice": "先回应她的拍摄问题，向品牌公关确认后再告知结果，不预设能否拍摄。"
+   },
+   "ca_commitments": [
+    "拍摄需要问公关，想先回复她"
+   ],
+   "usable_facts": [
+    "客户对沧海·百年珍珠特展的邀约表示很感兴趣。",
+    "客户想带摄影师拍摄并发一篇分享。",
+    "客户曾发过一篇珍珠叠戴笔记。",
+    "客户喜欢胶片摄影和上海老建筑。"
+   ],
+   "do_not_mention": [
+    "客户消费金额、内部等级或标签",
+    "未经确认的拍摄许可或拒绝结论",
+    "未经确认的回复时间或门店安排"
+   ],
+   "products": [],
+   "slots": {
+    "极简": "先回应拍摄问题，说明需要向公关确认。",
+    "走心": "接住她想发一篇分享的想法，让她感到自己的创作意愿被理解，同时说明要向公关确认。",
+    "推进": "向品牌公关确认能否带摄影师拍摄，再把确认结果告诉她。"
+   }
+  },
+  "first_draft": [
+   {
+    "text": "江女士，带摄影师拍摄的事，我先问问公关。",
+    "strategy": "极简",
+    "note_for_ca": "适合先简短回应拍摄问题"
+   },
+   {
+    "text": "江女士，您之前那篇珍珠叠戴笔记我还记得，知道您想把这次特展也分享出来。能不能带摄影师拍摄，我先问问公关。",
+    "strategy": "走心",
+    "note_for_ca": "用珍珠叠戴笔记接住她的分享想法"
+   },
+   {
+    "text": "江女士，看到您想带摄影师来拍一篇分享了。我先向品牌公关确认一下能否带摄影师拍摄，确认后再告诉您。",
+    "strategy": "推进",
+    "note_for_ca": "适合说明下一步并等确认结果"
+   }
+  ],
+  "seconds": 33.3,
+  "diversity_max_sim": 0.15853658536585366,
+  "calls": [
+   {
+    "requested": "gpt-6.1-terra",
+    "served": "gpt-6.1-terra",
+    "seconds": 11.0,
+    "attempt": 1,
+    "in_tokens": 5558,
+    "out_tokens": 694,
+    "reasoning_tokens": 310,
+    "fingerprint": null
+   },
+   {
+    "requested": "gpt-6.1-terra",
+    "served": "gpt-6.1-terra",
+    "seconds": 6.2,
+    "attempt": 1,
+    "in_tokens": 4942,
+    "out_tokens": 296,
+    "reasoning_tokens": 68,
+    "fingerprint": null
+   },
+   {
+    "requested": "gpt-6.1-terra",
+    "served": "gpt-6.1-terra",
+    "seconds": 5.8,
+    "attempt": 1,
+    "in_tokens": 4782,
+    "out_tokens": 330,
+    "reasoning_tokens": 275,
+    "fingerprint": null
+   },
+   {
+    "requested": "gpt-6.1-terra",
+    "served": "gpt-6.1-terra",
+    "seconds": 5.5,
+    "attempt": 1,
+    "in_tokens": 5164,
+    "out_tokens": 314,
+    "reasoning_tokens": 209,
+    "fingerprint": null
+   },
+   {
+    "requested": "gpt-6.1-terra",
+    "served": "gpt-6.1-terra",
+    "seconds": 4.7,
+    "attempt": 1,
+    "in_tokens": 4787,
+    "out_tokens": 274,
+    "reasoning_tokens": 219,
+    "fingerprint": null
+   }
+  ]
+ }
+}

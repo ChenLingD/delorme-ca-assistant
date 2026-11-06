@@ -1,0 +1,339 @@
+{
+ "case_id": "C40",
+ "version": "v3.1",
+ "model": "gemini:gemini-3.8-flash",
+ "risk": {
+  "level": "caution",
+  "flags": [
+   "已连续婉拒前3次活动邀约",
+   "客户日常极忙且出差频繁"
+  ],
+  "advice": "把私宴作为提前报备的备选行程，语气轻松克制，绝不提及此前婉拒的经历，不制造出席压力。"
+ },
+ "candidates": [
+  {
+   "text": "宋女士，店里 1 月 23 日有个新春私宴，先和您同步一下时间。要是那天刚好在杭州、时间也对得上，随时跟我说一声。",
+   "strategy": "极简",
+   "note_for_ca": "轻量告知日程，完全不施压，适合对方极忙时快速浏览"
+  },
+  {
+   "text": "宋女士，年底各项目往往连轴转。店里 1 月 23 日办个小规模的新春私宴，主要是年前大家聚聚、喝杯茶。如果那会儿刚好能得空缓一缓，很想请您过来坐坐。",
+   "strategy": "走心",
+   "note_for_ca": "体谅其年底忙碌与爱茶习惯，把私宴作为放松小聚邀请"
+  },
+  {
+   "text": "宋女士，1 月 23 日店里的新春私宴定下了，当天现场可以预约刻字新春礼物。要是您对这类小聚感兴趣，我先把具体的安排发您看一眼。",
+   "strategy": "推进",
+   "note_for_ca": "以现场刻字礼物为切入点，通过询问是否发送安排来低负担推进。"
+  }
+ ],
+ "checks": [
+  {
+   "pass": true,
+   "hard": [],
+   "soft": [],
+   "length": 53
+  },
+  {
+   "pass": true,
+   "hard": [],
+   "soft": [],
+   "length": 70
+  },
+  {
+   "pass": true,
+   "hard": [],
+   "soft": [],
+   "length": 61
+  }
+ ],
+ "trace": {
+  "rounds": [
+   {
+    "rule_checks": [
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 53
+     },
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 70
+     },
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 64
+     }
+    ],
+    "critic": {
+     "reviews": [
+      {
+       "index": 1,
+       "pass": true,
+       "issues": []
+      },
+      {
+       "index": 2,
+       "pass": true,
+       "issues": []
+      },
+      {
+       "index": 3,
+       "pass": false,
+       "issues": [
+        "承诺性内容违规：在未获授权的情况下承诺“我帮您留个席位”（预留/席位属于手册第 5 条明确禁止工具自行添加的承诺性内容）。此外，活动资料明确标注“可现场预约刻字新春礼物”，此处写成“预约刻字新春礼物”容易引起赠送礼物的误解。建议改为：“要是那阵子您人在杭州也想过来，我把具体安排发您看看。”"
+       ]
+      }
+     ],
+     "set_issues": []
+    },
+    "set_issues": [],
+    "to_fix": {
+     "3": [
+      "承诺性内容违规：在未获授权的情况下承诺“我帮您留个席位”（预留/席位属于手册第 5 条明确禁止工具自行添加的承诺性内容）。此外，活动资料明确标注“可现场预约刻字新春礼物”，此处写成“预约刻字新春礼物”容易引起赠送礼物的误解。建议改为：“要是那阵子您人在杭州也想过来，我把具体安排发您看看。”"
+     ]
+    }
+   },
+   {
+    "rule_checks": [
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 53
+     },
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 70
+     },
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 59
+     }
+    ],
+    "critic": {
+     "reviews": [
+      {
+       "index": 1,
+       "pass": true,
+       "issues": []
+      },
+      {
+       "index": 2,
+       "pass": true,
+       "issues": []
+      },
+      {
+       "index": 3,
+       "pass": true,
+       "issues": [
+        "“提前和您报备一下时间”中“报备”一词偏公文与下属汇报语境，有轻微的下位感/卑微感，不符合品牌“平视、懂行的老朋友”语气，建议改为“提前和您说一声”或“提前把时间发您”。"
+       ]
+      }
+     ],
+     "set_issues": [
+      {
+       "indices": [
+        1,
+        3
+       ],
+       "issue": "第 1 条（极简）与第 3 条（推进）的切入点与句式结构严重雷同，均为“宣布私宴时间 + 提前同步/报备 + 要是在杭州且有时间/兴致 + 随时说/发您看”，三条分工拉得不够开。建议第 3 条更换切入点，例如直接结合活动资料中轻量的内容（如问宋女士是否对新春私宴的现场刻字或安排感兴趣，再发流程），给出更具体、差异化的推进动作，拉开与极简版的差距。"
+      }
+     ]
+    },
+    "set_issues": [
+     "第 1 条（极简）与第 3 条（推进）的切入点与句式结构严重雷同，均为“宣布私宴时间 + 提前同步/报备 + 要是在杭州且有时间/兴致 + 随时说/发您看”，三条分工拉得不够开。建议第 3 条更换切入点，例如直接结合活动资料中轻量的内容（如问宋女士是否对新春私宴的现场刻字或安排感兴趣，再发流程），给出更具体、差异化的推进动作，拉开与极简版的差距。"
+    ],
+    "to_fix": {
+     "3": [
+      "与其他候选雷同：第 1 条（极简）与第 3 条（推进）的切入点与句式结构严重雷同，均为“宣布私宴时间 + 提前同步/报备 + 要是在杭州且有时间/兴致 + 随时说/发您看”，三条分工拉得不够开。建议第 3 条更换切入点，例如直接结合活动资料中轻量的内容（如问宋女士是否对新春私宴的现场刻字或安排感兴趣，再发流程），给出更具体、差异化的推进动作，拉开与极简版的差距。"
+     ]
+    }
+   },
+   {
+    "rule_checks": [
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 53
+     },
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 70
+     },
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 61
+     }
+    ],
+    "critic": {
+     "reviews": [
+      {
+       "index": 1,
+       "pass": true,
+       "issues": []
+      },
+      {
+       "index": 2,
+       "pass": true,
+       "issues": []
+      },
+      {
+       "index": 3,
+       "pass": true,
+       "issues": []
+      }
+     ],
+     "set_issues": []
+    },
+    "set_issues": [],
+    "to_fix": {}
+   }
+  ],
+  "plan": {
+   "client_read": "宋女士是事务繁忙的高级合伙人律师，沟通利落、时间紧张但对品牌保持礼貌信任。目前她已连续婉拒三次活动邀请，本次邀约必须极致轻量、留足退路，切忌造成打扰或心理负担。",
+   "risk": {
+    "level": "caution",
+    "flags": [
+     "已连续婉拒前3次活动邀约",
+     "客户日常极忙且出差频繁"
+    ],
+    "advice": "把私宴作为提前报备的备选行程，语气轻松克制，绝不提及此前婉拒的经历，不制造出席压力。"
+   },
+   "ca_commitments": [],
+   "usable_facts": [
+    "平时工作出差密集、节奏很快",
+    "2022年相识至今已有四年多",
+    "喜爱干练利落的黄金作品",
+    "平时习惯在工作日晚间查阅回复"
+   ],
+   "do_not_mention": [
+    "提及前三次被婉拒的经历（如“知道您之前很忙没来”）",
+    "名额有限、席位紧张等紧迫感词汇",
+    "消费金额或合伙人内部标签",
+    "任何打折、买赠相关表述"
+   ],
+   "products": [],
+   "unanswerable": "",
+   "slots": {
+    "极简": {
+     "切入点": "直奔主题的轻量日程同步",
+     "唯一信息点": "仅同步 1 月 23 日新春私宴这一时间节点，完全不做展开与施压"
+    },
+    "走心": {
+     "切入点": "体谅其年底工作连轴转的节奏",
+     "唯一信息点": "将私宴定位为一个年前停下来喝杯茶、放松片刻的小聚"
+    },
+    "推进": {
+     "切入点": "结合活动特色提供具体安排选项",
+     "唯一信息点": "提及现场可预约刻字新春礼物，询问届时若在杭州是否有意向留个席位"
+    }
+   }
+  },
+  "first_draft": [
+   {
+    "text": "宋女士，店里 1 月 23 日有个新春私宴，先和您同步一下时间。要是那天刚好在杭州、时间也对得上，随时跟我说一声。",
+    "strategy": "极简",
+    "note_for_ca": "轻量告知日程，完全不施压，适合对方极忙时快速浏览"
+   },
+   {
+    "text": "宋女士，年底各项目往往连轴转。店里 1 月 23 日办个小规模的新春私宴，主要是年前大家聚聚、喝杯茶。如果那会儿刚好能得空缓一缓，很想请您过来坐坐。",
+    "strategy": "走心",
+    "note_for_ca": "体谅其年底忙碌与爱茶习惯，把私宴作为放松小聚邀请"
+   },
+   {
+    "text": "宋女士，店里定在 1 月 23 日办新春私宴，现场可以预约刻字新春礼物。先提前和您说一声，要是那阵子您人在杭州也想过来，我帮您留个席位。",
+    "strategy": "推进",
+    "note_for_ca": "给出具体特色与行动选项，适合想明确确认出席意向时选用"
+   }
+  ],
+  "seconds": 79.2,
+  "diversity_max_sim": 0.08163265306122448,
+  "calls": [
+   {
+    "requested": "gemini-3.8-flash",
+    "served": "gemini-3.8-flash",
+    "seconds": 12.1,
+    "attempt": 1,
+    "in_tokens": 5989,
+    "out_tokens": 494,
+    "reasoning_tokens": null,
+    "fingerprint": null
+   },
+   {
+    "requested": "gemini-3.8-flash",
+    "served": "gemini-3.8-flash",
+    "seconds": 11.3,
+    "attempt": 1,
+    "in_tokens": 5396,
+    "out_tokens": 313,
+    "reasoning_tokens": null,
+    "fingerprint": null
+   },
+   {
+    "requested": "gemini-3.8-flash",
+    "served": "gemini-3.8-flash",
+    "seconds": 3.8,
+    "attempt": 1,
+    "in_tokens": 5214,
+    "out_tokens": 190,
+    "reasoning_tokens": null,
+    "fingerprint": null
+   },
+   {
+    "requested": "gemini-3.8-flash",
+    "served": "gemini-3.8-flash",
+    "seconds": 7.6,
+    "attempt": 1,
+    "in_tokens": 5725,
+    "out_tokens": 119,
+    "reasoning_tokens": null,
+    "fingerprint": null
+   },
+   {
+    "requested": "gemini-3.8-flash",
+    "served": "gemini-3.8-flash",
+    "seconds": 23.4,
+    "attempt": 1,
+    "in_tokens": 5207,
+    "out_tokens": 331,
+    "reasoning_tokens": null,
+    "fingerprint": null
+   },
+   {
+    "requested": "gemini-3.8-flash",
+    "served": "gemini-3.8-flash",
+    "seconds": 10.4,
+    "attempt": 1,
+    "in_tokens": 5744,
+    "out_tokens": 113,
+    "reasoning_tokens": null,
+    "fingerprint": null
+   },
+   {
+    "requested": "gemini-3.8-flash",
+    "served": "gemini-3.8-flash",
+    "seconds": 10.5,
+    "attempt": 1,
+    "in_tokens": 5204,
+    "out_tokens": 102,
+    "reasoning_tokens": null,
+    "fingerprint": null
+   }
+  ]
+ }
+}

@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "未直接回应客户将升值作为购买前提的顾虑。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 4,
+    "naturalness": 4,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "工艺细节准确且克制，但应先坦诚说明不能承诺升值，再回到作品本身。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "没有回应客户以升值为购买前提的顾虑，直接转向到店看叠戴效果。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 5,
+    "brand_voice": 4,
+    "naturalness": 4,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "叠戴切入贴合客户，但应先回应投资顾虑，试戴也不宜让客户以为作品已确定到店。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "未回应升值顾虑，也没有回到晨星手镯本身，放在任何购买犹豫场景中都成立。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 1,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 1
+   },
+   "sendability": "不可用",
+   "comment": "虽然留了空间，但过于笼统，没有实质回应客户。"
+  }
+ ],
+ "set": {
+  "diversity": 4,
+  "risk_judgement": "正确",
+  "best_index": 1,
+  "must_coverage": "2/2",
+  "summary": "三条均未暗示投资回报或承诺到货，候选 1 和 2 也回到了作品本身，但候选 3 未做到后者。最主要的问题是三条都没有正面回应客户把升值作为购买前提的顾虑，应坦诚说明不能承诺升值，再自然转回作品。"
+ },
+ "_judge": "openai:gpt-6.1-terra"
+}

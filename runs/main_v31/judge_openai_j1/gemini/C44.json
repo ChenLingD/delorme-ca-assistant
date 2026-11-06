@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "“贵在工时”、微弧面逐颗手工密镶、严丝合缝及贴手度均缺少针对该戒指的依据。",
+    "context_failure": "无",
+    "must_not_hit": "编造了具体工艺细节；未编造钻石参数。"
+   },
+   "scores": {
+    "personalization": 2,
+    "brand_voice": 2,
+    "naturalness": 2,
+    "effectiveness": 2
+   },
+   "sendability": "不可用",
+   "comment": "有接住客户并尝试解释工艺价值，但价值论据未经证实，语气也偏辩解。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "以“单独买大一圈钻石戴不出来的气场”贬低另一种选择，容易被理解为贬低竞品。",
+    "privacy_violation": "无",
+    "fabrication": "“柱式弧度”、钻石全收在金属边缘内、贴合手形及不刮碰手镯均无明确依据。",
+    "context_failure": "无",
+    "must_not_hit": "贬低竞品，并以未经证实的细节解释产品；未编造钻石参数。"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 1,
+    "naturalness": 1,
+    "effectiveness": 1
+   },
+   "sendability": "不可用",
+   "comment": "叠戴经历用得上，但臆造产品表现并通过压低另一种选择来抬高自己。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "客户只说隔壁钻石大一圈，不能据此认定是单颗大钻；该戒指的“密镶”工艺也未明确给出。",
+    "context_failure": "给了客户选择空间，但没有解释戒指的具体工艺价值，对价格质疑回应不足。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 2
+   },
+   "sendability": "小改可发",
+   "comment": "叠戴邀约和自主选择较自然，需去掉对竞品的推断，并补充有依据的工艺价值。"
+  }
+ ],
+ "set": {
+  "diversity": 4,
+  "risk_judgement": "偏松",
+  "best_index": 3,
+  "must_coverage": "2/2",
+  "summary": "候选1形式上讲了工艺价值且未贬低竞品，候选3则较好地留出了选择空间，但仍需补充工艺价值。最主要的问题是风险判断和候选话术把未证实的密镶等细节当作事实，候选2还贬低了另一种选择。"
+ },
+ "_judge": "openai:gpt-6.1-terra"
+}

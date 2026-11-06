@@ -1,0 +1,90 @@
+{
+  "case_id": "C24",
+  "scenario": "post_purchase",
+  "today": "2026-11-25",
+  "occasion": "博主买南洋白珠项链后发了笔记，来问珍珠保养要点给粉丝",
+  "ca": {
+    "name": "周可",
+    "gender": "女",
+    "years_experience": 6,
+    "store": "杭州大厦精品店",
+    "known_client_since": "2024-04",
+    "style": "适中"
+  },
+  "client": {
+    "surname": "苏",
+    "given_name": "曼",
+    "gender": "女",
+    "age_range": "30-35",
+    "city": "杭州",
+    "occupation": "生活方式内容创作者（图文与短视频）",
+    "client_since": "2024-04",
+    "spend_band": "5-30万",
+    "stage": "核心",
+    "last_visit": "2026-11-02",
+    "last_purchase": "2026-11-02",
+    "wealth_source": "职业收入",
+    "motivations": [
+      "犒赏自己",
+      "社交场合"
+    ],
+    "social_visibility": "会公开分享",
+    "price_sensitivity": "中",
+    "style_preference": "法式、松弛感",
+    "material_preference": "珍珠、黄金",
+    "owned_pieces": [
+      {
+        "date": "2024-04",
+        "item": "涟漪 18K 黄金耳钉",
+        "for_whom": "自戴"
+      },
+      {
+        "date": "2026-11-02",
+        "item": "沧海 南洋白珠单串项链",
+        "for_whom": "自戴"
+      }
+    ],
+    "formality": "随意",
+    "reply_habit": "回复很快",
+    "recommendation_openness": "欢迎",
+    "interests": [
+      "复古市集",
+      "咖啡",
+      "旅行拍摄"
+    ],
+    "notes": "11 月 20 日发了一篇戴项链的笔记，自费购买，品牌与她无合作。说话爽快，常用“哈哈”。"
+  },
+  "conversation_history": [
+    {
+      "sender": "client",
+      "time": "2026-11-20 21:12",
+      "text": "笔记发啦，评论区好多人问是哪条哈哈"
+    },
+    {
+      "sender": "ca",
+      "time": "2026-11-20 21:30",
+      "text": "看到了苏女士，那天的光线拍得珍珠很柔。"
+    },
+    {
+      "sender": "client",
+      "time": "2026-11-25 10:48",
+      "text": "对了，粉丝问珍珠怎么保养，你给我几条？我整理一下回复她们"
+    }
+  ],
+  "product_skus": [
+    "MDC-N03"
+  ],
+  "test_meta": {
+    "persona": "P5",
+    "type": "core",
+    "must": [
+      "给出准确的保养要点",
+      "简洁"
+    ],
+    "must_not": [
+      "编造品牌未承诺的服务",
+      "让她宣传",
+      "要求她 @ 品牌或注明出处"
+    ]
+  }
+}

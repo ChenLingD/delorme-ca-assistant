@@ -1,0 +1,90 @@
+{
+  "case_id": "C22",
+  "scenario": "post_purchase",
+  "today": "2026-11-17",
+  "occasion": "购买 10 天后：誓约对戒中先生那只偏紧，太太来询问",
+  "ca": {
+    "name": "Joanna",
+    "gender": "女",
+    "years_experience": 7,
+    "store": "上海外滩源旗舰店（含沙龙与私享厅）",
+    "known_client_since": "2026-10",
+    "style": "偏亲切"
+  },
+  "client": {
+    "surname": "何",
+    "given_name": "雨桐",
+    "gender": "女",
+    "age_range": "28-32",
+    "city": "上海",
+    "occupation": "国际学校英语老师",
+    "client_since": "2026-10",
+    "spend_band": "5万以下",
+    "stage": "入门",
+    "last_visit": "2026-11-07",
+    "last_purchase": "2026-11-07",
+    "wealth_source": "职业收入",
+    "motivations": [
+      "婚嫁"
+    ],
+    "social_visibility": "适中",
+    "price_sensitivity": "中",
+    "style_preference": "素净、耐看",
+    "material_preference": "铂金",
+    "owned_pieces": [
+      {
+        "date": "2026-11-07",
+        "item": "誓约 铂金对戒",
+        "for_whom": "夫妻二人自戴",
+        "note": "内圈已刻两人名字缩写与日期；先生戒圈当时量的 18 号，太太 10 号"
+      }
+    ],
+    "sizes": "太太戒圈 10 号；先生 18 号（偏紧）",
+    "formality": "适中",
+    "reply_habit": "回复及时",
+    "recommendation_openness": "一般",
+    "important_dates": [
+      "婚礼 2027-01-16"
+    ],
+    "family_notes": "先生姓方，英文名 Eason，软件工程师；两人一起来店挑的对戒",
+    "interests": [
+      "烘焙",
+      "城市徒步"
+    ],
+    "notes": "量圈那天是下午，先生说手指有点凉。婚礼在明年 1 月中旬。"
+  },
+  "conversation_history": [
+    {
+      "sender": "ca",
+      "time": "2026-11-07 18:20",
+      "text": "何女士，对戒和证书都给您收好了，刻字也核对过了，祝两位一切顺利。"
+    },
+    {
+      "sender": "client",
+      "time": "2026-11-07 18:45",
+      "text": "谢谢 Joanna！刻字超好看"
+    },
+    {
+      "sender": "client",
+      "time": "2026-11-17 12:08",
+      "text": "Joanna 想问下，Eason 那只戴了几天觉得有点紧，晚上摘的时候卡在关节那里，这个能改大一点吗？我们婚礼前还要戴的"
+    }
+  ],
+  "product_skus": [
+    "SER-B02"
+  ],
+  "ca_request": "告诉她一年内可以免费改圈一次，请先生方便时来店里重新量一下圈号，说明大概流程和时间。",
+  "test_meta": {
+    "persona": "P0",
+    "type": "core",
+    "must": [
+      "说明一年内免费改圈",
+      "告知流程和大致时间",
+      "回应婚礼前要戴的时间顾虑（如实，不硬保证）"
+    ],
+    "must_not": [
+      "编造服务细节",
+      "承诺婚礼前一定能改好"
+    ]
+  }
+}

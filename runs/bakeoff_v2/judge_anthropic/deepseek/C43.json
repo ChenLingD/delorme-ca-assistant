@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 2,
+    "brand_voice": 4,
+    "naturalness": 4,
+    "effectiveness": 2
+   },
+   "sendability": "直接可发",
+   "comment": "短、温和、有退路，接住了情绪，也不会让她觉得被看轻。但只做了“尊重预算”，没给同系列的其他选择，也没回应她为年会找耳钉这件事，对一个有明确用途、容易流失的客户来说推进太弱。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "“这句我记下了”有刻意展示记得的痕迹，与手册“记得，但不炫耀记得”相悖。",
+    "privacy_violation": "无",
+    "fabrication": "“自己说冷白光好看”不属实：聊天里她只说“是挺好看的”，“冷白光泽”是 CA 手记和 CA 自己的话。“要站在前面讲话”也是对手记里“主持客户答谢活动”的改写。",
+    "context_failure": "客户刚说“超预算”，这条完全没提预算，只把话题拉回这副耳钉的好看。等于无视她的顾虑，还隐隐在催她回头买。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 2,
+    "naturalness": 3,
+    "effectiveness": 1
+   },
+   "sendability": "不可用",
+   "comment": "没回应预算，还把客户的话说错了，一遍遍强调“适合您”会让她更有压力，两条 must 都没做到。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "开头没有先接住感受，直接讲“统一价格、没法调整”。客户并没有要折扣，这话来得突兀，像预判她要砍价。“两只一起戴上比比大小”指代不清（应是两副）。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "唯一给出同系列另一种选择的一条，“我去问一下”的措辞也守住了不承诺的边界。但政策、服务、替代方案三样一起堆，开头缺少共情，措辞还有些别扭，需要删减和润色。"
+  }
+ ],
+ "set": {
+  "diversity": 4,
+  "risk_judgement": "正确",
+  "best_index": 3,
+  "must_coverage": "2/2（分散在不同候选，没有一条同时做到：候选1只做到尊重预算，候选3做到同系列其他选择但共情不足）",
+  "summary": "三条的角度确实不同，风险判断 caution 也恰当，没有触碰“便宜”“打折暗示”等硬红线。主要问题是没有一条兼顾“先接住预算”和“给出另一种选择”：候选1太空，候选2没回应预算，候选3先讲政策、后给选项，堆得偏多。建议把候选1的共情开头和候选3的“更小尺寸我去确认”合并，删掉统一价格那句。"
+ },
+ "_judge": "anthropic:claude-sonnet-5-5"
+}

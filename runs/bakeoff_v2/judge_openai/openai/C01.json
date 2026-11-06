@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 5,
+    "naturalness": 5,
+    "effectiveness": 5
+   },
+   "sendability": "直接可发",
+   "comment": "简短得体，以生日祝福为目的，也不要求客户回复。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "昆曲是客户真实兴趣，但“我想送上一句祝福”略显铺垫，可再精简。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "客户很少回复且不喜欢频繁联系，生日问候后追问茶的喜好，增加了不必要的回复负担。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 2
+   },
+   "sendability": "小改可发",
+   "comment": "茶是客户真实兴趣，但生日祝福无需借此开启问答，删去追问更合适。"
+  }
+ ],
+ "set": {
+  "diversity": 4,
+  "risk_judgement": "正确",
+  "best_index": 1,
+  "must_coverage": "1/2",
+  "summary": "三条均未带产品，风险判断也正确识别了客户的联系偏好。候选1最符合极简要求；候选2略显铺垫，候选3则增加了不必要的回复负担，因此整组未完全做到极简克制。"
+ },
+ "_judge": "openai:gpt-6.1-terra"
+}

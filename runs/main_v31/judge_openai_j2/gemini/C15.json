@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "轻微：客户虽接受售后信息，但没有提出清洁或检测需求；主动邀请到店缺乏必要性。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 3,
+    "naturalness": 4,
+    "effectiveness": 2
+   },
+   "sendability": "不可用",
+   "comment": "引用了真实藏品，但不宜借常规保养主动邀约；有具体售后需要时再联系。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "轻微：目录未说明耳钉为天然珍珠，也未提供软布擦拭能一直保持珠光的依据。",
+    "context_failure": "轻微：客户没有提出保养问题，此次主动发送建议的必要性不足。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 3
+   },
+   "sendability": "不可用",
+   "comment": "没有推销或邀约，是三条中最轻的一条，但应避免未经确认的材质表述和效果保证，也不宜无必要主动发送。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "严重：未经 CA 授权，承诺现场处理搭扣微调和超声波清洁。",
+    "privacy_violation": "无",
+    "fabrication": "严重：输入没有确认该手链可做超声波清洁、搭扣可现场微调，或门店能现场完成处理。",
+    "context_failure": "轻微：客户未反映搭扣或清洁问题，主动邀约缺乏必要性。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 2,
+    "naturalness": 3,
+    "effectiveness": 1
+   },
+   "sendability": "不可用",
+   "comment": "虽然用到了真实藏品，但自行承诺具体处理方式和现场服务，不能发送。"
+  }
+ ],
+ "set": {
+  "diversity": 2,
+  "risk_judgement": "正确",
+  "best_index": 2,
+  "must_coverage": "1/1",
+  "summary": "工具正确识别了客户拒绝推销的意愿，三条均未直接推荐产品，但都以已有藏品保养为切入，缺乏必要联系的依据。候选2相对最克制，候选3则额外出现未经授权的服务承诺；当前建议不发送。"
+ },
+ "_judge": "openai:gpt-6.1-terra"
+}

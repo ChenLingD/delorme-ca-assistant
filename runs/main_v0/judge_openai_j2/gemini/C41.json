@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "严重：称私宴“席位比较有限”，无依据地制造稀缺感；“我也很有印象”也不符合自然记得、不刻意宣布的原则。",
+    "privacy_violation": "无",
+    "fabrication": "严重：活动资料没有说明席位有限。",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 2,
+    "naturalness": 3,
+    "effectiveness": 2
+   },
+   "sendability": "不可用",
+   "comment": "接住了上次同行朋友的话题，但不应虚构席位紧张，也不必强调自己有印象。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "严重：CA 尚未询问店经理，却称“正在跟店经理沟通”；“稍后”“第一时间”也作出了未经授权的回复时效承诺。",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 2,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "回应了携伴问题，但应改为“我去跟店经理确认一下，有消息告诉您”，去掉不实进度和时效承诺。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "严重：“今天”确认及“马上回复”是 CA 未授权的具体时间和时效承诺。",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 4,
+    "naturalness": 4,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "语气轻松自然，去掉“今天”和“马上”后即可更稳妥地回应。"
+  }
+ ],
+ "set": {
+  "diversity": 2,
+  "risk_judgement": "偏松",
+  "best_index": 3,
+  "must_coverage": "2/2",
+  "summary": "三条都回应了携伴问题并表示要确认，也未直接答应，但切入方式相近。整体风险判断偏松：候选 1 虚构席位有限，候选 2 和 3 分别存在不实沟通进度或未经授权的时效承诺。"
+ },
+ "_judge": "openai:gpt-6.1-terra"
+}

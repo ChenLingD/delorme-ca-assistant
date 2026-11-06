@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 5,
+    "naturalness": 5,
+    "effectiveness": 5
+   },
+   "sendability": "直接可发",
+   "comment": "接住了客户想分享的热情，也清楚说明需向公关确认，没有擅自答应。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "严重：活动资料未说明三楼是老洋房或其光线适合拍摄；“今天稍晚给您答复”也是未经 CA 授权的具体时间承诺。",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 2,
+    "naturalness": 3,
+    "effectiveness": 2
+   },
+   "sendability": "小改可发",
+   "comment": "语气积极，但需删去未经证实的场地和光线描述，以及自行作出的答复时间承诺。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "轻微：直接说协调拍摄时间段，容易让客户以为带摄影师已基本可行，而没有明确先确认是否允许。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "有回应客户的拍摄意向，但应先确认能否带摄影师，而不是直接协调具体时段。"
+  }
+ ],
+ "set": {
+  "diversity": 2,
+  "risk_judgement": "偏松",
+  "best_index": 1,
+  "must_coverage": "3/3",
+  "summary": "候选 1 同时做到了不擅自承诺、说明需确认并接住客户热情，是最适合发送的一条。整体风险判断偏松：候选 2 编造场地及光线信息并自行承诺答复时间，候选 3 则容易让人误以为拍摄已基本获准。"
+ },
+ "_judge": "openai:gpt-6.1-terra"
+}

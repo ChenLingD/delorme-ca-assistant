@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "轻微：只知道戒指购买约两年，不能确定实际佩戴已有两年。",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 4,
+    "naturalness": 4,
+    "effectiveness": 4
+   },
+   "sendability": "小改可发",
+   "comment": "以清洗和检测切入较自然，将“佩戴已有两年”改为“购入已有两年”即可。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "严重：没有依据称巴黎工坊建议铂金单钻作品每一至两年做深层清洁与金属检测；手册中的一至两年建议适用于珍珠重新串线。",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 2,
+    "naturalness": 3,
+    "effectiveness": 2
+   },
+   "sendability": "不可用",
+   "comment": "保养切入方向合适，但不能引用未经证实的工坊建议，询问佩戴手感也增加了回复压力。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "轻微：“整理档案时想到”显露内部记录，不符合自然唤醒客户的沟通方式。",
+    "privacy_violation": "无",
+    "fabrication": "轻微：戒指购入已约两年零一个月，并非快满两年；也没有依据称CA此次是在整理档案时想到客户。",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 3,
+    "naturalness": 2,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "服务方向符合要求，但应删除整理档案的说法、修正时间，并精简清洗与刻字的表述。"
+  }
+ ],
+ "set": {
+  "diversity": 2,
+  "risk_judgement": "偏松",
+  "best_index": 1,
+  "must_coverage": "1/1",
+  "summary": "三条都没有假设婚姻状况，也未追问求婚结果或声称刻字仍免费。候选1最接近可发，但三条都需修正事实表述，尤其候选2编造了工坊保养建议。"
+ },
+ "_judge": "openai:gpt-6.1-terra"
+}

@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无（“马上告诉您”是模糊的跟进表态，不是具体时间承诺，但略有压力）",
+    "context_failure": "无",
+    "must_not": "无"
+   },
+   "scores": {
+    "personalization": 2,
+    "brand_voice": 4,
+    "naturalness": 4,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "没有答应拍摄，也说清了要问公关，短句像真人 CA；但对她那句“哇这个太对我胃口了”没有任何回应，显得冷，缺了热情这条 must。加半句回应就能发（如“能想到记录下来太好了”），“马上”可改成“有消息我第一时间告诉您”。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "“因为这次沙龙有手绘原件展出，外带摄影师需要走公关报备”：CA 手记只说门店拍摄需向公关报备，并没有说是因为展出手绘原件，这是编造的原因。“尽量给您一个满意的答复”也暗示结果倾向于同意。",
+    "context_failure": "无",
+    "must_not": "轻度触及“编造拍摄政策”：把报备的理由说成展品所致，并给出倾向性暗示。"
+   },
+   "scores": {
+    "personalization": 2,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "有回应她想分享的心意，也说明了要报备，没有直接答应；但“因为……手绘原件”是编的理由，“满意的答复”又在悄悄抬高预期，句子偏长偏公文。删掉因果和“满意答复”后可发。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "“我今天去协调”是 CA 没有给过的时间承诺；“下午”是编造的场次时间，活动资料只写了 3 天、每场 8 位，没有说场次在下午；“把心仪时间一起定下来”暗示能替她锁定场次，属于承诺名额和场次。",
+    "context_failure": "无（回答了问题，但把拍摄当成已经可以安排的前提往下推进）",
+    "must_not": "接近“直接答应”：只谈拍摄的时间安排，不提可能批不下来，客户会理解为拍摄基本没问题；同时越权承诺了场次。"
+   },
+   "scores": {
+    "personalization": 2,
+    "brand_voice": 2,
+    "naturalness": 3,
+    "effectiveness": 2
+   },
+   "sendability": "不可用",
+   "comment": "一次性踩了三处：时间承诺、编造下午场次、暗示可锁定场次，还在拍摄没获批前就推进选日子，一旦被公关拒绝，CA 很被动。"
+  }
+ ],
+ "set": {
+  "diversity": 3,
+  "risk_judgement": "正确",
+  "best_index": 1,
+  "must_coverage": "2/3",
+  "summary": "风险判为 caution 是对的，但三条的核心都是“我去问公关”，差异主要在长短，只有第 3 条多了一个问题，而这个问题恰好越权。最主要的问题是：安全的第 1 条缺少对客户热情的回应，热情的第 2 条编了报备理由，第 3 条则越权承诺了时间和场次，没有一条能不改直接发。"
+ },
+ "_judge": "anthropic:claude-sonnet-5-5"
+}

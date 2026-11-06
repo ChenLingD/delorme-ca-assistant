@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "轻微：没有回应客户对婚礼前使用的顾虑；“几周”也不足以帮助客户判断时间。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 4,
+    "naturalness": 4,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "免费改圈和复测已说明，但应补充通常约4—8周，并提示需确认具体时间节点。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "严重：未经确认就保证婚礼前来得及，作出了不受支持的时间承诺。",
+    "privacy_violation": "无",
+    "fabrication": "严重：自行承诺完整保护刻字，将通常4—8周缩短为4—6周，并保证婚礼前拿到，均无依据。",
+    "context_failure": "严重：用未经核实的保证回应婚期顾虑，可能误导客户安排婚礼用戒。",
+    "must_not_hit": "严重：编造服务细节，并承诺婚礼前一定能改好。"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 2,
+    "naturalness": 3,
+    "effectiveness": 1
+   },
+   "sendability": "不可用",
+   "comment": "虽然留意到刻字和婚期，但靠未经证实的承诺安抚客户，风险很高。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "轻微：“工坊手工调整”的具体操作方式未获证实，应删除或先确认。",
+    "context_failure": "无",
+    "must_not_hit": "轻微：加入了未经证实的改圈操作细节。"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 4
+   },
+   "sendability": "小改可发",
+   "comment": "免费服务、复测、送工坊和通常周期都有涉及，也照顾了婚期；删去“手工调整”，并将二选一追问改得更从容即可。"
+  }
+ ],
+ "set": {
+  "diversity": 2,
+  "risk_judgement": "偏松",
+  "best_index": 3,
+  "must_coverage": "3/3",
+  "summary": "候选3基本覆盖全部必备信息，是最接近可用的一条，但仍需删除未经证实的操作细节。候选2对刻字、工期和婚礼前取回作出无依据的承诺，风险判断没有充分指出这一严重问题。"
+ },
+ "_judge": "openai:gpt-6.1-terra"
+}

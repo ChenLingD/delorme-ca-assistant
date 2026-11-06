@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "手册提到沧海金珠的香槟色，但未提供金珠吊坠这一具体款式的信息，需核实。",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 4,
+    "naturalness": 4,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "颜色细节有手册依据，也贴近她不喜欢太闪的偏好，但推荐理由没有明确联系她已有的珍珠耳钉。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "未提供沧海白珠短链的产品资料，手工穿线及佩戴时落在锁骨处的描述也缺乏依据。",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 2,
+    "naturalness": 2,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "结合了她说过的珍珠让人心静和已有耳钉，但措辞偏满，产品细节需要核实。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "未提供沧海白珠细手链的产品资料，珠光和佩戴轻巧的描述也需核实。",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 4,
+    "naturalness": 4,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "提议先看上手图自然且有退路，但缺少与她已有作品或具体偏好相连的明确推荐理由。"
+  }
+ ],
+ "set": {
+  "diversity": 3,
+  "risk_judgement": "正确",
+  "best_index": 3,
+  "must_coverage": "1/1",
+  "summary": "三条都围绕叶女士的珍珠偏好推荐，且没有提及付款人或预算来源；候选3的交流方式最自然，但仍需补足个性化理由。主要问题是三款具体作品及部分细节均缺少产品资料支持，核实后才能发送。"
+ },
+ "_judge": "openai:gpt-6.1-terra"
+}

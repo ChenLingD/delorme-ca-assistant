@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无。回答了拍摄问题，但完全没接她“太对我胃口了”的兴奋，情绪上偏冷。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 1,
+    "brand_voice": 4,
+    "naturalness": 4,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "不承诺、说清要问公关，红线干净；但只剩一个“等”字，没接住她的热情，建议加半句回应她的期待。“马上回您”也略带时效承诺，改成“有消息就告诉您”更稳。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无。图稿原件、1920 年代上海、首次公开均来自活动资料；胶片、老建筑来自档案兴趣。",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 4,
+    "naturalness": 4,
+    "effectiveness": 4
+   },
+   "sendability": "直接可发",
+   "comment": "用她的胶片与老建筑兴趣接住热情，同时明确拍摄要先问公关、不答应也不推托，是三条里最稳的。小瑕疵：图稿信息与上一条邀请有重复，“看到就想到您”略带套话。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "轻微：“三天都有场次”是从日期和“每场 8 位”推断的，资料没有逐日列出场次；“您看哪天方便”也可能被理解为场次/名额已可选，而拍摄尚未确认。",
+    "context_failure": "无。但重复了上一条已发过的日期、人数等信息。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 2,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "想把场次选择问出去，思路对；但像把通知再发一遍，缺少温度，也有隐含锁定名额的风险。“我去问了公关”时态含糊，易被读成已经问过，应改为“我去问问公关”。"
+  }
+ ],
+ "set": {
+  "diversity": 3,
+  "risk_judgement": "正确",
+  "best_index": 2,
+  "must_coverage": "3/3（整组：三条都不擅自承诺、都说明需确认；候选 2 同时保住了热情，候选 1、3 在热情上偏弱）",
+  "summary": "风险判断 caution 恰当，三条都没有编造拍摄政策或直接答应，红线表现干净。主要问题是三条都以“去问公关再回您”收尾，差异主要在是否带情绪和是否带信息；候选 1 偏冷，候选 3 偏通知式，只有候选 2 做到既稳又有温度。"
+ },
+ "_judge": "anthropic:claude-sonnet-5-5"
+}

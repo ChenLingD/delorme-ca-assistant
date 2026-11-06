@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 4,
+    "naturalness": 4,
+    "effectiveness": 4
+   },
+   "sendability": "小改可发",
+   "comment": "道歉具体，也承认了后续未处理好；但略长，“不是来推荐作品”可删，避免刻意强调销售。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 5,
+    "naturalness": 5,
+    "effectiveness": 5
+   },
+   "sendability": "直接可发",
+   "comment": "简短承接客户被轻视的感受，真诚道歉并留有回复空间，符合此次联系的目的。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 4,
+    "naturalness": 3,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "有倾听意愿，但“把不满说完”可能让客户觉得需要重述委屈，“我不追问”也略显刻意。"
+  }
+ ],
+ "set": {
+  "diversity": 2,
+  "risk_judgement": "正确",
+  "best_index": 2,
+  "must_coverage": "2/2",
+  "summary": "三条都先处理未解决的伤害，没有推销或重提配额细节，hold 判断及不追发的提醒恰当。主要问题是三条均围绕同一种道歉切入，差异有限，候选 3 还可能给客户重述不满的压力。"
+ },
+ "_judge": "openai:gpt-6.1-terra"
+}

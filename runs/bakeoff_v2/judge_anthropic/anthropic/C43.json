@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 2,
+    "brand_voice": 4,
+    "naturalness": 4,
+    "effectiveness": 3
+   },
+   "sendability": "直接可发",
+   "comment": "先接住感受、短而自然，不辩解也不让客户觉得被看轻；但只做到尊重预算，没有给出同系列的其他选择，也没推进，作为第一条回复偏单薄。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "轻微：把年会和答谢活动说成“年会后还要主持”，先后顺序档案里并未写明；“我当时就觉得和这两种场合都合适”是替 CA 补的当时想法",
+    "context_failure": "客户明确说 2.6 万超预算，这条完全没回应预算，反而又夸一遍她已说超预算的那款，等于没听见她的话",
+    "must_not_hit": "无直接触犯，但没有做到“尊重预算”和“同一设计语言的其他选择”两条 must，有让客户觉得被忽视的风险"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 1
+   },
+   "sendability": "不可用",
+   "comment": "对她场合需求的记忆用得很好，但答非所问，客户刚说超预算就继续强化同一件，像在推销，必须重写。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "客户并没有提折扣，却先说“价格全球统一，不做调整，这点先跟您说明白”，像预设她在讲价，语气偏生硬、有说教感，可能让她觉得被当成砍价的人；“值得等一等”也与她 12 月中就要用的时间点不太贴",
+    "must_not_hit": "无明确触犯，但开头那句政策声明有让客户觉得被看轻的风险"
+   },
+   "scores": {
+    "personalization": 2,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "唯一提出继续找同系列其他尺寸或戴法的候选，方向对；但主动声明不打折既多余又生硬，“别的尺寸或戴法”也没有具体内容，删掉政策句、写得具体些才能发。"
+  }
+ ],
+ "set": {
+  "diversity": 3,
+  "risk_judgement": "正确",
+  "best_index": 3,
+  "must_coverage": "1/2",
+  "summary": "三条在角度和篇幅上有区别，但真正做到“尊重预算”的只有候选 1，对“同一设计语言的其他选择”只有候选 3 隐约提到，没有一条给出具体可选项（如更小尺寸、同系列其他款）。最大问题是候选 2 无视预算异议，候选 3 在客户未提折扣时主动强调不打折，语气偏硬；候选 3 去掉政策句并补上具体替代方向后最可用。"
+ },
+ "_judge": "anthropic:claude-sonnet-5-5"
+}

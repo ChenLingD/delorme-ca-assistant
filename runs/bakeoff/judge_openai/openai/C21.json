@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "提出检查和免费抛光，但未交代处理时间。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 4,
+    "naturalness": 4,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "回应了两周就出现划痕的困扰，但方案偏笼统，需补充预计处理时间。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 5,
+    "brand_voice": 5,
+    "naturalness": 4,
+    "effectiveness": 5
+   },
+   "sendability": "直接可发",
+   "comment": "接住了客户对质量的担忧，说明免费抛光和预计时间，也保留了检查后的判断空间。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "提出免费检查、抛光和取件，但未交代抛光处理时间。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 4,
+    "naturalness": 5,
+    "effectiveness": 4
+   },
+   "sendability": "小改可发",
+   "comment": "语气自然，上门取件也体贴，但应补充预计抛光时间及以检查结果为准。"
+  }
+ ],
+ "set": {
+  "diversity": 3,
+  "risk_judgement": "正确",
+  "best_index": 2,
+  "must_coverage": "3/3",
+  "summary": "候选2完整覆盖安抚、免费抛光及预计时间，风险提醒也恰当。主要问题是候选1和3都未交代处理时间，三条整体切入方式也较相近。"
+ },
+ "_judge": "openai:gpt-6.1-terra"
+}

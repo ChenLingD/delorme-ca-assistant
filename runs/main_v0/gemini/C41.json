@@ -1,0 +1,63 @@
+{
+ "case_id": "C41",
+ "version": "v0",
+ "model": "gemini:gemini-3.8-flash",
+ "risk": {
+  "level": "ok",
+  "flags": [],
+  "advice": ""
+ },
+ "candidates": [
+  {
+   "text": "温小姐，上次陪您一起来的那位朋友我也很有印象。因为这次私宴席位比较有限，我先去跟店经理确认一下携伴名额，一有准信就告诉您。",
+   "strategy": "自然接住客户话题，提到对闺蜜有印象显亲近，同时明确需要向店经理确认名额，不提前许诺。",
+   "note_for_ca": "既回应了客户对朋友的看重，又严格遵守了名额确认流程，给后续留出空间。"
+  },
+  {
+   "text": "很高兴您愿意带朋友一起来。这次新春私宴的名额安排我正在跟店经理沟通，稍后确认好携伴的细节第一时间发给您。",
+   "strategy": "轻快真诚，先对客户的提议表示欢迎，再合理解释正在确认中，节奏自然。",
+   "note_for_ca": "态度温和友好，符合 Amber 亲切的风格，且未作任何确定性承诺。"
+  },
+  {
+   "text": "温小姐，有朋友陪您一起肯定更热闹。私宴的席位安排我今天跟店经理确认一下，有结果马上回复您。",
+   "strategy": "简短直接，聚焦于人情温度与确认动作，短句交流无压力。",
+   "note_for_ca": "微信感强，适合年轻、回复随意的客户，避免冗长。"
+  }
+ ],
+ "checks": [
+  {
+   "pass": true,
+   "hard": [],
+   "soft": [],
+   "length": 61
+  },
+  {
+   "pass": true,
+   "hard": [],
+   "soft": [],
+   "length": 52
+  },
+  {
+   "pass": true,
+   "hard": [],
+   "soft": [],
+   "length": 45
+  }
+ ],
+ "trace": {
+  "seconds": 8.2,
+  "diversity_max_sim": 0.10714285714285714,
+  "calls": [
+   {
+    "requested": "gemini-3.8-flash",
+    "served": "gemini-3.8-flash",
+    "seconds": 8.2,
+    "attempt": 1,
+    "in_tokens": 3007,
+    "out_tokens": 345,
+    "reasoning_tokens": null,
+    "fingerprint": null
+   }
+  ]
+ }
+}

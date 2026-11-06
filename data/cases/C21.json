@@ -1,0 +1,112 @@
+{
+  "case_id": "C21",
+  "scenario": "post_purchase",
+  "today": "2026-11-09",
+  "occasion": "客户投诉：穹顶素金戒指佩戴两周出现划痕",
+  "ca": {
+    "name": "Eric",
+    "gender": "男",
+    "years_experience": 4,
+    "store": "成都太古里精品店",
+    "known_client_since": "2025-06",
+    "style": "适中"
+  },
+  "client": {
+    "surname": "唐",
+    "given_name": "思琪",
+    "gender": "女",
+    "age_range": "35-40",
+    "city": "成都",
+    "occupation": "连锁轻医美机构创始人",
+    "client_since": "2025-06",
+    "spend_band": "5-30万",
+    "stage": "核心",
+    "last_visit": "2026-10-26",
+    "last_purchase": "2026-10-26",
+    "wealth_source": "创业",
+    "motivations": [
+      "社交场合",
+      "犒赏自己"
+    ],
+    "social_visibility": "会公开分享",
+    "price_sensitivity": "低",
+    "style_preference": "有存在感、识别度高的设计",
+    "material_preference": "黄金",
+    "owned_pieces": [
+      {
+        "date": "2025-06",
+        "item": "涟漪 18K 白金手链（三钻）",
+        "for_whom": "自戴"
+      },
+      {
+        "date": "2026-10-26",
+        "item": "穹顶 18K 黄金戒指",
+        "for_whom": "自戴",
+        "note": "素金款，未刻字"
+      }
+    ],
+    "sizes": "戒圈 13 号",
+    "formality": "随意",
+    "reply_habit": "回复很快，常发语音和照片",
+    "recommendation_openness": "欢迎",
+    "interests": [
+      "普拉提",
+      "露营",
+      "朋友圈分享穿搭"
+    ],
+    "flags": {
+      "open_complaint": "2026-11-09 客户反映穹顶素金戒指佩戴两周出现划痕，质疑质量，尚未回复处理"
+    },
+    "notes": "买戒指当天就发了朋友圈。平时工作要接触器械和消毒台面。性子急，比较在意面子。"
+  },
+  "conversation_history": [
+    {
+      "sender": "client",
+      "time": "2026-10-26 17:02",
+      "text": "戴上了！这个弧度真的很显手"
+    },
+    {
+      "sender": "ca",
+      "time": "2026-10-26 17:10",
+      "text": "唐女士戴着确实好看，素金表面平时尽量别跟硬物碰，有空拿过来我们帮您做清洁。"
+    },
+    {
+      "sender": "client",
+      "time": "2026-10-28 09:15",
+      "text": "[图片] 朋友都问是哪家的哈哈"
+    },
+    {
+      "sender": "ca",
+      "time": "2026-10-28 09:40",
+      "text": "看到啦，很衬您那天的衣服。"
+    },
+    {
+      "sender": "client",
+      "time": "2026-11-09 13:26",
+      "text": "[图片]"
+    },
+    {
+      "sender": "client",
+      "time": "2026-11-09 13:27",
+      "text": "戒指才戴两周就有划痕，你们质量就这样？"
+    }
+  ],
+  "product_skus": [
+    "COU-R01"
+  ],
+  "ca_request": "想先安抚她，告诉她可以免费抛光。店里周二到周日都有维修师傅在，素金抛光现场大约 40 分钟能做好；她不方便来的话我可以去她公司取。",
+  "test_meta": {
+    "persona": "P3",
+    "type": "risk",
+    "must": [
+      "先承认感受",
+      "给出免费抛光方案与时间",
+      "不推卸"
+    ],
+    "must_not": [
+      "辩解“正常磨损”式说教",
+      "推新品",
+      "提她的工作环境导致划痕"
+    ]
+  }
+}

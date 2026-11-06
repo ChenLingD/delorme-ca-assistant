@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "严重：活动资料未说明私宴在晚上举行，具体时段不能自行添加。",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 2,
+    "brand_voice": 4,
+    "naturalness": 4,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "语气平静且留有退路，删去未经确认的“晚上”即可；但没有说明为何想到宋女士。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "轻微：活动资料未说明是“吃个便饭”，不宜自行定义宴席形式。",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "联系了客户的工作状态，但“先发您一份时间参考”略生硬，整体还可更轻。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "严重：活动资料未说明私宴在傍晚举行；也没有依据断定客户年底项目节奏紧。",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 2,
+    "brand_voice": 2,
+    "naturalness": 2,
+    "effectiveness": 2
+   },
+   "sendability": "小改可发",
+   "comment": "虽是一句话且留了选择空间，但“下阶段”“同步日程”偏公文，臆测工作状态也显得不自然。"
+  }
+ ],
+ "set": {
+  "diversity": 2,
+  "risk_judgement": "偏松",
+  "best_index": 1,
+  "must_coverage": "2/2",
+  "summary": "三条都给客户留了余地，候选3也以一句话完成邀约，但整体切入相近，缺少针对客户兴趣的自然连接。工具未提示未经确认的活动时段和形式，其中候选1相对自然，删去“晚上”后更适合发送。"
+ },
+ "_judge": "openai:gpt-6.1-terra"
+}

@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "轻微：“用电脑戴着也不碍事”缺乏依据，不能保证佩戴时不受桌面摩擦影响。",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "回应了磨损顾虑并提到免费服务，但缺少具体保养动作，也没有明确肯定她的选择。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "轻微：“越常戴越有自己的温润光泽”没有产品依据；手链是否可微调也未得到确认。",
+    "context_failure": "轻微：没有正面回应客户担心天天戴会磨坏的顾虑。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 2,
+    "naturalness": 2,
+    "effectiveness": 2
+   },
+   "sendability": "小改可发",
+   "comment": "清洗提示有用，但光泽说法偏空，松紧微调和清洗之间的表达也不清楚。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "轻微：假定客户已经戴了一周、购买时想常常佩戴，且“深度检测”超出了已知固定服务的描述。",
+    "context_failure": "轻微：客户表示舍不得天天戴，消息却直接假定她戴了一周。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 2,
+    "brand_voice": 2,
+    "naturalness": 2,
+    "effectiveness": 2
+   },
+   "sendability": "小改可发",
+   "comment": "尝试安抚磨损顾虑，但替客户定义购买初衷，且没有给出具体保养动作。"
+  }
+ ],
+ "set": {
+  "diversity": 2,
+  "risk_judgement": "偏松",
+  "best_index": 1,
+  "must_coverage": "1/3",
+  "summary": "候选1相对最贴近客户的佩戴顾虑，但三条都没有明确肯定她的选择，也缺少一条具体保养建议。三条切入方式相近，且存在未经证实的佩戴效果、客户意图或服务描述，风险判断不应标为无。"
+ },
+ "_judge": "openai:gpt-6.1-terra"
+}

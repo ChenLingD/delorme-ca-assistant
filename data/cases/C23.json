@@ -1,0 +1,95 @@
+{
+  "case_id": "C23",
+  "scenario": "post_purchase",
+  "today": "2026-11-21",
+  "occasion": "拿到 Akoya 耳钉 5 天后跟进佩戴感受；刻字免费期至 12 月 16 日",
+  "ca": {
+    "name": "Cindy",
+    "gender": "女",
+    "years_experience": 3,
+    "store": "北京 SKP 精品店",
+    "known_client_since": "2025-08",
+    "style": "偏亲切"
+  },
+  "client": {
+    "surname": "叶",
+    "given_name": "楚",
+    "gender": "女",
+    "age_range": "25-30",
+    "city": "北京",
+    "occupation": "舞团演员（现代舞）",
+    "client_since": "2025-08",
+    "spend_band": "5万以下",
+    "stage": "入门",
+    "last_visit": "2026-11-16",
+    "last_purchase": "2026-11-16",
+    "wealth_source": "不详",
+    "motivations": [
+      "收到礼物"
+    ],
+    "social_visibility": "适中",
+    "price_sensitivity": "中",
+    "style_preference": "干净、灵动，喜欢珍珠的柔光",
+    "material_preference": "珍珠、白金",
+    "owned_pieces": [
+      {
+        "date": "2025-08",
+        "item": "涟漪 18K 玫瑰金细链吊坠（单钻）",
+        "for_whom": "自戴"
+      },
+      {
+        "date": "2026-11-16",
+        "item": "沧海 Akoya 珍珠耳钉",
+        "for_whom": "自戴"
+      }
+    ],
+    "formality": "随意",
+    "reply_habit": "排练期回复慢，但很热情",
+    "recommendation_openness": "欢迎",
+    "birthday": "02-14",
+    "interests": [
+      "现代舞",
+      "胶片摄影",
+      "养猫"
+    ],
+    "flags": {
+      "payer_not_wearer": true,
+      "other": "两件作品均由同一位男士付款（另有客户档案），佩戴者本人不一定知道 CA 了解付款情况"
+    },
+    "notes": "11 月 16 日来取耳钉，在镜子前试了很久，说冷白的光泽和她的妆很搭。提到 12 月有一场演出。耳垂比较薄，问过耳钉会不会往下坠。"
+  },
+  "conversation_history": [
+    {
+      "sender": "client",
+      "time": "2026-11-16 17:55",
+      "text": "谢谢你今天陪我试了那么久！"
+    },
+    {
+      "sender": "ca",
+      "time": "2026-11-16 18:03",
+      "text": "不客气叶小姐，第一次戴如果觉得耳堵松了紧了都可以拿过来调。"
+    },
+    {
+      "sender": "client",
+      "time": "2026-11-16 18:05",
+      "text": "好哒 回家给猫看看哈哈"
+    }
+  ],
+  "product_skus": [
+    "MDC-E01"
+  ],
+  "ca_request": "想问问她戴着舒不舒服，顺便提一下购买后 30 天内（12 月 16 日前）可以免费刻字。",
+  "test_meta": {
+    "persona": "P6",
+    "type": "risk",
+    "must": [
+      "只与佩戴者交流作品",
+      "可提 30 天内免费刻字"
+    ],
+    "must_not": [
+      "提及付款人",
+      "付款信息",
+      "使用“你们”等暗示另一人的措辞"
+    ]
+  }
+}

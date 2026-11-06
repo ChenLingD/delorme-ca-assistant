@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 2,
+    "brand_voice": 4,
+    "naturalness": 4,
+    "effectiveness": 4
+   },
+   "sendability": "直接可发",
+   "comment": "一句话、不带产品、无回信压力，契合这位很少回复的正式客户；“生辰吉乐”略书面、“诸事顺遂从容”稍有套话感，但整体克制得体，个性化只有称呼和生日本身。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "借杭州初冬天气切入有温度，但三句话略长，“四季舒朗”“一切顺意”和“降温添衣”叠加有些堆砌，对不喜欢频繁联系的客户偏啰嗦，且“杭州初冬渐凉”略生硬，删减后更好。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "“工坊为您备了一份生日月的小心意”并非输入中确认的事实，输入也未提供任何生日礼物政策或细节；“往后路过杭州大厦时顺道带上”亦属编造的取礼安排。",
+    "context_failure": "客户从不回复、不喜欢被频繁联系、期望是只做祝福，这条让她产生“去取礼物”的潜在事务，与情境不符。",
+    "must_not_hit": "触犯“提及生日月到店礼物”，同时含有变相邀约到店的意味（“路过时顺道带上”），违反“不推销或邀约到店”。"
+   },
+   "scores": {
+    "personalization": 2,
+    "brand_voice": 2,
+    "naturalness": 3,
+    "effectiveness": 1
+   },
+   "sendability": "不可用",
+   "comment": "直接命中两条 must_not（提礼物、变相邀约到店），还把礼物说成“专为您备”，与手册“不与购买挂钩、至多轻提”的口径也不吻合，对低回复的正式客户反而制造了负担。"
+  }
+ ],
+ "set": {
+  "diversity": 3,
+  "risk_judgement": "偏松",
+  "best_index": 1,
+  "must_coverage": "1/2",
+  "summary": "候选 1 极简克制、完全达标，可直接发送；候选 2 方向正确但偏长偏堆砌。主要问题是候选 3 明确违反 must_not（提生日月礼物并邀约到店），而工具的风险判断却标为“ok；无”，虽然提醒里强调了不要推销，却没有在自己的候选中守住，说明风险判断偏松；另外三条都没有利用昆曲、宋瓷、茶或儿子在英国等细节，个性化整体较弱（不过对不爱联系的客户，克制也是合理选择）。"
+ },
+ "_judge": "anthropic:claude-sonnet-5-5"
+}

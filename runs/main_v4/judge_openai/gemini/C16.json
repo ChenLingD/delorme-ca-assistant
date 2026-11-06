@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "严重：没有依据称外借有严格的公关流程、CA没有借出权限；目录也未说明该戒指是新作。",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 3
+   },
+   "sendability": "不可用",
+   "comment": "推荐的白金满钻戒指契合拍摄场合，但应先确认外借事宜，不能自行断言流程和权限。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "严重：将手镯的柱式纹理误写成戒指的线条，又无依据称非官方报备活动不能直接外借。",
+    "context_failure": "轻微：回应了拍摄和借戴需求，但没有确认所推荐的戒指是否为新款。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 2,
+    "naturalness": 2,
+    "effectiveness": 2
+   },
+   "sendability": "不可用",
+   "comment": "先回应造型需求的顺序不错，但工艺写错、外借规则未经确认，且措辞偏公文化。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "严重：目录中没有穹顶白金手镯，柱式纹理手镯为玫瑰金款；“罗马柱式”和通常需走专门公关申请流程也无依据。",
+    "context_failure": "轻微：提出确认借戴较妥当，但没有回应推荐作品是否为新款。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 2,
+    "naturalness": 2,
+    "effectiveness": 2
+   },
+   "sendability": "不可用",
+   "comment": "愿意帮客户确认借戴较体贴，但推荐了目录中不存在的作品，不能发送。"
+  }
+ ],
+ "set": {
+  "diversity": 2,
+  "risk_judgement": "偏紧",
+  "best_index": 1,
+  "must_coverage": "2/2",
+  "summary": "三条都尝试推荐上镜作品并回应借戴，其中候选1的作品信息相对可靠，但仍需修改后才能发。整体最主要的问题是无依据地断言外借流程或权限，另有作品材质和工艺编造；风险提醒不应直接认定门店无法支持私人外借。"
+ },
+ "_judge": "openai:gpt-6.1-terra"
+}

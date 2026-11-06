@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "“比同克拉的常规镶法饱满”缺乏依据；输入也未确认店内有两种样石可供对比。",
+    "context_failure": "没有清楚回答两种克拉重量的视觉差别，也没有回应保密戒圈的问题。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 2,
+    "naturalness": 2,
+    "effectiveness": 2
+   },
+   "sendability": "不可用",
+   "comment": "切中了客户的尺寸疑问，但回答含糊且有无依据的比较，还漏掉戒圈问题。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "回应了保密戒圈的问题，但没有回答客户关于1克拉与1.5克拉视觉差别的疑问。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 4,
+    "naturalness": 4,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "戒圈建议和改圈服务贴合客户顾虑，但描内圈只能作参考，还需补答尺寸问题。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "只提议发图，没有回答客户关于视觉差别和戒圈的两个具体问题；此前也已说过要发镶口图。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 2,
+    "brand_voice": 4,
+    "naturalness": 4,
+    "effectiveness": 1
+   },
+   "sendability": "不可用",
+   "comment": "语气简短有留白，但未解决客户正在请教的问题。"
+  }
+ ],
+ "set": {
+  "diversity": 4,
+  "risk_judgement": "偏紧",
+  "best_index": 2,
+  "must_coverage": "1/2",
+  "summary": "三条分别侧重尺寸、戒圈和发图，但没有一条同时完整回答客户的两个问题；其中候选2提供了戒圈方法和改圈服务。风险提醒重视预算是对的，但输入没有1.5克拉的价格，不能断言其明显超预算。"
+ },
+ "_judge": "openai:gpt-6.1-terra"
+}

@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "严重：目录未说明戒指线条来自旺多姆工坊的拱形结构，也没有依据称11号是标准尺寸。",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "单款推荐契合太太的喜好和客户希望直接得到答案的需求，但须删去未经证实的设计来源和尺寸判断。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "严重：目录标注穹顶戒指为18K黄金，“纯金”容易误导材质；珍珠吊坠恰好落在衬衫领口的位置也无依据。",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "两款都围绕简洁和白衬衫展开，但应准确描述材质，并在二选一时给出更明确的首选。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "严重：目录中没有涟漪戒指，其肌理及11号现货均无依据；备注建议改为“帮您调一枚”，也属于未经授权的门店安排承诺。",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 2,
+    "naturalness": 3,
+    "effectiveness": 1
+   },
+   "sendability": "不可用",
+   "comment": "虽然抓住了简洁和日常佩戴的方向，但推荐了目录中不存在的作品，需要重新选款。"
+  }
+ ],
+ "set": {
+  "diversity": 3,
+  "risk_judgement": "偏松",
+  "best_index": 1,
+  "must_coverage": "2/2",
+  "summary": "候选1、2均结合太太的喜好，推荐数量也符合要求；候选1直接给出单款，更贴合客户的求助方式。主要问题是事实核验不足，尤其候选3虚构了作品和现货，工具标为无风险明显偏松。"
+ },
+ "_judge": "openai:gpt-6.1-terra"
+}

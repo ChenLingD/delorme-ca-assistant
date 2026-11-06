@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "评价客户的花艺师气质，不符合不判断客户身份的要求。",
+    "privacy_violation": "“很衬花艺师的气质”将客户的职业与气质关联，并评价其佩戴形象。",
+    "fabrication": "光泽配对花了很多时间、胸针扣头由巴黎工坊特别开模，均无资料支持。",
+    "context_failure": "没有提供十万元以内的同系列选择。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 2,
+    "naturalness": 2,
+    "effectiveness": 2
+   },
+   "sendability": "不可用",
+   "comment": "说明了不打折，但工艺细节未经证实，职业气质评价也不合适。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "资料没有证实沧海系列有十万元左右的独立胸针或其他所述设计，也无法确认可到店拿出供客户看。",
+    "context_failure": "“十万左右”不等于十万元以内，且未提供经确认符合预算的具体选择。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "切入客户喜欢的胸针自然，但需先核实作品与价格，或改为帮客户确认十万元以内的选择。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "“您戴着非常美”直接评价客户的佩戴形象。",
+    "fabrication": "资料未证实这条项链的珠层厚度，也未提供其结构制作工时。",
+    "context_failure": "没有提供十万元以内的同系列选择。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 2,
+    "naturalness": 2,
+    "effectiveness": 2
+   },
+   "sendability": "不可用",
+   "comment": "态度温和且说明了不打折，但价值论据未经证实，也未回应预算内选择的需求。"
+  }
+ ],
+ "set": {
+  "diversity": 2,
+  "risk_judgement": "偏松",
+  "best_index": 2,
+  "must_coverage": "1/2",
+  "summary": "三条都说明了不打折，也没有提及付款人，但均未提供经证实的十万元以内同系列作品。候选 2 最接近需求，不过产品和价格未经核实；另外两条也加入了无依据的工艺细节，因此工具标记为无风险偏松。"
+ },
+ "_judge": "openai:gpt-6.1-terra"
+}

@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 4,
+    "naturalness": 4,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "接住了两周出现划痕的质量质疑，也提供取件，但应补充到店抛光约40分钟。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 5,
+    "naturalness": 5,
+    "effectiveness": 4
+   },
+   "sendability": "直接可发",
+   "comment": "道歉简洁，检查、免费抛光和现场时间都交代清楚；若点出才佩戴两周，会更贴合她的不满。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 4,
+    "naturalness": 4,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "道歉和上门取件都体贴，但缺少处理时间；可补充到店抛光约40分钟，并另行确认取件后的交还时间。"
+  }
+ ],
+ "set": {
+  "diversity": 3,
+  "risk_judgement": "正确",
+  "best_index": 2,
+  "must_coverage": "3/3",
+  "summary": "三条均未归责或推销，候选2完整覆盖安抚、免费抛光和时间说明。主要问题是候选1和3都缺少抛光时间，三条的表达结构也较相近。"
+ },
+ "_judge": "openai:gpt-6.1-terra"
+}

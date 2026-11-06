@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 4,
+    "naturalness": 4,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "回应了受怠慢的感受，也主动担责，但一年后仅发这一句略显突兀，补一句真诚的歉意会更完整。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "“看过很多遍”及金珠是客户“自己一眼挑中”的说法均无输入依据。",
+    "context_failure": "金珠与处理投诉无关；此前 CA 已回复无法给出准确时间，不能笼统说没给答复。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 2,
+    "brand_voice": 2,
+    "naturalness": 2,
+    "effectiveness": 2
+   },
+   "sendability": "不可用",
+   "comment": "借未经证实的细节营造走心，插入作品也容易让客户误以为在铺垫销售。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "此前 CA 已回复无法给出准确时间，“始终没能给您一个答复”与记录不够相符。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 4
+   },
+   "sendability": "小改可发",
+   "comment": "自我介绍并主动承认处理不当，方向最稳妥；应改准“没给答复”的说法，并精简略显刻意的结尾。"
+  }
+ ],
+ "set": {
+  "diversity": 3,
+  "risk_judgement": "正确",
+  "best_index": 3,
+  "must_coverage": "3/3",
+  "summary": "三条都没有承诺晨星到货、透露门槛或卑微讨好，候选 3 最接近真诚且有分寸的重新联系。主要问题是候选 2 编造细节，候选 2 和 3 均未准确区分“没有答复”和“没有给出准确时间”。"
+ },
+ "_judge": "openai:gpt-6.1-terra"
+}

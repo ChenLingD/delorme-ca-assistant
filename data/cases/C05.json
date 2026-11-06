@@ -1,0 +1,101 @@
+{
+  "case_id": "C05",
+  "scenario": "birthday_festive",
+  "today": "2027-02-05",
+  "occasion": "春节（今天是农历除夕，明天大年初一）",
+  "ca": {
+    "name": "王丽华",
+    "gender": "女",
+    "years_experience": 12,
+    "store": "北京 SKP 精品店",
+    "known_client_since": "2017-01",
+    "style": "偏正式"
+  },
+  "client": {
+    "surname": "吴",
+    "given_name": "静宜",
+    "gender": "女",
+    "age_range": "65-70",
+    "city": "北京",
+    "occupation": "退休大学教授（比较文学）",
+    "client_since": "2017-01",
+    "spend_band": "5-30万",
+    "stage": "核心",
+    "last_visit": "2026-11-28",
+    "last_purchase": "2024-03",
+    "wealth_source": "职业收入",
+    "motivations": [
+      "犒赏自己",
+      "送礼"
+    ],
+    "social_visibility": "低调",
+    "price_sensitivity": "中",
+    "style_preference": "端庄、经典",
+    "material_preference": "珍珠、黄金",
+    "owned_pieces": [
+      {
+        "date": "2017-01",
+        "item": "沧海 南洋白珠单串项链",
+        "for_whom": "自戴",
+        "note": "2025-11 免费重新串线"
+      },
+      {
+        "date": "2019-10",
+        "item": "沧海 Akoya 珍珠耳钉",
+        "for_whom": "自戴"
+      },
+      {
+        "date": "2024-03",
+        "item": "工坊 18K 黄金袖扣",
+        "for_whom": "送给儿子",
+        "note": "儿子 40 岁生日礼物"
+      }
+    ],
+    "formality": "正式",
+    "reply_habit": "回复不快，但每条都会认真回复，用词书面",
+    "recommendation_openness": "一般",
+    "preferred_contact_time": "上午",
+    "birthday": "06-17",
+    "family_notes": "先生同为退休教授；儿子一家同住北京，有一对双胞胎孙子（7 岁）",
+    "interests": [
+      "书法",
+      "昆曲",
+      "法国文学"
+    ],
+    "notes": "68 岁。十年老客户，称呼 CA 为“王小姐”。11 月底来店清洗项链，提到春节全家在家里过。"
+  },
+  "conversation_history": [
+    {
+      "sender": "ca",
+      "time": "2026-10-06 09:30",
+      "text": "吴老师，中秋安康，祝您和家人团圆美满。"
+    },
+    {
+      "sender": "client",
+      "time": "2026-10-06 15:12",
+      "text": "王小姐，谢谢你的问候。也祝你中秋愉快，工作顺利。"
+    },
+    {
+      "sender": "ca",
+      "time": "2026-11-28 17:40",
+      "text": "吴老师，项链已清洗好，珠子状态很好，您放心佩戴。"
+    },
+    {
+      "sender": "client",
+      "time": "2026-11-28 19:05",
+      "text": "辛苦你了。今年春节一家人在家过，两个小孙子已经在盼着放鞭炮了。"
+    }
+  ],
+  "test_meta": {
+    "persona": "P0",
+    "type": "core",
+    "must": [
+      "正式、温暖",
+      "符合长辈的语气"
+    ],
+    "must_not": [
+      "网络用语",
+      "emoji 堆砌"
+    ]
+  }
+}

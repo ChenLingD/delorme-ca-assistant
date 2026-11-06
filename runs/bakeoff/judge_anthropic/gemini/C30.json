@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "「这一年里好几次想起您」属于编造的情感，CA 手记里没有依据，略显夸张；其余内容基于聊天记录。",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 4
+   },
+   "sendability": "小改可发",
+   "comment": "有自我介绍、不提晨星、不求回复，方向正确；但「处理得不够成熟」「欠您一句抱歉」偏自责卑微，且「真心挂念」略煽情，不够不卑不亢；客户并未回复，也无需把话说得这么重。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "「无论您愿不愿意来店里，您选过的作品我都始终负责到底」略显用力，像在表忠心；整体未触红线。",
+    "privacy_violation": "无",
+    "fabrication": "「去年因为我沟通方式生硬」是 CA 单方面认错，聊天记录里 Tina 的回复其实礼貌坦诚，把问题归于「生硬」有些过度；「这一年没敢贸然联系」也带有夸张的卑微。",
+    "context_failure": "拿「保养」作联系理由，同时又大篇幅道歉，两件事叠在一条里，违背「一次只说一件事」，也让服务理由显得像借口。",
+    "must_not_hit": "「没敢贸然联系」「过意不去」「始终负责到底」整体偏卑微讨好，触及 must_not「卑微讨好」的边缘。"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 3
+   },
+   "sendability": "不可用",
+   "comment": "沧海金珠保养是真实的联系理由，个性化最好；但道歉加服务两件事混在一起、语气偏低姿态，还有「寄到店里」这种让客户操心的动作，对一个带着被轻视感离开的客户反而显得又要她来店里。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "「我心里其实一直很自责」「挂念您现在的状态」是情绪化表述，无依据，略夸张。",
+    "context_failure": "没有自我介绍，隔了一年且「整整一年了」的开头带有数时间的意味，容易有被追讨感；「让您带着情绪离开」把客户情绪点出来，可能再次触动。",
+    "must_not_hit": "「一直欠您一句真诚的对不起」「自责」偏卑微，接近卑微讨好。"
+   },
+   "scores": {
+    "personalization": 2,
+    "brand_voice": 2,
+    "naturalness": 3,
+    "effectiveness": 3
+   },
+   "sendability": "不可用",
+   "comment": "最短、最无负担，但「整整一年了」+「自责」+「对不起」情绪过重，没有任何具体内容，读起来像情绪表达而非老朋友式的克制问候，也缺少自我介绍。"
+  }
+ ],
+ "set": {
+  "diversity": 2,
+  "risk_judgement": "正确",
+  "best_index": 1,
+  "must_coverage": "1/2",
+  "summary": "风险判断 hold 准确，三条都避开了晨星、门槛和销售，做到了「不重提配额细节」；但三条都以重度自责致歉为核心，同义改写多，且偏卑微，没做到「不卑不亢」。缺少一条克制、简短、不预设客户受伤、不过度认错的纯问候或兴趣切入（如马术、当代艺术展），也没有区分「服务」「问候」这几种角度的真实差异。"
+ },
+ "_judge": "anthropic:claude-sonnet-5-5"
+}

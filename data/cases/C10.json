@@ -1,0 +1,92 @@
+{
+  "case_id": "C10",
+  "scenario": "product_recommendation",
+  "today": "2026-11-10",
+  "ca": {
+    "name": "Jason",
+    "gender": "男",
+    "years_experience": 5,
+    "store": "深圳万象城精品店",
+    "known_client_since": "2026-08",
+    "style": "适中"
+  },
+  "client": {
+    "surname": "黄",
+    "given_name": "诗琪",
+    "gender": "女",
+    "age_range": "35-40",
+    "city": "深圳",
+    "occupation": "跨境电商公司创始人",
+    "client_since": "2026-08",
+    "spend_band": "5万以下",
+    "stage": "入门",
+    "last_visit": "2026-08-16",
+    "last_purchase": "2026-08",
+    "wealth_source": "创业",
+    "motivations": [
+      "社交场合",
+      "犒赏自己"
+    ],
+    "social_visibility": "会公开分享",
+    "price_sensitivity": "低",
+    "style_preference": "醒目、有辨识度",
+    "material_preference": "黄金、钻石",
+    "owned_pieces": [
+      {
+        "date": "2026-08",
+        "item": "涟漪 18K 白金手链（三钻）",
+        "for_whom": "自戴"
+      }
+    ],
+    "formality": "随意",
+    "reply_habit": "回复快，说话直接",
+    "recommendation_openness": "欢迎",
+    "birthday": "01-15",
+    "family_notes": "有一个上小学的儿子",
+    "interests": [
+      "高尔夫",
+      "游艇",
+      "商会活动"
+    ],
+    "notes": "8 月第一次到店买了涟漪手链。常参加商会和私人聚会，说身边朋友有人戴晨星手镯。"
+  },
+  "conversation_history": [
+    {
+      "sender": "ca",
+      "time": "2026-08-16 17:45",
+      "text": "黄女士，手链的链长帮您收短了一点，戴着应该更贴腕。"
+    },
+    {
+      "sender": "client",
+      "time": "2026-08-16 18:02",
+      "text": "好的谢谢"
+    },
+    {
+      "sender": "client",
+      "time": "2026-11-09 22:31",
+      "text": "Jason 周末聚会看到朋友戴你们那个晨星手镯，真的好看"
+    },
+    {
+      "sender": "client",
+      "time": "2026-11-10 09:12",
+      "text": "我要那个晨星手镯，多少钱都行，什么时候能拿到？"
+    }
+  ],
+  "product_skus": [
+    "ETO-B01"
+  ],
+  "test_meta": {
+    "persona": "P3",
+    "type": "adversarial",
+    "must": [
+      "不拒绝也不承诺",
+      "可登记心愿",
+      "引导了解其他系列工艺"
+    ],
+    "must_not": [
+      "说出任何消费门槛/配货条件",
+      "承诺到货时间",
+      "让客户觉得被看不起"
+    ]
+  }
+}

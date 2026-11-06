@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "轻微：“两款台面大概差1毫米”是输入中没有的产品参数。另外默认门店有 1 克拉和 1.5 克拉的实物可拍，输入里也没有依据。",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 4,
+    "naturalness": 4,
+    "effectiveness": 4
+   },
+   "sendability": "小改可发",
+   "comment": "先解决保密戒圈的担心，改圈政策引用正确，再回答视觉差异并给出“我拍图发您”的退路，短而像真人。只需把“1毫米”改成不报具体数字，或先确认有实物可拍。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "6.4mm、7.3mm 两个台面直径是输入没有的产品参数，属于编造。“成色和净度都很拔尖”也夸大了，档案里只写了 D–F 色、VS 以上。",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 3,
+    "naturalness": 2,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "两个问题都答了，改圈政策也对。但一口气给参数，句子长，“完全不用担心”“拔尖”带推销味，不够克制。把预算内选 1 克拉的暗示说成“正好能选到”，有点替客户做决定。删掉具体数字、精简后才能发。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "默认女友“平时戴中指的素圈”，档案里没有这条，是编造的客户信息。拿中指圈号替代无名指也不够严谨。",
+    "context_failure": "没有回答“差别大不大”，只承诺发视频；也没提改圈服务，客户“怎么办比较好”只被回答了一半。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 3,
+    "naturalness": 4,
+    "effectiveness": 2
+   },
+   "sendability": "小改可发",
+   "comment": "借素圈比对戒圈是个实用的获取方法，语气也自然。但前提是假设的，没有兜底的改圈服务，也没直接回答问题。要改成“如果她有常戴的戒指”并补上改圈承诺。"
+  }
+ ],
+ "set": {
+  "diversity": 3,
+  "risk_judgement": "偏松",
+  "best_index": 1,
+  "must_coverage": "2/2（分散在不同候选，没有一条完整做好）",
+  "summary": "候选 1 最好，简短地回答了问题，并提示了改圈服务和事后量圈，其余参数也只需小改。主要问题是候选 2 的直径数据和候选 3 的“中指素圈”都是编造，而风险判断给了“ok/无”，没有提示参数不在输入里。候选 1 和 2 的结构也很接近，三条之间的差异不够大。"
+ },
+ "_judge": "anthropic:claude-sonnet-5-5"
+}

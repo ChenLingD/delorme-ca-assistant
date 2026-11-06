@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 4,
+    "naturalness": 4,
+    "effectiveness": 5
+   },
+   "sendability": "直接可发",
+   "comment": "简短得体，符合客户偏正式、不喜频繁联系的习惯；“生辰愉快”略显书面。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 3,
+    "naturalness": 2,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "茶的细节有依据，但“烹一壶好茶”“静享清雅时光”显得文绉绉，也替客户安排了生日时光。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "“日常操持之余”暗示客户日常操持事务，输入没有提供这一事实。",
+    "context_failure": "客户很少回复且不喜欢频繁联系，生日祝福中追问近况不够贴合其沟通习惯。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 2,
+    "naturalness": 2,
+    "effectiveness": 2
+   },
+   "sendability": "小改可发",
+   "comment": "昆曲爱好和小雪日期有依据，但节气、追问与退路堆在一起，削弱了生日祝福的简洁感。"
+  }
+ ],
+ "set": {
+  "diversity": 4,
+  "risk_judgement": "偏松",
+  "best_index": 1,
+  "must_coverage": "1/2",
+  "summary": "三条均未带产品，但只有候选1充分做到极简克制，因此整体覆盖1/2项 must。候选2措辞过于雕琢，候选3还加入无依据的日常状态和不必要的追问，工具的无风险提醒偏松。"
+ },
+ "_judge": "openai:gpt-6.1-terra"
+}

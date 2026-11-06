@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "严重：活动资料没有说明私宴按桌安排席位，不能将其当作事实告知客户。",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 2,
+    "naturalness": 3,
+    "effectiveness": 2
+   },
+   "sendability": "不可用",
+   "comment": "接住了客户和朋友一起参加的想法，但应删除未经证实的席位安排，直接说去确认能否携伴。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "严重：无依据地称席位紧凑，制造了席位稀缺的印象。",
+    "privacy_violation": "无",
+    "fabrication": "严重：席位紧凑没有资料支持；CA 尚未询问店经理，“正找店经理沟通”与已知情况不符，备注也未点明。",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 2,
+    "brand_voice": 2,
+    "naturalness": 2,
+    "effectiveness": 2
+   },
+   "sendability": "不可用",
+   "comment": "回应了携伴问题，但虚构席位情况和沟通进度，“特别想促成”也显得用力。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 2,
+    "brand_voice": 4,
+    "naturalness": 3,
+    "effectiveness": 4
+   },
+   "sendability": "直接可发",
+   "comment": "简短且没有擅自答应；若明确说去确认能否带朋友，并把“同步您”换得更口语，会更亲切。"
+  }
+ ],
+ "set": {
+  "diversity": 3,
+  "risk_judgement": "偏松",
+  "best_index": 3,
+  "must_coverage": "2/2",
+  "summary": "三条都提出了确认安排，候选 3 最稳妥，但整体亲切度仍可提升。主要问题是前两条编造席位情况，候选 2 还虚称正在与店经理沟通，而风险提醒未充分识别这些问题。"
+ },
+ "_judge": "openai:gpt-6.1-terra"
+}

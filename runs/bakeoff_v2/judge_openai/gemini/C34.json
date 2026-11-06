@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 4,
+    "naturalness": 4,
+    "effectiveness": 2
+   },
+   "sendability": "小改可发",
+   "comment": "自然呼应了她想看老图稿的心愿，但没有发出邀约，也缺少与珍珠收藏的联系及活动时间。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "“深厚了解”“泛黄的笔触”等表达偏华丽，且对客户的了解程度作了无依据判断。",
+    "privacy_violation": "无",
+    "fabrication": "活动资料未说明图稿已运抵或笔触泛黄；客户有手稿收藏兴趣，也不足以认定她有深厚了解。",
+    "context_failure": "无",
+    "must_not_hit": "编造活动图稿的运输状态和外观细节。"
+   },
+   "scores": {
+    "personalization": 2,
+    "brand_voice": 2,
+    "naturalness": 2,
+    "effectiveness": 1
+   },
+   "sendability": "不可用",
+   "comment": "虽然提到了珍珠手稿，却以未经证实的细节和对客户的拔高判断制造走心感，也没有实际邀约。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "未呼应客户9月明确提出的老图稿展出心愿，错过本次邀约最直接的缘由。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 4,
+    "naturalness": 4,
+    "effectiveness": 2
+   },
+   "sendability": "小改可发",
+   "comment": "有明确邀约和日期，也照顾到她不喜欢人多的偏好，但需补上图稿心愿、珍珠收藏关联及具体地点。"
+  }
+ ],
+ "set": {
+  "diversity": 4,
+  "risk_judgement": "偏松",
+  "best_index": 3,
+  "must_coverage": "2/3",
+  "summary": "三条分别采用简讯、情感化描述和直接邀约，角度有区分，但没有一条同时关联她的珍珠收藏并呼应看老图稿的心愿。候选2编造图稿运输状态和外观，工具判断“无风险”偏松；候选3最适合作为修改基础。"
+ },
+ "_judge": "openai:gpt-6.1-terra"
+}

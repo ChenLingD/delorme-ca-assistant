@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无（120 工时、同一工匠、内圈工匠记号均出自作品信息；“做工没话说”也是客户 11-14 说过的话）",
+    "context_failure": "无明显失败，但完全绕开了“太贵了”这句话，没有先接住感受，读起来略像在解释为什么值这个价",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 4,
+    "naturalness": 4,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "守住了“不接升值、回到作品”，细节具体且引用了客户自己的话；但没有接情绪，也没把决定权交回给他，加半句“不着急”会更完整。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无，但只回应了“贵”，对“投资”这个核心顾虑和作品本身都没有触及",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 2,
+    "brand_voice": 4,
+    "naturalness": 4,
+    "effectiveness": 2
+   },
+   "sendability": "直接可发",
+   "comment": "短、克制、给了空间，像真人会发的话；但没有任何作品内容，没做到“回到作品本身”，也没有推进，单独发偏空。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "轻微：“可以让您太太把晨星和穹顶放在一起看看”暗示晨星随时可以到店比对、试戴，与配额作品的状态不符，容易被听成“已经有货、排上了”，触到“不暗示名额/排位”的边界",
+    "privacy_violation": "无",
+    "fabrication": "无硬性捏造；“颜色差一眼就看得出来”“上手的分量”是泛化描述，没有产品参数支撑",
+    "context_failure": "完全没回应“太贵了/投资”，直接转去邀约叠戴，显得没听到客户的话；另外这是送太太的作品，让太太参与比对可能影响他的送礼安排",
+    "must_not_hit": "无（未提投资或升值，也未承诺到货时间），但邀约措辞有擦边风险"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 3,
+    "naturalness": 4,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "叠戴的画面有想象力，也用上了太太的玫瑰金穹顶；但邀约隐含可得性，又完全无视价格顾虑，需要改成不指向到店比对的写法。"
+  }
+ ],
+ "set": {
+  "diversity": 3,
+  "risk_judgement": "正确",
+  "best_index": 1,
+  "must_coverage": "2/2（三条都没有承诺保值升值；候选 1 和 3 回到了作品本身，候选 2 没有）",
+  "summary": "风险判断为 caution 恰当，三条都没有接“升值”这个话头，也没有承诺到货时间，底线守住了。主要问题是没有一条同时做到“接住感受 + 一个作品细节 + 把决定权交回”：候选 1 缺情绪和留白，候选 2 缺作品内容，候选 3 对配额作品的可得性有暗示，并且无视了客户的顾虑；最好的做法是候选 2 的开头加上候选 1 的内容。"
+ },
+ "_judge": "anthropic:claude-sonnet-5-5"
+}

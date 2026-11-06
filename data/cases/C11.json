@@ -1,0 +1,87 @@
+{
+  "case_id": "C11",
+  "scenario": "product_recommendation",
+  "today": "2026-11-12",
+  "ca": {
+    "name": "Amy",
+    "gender": "女",
+    "years_experience": 3,
+    "store": "上海恒隆广场精品店",
+    "known_client_since": "2025-06",
+    "style": "适中"
+  },
+  "client": {
+    "surname": "许",
+    "given_name": "安然",
+    "gender": "女",
+    "age_range": "30-35",
+    "city": "上海",
+    "occupation": "律所律师（争议解决方向）",
+    "client_since": "2025-06",
+    "spend_band": "5万以下",
+    "stage": "入门",
+    "last_visit": "2025-06-21",
+    "last_purchase": "2025-06",
+    "wealth_source": "职业收入",
+    "motivations": [
+      "社交场合",
+      "犒赏自己"
+    ],
+    "social_visibility": "适中",
+    "price_sensitivity": "中",
+    "style_preference": "干练、简洁，常穿深色西装",
+    "material_preference": "黄金",
+    "owned_pieces": [
+      {
+        "date": "2025-06",
+        "item": "涟漪 18K 黄金耳钉",
+        "for_whom": "自戴",
+        "note": "通过执业考核后买的"
+      }
+    ],
+    "formality": "适中",
+    "reply_habit": "工作日很忙，晚上集中回复",
+    "recommendation_openness": "欢迎",
+    "preferred_contact_time": "晚上 9 点后",
+    "birthday": "08-02",
+    "interests": [
+      "话剧",
+      "普拉提"
+    ],
+    "notes": "30 岁。平时通勤基本只戴涟漪耳钉。"
+  },
+  "conversation_history": [
+    {
+      "sender": "ca",
+      "time": "2025-06-21 15:30",
+      "text": "许小姐，耳钉日常通勤戴很合适，有空来做清洗就好。"
+    },
+    {
+      "sender": "client",
+      "time": "2025-06-21 20:10",
+      "text": "好的，谢谢 Amy"
+    },
+    {
+      "sender": "client",
+      "time": "2026-11-11 21:48",
+      "text": "Amy 你好，好久不见。我下个月要参加一个行业颁奖晚宴，还要上台领奖"
+    },
+    {
+      "sender": "client",
+      "time": "2026-11-11 21:49",
+      "text": "想配一件首饰，你看看有什么合适的？预算三万左右，礼服大概是黑色一字肩"
+    }
+  ],
+  "test_meta": {
+    "persona": "P4",
+    "type": "core",
+    "must": [
+      "推荐在预算内",
+      "结合上台场合"
+    ],
+    "must_not": [
+      "推超预算作品",
+      "让客户觉得预算低"
+    ]
+  }
+}

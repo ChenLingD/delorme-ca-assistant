@@ -1,0 +1,330 @@
+{
+ "case_id": "C01",
+ "version": "v4",
+ "model": "gemini:gemini-3.8-flash",
+ "risk": {
+  "level": "ok",
+  "flags": [],
+  "advice": ""
+ },
+ "candidates": [
+  {
+   "text": "沈女士，今天是您的生日，祝您生日快乐，顺遂安康。",
+   "strategy": "极简得体",
+   "note_for_ca": "最稳妥的选择。沈女士平日极少回复且偏好正式克制，简短的一句祝福既尽到了顾问的礼节，又完全没有任何心理负担或回复压力。"
+  },
+  {
+   "text": "沈女士，立冬刚过，时节清宁。今天是您的生日，祝您生日快乐，舒心安康。",
+   "strategy": "雅致寄意",
+   "note_for_ca": "融入了初冬时节的沉静氛围，素雅克制，契合她喜爱茶与宋瓷的心境。去除了常见的网络对仗套话，保留适度的意境与体面，读起来自然不造作。"
+  },
+  {
+   "text": "沈女士，今天是您的生日，祝您生日快乐。转眼相识已有几年，很感谢您一直以来的信任，愿您生活舒心、常得从容。",
+   "strategy": "含蓄致意",
+   "note_for_ca": "去掉了生硬的书面式落款与过浓的情感抒发，用温和平实的真人微信口吻致意，适度传递相识数年的长久陪伴与感谢，分寸拿捏得当，不会给不喜言辞的客户造成心理压力。"
+  }
+ ],
+ "checks": [
+  {
+   "pass": true,
+   "hard": [],
+   "soft": [],
+   "length": 24
+  },
+  {
+   "pass": true,
+   "hard": [],
+   "soft": [],
+   "length": 34
+  },
+  {
+   "pass": true,
+   "hard": [],
+   "soft": [],
+   "length": 52
+  }
+ ],
+ "trace": {
+  "rounds": [
+   {
+    "rule_checks": [
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 24
+     },
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 41
+     },
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 47
+     }
+    ],
+    "critic": {
+     "reviews": [
+      {
+       "index": 1,
+       "pass": true,
+       "issues": []
+      },
+      {
+       "index": 2,
+       "pass": true,
+       "issues": []
+      },
+      {
+       "index": 3,
+       "pass": false,
+       "issues": [
+        "沈女士与 CA 周敏均常驻杭州，且沈女士一直在杭州大厦店到店，“周敏在杭州祝您生日快乐”像是异地发来的公函贺电或模板套用，显得生疏且不够自然。建议去掉“在杭州”，改为“沈女士，今天是您的生日，我是周敏，祝您生日快乐”或直接进入祝福。"
+       ]
+      }
+     ],
+     "set_issues": []
+    },
+    "to_fix": {
+     "3": [
+      "沈女士与 CA 周敏均常驻杭州，且沈女士一直在杭州大厦店到店，“周敏在杭州祝您生日快乐”像是异地发来的公函贺电或模板套用，显得生疏且不够自然。建议去掉“在杭州”，改为“沈女士，今天是您的生日，我是周敏，祝您生日快乐”或直接进入祝福。"
+     ]
+    }
+   },
+   {
+    "rule_checks": [
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 24
+     },
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 41
+     },
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 54
+     }
+    ],
+    "critic": {
+     "reviews": [
+      {
+       "index": 1,
+       "pass": true,
+       "issues": []
+      },
+      {
+       "index": 2,
+       "pass": false,
+       "issues": [
+        "“岁岁常欢愉，万事皆从容”带有明显的网络对仗套话感，有模板群发痕迹，违背了手册中“避免吉祥话堆砌”与真人自然表达的原则。建议删去后半句堆叠的祝词，保留立冬时节感与一句温和得体的生日祝福即可。"
+       ]
+      },
+      {
+       "index": 3,
+       "pass": false,
+       "issues": [
+        "“周敏祝您生日快乐”句式生硬，类似书面贺卡落款移植，不像微信中真人的自然说话方式；同时沈女士平日极其沉静克制、鲜少互动，“始终很感激您的信任与陪伴”情感浓度过高，显得有些用力过猛。建议采用更自然、平实的口吻致意。"
+       ]
+      }
+     ],
+     "set_issues": []
+    },
+    "to_fix": {
+     "2": [
+      "“岁岁常欢愉，万事皆从容”带有明显的网络对仗套话感，有模板群发痕迹，违背了手册中“避免吉祥话堆砌”与真人自然表达的原则。建议删去后半句堆叠的祝词，保留立冬时节感与一句温和得体的生日祝福即可。"
+     ],
+     "3": [
+      "“周敏祝您生日快乐”句式生硬，类似书面贺卡落款移植，不像微信中真人的自然说话方式；同时沈女士平日极其沉静克制、鲜少互动，“始终很感激您的信任与陪伴”情感浓度过高，显得有些用力过猛。建议采用更自然、平实的口吻致意。"
+     ]
+    }
+   },
+   {
+    "rule_checks": [
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 24
+     },
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 34
+     },
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 52
+     }
+    ],
+    "critic": {
+     "reviews": [
+      {
+       "index": 1,
+       "pass": true,
+       "issues": []
+      },
+      {
+       "index": 2,
+       "pass": true,
+       "issues": []
+      },
+      {
+       "index": 3,
+       "pass": true,
+       "issues": []
+      }
+     ],
+     "set_issues": []
+    },
+    "to_fix": {}
+   }
+  ],
+  "plan": {
+   "client_read": "沈女士是讲究分寸与雅致的资深核心客户，平时极少言辞且不喜频繁打扰。此刻发去生日祝福应以纯粹、克制为度，最在意的是不被打扰、不被营销的体面与距离感。",
+   "risk": {
+    "level": "ok",
+    "flags": [],
+    "advice": ""
+   },
+   "key_choice": "是在极简克制的问候中全然留白，还是融入一丝符合其审美趣味的东方意境或陪伴感。",
+   "directions": [
+    {
+     "label": "极简得体",
+     "idea": "仅表达最纯粹端正的生日祝福，一句带过，完全不施加任何回复压力。",
+     "tradeoff": "最符合客户少言克制的习惯，绝不会引起反感，但相对平稳淡雅。"
+    },
+    {
+     "label": "雅致寄意",
+     "idea": "结合初冬时节与清雅宁静的意境送上祝福，契合她喜爱宋瓷与茶的沉静心境。",
+     "tradeoff": "更有东方美学意境与个人温度，但若文字稍有雕琢感可能显得略微客套。"
+    },
+    {
+     "label": "含蓄致意",
+     "idea": "以相识多年的顾问视角，温和感谢长久以来的信任与陪伴，祝愿生活舒心从容。",
+     "tradeoff": "体现长期相伴的分寸与诚意，但需把握尺度，不能显得过分热络。"
+    }
+   ],
+   "ca_commitments": [],
+   "usable_facts": [
+    "今天（11-18）是沈女士生日",
+    "立冬刚过，时值初冬",
+    "CA 周敏与沈女士相识于 2021 年",
+    "沈女士自 2018 年起成为品牌客户"
+   ],
+   "do_not_mention": [
+    "任何产品推荐与推销",
+    "未经 CA 承诺的生日礼物或到店礼遇",
+    "客户家庭情况（先生企业、英国读研的儿子）",
+    "消费金额、VIP 级别及内部标签",
+    "具体天气、气温描述",
+    "评论客户回复习惯或说‘不用回复’"
+   ],
+   "products": []
+  },
+  "first_draft": [
+   {
+    "text": "沈女士，今天是您的生日，祝您生日快乐，顺遂安康。",
+    "strategy": "极简得体",
+    "note_for_ca": "最稳妥的选择。沈女士平日极少回复且偏好正式克制，简短的一句祝福既尽到了顾问的礼节，又完全没有任何心理负担或回复压力。"
+   },
+   {
+    "text": "沈女士，立冬已过，天序渐清。今天是您的生日，祝您生日快乐，岁岁常欢愉，万事皆从容。",
+    "strategy": "雅致寄意",
+    "note_for_ca": "融入了立冬刚过的时节感，语气端雅舒缓，比较契合她喜好宋瓷与茶的沉静心境。取舍在于文字稍微多了一点意境感，如果沈女士偏好极致利落，选第一条更干净。"
+   },
+   {
+    "text": "沈女士，今天是您的生日，周敏在杭州祝您生日快乐。很荣幸与您相识这些年，愿您心随所愿，从容惬意。",
+    "strategy": "含蓄致意",
+    "note_for_ca": "以相识五年的资深顾问身份温和致意，表达长期相伴的静水流深之意。语气真诚庄重，但若想保持更清冷的社交距离，可退回第一条。"
+   }
+  ],
+  "seconds": 96.9,
+  "diversity_max_sim": 0.375,
+  "calls": [
+   {
+    "requested": "gemini-3.8-flash",
+    "served": "gemini-3.8-flash",
+    "seconds": 8.0,
+    "attempt": 1,
+    "in_tokens": 5454,
+    "out_tokens": 567,
+    "reasoning_tokens": null,
+    "fingerprint": null
+   },
+   {
+    "requested": "gemini-3.8-flash",
+    "served": "gemini-3.8-flash",
+    "seconds": 6.2,
+    "attempt": 1,
+    "in_tokens": 4558,
+    "out_tokens": 320,
+    "reasoning_tokens": null,
+    "fingerprint": null
+   },
+   {
+    "requested": "gemini-3.8-flash",
+    "served": "gemini-3.8-flash",
+    "seconds": 28.9,
+    "attempt": 1,
+    "in_tokens": 4533,
+    "out_tokens": 188,
+    "reasoning_tokens": null,
+    "fingerprint": null
+   },
+   {
+    "requested": "gemini-3.8-flash",
+    "served": "gemini-3.8-flash",
+    "seconds": 7.6,
+    "attempt": 1,
+    "in_tokens": 5003,
+    "out_tokens": 152,
+    "reasoning_tokens": null,
+    "fingerprint": null
+   },
+   {
+    "requested": "gemini-3.8-flash",
+    "served": "gemini-3.8-flash",
+    "seconds": 28.9,
+    "attempt": 1,
+    "in_tokens": 4548,
+    "out_tokens": 265,
+    "reasoning_tokens": null,
+    "fingerprint": null
+   },
+   {
+    "requested": "gemini-3.8-flash",
+    "served": "gemini-3.8-flash",
+    "seconds": 15.1,
+    "attempt": 1,
+    "in_tokens": 5175,
+    "out_tokens": 271,
+    "reasoning_tokens": null,
+    "fingerprint": null
+   },
+   {
+    "requested": "gemini-3.8-flash",
+    "served": "gemini-3.8-flash",
+    "seconds": 2.3,
+    "attempt": 1,
+    "in_tokens": 4531,
+    "out_tokens": 74,
+    "reasoning_tokens": null,
+    "fingerprint": null
+   }
+  ]
+ }
+}

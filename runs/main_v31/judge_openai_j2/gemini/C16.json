@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "轻微：将外借须向门店报备说成既定流程，并暗示有可推荐的新款，均缺少依据。",
+    "context_failure": "轻微：未推荐具体作品，提出发几款也不符合一次推荐一件、最多一件备选的策略。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 2,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 2
+   },
+   "sendability": "小改可发",
+   "comment": "接住了借戴请求，但推荐太笼统，宜改为一件有依据的作品并只说向门店确认。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "严重：目录中的穹顶白金戒指是满钻戒指，没有“柱式折角”；该工艺细节不可对客户发送。",
+    "context_failure": "轻微：未确认推荐的戒指是否为客户询问的新款。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 2,
+    "naturalness": 3,
+    "effectiveness": 2
+   },
+   "sendability": "不可用",
+   "comment": "切中了出镜和黑白审美，也回应了借戴，但编造戒指细节使推荐失去可信度。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "轻微：只邀请试戴，未给出具体作品，也未回应是否有新款。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 4,
+    "naturalness": 4,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "语气自然，借戴处理稳妥，但应先推荐一件适合出镜的作品，再考虑邀约试搭。"
+  }
+ ],
+ "set": {
+  "diversity": 4,
+  "risk_judgement": "正确",
+  "best_index": 3,
+  "must_coverage": "2/2",
+  "summary": "整体覆盖了出镜作品推荐和借戴需确认两项要求，但没有一条同时做到完整且安全。最主要的问题是候选 2 编造产品细节，而候选 1 和 3 都缺少具体推荐。"
+ },
+ "_judge": "openai:gpt-6.1-terra"
+}

@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 5,
+    "brand_voice": 5,
+    "naturalness": 5,
+    "effectiveness": 5
+   },
+   "sendability": "直接可发",
+   "comment": "沿用上次说好的清洗服务作为联系理由，自然且没有催促。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "严重：没有依据表明 CA 近期看过云南菌子的短片，却以此作为联系理由。",
+    "context_failure": "轻微：时隔约一年半，仍以客户刚收工、刚回成都的口吻问是否歇脚，容易显得脱节。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 3,
+    "naturalness": 2,
+    "effectiveness": 2
+   },
+   "sendability": "小改可发",
+   "comment": "兴趣切入有针对性，但需要删去虚构的短片经历，并避免推测行程进展。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "轻微：以“这周还是下周”要求客户选择时间，对唤醒消息而言有催约感。",
+    "privacy_violation": "无",
+    "fabrication": "轻微：聊天记录没有确认客户实际将 Akoya 耳钉带进山，却将此当作事实。",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 2,
+    "naturalness": 2,
+    "effectiveness": 2
+   },
+   "sendability": "小改可发",
+   "comment": "保养理由真实，但关于光泽和耳堵的问法别扭，二选一约时间也给客户压力。"
+  }
+ ],
+ "set": {
+  "diversity": 3,
+  "risk_judgement": "偏松",
+  "best_index": 1,
+  "must_coverage": "2/2",
+  "summary": "候选 1 自然且有真实联系理由，能满足本场景的两项要求。整体风险判断偏松：候选 2 虚构了 CA 的经历，候选 3 则有未经确认的细节和催约感。"
+ },
+ "_judge": "openai:gpt-6.1-terra"
+}

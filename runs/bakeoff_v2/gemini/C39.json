@@ -1,0 +1,178 @@
+{
+ "case_id": "C39",
+ "version": "v2",
+ "model": "gemini:gemini-3.8-flash",
+ "risk": {
+  "level": "caution",
+  "flags": [
+   "客户提出带专业摄影师进店拍摄，涉及品牌公关报备与现场拍摄规范，CA无权擅自承诺"
+  ],
+  "advice": "肯定客户的创作心意，不直接承诺也不生硬拒绝，坦诚说明需向公关报备确认并会主动跟进。"
+ },
+ "candidates": [
+  {
+   "text": "江女士，带摄影师的事我去和公关确认下，有结果马上告诉您。",
+   "strategy": "极简",
+   "note_for_ca": "快速稳妥应答，坦诚需要确认，适合第一时间秒回"
+  },
+  {
+   "text": "江女士，太开心您想记录分享。因为这次沙龙有手绘原件展出，外带摄影师需要走一下公关报备，我去帮您沟通确认，尽量给您一个满意的答复。",
+   "strategy": "走心",
+   "note_for_ca": "肯定其创作意愿并结合手稿展出解释报备，真诚体贴"
+  },
+  {
+   "text": "江女士，现场拍摄的安排我今天去和公关协调确认。预览是 20 到 22 号这三天，您大概倾向哪天的下午？我报备时把您的心仪时间一起定下来。",
+   "strategy": "推进",
+   "note_for_ca": "说明去协调的同时敲定客户意向日期，高效推进预览安排"
+  }
+ ],
+ "checks": [
+  {
+   "pass": true,
+   "hard": [],
+   "soft": [],
+   "length": 28
+  },
+  {
+   "pass": true,
+   "hard": [],
+   "soft": [],
+   "length": 64
+  },
+  {
+   "pass": true,
+   "hard": [],
+   "soft": [],
+   "length": 64
+  }
+ ],
+ "trace": {
+  "rounds": [
+   {
+    "rule_checks": [
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 28
+     },
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 64
+     },
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 64
+     }
+    ],
+    "critic": {
+     "reviews": [
+      {
+       "index": 1,
+       "pass": true,
+       "issues": []
+      },
+      {
+       "index": 2,
+       "pass": true,
+       "issues": []
+      },
+      {
+       "index": 3,
+       "pass": true,
+       "issues": []
+      }
+     ],
+     "set_issues": []
+    },
+    "set_issues": [],
+    "to_fix": {}
+   }
+  ],
+  "plan": {
+   "client_read": "江女士是一位对复古美学与珍珠极有热情的时尚内容创作者，目前互动紧密且对品牌特展表现出强烈的分享欲与参与意愿。",
+   "risk": {
+    "level": "caution",
+    "flags": [
+     "客户提出带专业摄影师进店拍摄，涉及品牌公关报备与现场拍摄规范，CA无权擅自承诺"
+    ],
+    "advice": "肯定客户的创作心意，不直接承诺也不生硬拒绝，坦诚说明需向公关报备确认并会主动跟进。"
+   },
+   "ca_commitments": [
+    "拍摄需要问公关，想先回复她"
+   ],
+   "usable_facts": [
+    "客户想带摄影师拍摄并发布内容",
+    "特展包含百年手绘图稿原件与巴黎串线演示",
+    "特展预览时间为11月20日至22日，每场8位客人",
+    "客户此前分享过德洛姆珍珠作品的叠戴内容"
+   ],
+   "do_not_mention": [
+    "直接答应可以带摄影师或直接拒绝客户拍摄",
+    "客户累计消费金额与内部进阶标签",
+    "公关合作投放、报销或商业互换等未确认承诺"
+   ],
+   "products": [],
+   "slots": {
+    "极简": "告知已收到拍摄想法，说明去向公关确认后第一时间回复。",
+    "走心": "接住她想为特展记录分享的心意，真诚告知沙龙拍摄需走公关报备流程，自己会去尽力沟通。",
+    "推进": "说明现场私享沙龙的拍摄需向公关确认细节，同时询问她倾向20至22日哪一天的场次，方便同步协调。"
+   }
+  },
+  "first_draft": [
+   {
+    "text": "江女士，带摄影师的事我去和公关确认下，有结果马上告诉您。",
+    "strategy": "极简",
+    "note_for_ca": "快速稳妥应答，坦诚需要确认，适合第一时间秒回"
+   },
+   {
+    "text": "江女士，太开心您想记录分享。因为这次沙龙有手绘原件展出，外带摄影师需要走一下公关报备，我去帮您沟通确认，尽量给您一个满意的答复。",
+    "strategy": "走心",
+    "note_for_ca": "肯定其创作意愿并结合手稿展出解释报备，真诚体贴"
+   },
+   {
+    "text": "江女士，现场拍摄的安排我今天去和公关协调确认。预览是 20 到 22 号这三天，您大概倾向哪天的下午？我报备时把您的心仪时间一起定下来。",
+    "strategy": "推进",
+    "note_for_ca": "说明去协调的同时敲定客户意向日期，高效推进预览安排"
+   }
+  ],
+  "seconds": 33.9,
+  "diversity_max_sim": 0.039473684210526314,
+  "calls": [
+   {
+    "requested": "gemini-3.8-flash",
+    "served": "gemini-3.8-flash",
+    "seconds": 14.6,
+    "attempt": 1,
+    "in_tokens": 5360,
+    "out_tokens": 433,
+    "reasoning_tokens": null,
+    "fingerprint": null
+   },
+   {
+    "requested": "gemini-3.8-flash",
+    "served": "gemini-3.8-flash",
+    "seconds": 5.7,
+    "attempt": 1,
+    "in_tokens": 4766,
+    "out_tokens": 274,
+    "reasoning_tokens": null,
+    "fingerprint": null
+   },
+   {
+    "requested": "gemini-3.8-flash",
+    "served": "gemini-3.8-flash",
+    "seconds": 13.6,
+    "attempt": 1,
+    "in_tokens": 4552,
+    "out_tokens": 102,
+    "reasoning_tokens": null,
+    "fingerprint": null
+   }
+  ]
+ }
+}

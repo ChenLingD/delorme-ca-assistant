@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "轻微：节日可用温和 emoji，但现有记录不足以确认关系熟络。",
+    "privacy_violation": "无",
+    "fabrication": "轻微：“正好一整年”过于精确；“平时工作忙碌”也缺少明确依据。",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "吊坠切入自然，但建议去掉工作状态的推测和对今晚安排的建议。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "严重：手册只确认免费清洗，未确认超声波方式、“几分钟”完成或清洗效果，不应擅自承诺。",
+    "context_failure": "轻微：节日祝福转向到店清洗，偏离以祝福本身为目的的场景。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 2,
+    "naturalness": 2,
+    "effectiveness": 2
+   },
+   "sendability": "不可用",
+   "comment": "免费清洗虽是固定服务，但具体方式和时效没有依据，且服务邀约冲淡了祝福。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "轻微：“给您挑吊坠”暗示 CA 曾替客户挑选，现有记录只确认 CA 协助调整链长。",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 4,
+    "naturalness": 4,
+    "effectiveness": 4
+   },
+   "sendability": "小改可发",
+   "comment": "祝福简短自然，建议将挑选经历改为有记录支持的吊坠细节。"
+  }
+ ],
+ "set": {
+  "diversity": 2,
+  "risk_judgement": "偏松",
+  "best_index": 3,
+  "must_coverage": "2/2",
+  "summary": "候选 3 最接近轻松得体、不推新的目标，但三条都围绕吊坠周年，角度不够丰富。整体风险判断偏松，尤其候选 2 擅自写入了清洗方式、时效和效果。"
+ },
+ "_judge": "openai:gpt-6.1-terra"
+}

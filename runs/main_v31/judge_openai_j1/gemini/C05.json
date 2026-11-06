@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 2,
+    "brand_voice": 4,
+    "naturalness": 4,
+    "effectiveness": 4
+   },
+   "sendability": "直接可发",
+   "comment": "称呼延续了以往聊天，祝福正式得体，虽缺少个人细节，但简洁自然。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "将两个月前小孙子盼放鞭炮的描述，写成今天家中的实际情景，缺乏依据。",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "切入了客户分享过的细节，但不宜推断今天的情景，“天伦尽享”也略显书面。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "问句预设今晚有团圆饭，且由客户夫妇或孩子们掌勺，这些安排均未得到确认。",
+    "context_failure": "祝福中追问未经确认的家庭安排，增加了客户回应的负担。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 2,
+    "naturalness": 2,
+    "effectiveness": 2
+   },
+   "sendability": "小改可发",
+   "comment": "认识约十年的细节有温度，但团圆饭问句预设过多，删去后更符合祝福场景。"
+  }
+ ],
+ "set": {
+  "diversity": 3,
+  "risk_judgement": "偏松",
+  "best_index": 1,
+  "must_coverage": "2/2",
+  "summary": "三条均保持正式语气，没有网络用语或 emoji；候选 1 最克制，适合直接发送。主要问题是候选 2 和 3 把未确认的家庭情景写进祝福，工具的无风险判断偏松。"
+ },
+ "_judge": "openai:gpt-6.1-terra"
+}

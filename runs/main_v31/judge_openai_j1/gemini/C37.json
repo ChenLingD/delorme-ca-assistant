@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "活动资料未说明工坊送来几件作品，也未说明有蓝宝石作品。",
+    "context_failure": "无",
+    "must_not_hit": "编造了活动作品的宝石种类及送展信息。"
+   },
+   "scores": {
+    "personalization": 5,
+    "brand_voice": 4,
+    "naturalness": 4,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "自然呼应了客户对彩宝的嘱托，但须删除未经证实的作品信息，并补充提前一周确认。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "未经 CA 授权承诺单独留出时间；“很纯正”“很衬您的眼光”偏夸饰。",
+    "privacy_violation": "无",
+    "fabrication": "编造了巴黎工坊送展、斯里兰卡蓝宝石项链及其成色；将每场 2–4 位客人改为两三位，并自行承诺留出时间。",
+    "context_failure": "没有按 CA 要求请客户选择 12 日或 13 日。",
+    "must_not_hit": "编造了独一件作品的宝石产地、款式和品质信息，且措辞夸张。"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 2,
+    "naturalness": 2,
+    "effectiveness": 1
+   },
+   "sendability": "不可用",
+   "comment": "虽然借用了客户对斯里兰卡蓝宝石的偏好，但把偏好编成了具体展品，还擅自作出安排承诺。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "活动资料未说明有几件蓝宝石作品。",
+    "context_failure": "无",
+    "must_not_hit": "编造了独一件作品的宝石种类。"
+   },
+   "scores": {
+    "personalization": 2,
+    "brand_voice": 4,
+    "naturalness": 4,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "日期选择清楚、语气自然，但缺少与客户兴趣的真实连接，也须删除蓝宝石作品的未经证实信息并补充提前一周确认。"
+  }
+ ],
+ "set": {
+  "diversity": 2,
+  "risk_judgement": "偏松",
+  "best_index": 1,
+  "must_coverage": "2/3",
+  "summary": "三条都传达了私人鉴赏的感觉，候选 1 和 3 提供了日期选择，但均未说明提前一周确认。所有候选都编造了展品信息，候选 2 还擅自承诺安排，因此工具判断无风险明显偏松。"
+ },
+ "_judge": "openai:gpt-6.1-terra"
+}

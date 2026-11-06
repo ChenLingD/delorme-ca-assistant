@@ -1,0 +1,183 @@
+80 judge jobs
+[1/80] openai judged anthropic/C34
+[2/80] openai judged anthropic/C21
+[3/80] openai judged anthropic/C39
+[4/80] openai judged anthropic/C06
+[5/80] openai judged anthropic/C30
+[6/80] openai judged anthropic/C13
+[7/80] openai judged anthropic/C01
+[8/80] openai judged anthropic/C10
+[9/80] openai judged anthropic/C43
+[10/80] openai judged anthropic/C50
+[11/80] openai judged deepseek/C06
+[12/80] openai judged deepseek/C13
+[13/80] openai judged deepseek/C21
+[14/80] openai judged deepseek/C01
+[15/80] openai judged deepseek/C10
+[16/80] openai judged deepseek/C30
+[17/80] openai judged deepseek/C34
+[18/80] openai judged gemini/C01
+[19/80] openai judged deepseek/C43
+[20/80] openai judged deepseek/C50
+[21/80] openai judged gemini/C06
+[22/80] openai judged deepseek/C39
+[23/80] openai judged gemini/C10
+[24/80] openai judged gemini/C21
+[25/80] openai judged gemini/C43
+[26/80] openai judged gemini/C13
+[27/80] openai judged gemini/C34
+[28/80] openai judged gemini/C39
+[29/80] openai judged gemini/C50
+[30/80] openai judged gemini/C30
+[31/80] openai judged openai/C06
+[32/80] openai judged openai/C01
+[33/80] openai judged openai/C21
+[34/80] openai judged openai/C13
+[35/80] openai judged openai/C30
+[36/80] openai judged openai/C34
+[37/80] openai judged openai/C43
+[38/80] openai judged openai/C39
+[39/80] openai judged openai/C10
+[40/80] openai judged openai/C50
+[41/80] anthropic judged anthropic/C01
+[42/80] anthropic judged anthropic/C06
+[43/80] anthropic judged anthropic/C39
+[44/80] anthropic judged anthropic/C21
+[45/80] anthropic judged anthropic/C50
+[46/80] anthropic judged anthropic/C10
+anthropic:claude-sonnet-5-5 attempt 1 failed after 2.0s: APIConnectionError('Connection error.')
+anthropic:claude-sonnet-5-5 attempt 1 failed after 2.3s: APIConnectionError('Connection error.')
+anthropic:claude-sonnet-5-5 attempt 1 failed after 8.2s: APIConnectionError('Connection error.')
+anthropic:claude-sonnet-5-5 attempt 1 failed after 32.6s: APIConnectionError('Connection error.')
+anthropic:claude-sonnet-5-5 attempt 1 failed after 18.0s: APIConnectionError('Connection error.')
+anthropic:claude-sonnet-5-5 attempt 1 failed after 27.4s: APIConnectionError('Connection error.')
+anthropic:claude-sonnet-5-5 attempt 1 failed after 28.4s: APIConnectionError('Connection error.')
+anthropic:claude-sonnet-5-5 attempt 1 failed after 26.1s: APIConnectionError('Connection error.')
+anthropic:claude-sonnet-5-5 attempt 2 failed after 0.3s: APIConnectionError('Connection error.')
+anthropic:claude-sonnet-5-5 attempt 2 failed after 0.3s: APIConnectionError('Connection error.')
+anthropic:claude-sonnet-5-5 attempt 2 failed after 0.3s: APIConnectionError('Connection error.')
+anthropic:claude-sonnet-5-5 attempt 2 failed after 0.3s: APIConnectionError('Connection error.')
+anthropic:claude-sonnet-5-5 attempt 2 failed after 0.3s: APIConnectionError('Connection error.')
+anthropic:claude-sonnet-5-5 attempt 2 failed after 0.3s: APIConnectionError('Connection error.')
+anthropic:claude-sonnet-5-5 attempt 2 failed after 0.3s: APIConnectionError('Connection error.')
+anthropic:claude-sonnet-5-5 attempt 2 failed after 0.3s: APIConnectionError('Connection error.')
+anthropic:claude-sonnet-5-5 attempt 3 failed after 0.0s: APIConnectionError('Connection error.')
+anthropic:claude-sonnet-5-5 attempt 3 failed after 0.0s: APIConnectionError('Connection error.')
+anthropic:claude-sonnet-5-5 attempt 3 failed after 0.0s: APIConnectionError('Connection error.')
+anthropic:claude-sonnet-5-5 attempt 3 failed after 0.0s: APIConnectionError('Connection error.')
+anthropic:claude-sonnet-5-5 attempt 3 failed after 0.0s: APIConnectionError('Connection error.')
+anthropic:claude-sonnet-5-5 attempt 3 failed after 0.0s: APIConnectionError('Connection error.')
+anthropic:claude-sonnet-5-5 attempt 3 failed after 0.0s: APIConnectionError('Connection error.')
+anthropic:claude-sonnet-5-5 attempt 3 failed after 0.0s: APIConnectionError('Connection error.')
+FAIL anthropic anthropic/C43: RuntimeError('anthropic:claude-sonnet-5-5 failed after 3 attempts: Connection error.')
+FAIL anthropic anthropic/C30: RuntimeError('anthropic:claude-sonnet-5-5 failed after 3 attempts: Connection error.')
+FAIL anthropic deepseek/C10: RuntimeError('anthropic:claude-sonnet-5-5 failed after 3 attempts: Connection error.')
+FAIL anthropic deepseek/C01: RuntimeError('anthropic:claude-sonnet-5-5 failed after 3 attempts: Connection error.')
+FAIL anthropic anthropic/C34: RuntimeError('anthropic:claude-sonnet-5-5 failed after 3 attempts: Connection error.')
+FAIL anthropic deepseek/C13: RuntimeError('anthropic:claude-sonnet-5-5 failed after 3 attempts: Connection error.')
+FAIL anthropic anthropic/C13: RuntimeError('anthropic:claude-sonnet-5-5 failed after 3 attempts: Connection error.')
+FAIL anthropic deepseek/C06: RuntimeError('anthropic:claude-sonnet-5-5 failed after 3 attempts: Connection error.')
+anthropic:claude-sonnet-5-5 attempt 1 failed after 0.0s: APIConnectionError('Connection error.')
+anthropic:claude-sonnet-5-5 attempt 1 failed after 0.1s: APIConnectionError('Connection error.')
+anthropic:claude-sonnet-5-5 attempt 1 failed after 0.1s: APIConnectionError('Connection error.')
+anthropic:claude-sonnet-5-5 attempt 1 failed after 0.1s: APIConnectionError('Connection error.')
+anthropic:claude-sonnet-5-5 attempt 1 failed after 0.1s: APIConnectionError('Connection error.')
+anthropic:claude-sonnet-5-5 attempt 1 failed after 0.1s: APIConnectionError('Connection error.')
+anthropic:claude-sonnet-5-5 attempt 1 failed after 0.1s: APIConnectionError('Connection error.')
+anthropic:claude-sonnet-5-5 attempt 1 failed after 0.1s: APIConnectionError('Connection error.')
+anthropic:claude-sonnet-5-5 attempt 2 failed after 0.0s: APIConnectionError('Connection error.')
+anthropic:claude-sonnet-5-5 attempt 2 failed after 0.0s: APIConnectionError('Connection error.')
+anthropic:claude-sonnet-5-5 attempt 2 failed after 0.0s: APIConnectionError('Connection error.')
+anthropic:claude-sonnet-5-5 attempt 2 failed after 0.0s: APIConnectionError('Connection error.')
+anthropic:claude-sonnet-5-5 attempt 2 failed after 0.0s: APIConnectionError('Connection error.')
+anthropic:claude-sonnet-5-5 attempt 2 failed after 0.0s: APIConnectionError('Connection error.')
+anthropic:claude-sonnet-5-5 attempt 2 failed after 0.0s: APIConnectionError('Connection error.')
+anthropic:claude-sonnet-5-5 attempt 2 failed after 0.0s: APIConnectionError('Connection error.')
+anthropic:claude-sonnet-5-5 attempt 3 failed after 0.0s: APIConnectionError('Connection error.')
+anthropic:claude-sonnet-5-5 attempt 3 failed after 0.0s: APIConnectionError('Connection error.')
+anthropic:claude-sonnet-5-5 attempt 3 failed after 0.0s: APIConnectionError('Connection error.')
+anthropic:claude-sonnet-5-5 attempt 3 failed after 0.0s: APIConnectionError('Connection error.')
+anthropic:claude-sonnet-5-5 attempt 3 failed after 0.0s: APIConnectionError('Connection error.')
+anthropic:claude-sonnet-5-5 attempt 3 failed after 0.0s: APIConnectionError('Connection error.')
+anthropic:claude-sonnet-5-5 attempt 3 failed after 0.0s: APIConnectionError('Connection error.')
+anthropic:claude-sonnet-5-5 attempt 3 failed after 0.0s: APIConnectionError('Connection error.')
+FAIL anthropic gemini/C06: RuntimeError('anthropic:claude-sonnet-5-5 failed after 3 attempts: Connection error.')
+anthropic:claude-sonnet-5-5 attempt 1 failed after 0.0s: APIConnectionError('Connection error.')
+FAIL anthropic deepseek/C43: RuntimeError('anthropic:claude-sonnet-5-5 failed after 3 attempts: Connection error.')
+FAIL anthropic deepseek/C50: RuntimeError('anthropic:claude-sonnet-5-5 failed after 3 attempts: Connection error.')
+anthropic:claude-sonnet-5-5 attempt 1 failed after 0.0s: APIConnectionError('Connection error.')
+anthropic:claude-sonnet-5-5 attempt 1 failed after 0.0s: APIConnectionError('Connection error.')
+FAIL anthropic deepseek/C39: RuntimeError('anthropic:claude-sonnet-5-5 failed after 3 attempts: Connection error.')
+FAIL anthropic deepseek/C34: RuntimeError('anthropic:claude-sonnet-5-5 failed after 3 attempts: Connection error.')
+anthropic:claude-sonnet-5-5 attempt 1 failed after 0.0s: APIConnectionError('Connection error.')
+FAIL anthropic gemini/C01: RuntimeError('anthropic:claude-sonnet-5-5 failed after 3 attempts: Connection error.')
+anthropic:claude-sonnet-5-5 attempt 1 failed after 0.0s: APIConnectionError('Connection error.')
+FAIL anthropic deepseek/C30: RuntimeError('anthropic:claude-sonnet-5-5 failed after 3 attempts: Connection error.')
+anthropic:claude-sonnet-5-5 attempt 1 failed after 0.0s: APIConnectionError('Connection error.')
+FAIL anthropic deepseek/C21: RuntimeError('anthropic:claude-sonnet-5-5 failed after 3 attempts: Connection error.')
+anthropic:claude-sonnet-5-5 attempt 1 failed after 0.0s: APIConnectionError('Connection error.')
+anthropic:claude-sonnet-5-5 attempt 1 failed after 0.0s: APIConnectionError('Connection error.')
+anthropic:claude-sonnet-5-5 attempt 2 failed after 0.0s: APIConnectionError('Connection error.')
+anthropic:claude-sonnet-5-5 attempt 2 failed after 0.0s: APIConnectionError('Connection error.')
+anthropic:claude-sonnet-5-5 attempt 2 failed after 0.0s: APIConnectionError('Connection error.')
+anthropic:claude-sonnet-5-5 attempt 2 failed after 0.0s: APIConnectionError('Connection error.')
+anthropic:claude-sonnet-5-5 attempt 2 failed after 0.0s: APIConnectionError('Connection error.')
+anthropic:claude-sonnet-5-5 attempt 2 failed after 0.0s: APIConnectionError('Connection error.')
+anthropic:claude-sonnet-5-5 attempt 2 failed after 0.0s: APIConnectionError('Connection error.')
+anthropic:claude-sonnet-5-5 attempt 2 failed after 0.0s: APIConnectionError('Connection error.')
+anthropic:claude-sonnet-5-5 attempt 3 failed after 0.0s: APIConnectionError('Connection error.')
+anthropic:claude-sonnet-5-5 attempt 3 failed after 0.0s: APIConnectionError('Connection error.')
+anthropic:claude-sonnet-5-5 attempt 3 failed after 0.0s: APIConnectionError('Connection error.')
+anthropic:claude-sonnet-5-5 attempt 3 failed after 0.0s: APIConnectionError('Connection error.')
+anthropic:claude-sonnet-5-5 attempt 3 failed after 0.0s: APIConnectionError('Connection error.')
+anthropic:claude-sonnet-5-5 attempt 3 failed after 0.0s: APIConnectionError('Connection error.')
+anthropic:claude-sonnet-5-5 attempt 3 failed after 0.0s: APIConnectionError('Connection error.')
+anthropic:claude-sonnet-5-5 attempt 3 failed after 0.0s: APIConnectionError('Connection error.')
+FAIL anthropic gemini/C10: RuntimeError('anthropic:claude-sonnet-5-5 failed after 3 attempts: Connection error.')
+anthropic:claude-sonnet-5-5 attempt 1 failed after 0.0s: APIConnectionError('Connection error.')
+FAIL anthropic gemini/C30: RuntimeError('anthropic:claude-sonnet-5-5 failed after 3 attempts: Connection error.')
+anthropic:claude-sonnet-5-5 attempt 1 failed after 0.0s: APIConnectionError('Connection error.')
+FAIL anthropic gemini/C13: RuntimeError('anthropic:claude-sonnet-5-5 failed after 3 attempts: Connection error.')
+FAIL anthropic gemini/C21: RuntimeError('anthropic:claude-sonnet-5-5 failed after 3 attempts: Connection error.')
+anthropic:claude-sonnet-5-5 attempt 1 failed after 0.0s: APIConnectionError('Connection error.')
+anthropic:claude-sonnet-5-5 attempt 1 failed after 0.0s: APIConnectionError('Connection error.')
+FAIL anthropic gemini/C34: RuntimeError('anthropic:claude-sonnet-5-5 failed after 3 attempts: Connection error.')
+anthropic:claude-sonnet-5-5 attempt 1 failed after 0.0s: APIConnectionError('Connection error.')
+FAIL anthropic gemini/C39: RuntimeError('anthropic:claude-sonnet-5-5 failed after 3 attempts: Connection error.')
+anthropic:claude-sonnet-5-5 attempt 1 failed after 0.0s: APIConnectionError('Connection error.')
+FAIL anthropic gemini/C43: RuntimeError('anthropic:claude-sonnet-5-5 failed after 3 attempts: Connection error.')
+anthropic:claude-sonnet-5-5 attempt 1 failed after 0.0s: APIConnectionError('Connection error.')
+FAIL anthropic gemini/C50: RuntimeError('anthropic:claude-sonnet-5-5 failed after 3 attempts: Connection error.')
+anthropic:claude-sonnet-5-5 attempt 1 failed after 0.0s: APIConnectionError('Connection error.')
+anthropic:claude-sonnet-5-5 attempt 2 failed after 0.0s: APIConnectionError('Connection error.')
+anthropic:claude-sonnet-5-5 attempt 2 failed after 0.0s: APIConnectionError('Connection error.')
+anthropic:claude-sonnet-5-5 attempt 2 failed after 0.0s: APIConnectionError('Connection error.')
+anthropic:claude-sonnet-5-5 attempt 2 failed after 0.0s: APIConnectionError('Connection error.')
+anthropic:claude-sonnet-5-5 attempt 2 failed after 0.0s: APIConnectionError('Connection error.')
+anthropic:claude-sonnet-5-5 attempt 2 failed after 0.0s: APIConnectionError('Connection error.')
+anthropic:claude-sonnet-5-5 attempt 2 failed after 0.0s: APIConnectionError('Connection error.')
+anthropic:claude-sonnet-5-5 attempt 2 failed after 0.0s: APIConnectionError('Connection error.')
+anthropic:claude-sonnet-5-5 attempt 3 failed after 0.0s: APIConnectionError('Connection error.')
+anthropic:claude-sonnet-5-5 attempt 3 failed after 0.0s: APIConnectionError('Connection error.')
+anthropic:claude-sonnet-5-5 attempt 3 failed after 0.0s: APIConnectionError('Connection error.')
+anthropic:claude-sonnet-5-5 attempt 3 failed after 0.0s: APIConnectionError('Connection error.')
+anthropic:claude-sonnet-5-5 attempt 3 failed after 0.0s: APIConnectionError('Connection error.')
+anthropic:claude-sonnet-5-5 attempt 3 failed after 0.0s: APIConnectionError('Connection error.')
+anthropic:claude-sonnet-5-5 attempt 3 failed after 0.0s: APIConnectionError('Connection error.')
+anthropic:claude-sonnet-5-5 attempt 3 failed after 0.0s: APIConnectionError('Connection error.')
+FAIL anthropic openai/C01: RuntimeError('anthropic:claude-sonnet-5-5 failed after 3 attempts: Connection error.')
+FAIL anthropic openai/C13: RuntimeError('anthropic:claude-sonnet-5-5 failed after 3 attempts: Connection error.')
+anthropic:claude-sonnet-5-5 attempt 1 failed after 0.0s: APIConnectionError('Connection error.')
+anthropic:claude-sonnet-5-5 attempt 1 failed after 0.0s: APIConnectionError('Connection error.')
+FAIL anthropic openai/C21: RuntimeError('anthropic:claude-sonnet-5-5 failed after 3 attempts: Connection error.')
+FAIL anthropic openai/C06: RuntimeError('anthropic:claude-sonnet-5-5 failed after 3 attempts: Connection error.')
+FAIL anthropic openai/C30: RuntimeError('anthropic:claude-sonnet-5-5 failed after 3 attempts: Connection error.')
+FAIL anthropic openai/C34: RuntimeError('anthropic:claude-sonnet-5-5 failed after 3 attempts: Connection error.')
+FAIL anthropic openai/C10: RuntimeError('anthropic:claude-sonnet-5-5 failed after 3 attempts: Connection error.')
+FAIL anthropic openai/C39: RuntimeError('anthropic:claude-sonnet-5-5 failed after 3 attempts: Connection error.')
+anthropic:claude-sonnet-5-5 attempt 2 failed after 0.0s: APIConnectionError('Connection error.')
+anthropic:claude-sonnet-5-5 attempt 2 failed after 0.0s: APIConnectionError('Connection error.')
+anthropic:claude-sonnet-5-5 attempt 3 failed after 0.0s: APIConnectionError('Connection error.')
+anthropic:claude-sonnet-5-5 attempt 3 failed after 0.0s: APIConnectionError('Connection error.')
+FAIL anthropic openai/C50: RuntimeError('anthropic:claude-sonnet-5-5 failed after 3 attempts: Connection error.')
+FAIL anthropic openai/C43: RuntimeError('anthropic:claude-sonnet-5-5 failed after 3 attempts: Connection error.')

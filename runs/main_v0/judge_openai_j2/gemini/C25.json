@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 5,
+    "brand_voice": 5,
+    "naturalness": 5,
+    "effectiveness": 5
+   },
+   "sendability": "直接可发",
+   "comment": "进度、预计时间和年会赶不上都交代清楚，也回应了客户的着急。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "轻微：未经 CA 确认，承诺项链到店后第一时间做好清洁检测。",
+    "privacy_violation": "无",
+    "fabrication": "轻微：“正在安排寄回”及到店后立即清洁检测均无已确认依据。",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "核心问题回答到了，但“到上海”不如“寄回门店”准确，且不应自行添加流程和服务安排。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "轻微：没有依据说明项链已“封箱”，也无法确认 CA“一直在跟工坊盯”。",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 3,
+    "naturalness": 4,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "时间和年会情况交代清楚，但应删去未经确认的封箱和持续跟进表述。"
+  }
+ ],
+ "set": {
+  "diversity": 2,
+  "risk_judgement": "偏松",
+  "best_index": 1,
+  "must_coverage": "3/3",
+  "summary": "候选 1 接住情绪，并准确交代预计回店时间和年会赶不上的情况。整体风险判断偏松：候选 2、3 添加了未经确认的流程或安排，三条的切入方式也较相似。"
+ },
+ "_judge": "openai:gpt-6.1-terra"
+}

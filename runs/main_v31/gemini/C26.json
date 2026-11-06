@@ -1,0 +1,331 @@
+{
+ "case_id": "C26",
+ "version": "v3.1",
+ "model": "gemini:gemini-3.8-flash",
+ "risk": {
+  "level": "caution",
+  "flags": [
+   "客户对推荐接受度为反感",
+   "超过21个月未联络，2年未到店"
+  ],
+  "advice": "仅聚焦于珍珠串线与日常保养服务，绝不推介任何新作品或催促进店。"
+ },
+ "candidates": [
+  {
+   "text": "范女士，您好。整理养护档案时留意到，您那条南洋白珠单串项链自购入后还没重新串过线。珍珠丝线建议每隔一到两年换新一次，佩戴起来更稳妥，您有空路过外滩源时带过来即可。",
+   "strategy": "极简",
+   "note_for_ca": "纯粹服务提醒，得体简练，不给客户任何回复压力。"
+  },
+  {
+   "text": "范女士，转眼立冬了。想到您平时出席家族聚会常戴那条南洋白珠项链，岁末若有用到的场合，不妨提前拿来做个检查与重新串线，佩戴时也更安心妥帖。",
+   "strategy": "走心",
+   "note_for_ca": "结合客户常戴白珠项链出席家族活动的习惯，显得熨帖自然。"
+  },
+  {
+   "text": "范女士，您好。您那条南洋白珠项链戴了几年，丝线该做一次常规换新了。这项保养店里一直免费提供，您看下周平时还是周末顺路经过外滩源，带过来交给我即可。",
+   "strategy": "推进",
+   "note_for_ca": "提出品牌免费串线服务，给出平时或周末的二选一轻量推进。"
+  }
+ ],
+ "checks": [
+  {
+   "pass": true,
+   "hard": [],
+   "soft": [],
+   "length": 81
+  },
+  {
+   "pass": true,
+   "hard": [],
+   "soft": [],
+   "length": 68
+  },
+  {
+   "pass": true,
+   "hard": [],
+   "soft": [],
+   "length": 73
+  }
+ ],
+ "trace": {
+  "rounds": [
+   {
+    "rule_checks": [
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 81
+     },
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 68
+     },
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 78
+     }
+    ],
+    "critic": {
+     "reviews": [
+      {
+       "index": 1,
+       "pass": true,
+       "issues": []
+      },
+      {
+       "index": 2,
+       "pass": true,
+       "issues": []
+      },
+      {
+       "index": 3,
+       "pass": false,
+       "issues": [
+        "承诺性内容违规：草稿中承诺“我提前为您安排好工匠留出时间”，工匠排期与专属留时间属于门店安排与承诺性内容，且输入中 CA 提供的承诺清单为空，工具/CA 草稿不得自行承诺。建议删去预留工匠的承诺，改为单纯询问方便到店送件的时间，或写成“我先帮您在系统里登记好”。"
+       ]
+      }
+     ],
+     "set_issues": []
+    },
+    "set_issues": [],
+    "to_fix": {
+     "3": [
+      "承诺性内容违规：草稿中承诺“我提前为您安排好工匠留出时间”，工匠排期与专属留时间属于门店安排与承诺性内容，且输入中 CA 提供的承诺清单为空，工具/CA 草稿不得自行承诺。建议删去预留工匠的承诺，改为单纯询问方便到店送件的时间，或写成“我先帮您在系统里登记好”。"
+     ]
+    }
+   },
+   {
+    "rule_checks": [
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 81
+     },
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 68
+     },
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 74
+     }
+    ],
+    "critic": {
+     "reviews": [
+      {
+       "index": 1,
+       "pass": true,
+       "issues": []
+      },
+      {
+       "index": 2,
+       "pass": true,
+       "issues": []
+      },
+      {
+       "index": 3,
+       "pass": false,
+       "issues": [
+        "承诺性内容违规：在未获授权的前提下，自行承诺了门店流程安排（'我先在沙龙为您登记好接待流程'），且表述偏公文化、给客户带来不必要的流程负担。建议改为轻量具体的下一步，例如直接询问客户近期是否方便顺路带过来，或约定一个大致的到店时间即可。"
+       ]
+      }
+     ],
+     "set_issues": []
+    },
+    "set_issues": [],
+    "to_fix": {
+     "3": [
+      "承诺性内容违规：在未获授权的前提下，自行承诺了门店流程安排（'我先在沙龙为您登记好接待流程'），且表述偏公文化、给客户带来不必要的流程负担。建议改为轻量具体的下一步，例如直接询问客户近期是否方便顺路带过来，或约定一个大致的到店时间即可。"
+     ]
+    }
+   },
+   {
+    "rule_checks": [
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 81
+     },
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 68
+     },
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 73
+     }
+    ],
+    "critic": {
+     "reviews": [
+      {
+       "index": 1,
+       "pass": true,
+       "issues": []
+      },
+      {
+       "index": 2,
+       "pass": true,
+       "issues": []
+      },
+      {
+       "index": 3,
+       "pass": true,
+       "issues": []
+      }
+     ],
+     "set_issues": []
+    },
+    "set_issues": [],
+    "to_fix": {}
+   }
+  ],
+  "plan": {
+   "client_read": "范女士是一位讲求分寸、含蓄低调的资深藏家，对主动推销反感但看重专业服务与礼数。两人已相识十年，虽有近两年未到店，但关系基础深厚，适合以纯粹的售后专业关怀自然重启对话。",
+   "risk": {
+    "level": "caution",
+    "flags": [
+     "客户对推荐接受度为反感",
+     "超过21个月未联络，2年未到店"
+    ],
+    "advice": "仅聚焦于珍珠串线与日常保养服务，绝不推介任何新作品或催促进店。"
+   },
+   "ca_commitments": [],
+   "usable_facts": [
+    "2021年购入沧海南洋白珠单串项链且未做过重新串线",
+    "常佩戴该白珠项链出席家族活动",
+    "认识已有十年（自2016年）",
+    "珍珠作品终身免费重新串线（建议1-2年一次）"
+   ],
+   "do_not_mention": [
+    "推销任何新品或发价目",
+    "提及两年没来、好久不见等追讨式字眼",
+    "消费金额或内部等级",
+    "天气或气温描述"
+   ],
+   "products": [
+    "MDC-N03"
+   ],
+   "unanswerable": "",
+   "slots": {
+    "极简": {
+     "切入点": "直入珍珠常规养护周期",
+     "唯一信息点": "南洋白珠项链已佩戴数年，提醒到了建议重新串线的养护周期"
+    },
+    "走心": {
+     "切入点": "结合白珠项链常伴出席重要场合的佩戴习惯",
+     "唯一信息点": "岁末若有家族相聚等佩戴需求，提前检查丝线与搭扣佩戴更妥帖"
+    },
+    "推进": {
+     "切入点": "立冬时节的丝线养护提醒与具体到店/寄送便利",
+     "唯一信息点": "说明工坊重新串线手工流程，询问下次方便时带到外滩源旗舰店或安排取送"
+    }
+   }
+  },
+  "first_draft": [
+   {
+    "text": "范女士，您好。整理养护档案时留意到，您那条南洋白珠单串项链自购入后还没重新串过线。珍珠丝线建议每隔一到两年换新一次，佩戴起来更稳妥，您有空路过外滩源时带过来即可。",
+    "strategy": "极简",
+    "note_for_ca": "纯粹服务提醒，得体简练，不给客户任何回复压力。"
+   },
+   {
+    "text": "范女士，转眼立冬了。想到您平时出席家族聚会常戴那条南洋白珠项链，岁末若有用到的场合，不妨提前拿来做个检查与重新串线，佩戴时也更安心妥帖。",
+    "strategy": "走心",
+    "note_for_ca": "结合客户常戴白珠项链出席家族活动的习惯，显得熨帖自然。"
+   },
+   {
+    "text": "范女士，您好。您那条南洋白珠项链已到了建议重新串线的养护周期。工坊打结穿线通常需要几个工作日，您看近期哪天方便带到外滩源沙龙，我提前为您安排好工匠留出时间。",
+    "strategy": "推进",
+    "note_for_ca": "明确工时与流程，给出具体的下一步让客户方便安排。"
+   }
+  ],
+  "seconds": 43.3,
+  "diversity_max_sim": 0.088,
+  "calls": [
+   {
+    "requested": "gemini-3.8-flash",
+    "served": "gemini-3.8-flash",
+    "seconds": 7.5,
+    "attempt": 1,
+    "in_tokens": 6025,
+    "out_tokens": 547,
+    "reasoning_tokens": null,
+    "fingerprint": null
+   },
+   {
+    "requested": "gemini-3.8-flash",
+    "served": "gemini-3.8-flash",
+    "seconds": 4.9,
+    "attempt": 1,
+    "in_tokens": 5474,
+    "out_tokens": 311,
+    "reasoning_tokens": null,
+    "fingerprint": null
+   },
+   {
+    "requested": "gemini-3.8-flash",
+    "served": "gemini-3.8-flash",
+    "seconds": 3.3,
+    "attempt": 1,
+    "in_tokens": 5264,
+    "out_tokens": 199,
+    "reasoning_tokens": null,
+    "fingerprint": null
+   },
+   {
+    "requested": "gemini-3.8-flash",
+    "served": "gemini-3.8-flash",
+    "seconds": 2.5,
+    "attempt": 1,
+    "in_tokens": 5832,
+    "out_tokens": 129,
+    "reasoning_tokens": null,
+    "fingerprint": null
+   },
+   {
+    "requested": "gemini-3.8-flash",
+    "served": "gemini-3.8-flash",
+    "seconds": 3.3,
+    "attempt": 1,
+    "in_tokens": 5260,
+    "out_tokens": 184,
+    "reasoning_tokens": null,
+    "fingerprint": null
+   },
+   {
+    "requested": "gemini-3.8-flash",
+    "served": "gemini-3.8-flash",
+    "seconds": 9.1,
+    "attempt": 1,
+    "in_tokens": 5810,
+    "out_tokens": 126,
+    "reasoning_tokens": null,
+    "fingerprint": null
+   },
+   {
+    "requested": "gemini-3.8-flash",
+    "served": "gemini-3.8-flash",
+    "seconds": 12.7,
+    "attempt": 1,
+    "in_tokens": 5259,
+    "out_tokens": 101,
+    "reasoning_tokens": null,
+    "fingerprint": null
+   }
+  ]
+ }
+}

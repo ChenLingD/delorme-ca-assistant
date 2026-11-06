@@ -1,0 +1,97 @@
+{
+  "case_id": "C09",
+  "scenario": "product_recommendation",
+  "today": "2026-11-06",
+  "ca": {
+    "name": "赵琳",
+    "gender": "女",
+    "years_experience": 10,
+    "store": "北京 SKP 精品店",
+    "known_client_since": "2018-05",
+    "style": "偏正式"
+  },
+  "client": {
+    "surname": "苏",
+    "given_name": "韵之",
+    "gender": "女",
+    "age_range": "55-60",
+    "city": "北京",
+    "occupation": "家族投资公司董事",
+    "client_since": "2018-05",
+    "spend_band": "30-100万",
+    "stage": "核心",
+    "last_visit": "2026-07-18",
+    "last_purchase": "2025-04",
+    "wealth_source": "家族传承",
+    "motivations": [
+      "收藏"
+    ],
+    "social_visibility": "低调",
+    "price_sensitivity": "低",
+    "style_preference": "经典、不张扬",
+    "material_preference": "珍珠（偏爱有来历的珍珠作品）",
+    "owned_pieces": [
+      {
+        "date": "2018-05",
+        "item": "沧海 Akoya 珍珠耳钉",
+        "for_whom": "自戴"
+      },
+      {
+        "date": "2022-10",
+        "item": "沧海 南洋白珠单串项链",
+        "for_whom": "自戴",
+        "note": "扣头常拆下作胸针戴"
+      },
+      {
+        "date": "2025-04",
+        "item": "沧海 南洋金珠吊坠",
+        "for_whom": "自戴"
+      }
+    ],
+    "formality": "正式",
+    "reply_habit": "很少回复，看到合心意的才回一句",
+    "recommendation_openness": "一般",
+    "preferred_contact_time": "下午",
+    "birthday": "03-21",
+    "family_notes": "母亲年轻时在上海生活过，家中留有几件老珍珠首饰",
+    "interests": [
+      "老照片与老上海历史",
+      "古籍"
+    ],
+    "notes": "不喜欢被推销，发产品图她通常不回；但 7 月到店时问了很久 Henri Delorme 在上海采购珍珠的往事。"
+  },
+  "conversation_history": [
+    {
+      "sender": "ca",
+      "time": "2026-07-18 18:10",
+      "text": "苏女士，今天您问到的 Henri Delorme 在上海的手绘图稿，我问了巴黎那边，明年会有原件来中国展出，确定了告诉您。"
+    },
+    {
+      "sender": "client",
+      "time": "2026-07-18 21:44",
+      "text": "好，有劳。"
+    },
+    {
+      "sender": "ca",
+      "time": "2026-09-20 11:30",
+      "text": "苏女士，中秋将至，祝您和家人安好。"
+    }
+  ],
+  "product_skus": [
+    "MDC-N04"
+  ],
+  "ca_request": "想向她推荐“沧海·百年”金珠双串编号款",
+  "test_meta": {
+    "persona": "P1",
+    "type": "core",
+    "must": [
+      "讲具体的故事/工艺细节",
+      "与已有藏品关联",
+      "给退路"
+    ],
+    "must_not": [
+      "价格先行",
+      "稀缺紧迫（编号款也不能说“快没了”）"
+    ]
+  }
+}

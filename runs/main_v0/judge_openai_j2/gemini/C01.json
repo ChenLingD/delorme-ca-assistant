@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 2,
+    "brand_voice": 4,
+    "naturalness": 3,
+    "effectiveness": 4
+   },
+   "sendability": "直接可发",
+   "comment": "简短得体，但“今天是您的生日”略显重复，“生辰快乐”稍书面。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 2,
+    "brand_voice": 4,
+    "naturalness": 4,
+    "effectiveness": 4
+   },
+   "sendability": "直接可发",
+   "comment": "祝福简短、语气得体，虽稍有通用感，但适合这位联系不频繁的客户。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 2,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 4
+   },
+   "sendability": "小改可发",
+   "comment": "长度合适，但“常伴清欢”略显刻意，换成更自然的祝福会更像微信。"
+  }
+ ],
+ "set": {
+  "diversity": 1,
+  "risk_judgement": "正确",
+  "best_index": 2,
+  "must_coverage": "2/2",
+  "summary": "三条均简短克制、不带产品，风险判断恰当，候选2最自然。主要问题是三条都是相近的文雅祝福，切入角度缺少区分，个别措辞也略显书面。"
+ },
+ "_judge": "openai:gpt-6.1-terra"
+}

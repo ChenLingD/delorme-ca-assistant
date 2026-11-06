@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 4,
+    "naturalness": 4,
+    "effectiveness": 4
+   },
+   "sendability": "直接可发",
+   "comment": "直接接住她 9 月说的“若有老图稿展出请告诉我”，日期和“首次公开”都准确；短，不施压，用“再发详情”给她留余地，适合回复慢、不喜欢被推销的她。缺点是没提私享小规模和清静时段，珍珠收藏的关联也偏弱。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 4,
+    "naturalness": 3,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "用海浪纹提问连接她的金珠吊坠，并带出地点和“帮您看清静时段”，回应了 CA 的要求。但“吊坠上海浪纹”读着像“上海浪纹”，需改成“吊坠上的海浪纹”；浪纹与图稿的关系也很勉强；最关键的是没提她 9 月想看图稿的心愿；整体偏长。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 2,
+    "brand_voice": 4,
+    "naturalness": 3,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "时间、地点、串线师演示、每场 8 位都准确，“不方便也没关系”也得体，“每场 8 位”只是说明规模，不构成施压。但全篇没有她的影子，既没提想看图稿，也没提她的珍珠收藏，像一则写得克制的通知，缺少“为您留意”的感觉。"
+  }
+ ],
+ "set": {
+  "diversity": 4,
+  "risk_judgement": "正确",
+  "best_index": 1,
+  "must_coverage": "2/3",
+  "summary": "三条都没有红线问题，信息准确，也没有“名额有限、先到先得”式的施压，并且如实说明了还要核实场次，没有承诺人数或携伴。主要问题是没有哪一条同时做到“呼应 9 月图稿心愿”和“与珍珠收藏自然关联”：候选 1 回应了心愿，候选 2 连接了吊坠，却漏掉心愿。建议以候选 1 为底，视情况加上候选 2 里“帮您看清静时段”的收尾。"
+ },
+ "_judge": "anthropic:claude-sonnet-5-5"
+}

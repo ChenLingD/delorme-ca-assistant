@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "轻微：虽未暗示让价，但使用了手册禁用词“折扣”。",
+    "privacy_violation": "严重：“很衬花艺师的气质”结合客户职业评价其外在气质，不符合隐私与分寸要求。",
+    "fabrication": "严重：白珠光泽配对耗时及胸针扣头由巴黎工坊特别开模，均无资料依据。",
+    "context_failure": "轻微：未提供十万元内可核实的同系列选择。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 2,
+    "naturalness": 2,
+    "effectiveness": 2
+   },
+   "sendability": "不可用",
+   "comment": "回应了价格问题和胸针兴趣，但虚构工艺、评价职业气质，且没有给出预算内选择。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "轻微：虽明确不让价，但使用了手册禁用词“折扣”。",
+    "privacy_violation": "无",
+    "fabrication": "严重：目录没有沧海系列单独胸针；“我再拿给您”也暗示门店有相关作品可供展示，库存未获确认。",
+    "context_failure": "轻微：没有给出目录中可核实的十万元内具体作品。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 2,
+    "naturalness": 3,
+    "effectiveness": 2
+   },
+   "sendability": "不可用",
+   "comment": "方向贴近客户喜欢的胸针，但推荐了未经证实的作品，不能作为可靠的预算内选择。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "轻微：虽明确不让价，但使用了手册禁用词“折扣”。",
+    "privacy_violation": "无",
+    "fabrication": "严重：资料未说明这串南洋白珠珠层厚，也未提供其两用扣头的工时信息。",
+    "context_failure": "轻微：未提供十万元内可核实的同系列选择。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 2,
+    "brand_voice": 2,
+    "naturalness": 2,
+    "effectiveness": 2
+   },
+   "sendability": "不可用",
+   "comment": "态度温和且给了客户空间，但工艺描述无依据，也缺少实际替代选择。"
+  }
+ ],
+ "set": {
+  "diversity": 2,
+  "risk_judgement": "偏松",
+  "best_index": 3,
+  "must_coverage": "1/2",
+  "summary": "三条都明确不让价，但均未提供目录中可核实的十万元内同系列选择，例如沧海南洋金珠吊坠。三条都有无依据的产品描述，候选 1 还评价了客户职业气质，因此“ok；无”的风险判断偏松。"
+ },
+ "_judge": "openai:gpt-6.1-terra"
+}

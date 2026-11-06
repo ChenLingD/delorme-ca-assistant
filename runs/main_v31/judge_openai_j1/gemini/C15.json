@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "购入已三年多，但不能确定实际佩戴了三年多。",
+    "context_failure": "客户已拒绝新品推荐；目前没有已知售后需求，主动邀其到店清洁并非必要联系。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 2
+   },
+   "sendability": "不可用",
+   "comment": "虽未推新品，但在没有售后需求时主动邀店，未充分尊重客户的联系边界。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "“一直保持温润的珠光”表述过满，保养效果不能保证。",
+    "privacy_violation": "无",
+    "fabrication": "无依据地保证日常擦拭能一直保持珠光。",
+    "context_failure": "客户允许发送售后信息，但未提出保养问题或显示必要的售后需求，这条主动关怀仍不宜发送。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 3
+   },
+   "sendability": "不可用",
+   "comment": "三条中最轻且没有邀店，但无已知售后需求，建议暂不联系。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "自行承诺现场处理搭扣微调及超声波清洁，超出已明确的固定服务。",
+    "privacy_violation": "无",
+    "fabrication": "未确认超声波清洁适用于该手链，也未确认门店可现场完成微调和清洁；购入一年多不等于确定佩戴了一年多。",
+    "context_failure": "没有已知售后需求，却主动提出处理并邀约到店，未充分尊重客户的联系边界。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 2,
+    "naturalness": 3,
+    "effectiveness": 1
+   },
+   "sendability": "不可用",
+   "comment": "不仅主动邀店，还作出未经确认的清洁方式和现场处理承诺。"
+  }
+ ],
+ "set": {
+  "diversity": 3,
+  "risk_judgement": "正确",
+  "best_index": 2,
+  "must_coverage": "1/1",
+  "summary": "风险判断正确，三条均未直接推荐新品，候选 2 是最轻的非推销联系。主要问题是没有已知必要售后需求，建议均不发送；候选 3 还存在未经确认的服务承诺。"
+ },
+ "_judge": "openai:gpt-6.1-terra"
+}

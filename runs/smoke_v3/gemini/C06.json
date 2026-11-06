@@ -1,0 +1,322 @@
+{
+ "case_id": "C06",
+ "version": "v3",
+ "model": "gemini:gemini-3.8-flash",
+ "risk": {
+  "level": "hold",
+  "flags": [
+   "客户父亲于一个月前（10月下旬）离世，目前仍处于服丧守孝期"
+  ],
+  "advice": "不可按常规发送喜庆祝福，绝不出现“生日快乐”字眼，不提项链串线等搁置事务，不推产品与活动，仅表达克制温和的安康挂念。"
+ },
+ "candidates": [
+  {
+   "text": "陆女士，今天是您的生辰，愿您身体安康，诸事平和顺遂。",
+   "strategy": "极简",
+   "note_for_ca": "避开喜庆字眼，用最克制的语言送上生辰安康问候。"
+  },
+  {
+   "text": "陆女士，今天是您的生辰。这段时间挂心的事多，请您一定多顾念自己的身体，愿您心中常有温和与安宁。",
+   "strategy": "走心",
+   "note_for_ca": "删去天气描述，体谅近期操劳，表达克制温暖的安宁祝愿。"
+  },
+  {
+   "text": "陆女士，生辰之际向您道一声安好。日常若有任何需要我经手协助的事，您随时吩咐，祝您身心康泰、诸事平稳。",
+   "strategy": "推进",
+   "note_for_ca": "去除了到店邀约，以温和守候与托底协助为主，分寸克制得体。"
+  }
+ ],
+ "checks": [
+  {
+   "pass": true,
+   "hard": [],
+   "soft": [],
+   "length": 26
+  },
+  {
+   "pass": true,
+   "hard": [],
+   "soft": [],
+   "length": 47
+  },
+  {
+   "pass": true,
+   "hard": [],
+   "soft": [],
+   "length": 50
+  }
+ ],
+ "trace": {
+  "rounds": [
+   {
+    "rule_checks": [
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 26
+     },
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 53
+     },
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 51
+     }
+    ],
+    "critic": {
+     "reviews": [
+      {
+       "index": 1,
+       "pass": true,
+       "issues": []
+      },
+      {
+       "index": 2,
+       "pass": false,
+       "issues": [
+        "外部事实规范问题：“入冬了”属于描述天气/季节体感。手册与硬性规则明确规定“不描述天气、气温、新闻；节气与节日只能使用系统日历给出的信息”。建议直接删去“入冬了”，保留前后文克制的关怀即可。"
+       ]
+      },
+      {
+       "index": 3,
+       "pass": false,
+       "issues": [
+        "语气与职业分寸问题：“若生活中有任何需要我搭手的地方”超出了奢品顾问的职业边界，显得冒昧、空泛且失真；且 10 月 29 日已说过“有任何需要随时告诉我”，此处再次拔高到“生活搭手”并不合适。建议弱化为更克制、平实的致意，不做过度延伸的空头承诺。"
+       ]
+      }
+     ],
+     "set_issues": []
+    },
+    "set_issues": [],
+    "to_fix": {
+     "2": [
+      "外部事实规范问题：“入冬了”属于描述天气/季节体感。手册与硬性规则明确规定“不描述天气、气温、新闻；节气与节日只能使用系统日历给出的信息”。建议直接删去“入冬了”，保留前后文克制的关怀即可。"
+     ],
+     "3": [
+      "语气与职业分寸问题：“若生活中有任何需要我搭手的地方”超出了奢品顾问的职业边界，显得冒昧、空泛且失真；且 10 月 29 日已说过“有任何需要随时告诉我”，此处再次拔高到“生活搭手”并不合适。建议弱化为更克制、平实的致意，不做过度延伸的空头承诺。"
+     ]
+    }
+   },
+   {
+    "rule_checks": [
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 26
+     },
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 47
+     },
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 47
+     }
+    ],
+    "critic": {
+     "reviews": [
+      {
+       "index": 1,
+       "pass": true,
+       "issues": []
+      },
+      {
+       "index": 2,
+       "pass": true,
+       "issues": []
+      },
+      {
+       "index": 3,
+       "pass": false,
+       "issues": [
+        "时机与分寸失当：客户父亲上月刚过世，明确要求不得有到店邀约，且策略规定丧亲期间三条候选均应以克制关心为主。“我在外滩源这边一切如常，往后若得空想出来走走散心，随时同我说”带有变相邀约到店的意味，且对适度正式关系的客户而言略显越界。建议去除散心邀约，转为安静的托底陪伴或更克制的问候。"
+       ]
+      }
+     ],
+     "set_issues": []
+    },
+    "set_issues": [],
+    "to_fix": {
+     "3": [
+      "时机与分寸失当：客户父亲上月刚过世，明确要求不得有到店邀约，且策略规定丧亲期间三条候选均应以克制关心为主。“我在外滩源这边一切如常，往后若得空想出来走走散心，随时同我说”带有变相邀约到店的意味，且对适度正式关系的客户而言略显越界。建议去除散心邀约，转为安静的托底陪伴或更克制的问候。"
+     ]
+    }
+   },
+   {
+    "rule_checks": [
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 26
+     },
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 47
+     },
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 50
+     }
+    ],
+    "critic": {
+     "reviews": [
+      {
+       "index": 1,
+       "pass": true,
+       "issues": []
+      },
+      {
+       "index": 2,
+       "pass": true,
+       "issues": []
+      },
+      {
+       "index": 3,
+       "pass": true,
+       "issues": []
+      }
+     ],
+     "set_issues": []
+    },
+    "set_issues": [],
+    "to_fix": {}
+   }
+  ],
+  "plan": {
+   "client_read": "陆女士是一位低调从容、极具审美鉴赏力的资深藏家与家族企业管理者。当前她父亲刚离世满一个月又逢生辰，与品牌及 CA 虽有多年深厚信任，但此刻正处于需要克制守护、不宜打扰的静默哀思期。",
+   "risk": {
+    "level": "hold",
+    "flags": [
+     "客户父亲于一个月前（10月下旬）离世，目前仍处于服丧守孝期"
+    ],
+    "advice": "不可按常规发送喜庆祝福，绝不出现“生日快乐”字眼，不提项链串线等搁置事务，不推产品与活动，仅表达克制温和的安康挂念。"
+   },
+   "ca_commitments": [],
+   "usable_facts": [
+    "今天是陆女士的生日（11月27日）",
+    "父亲于一个月前（10月下旬）离世",
+    "与 Yvonne 认识已逾六年，彼此沟通温和得体"
+   ],
+   "do_not_mention": [
+    "“生日快乐”等喜庆或欢愉字眼",
+    "提及或催促白珠项链重新串线一事",
+    "推销任何珠宝作品、新品或到店邀约",
+    "调侃、空洞煽情或过度探听家庭隐私",
+    "客户资产、消费门槛或内部标签"
+   ],
+   "products": [],
+   "slots": {
+    "极简": "极简温和地表达生辰挂念与安康之愿，不言“快乐”，点到即止。",
+    "走心": "体谅其近期心境与辛劳，送上平静温暖的关照与力量，让她感受到无需回应的体贴守护。",
+    "推进": "不主动推进项链保养或商业事务，仅温和表明自己随时都在、有任何需要随时吩咐即可。"
+   }
+  },
+  "first_draft": [
+   {
+    "text": "陆女士，今天是您的生辰，愿您身体安康，诸事平和顺遂。",
+    "strategy": "极简",
+    "note_for_ca": "避开喜庆字眼，用最克制的语言送上生辰安康问候。"
+   },
+   {
+    "text": "陆女士，今天是您的生辰。这段时间家里挂心的事多，入冬了，请您一定多顾念自己的身体，愿您心中常有温和与安宁。",
+    "strategy": "走心",
+    "note_for_ca": "体谅其近期操劳心境，表达深层关切且不触碰痛处。"
+   },
+   {
+    "text": "陆女士，生辰之际，祝您平稳顺意。我这边一切如常，若生活中有任何需要我搭手的地方，您随时同我说一声便好。",
+    "strategy": "推进",
+    "note_for_ca": "克制推进服务兜底，表明随时可提供支持，不提具体待办。"
+   }
+  ],
+  "seconds": 102.2,
+  "diversity_max_sim": 0.15384615384615385,
+  "calls": [
+   {
+    "requested": "gemini-3.8-flash",
+    "served": "gemini-3.8-flash",
+    "seconds": 17.8,
+    "attempt": 1,
+    "in_tokens": 5680,
+    "out_tokens": 456,
+    "reasoning_tokens": null,
+    "fingerprint": null
+   },
+   {
+    "requested": "gemini-3.8-flash",
+    "served": "gemini-3.8-flash",
+    "seconds": 9.0,
+    "attempt": 1,
+    "in_tokens": 4906,
+    "out_tokens": 263,
+    "reasoning_tokens": null,
+    "fingerprint": null
+   },
+   {
+    "requested": "gemini-3.8-flash",
+    "served": "gemini-3.8-flash",
+    "seconds": 16.3,
+    "attempt": 1,
+    "in_tokens": 4694,
+    "out_tokens": 266,
+    "reasoning_tokens": null,
+    "fingerprint": null
+   },
+   {
+    "requested": "gemini-3.8-flash",
+    "served": "gemini-3.8-flash",
+    "seconds": 14.2,
+    "attempt": 1,
+    "in_tokens": 5306,
+    "out_tokens": 209,
+    "reasoning_tokens": null,
+    "fingerprint": null
+   },
+   {
+    "requested": "gemini-3.8-flash",
+    "served": "gemini-3.8-flash",
+    "seconds": 13.7,
+    "attempt": 1,
+    "in_tokens": 4690,
+    "out_tokens": 218,
+    "reasoning_tokens": null,
+    "fingerprint": null
+   },
+   {
+    "requested": "gemini-3.8-flash",
+    "served": "gemini-3.8-flash",
+    "seconds": 15.4,
+    "attempt": 1,
+    "in_tokens": 5184,
+    "out_tokens": 114,
+    "reasoning_tokens": null,
+    "fingerprint": null
+   },
+   {
+    "requested": "gemini-3.8-flash",
+    "served": "gemini-3.8-flash",
+    "seconds": 15.8,
+    "attempt": 1,
+    "in_tokens": 4692,
+    "out_tokens": 102,
+    "reasoning_tokens": null,
+    "fingerprint": null
+   }
+  ]
+ }
+}

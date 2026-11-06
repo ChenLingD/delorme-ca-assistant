@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 2,
+    "brand_voice": 4,
+    "naturalness": 3,
+    "effectiveness": 5
+   },
+   "sendability": "直接可发",
+   "comment": "简短得体，符合生日问候目的；“生辰”和“安舒顺遂”略显书面，但不影响发送。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 2,
+    "brand_voice": 3,
+    "naturalness": 2,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "没有天气事实错误，但“生辰吉乐”“日日清朗从容”偏文饰，生日和时令的铺垫也有些多余。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "轻微：双方自2021年10月认识，至今已满五年，现处于相识的第六年，不是“第五年”。",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "相识年限有依据但表述算错；“一直以来的相伴”也稍显郑重，删去整句会更符合客户的沟通习惯。"
+  }
+ ],
+ "set": {
+  "diversity": 3,
+  "risk_judgement": "偏松",
+  "best_index": 1,
+  "must_coverage": "2/2",
+  "summary": "候选1最贴合极简、克制且不带产品的要求；三条都没有推销、邀约或提生日礼物。主要问题是候选3把相识年限说错，候选2则略显文饰。"
+ },
+ "_judge": "openai:gpt-6.1-terra"
+}

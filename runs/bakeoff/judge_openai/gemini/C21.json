@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "未经检查即承诺“完全恢复光泽”，并承诺今天或明天随时上门取件、明天抛光后送回；已知信息不足以支持这些保证。",
+    "context_failure": "未告知现场抛光约40分钟，用次日完成和送回的承诺替代了已知时间信息。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 2
+   },
+   "sendability": "小改可发",
+   "comment": "上门取件体贴，但承诺过满，且漏了现场约40分钟的关键信息。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "未经检查即承诺“恢复如新”和“当场就能拿好”；已知的现场时间是约40分钟，并非无条件保证。",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 4,
+    "naturalness": 4,
+    "effectiveness": 4
+   },
+   "sendability": "小改可发",
+   "comment": "先道歉再给出免费抛光和预计时间，处理路径清楚，但须删去效果及完成时间的绝对承诺。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "未经检查即承诺“完全可以恢复如新”；已知在店的是维修师傅，不能确定其为“工坊师傅”。",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 4
+   },
+   "sendability": "小改可发",
+   "comment": "提供到店和取件两种选择，但效果承诺过满，喝咖啡的描述对处理投诉并非必要。"
+  }
+ ],
+ "set": {
+  "diversity": 3,
+  "risk_judgement": "正确",
+  "best_index": 2,
+  "must_coverage": "3/3",
+  "summary": "三条都先安抚客户并提出免费抛光，候选2的时间信息最清楚；整体角度有区别，但均围绕同一解决方案展开。主要问题是三条都对抛光效果作了未经检查的绝对承诺，候选1还额外承诺了取送和完成时间。"
+ },
+ "_judge": "openai:gpt-6.1-terra"
+}

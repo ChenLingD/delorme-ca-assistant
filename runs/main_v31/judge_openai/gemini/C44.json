@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "严重：目录未说明逐颗手工密镶、严丝合缝、光随手动或贴手度；备注重复了部分说法，但未提示其未经确认。",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 2,
+    "brand_voice": 2,
+    "naturalness": 2,
+    "effectiveness": 2
+   },
+   "sendability": "小改可发",
+   "comment": "回应了工艺价值，但解释偏满；应删去未经证实的细节，改用约40工时和沿穹顶弧线排列的铺镶。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "严重：称大一圈的钻石戴不出这种气场，贬低客户正在考虑的另一选择。",
+    "privacy_violation": "无",
+    "fabrication": "严重：钻石全收在金属边缘内、贴合手形和不刮碰手镯均无依据；备注虽提到不刮碰，但未提示未经确认。",
+    "context_failure": "严重：以否定另一选择的方式回应比价，容易让客户觉得自己的比较被否定。",
+    "must_not_hit": "严重：贬低竞品或客户考虑的另一选择。"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 1,
+    "naturalness": 1,
+    "effectiveness": 1
+   },
+   "sendability": "不可用",
+   "comment": "虽然用到了客户试戴和手镯的信息，但虚构佩戴效果，又用排他性的气场说辞压过客户的判断。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "轻微：目录只写铺镶，未说明是密镶；客户也未说另一家的作品是单颗大钻。",
+    "context_failure": "轻微：没有先接住客户对价格的疑问，也未讲清这枚戒指的具体工艺价值，便转向再次试戴。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 2
+   },
+   "sendability": "小改可发",
+   "comment": "给客户留了选择空间，但仍在比较大钻与弧线，应改为接住疑问并补充有依据的工艺细节。"
+  }
+ ],
+ "set": {
+  "diversity": 3,
+  "risk_judgement": "偏松",
+  "best_index": 1,
+  "must_coverage": "2/2",
+  "summary": "候选1尝试讲工艺价值且不比较竞品，但所用细节多无依据，不能直接发送；候选2贬低另一选择，候选3则比较了大钻与弧线，且没有讲清具体工艺价值。风险提醒识别了比价情境，却未提醒核实工艺细节，反而使用了目录未证实的“手工密镶”。"
+ },
+ "_judge": "openai:gpt-6.1-terra"
+}

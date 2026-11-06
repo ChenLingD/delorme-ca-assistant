@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无（“有办法解决”只是含糊带过，没有给出具体内容）",
+    "context_failure": "客户深夜认真问了两个具体问题，这条一个都没答。只说“看到了”和“有办法”，像是吊着客户的占位话，既没给出改圈服务，也没回应克拉对比。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 2,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 1
+   },
+   "sendability": "不可用",
+   "comment": "短是短了，但没有任何信息。“有办法解决”却不说办法，对问题问得很细的客户来说是在吊胃口，两条 must 都没做到。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无（“购买后一年内免费改圈一次”属于手册第 8 节的固定服务）",
+    "context_failure": "只回答了戒圈问题，完全没提 1 克拉与 1.5 克拉的差别，漏掉客户的第一个问题。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 4,
+    "naturalness": 4,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "先接住“想做惊喜”的心思，再用免费改圈一次给出实在的退路，语气克制，没有制造焦虑。但漏了克拉问题，也没说怎么悄悄拿到戒圈，补一句“克拉的对比我稍后发您”就可以发。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "轻微：“几张对比图”是否存在，输入里没有，属于 CA 自己的承诺，发出前要确认手头有图。“0.5 到 3 克拉可定制”来自目录，没有问题。",
+    "context_failure": "完全没回应戒圈保密的问题，漏掉客户的第二个问题，也没提改圈服务。",
+    "must_not_hit": "无（没有直接推超预算。但在没有 1.5 克拉价格的情况下，提到“最大 3 克拉”，有把客户往预算之外带的风险。）"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 4,
+    "naturalness": 4,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "回应克拉问题的方式得体：用“并排看图”代替编造数据，价格部分说“去确认”，也没有催到店。但戒圈这个客户最焦虑的点没有碰，“0.5–3 克拉”的说法也略有往上带的嫌疑。"
+  }
+ ],
+ "set": {
+  "diversity": 3,
+  "risk_judgement": "正确",
+  "best_index": 2,
+  "must_coverage": "1/2（改圈服务由候选 2 覆盖；“回答问题”三条各只答了半边或没答，没有任何一条同时回答两个问题）",
+  "summary": "风险提醒到位：礼赠保密、预算接近上限、不猜 1.5 克拉价格、只用固定服务回答戒圈，三条也都没有踩红线。主要问题是每条只照顾了客户两个问题中的一个，候选 1 一个都没答，客户得不到完整答复；最理想的是把候选 2 的改圈内容和候选 3 的“发图并去确认 1.5 克拉”合并成一条。"
+ },
+ "_judge": "anthropic:claude-sonnet-5-5"
+}

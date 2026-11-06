@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 4,
+    "naturalness": 3,
+    "effectiveness": 4
+   },
+   "sendability": "直接可发",
+   "comment": "结合了客户常出差的情况，邀约轻且不催回复；“同步”略显公文化。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "活动资料没有提到喝茶；“年底各项目往往连轴转”也未经确认。",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 2,
+    "naturalness": 2,
+    "effectiveness": 2
+   },
+   "sendability": "小改可发",
+   "comment": "虽尝试关照客户的忙碌，但话偏长，还加入了未经确认的工作和活动细节。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 2,
+    "brand_voice": 4,
+    "naturalness": 4,
+    "effectiveness": 3
+   },
+   "sendability": "直接可发",
+   "comment": "刻字信息准确，语气也平和，但缺少与客户的具体关联，提出再发安排略增加沟通步骤。"
+  }
+ ],
+ "set": {
+  "diversity": 4,
+  "risk_judgement": "正确",
+  "best_index": 1,
+  "must_coverage": "2/2",
+  "summary": "候选 1 最贴合极轻、留有退路且不要求立即回复的要求，整体风险判断也恰当。主要问题是候选 2 编造喝茶细节并揣测客户工作状态，候选 3 则个性化不足。"
+ },
+ "_judge": "openai:gpt-6.1-terra"
+}

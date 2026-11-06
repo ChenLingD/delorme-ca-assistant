@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 2,
+    "brand_voice": 4,
+    "naturalness": 5,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "简短清楚，也没有擅自答应，但只回应了拍摄问题，没接住客户的兴奋。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 4,
+    "naturalness": 3,
+    "effectiveness": 4
+   },
+   "sendability": "小改可发",
+   "comment": "接住了客户的喜爱，也明确先确认拍摄，但一口气问人数、内容和日期，稍显密集。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 3,
+    "naturalness": 2,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "老上海与图稿的连接有针对性，但开头略重复，“您先别着急”和日期提示不够自然。"
+  }
+ ],
+ "set": {
+  "diversity": 4,
+  "risk_judgement": "正确",
+  "best_index": 2,
+  "must_coverage": "3/3",
+  "summary": "三条都没有直接答应拍摄，候选 2 最能兼顾确认与回应客户热情，但三条整体仍可更自然。风险等级和核心提醒恰当，不过发布的时间、方式和措辞是否需要与公关对齐尚未确认，不宜当作既定要求。"
+ },
+ "_judge": "openai:gpt-6.1-terra"
+}

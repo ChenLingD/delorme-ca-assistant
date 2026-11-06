@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "严重：目录未说明金珠吊坠的吊扣材质，不能称其为18K玫瑰金。",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "珍珠与心静的切入贴合客户，但须删去未经证实的吊扣材质，并精简“很显气质”等形容。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "轻微：客户已明确请CA推荐，但消息只反问偏好的佩戴部位或材质，没有给出具体推荐。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 2
+   },
+   "sendability": "小改可发",
+   "comment": "问题温和，但逐一提及已有作品略显刻意，且未直接回应推荐请求。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "轻微：目录说明侧面是手工錾刻的柱式纹理，未说明是“微雕纹理”。",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 4
+   },
+   "sendability": "小改可发",
+   "comment": "玫瑰金与不爱太闪的偏好契合，建议改为“手工錾刻的柱式纹理”，并精简形容。"
+  }
+ ],
+ "set": {
+  "diversity": 4,
+  "risk_judgement": "正确",
+  "best_index": 3,
+  "must_coverage": "1/1",
+  "summary": "三条都围绕客户喜好展开，也都没有提及或追问付款人；候选3是相对稳妥的推荐。主要问题是候选1编造了吊扣材质，候选3的“微雕”也缺乏目录依据，均需修正后发送。"
+ },
+ "_judge": "openai:gpt-6.1-terra"
+}

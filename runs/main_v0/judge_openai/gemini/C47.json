@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "严重：“入不了您的法眼”过度迎合，并替客户决定不再考虑这件作品。",
+    "privacy_violation": "无",
+    "fabrication": "严重：目录未说明戒壁弧度较大，也未说明采用微钉密镶；与老件手工雕凿的具体工艺对比缺乏依据。",
+    "context_failure": "严重：没有用已知事实回应价格与铺镶质疑，反而自行结束讨论；客户也未明确表示不再考虑。",
+    "must_not_hit": "严重：编造工艺参数，并使用恭维式措辞。"
+   },
+   "scores": {
+    "personalization": 2,
+    "brand_voice": 1,
+    "naturalness": 2,
+    "effectiveness": 1
+   },
+   "sendability": "不可用",
+   "comment": "看似专业地接住质疑，但核心工艺说法无依据，且姿态过低。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "严重：“您的眼光向来挑剔”等话过度恭维，不符合客户不喜欢被恭维的偏好。",
+    "privacy_violation": "无",
+    "fabrication": "轻微：称能通过客户放大镜检验的作品“极少”缺乏依据，备注也未说明这是夸张的社交说法。",
+    "context_failure": "严重：没有提供任何已知工艺事实回应质疑，就把作品放下并转向未来推荐。",
+    "must_not_hit": "严重：恭维客户。"
+   },
+   "scores": {
+    "personalization": 2,
+    "brand_voice": 1,
+    "naturalness": 2,
+    "effectiveness": 1
+   },
+   "sendability": "不可用",
+   "comment": "放大镜细节虽有依据，却被用来恭维，且回避了客户想讨论的工艺。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "严重：未经论证便称客户“判断很准”，又替客户认定作品不值得入手，既过度迎合也未守住品牌立场。",
+    "privacy_violation": "无",
+    "fabrication": "严重：将现代铺镶的效果及其与古董珠宝的差异用于评价这枚戒指，缺乏目录依据；“我不为您留了”还暗示此前有预留或留货安排，输入中未提及。",
+    "context_failure": "严重：没有用已知工艺事实回应质疑，擅自将讨论定性为不值得入手。",
+    "must_not_hit": "严重：迎合式恭维，并以无依据的工艺比较回应客户。"
+   },
+   "scores": {
+    "personalization": 2,
+    "brand_voice": 1,
+    "naturalness": 2,
+    "effectiveness": 1
+   },
+   "sendability": "不可用",
+   "comment": "直接认同“不值”并引入未经证实的工艺对比，既不专业也不利于关系。"
+  }
+ ],
+ "set": {
+  "diversity": 2,
+  "risk_judgement": "偏松",
+  "best_index": 2,
+  "must_coverage": "0/2",
+  "summary": "三条都倾向于迎合客户并放弃讨论，没有以目录中的铺镶排列或约40工时等事实作不卑不亢的回应。候选2相对较少涉及虚构产品工艺，但恭维明显，仍不可发送；工具判断“无风险”偏松。"
+ },
+ "_judge": "openai:gpt-6.1-terra"
+}

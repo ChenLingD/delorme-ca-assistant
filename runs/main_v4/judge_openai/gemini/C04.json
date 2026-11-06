@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "轻微：没有资料显示客户会过平安夜；不确定时宜用更普适的年末问候。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 1,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "简短无推销，但后半句祝福略重复、偏常规；可改为更普适的问候。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "轻微：没有资料显示客户会过平安夜；不确定时宜用更普适的年末问候。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 4,
+    "naturalness": 4,
+    "effectiveness": 4
+   },
+   "sendability": "小改可发",
+   "comment": "自然带出一年前挑选的吊坠，没有借机推新；“陪伴一整年”的不确定性已在备注中提示。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "轻微：推测客户岁末工作节奏紧凑，并假定她今天有下班安排，资料中没有依据。",
+    "context_failure": "轻微：没有资料显示客户会过平安夜；不确定时宜用更普适的年末问候。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 2,
+    "brand_voice": 3,
+    "naturalness": 2,
+    "effectiveness": 2
+   },
+   "sendability": "小改可发",
+   "comment": "“岁末节奏紧凑”的职场套话和“下班后”的建议都不够贴合已知情况，且语气略显替客户安排。"
+  }
+ ],
+ "set": {
+  "diversity": 3,
+  "risk_judgement": "偏松",
+  "best_index": 2,
+  "must_coverage": "2/2",
+  "summary": "三条均未借祝福推销，候选2结合真实经历最有辨识度，候选1和3则较常规。整体风险判断偏松：客户是否过平安夜尚不确定，候选3还对工作和下班安排作了无依据的推测。"
+ },
+ "_judge": "openai:gpt-6.1-terra"
+}

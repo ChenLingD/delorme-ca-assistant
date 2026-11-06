@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 5,
+    "naturalness": 5,
+    "effectiveness": 5
+   },
+   "sendability": "直接可发",
+   "comment": "回应了客户要给粉丝的保养建议，两条提示简洁实用。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "输入未提供这条项链的珠层厚度；接触人体油脂会使光泽变润的说法缺乏依据。",
+    "context_failure": "保养建议不够可靠，不适合直接供客户转述给粉丝。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 2,
+    "naturalness": 3,
+    "effectiveness": 1
+   },
+   "sendability": "不可用",
+   "comment": "珠层和油脂养光泽的说法未经证实，应改用可靠的日常保养要点。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 4,
+    "naturalness": 4,
+    "effectiveness": 4
+   },
+   "sendability": "直接可发",
+   "comment": "结合了日常保养和品牌固定服务，让客户转述串线建议也符合她的提问，并非要求宣传。"
+  }
+ ],
+ "set": {
+  "diversity": 3,
+  "risk_judgement": "偏松",
+  "best_index": 1,
+  "must_coverage": "2/2",
+  "summary": "候选1和3均简洁回应了保养问题，候选1更适合直接转述给粉丝。候选2含未经证实的珠层及油脂养护说法，整体风险判断为“无”偏松。"
+ },
+ "_judge": "openai:gpt-6.1-terra"
+}

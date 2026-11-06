@@ -1,0 +1,62 @@
+{
+ "C01": {
+  "A": "deepseek",
+  "B": "gemini",
+  "C": "openai",
+  "D": "anthropic"
+ },
+ "C06": {
+  "A": "gemini",
+  "B": "openai",
+  "C": "anthropic",
+  "D": "deepseek"
+ },
+ "C10": {
+  "A": "gemini",
+  "B": "anthropic",
+  "C": "deepseek",
+  "D": "openai"
+ },
+ "C13": {
+  "A": "deepseek",
+  "B": "gemini",
+  "C": "openai",
+  "D": "anthropic"
+ },
+ "C21": {
+  "A": "deepseek",
+  "B": "openai",
+  "C": "anthropic",
+  "D": "gemini"
+ },
+ "C30": {
+  "A": "deepseek",
+  "B": "anthropic",
+  "C": "openai",
+  "D": "gemini"
+ },
+ "C34": {
+  "A": "deepseek",
+  "B": "anthropic",
+  "C": "openai",
+  "D": "gemini"
+ },
+ "C39": {
+  "A": "openai",
+  "B": "anthropic",
+  "C": "gemini",
+  "D": "deepseek"
+ },
+ "C43": {
+  "A": "openai",
+  "B": "deepseek",
+  "C": "gemini",
+  "D": "anthropic"
+ },
+ "C50": {
+  "A": "openai",
+  "B": "anthropic",
+  "C": "gemini",
+  "D": "deepseek"
+ }
+}

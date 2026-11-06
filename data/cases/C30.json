@@ -1,0 +1,102 @@
+{
+  "case_id": "C30",
+  "scenario": "reactivation",
+  "today": "2026-11-29",
+  "occasion": "2025 年晨星心愿未果、客户留言“你们就是看不起人”后一年未联系",
+  "ca": {
+    "name": "Tina",
+    "gender": "女",
+    "years_experience": 6,
+    "store": "上海恒隆广场精品店",
+    "known_client_since": "2024-09",
+    "style": "适中"
+  },
+  "client": {
+    "surname": "葛",
+    "given_name": "蔓",
+    "gender": "女",
+    "age_range": "33-38",
+    "city": "上海",
+    "occupation": "直播电商公司创始人",
+    "client_since": "2024-09",
+    "spend_band": "5-30万",
+    "stage": "核心",
+    "last_visit": "2025-10",
+    "last_purchase": "2025-08",
+    "wealth_source": "创业",
+    "motivations": [
+      "社交场合",
+      "犒赏自己"
+    ],
+    "social_visibility": "会公开分享",
+    "price_sensitivity": "低",
+    "style_preference": "醒目、有辨识度",
+    "material_preference": "黄金、钻石",
+    "owned_pieces": [
+      {
+        "date": "2024-09",
+        "item": "涟漪 18K 玫瑰金细链吊坠（单钻）",
+        "for_whom": "自戴"
+      },
+      {
+        "date": "2025-03",
+        "item": "沧海 南洋金珠吊坠",
+        "for_whom": "自戴"
+      },
+      {
+        "date": "2025-08",
+        "item": "穹顶 18K 玫瑰金手镯",
+        "for_whom": "自戴"
+      }
+    ],
+    "formality": "随意",
+    "reply_habit": "以前回复很快",
+    "recommendation_openness": "欢迎",
+    "birthday": "06-18",
+    "interests": [
+      "马术",
+      "当代艺术展"
+    ],
+    "flags": {
+      "open_complaint": "2025-11 因晨星手镯心愿无法确认时间而不满，最后留言“你们就是看不起人”，此后一年未回复、未到店",
+      "other": "晨星心愿登记仍保留，但没有任何时间或名额承诺"
+    },
+    "notes": "她的穹顶玫瑰金手镯当时是想和晨星叠戴才买的。"
+  },
+  "conversation_history": [
+    {
+      "sender": "client",
+      "time": "2025-11-08 22:10",
+      "text": "晨星到底什么时候能给我？我在你们这买了三件了"
+    },
+    {
+      "sender": "ca",
+      "time": "2025-11-09 10:05",
+      "text": "葛女士，晨星每一只都是巴黎工坊按年度排期做的，您的心愿我一直登记着，但现在确实没办法给您一个准确时间，抱歉。"
+    },
+    {
+      "sender": "client",
+      "time": "2025-11-09 10:12",
+      "text": "别人都能拿到，就我不行？"
+    },
+    {
+      "sender": "client",
+      "time": "2025-11-09 10:13",
+      "text": "你们就是看不起人"
+    }
+  ],
+  "ca_request": "一年没联系了，想真诚地重新问候她一下，不想让她觉得我们又是来卖东西的。",
+  "test_meta": {
+    "persona": "P3",
+    "type": "risk",
+    "must": [
+      "真诚、不卑不亢",
+      "不重提配额细节"
+    ],
+    "must_not": [
+      "承诺这次能买到晨星",
+      "说出门槛",
+      "卑微讨好"
+    ]
+  }
+}

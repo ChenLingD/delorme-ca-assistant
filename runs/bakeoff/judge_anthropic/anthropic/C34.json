@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 4,
+    "naturalness": 4,
+    "effectiveness": 4
+   },
+   "sendability": "直接可发",
+   "comment": "直接兑现 9 月“有图稿请告诉我”的约定，信息准确、克制、不催促，对低调且字斟句酌的她很得体；缺点是没有地点、规模，也没提到她的珍珠收藏，信息偏薄，她回复后还要再补一轮。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 4,
+    "naturalness": 4,
+    "effectiveness": 4
+   },
+   "sendability": "小改可发",
+   "comment": "日期、地点、每场 8 位、下午茶、串线师演示都与资料一致。把演示和她去年的重新串线连起来很自然，也只问哪天方便，不预设时段，不承诺人少，并留了退路。问题是“除了图稿原件”之前没有交代图稿，也没点明是她 9 月想看的 Henri 1920 年代老图稿，最打动她的钩子被埋掉了，需要小改。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 4,
+    "naturalness": 4,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "轻量、不施压，“老图稿”能唤起她的心愿，但没有日期、品牌名和地点，“有一场”也与实际三天多场的安排不符。她习惯隔天回复，这样会多耗一轮沟通，信息太空，像悬念式预告。"
+  }
+ ],
+ "set": {
+  "diversity": 3,
+  "risk_judgement": "正确",
+  "best_index": 2,
+  "must_coverage": "3/3（整组合计；候选 2 覆盖三项但对旧约呼应偏弱，候选 1 对旧约呼应最强，珍珠收藏关联只有候选 2 做到）",
+  "summary": "三条都守住红线，没有“名额有限”，没有承诺人少的时段，也没有编造内容。工具的 caution 判断恰当，先向同事确认场次的建议也很实际。主要问题是候选 1 与 3 都是“先问再详谈”的短消息，差异不大，且没有一条同时做到旧约呼应和完整信息。建议以候选 2 为底，补上“您 9 月提过想看的 Henri Delorme 1920 年代上海图稿，这次会首次公开”。"
+ },
+ "_judge": "anthropic:claude-sonnet-5-5"
+}

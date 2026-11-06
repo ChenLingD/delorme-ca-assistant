@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "资料未说明串线材质是真丝，也未确认重新串线能保持受力均匀与佩戴贴合；“随时可以”对门店安排作了未经确认的承诺。",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 3,
+    "naturalness": 2,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "保养周期切入贴合需求，但解释过长，需删去未经确认的技术细节及“随时”承诺。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "资料未说明重新串结与清洁是“专属”服务。",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 4,
+    "naturalness": 4,
+    "effectiveness": 4
+   },
+   "sendability": "小改可发",
+   "comment": "以熟悉的项链和串线服务自然联系客户，删除未经证实的“专属”即可。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "未提供节气日历依据，“入冬后佩戴珍珠的场合渐多”也缺乏客户事实支持；串线材质及防止珠身磨损的效果未经确认，“随时可以安排”超出了已知服务信息。",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 2,
+    "naturalness": 2,
+    "effectiveness": 2
+   },
+   "sendability": "不可用",
+   "comment": "以养护联系的方向正确，但季节和技术细节均缺乏依据，需要重写。"
+  }
+ ],
+ "set": {
+  "diversity": 2,
+  "risk_judgement": "偏松",
+  "best_index": 2,
+  "must_coverage": "2/2",
+  "summary": "三条均以串线服务联系客户，候选2也较简短，最接近可发送水平；整体切入方式相似。工具判定无风险偏松，尤其遗漏了未经证实的材质、技术效果和门店安排。"
+ },
+ "_judge": "openai:gpt-6.1-terra"
+}

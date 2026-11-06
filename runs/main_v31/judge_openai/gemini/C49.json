@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 1,
+    "brand_voice": 2,
+    "naturalness": 2,
+    "effectiveness": 2
+   },
+   "sendability": "小改可发",
+   "comment": "统一定价的回应克制，但没有接住客户的感受，后半句关于心意和感受的表述空泛、别扭。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 3,
+    "naturalness": 2,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "试戴和毕业礼物均有依据，但未先接住客户感受，结尾替客户定义心意，读起来偏说教。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "轻微：固定服务包含免费刻字，但目录未说明这款手镯可以在内圈刻字，不宜直接承诺。",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "给出了考虑空间和试戴选择，但刻字位置需先确认，“时间很充裕”也不必替客户判断。"
+  }
+ ],
+ "set": {
+  "diversity": 3,
+  "risk_judgement": "正确",
+  "best_index": 2,
+  "must_coverage": "2/2",
+  "summary": "三条均未让价，也未确认或否认母亲的客户身份或透露其账户信息；风险提醒恰当。最主要的问题是都没有先接住客户的感受，且候选3对手镯内圈刻字作了未经确认的表述。"
+ },
+ "_judge": "openai:gpt-6.1-terra"
+}

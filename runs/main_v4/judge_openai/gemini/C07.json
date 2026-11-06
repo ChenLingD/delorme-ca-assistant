@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 2,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "祝福简短，蛋糕 emoji 适用于生日；但“尽情开心、闪闪发光”略空泛，缺少这位客户的细节。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 5,
+    "brand_voice": 4,
+    "naturalness": 4,
+    "effectiveness": 4
+   },
+   "sendability": "直接可发",
+   "comment": "自然呼应客户主动提过的生日滑雪计划，年轻而得体；询问是否出发并非必要，去掉问句会更轻松。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "轻微：生日祝福中着重描述品牌和已有作品，偏离本场景不带产品、以祝福为主的策略。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 2,
+    "naturalness": 2,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "叠戴细节有依据，但“德洛姆的金色一直陪着您”和“尽兴闪耀”偏像品牌文案，建议缩短并把重点放回生日祝福。"
+  }
+ ],
+ "set": {
+  "diversity": 4,
+  "risk_judgement": "偏松",
+  "best_index": 2,
+  "must_coverage": "1/1",
+  "summary": "三条分别采用简短祝福、滑雪话题和叠戴回顾，均未使用网络流行语或营销 emoji。主要问题是第三条在生日场景中过度强调品牌与作品，工具的风险判断没有指出这一偏差。"
+ },
+ "_judge": "openai:gpt-6.1-terra"
+}

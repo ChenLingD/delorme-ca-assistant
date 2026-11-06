@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 2,
+    "brand_voice": 4,
+    "naturalness": 4,
+    "effectiveness": 4
+   },
+   "sendability": "直接可发",
+   "comment": "简短、正式，适合除夕问候；虽略显通用，但没有借祝福推销。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "轻微：客户只在11月底提到孙子盼放鞭炮，不能据此确定今天孩子们正在家里围着盼放鞭炮；备注也未提示这是推测。",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 3,
+    "naturalness": 2,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "孙辈细节有温度，但不宜虚构当下场景，且“天伦尽享”略显书面。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "轻微：双方自2017年1月认识，至今已超过十年，用“整整十年”不够准确；备注未提示这一近似说法。",
+    "context_failure": "轻微：节日祝福中追问谁做团圆饭，增加了客户回复负担，与祝福本身就是目的的策略不符。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 2,
+    "naturalness": 2,
+    "effectiveness": 2
+   },
+   "sendability": "小改可发",
+   "comment": "立春和除夕都有日历依据，但十年缘分与团圆饭追问堆在一起，显得刻意。"
+  }
+ ],
+ "set": {
+  "diversity": 4,
+  "risk_judgement": "偏松",
+  "best_index": 1,
+  "must_coverage": "2/2",
+  "summary": "三条均较正式、温暖，没有网络用语或 emoji，候选1最稳妥自然。整体风险判断偏松：候选2把过去的信息写成了今天的实景，候选3则有不够准确的时间表述和不必要的家庭追问。"
+ },
+ "_judge": "openai:gpt-6.1-terra"
+}

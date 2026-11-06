@@ -1,0 +1,338 @@
+{
+ "case_id": "C06",
+ "version": "v3",
+ "model": "openai:gpt-6.1-terra",
+ "risk": {
+  "level": "hold",
+  "flags": [
+   "父亲于 2026 年 10 月下旬去世，客户近期在聊天中提及",
+   "客户表示项链的事晚点再说"
+  ],
+  "advice": "暂不按生日祝福计划发送；如需联系，只表达克制的关心，不追问或提及搁置的事务。"
+ },
+ "candidates": [
+  {
+   "text": "陆女士，今天是您的生日，我想问候您一声，请您保重身体。",
+   "strategy": "极简",
+   "note_for_ca": "适合只想简短表达关心时"
+  },
+  {
+   "text": "陆女士，您提起父亲离世的事，我听了很难过。今天是您的生日，愿您和家人彼此陪伴，慢慢走过这段日子。",
+   "strategy": "走心",
+   "note_for_ca": "结合丧父处境，适合生日当天克制问候。"
+  },
+  {
+   "text": "陆女士，愿您在生日这天有片刻安宁。我惦念着您。",
+   "strategy": "推进",
+   "note_for_ca": "近期丧亲，以安宁祝愿为主，不设置下一步。"
+  }
+ ],
+ "checks": [
+  {
+   "pass": true,
+   "hard": [],
+   "soft": [],
+   "length": 27
+  },
+  {
+   "pass": true,
+   "hard": [],
+   "soft": [],
+   "length": 48
+  },
+  {
+   "pass": true,
+   "hard": [],
+   "soft": [],
+   "length": 23
+  }
+ ],
+ "trace": {
+  "rounds": [
+   {
+    "rule_checks": [
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 27
+     },
+     {
+      "pass": false,
+      "hard": [
+       "禁用词[address]：亲，"
+      ],
+      "soft": [],
+      "length": 35
+     },
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 32
+     }
+    ],
+    "critic": {
+     "reviews": [
+      {
+       "index": 1,
+       "pass": true,
+       "issues": []
+      },
+      {
+       "index": 2,
+       "pass": true,
+       "issues": []
+      },
+      {
+       "index": 3,
+       "pass": true,
+       "issues": []
+      }
+     ],
+     "set_issues": [
+      {
+       "indices": [
+        1,
+        2
+       ],
+       "issue": "两条都以“陆女士，今天是您的生日”开头，并以“请您保重”收尾，结构较相似。建议第2条保留提及父亲的真实细节，调整开头和结尾；第1条继续保持简洁。"
+      }
+     ]
+    },
+    "set_issues": [
+     "两条都以“陆女士，今天是您的生日”开头，并以“请您保重”收尾，结构较相似。建议第2条保留提及父亲的真实细节，调整开头和结尾；第1条继续保持简洁。"
+    ],
+    "to_fix": {
+     "2": [
+      "禁用词[address]：亲，",
+      "与其他候选雷同：两条都以“陆女士，今天是您的生日”开头，并以“请您保重”收尾，结构较相似。建议第2条保留提及父亲的真实细节，调整开头和结尾；第1条继续保持简洁。"
+     ]
+    }
+   },
+   {
+    "rule_checks": [
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 27
+     },
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 48
+     },
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 32
+     }
+    ],
+    "critic": {
+     "reviews": [
+      {
+       "index": 1,
+       "pass": true,
+       "issues": []
+      },
+      {
+       "index": 2,
+       "pass": true,
+       "issues": []
+      },
+      {
+       "index": 3,
+       "pass": true,
+       "issues": []
+      }
+     ],
+     "set_issues": [
+      {
+       "indices": [
+        1,
+        3
+       ],
+       "issue": "两条都以生日切入，先说想送上问候或祝福，再表达关心，结构较相似。可让第 1 条直接问候、请客户保重，第 3 条侧重祝愿安宁；近期丧亲情境下不必强加下一步。"
+      }
+     ]
+    },
+    "set_issues": [
+     "两条都以生日切入，先说想送上问候或祝福，再表达关心，结构较相似。可让第 1 条直接问候、请客户保重，第 3 条侧重祝愿安宁；近期丧亲情境下不必强加下一步。"
+    ],
+    "to_fix": {
+     "3": [
+      "与其他候选雷同：两条都以生日切入，先说想送上问候或祝福，再表达关心，结构较相似。可让第 1 条直接问候、请客户保重，第 3 条侧重祝愿安宁；近期丧亲情境下不必强加下一步。"
+     ]
+    }
+   },
+   {
+    "rule_checks": [
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 27
+     },
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 48
+     },
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 23
+     }
+    ],
+    "critic": {
+     "reviews": [
+      {
+       "index": 1,
+       "pass": true,
+       "issues": []
+      },
+      {
+       "index": 2,
+       "pass": true,
+       "issues": []
+      },
+      {
+       "index": 3,
+       "pass": true,
+       "issues": []
+      }
+     ],
+     "set_issues": []
+    },
+    "set_issues": [],
+    "to_fix": {}
+   }
+  ],
+  "plan": {
+   "client_read": "陆女士与 Yvonne 已相识六年多，沟通适中，平时回复较慢。她近期经历丧父，上一轮对话以感谢结束，原定的项链串线已暂缓。",
+   "risk": {
+    "level": "hold",
+    "flags": [
+     "父亲于 2026 年 10 月下旬去世，客户近期在聊天中提及",
+     "客户表示项链的事晚点再说"
+    ],
+    "advice": "暂不按生日祝福计划发送；如需联系，只表达克制的关心，不追问或提及搁置的事务。"
+   },
+   "ca_commitments": [],
+   "usable_facts": [
+    "客户今天生日",
+    "客户于 10 月 28 日在微信中提及父亲去世",
+    "Yvonne 与客户相识自 2020 年 3 月",
+    "客户平时回复较慢"
+   ],
+   "do_not_mention": [
+    "生日快乐或其他带有“快乐”的祝福",
+    "作品、活动及暂缓的项链串线",
+    "兴趣爱好和其他闲聊话题",
+    "消费金额、客户等级、内部标签及财富来源"
+   ],
+   "products": [],
+   "slots": {
+    "极简": "以一句简短的关心，请陆女士保重身体。",
+    "走心": "结合客户近期丧父的处境，表达温和的惦念，不展开或追问，让她感到被关心。",
+    "推进": "不设置问题或下一步；同样只表达克制关心，不推进原定事务。"
+   }
+  },
+  "first_draft": [
+   {
+    "text": "陆女士，今天是您的生日，我想问候您一声，请您保重身体。",
+    "strategy": "极简",
+    "note_for_ca": "适合只想简短表达关心时"
+   },
+   {
+    "text": "陆女士，今天是您的生日。想到您前阵子提起父亲，我很牵挂您，请您多保重。",
+    "strategy": "走心",
+    "note_for_ca": "结合近期丧父的经历，表达牵挂"
+   },
+   {
+    "text": "陆女士，生日这天，我想送您一声祝福，愿您在这段日子里多一些安宁。",
+    "strategy": "推进",
+    "note_for_ca": "近期丧亲，不设问题或推进事务"
+   }
+  ],
+  "seconds": 61.5,
+  "diversity_max_sim": 0.10909090909090909,
+  "calls": [
+   {
+    "requested": "gpt-6.1-terra",
+    "served": "gpt-6.1-terra",
+    "seconds": 12.8,
+    "attempt": 1,
+    "in_tokens": 5821,
+    "out_tokens": 671,
+    "reasoning_tokens": 278,
+    "fingerprint": null
+   },
+   {
+    "requested": "gpt-6.1-terra",
+    "served": "gpt-6.1-terra",
+    "seconds": 6.9,
+    "attempt": 1,
+    "in_tokens": 5022,
+    "out_tokens": 294,
+    "reasoning_tokens": 129,
+    "fingerprint": null
+   },
+   {
+    "requested": "gpt-6.1-terra",
+    "served": "gpt-6.1-terra",
+    "seconds": 8.2,
+    "attempt": 1,
+    "in_tokens": 4881,
+    "out_tokens": 617,
+    "reasoning_tokens": 440,
+    "fingerprint": null
+   },
+   {
+    "requested": "gpt-6.1-terra",
+    "served": "gpt-6.1-terra",
+    "seconds": 8.0,
+    "attempt": 1,
+    "in_tokens": 5257,
+    "out_tokens": 437,
+    "reasoning_tokens": 343,
+    "fingerprint": null
+   },
+   {
+    "requested": "gpt-6.1-terra",
+    "served": "gpt-6.1-terra",
+    "seconds": 12.8,
+    "attempt": 1,
+    "in_tokens": 4895,
+    "out_tokens": 874,
+    "reasoning_tokens": 700,
+    "fingerprint": null
+   },
+   {
+    "requested": "gpt-6.1-terra",
+    "served": "gpt-6.1-terra",
+    "seconds": 3.6,
+    "attempt": 1,
+    "in_tokens": 5263,
+    "out_tokens": 164,
+    "reasoning_tokens": 93,
+    "fingerprint": null
+   },
+   {
+    "requested": "gpt-6.1-terra",
+    "served": "gpt-6.1-terra",
+    "seconds": 9.1,
+    "attempt": 1,
+    "in_tokens": 4888,
+    "out_tokens": 616,
+    "reasoning_tokens": 531,
+    "fingerprint": null
+   }
+  ]
+ }
+}

@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "“灯下光泽是一整片的，不会散”缺乏已知产品信息支持。",
+    "context_failure": "客户刚说超预算，消息仍主要介绍并邀请试戴同一副耳钉，没有提供其他选择。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 2
+   },
+   "sendability": "不可用",
+   "comment": "记住了试戴和冷白光泽，但对预算回应不足，还加入了未经证实的光泽描述。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "已知作品信息仅有一款耳钉，无法确认沧海系列还有几款耳饰可供比较，或其尺寸、分量不同。",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 3,
+    "naturalness": 2,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "有同系列替代选择的方向，但需先确认具体款式及是否适合预算；未被问及的统一价格政策和“没有别的办法”也显得偏防御。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 4,
+    "naturalness": 4,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "语气简短尊重，也给了客户空间，但仍只邀请试戴，缺少另一种选择。"
+  }
+ ],
+ "set": {
+  "diversity": 3,
+  "risk_judgement": "正确",
+  "best_index": 3,
+  "must_coverage": "2/2",
+  "summary": "三条都接住了预算顾虑，候选 2 也提出同系列其他选择，但相关款式及是否适合预算尚待核实。候选 1 有未经证实的光泽描述，候选 3 最自然稳妥，但缺少替代选择。"
+ },
+ "_judge": "openai:gpt-6.1-terra"
+}

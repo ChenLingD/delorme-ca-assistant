@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "严重：资料未确认作品已到店，也未确定 Henri 在上海采购珍珠的具体年份是 1926 年。",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 2
+   },
+   "sendability": "不可用",
+   "comment": "虽提到了客户聊过的上海渊源，但缺少具体故事或工艺细节、藏品关联和退路，且到货信息未经确认。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 4,
+    "naturalness": 3,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "从客户感兴趣的上海往事切入，并写出渐变珠串细节；但未关联已有藏品，也未给出明确退路。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "严重：资料未确认工坊刚送到该作品，也未说明双串珠串依照当年的手绘意境设计。",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 1,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 2
+   },
+   "sendability": "不可用",
+   "comment": "询问是否发图留有退路，但没有结合客户兴趣或藏品，且到货和设计依据均未经确认。"
+  }
+ ],
+ "set": {
+  "diversity": 2,
+  "risk_judgement": "正确",
+  "best_index": 2,
+  "must_coverage": "2/3",
+  "summary": "三条整体都偏向百年故事或作品介绍，缺少与客户已有藏品的关联；候选 2 的切入最贴近她的兴趣，但仍需补上退路。候选 1 和 3 均未经确认便宣称作品到货，须核实并删除无依据的细节。"
+ },
+ "_judge": "openai:gpt-6.1-terra"
+}

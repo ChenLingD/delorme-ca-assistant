@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "只简短道歉，未明确回应客户对两周出现划痕的失望，也未给出抛光时间。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 2
+   },
+   "sendability": "小改可发",
+   "comment": "简短且给出免费方案，但对投诉的回应偏轻，需要补上共情和处理时间。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "提及客户喜欢戒指，却没有明确致歉；抛光安排留待细说，未给出处理时间。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 2,
+    "naturalness": 2,
+    "effectiveness": 2
+   },
+   "sendability": "小改可发",
+   "comment": "回引旧话显得刻意，安抚之后应直接致歉并说清抛光安排。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 4,
+    "naturalness": 3,
+    "effectiveness": 4
+   },
+   "sendability": "小改可发",
+   "comment": "致歉和处理方案完整，但“回我一个字”略显催促，与两个选择也不太匹配。"
+  }
+ ],
+ "set": {
+  "diversity": 4,
+  "risk_judgement": "正确",
+  "best_index": 3,
+  "must_coverage": "3/3（以最佳候选计）",
+  "summary": "候选3最完整：承认失望、给出免费抛光和时间，也没有推卸责任。主要问题是候选1、2均缺少处理时间，候选3的结尾则需改得更自然、不催促。"
+ },
+ "_judge": "openai:gpt-6.1-terra"
+}

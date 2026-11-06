@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "轻微：只知道客户想买第一副珍珠耳钉，不能确定这是她第一件珍珠首饰。",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 2,
+    "brand_voice": 4,
+    "naturalness": 4,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "能接住预算顾虑并留出空间，但缺少具体选择，也应改掉未经确认的“第一件珍珠首饰”。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "严重：“很提气色”评价了客户外貌，不符合品牌的隐私与分寸规范。",
+    "fabrication": "无",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 2,
+    "naturalness": 2,
+    "effectiveness": 2
+   },
+   "sendability": "不可用",
+   "comment": "虽结合了试戴和使用场景，但评价外貌、文字偏长且抽象，也没有提供预算内的其他选择。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 4,
+    "naturalness": 3,
+    "effectiveness": 3
+   },
+   "sendability": "直接可发",
+   "comment": "尊重预算，用珠层和固定服务说明价值，也允许客户不购买；但再次邀约试戴原款，未提供其他选择。"
+  }
+ ],
+ "set": {
+  "diversity": 4,
+  "risk_judgement": "偏松",
+  "best_index": 3,
+  "must_coverage": "1/2",
+  "summary": "三条都给了客户考虑空间，但都没有提供同一设计语言的其他选择；现有目录也未列出另一款沧海珍珠耳钉，不宜自行编造。候选2评价客户外貌，候选1则把第一副珍珠耳钉说成第一件珍珠首饰，因此工具的无风险判断偏松。"
+ },
+ "_judge": "openai:gpt-6.1-terra"
+}

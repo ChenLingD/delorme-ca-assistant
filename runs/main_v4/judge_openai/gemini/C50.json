@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "轻微：“经得起时间看”在客户刚提出投资诉求的语境下可能被误读为价值承诺，宜改为明确的工艺描述。",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 3,
+    "naturalness": 2,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "工匠和工时有依据，也接住了送太太的心意，但措辞偏抒情，应去掉容易产生歧义的时间表述。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "轻微：“比别的都实在”容易被听成否定客户的投资考虑。",
+    "privacy_violation": "无",
+    "fabrication": "轻微：没有确认实际叠戴效果，就断言两只手镯叠戴“格外衬她”；想与穹顶叠戴的意图本身有依据。",
+    "context_failure": "轻微：用佩戴心意与“别的”作价值比较，容易让客户觉得投资想法被纠正。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "叠戴角度贴合客户，但应改成邀请想象叠戴效果，避免替太太下判断或比较哪种考虑更实在。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 2,
+    "brand_voice": 2,
+    "naturalness": 2,
+    "effectiveness": 2
+   },
+   "sendability": "小改可发",
+   "comment": "给了客户空间，但“极特别”“讲究心境”较空，也没有回到客户认可的具体做工或佩戴体验。"
+  }
+ ],
+ "set": {
+  "diversity": 4,
+  "risk_judgement": "正确",
+  "best_index": 1,
+  "must_coverage": "2/2",
+  "summary": "整体没有承诺投资回报或到货排期，候选1和2也回到了作品与佩戴，风险判断方向正确。主要问题是部分措辞空泛或容易引发投资歧义，且备注中强调的“稀有度”缺乏依据，不应作为对客说法。"
+ },
+ "_judge": "openai:gpt-6.1-terra"
+}

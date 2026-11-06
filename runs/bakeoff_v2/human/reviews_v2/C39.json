@@ -1,0 +1,30 @@
+{
+  "gflags": {},
+  "note": "",
+  "ranks": {
+    "A": 2,
+    "B": 1,
+    "C": 1,
+    "D": 1
+  },
+  "send": {
+    "A1": "edit",
+    "A2": "send",
+    "A3": "send",
+    "B1": "send",
+    "B2": "send",
+    "B3": "send",
+    "C1": "send",
+    "C2": "send",
+    "C3": "send",
+    "D1": "send",
+    "D2": "send",
+    "D3": "send"
+  },
+  "tags": {
+    "A1": [
+      "tone"
+    ]
+  },
+  "updatedAt": "2026-11-05T10:39:35.457Z"
+}

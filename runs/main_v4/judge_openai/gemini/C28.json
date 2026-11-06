@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 4,
+    "naturalness": 3,
+    "effectiveness": 4
+   },
+   "sendability": "直接可发",
+   "comment": "自我介绍并正面致歉，没有找借口或推销；但提及翻看记录，且措辞稍长、略显郑重，精简后会更自然。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "轻微：“任何事”“随时为您处理”表态过满，容易形成超出顾问权限或工作时间的预期。",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 4
+   },
+   "sendability": "小改可发",
+   "comment": "交接和歉意都交代清楚，但“整理交接记录”“必须向您道个歉”偏公事化，结尾也应收敛承诺。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "轻微：袖扣购入近三年有时间线依据，但不能据此断定客户戴了近三年；备注所称的袖扣“合理保养周期”也无资料依据。",
+    "context_failure": "轻微：刚为冷落致歉便提出带作品回店保养，可能让客户觉得投诉尚未处理就被引回门店。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 3,
+    "naturalness": 2,
+    "effectiveness": 2
+   },
+   "sendability": "小改可发",
+   "comment": "虽有自我介绍和致歉，但首条消息混入保养邀约削弱了歉意，宜先删去袖扣及到店内容。"
+  }
+ ],
+ "set": {
+  "diversity": 3,
+  "risk_judgement": "正确",
+  "best_index": 1,
+  "must_coverage": "2/2",
+  "summary": "三条均完成自我介绍并承认此前的不佳体验，风险判断也准确指出应先处理投诉、避免推销。主要问题是话术普遍偏长且带有交接记录的行政感，第三条还过早转向保养与回店。"
+ },
+ "_judge": "openai:gpt-6.1-terra"
+}

@@ -1,0 +1,110 @@
+{
+  "case_id": "C20",
+  "scenario": "post_purchase",
+  "today": "2026-11-13",
+  "occasion": "上周（11 月 6 日）取走晨星手镯后的跟进",
+  "ca": {
+    "name": "王蕾",
+    "gender": "女",
+    "years_experience": 11,
+    "store": "北京 SKP 精品店",
+    "known_client_since": "2017-05",
+    "style": "偏正式"
+  },
+  "client": {
+    "surname": "宋",
+    "gender": "女",
+    "age_range": "55-60",
+    "city": "北京",
+    "occupation": "家族企业（制药）监事",
+    "client_since": "2017-05",
+    "spend_band": "100万以上",
+    "stage": "晨星资格",
+    "last_visit": "2026-11-06",
+    "last_purchase": "2026-11-06",
+    "wealth_source": "家族传承",
+    "motivations": [
+      "收藏"
+    ],
+    "social_visibility": "低调",
+    "price_sensitivity": "低",
+    "style_preference": "古典、做工细的东西，不喜欢新潮设计",
+    "material_preference": "黄金、珍珠",
+    "owned_pieces": [
+      {
+        "date": "2017-05",
+        "item": "沧海 南洋白珠单串项链",
+        "for_whom": "自戴"
+      },
+      {
+        "date": "2020-09",
+        "item": "穹顶 18K 玫瑰金手镯",
+        "for_whom": "自戴"
+      },
+      {
+        "date": "2022-12",
+        "item": "晨星 18K 白金镶钻项链",
+        "for_whom": "自戴"
+      },
+      {
+        "date": "2026-11-06",
+        "item": "晨星 18K 黄金镶钻手镯",
+        "for_whom": "自戴",
+        "note": "2024 年登记心愿，2026 年 10 月底到店"
+      }
+    ],
+    "formality": "正式",
+    "reply_habit": "很少回复，回也只有一两个字",
+    "recommendation_openness": "反感",
+    "birthday": "03-02",
+    "family_notes": "儿子在瑞士读研",
+    "interests": [
+      "昆曲",
+      "收藏老银器"
+    ],
+    "notes": "取手镯时在放大镜下看了很久内圈的工匠记号，问了一句“一个人做的？”。不喜欢被打扰，一般只回“好”“收到”。"
+  },
+  "conversation_history": [
+    {
+      "sender": "ca",
+      "time": "2026-10-29 11:05",
+      "text": "宋女士，您好。您登记的晨星手镯已从巴黎到店，您方便的时候我为您安排时间。"
+    },
+    {
+      "sender": "client",
+      "time": "2026-10-30 20:41",
+      "text": "下周五下午"
+    },
+    {
+      "sender": "ca",
+      "time": "2026-10-30 20:50",
+      "text": "好的，11 月 6 日下午为您留好私享区。"
+    },
+    {
+      "sender": "ca",
+      "time": "2026-11-06 18:12",
+      "text": "宋女士，今天辛苦您跑一趟，证书和保养卡都放在盒子夹层里了。"
+    },
+    {
+      "sender": "client",
+      "time": "2026-11-06 21:30",
+      "text": "好"
+    }
+  ],
+  "product_skus": [
+    "ETO-B01"
+  ],
+  "test_meta": {
+    "persona": "P1",
+    "type": "core",
+    "must": [
+      "极简",
+      "可提工匠记号/工时等一个细节"
+    ],
+    "must_not": [
+      "长篇",
+      "推销",
+      "编造工匠姓名或未记录的细节"
+    ]
+  }
+}

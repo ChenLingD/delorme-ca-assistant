@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "“我整理好发您”暗示对比资料已经备好，输入里没有这一点，属于轻微的隐含承诺",
+    "context_failure": "客户问了两个具体问题（1ct 与 1.5ct 的视觉差异、戒圈保密），这条两个都没有实质回答，只说“有稳妥办法”，没有给出办法",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 3,
+    "naturalness": 4,
+    "effectiveness": 2
+   },
+   "sendability": "小改可发",
+   "comment": "短、像真人，但客户问得很细，这条没有给出任何实质内容，也没提改圈服务，只是吊着客户；需要补上答案和改圈服务。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "完全没回答客户的第一个问题（1ct 和 1.5ct 差别大不大），只处理了戒圈；“能感受到您为求婚准备这份惊喜的细心”有些套话，也直接点出了求婚",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "准确引用了“一年内免费改圈一次”这项固定服务，也呼应了保密的惊喜，是三条里唯一明确落实改圈提示的；但没有回答克拉对比，也没教客户怎么悄悄拿到戒圈（比如借一枚她常戴的戒指），开头还有点空泛的夸奖。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "“拍一段自然光下的实戴对比”暗示店里有 1ct 和 1.5ct 的实物可拍，输入未给出，而 1.5ct 属于定制范围；“通透度很高”也没有输入依据",
+    "context_failure": "完全没回应戒圈保密这个问题，而这正是客户这条消息里最难办的事",
+    "must_not_hit": "无硬性触犯，但有隐患：1.5ct 的价格输入里没有，预算约 15 万，1ct 已是 ¥128,000，1.5ct 很可能超预算，这条把 1.5ct 说得“更饱满”却没有任何预算提示"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 3,
+    "naturalness": 4,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "直接回答了克拉对比，并给出“发图看看”这种有退路的提议，思路对；但漏了戒圈问题，细节（悬浮镶、台面存在感）偏泛，实戴对比的承诺和 1.5ct 的预算都需要核实后才能写。"
+  }
+ ],
+ "set": {
+  "diversity": 3,
+  "risk_judgement": "偏松",
+  "best_index": 2,
+  "must_coverage": "2/2，但分散在不同候选：候选3回答了克拉对比，候选2提示了改圈服务；没有任何一条同时覆盖两项",
+  "summary": "三条的切入角度和篇幅确实不同，但客户消息里有两个问题，没有一条把两个都答全，各自都漏了一半，需要合并成一条。风险判断写成“ok；无”偏松，没有提示 1.5ct 价格输入里没有、很可能超 15 万预算，也没有提示实戴对比需要 CA 先确认有无样品。"
+ },
+ "_judge": "anthropic:claude-sonnet-5-5"
+}

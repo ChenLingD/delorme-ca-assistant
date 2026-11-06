@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 2,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 3
+   },
+   "sendability": "直接可发",
+   "comment": "简短且没有推销，但小雪与客户没有个人关联，祝福语略显套话。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 5,
+    "brand_voice": 4,
+    "naturalness": 4,
+    "effectiveness": 4
+   },
+   "sendability": "小改可发",
+   "comment": "自然呼应新品发布和咖啡兴趣，但“再忙也抽空”稍有叮嘱感，收短一点更贴合客户风格。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "轻微：客户喜欢跑步，但没有信息表明他有坚持晨跑的习惯。",
+    "context_failure": "轻微：客户正忙，追问晨跑近况可能增加回复负担。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 2
+   },
+   "sendability": "小改可发",
+   "comment": "有尝试关心客户，但晨跑习惯未经证实，且生日祝福不必追问近况。"
+  }
+ ],
+ "set": {
+  "diversity": 4,
+  "risk_judgement": "正确",
+  "best_index": 2,
+  "must_coverage": "2/2",
+  "summary": "三条均未推产品，整体语气较轻，候选2对客户近况的呼应最具体。主要问题是候选3把跑步兴趣写成了未经证实的晨跑习惯，还在客户忙碌时提出问题。"
+ },
+ "_judge": "openai:gpt-6.1-terra"
+}

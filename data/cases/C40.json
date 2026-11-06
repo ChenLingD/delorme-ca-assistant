@@ -1,0 +1,106 @@
+{
+  "case_id": "C40",
+  "scenario": "event_invitation",
+  "today": "2026-11-27",
+  "occasion": "邀请参加新春私宴（2027-01-23）；客户已婉拒前 3 次邀请",
+  "ca": {
+    "name": "陈思",
+    "gender": "女",
+    "years_experience": 7,
+    "store": "杭州大厦精品店",
+    "known_client_since": "2022-06",
+    "style": "适中"
+  },
+  "client": {
+    "surname": "宋",
+    "given_name": "知秋",
+    "gender": "女",
+    "age_range": "37-41",
+    "city": "杭州",
+    "occupation": "律师事务所合伙人（并购方向）",
+    "client_since": "2022-06",
+    "spend_band": "5-30万",
+    "stage": "入门",
+    "last_visit": "2025-12-20",
+    "last_purchase": "2025-12",
+    "wealth_source": "职业收入",
+    "motivations": [
+      "社交场合",
+      "犒赏自己"
+    ],
+    "social_visibility": "适中",
+    "price_sensitivity": "中",
+    "style_preference": "干练、利落，适合正装",
+    "material_preference": "黄金",
+    "owned_pieces": [
+      {
+        "date": "2022-06",
+        "item": "涟漪 18K 玫瑰金细链吊坠（单钻）",
+        "for_whom": "自戴",
+        "note": "升合伙人时买的"
+      },
+      {
+        "date": "2025-12",
+        "item": "穹顶 18K 黄金戒指",
+        "for_whom": "自戴"
+      }
+    ],
+    "sizes": "戒圈 11 号",
+    "formality": "适中",
+    "reply_habit": "回复很短，常隔几天",
+    "recommendation_openness": "一般",
+    "preferred_contact_time": "工作日晚 8 点后",
+    "interests": [
+      "马拉松",
+      "茶"
+    ],
+    "notes": "工作非常忙，经常出差。前三次活动邀请都以忙婉拒，但每次都礼貌回复了。"
+  },
+  "conversation_history": [
+    {
+      "sender": "ca",
+      "time": "2026-03-18 19:40",
+      "text": "宋女士，下周六店里有个涟漪系列的小型下午茶，想问您有没有兴趣过来坐坐。"
+    },
+    {
+      "sender": "client",
+      "time": "2026-03-21 22:10",
+      "text": "谢谢，最近项目忙，下次吧。"
+    },
+    {
+      "sender": "ca",
+      "time": "2026-06-10 20:05",
+      "text": "宋女士，6 月 20 日店里有个夏日珠宝搭配分享，您有空的话欢迎来。"
+    },
+    {
+      "sender": "client",
+      "time": "2026-06-12 23:30",
+      "text": "这阵子在外地，去不了，谢谢。"
+    },
+    {
+      "sender": "ca",
+      "time": "2026-09-16 20:12",
+      "text": "宋女士，国庆前店里有个秋季新品鉴赏，想到您那枚穹顶戒指，可以来看看同系列的新作品。"
+    },
+    {
+      "sender": "client",
+      "time": "2026-09-19 21:48",
+      "text": "最近太忙了，谢谢陈思。"
+    }
+  ],
+  "event_id": "EVT-2701-ALL",
+  "ca_request": "想邀请她参加新春私宴，但不想让她有负担",
+  "test_meta": {
+    "persona": "P4",
+    "type": "risk",
+    "must": [
+      "极轻、留足退路",
+      "一句话即可，不需要她立刻回复"
+    ],
+    "must_not": [
+      "“这次一定要来”",
+      "长篇",
+      "提及她之前多次婉拒"
+    ]
+  }
+}

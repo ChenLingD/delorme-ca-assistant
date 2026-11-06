@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 4,
+    "naturalness": 4,
+    "effectiveness": 4
+   },
+   "sendability": "直接可发",
+   "comment": "简短地记住生日，没有回避关心也没有强加情绪，但语气稍显生硬。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "主动重提父亲去世，并揣测客户生日当天的感受；又强调客户何时告知，容易让人感觉在翻看记录，缺乏分寸。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 2,
+    "brand_voice": 1,
+    "naturalness": 2,
+    "effectiveness": 1
+   },
+   "sendability": "不可用",
+   "comment": "虽然信息有据，但反复触及丧亲细节，关心过重且替客户判断心情。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "没有提及生日，关心较笼统，客户可能不易理解这条消息与生日的关联。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 2,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "语气克制，也给了回复空间，但可自然点明生日，让关心更贴合场景。"
+  }
+ ],
+ "set": {
+  "diversity": 4,
+  "risk_judgement": "正确",
+  "best_index": 1,
+  "must_coverage": "1/2",
+  "summary": "风险判断准确，候选 1 最克制，三条均未触碰指定的禁止内容。主要问题是候选 2 直接重提丧亲并揣测心情，因此整体未能一致做到克制关心。"
+ },
+ "_judge": "openai:gpt-6.1-terra"
+}

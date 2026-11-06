@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "严重：未经检查就承诺划痕可完全修复如新；自行承诺明天上门取件及处理后送回，超出 CA 授权。",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 3,
+    "naturalness": 4,
+    "effectiveness": 3
+   },
+   "sendability": "不可用",
+   "comment": "开头接住了客户情绪，方案也具体，但修复效果和取送时间承诺过满。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "轻微：未经检查就表示能还原原本光泽，修复效果缺乏依据。",
+    "context_failure": "轻微：“您别着急”“不用担心”弱化了客户对质量的担忧，未充分接住投诉情绪。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "免费抛光、现场时长和取件选项清楚，但应先承认客户的失望，并去掉对效果的保证。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "严重：未经检查就承诺划痕可以完全消除；自行承诺明天上门取件及处理后送回，超出 CA 授权。",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 3
+   },
+   "sendability": "不可用",
+   "comment": "主动承担处理责任，但对修复效果及取送安排作了未经授权的承诺。"
+  }
+ ],
+ "set": {
+  "diversity": 2,
+  "risk_judgement": "偏松",
+  "best_index": 2,
+  "must_coverage": "3/3",
+  "summary": "候选整体覆盖了情绪回应、免费抛光及预计时长，也没有推卸责任或推销，但三条的方案和语气较相近。主要风险是未经检查便保证修复效果，候选 1、3 还擅自承诺具体取件时间及送回，工具判定无风险偏松。"
+ },
+ "_judge": "openai:gpt-6.1-terra"
+}

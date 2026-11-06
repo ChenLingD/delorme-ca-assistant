@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "轻微：资料未说明串线材质为真丝，也未说明重新串结能保持受力均匀与佩戴贴合；“随时可以”对门店安排的表述过满。",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 3,
+    "naturalness": 2,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "服务切入契合需求，但技术解释偏长，删去未经证实的细节会更自然。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "轻微：固定服务中没有“专属”的依据，容易让人误以为有特别安排。",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 4,
+    "naturalness": 4,
+    "effectiveness": 4
+   },
+   "sendability": "小改可发",
+   "comment": "以客户常戴的项链和串线服务切入，语气得体；去掉“专属”即可更稳妥。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "轻微：没有依据表明入冬后客户佩戴珍珠的场合渐多，也未证实丝线及其防磨损作用；“随时可以安排”对门店安排的表述过满。",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 3,
+    "naturalness": 2,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "串线服务切入合适，但季节性场合和防磨损解释缺乏依据，整体也偏长。"
+  }
+ ],
+ "set": {
+  "diversity": 2,
+  "risk_judgement": "偏松",
+  "best_index": 2,
+  "must_coverage": "2/2",
+  "summary": "三条都以串线服务联系客户，候选2相对简洁，但整体切入和语气区别不大。主要问题是加入了未经证实的材质、功效或服务安排，工具标注“无风险”偏松。"
+ },
+ "_judge": "openai:gpt-6.1-terra"
+}

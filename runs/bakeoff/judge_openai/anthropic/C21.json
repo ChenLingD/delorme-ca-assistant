@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 4,
+    "naturalness": 4,
+    "effectiveness": 4
+   },
+   "sendability": "直接可发",
+   "comment": "接住了客户的不快，免费抛光和时间也交代清楚；如补一句需查看实物，会更稳妥。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "只复述划痕情况并表示处理，没有明确回应客户的不满。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 4,
+    "naturalness": 4,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "方案具体，也提供了取件选择；应先补一句理解客户感受，语音选项可省略。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "“处理好送回”超出已知的上门取件安排；未看实物就说“等着就能带走”，承诺过满。",
+    "context_failure": "直接进入处理安排，没有明确回应客户对划痕和质量的不满。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 2,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 2
+   },
+   "sendability": "小改可发",
+   "comment": "到店和取件两种方式清楚，但应先安抚客户，并删除未经确认的送回及带走承诺。"
+  }
+ ],
+ "set": {
+  "diversity": 2,
+  "risk_judgement": "正确",
+  "best_index": 1,
+  "must_coverage": "3/3",
+  "summary": "候选1覆盖全部必做项，风险判断也准确指出了投诉处理的重点。三条都以免费抛光为核心，差异不大；候选2和3缺少情绪回应，候选3还有过度承诺。"
+ },
+ "_judge": "openai:gpt-6.1-terra"
+}

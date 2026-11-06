@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "严重：未回应客户对价格和铺镶的具体质疑，也未衔接此前提到的镶嵌说明，就替客户断定作品不合适并转向未来推荐。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 2,
+    "brand_voice": 2,
+    "naturalness": 2,
+    "effectiveness": 1
+   },
+   "sendability": "不可用",
+   "comment": "态度克制，但空泛地替客户下结论，回避了专业讨论。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "严重：目录只说明约40工时及小钻沿弧线铺镶，并未说明工时用途、逐颗调整微钉与受力角度，或与平面密镶的排石差异。",
+    "context_failure": "无",
+    "must_not_hit": "严重：编造工艺参数和技术细节。"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 1,
+    "naturalness": 2,
+    "effectiveness": 1
+   },
+   "sendability": "不可用",
+   "comment": "看似专业，实则把未经证实的技术解释当作事实，风险最高。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "轻微：目录支持戒指与手镯弧线同源、适合叠戴，但未说明其设计重心更多在叠戴，也未提供与传统独立密镶的视觉重心比较。",
+    "context_failure": "轻微：没有实质回应铺镶工艺的质疑，且“我们便不考虑这件了”替客户作了决定。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 3,
+    "naturalness": 2,
+    "effectiveness": 2
+   },
+   "sendability": "小改可发",
+   "comment": "同源弧线有事实依据，但应删去未经证实的比较和替客户决定的表述，补上具体工艺事实。"
+  }
+ ],
+ "set": {
+  "diversity": 3,
+  "risk_judgement": "偏松",
+  "best_index": 3,
+  "must_coverage": "1/2",
+  "summary": "三条整体语气不卑不亢，但都没有用可靠的专业事实充分回应客户对铺镶和价格的质疑。候选2编造工艺细节，工具却将其称为技术事实；候选3相对可取，仍需修改后发送。"
+ },
+ "_judge": "openai:gpt-6.1-terra"
+}

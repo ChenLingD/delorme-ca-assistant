@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "两款钻石的台面差约 1 毫米没有依据；能否按标准号制作也未经确认。",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 4,
+    "naturalness": 4,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "接住了尺寸和保密两项顾虑，但应删除未经确认的台面数据及标准号制作建议。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "两款钻石的台面直径数据、悬浮镶进光效果及预算内可选主石的具体情况均未获确认；常规圈号能否用于保密准备也未经确认。",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 2,
+    "naturalness": 3,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "回应全面，但数据和选石判断缺乏依据，“完全不用担心”和“很拔尖”也过于满。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "未确认两种规格的实物是否可用于拍摄，就承诺当天下午发送上手视频。",
+    "context_failure": "只提出拍视频，没有实际回答 1 克拉与 1.5 克拉的视觉差别；中指戒圈也不能直接作为求婚戒指的准确圈号。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 4,
+    "naturalness": 4,
+    "effectiveness": 2
+   },
+   "sendability": "小改可发",
+   "comment": "保密取圈的切入自然，但应提醒手指圈号可能不同，并先回答尺寸问题、确认拍摄条件。"
+  }
+ ],
+ "set": {
+  "diversity": 3,
+  "risk_judgement": "偏松",
+  "best_index": 1,
+  "must_coverage": "2/2",
+  "summary": "候选 1 和 2 均尝试回答尺寸问题并提示改圈服务，候选 3 提供了取圈思路但未直接回答尺寸差别。整体主要问题是引用未经确认的尺寸或服务细节，风险判断为“无”偏松。"
+ },
+ "_judge": "openai:gpt-6.1-terra"
+}

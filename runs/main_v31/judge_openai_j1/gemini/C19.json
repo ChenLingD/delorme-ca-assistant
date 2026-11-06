@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "“安心戴着就好”偏空泛，没有具体回应顾虑。",
+    "privacy_violation": "无",
+    "fabrication": "客户购买一周，不等于已佩戴一周；“多戴会养出温润光泽”缺乏依据。",
+    "context_failure": "客户担心磨损，消息却让她多戴，没有提供可靠的保养建议。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 2,
+    "brand_voice": 2,
+    "naturalness": 2,
+    "effectiveness": 1
+   },
+   "sendability": "不可用",
+   "comment": "回应了佩戴话题，但假定佩戴情况并以未经证实的说法安慰客户。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "“常常戴着它，它才真正是属于您的物件”带有说教和替客户定义感受的意味。",
+    "privacy_violation": "无",
+    "fabrication": "链身柔软有资料依据，但不能据此断言手腕压在桌面上“不会觉得硌”。",
+    "context_failure": "没有回应客户对磨损的担心，也没有给出实用保养信息。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 2,
+    "naturalness": 2,
+    "effectiveness": 1
+   },
+   "sendability": "不可用",
+   "comment": "用了客户的工作习惯，但对佩戴舒适度作出无依据的保证，且偏离了磨损顾虑。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "免费清洗和检测有实际帮助，也照顾到磨损顾虑，但缺少对她选择的肯定，后半句可再简洁些。"
+  }
+ ],
+ "set": {
+  "diversity": 3,
+  "risk_judgement": "偏松",
+  "best_index": 3,
+  "must_coverage": "2/3",
+  "summary": "三条都围绕日常佩戴展开，候选3最贴近售后关怀，但仍缺少对客户选择的肯定。工具判断“无风险”偏松：前两条分别包含未经证实的养护效果和佩戴舒适度判断。"
+ },
+ "_judge": "openai:gpt-6.1-terra"
+}

@@ -1,0 +1,63 @@
+{
+ "case_id": "C03",
+ "version": "v0",
+ "model": "gemini:gemini-3.8-flash",
+ "risk": {
+  "level": "ok",
+  "flags": [],
+  "advice": ""
+ },
+ "candidates": [
+  {
+   "text": "唐女士，生日快乐 🎂 愿今天有喜欢的花和好天气陪您度过，新的一岁也满是温柔与灵感。",
+   "strategy": "纯粹温馨的生日祝福，自然融入客户喜爱的花艺元素，简短真挚，毫无推销压力。",
+   "note_for_ca": "适合作为首选发送，语气亲切得体。没有多余事项，纯粹传递顾问的个人生日心意。"
+  },
+  {
+   "text": "唐女士，祝您今天生日快乐 ✨ 记得您前阵子计划的巴黎之行，不知道是不是已经在打包行囊了？祝您在冬日的旺多姆广场和街角花店里，都能收获好心情。",
+   "strategy": "唤起上次聊天的巴黎话题，自然呼应客户提到的旺多姆广场与花店，展现细致记忆但绝不越界打探同行人。",
+   "note_for_ca": "呼应了11月中旬关于巴黎的对话，完全避开了“同行付款人”的信息，只聚焦唐女士本人的旅程与审美偏好。"
+  },
+  {
+   "text": "唐女士，生日快乐。愿您新的一岁里，不论在工作室打理花草还是漫步旅途，都有惬意舒心的时光相伴。",
+   "strategy": "以温和留白为主，结合主理人日常与生活状态，语调舒缓如懂行的老朋友。",
+   "note_for_ca": "用词克制优雅，适合拉近距离的同时保持德洛姆的高级分寸感。"
+  }
+ ],
+ "checks": [
+  {
+   "pass": true,
+   "hard": [],
+   "soft": [],
+   "length": 39
+  },
+  {
+   "pass": true,
+   "hard": [],
+   "soft": [],
+   "length": 68
+  },
+  {
+   "pass": true,
+   "hard": [],
+   "soft": [],
+   "length": 46
+  }
+ ],
+ "trace": {
+  "seconds": 12.0,
+  "diversity_max_sim": 0.10606060606060606,
+  "calls": [
+   {
+    "requested": "gemini-3.8-flash",
+    "served": "gemini-3.8-flash",
+    "seconds": 12.0,
+    "attempt": 1,
+    "in_tokens": 3012,
+    "out_tokens": 383,
+    "reasoning_tokens": null,
+    "fingerprint": null
+   }
+  ]
+ }
+}

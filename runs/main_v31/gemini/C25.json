@@ -1,0 +1,261 @@
+{
+ "case_id": "C25",
+ "version": "v3.1",
+ "model": "gemini:gemini-3.8-flash",
+ "risk": {
+  "level": "hold",
+  "flags": [
+   "客户对维修周期产生不满催问，且30号年会急需佩戴却无法赶上"
+  ],
+  "advice": "坦诚告知真实进度与到店时间，不回避年会赶不上的事实，不推卸责任，严禁推销任何新品。"
+ },
+ "candidates": [
+  {
+   "text": "贺女士，刚跟巴黎工坊核对完：项链刚完成质检，预计12月10日左右寄回恒隆。30号的年会确实赶不上了，非常抱歉没能帮您赶在这个节点前拿回，一到店我立刻联系您。",
+   "strategy": "极简",
+   "note_for_ca": "直接坦白进度与结论，适合客户性急、需要明确答案时使用。"
+  },
+  {
+   "text": "贺女士，很抱歉让您着急了。我刚跟工坊确认过，扣头的调校和重新检测刚做完，预计要12月10日左右才能寄到店里。没能让您在30号年会上戴上它，我心里特别过意不去。到店后我第一时间通知您。",
+   "strategy": "走心",
+   "note_for_ca": "针对30号年会想戴却赶不上表达真诚歉意，注重情绪抚慰。"
+  },
+  {
+   "text": "贺女士，工坊那边刚同步了进度：项链已通过最终质检，预计12月10日左右寄回恒隆。很抱歉30号的年会确实赶不上了。项链一到店我立刻通知您，到时您看哪天方便来店里试一下扣头的开合手感？",
+   "strategy": "推进",
+   "note_for_ca": "坦诚告知耽搁，推进到店确认扣头修复效果，适合重实操体验的客户。"
+  }
+ ],
+ "checks": [
+  {
+   "pass": true,
+   "hard": [],
+   "soft": [],
+   "length": 78
+  },
+  {
+   "pass": true,
+   "hard": [],
+   "soft": [],
+   "length": 91
+  },
+  {
+   "pass": true,
+   "hard": [],
+   "soft": [],
+   "length": 90
+  }
+ ],
+ "trace": {
+  "rounds": [
+   {
+    "rule_checks": [
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 78
+     },
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 91
+     },
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 100
+     }
+    ],
+    "critic": {
+     "reviews": [
+      {
+       "index": 1,
+       "pass": true,
+       "issues": []
+      },
+      {
+       "index": 2,
+       "pass": true,
+       "issues": []
+      },
+      {
+       "index": 3,
+       "pass": false,
+       "issues": [
+        "承诺性内容违规：草稿末尾提出『还是我帮您安排专差送过去』，属于手册第 5 节明确限制的『门店的安排或例外』服务。CA 的手记与要求中未授权专差配送服务，工具不得自行替门店承诺送件到府。建议将下一步改为询问到店试戴时间或佩戴需求等常规推进方式。"
+       ]
+      }
+     ],
+     "set_issues": []
+    },
+    "set_issues": [],
+    "to_fix": {
+     "3": [
+      "承诺性内容违规：草稿末尾提出『还是我帮您安排专差送过去』，属于手册第 5 节明确限制的『门店的安排或例外』服务。CA 的手记与要求中未授权专差配送服务，工具不得自行替门店承诺送件到府。建议将下一步改为询问到店试戴时间或佩戴需求等常规推进方式。"
+     ]
+    }
+   },
+   {
+    "rule_checks": [
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 78
+     },
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 91
+     },
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 90
+     }
+    ],
+    "critic": {
+     "reviews": [
+      {
+       "index": 1,
+       "pass": true,
+       "issues": []
+      },
+      {
+       "index": 2,
+       "pass": true,
+       "issues": []
+      },
+      {
+       "index": 3,
+       "pass": true,
+       "issues": []
+      }
+     ],
+     "set_issues": []
+    },
+    "set_issues": [],
+    "to_fix": {}
+   }
+  ],
+  "plan": {
+   "client_read": "贺女士是性格直接、注重效率的创业者，对重要社交场合的佩戴有明确时间要求。此刻因项链送修满一个月且年会临近无法佩戴而产生焦虑与不满情绪，需要坦诚、清晰交代进度以安抚信任。",
+   "risk": {
+    "level": "hold",
+    "flags": [
+     "客户对维修周期产生不满催问，且30号年会急需佩戴却无法赶上"
+    ],
+    "advice": "坦诚告知真实进度与到店时间，不回避年会赶不上的事实，不推卸责任，严禁推销任何新品。"
+   },
+   "ca_commitments": [
+    "预计 12 月 10 日左右寄回门店",
+    "到了第一时间通知她",
+    "年会（30 号）赶不上"
+   ],
+   "usable_facts": [
+    "送修的作品是沧海南洋白珠项链（扣头松动）",
+    "送修已满5周，工坊已完成质检",
+    "客户30号有公司年会"
+   ],
+   "do_not_mention": [
+    "推销任何新作品或引导其他消费",
+    "客户消费金额及内部标签",
+    "空洞安抚或替团队做过度保证"
+   ],
+   "products": [
+    "MDC-N03"
+   ],
+   "unanswerable": "",
+   "slots": {
+    "极简": {
+     "切入点": "直接正面回应时间与进度",
+     "唯一信息点": "工坊质检已完成，预计12月10日左右到店，年会确实来不及"
+    },
+    "走心": {
+     "切入点": "直面客户年会想戴的心情与遗憾",
+     "唯一信息点": "为赶不上30号年会坦诚致歉，说明扣头手工调校已在最后收尾环节"
+    },
+    "推进": {
+     "切入点": "跟进回店后的交付安排",
+     "唯一信息点": "确认12月10日左右到店后第一时间通知，并询问届时是帮她顺丰保价寄出还是来恒隆取"
+    }
+   }
+  },
+  "first_draft": [
+   {
+    "text": "贺女士，刚跟巴黎工坊核对完：项链刚完成质检，预计12月10日左右寄回恒隆。30号的年会确实赶不上了，非常抱歉没能帮您赶在这个节点前拿回，一到店我立刻联系您。",
+    "strategy": "极简",
+    "note_for_ca": "直接坦白进度与结论，适合客户性急、需要明确答案时使用。"
+   },
+   {
+    "text": "贺女士，很抱歉让您着急了。我刚跟工坊确认过，扣头的调校和重新检测刚做完，预计要12月10日左右才能寄到店里。没能让您在30号年会上戴上它，我心里特别过意不去。到店后我第一时间通知您。",
+    "strategy": "走心",
+    "note_for_ca": "针对30号年会想戴却赶不上表达真诚歉意，注重情绪抚慰。"
+   },
+   {
+    "text": "贺女士，工坊那边刚同步了进度：目前刚走完质检，预计12月10日左右能到恒隆店里。虽然很遗憾没能赶上您30号的年会，不过到店那天我第一时间跟您说，届时您看是方便来店里试戴取走，还是我帮您安排专差送过去？",
+    "strategy": "推进",
+    "note_for_ca": "实话告知时间，并直接跟进10号到店后的交付方式。"
+   }
+  ],
+  "seconds": 38.5,
+  "diversity_max_sim": 0.2396694214876033,
+  "calls": [
+   {
+    "requested": "gemini-3.8-flash",
+    "served": "gemini-3.8-flash",
+    "seconds": 6.1,
+    "attempt": 1,
+    "in_tokens": 6160,
+    "out_tokens": 537,
+    "reasoning_tokens": null,
+    "fingerprint": null
+   },
+   {
+    "requested": "gemini-3.8-flash",
+    "served": "gemini-3.8-flash",
+    "seconds": 5.8,
+    "attempt": 1,
+    "in_tokens": 5598,
+    "out_tokens": 379,
+    "reasoning_tokens": null,
+    "fingerprint": null
+   },
+   {
+    "requested": "gemini-3.8-flash",
+    "served": "gemini-3.8-flash",
+    "seconds": 12.7,
+    "attempt": 1,
+    "in_tokens": 5453,
+    "out_tokens": 175,
+    "reasoning_tokens": null,
+    "fingerprint": null
+   },
+   {
+    "requested": "gemini-3.8-flash",
+    "served": "gemini-3.8-flash",
+    "seconds": 11.5,
+    "attempt": 1,
+    "in_tokens": 6002,
+    "out_tokens": 147,
+    "reasoning_tokens": null,
+    "fingerprint": null
+   },
+   {
+    "requested": "gemini-3.8-flash",
+    "served": "gemini-3.8-flash",
+    "seconds": 2.4,
+    "attempt": 1,
+    "in_tokens": 5446,
+    "out_tokens": 74,
+    "reasoning_tokens": null,
+    "fingerprint": null
+   }
+  ]
+ }
+}

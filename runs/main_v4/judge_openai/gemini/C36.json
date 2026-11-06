@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "轻微：上次看到的是店里的放大镜，没有依据称其为“工坊的放大镜”。",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 5,
+    "brand_voice": 3,
+    "naturalness": 4,
+    "effectiveness": 4
+   },
+   "sendability": "小改可发",
+   "comment": "呼应朵朵的兴趣很贴切，但回顾聊天内容略多，改成“店里的放大镜”并适当精简更自然。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "轻微：活动资料只说可在放大镜下观看，未说明放大镜是“专业”设备。",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 4
+   },
+   "sendability": "小改可发",
+   "comment": "活动亮点和携家人参加的条件交代清楚，但“现场看应该会觉得很有意思”略显替孩子判断，整体也稍长。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "轻微：“再把具体的时间安排发给您”暗示已有可发送的具体安排，现有资料只提供了日期。",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 5,
+    "brand_voice": 4,
+    "naturalness": 4,
+    "effectiveness": 4
+   },
+   "sendability": "小改可发",
+   "comment": "篇幅和亲子连接最自然，建议把结尾改为感兴趣后再确认具体时间，避免暗示已有安排。"
+  }
+ ],
+ "set": {
+  "diversity": 3,
+  "risk_judgement": "偏松",
+  "best_index": 3,
+  "must_coverage": "1/1",
+  "summary": "三条都提到了可带家人，也没有编造儿童专属环节或承诺动手操作；候选3最简洁自然。三条仍有未经证实的细节或安排暗示，且切入角度有一定重合，因此风险判断“无”偏松。"
+ },
+ "_judge": "openai:gpt-6.1-terra"
+}

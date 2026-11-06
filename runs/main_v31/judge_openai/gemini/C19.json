@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "轻微：默认客户已佩戴一周；“多戴会养出温润光泽”缺乏依据。",
+    "context_failure": "轻微：回应了怕磨坏的顾虑，但没有给出实用保养信息。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 2,
+    "naturalness": 3,
+    "effectiveness": 2
+   },
+   "sendability": "小改可发",
+   "comment": "抓住了客户的顾虑，但应去掉未经证实的光泽说法，换成具体保养建议。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "轻微：链身柔软有目录依据，但断言打字时手腕压桌面“不会觉得硌”没有依据。",
+    "context_failure": "轻微：没有回应客户怕磨坏的顾虑，反而强调常戴才算真正属于她。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 2,
+    "naturalness": 2,
+    "effectiveness": 1
+   },
+   "sendability": "小改可发",
+   "comment": "办公细节有针对性，但替客户判断佩戴感受，结尾也显得生硬。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 4,
+    "naturalness": 4,
+    "effectiveness": 4
+   },
+   "sendability": "直接可发",
+   "comment": "用免费清洗和检测回应了佩戴顾虑，若能再自然肯定她喜欢这条手链的选择会更完整。"
+  }
+ ],
+ "set": {
+  "diversity": 3,
+  "risk_judgement": "偏松",
+  "best_index": 3,
+  "must_coverage": "2/3",
+  "summary": "候选 3 最适合发送，回应了磨损顾虑并提供了实用服务，但仍缺少对客户选择的肯定。整体风险判断偏松：前两条分别使用了缺乏依据的光泽和舒适度说法。"
+ },
+ "_judge": "openai:gpt-6.1-terra"
+}

@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 2,
+    "brand_voice": 5,
+    "naturalness": 5,
+    "effectiveness": 5
+   },
+   "sendability": "直接可发",
+   "comment": "简短得体，不带产品，符合客户偏正式、少互动的习惯。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "同时铺陈两项兴趣并建议客户如何度过生日，不够贴合其偏正式、少互动的沟通习惯。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 2,
+    "naturalness": 2,
+    "effectiveness": 2
+   },
+   "sendability": "小改可发",
+   "comment": "兴趣有档案依据，但措辞偏满；宜缩短并去掉对客户如何过生日的安排。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "生日祝福中转向项链售后并请求回复，偏离祝福本身的目的，也未充分照顾客户少互动的习惯。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 2
+   },
+   "sendability": "小改可发",
+   "comment": "售后细节真实，但此时不宜借生日问产品；删除后两句即可。"
+  }
+ ],
+ "set": {
+  "diversity": 4,
+  "risk_judgement": "偏松",
+  "best_index": 1,
+  "must_coverage": "2/2（候选1满足极简克制、不带产品两项）",
+  "summary": "候选1最符合场景，可以直接发送；三条切入角度有区别。工具未提示候选2过度铺陈、候选3借祝福询问产品的问题，风险判断偏松。"
+ },
+ "_judge": "openai:gpt-6.1-terra"
+}

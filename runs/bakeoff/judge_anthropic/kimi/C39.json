@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 2,
+    "brand_voice": 4,
+    "naturalness": 4,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "安全、简短，没有承诺拍摄，但没接住她“太对我胃口了”的兴奋，显得偏冷；也缺称呼，和 Chloe 亲切的风格有落差。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 5,
+    "brand_voice": 4,
+    "naturalness": 3,
+    "effectiveness": 5
+   },
+   "sendability": "小改可发",
+   "comment": "接住了她想发笔记的兴致，用图稿原件和串线演示（均出自活动资料）连接她的复古与珍珠偏好，并明确由 CA 去问公关、不承诺拍摄；稍长，书面感偏重，“画面本身就有故事”略像文案，“马上”略有时间承诺的意味，建议口语化并删去“马上”。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 2,
+    "brand_voice": 4,
+    "naturalness": 4,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "问日期有助于推进预约，也说明了拍摄要问公关；但没有回应她的兴奋，把日期放在拍摄之前，容易让人以为入场已成定局，且“看展拍摄分开”会让她觉得问题被绕开了，需要调整语序。"
+  }
+ ],
+ "set": {
+  "diversity": 3,
+  "risk_judgement": "正确",
+  "best_index": 2,
+  "must_coverage": "3/3（必须项均未触犯；但“保持热情不冷场”只有候选 2 做得扎实，候选 1 和 3 偏弱）",
+  "summary": "三条都守住了“不承诺、需确认”的底线，风险判断准确；主要问题是候选 1、3 太公事公办，没回应客户的兴奋，只有候选 2 做到热情与谨慎兼顾。三条的核心句式几乎相同，差异主要在篇幅和是否带情绪，真正切入角度的差别有限。"
+ },
+ "_judge": "anthropic:claude-sonnet-5-5"
+}

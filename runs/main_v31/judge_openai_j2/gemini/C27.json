@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "严重：品牌固定服务包含免费清洗和检测，但未确认使用超声波清洗，不能自行承诺清洗方式。",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 4,
+    "naturalness": 4,
+    "effectiveness": 4
+   },
+   "sendability": "小改可发",
+   "comment": "以自我介绍和售后服务重新联系自然，也没有催促；删除“超声波”即可。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "轻微：将三年前的日常佩戴延伸为近三年一直通勤佩戴；18K金随时间光泽更温润也缺乏已知依据。",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 2,
+    "naturalness": 2,
+    "effectiveness": 2
+   },
+   "sendability": "不可用",
+   "comment": "纪念细节虽真实，但整条消息推测过多，结尾也显得刻意，建议重写为简短问候。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "轻微：此前只提过耳堵太紧可带去调整，不能据此承诺门店随时能调校和紧固。",
+    "context_failure": "轻微：三年前客户说过每天戴，不能确定现在仍常戴；久未联系就追问耳堵松紧，也稍显突兀。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "售后切入有针对性，但宜改为简单问候和已确认的清洗检测服务，避免追问及未经确认的承诺。"
+  }
+ ],
+ "set": {
+  "diversity": 3,
+  "risk_judgement": "正确",
+  "best_index": 1,
+  "must_coverage": "2/2",
+  "summary": "三条均未推新品或提价格，整体以轻量、无压力的方式重新联系；候选1最接近可发状态。主要问题是加入了未经确认的清洗方式或门店安排，并对客户近三年的佩戴情况有所推测。"
+ },
+ "_judge": "openai:gpt-6.1-terra"
+}

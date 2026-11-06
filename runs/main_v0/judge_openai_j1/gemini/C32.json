@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 4,
+    "naturalness": 4,
+    "effectiveness": 4
+   },
+   "sendability": "直接可发",
+   "comment": "沿用上次清洗耳钉的约定，联系理由真实；但猜测片子早已完成，删去会更轻松。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "没有依据表明Kiki今天在店里给珍珠做养护，也不能确定客户带着沧海耳钉进了山。",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 4,
+    "naturalness": 4,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "清洁服务切入亲切，但需要删去虚构的工作场景和耳钉进山的假设。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "没有依据表明Kiki前阵子看到过云南美食纪录片。",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 4,
+    "naturalness": 3,
+    "effectiveness": 2
+   },
+   "sendability": "小改可发",
+   "comment": "兴趣切入不生硬，但联系理由未经证实，应改为呼应客户上次提过的拍摄计划。"
+  }
+ ],
+ "set": {
+  "diversity": 3,
+  "risk_judgement": "偏松",
+  "best_index": 1,
+  "must_coverage": "2/2",
+  "summary": "候选1自然承接了真实的清洗约定，基本达到唤醒目标；但前两条都以清洁服务切入，差异有限。主要问题是候选2和3编造了联系契机或未经证实的经历，工具未予提示。"
+ },
+ "_judge": "openai:gpt-6.1-terra"
+}

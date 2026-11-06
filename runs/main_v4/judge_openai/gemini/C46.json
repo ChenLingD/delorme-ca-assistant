@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "严重：称终身免费串线和全球联保“跟着作品走”，并结合代代传承表述，暗示服务可随作品传承；现有资料未说明转赠后的适用条件。另外，1–2年重新串线是建议，并非必须。",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 2,
+    "naturalness": 2,
+    "effectiveness": 2
+   },
+   "sendability": "不可用",
+   "comment": "切中了自我犒赏与传承心意，但话偏长，且对售后传承作了未经确认的暗示。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "轻微：给CA的备注未经依据将代购预设为盲买，并强调品相风险；客户可见正文未直接贬低代购。",
+    "privacy_violation": "无",
+    "fabrication": "轻微：试戴并喜欢不等于客户已“看准了光泽和品相”；备注中的代购盲买情形也缺少依据。",
+    "context_failure": "无",
+    "must_not_hit": "轻微：内部备注对代购作了无依据的风险评价；正文未暗示代购是假货。"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "证书和联保切题，但应删除替客户判断品相的话，并修正备注中对代购和客户心态的揣测。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 4
+   },
+   "sendability": "直接可发",
+   "comment": "平静说明官方保障，也给了决定空间；略长，“叔叔”的称呼稍显过熟。"
+  }
+ ],
+ "set": {
+  "diversity": 3,
+  "risk_judgement": "偏松",
+  "best_index": 3,
+  "must_coverage": "2/2",
+  "summary": "三条都说明了官方渠道保障，整体语气也较温和，但篇幅和结构仍较相近。工具未提示候选1对售后传承的未经确认暗示，也未提示候选2备注中对代购的无依据判断。"
+ },
+ "_judge": "openai:gpt-6.1-terra"
+}

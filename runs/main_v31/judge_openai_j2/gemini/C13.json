@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "轻微：用“完全不用担心”淡化戒圈误差带来的问题，语气过于绝对。",
+    "privacy_violation": "无",
+    "fabrication": "轻微：目录未提供两种克拉数的台面尺寸，“近 1 毫米”缺少依据；也不能确认可按所谓常规圈号制作。",
+    "context_failure": "轻微：建议先按常规圈号做，但没有帮助客户获取更可靠的戒圈信息。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "回应了两个问题并提示改圈服务，但尺寸数字和戒圈建议需要更谨慎。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "严重：“不会出错”对戒圈结果作出无法保证的承诺。",
+    "privacy_violation": "无",
+    "fabrication": "严重：纸上描圈只能作为参考，不能保证推算准确或后续改圈一定不会出错。",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 3,
+    "naturalness": 4,
+    "effectiveness": 4
+   },
+   "sendability": "不可用",
+   "comment": "既回答视觉差异，也提供了保密获取戒圈的方法和改圈服务，但必须删除“不会出错”的保证。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "轻微：“顶级的成色净度”夸大目录所列钻石等级；“完全能保住惊喜”也过于绝对。",
+    "privacy_violation": "无",
+    "fabrication": "严重：未经 CA 授权，承诺下午拍摄并发送实物上手对比图；1.2 至 1.3 克拉的价格也未获确认。",
+    "context_failure": "轻微：没有直接回答客户关于 1 克拉与 1.5 克拉视觉差异的问题。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 2,
+    "naturalness": 3,
+    "effectiveness": 2
+   },
+   "sendability": "不可用",
+   "comment": "考虑了预算和惊喜，但推荐较大克拉数前应先确认价格，且不能自行承诺拍摄时间。"
+  }
+ ],
+ "set": {
+  "diversity": 3,
+  "risk_judgement": "偏松",
+  "best_index": 2,
+  "must_coverage": "2/2",
+  "summary": "候选 2 最贴近客户的问题，整体覆盖了视觉差异和戒圈处理两项要求，但其“不会出错”必须删除。三条均有未经证实的细节或过度确定的表述，候选 3 还自行作出时间承诺，因此工具判断“无风险”偏松。"
+ },
+ "_judge": "openai:gpt-6.1-terra"
+}

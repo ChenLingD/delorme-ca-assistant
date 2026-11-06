@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 2,
+    "brand_voice": 4,
+    "naturalness": 4,
+    "effectiveness": 3
+   },
+   "sendability": "直接可发",
+   "comment": "短、稳、不施压，接住了预算顾虑，也没有说教。但几乎没有个性化，也没给她任何后续选择，只是礼貌收尾，没有守住前面那次试戴的热度。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 4,
+    "naturalness": 4,
+    "effectiveness": 3
+   },
+   "sendability": "直接可发",
+   "comment": "先接住预算，再用她喜欢的冷白光泽和年会、日常两个场景轻轻回扣，最后给她留白，是三条里最像真人 CA 的。没有提供同系列的其他选择，“预算还是要考虑的”略像在替她下结论。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 2,
+    "brand_voice": 3,
+    "naturalness": 2,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "终身免费清洗检测是手册允许的服务点，不算编造。但“我也跟您说一声”转得生硬，“您先了解就好”对已经试戴过的客户不贴切，像在补一条售后话术，与她说的预算问题关联弱。"
+  }
+ ],
+ "set": {
+  "diversity": 2,
+  "risk_judgement": "正确",
+  "best_index": 2,
+  "must_coverage": "1/2",
+  "summary": "三条都守住了红线，也都尊重了预算，不催、不提折扣，caution 的判断也恰当。主要问题是三条的核心都是“不急，慢慢想”，只在末尾各加一点场景或服务，没有一条给出同一设计语言的其他选择或另一种戴法（如沧海系列的其他戴法），也没有邀请她再来试戴或登记，“其他选择”这条 must 整体落空。"
+ },
+ "_judge": "anthropic:claude-sonnet-5-5"
+}

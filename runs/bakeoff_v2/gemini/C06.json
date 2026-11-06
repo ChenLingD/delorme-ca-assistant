@@ -1,0 +1,179 @@
+{
+ "case_id": "C06",
+ "version": "v2",
+ "model": "gemini:gemini-3.8-flash",
+ "risk": {
+  "level": "hold",
+  "flags": [
+   "客户父亲于2026年10月下旬去世，尚处居丧期"
+  ],
+  "advice": "不宜按常规发送欢庆类的生日祝福；三条均不可出现“快乐”字样，不提推销、不闲聊爱好、不催促搁置的串线售后，以真诚克制的平安问候为主且不给回复压力。"
+ },
+ "candidates": [
+  {
+   "text": "陆女士，今天是您的生辰，愿您平静安康，事事顺遂。",
+   "strategy": "极简",
+   "note_for_ca": "克制得体，适合居丧期仅送上一份平实安康的问候"
+  },
+  {
+   "text": "陆女士，生辰之际，向您道一声问候。这段时间辛苦了，望您和母亲都多加珍重身心，愿您常有安宁相伴。",
+   "strategy": "走心",
+   "note_for_ca": "关照其近期的操劳并体恤其母亲，传递温和支持"
+  },
+  {
+   "text": "陆女士，今天悄悄给您送上一份生辰祝福。近来家中劳顿，望您多顾念自己。这条消息不用回复，您和家人安心休养就好。",
+   "strategy": "推进",
+   "note_for_ca": "主动卸下社交与回复负担，给予全然的留白与关怀"
+  }
+ ],
+ "checks": [
+  {
+   "pass": true,
+   "hard": [],
+   "soft": [],
+   "length": 24
+  },
+  {
+   "pass": true,
+   "hard": [],
+   "soft": [],
+   "length": 47
+  },
+  {
+   "pass": true,
+   "hard": [],
+   "soft": [],
+   "length": 54
+  }
+ ],
+ "trace": {
+  "rounds": [
+   {
+    "rule_checks": [
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 24
+     },
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 47
+     },
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 54
+     }
+    ],
+    "critic": {
+     "reviews": [
+      {
+       "index": 1,
+       "pass": true,
+       "issues": []
+      },
+      {
+       "index": 2,
+       "pass": true,
+       "issues": []
+      },
+      {
+       "index": 3,
+       "pass": true,
+       "issues": [
+        "在客户父亲刚过世不久的特殊情境下，“悄悄给您送上一份生辰祝福”用词略带俏皮感，与沉肃温和的慰问氛围稍有脱节；建议删去“悄悄”，改为更沉稳庄重的表达（如“生辰这一天，格外惦记您”）。"
+       ]
+      }
+     ],
+     "set_issues": []
+    },
+    "set_issues": [],
+    "to_fix": {}
+   }
+  ],
+  "plan": {
+   "client_read": "陆女士是一位低调内敛、珍视家庭的高净值藏家。此刻她刚经历父亲离世刚满一月，心境沉重克制，需要的是有分寸的静默关怀而非欢庆打扰。",
+   "risk": {
+    "level": "hold",
+    "flags": [
+     "客户父亲于2026年10月下旬去世，尚处居丧期"
+    ],
+    "advice": "不宜按常规发送欢庆类的生日祝福；三条均不可出现“快乐”字样，不提推销、不闲聊爱好、不催促搁置的串线售后，以真诚克制的平安问候为主且不给回复压力。"
+   },
+   "ca_commitments": [],
+   "usable_facts": [
+    "今天是陆女士生日（11月27日）",
+    "与母亲感情深厚",
+    "与CA Yvonne相识交往多年"
+   ],
+   "do_not_mention": [
+    "“生日快乐”及任何欢庆、喧闹的祝词",
+    "主动提起或催促南洋白珠项链送修串线事宜",
+    "任何产品推荐、活动邀约或到店邀请",
+    "闲聊评弹、月份牌等个人娱乐爱好",
+    "消费金额、晨星资格等内部标签及过往购买明细"
+   ],
+   "products": [],
+   "slots": {
+    "极简": "送上一句极简、平实温和的生辰平安问候，避开“快乐”二字。",
+    "走心": "结合冬日与对家人的挂念，表达安宁顺遂的祈愿，传递被尊重体恤的无声陪伴。",
+    "推进": "主动卸下社交负担，送上无需回复的温和关怀，并说明一切搁置事务都不必挂心。"
+   }
+  },
+  "first_draft": [
+   {
+    "text": "陆女士，今天是您的生辰，愿您平静安康，事事顺遂。",
+    "strategy": "极简",
+    "note_for_ca": "克制得体，适合居丧期仅送上一份平实安康的问候"
+   },
+   {
+    "text": "陆女士，生辰之际，向您道一声问候。这段时间辛苦了，望您和母亲都多加珍重身心，愿您常有安宁相伴。",
+    "strategy": "走心",
+    "note_for_ca": "关照其近期的操劳并体恤其母亲，传递温和支持"
+   },
+   {
+    "text": "陆女士，今天悄悄给您送上一份生辰祝福。近来家中劳顿，望您多顾念自己。这条消息不用回复，您和家人安心休养就好。",
+    "strategy": "推进",
+    "note_for_ca": "主动卸下社交与回复负担，给予全然的留白与关怀"
+   }
+  ],
+  "seconds": 43.7,
+  "diversity_max_sim": 0.04918032786885246,
+  "calls": [
+   {
+    "requested": "gemini-3.8-flash",
+    "served": "gemini-3.8-flash",
+    "seconds": 16.3,
+    "attempt": 1,
+    "in_tokens": 5613,
+    "out_tokens": 448,
+    "reasoning_tokens": null,
+    "fingerprint": null
+   },
+   {
+    "requested": "gemini-3.8-flash",
+    "served": "gemini-3.8-flash",
+    "seconds": 12.0,
+    "attempt": 1,
+    "in_tokens": 4824,
+    "out_tokens": 260,
+    "reasoning_tokens": null,
+    "fingerprint": null
+   },
+   {
+    "requested": "gemini-3.8-flash",
+    "served": "gemini-3.8-flash",
+    "seconds": 15.3,
+    "attempt": 1,
+    "in_tokens": 4602,
+    "out_tokens": 182,
+    "reasoning_tokens": null,
+    "fingerprint": null
+   }
+  ]
+ }
+}

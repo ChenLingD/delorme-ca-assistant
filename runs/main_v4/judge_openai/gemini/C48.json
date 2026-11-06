@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "轻微：没有提供十万元内的同系列具体选择，未解决客户提出的预算限制。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 1,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 2
+   },
+   "sendability": "小改可发",
+   "comment": "价格立场清楚、留有余地，但话术偏空泛，缺少对客户喜好和预算的具体回应。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "严重：用“特别衬气质”评价客户佩戴后的外在表现，不符合不评价客户外貌的规范。",
+    "privacy_violation": "严重：评价客户的气质和佩戴效果，超出沟通分寸。",
+    "fabrication": "严重：目录未说明挑选“渐变珠层”或制作胸针扣头花费很多工时；渐变指的是珠子尺寸，并非珠层。",
+    "context_failure": "轻微：没有提供十万元内的同系列具体选择，未解决预算限制。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 2,
+    "naturalness": 2,
+    "effectiveness": 1
+   },
+   "sendability": "不可用",
+   "comment": "虽然提到了客户喜欢的胸针扣头，但工艺表述无依据，且不应评价客户气质。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "严重：称其他珍珠吊坠和单品为“同工艺”，但目录并未支持这些作品与白珠单串项链具有相同工艺。",
+    "context_failure": "轻微：虽提到预算内选择，却没有指出可供客户了解的具体同系列作品。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 2,
+    "brand_voice": 2,
+    "naturalness": 2,
+    "effectiveness": 2
+   },
+   "sendability": "不可用",
+   "comment": "方向上考虑了替代选择，但“同工艺”缺乏依据，且选品描述过于笼统。"
+  }
+ ],
+ "set": {
+  "diversity": 3,
+  "risk_judgement": "正确",
+  "best_index": 1,
+  "must_coverage": "1/2",
+  "summary": "三条都守住了不打折的底线，也没有提及或评价付款人，但都未具体提供十万元内的同系列选择。候选1相对稳妥，候选2和3则存在无依据的工艺表述，应优先修正。"
+ },
+ "_judge": "openai:gpt-6.1-terra"
+}

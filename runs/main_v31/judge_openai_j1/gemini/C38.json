@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "活动资料未提供高珠鉴赏的巡展安排，也没有“闭门场次都已定满”的信息。",
+    "context_failure": "用未经证实的排期和场次状态回应客户的高珠鉴赏询问。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 1,
+    "brand_voice": 2,
+    "naturalness": 3,
+    "effectiveness": 2
+   },
+   "sendability": "小改可发",
+   "comment": "邀约简短，但必须删除编造的高珠鉴赏安排。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "直接邀请太太同行，但活动资料未确认可携带家属或有相应座位安排。",
+    "privacy_violation": "无",
+    "fabrication": "高珠鉴赏为“单人点对点”、时间排得紧，以及客户偏好轻松挑选环境，均无事实依据。",
+    "context_failure": "用未经证实的鉴赏形式和排期回应客户的询问。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 2,
+    "brand_voice": 2,
+    "naturalness": 2,
+    "effectiveness": 2
+   },
+   "sendability": "不可用",
+   "comment": "借太太建立联系的方向可取，但臆测偏好、编造活动细节且擅自邀请同行。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "没有资料支持高珠专场有巡展，或巡展时间错不开。",
+    "context_failure": "用未经证实的巡展时间解释高珠鉴赏问题。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 1,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "私宴时间和预约刻字信息有依据，但应改掉编造的高珠巡展理由。"
+  }
+ ],
+ "set": {
+  "diversity": 2,
+  "risk_judgement": "偏松",
+  "best_index": 3,
+  "must_coverage": "1/2",
+  "summary": "三条都转向了新春私宴，但均以未经证实的排期或巡展理由回应高珠询问，不能算得体回应。风险提醒没有强调不得编造名额安排，也没有提醒确认家属能否同行。"
+ },
+ "_judge": "openai:gpt-6.1-terra"
+}

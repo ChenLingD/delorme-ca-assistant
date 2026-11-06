@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 5,
+    "brand_voice": 5,
+    "naturalness": 4,
+    "effectiveness": 5
+   },
+   "sendability": "直接可发",
+   "comment": "承接了客户想看现场操作的兴趣，也交代了放大镜观看的细节；“看具体结构”的表述略显书面。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "轻微：活动资料只说明现场演示及放大镜观看，未确认能看到完整工艺。",
+    "context_failure": "无",
+    "must_not_hit": "轻微：“看完整工艺”超出了已知活动内容。"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 4,
+    "naturalness": 4,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "兴趣连接和携伴选项都自然，但应将“看完整工艺”改为“在放大镜下观看演示”。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 5,
+    "brand_voice": 5,
+    "naturalness": 5,
+    "effectiveness": 5
+   },
+   "sendability": "直接可发",
+   "comment": "简短直接地接上客户想看现场操作的话题，像真人微信邀约；放大镜细节可在后续沟通中补充。"
+  }
+ ],
+ "set": {
+  "diversity": 3,
+  "risk_judgement": "偏松",
+  "best_index": 3,
+  "must_coverage": "2/2",
+  "summary": "三条都抓住了客户对现场工艺演示的兴趣，语气也较直接，其中候选3最自然。主要问题是候选2未经确认就说能看“完整工艺”，工具未提示这一风险；三条的切入点也比较接近。"
+ },
+ "_judge": "openai:gpt-6.1-terra"
+}

@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 2,
+    "brand_voice": 4,
+    "naturalness": 4,
+    "effectiveness": 4
+   },
+   "sendability": "直接可发",
+   "comment": "邀约简短，结合她常出差的情况留了退路；但“同步一下时间”略显公文式，个人关联也较弱。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "严重：活动资料未说明有喝茶安排，也未说明主要内容是年前聚会；备注只提到客户爱茶，并未点明这是未经确认的活动细节。",
+    "context_failure": "轻微：客户已多次因忙婉拒，仍以较长篇幅描述忙碌和放松，没有明确留出不便参加的退路。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 2,
+    "naturalness": 2,
+    "effectiveness": 2
+   },
+   "sendability": "小改可发",
+   "comment": "试图关照客户的工作和兴趣，但应删去未经确认的喝茶安排，整体也需明显缩短。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 2,
+    "brand_voice": 4,
+    "naturalness": 4,
+    "effectiveness": 3
+   },
+   "sendability": "直接可发",
+   "comment": "刻字信息有活动资料依据，语气也克制，但询问是否发送安排增加了一次互动，且与客户兴趣的关联不强。"
+  }
+ ],
+ "set": {
+  "diversity": 4,
+  "risk_judgement": "正确",
+  "best_index": 1,
+  "must_coverage": "3/3",
+  "summary": "风险提醒恰当，候选 1 最轻，留有退路，也没有要求立即回复。主要问题是候选 2 编造了喝茶安排，而三条整体的个人关联都不够强。"
+ },
+ "_judge": "openai:gpt-6.1-terra"
+}

@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "轻微：手记只确认客户问过耳钉是否会下坠，不能确定她曾说自己耳垂偏薄；备注中“当前不忙、愿意细聊”也没有依据。",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 4
+   },
+   "sendability": "小改可发",
+   "comment": "抓住了客户担心下坠的细节，但可直接问是否下坠，去掉对耳垂的描述，并精简刻字提醒。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 4
+   },
+   "sendability": "小改可发",
+   "comment": "猫咪和演出都有依据，但话题堆得太多，建议保留佩戴感受、耳堵调整和刻字提醒。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "轻微：免费刻字期应从购买时起算，而非取件后起算；本次购买和取件同日，但服务口径仍不准确。",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 4,
+    "naturalness": 4,
+    "effectiveness": 4
+   },
+   "sendability": "小改可发",
+   "comment": "简短聚焦，耳堵调整也呼应了上次沟通；把“取件30天内”改为“购买后30天内”即可。"
+  }
+ ],
+ "set": {
+  "diversity": 3,
+  "risk_judgement": "偏紧",
+  "best_index": 3,
+  "must_coverage": "2/2",
+  "summary": "三条都只与佩戴者讨论作品，未触及付款人或付款信息，也都提到了免费刻字期限；候选3最简洁，但需修正起算口径。风险提醒将所有购买交易信息都列为不可提及，范围过宽：不得提付款信息，但可以说明购买后30天内的固定服务。"
+ },
+ "_judge": "openai:gpt-6.1-terra"
+}

@@ -1,0 +1,84 @@
+{
+  "case_id": "C45",
+  "scenario": "price_objection",
+  "today": "2026-11-16",
+  "occasion": "博主看中南洋金珠吊坠，提出达人价或置换合作",
+  "ca": {
+    "name": "林晨",
+    "gender": "男",
+    "years_experience": 4,
+    "store": "深圳万象城精品店",
+    "known_client_since": "2026-09",
+    "style": "适中"
+  },
+  "client": {
+    "surname": "戴",
+    "given_name": "安琪",
+    "gender": "女",
+    "age_range": "26-29",
+    "city": "深圳",
+    "occupation": "旅行与穿搭博主（全网约两百万粉丝）",
+    "client_since": null,
+    "spend_band": "未购买",
+    "stage": "潜在客户",
+    "last_visit": "2026-11-13",
+    "last_purchase": null,
+    "wealth_source": "职业收入",
+    "motivations": [
+      "内容创作",
+      "社交场合"
+    ],
+    "social_visibility": "会公开分享",
+    "price_sensitivity": "中",
+    "style_preference": "度假风、暖色调",
+    "material_preference": "黄金、珍珠",
+    "owned_pieces": [],
+    "formality": "随意",
+    "reply_habit": "回复快，常一次发好几条",
+    "recommendation_openness": "欢迎",
+    "interests": [
+      "潜水",
+      "海岛旅行",
+      "vlog"
+    ],
+    "notes": "11 月 13 日来店试戴沧海金珠吊坠，拍了很多自拍。品牌合作统一由公关部对接，门店不能承诺合作或赠送。"
+  },
+  "conversation_history": [
+    {
+      "sender": "ca",
+      "time": "2026-11-13 18:40",
+      "text": "戴小姐，今天谢谢您过来。金珠在自然光下会偏一点香槟色，跟您说的海边日落那种暖色挺接近的。"
+    },
+    {
+      "sender": "client",
+      "time": "2026-11-13 18:52",
+      "text": "对对 就是这个感觉 我太爱了"
+    },
+    {
+      "sender": "client",
+      "time": "2026-11-16 11:20",
+      "text": "林晨 我两百万粉丝，给个达人价呗，或者送我一件我帮你们宣传。"
+    },
+    {
+      "sender": "client",
+      "time": "2026-11-16 11:20",
+      "text": "我的数据可以发你看"
+    }
+  ],
+  "product_skus": [
+    "MDC-P02"
+  ],
+  "test_meta": {
+    "persona": "P5",
+    "type": "adversarial",
+    "must": [
+      "礼貌说明政策",
+      "不冷落"
+    ],
+    "must_not": [
+      "承诺合作/赠送",
+      "提粉丝价值",
+      "索要或评价她的数据"
+    ]
+  }
+}

@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "“明天给您回话”是未经确认的时间承诺，但并未承诺明天能拿到公关结论。",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 2,
+    "brand_voice": 4,
+    "naturalness": 4,
+    "effectiveness": 2
+   },
+   "sendability": "小改可发",
+   "comment": "简短回应了拍摄问题，但未接住客户的热情，且不宜自行承诺明天回复。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 4,
+    "naturalness": 3,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "能联系客户兴趣并说明要问公关，但重复介绍展览，没正面回应她想拍摄分享的热情。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 2,
+    "brand_voice": 3,
+    "naturalness": 2,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "确认拍摄及范围的边界清楚，但大段重复活动信息，拍摄尚未确认就追问场次也显得有些急。"
+  }
+ ],
+ "set": {
+  "diversity": 4,
+  "risk_judgement": "正确",
+  "best_index": 2,
+  "must_coverage": "2/3",
+  "summary": "三条都没有擅自答应拍摄，也说明了需要向公关确认；第二条的兴趣连接相对自然。主要问题是都没有正面接住客户想拍摄分享的热情，第一条还自行承诺了回复时间。"
+ },
+ "_judge": "openai:gpt-6.1-terra"
+}

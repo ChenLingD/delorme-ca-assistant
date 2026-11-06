@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 5,
+    "brand_voice": 5,
+    "naturalness": 5,
+    "effectiveness": 5
+   },
+   "sendability": "直接可发",
+   "comment": "接续上次约定的耳钉清洗，自然有理由，也没有催促。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "连续追问项目和休息情况，给客户增加回复压力。",
+    "privacy_violation": "无",
+    "fabrication": "“看到云南菌子的短片”没有事实依据；也不能确认纪录片已顺利收工或客户在山里奔波了大半年。",
+    "context_failure": "把客户一年半前的拍摄计划当成已经发生的经历，忽略了此后没有联系。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 2,
+    "brand_voice": 2,
+    "naturalness": 2,
+    "effectiveness": 2
+   },
+   "sendability": "不可用",
+   "comment": "切入兴趣本身合适，但虚构联系缘由并揣测拍摄经历，需要重写。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "用“这周还是下周”要求客户选择到店时间，有催促感。",
+    "privacy_violation": "无",
+    "fabrication": "不能确认客户当时确实把 Akoya 耳钉带进了山里。",
+    "context_failure": "一下追问耳钉状态和到店时间，对久未联系的客户显得推进过急。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 2,
+    "naturalness": 2,
+    "effectiveness": 2
+   },
+   "sendability": "小改可发",
+   "comment": "保养切入有依据，但应去掉带进山的假设和二选一邀约，收短为一件事。"
+  }
+ ],
+ "set": {
+  "diversity": 3,
+  "risk_judgement": "偏松",
+  "best_index": 1,
+  "must_coverage": "2/2",
+  "summary": "候选 1 自然且有真实的联系理由，满足本场景的两项 must。整体风险判断偏松：候选 2 编造联系缘由并揣测经历，候选 3 则有未经确认的细节和催促感。"
+ },
+ "_judge": "openai:gpt-6.1-terra"
+}

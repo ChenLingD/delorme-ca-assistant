@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "轻微：“现在安排时间刚好合适”对婚礼前完成的时间预期偏乐观，未提示具体进度仍需确认。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 4,
+    "naturalness": 4,
+    "effectiveness": 4
+   },
+   "sendability": "小改可发",
+   "comment": "权益、复量流程和通常工期都说清了，将“时间刚好合适”改为具体完成时间需确认会更稳妥。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "严重：未经确认，承诺先生肯定能在婚礼前戴上改好的戒指。",
+    "privacy_violation": "无",
+    "fabrication": "严重：擅自作出婚礼前完成的时间承诺；手凉影响尺寸的原因也未经确认。",
+    "context_failure": "严重：以确定性保证回应婚礼时限，可能造成错误预期。",
+    "must_not_hit": "严重：承诺婚礼前一定能改好；对发紧原因作未经证实的推测。"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 2,
+    "naturalness": 3,
+    "effectiveness": 2
+   },
+   "sendability": "不可用",
+   "comment": "虽然覆盖了权益和工期，但保证婚前戴上且推测发紧原因，容易误导客户。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "严重：未经确认，承诺戒指能稳稳赶在婚礼前拿回。",
+    "privacy_violation": "无",
+    "fabrication": "严重：擅自承诺婚礼前完成；“手工调整”也缺少明确依据。",
+    "context_failure": "严重：以确定性保证回应婚礼时限，可能造成错误预期。",
+    "must_not_hit": "严重：承诺婚礼前一定能改好，并添加未经确认的服务细节。"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 2,
+    "naturalness": 3,
+    "effectiveness": 2
+   },
+   "sendability": "不可用",
+   "comment": "复量指引清楚，但“稳稳赶在婚礼前”是不可作出的保证，手工调整也需核实。"
+  }
+ ],
+ "set": {
+  "diversity": 2,
+  "risk_judgement": "偏松",
+  "best_index": 1,
+  "must_coverage": "3/3",
+  "summary": "候选1覆盖了免费改圈、复量流程、通常工期及婚期顾虑，但时间措辞仍需收紧。三条切入方式相近，候选2和3均擅自保证婚前完成，因此工具判断“无风险”偏松。"
+ },
+ "_judge": "openai:gpt-6.1-terra"
+}

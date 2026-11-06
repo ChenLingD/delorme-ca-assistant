@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "轻微：没有依据说前两天整理过保养登记，也不能确定耳钉陪客户走南闯北；“彻底的深层清洁”超出了已知的免费清洗服务表述。",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 2,
+    "naturalness": 2,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "接续上次清洗约定是好的理由，但应去掉编造的登记和夸张的清洁表述。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 4,
+    "naturalness": 4,
+    "effectiveness": 4
+   },
+   "sendability": "直接可发",
+   "comment": "顺着上次聊天关心创作，比产品推荐更自然；但询问剪辑进度可能让项目不顺的客户不好接话。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 4,
+    "naturalness": 4,
+    "effectiveness": 3
+   },
+   "sendability": "直接可发",
+   "comment": "问候轻松、没有销售压力，但联系缘由和个性化都较弱，后半句邀约也略显常见。"
+  }
+ ],
+ "set": {
+  "diversity": 4,
+  "risk_judgement": "偏松",
+  "best_index": 2,
+  "must_coverage": "2/2",
+  "summary": "三条分别从清洗、创作和问候切入，其中候选 2 最贴近客户上次留下的话题。主要问题是候选 1 编造了整理保养登记的联系缘由，工具未予提醒；候选 3 则较自然但缘由偏弱。"
+ },
+ "_judge": "openai:gpt-6.1-terra"
+}

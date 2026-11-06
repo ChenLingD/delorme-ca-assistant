@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 5,
+    "naturalness": 5,
+    "effectiveness": 4
+   },
+   "sendability": "直接可发",
+   "comment": "简洁直接，活动与客户兴趣相符，但没有点出他此前想看现场操作，专属感稍弱。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "轻微：活动资料未确认可与师傅现场探讨公差和工艺，不宜直接作此安排。",
+    "context_failure": "无",
+    "must_not_hit": "轻微：将未经活动资料确认的师傅交流环节写成了可以参加的体验。"
+   },
+   "scores": {
+    "personalization": 5,
+    "brand_voice": 4,
+    "naturalness": 4,
+    "effectiveness": 4
+   },
+   "sendability": "小改可发",
+   "comment": "自然呼应客户想看操作的兴趣，但应删去或先确认与师傅探讨公差的表述。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "轻微：用“隐形镶嵌”替代活动资料中的“看不见的镶爪”，可能混淆工艺，需核实。",
+    "context_failure": "无",
+    "must_not_hit": "轻微：活动演示的工艺名称与资料不一致。"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 4,
+    "naturalness": 4,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "携家人是合理选项，但未点出客户想看现场操作的兴趣，且工艺名称应按活动资料表述。"
+  }
+ ],
+ "set": {
+  "diversity": 3,
+  "risk_judgement": "偏松",
+  "best_index": 2,
+  "must_coverage": "2/2",
+  "summary": "候选2最能体现为客户挑选活动，整体也较简洁直接。主要问题是候选2未经确认就写可与师傅探讨公差，候选3的工艺名称也需核实。"
+ },
+ "_judge": "openai:gpt-6.1-terra"
+}

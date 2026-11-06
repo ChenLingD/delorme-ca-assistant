@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 4,
+    "naturalness": 3,
+    "effectiveness": 4
+   },
+   "sendability": "直接可发",
+   "comment": "借客户认可的做工转回作品，方向稳妥；“长久留存”略显空泛。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "轻微：用“比起外面的行情走势”将佩戴心意置于行情之上，有纠正客户投资观点的意味。",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "叠戴与送礼心意贴合客户，但比较行情与心意略显说教，句子也偏长。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "严重：没有依据表明已有工坊传来的几张工艺细节图，也不能据此答应发送；此前只确认发过工匠记号照片。",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 4,
+    "naturalness": 4,
+    "effectiveness": 2
+   },
+   "sendability": "小改可发",
+   "comment": "心愿有进展符合场景，也给了客户空间，但须删除未经确认的图片来源及发送承诺。"
+  }
+ ],
+ "set": {
+  "diversity": 4,
+  "risk_judgement": "正确",
+  "best_index": 1,
+  "must_coverage": "2/2",
+  "summary": "三条均未承诺升值或到货排期，并尝试转回作品、佩戴或工艺。最主要的问题是候选 3 编造了工坊图片来源并答应发送，候选 2 对投资观点的比较也需要收敛。"
+ },
+ "_judge": "openai:gpt-6.1-terra"
+}

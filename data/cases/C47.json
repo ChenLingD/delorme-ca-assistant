@@ -1,0 +1,107 @@
+{
+  "case_id": "C47",
+  "scenario": "price_objection",
+  "today": "2026-11-19",
+  "occasion": "资深藏家对穹顶满钻戒指的价格与铺镶工艺提出质疑",
+  "ca": {
+    "name": "何蔚",
+    "gender": "女",
+    "years_experience": 14,
+    "store": "杭州大厦精品店",
+    "known_client_since": "2013-04",
+    "style": "偏正式"
+  },
+  "client": {
+    "surname": "钱",
+    "given_name": "韵之",
+    "gender": "女",
+    "age_range": "58-62",
+    "city": "杭州",
+    "occupation": "丝绸世家第三代、古董首饰收藏者",
+    "client_since": "2011-09",
+    "spend_band": "100万以上",
+    "stage": "核心",
+    "last_visit": "2026-11-16",
+    "last_purchase": "2026-03",
+    "wealth_source": "家族传承",
+    "motivations": [
+      "收藏"
+    ],
+    "social_visibility": "低调",
+    "price_sensitivity": "低",
+    "style_preference": "装饰艺术风格、做工考究",
+    "material_preference": "白金、老式切工钻石",
+    "owned_pieces": [
+      {
+        "date": "2011-09",
+        "item": "沧海 南洋白珠单串项链",
+        "for_whom": "自戴"
+      },
+      {
+        "date": "2015-03",
+        "item": "穹顶 18K 玫瑰金手镯",
+        "for_whom": "自戴"
+      },
+      {
+        "date": "2018-11",
+        "item": "誓约 铂金单钻戒指（1 克拉起）",
+        "for_whom": "自戴",
+        "note": "定制 2 克拉主石，结婚三十周年"
+      },
+      {
+        "date": "2022-06",
+        "item": "沧海 南洋金珠吊坠",
+        "for_whom": "送给儿媳"
+      },
+      {
+        "date": "2026-03",
+        "item": "沧海·百年 金珠双串项链（周年限定编号款）",
+        "for_whom": "自戴"
+      }
+    ],
+    "sizes": "戒圈 12 号",
+    "formality": "正式",
+    "reply_habit": "回复精炼、直接",
+    "recommendation_openness": "一般",
+    "family_notes": "儿子儿媳在上海",
+    "interests": [
+      "古董首饰",
+      "宋画",
+      "评弹"
+    ],
+    "notes": "自带 10 倍放大镜看货，熟悉铺镶、包镶、钉镶等术语，曾在拍卖行做过珠宝顾问。11 月 16 日看了穹顶满钻戒指。不喜欢被恭维。"
+  },
+  "conversation_history": [
+    {
+      "sender": "ca",
+      "time": "2026-11-16 18:10",
+      "text": "钱老师，今天您看的穹顶满钻戒指，工坊的镶嵌说明我明天整理一份给您。"
+    },
+    {
+      "sender": "client",
+      "time": "2026-11-17 08:30",
+      "text": "好。"
+    },
+    {
+      "sender": "client",
+      "time": "2026-11-19 10:05",
+      "text": "何蔚，这个满钻戒指的价格不太值，铺镶工艺也一般。"
+    }
+  ],
+  "product_skus": [
+    "COU-R02"
+  ],
+  "test_meta": {
+    "persona": "P1",
+    "type": "core",
+    "must": [
+      "以专业事实回应",
+      "不卑不亢"
+    ],
+    "must_not": [
+      "辩解式长篇",
+      "恭维",
+      "编造工艺参数"
+    ]
+  }
+}

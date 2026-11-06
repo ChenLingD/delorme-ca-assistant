@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 2,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "安全、克制，没有欢快语气，也没有产品和催问。但“愿您平静安康，事事顺遂”偏套话，“生辰”和“事事顺遂”略书面，也近乎手册禁止的空话祝福；换成更口语的“今天是您的生日，想跟您说一声：保重”会更像真人。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 3,
+    "naturalness": 2,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "提到“您和母亲”，把母亲健在、感情好这一真实细节用进去，关怀有落点，也不碰串线和产品。但“向您道一声问候”“愿您常有安宁相伴”文绉绉，像公文；“这段时间辛苦了”对一位刚丧父的客户略显居高；“生辰之际”也不够口语。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 4
+   },
+   "sendability": "小改可发",
+   "comment": "明确说“不用回复”，在回复习惯偏慢、丧亲期间最能减轻对方压力，也承认了近况。“悄悄送上”略显俏皮，在居丧期不太合适；“家人安心休养”有些泛，“家中劳顿”也偏书面，需润色，但这是三条里最像真人关怀的一条。"
+  }
+ ],
+ "set": {
+  "diversity": 2,
+  "risk_judgement": "正确",
+  "best_index": 3,
+  "must_coverage": "2/2",
+  "summary": "风险识别准确，三条都守住了红线：无欢快语气、无 emoji、无产品、不催串线，并以克制关怀为主，其中第 3 条的“不用回复”最贴合场景。主要问题是三条都偏书面套话（“生辰”“愿您……”），不像 Yvonne 与客户相识六年的微信口吻；三条都是同一种温和祝福的不同长短，切入角度差异小，且 CA 并未被明确告知可改为不发。"
+ },
+ "_judge": "anthropic:claude-sonnet-5-5"
+}

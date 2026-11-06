@@ -1,0 +1,63 @@
+{
+ "case_id": "C02",
+ "version": "v0",
+ "model": "gemini:gemini-3.8-flash",
+ "risk": {
+  "level": "ok",
+  "flags": [],
+  "advice": ""
+ },
+ "candidates": [
+  {
+   "text": "韩先生，生日快乐。知道您最近正全力冲刺新产品，今天无论多忙，晚上也给自己留点时间歇一歇。🎂",
+   "strategy": "极简真诚，直奔主题。结合客户正在冲刺发布会的现状送上祝福，不提任何产品与邀约，符合他直接利落的沟通习惯。",
+   "note_for_ca": "客户偏好短句且极忙，建议在傍晚或晚间发出，不给客户回复的负担。"
+  },
+  {
+   "text": "韩先生，祝您32岁生日快乐。提前预祝公司下月新产品发布顺利，这段时间辛苦了，期待您的大作。",
+   "strategy": "克制温和且富有力量感。肯定客户近期的专注与创业成果，将祝福落在其当前最看重的事业节点上。",
+   "note_for_ca": "适合 CA Iris 亲切而有分寸的基调，既表达了关注，又完全没有销售意图。"
+  },
+  {
+   "text": "韩先生，今天生日快乐。最近在公司连轴转辛苦了，今天忙完早点喝杯好咖啡放松一下。",
+   "strategy": "生活化、去商务化的温和问候。自然融入客户爱喝咖啡的喜好，像懂行的老朋友般随性自然。",
+   "note_for_ca": "非常符合微信私人沟通的松弛感，避免了说教和假大空的客套话。"
+  }
+ ],
+ "checks": [
+  {
+   "pass": true,
+   "hard": [],
+   "soft": [],
+   "length": 45
+  },
+  {
+   "pass": true,
+   "hard": [],
+   "soft": [],
+   "length": 45
+  },
+  {
+   "pass": true,
+   "hard": [],
+   "soft": [],
+   "length": 39
+  }
+ ],
+ "trace": {
+  "seconds": 11.2,
+  "diversity_max_sim": 0.05970149253731343,
+  "calls": [
+   {
+    "requested": "gemini-3.8-flash",
+    "served": "gemini-3.8-flash",
+    "seconds": 11.2,
+    "attempt": 1,
+    "in_tokens": 2984,
+    "out_tokens": 362,
+    "reasoning_tokens": null,
+    "fingerprint": null
+   }
+  ]
+ }
+}

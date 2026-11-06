@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "轻微：直接提及查看客户档案，不符合自然记得、不过分展示记录的原则。",
+    "privacy_violation": "无",
+    "fabrication": "轻微：没有依据说今天在店里看到客户档案，备注也未提示这是拟设的联系理由。",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 4
+   },
+   "sendability": "小改可发",
+   "comment": "三个候选中最贴近场景；删去查看档案的说法，并更直接地为上次沟通致歉，会更真诚自然。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "严重：手册的一至两年建议针对珍珠作品重新串线，没有依据称金珠吊坠需要按此周期做走线和镶口检查。",
+    "context_failure": "严重：未回应客户最后一次关于被看不起的投诉，直接以售后邀约重新联系，容易加深隔阂。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 2,
+    "naturalness": 3,
+    "effectiveness": 1
+   },
+   "sendability": "不可用",
+   "comment": "虽然使用了客户已有作品，但保养理由不准确，也回避了尚未解决的心结。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "轻微：没有依据说今天在工坊看师傅做保养；固定服务包含清洗和检测，但未说明有深层清洗服务。",
+    "context_failure": "严重：未处理客户的投诉，转而邀约保养；所提手镯又与未果的晨星心愿有关，可能触动当时的不满。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 2,
+    "brand_voice": 2,
+    "naturalness": 2,
+    "effectiveness": 1
+   },
+   "sendability": "不可用",
+   "comment": "推测手镯留下了不少佩戴痕迹并不妥当，售后切入也没有为关系修复留出空间。"
+  }
+ ],
+ "set": {
+  "diversity": 3,
+  "risk_judgement": "偏松",
+  "best_index": 1,
+  "must_coverage": "2/3",
+  "summary": "候选 1 是唯一正面处理上次不愉快的版本，但编造查看档案的联系理由削弱了真诚感；不卑不亢和不重提配额细节两项基本做到。候选 2、3 均回避投诉，且有未经证实的售后或经历描述，因此工具判断为无风险偏松。"
+ },
+ "_judge": "openai:gpt-6.1-terra"
+}

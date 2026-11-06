@@ -1,0 +1,92 @@
+{
+  "case_id": "C41",
+  "scenario": "event_invitation",
+  "today": "2026-12-28",
+  "occasion": "已邀请参加新春私宴（2027-01-23），客户问能否带闺蜜",
+  "ca": {
+    "name": "Amber",
+    "gender": "女",
+    "years_experience": 3,
+    "store": "深圳万象城精品店",
+    "known_client_since": "2025-08",
+    "style": "偏亲切"
+  },
+  "client": {
+    "surname": "温",
+    "given_name": "芷晴",
+    "gender": "女",
+    "age_range": "24-26",
+    "city": "深圳",
+    "occupation": "家族电子制造企业品牌部（刚从伦敦读完硕士回国）",
+    "client_since": "2025-08",
+    "spend_band": "5-30万",
+    "stage": "入门",
+    "last_visit": "2026-12-06",
+    "last_purchase": "2026-07",
+    "wealth_source": "家族传承",
+    "motivations": [
+      "犒赏自己",
+      "社交场合"
+    ],
+    "social_visibility": "适中",
+    "price_sensitivity": "低",
+    "style_preference": "轻盈、年轻、不想太老气",
+    "material_preference": "黄金、玫瑰金",
+    "owned_pieces": [
+      {
+        "date": "2025-08",
+        "item": "涟漪 18K 黄金耳钉",
+        "for_whom": "自戴",
+        "note": "毕业礼物，自己挑的"
+      },
+      {
+        "date": "2026-07",
+        "item": "穹顶 小号腕表款手镯",
+        "for_whom": "自戴",
+        "note": "说不爱戴表，这个刚好"
+      }
+    ],
+    "formality": "随意",
+    "reply_habit": "回复快，喜欢用表情包",
+    "recommendation_openness": "欢迎",
+    "birthday": "03-15",
+    "family_notes": "母亲在香港店买过珠宝；有一位从小一起长大的闺蜜常陪她逛街",
+    "interests": [
+      "网球",
+      "当代艺术",
+      "调香"
+    ],
+    "notes": "12 月 6 日和闺蜜一起来店，闺蜜不是本店客户。新春私宴资料未说明能否携伴，需向店经理确认。"
+  },
+  "conversation_history": [
+    {
+      "sender": "ca",
+      "time": "2026-12-26 15:30",
+      "text": "温小姐，明年 1 月 23 日春节前，店里会办一个小型的新春私宴，现场还可以预约刻字的新春礼物，想邀请您来。"
+    },
+    {
+      "sender": "client",
+      "time": "2026-12-26 16:02",
+      "text": "好呀好呀 那天应该在深圳"
+    },
+    {
+      "sender": "client",
+      "time": "2026-12-26 16:03",
+      "text": "我可以带闺蜜一起吗？就上次陪我来的那个"
+    }
+  ],
+  "event_id": "EVT-2701-ALL",
+  "ca_request": "能否带朋友我还没问店经理，想先回她",
+  "test_meta": {
+    "persona": "P7",
+    "type": "core",
+    "must": [
+      "回应能否带朋友（如资料未说明则说确认）",
+      "语气轻松，贴合年轻客户"
+    ],
+    "must_not": [
+      "编造规则",
+      "直接答应可以带"
+    ]
+  }
+}

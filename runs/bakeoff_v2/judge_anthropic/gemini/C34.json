@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 3,
+    "naturalness": 4,
+    "effectiveness": 2
+   },
+   "sendability": "小改可发",
+   "comment": "直接呼应她 9 月想看老图稿的心愿，短而自然。但没有日期，没有说明是私享预览，也没有问她是否有兴趣，只是一句通知，算不上邀请。「挂念」略重，她当时只说“若有机会请告诉我”，「很快」也偏虚。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "「泛黄的笔触」「第一个便想到了您」堆砌抒情，不像真人 CA，也偏离手册“克制、具体”的要求。",
+    "privacy_violation": "无",
+    "fabrication": "「手稿原件已运抵外滩源」是编造：活动资料没有说原件何时到店或到了没有。「泛黄」也是臆测。",
+    "context_failure": "没有提 11-20 至 22 的私享预览，也没有邀请，她读完不知道要做什么，也不知道何时、怎么看。",
+    "must_not_hit": "触犯“编造内容”：运抵状态、泛黄质感均不在活动资料中。"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 2,
+    "naturalness": 2,
+    "effectiveness": 2
+   },
+   "sendability": "不可用",
+   "comment": "情绪铺得很满，但「已运抵」是编造的事实，也没有日期和邀请。「深厚了解」带评价意味，Delorme 前少了空格，需要大改。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 4,
+    "naturalness": 4,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "信息准确：日期和私享预览都对，也兑现了 CA 想约安静时段的要求，还问了她哪天方便，是三条里唯一真正在邀请的。但完全没提老图稿和她的沧海收藏，错过了最能让她觉得“专为我留”的钩子。另外「协调人少些的时段」建议先和门店确认，别让她觉得时段已板上钉钉。"
+  }
+ ],
+ "set": {
+  "diversity": 3,
+  "risk_judgement": "偏松",
+  "best_index": 3,
+  "must_coverage": "2/3",
+  "summary": "三条分别走了极简、走心、推进，但 1 和 2 都只是“图稿要展出”的通知，没有日期和邀请，只有 3 给出了可执行的邀约。主要问题是没有一条同时做到“呼应老图稿心愿 + 准确的日期/私享预览 + 选时段”，珍珠收藏的关联也几乎没做；风险判断标 ok 也偏松，漏掉了候选 2 的「已运抵」编造，以及“协调人少时段”需要向门店确认。"
+ },
+ "_judge": "anthropic:claude-sonnet-5-5"
+}

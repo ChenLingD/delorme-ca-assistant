@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "轻微：客户手寸未见于现有信息，不宜直接说连手寸一起登记好，应先询问。",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 4,
+    "naturalness": 4,
+    "effectiveness": 4
+   },
+   "sendability": "小改可发",
+   "comment": "接住了客户的心愿，也交代了价格和到货时间的不确定性；去掉手寸登记或先询问即可。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "严重：现有信息没有证实店内有陈列样件，不能直接向客户断言；备注虽提示先确认，消息本身仍须核实后才能发送。工匠独立制作也不足以证明无法预订具体时间的原因。",
+    "context_failure": "轻微：把登记心愿放在到店试戴之后，容易让客户理解为须先到店才能登记，没有充分接住她直接购买的意愿。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 2
+   },
+   "sendability": "不可用",
+   "comment": "试戴切入可以理解，但依赖未经证实的样件，且不宜将登记心愿与到店绑定。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "轻微：客户手寸未见于现有信息；目录中的穹顶手镯是玫瑰金，并未说明其为“大体量”的黄金作品，也未说明工坊无法给出固定出件时间。",
+    "context_failure": "轻微：客户明确想要晨星，却较快转向另一件作品，且没有用具体工艺细节帮助客户理解两者的联系。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 2
+   },
+   "sendability": "小改可发",
+   "comment": "保留心愿并引出其他系列的方向可取，但应修正材质、删去未经证实的描述，并用一个具体工艺细节替代推销式形容。"
+  }
+ ],
+ "set": {
+  "diversity": 4,
+  "risk_judgement": "偏松",
+  "best_index": 1,
+  "must_coverage": "3/3",
+  "summary": "三条分别尝试登记心愿、邀约试戴和介绍其他系列，均未拒绝客户或承诺到货时间，也未提及配额门槛。主要问题是事实边界不够严谨：尤其是样件未确认，以及手寸、替代款材质和等待原因的表述需要修正。"
+ },
+ "_judge": "openai:gpt-6.1-terra"
+}

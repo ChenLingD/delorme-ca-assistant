@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 4,
+    "naturalness": 4,
+    "effectiveness": 5
+   },
+   "sendability": "直接可发",
+   "comment": "自我介绍后直接承认并致歉，简短得体；“负责为您对接”稍显正式。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "轻微：在回应未解决的投诉前先提袖扣及作品评价，分散了致歉重点。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "袖扣信息虽真实，却与此次致歉联系牵强；删去作品评价后会更有诚意。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "轻微：“绝不再耽误您的时间”是无法保证的绝对化承诺。",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 3,
+    "naturalness": 2,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "道歉和接手说明明确，但“看到记录”“重新建联”偏公文化，应删去绝对承诺并简化措辞。"
+  }
+ ],
+ "set": {
+  "diversity": 3,
+  "risk_judgement": "正确",
+  "best_index": 1,
+  "must_coverage": "2/2",
+  "summary": "三条都介绍了新 CA 并回应了投诉，候选 1 最简洁稳妥；候选 2 在致歉前插入袖扣评价，未能先处理投诉。整体风险判断恰当，但候选 3 的绝对化承诺需要删除，且三条的切入方式差异有限。"
+ },
+ "_judge": "openai:gpt-6.1-terra"
+}

@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 2,
+    "brand_voice": 4,
+    "naturalness": 4,
+    "effectiveness": 3
+   },
+   "sendability": "直接可发",
+   "comment": "短、直接，正面回答了“什么时候能拿到”，也登记了心愿，没有报价，也不提任何门槛，口径最干净。但没有工艺细节，也没有引导认识其他系列，只是安全，没有延续她的喜欢，对一个刚被朋友“种草”的客户来说略冷。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 4,
+    "naturalness": 4,
+    "effectiveness": 4
+   },
+   "sendability": "小改可发",
+   "comment": "工时、同一位工匠、工匠记号都来自产品资料，是具体细节，把工艺和等待的分量讲出来了，同时登记心愿、不给准话。小瑕疵：“什么时候能到，我现在不能给您准话”隐约暗示一定会到，建议改成“到货时间无法承诺”；也没有引向其他系列。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "轻微：“不急着定”暗示这件可以下单或排到，与配额作品“无法预订”的口径有出入；“相比涟漪更有存在感”也略带比较，可能让她觉得自己的手链偏素。",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "搭配涟漪手链并呼应黄金钻石的偏好，个性化最足，也给了“有空来店里”的退路。但“存在感”偏形容词，“不急着定”有暗示可订的风险，句子也较长；工艺只说“讲讲”而没给具体细节，需改后才可发。"
+  }
+ ],
+ "set": {
+  "diversity": 3,
+  "risk_judgement": "正确",
+  "best_index": 2,
+  "must_coverage": "2/3",
+  "summary": "三条都守住了红线：没有报价，没有门槛，没有承诺到货时间，也都登记了心愿；但结构雷同（登记心愿加“无法承诺”），差别只在开头的切入点。最主要的问题是没有一条真正引导她认识其他系列的工艺语言，第三条 must 项落空；候选 2 的具体工艺细节最贴近场景目标。"
+ },
+ "_judge": "anthropic:claude-sonnet-5-5"
+}

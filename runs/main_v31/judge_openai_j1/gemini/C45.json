@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "“没有合作赠送的机制”超出已知信息；只能确认合作由公关部对接、门店不能承诺合作或赠送。",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "简洁礼貌，但对合作机制的否定过于绝对，应改为说明公关对接及门店权限。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 4,
+    "naturalness": 4,
+    "effectiveness": 4
+   },
+   "sendability": "直接可发",
+   "comment": "说明统一定价和门店不能置换，也接住了客户的喜好；“想好了再带走”略显预设购买，可再放松些。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "“精品店没有达人价的权限”可能暗示其他部门有权给达人价，与品牌不打折政策不符。",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "未明确说明全球统一定价、不设达人价，容易让客户误以为可以通过其他渠道争取。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 3,
+    "naturalness": 4,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "公关对接和自然光试戴的衔接较自然，但需把达人价改为明确的品牌定价政策。"
+  }
+ ],
+ "set": {
+  "diversity": 4,
+  "risk_judgement": "正确",
+  "best_index": 2,
+  "must_coverage": "2/2",
+  "summary": "三条分别侧重简洁回应、作品细节和再次试戴，候选 2 对政策与关系的平衡最好。主要问题是候选 1 把合作政策说得过于绝对，候选 3 则可能暗示其他渠道能给达人价。"
+ },
+ "_judge": "openai:gpt-6.1-terra"
+}

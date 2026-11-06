@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 2,
+    "brand_voice": 4,
+    "naturalness": 4,
+    "effectiveness": 2
+   },
+   "sendability": "小改可发",
+   "comment": "短而克制，符合轻量邀请的角度，但没有提她想看老图稿，也没有日期和地点，对她来说只是一条泛泛的通知，打动不了这位字斟句酌的客户。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 4,
+    "naturalness": 4,
+    "effectiveness": 4
+   },
+   "sendability": "小改可发",
+   "comment": "呼应了 9 月她想亲眼看老图稿的心愿，兑现了 Grace“有消息第一时间告诉您”的承诺，图稿描述与活动资料一致，“人相对少”的措辞也留有余地，是最像“为她挑选”的一条。不足是没有日期，也没提她的沧海藏品；“我记着呢”对偏正式的 Grace 略口语。建议补上 11-20 至 22 的日期。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 2,
+    "brand_voice": 4,
+    "naturalness": 4,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "地点、日期准确，也给了选择，还能顺势确认清静时段，方便她回复。但全条没有一句说明为什么想到她，没有图稿，没有藏品，读起来像一条合格的通知，不像私人邀请。"
+  }
+ ],
+ "set": {
+  "diversity": 3,
+  "risk_judgement": "正确",
+  "best_index": 2,
+  "must_coverage": "2/3",
+  "summary": "三条都没有红线问题，也没有编造活动内容，风险提示“各时段实际人数尚未提供”也恰当。主要问题是个性化只集中在候选 2：其余两条没有呼应老图稿，三条都没有把活动与她的沧海珍珠收藏联系起来，也没有提“每场 8 位”这个能让她安心的小规模事实；三条结尾又都是“确认人少时段”，差异主要在篇幅上。"
+ },
+ "_judge": "anthropic:claude-sonnet-5-5"
+}

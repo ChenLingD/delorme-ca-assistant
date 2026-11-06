@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 2,
+    "brand_voice": 4,
+    "naturalness": 4,
+    "effectiveness": 2
+   },
+   "sendability": "小改可发",
+   "comment": "诚实、简短，守住了不承诺升值，也给了空间；但没有回到作品，没接住“太贵”的感受，“您先观望也好”略显放手，像在结束对话，没有守住关系。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "能呼应客户说过的“做工没话说”，并用“同一位工匠完成”回到作品本身，符合 must。但“无法承诺价值”后紧接工艺，容易被读成用工艺暗示价值；而且话到一半就停了，没有留退路，也没有收尾。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "轻微：“之前我们也聊过”不准确，聊天记录里是 CA 单方面提到叠戴，客户没有回应过；“让太太把……叠着戴”也不通顺。",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 4,
+    "naturalness": 3,
+    "effectiveness": 4
+   },
+   "sendability": "小改可发",
+   "comment": "把话题从投资拉回送太太、与穹顶叠戴的初衷，并给出“慢慢考虑、不买也没关系”的空间，三条里最贴合关系目标；需要改掉“我们聊过”的说法并理顺语句。"
+  }
+ ],
+ "set": {
+  "diversity": 3,
+  "risk_judgement": "正确",
+  "best_index": 3,
+  "must_coverage": "2/2",
+  "summary": "三条都守住了不承诺升值，也没有触碰到货、排期或配额；风险等级 caution 判断恰当。主要问题是三条开头都是同一句“无法承诺”，篇幅都很短，没有一条先接住“太贵了”的感受，也没有把工艺细节（如约 120 工时、同一位工匠、工匠记号）用得既具体又不带价值暗示，只有候选 3 比较完整地回到了作品和佩戴心意。"
+ },
+ "_judge": "anthropic:claude-sonnet-5-5"
+}

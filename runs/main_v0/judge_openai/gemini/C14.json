@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "轻微：声称“我拍了张上手细节”，但没有依据表明 Leo 已拍摄；备注只建议配图，未说明这句需核实。",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 5,
+    "brand_voice": 4,
+    "naturalness": 4,
+    "effectiveness": 4
+   },
+   "sendability": "小改可发",
+   "comment": "切中了客户嫌黄金戒指“有点乖”的反馈，细节也具体；确认实拍后再说“我拍了”，或改成询问是否想看图。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 4,
+    "naturalness": 3,
+    "effectiveness": 4
+   },
+   "sendability": "小改可发",
+   "comment": "手镯与腕表叠戴贴合客户偏好，但“很有分量”容易让人理解为实际重量，建议改写为视觉感受，结尾也可更口语化。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "两件都与客户诉求有关，但并列介绍略显罗列，“质感很克制”也未突出他想要的酷感，建议主推一件并讲具体细节。"
+  }
+ ],
+ "set": {
+  "diversity": 3,
+  "risk_judgement": "偏松",
+  "best_index": 1,
+  "must_coverage": "1/1",
+  "summary": "三条均未吹捧客户身份或财富，也基本照顾了年轻客户的简短沟通习惯；候选 1 最贴近他对戒指的反馈。主要问题是候选 1 无依据地声称已拍图，工具未提示核实；其余话术也可更简洁自然。"
+ },
+ "_judge": "openai:gpt-6.1-terra"
+}

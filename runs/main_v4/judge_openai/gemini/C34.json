@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "轻微：“图稿到了外滩源”暗示原件已到店，活动资料未确认。",
+    "context_failure": "无",
+    "must_not_hit": "轻微：未经确认就称图稿已到店，属于编造内容。"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 4,
+    "naturalness": 4,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "自然呼应了此前聊过的老图稿，也照顾到安静时段；需改掉已到店的说法，并补上与她珍珠收藏的联系。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "轻微：目录只说明海浪纹取自1926年手绘图稿，未说明底稿是在上海画下的。",
+    "context_failure": "无",
+    "must_not_hit": "轻微：编造了海浪纹底稿的绘制地点。"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 4,
+    "naturalness": 3,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "金珠吊坠的切入最贴近她的收藏，但纹样出处说得过满，也可更明确呼应她想看老图稿的心愿。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "轻微：“图稿原件到了外滩源沙龙”暗示原件已到店，活动资料未确认。",
+    "context_failure": "无",
+    "must_not_hit": "轻微：未经确认就称图稿已到店，属于编造内容。"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 4,
+    "naturalness": 4,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "简短克制，但未明确联系她的珍珠收藏或此前想看图稿的心愿，日期和地点也不够完整。"
+  }
+ ],
+ "set": {
+  "diversity": 3,
+  "risk_judgement": "偏松",
+  "best_index": 1,
+  "must_coverage": "2/3",
+  "summary": "三条分别尝试了履约、纹样和轻量邀约，但角度仍有重叠；合看已覆盖收藏关联和老图稿心愿。最主要的问题是均有未经确认的事实表述，因此不能视为准确，工具标注“无风险”偏松。"
+ },
+ "_judge": "openai:gpt-6.1-terra"
+}

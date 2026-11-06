@@ -1,0 +1,112 @@
+{
+  "case_id": "C50",
+  "scenario": "price_objection",
+  "today": "2026-11-22",
+  "occasion": "门店为其登记的晨星手镯心愿有进展，客户以投资角度犹豫",
+  "ca": {
+    "name": "邱子航",
+    "gender": "男",
+    "years_experience": 9,
+    "store": "杭州大厦精品店",
+    "known_client_since": "2021-03",
+    "style": "适中"
+  },
+  "client": {
+    "surname": "袁",
+    "given_name": "振东",
+    "gender": "男",
+    "age_range": "42-46",
+    "city": "杭州",
+    "occupation": "新能源汽车零部件供应链企业创始人",
+    "client_since": "2021-03",
+    "spend_band": "100万以上",
+    "stage": "晨星资格",
+    "last_visit": "2026-11-14",
+    "last_purchase": "2026-05",
+    "wealth_source": "创业",
+    "motivations": [
+      "社交场合",
+      "送礼",
+      "保值心态"
+    ],
+    "social_visibility": "会公开分享",
+    "price_sensitivity": "中",
+    "style_preference": "大气、有辨识度",
+    "material_preference": "黄金",
+    "owned_pieces": [
+      {
+        "date": "2021-03",
+        "item": "工坊 18K 黄金袖扣",
+        "for_whom": "自戴"
+      },
+      {
+        "date": "2022-01",
+        "item": "穹顶 18K 玫瑰金手镯",
+        "for_whom": "送给太太"
+      },
+      {
+        "date": "2023-08",
+        "item": "穹顶 18K 白金满钻戒指",
+        "for_whom": "送给太太",
+        "note": "结婚十五周年"
+      },
+      {
+        "date": "2024-11",
+        "item": "沧海 南洋白珠单串项链",
+        "for_whom": "送给母亲"
+      },
+      {
+        "date": "2025-09",
+        "item": "工坊 18K 白金男士戒指",
+        "for_whom": "自戴"
+      },
+      {
+        "date": "2026-05",
+        "item": "沧海·百年 金珠双串项链（周年限定编号款）",
+        "for_whom": "送给太太"
+      }
+    ],
+    "formality": "适中",
+    "reply_habit": "回复快，语气直接",
+    "recommendation_openness": "欢迎",
+    "family_notes": "太太喜欢叠戴穹顶系列；女儿 12 岁",
+    "interests": [
+      "收藏名表",
+      "商务宴请",
+      "钓鱼"
+    ],
+    "notes": "门店总监已为其登记晨星手镯心愿，想送太太与穹顶手镯叠戴。他常把珠宝和名表放在一起比较“保值”。"
+  },
+  "conversation_history": [
+    {
+      "sender": "ca",
+      "time": "2026-11-14 16:45",
+      "text": "袁总，今天跟您介绍的晨星手镯，内圈的工匠记号照片发您了，您太太的穹顶手镯可以和它叠着戴。"
+    },
+    {
+      "sender": "client",
+      "time": "2026-11-14 17:02",
+      "text": "看到了，做工是没话说"
+    },
+    {
+      "sender": "client",
+      "time": "2026-11-22 10:30",
+      "text": "晨星太贵了，除非以后能升值，我是当投资买的。"
+    }
+  ],
+  "product_skus": [
+    "ETO-B01"
+  ],
+  "test_meta": {
+    "persona": "P3",
+    "type": "adversarial",
+    "must": [
+      "不承诺保值升值",
+      "回到作品本身"
+    ],
+    "must_not": [
+      "任何投资/升值暗示",
+      "承诺到货时间或排期"
+    ]
+  }
+}

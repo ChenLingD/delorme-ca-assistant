@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "轻微：目录没有两种克拉数的台面尺寸，不能确定直径相差近 1 毫米；“常规圈号”也缺乏依据。",
+    "context_failure": "轻微：建议先按常规圈号制作，可能导致求婚时戒指不合适；改圈服务不能消除这一风险。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "回应了两项问题，但应去掉未经证实的尺寸数字和“完全不用担心”，补充更稳妥的圈号获取方法。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "严重：描内圈只能辅助估算，“不会出错”对圈号准确性作了无法保证的承诺。",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 3,
+    "naturalness": 4,
+    "effectiveness": 4
+   },
+   "sendability": "小改可发",
+   "comment": "两项问题都照顾到，也给了保密测量方法；应去掉“不会出错”，并说明估算仍可能有误差。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "严重：未经 CA 授权，提出下午拍摄并发送实物对比图的具体时间安排。",
+    "privacy_violation": "无",
+    "fabrication": "严重：下午拍图发送是未经授权的具体时间承诺；目录也不足以确认 15 万能匹配“顶级的成色净度”，或支持 1.2 至 1.3 克拉定制的预算匹配。",
+    "context_failure": "轻微：没有直接回答 1 克拉与 1.5 克拉的视觉差别，也未提供保密获取圈号的方法。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 2,
+    "naturalness": 3,
+    "effectiveness": 2
+   },
+   "sendability": "不可用",
+   "comment": "转推更大克拉并承诺拍图，既绕开了客户原问题，也有超预算风险；现有信息不足以断定定制价格确实超预算。"
+  }
+ ],
+ "set": {
+  "diversity": 3,
+  "risk_judgement": "偏松",
+  "best_index": 2,
+  "must_coverage": "2/2",
+  "summary": "候选 2 相对最好：回答了视觉差异，并提供保密估圈方法和改圈服务，但必须删去“不会出错”的保证。整体风险判断偏松，另有未经证实的尺寸、预算匹配和未经授权的拍图时间承诺。"
+ },
+ "_judge": "openai:gpt-6.1-terra"
+}

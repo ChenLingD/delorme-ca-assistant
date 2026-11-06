@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "严重：目录未说明这款手镯可在内侧刻字，不能直接承诺刻年份或记号；应先确认。",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 2
+   },
+   "sendability": "不可用",
+   "comment": "毕业礼物的切入贴合客户，但刻字位置未经确认，且政策表述偏生硬。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 4
+   },
+   "sendability": "直接可发",
+   "comment": "统一价格和终身服务都有依据，也避开了母亲的账户信息，但“契合您的气质”略显套话。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "轻微：“您和家人的眼光很一致”揣测家人审美，容易让客户误以为顾问了解其家人，但没有实际披露账户信息。",
+    "fabrication": "严重：目录只说明侧面柱式纹理为手工錾刻，不能据此称手镯“完全由手工打磨”；家人眼光与客户一致也没有依据。",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 2,
+    "brand_voice": 2,
+    "naturalness": 2,
+    "effectiveness": 2
+   },
+   "sendability": "不可用",
+   "comment": "留有考虑空间是优点，但不应揣测家人审美或扩大工艺表述。"
+  }
+ ],
+ "set": {
+  "diversity": 3,
+  "risk_judgement": "偏松",
+  "best_index": 2,
+  "must_coverage": "2/2",
+  "summary": "三条均未提出让价或讨论母亲账户，也未确认或否认母亲是否为客户；候选 2 相对稳妥。主要问题是候选 1 擅自承诺手镯内侧刻字，候选 3 则揣测家人审美并扩大工艺表述，工具将整体风险判为“无”偏松。"
+ },
+ "_judge": "openai:gpt-6.1-terra"
+}

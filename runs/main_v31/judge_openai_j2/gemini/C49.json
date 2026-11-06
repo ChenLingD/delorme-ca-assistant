@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "轻微：只说全球统一价格，没有明确说明不打折，客户的疑问仍可能未消除。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 1,
+    "brand_voice": 2,
+    "naturalness": 2,
+    "effectiveness": 2
+   },
+   "sendability": "小改可发",
+   "comment": "后半句抽象且略显说教，未用到客户喜欢的手镯或毕业礼物这一具体情境。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "轻微：只说统一定价，没有明确说明不打折。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 5,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "试戴经历和柱式纹理用得贴切，但结尾对毕业礼物心意的阐述稍显堆砌。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "轻微：目录未确认该手镯可免费内圈刻字；“终身保养”也比手册列明的免费清洗、抛光和检测范围更宽。",
+    "context_failure": "轻微：只说统一价格，没有明确说明不打折。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "给了客户考虑空间，但服务表述需核实并收窄，邀约也可更简短。"
+  }
+ ],
+ "set": {
+  "diversity": 3,
+  "risk_judgement": "正确",
+  "best_index": 2,
+  "must_coverage": "2/2",
+  "summary": "三条均未提出让价，也未讨论或确认母亲的客户信息；候选 2 对客户和作品的结合最具体。主要问题是三条都只提统一定价，没有明确说不打折，候选 3 还需修正未经确认的刻字及保养表述。"
+ },
+ "_judge": "openai:gpt-6.1-terra"
+}

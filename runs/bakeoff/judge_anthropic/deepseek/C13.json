@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "有轻微问题：“悬浮镶看着比同克拉的常规镶法饱满一些”“更多是整枚戒指的比例变化”都是输入里没有的产品效果说法。“把两种样石摆一起”也默认门店备有 1 克拉和 1.5 克拉样石，输入里没有这一信息。",
+    "context_failure": "无（回应了客户的问题，但回答偏虚）",
+    "must_not_hit": "无（没报价，但邀请并排看 1.5 克拉，仍轻微把话题往超预算方向带）"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "方向对，用悬浮镶的工艺角度回答了问题。但“差别大吗”没有给出清楚的感受，“一眼看出等级”这句措辞别扭，还带出未经证实的效果说法，并排看样石也会把对话引向超预算的规格。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无（一年内免费改圈一次符合手册；描内圈是通用的生活办法，不是品牌承诺）",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 4,
+    "naturalness": 4,
+    "effectiveness": 4
+   },
+   "sendability": "直接可发",
+   "comment": "直接解决客户“想保密又不知道戒圈”的难题：一个不用问女友的办法，加上一年内免费改圈，语气简短自然，没有焦虑感。可以再补一句提示戴在哪根手指，但不补也能发。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无（“上手图”是否存在输入里没有，但风险很低）",
+    "context_failure": "有轻微问题：客户昨晚提了两个具体问题，这条一个也没有回答，只发图并让客户“看完再说”，显得回避。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 4,
+    "naturalness": 4,
+    "effectiveness": 2
+   },
+   "sendability": "小改可发",
+   "comment": "短、克制、留白，守住了预算，也没有焦虑感。但单独发出去没有回答问题，也没有触及改圈服务，需要和前两条的内容合并或补一句回答。"
+  }
+ ],
+ "set": {
+  "diversity": 4,
+  "risk_judgement": "正确",
+  "best_index": 2,
+  "must_coverage": "2/2（改圈服务和戒圈获取方法在候选 2 中清楚做到；“回答问题”只在候选 2 里扎实完成，候选 1 的回答偏模糊，候选 3 没回答）",
+  "summary": "三条的角度明显不同（工艺答疑、戒圈解法、发图留白），也都守住预算红线，没有制造焦虑或暗示配额，风险判断恰当。主要问题是候选 1 的回答不够清晰，还夹带了输入里没有的效果说法和样石的默认设定；只有候选 2 可以直接发。"
+ },
+ "_judge": "anthropic:claude-sonnet-5-5"
+}

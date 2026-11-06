@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 4,
+    "naturalness": 3,
+    "effectiveness": 5
+   },
+   "sendability": "直接可发",
+   "comment": "简短得体，没有销售或回复压力；但“生辰吉乐”略显书面。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "杭州初冬的切入尚自然，但祝愿重复，未达到本场景要求的极简，建议删减。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "声称工坊已为客户备好生日月礼物，输入中没有这一事实。",
+    "context_failure": "客户不喜欢频繁联系、很少回复，此处借生日提取礼物，增加了不必要的到店压力。",
+    "must_not_hit": "提及生日月到店礼物，并建议客户路过门店时领取，构成到店邀约。"
+   },
+   "scores": {
+    "personalization": 2,
+    "brand_voice": 1,
+    "naturalness": 2,
+    "effectiveness": 1
+   },
+   "sendability": "不可用",
+   "comment": "未经证实便提生日礼物，还借机引导到店，偏离了单纯祝福的目的。"
+  }
+ ],
+ "set": {
+  "diversity": 4,
+  "risk_judgement": "偏松",
+  "best_index": 1,
+  "must_coverage": "1/3",
+  "summary": "按三条候选均满足来统计“极简、克制、不带产品”三项要求，仅“不带产品”全部做到；候选1最适合直接发送。候选3编造礼物并引导到店，工具将整体风险判断为“无”过于宽松。"
+ },
+ "_judge": "openai:gpt-6.1-terra"
+}

@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "轻微：目录中的单钻吊坠是玫瑰金，称作“黄金单钻吊坠”容易误导材质。",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 5,
+    "brand_voice": 4,
+    "naturalness": 4,
+    "effectiveness": 4
+   },
+   "sendability": "小改可发",
+   "comment": "预算和领奖场合都照顾到了，搭配理由自然；改准材质并稍作精简会更好。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "轻微：未确认领奖台有聚光灯；目录只说明金珠在自然光下偏香槟色。",
+    "context_failure": "严重：客户预算约三万，却首推售价五万八的吊坠，且未提示超预算。",
+    "must_not_hit": "严重：推荐明显超预算的作品。"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 2,
+    "naturalness": 2,
+    "effectiveness": 1
+   },
+   "sendability": "不可用",
+   "comment": "虽然结合了礼服和领奖场合，但近两倍于预算的推荐与客户需求冲突，“沉得住又显气场”也偏广告腔。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "严重：将售价五万八的金珠吊坠作为对比选择，忽视客户约三万的预算。",
+    "must_not_hit": "严重：推荐明显超预算的作品。"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 1
+   },
+   "sendability": "不可用",
+   "comment": "两种搭配思路与试戴退路较自然，但超预算备选不适合提出，细链也缺少具体作品细节。"
+  }
+ ],
+ "set": {
+  "diversity": 3,
+  "risk_judgement": "偏松",
+  "best_index": 1,
+  "must_coverage": "2/2",
+  "summary": "候选1对应了预算和上台场合，是最合适的选择，但需把吊坠材质改为玫瑰金。整体最主要的问题是候选2、3均推荐明显超预算的金珠吊坠，风险判断却将其作为首选并淡化了预算冲突。"
+ },
+ "_judge": "openai:gpt-6.1-terra"
+}

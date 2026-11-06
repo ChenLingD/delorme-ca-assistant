@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "轻微：目录只说明包边镶边缘圆润、适合日常佩戴，不能据此断言桌前工作或敲键盘时“不容易磕碰到”。",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 2
+   },
+   "sendability": "小改可发",
+   "comment": "切中了伏案和磨损顾虑，但对防磕碰的表述过于笃定，“踏实戴就好”也略显劝说。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "自我犒赏和免费服务都贴合情境，但“原本就是为了每天陪伴”“尽管常常戴”略像劝戴，可更自然地肯定她的选择。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 2,
+    "brand_voice": 3,
+    "naturalness": 4,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "简短自然，也给出了免费保养信息，但缺少对这次自我奖励的肯定，对怕磨损的回应较笼统。"
+  }
+ ],
+ "set": {
+  "diversity": 3,
+  "risk_judgement": "偏松",
+  "best_index": 2,
+  "must_coverage": "2/3",
+  "summary": "三条都回应了日常佩戴的顾虑，也提供了清洗或抛光服务，但都没有明确肯定客户的选择，且缺少针对磨损的具体佩戴提示。候选 1 将圆润包边推断为桌前佩戴不易磕碰，工具判定“无风险”偏松。"
+ },
+ "_judge": "openai:gpt-6.1-terra"
+}

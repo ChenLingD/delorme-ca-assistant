@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "只笼统回应顾虑，没有回应客户的投资前提，也没有回到作品本身。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 1,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 2
+   },
+   "sendability": "小改可发",
+   "comment": "简短且留有空间，但过于通用，需要回应投资顾虑并补充作品细节。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "将工匠记号称为“署名”，资料未说明记号是签名或名字。",
+    "context_failure": "接续了客户对做工的认可，但没有回应其以升值为购买前提的顾虑。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 4,
+    "naturalness": 3,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "工艺细节具体，也接住了上次对话；改回“工匠记号”并简短回应投资顾虑会更稳妥。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "编造了穹顶“小号腕表款手镯”及其没有表盘、形似手表的产品细节。",
+    "context_failure": "未回应客户的投资前提，转而推荐未经证实的另一件作品。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 2,
+    "naturalness": 2,
+    "effectiveness": 1
+   },
+   "sendability": "不可用",
+   "comment": "虽然利用了太太叠戴穹顶的偏好，但虚构产品且转移了客户的核心顾虑。"
+  }
+ ],
+ "set": {
+  "diversity": 4,
+  "risk_judgement": "正确",
+  "best_index": 2,
+  "must_coverage": "2/2",
+  "summary": "整体未暗示投资回报或承诺排期，候选 2 也回到了晨星的工艺，但需修正“署名”并回应客户的投资顾虑。候选 3 虚构产品，不可发送；风险提示总体恰当，不过不必回避“升值”一词，可以直接说明无法承诺升值。"
+ },
+ "_judge": "openai:gpt-6.1-terra"
+}

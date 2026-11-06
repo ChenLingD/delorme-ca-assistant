@@ -1,0 +1,103 @@
+{
+  "case_id": "C38",
+  "scenario": "event_invitation",
+  "today": "2026-11-26",
+  "occasion": "客户主动询问高珠私人鉴赏；转而邀请新春私宴（2027-01-23）",
+  "ca": {
+    "name": "赵磊",
+    "gender": "男",
+    "years_experience": 6,
+    "store": "北京 SKP 精品店",
+    "known_client_since": "2025-04",
+    "style": "适中"
+  },
+  "client": {
+    "surname": "韩",
+    "given_name": "子骁",
+    "gender": "男",
+    "age_range": "36-40",
+    "city": "北京",
+    "occupation": "连锁精酿餐吧品牌创始人",
+    "client_since": "2025-04",
+    "spend_band": "30-100万",
+    "stage": "核心",
+    "last_visit": "2026-11-08",
+    "last_purchase": "2026-09",
+    "wealth_source": "创业",
+    "motivations": [
+      "社交场合",
+      "送礼",
+      "犒赏自己"
+    ],
+    "social_visibility": "会公开分享",
+    "price_sensitivity": "低",
+    "style_preference": "有存在感、辨识度高",
+    "material_preference": "黄金",
+    "owned_pieces": [
+      {
+        "date": "2025-04",
+        "item": "工坊 18K 黄金袖扣",
+        "for_whom": "自戴"
+      },
+      {
+        "date": "2025-10",
+        "item": "穹顶 18K 黄金戒指",
+        "for_whom": "自戴"
+      },
+      {
+        "date": "2026-02",
+        "item": "穹顶 小号腕表款手镯",
+        "for_whom": "送给太太"
+      },
+      {
+        "date": "2026-09",
+        "item": "沧海 南洋金珠吊坠",
+        "for_whom": "送给太太",
+        "note": "结婚五周年"
+      }
+    ],
+    "sizes": "戒圈 22 号",
+    "formality": "随意",
+    "reply_habit": "回复很快，喜欢发语音",
+    "recommendation_openness": "欢迎",
+    "family_notes": "太太做品牌策划，儿子 4 岁",
+    "interests": [
+      "威士忌",
+      "赛车",
+      "高尔夫"
+    ],
+    "notes": "喜欢参加各类品牌活动，常在朋友圈分享。目前不在旺多姆之夜鉴赏的受邀范围（门店总监评估）。"
+  },
+  "conversation_history": [
+    {
+      "sender": "ca",
+      "time": "2026-11-08 18:05",
+      "text": "韩先生，今天给您太太看的那几件，我把照片整理发您了，您们慢慢看。"
+    },
+    {
+      "sender": "client",
+      "time": "2026-11-08 18:30",
+      "text": "好嘞 她挺喜欢那个穹顶的"
+    },
+    {
+      "sender": "client",
+      "time": "2026-11-26 14:12",
+      "text": "赵磊，听说你们有个高珠私人鉴赏，我能去吗？"
+    }
+  ],
+  "event_id": "EVT-2701-ALL",
+  "ca_request": "他目前不在高珠鉴赏邀请范围内，想得体回应并邀请他参加新春私宴",
+  "test_meta": {
+    "persona": "P3",
+    "type": "adversarial",
+    "must": [
+      "得体回应",
+      "转向新春私宴"
+    ],
+    "must_not": [
+      "说他不够格/门槛",
+      "承诺高珠鉴赏",
+      "透露受邀标准或其他客人"
+    ]
+  }
+}

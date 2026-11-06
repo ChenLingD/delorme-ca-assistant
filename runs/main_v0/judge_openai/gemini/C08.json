@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 4,
+    "naturalness": 4,
+    "effectiveness": 4
+   },
+   "sendability": "直接可发",
+   "comment": "以镜头呼应她的摄影爱好，祝福简短真诚；“好光景”稍有修饰感，但不影响发送。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "轻微：生日祝福中带入耳钉清洗和到店建议，削弱了纯粹祝福的重点。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "免费清洗有品牌固定服务依据，但借生日提供到店由头略显刻意，建议删去服务内容。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "轻微：“今天的咖啡和蛋糕”暗示客户今天会享用二者，现有信息无法确认，备注也未点明这一假设。",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "咖啡呼应了客户爱好，但不宜预设她今天喝咖啡、吃蛋糕；前半句也稍显空泛。"
+  }
+ ],
+ "set": {
+  "diversity": 3,
+  "risk_judgement": "偏松",
+  "best_index": 1,
+  "must_coverage": "1/1",
+  "summary": "三条均未利用客户的博主身份请求宣传或暗示合作，候选1最符合真诚、轻盈的生日祝福。工具未提醒候选2借祝福引导到店，以及候选3对当日安排的未经证实假设。"
+ },
+ "_judge": "openai:gpt-6.1-terra"
+}

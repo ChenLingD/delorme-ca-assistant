@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 4,
+    "naturalness": 3,
+    "effectiveness": 4
+   },
+   "sendability": "小改可发",
+   "comment": "分寸较好，但“一声安静的祝福”略显刻意，去掉会更自然。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 3,
+    "naturalness": 2,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "语气克制，但“生日安好”“温润顺遂”和“保重安康”堆在一起不够自然，提及母亲也略显生硬。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "轻微：描述天气，违反手册关于外部事实的限制。",
+    "privacy_violation": "无",
+    "fabrication": "轻微：“天气转凉”没有系统日历或其他输入依据。",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "祝福语气较平静，但须删除天气和添衣一句，“平静舒畅”也略显空泛。"
+  }
+ ],
+ "set": {
+  "diversity": 2,
+  "risk_judgement": "偏松",
+  "best_index": 1,
+  "must_coverage": "1/2",
+  "summary": "三条都保持克制，没有欢庆语气、产品推介或催问送修，但切入角度较相近，措辞也有些刻意。工具将风险判断为“无”，未识别近期丧亲情境，候选 3 还加入了无依据的天气描述。"
+ },
+ "_judge": "openai:gpt-6.1-terra"
+}

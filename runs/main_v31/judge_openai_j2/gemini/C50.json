@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "轻微：“长久留存”指向不够清楚，在客户谈投资的语境下容易被联想到价值留存。",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 4
+   },
+   "sendability": "小改可发",
+   "comment": "接住了慎重，也回到了客户认可的做工；删去“能长久留存”，直接说工匠记号会更稳妥。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "轻微：拿送礼心意与“行情走势”作比较，有纠正客户投资想法的意味。",
+    "privacy_violation": "无",
+    "fabrication": "轻微：“天天在腕上”预设了太太未来的佩戴频率，输入没有依据。",
+    "context_failure": "轻微：将客户的投资顾虑与送礼心意作高下比较，可能让客户觉得自己的顾虑未被尊重。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 2,
+    "naturalness": 2,
+    "effectiveness": 2
+   },
+   "sendability": "小改可发",
+   "comment": "穹顶叠戴是贴合客户的切入点，但不宜替客户判断什么“最实在”，也不必提行情走势。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "严重：输入没有说明已有工坊传来的工艺细节图，却表示要发给客户；此前发送过工匠记号照片，不足以证明这些图片存在或来自工坊。",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 4,
+    "naturalness": 4,
+    "effectiveness": 3
+   },
+   "sendability": "不可用",
+   "comment": "语气自然，也未承诺配额或到货，但不能自行编造工坊图片并答应发送；心愿有进展则有场景依据。"
+  }
+ ],
+ "set": {
+  "diversity": 4,
+  "risk_judgement": "正确",
+  "best_index": 1,
+  "must_coverage": "2/2",
+  "summary": "三条均未承诺升值或排期，也都回到了作品、工艺或佩戴上，风险判断方向恰当。主要问题是候选 1 的“长久留存”有歧义，候选 2 容易让客户觉得被纠正，候选 3 则编造了可发送的工坊图片。"
+ },
+ "_judge": "openai:gpt-6.1-terra"
+}

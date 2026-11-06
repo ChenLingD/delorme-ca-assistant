@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 5,
+    "naturalness": 4,
+    "effectiveness": 5
+   },
+   "sendability": "直接可发",
+   "comment": "回应了客户要给粉丝整理保养要点的需求，内容简洁、实用。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "严重：目录没有说明这条南洋白珠项链的珠层很厚；人体温度和油脂会使珍珠光泽变润的说法也缺乏依据，可能误导保养。",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 2,
+    "naturalness": 3,
+    "effectiveness": 1
+   },
+   "sendability": "不可用",
+   "comment": "虽然回应了保养问题，但核心解释未经证实，不适合供客户转述给粉丝。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无",
+    "must_not_hit": "轻微：建议向粉丝提及德洛姆的免费服务，有引导客户传播品牌服务之嫌；可改为单独告知客户本人。"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 4,
+    "naturalness": 4,
+    "effectiveness": 4
+   },
+   "sendability": "小改可发",
+   "comment": "串线建议和免费服务均有依据，但应把通用保养建议与对客户本人的服务提醒分开。"
+  }
+ ],
+ "set": {
+  "diversity": 4,
+  "risk_judgement": "偏松",
+  "best_index": 1,
+  "must_coverage": "2/2",
+  "summary": "候选 1 简洁且提供了实用保养要点，是最适合直接发送的一条。整体风险判断偏松：候选 2 有无依据且可能误导的说法，候选 3 则不宜引导客户向粉丝传播品牌服务。"
+ },
+ "_judge": "openai:gpt-6.1-terra"
+}

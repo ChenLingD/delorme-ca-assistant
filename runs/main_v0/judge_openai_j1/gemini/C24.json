@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "“随盒配的细绒布”未在资料中确认，不能假定随盒附有擦拭布。",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 4
+   },
+   "sendability": "小改可发",
+   "comment": "保养要点和终身串线服务基本实用，但应删去未经确认的随盒布，并精简措辞。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "“好品质的珍珠项链都是单颗手工打结的”是未经证实的概括；资料只确认本次作品手工打结串制。",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "日常保养建议较实用，但工艺表述以偏概全，串线服务也宜明确为德洛姆珍珠作品的终身免费服务。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "“天然珍珠有生命力”“体温润养”偏空泛的生活美学话术，不符合品牌具体、准确的沟通方式。",
+    "privacy_violation": "无",
+    "fabrication": "“天然珍珠有生命力”及“体温润养是最好的保养”缺乏依据，容易误导客户和粉丝。",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 2,
+    "brand_voice": 2,
+    "naturalness": 2,
+    "effectiveness": 2
+   },
+   "sendability": "不可用",
+   "comment": "虽有可用的日常护理提示，但结尾的养珠说法不准确，且整条偏长。"
+  }
+ ],
+ "set": {
+  "diversity": 2,
+  "risk_judgement": "偏松",
+  "best_index": 1,
+  "must_coverage": "1/2",
+  "summary": "三条均回应了保养问题，候选 1 的实用性和服务口径相对最好，但都偏长。整体存在未经确认的随盒用品、以偏概全的工艺判断和不准确的养珠说法，风险判断不应为“无”。"
+ },
+ "_judge": "openai:gpt-6.1-terra"
+}

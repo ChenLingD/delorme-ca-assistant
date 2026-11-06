@@ -1,0 +1,93 @@
+{
+  "case_id": "C46",
+  "scenario": "price_objection",
+  "today": "2026-11-18",
+  "occasion": "为自己七十岁前后添一串南洋白珠项链",
+  "ca": {
+    "name": "Emma",
+    "gender": "女",
+    "years_experience": 10,
+    "store": "上海恒隆广场精品店",
+    "known_client_since": "2020-11",
+    "style": "偏亲切"
+  },
+  "client": {
+    "surname": "顾",
+    "given_name": "秀芬",
+    "gender": "女",
+    "age_range": "66-70",
+    "city": "上海",
+    "occupation": "退休中学英语教师",
+    "client_since": "2020-11",
+    "spend_band": "5-30万",
+    "stage": "入门",
+    "last_visit": "2026-11-10",
+    "last_purchase": "2023-05",
+    "wealth_source": "职业收入",
+    "motivations": [
+      "犒赏自己",
+      "传承给下一代"
+    ],
+    "social_visibility": "低调",
+    "price_sensitivity": "高",
+    "style_preference": "端庄、经典",
+    "material_preference": "珍珠、白金",
+    "owned_pieces": [
+      {
+        "date": "2020-11",
+        "item": "沧海 Akoya 珍珠耳钉",
+        "for_whom": "自戴",
+        "note": "儿子送的六十五岁生日礼物，儿子付款"
+      },
+      {
+        "date": "2023-05",
+        "item": "涟漪 18K 白金手链（三钻）",
+        "for_whom": "自戴"
+      }
+    ],
+    "formality": "适中",
+    "reply_habit": "用语音或手写输入，回复较慢",
+    "recommendation_openness": "一般",
+    "preferred_contact_time": "上午 10 点前后",
+    "birthday": "01-16",
+    "family_notes": "儿子在新加坡工作，孙女 6 岁；老伴喜欢摄影",
+    "interests": [
+      "合唱团",
+      "园艺",
+      "越剧"
+    ],
+    "notes": "11 月 10 日和合唱团的朋友一起来，试戴了南洋白珠单串项链很喜欢，说想作为七十岁给自己的礼物，以后留给孙女。朋友说代购便宜很多。"
+  },
+  "conversation_history": [
+    {
+      "sender": "ca",
+      "time": "2026-11-10 16:30",
+      "text": "顾老师，今天您戴上白珠项链真的很有气质。扣头可以拆下来当胸针，您说配合唱团的演出服正好。"
+    },
+    {
+      "sender": "client",
+      "time": "2026-11-10 19:02",
+      "text": "谢谢你Emma，我回去跟老伴商量商量。"
+    },
+    {
+      "sender": "client",
+      "time": "2026-11-18 09:46",
+      "text": "Emma啊，我朋友说代购那边便宜30%，也说是正品，你看呢"
+    }
+  ],
+  "product_skus": [
+    "MDC-N03"
+  ],
+  "test_meta": {
+    "persona": "P0",
+    "type": "core",
+    "must": [
+      "平静说明官方渠道保障",
+      "语气温和、易读，适合年长客户"
+    ],
+    "must_not": [
+      "暗示代购是假货",
+      "评论代购"
+    ]
+  }
+}

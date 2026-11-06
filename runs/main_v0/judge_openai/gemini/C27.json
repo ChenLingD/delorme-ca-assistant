@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "轻微：当年客户说每天上班佩戴，但不能据此断定耳钉一直陪她通勤了近三年。",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 4
+   },
+   "sendability": "小改可发",
+   "comment": "保养切入有依据且无推销压力，但可删去持续通勤的推断，问候也可再短一些。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "轻微：“今天店里刚好在做黄金工件的养护”没有依据，备注也未提示这是虚构的联系理由。",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "清洗检测是合适的服务切口，但开场理由未经证实，整体更像保养提醒而非轻量问候。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "轻微：“整理涟漪系列的养护手册”没有依据，备注未点明；超声波清洗的方式也未获确认。",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "呼应了客户当年上班佩戴的习惯，但应删去未经证实的开场和清洗方式，喝茶邀约也可省略。"
+  }
+ ],
+ "set": {
+  "diversity": 1,
+  "risk_judgement": "偏松",
+  "best_index": 1,
+  "must_coverage": "2/2",
+  "summary": "三条都没有推新品或提价格，也未借“攒钱”暗示再消费，但切口几乎都是耳钉保养，缺少真正的角度差异。主要问题是凭空添加联系理由或推断长期佩戴状态，因此统一判断为无风险偏松。"
+ },
+ "_judge": "openai:gpt-6.1-terra"
+}

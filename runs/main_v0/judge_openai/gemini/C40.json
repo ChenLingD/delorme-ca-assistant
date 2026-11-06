@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "严重：活动资料未说明在晚上举行，不应自行确定时段。",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 2,
+    "brand_voice": 3,
+    "naturalness": 4,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "语气留有余地，但缺少与宋女士的个人关联；删去未经确认的“晚上”即可。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 4
+   },
+   "sendability": "直接可发",
+   "comment": "日期准确，也给了退路，但提及出差和日程略像复述档案，压缩成一句会更轻。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "严重：活动资料未说明在傍晚举行；“年底项目节奏紧”也是对客户当前状况的推断。",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 2,
+    "brand_voice": 2,
+    "naturalness": 2,
+    "effectiveness": 2
+   },
+   "sendability": "小改可发",
+   "comment": "“下阶段”“日程同步”偏公文，应删去未经确认的时段和对项目节奏的推断。"
+  }
+ ],
+ "set": {
+  "diversity": 2,
+  "risk_judgement": "偏松",
+  "best_index": 2,
+  "must_coverage": "2/3",
+  "summary": "三条都留有退路且未要求立即回复，但均比一句轻邀约更长，切入方式也较相似。候选1和3擅自写了活动时段，风险判断标为“无”偏松。"
+ },
+ "_judge": "openai:gpt-6.1-terra"
+}

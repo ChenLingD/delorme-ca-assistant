@@ -1,0 +1,325 @@
+{
+ "case_id": "C05",
+ "version": "v3.1",
+ "model": "gemini:gemini-3.8-flash",
+ "risk": {
+  "level": "ok",
+  "flags": [],
+  "advice": ""
+ },
+ "candidates": [
+  {
+   "text": "吴老师，除夕安康。给您和家人拜个早年，祝新岁顺遂，阖家和乐。",
+   "strategy": "极简",
+   "note_for_ca": "简练典雅，适合清晨第一时间的节日问候"
+  },
+  {
+   "text": "吴老师，除夕安康。今天家里有小孙子们围着盼放鞭炮，想必格外热闹。给您和家人拜年，祝新岁安舒，天伦尽享。",
+   "strategy": "走心",
+   "note_for_ca": "去掉引述痕迹，自然融入孙辈细节，温暖得体。"
+  },
+  {
+   "text": "吴老师，昨日刚过立春，今天又是除夕。一晃认识您整整十年了，今晚团圆饭是您和先生亲自掌勺，还是孩子们大显身手？祝您新春吉祥。",
+   "strategy": "推进",
+   "note_for_ca": "修正家庭称谓，借十年缘分与除夕年夜饭发起温暖问候。"
+  }
+ ],
+ "checks": [
+  {
+   "pass": true,
+   "hard": [],
+   "soft": [],
+   "length": 30
+  },
+  {
+   "pass": true,
+   "hard": [],
+   "soft": [],
+   "length": 51
+  },
+  {
+   "pass": true,
+   "hard": [],
+   "soft": [],
+   "length": 61
+  }
+ ],
+ "trace": {
+  "rounds": [
+   {
+    "rule_checks": [
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 30
+     },
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 61
+     },
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 61
+     }
+    ],
+    "critic": {
+     "reviews": [
+      {
+       "index": 1,
+       "pass": true,
+       "issues": []
+      },
+      {
+       "index": 2,
+       "pass": true,
+       "issues": [
+        "“想起您之前说……”略显刻意声明记忆。根据手册“记得，但不炫耀记得”原则，建议直接将细节自然融入语境（如：“除夕安康。今天两个小孙子想必正盼着放鞭炮，家里一定十分热闹……”），会更显从容老道。"
+       ]
+      },
+      {
+       "index": 3,
+       "pass": false,
+       "issues": [
+        "客户档案明确记录吴女士只有一个独子（儿子一家同住北京，2024年曾为儿子购买40岁生日礼物），草稿表述为“儿女们”与客户实际家庭结构不符，容易让相识十年的老客户感到疏漏与敷衍。建议改为“儿子儿媳”或更宽泛的“孩子们”、“年轻人”。"
+       ]
+      }
+     ],
+     "set_issues": []
+    },
+    "set_issues": [],
+    "to_fix": {
+     "3": [
+      "客户档案明确记录吴女士只有一个独子（儿子一家同住北京，2024年曾为儿子购买40岁生日礼物），草稿表述为“儿女们”与客户实际家庭结构不符，容易让相识十年的老客户感到疏漏与敷衍。建议改为“儿子儿媳”或更宽泛的“孩子们”、“年轻人”。"
+     ]
+    }
+   },
+   {
+    "rule_checks": [
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 30
+     },
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 61
+     },
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 61
+     }
+    ],
+    "critic": {
+     "reviews": [
+      {
+       "index": 1,
+       "pass": true,
+       "issues": []
+      },
+      {
+       "index": 2,
+       "pass": false,
+       "issues": [
+        "“想起您之前说……”属于违背了“记得但不炫耀记得”的原则，且后半句近乎原样复述了客户上次在聊天中的原话（“今年全家在家里过，两个小孙子盼着放鞭炮”），显得像在对照记录念台词。建议自然融入细节，不加引述句式，例如改为：“除夕这天两个小孙子想必已经盼着放鞭炮了，家里一定热闹非凡……”"
+       ]
+      },
+      {
+       "index": 3,
+       "pass": true,
+       "issues": []
+      }
+     ],
+     "set_issues": []
+    },
+    "set_issues": [],
+    "to_fix": {
+     "2": [
+      "“想起您之前说……”属于违背了“记得但不炫耀记得”的原则，且后半句近乎原样复述了客户上次在聊天中的原话（“今年全家在家里过，两个小孙子盼着放鞭炮”），显得像在对照记录念台词。建议自然融入细节，不加引述句式，例如改为：“除夕这天两个小孙子想必已经盼着放鞭炮了，家里一定热闹非凡……”"
+     ]
+    }
+   },
+   {
+    "rule_checks": [
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 30
+     },
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 51
+     },
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 61
+     }
+    ],
+    "critic": {
+     "reviews": [
+      {
+       "index": 1,
+       "pass": true,
+       "issues": []
+      },
+      {
+       "index": 2,
+       "pass": true,
+       "issues": []
+      },
+      {
+       "index": 3,
+       "pass": true,
+       "issues": []
+      }
+     ],
+     "set_issues": []
+    },
+    "set_issues": [],
+    "to_fix": {}
+   }
+  ],
+  "plan": {
+   "client_read": "吴老师是一位端庄儒雅的退休学者，也是相识整十年的忠实老客；彼此信任深厚但恪守分寸，当下适合送上真挚温润的除夕新春问候。",
+   "risk": {
+    "level": "ok",
+    "flags": [],
+    "advice": ""
+   },
+   "ca_commitments": [],
+   "usable_facts": [
+    "自2017年相识至今整整十年",
+    "上次到店提到今年春节全家在家里过",
+    "两个双胞胎小孙子盼着放鞭炮",
+    "昨日刚过立春，今日逢除夕"
+   ],
+   "do_not_mention": [
+    "任何产品推荐与销售企图",
+    "邀约到店或推销活动",
+    "空洞堆砌的群发式吉祥话",
+    "客户的消费金额或内部等级标签"
+   ],
+   "products": [],
+   "unanswerable": "",
+   "slots": {
+    "极简": {
+     "切入点": "除夕与新春岁首的传统时节",
+     "唯一信息点": "致以除夕安康与新春如意的克制典雅问候"
+    },
+    "走心": {
+     "切入点": "上次提及全家在京过年与两个小孙子的童趣细节",
+     "唯一信息点": "提及小孙子盼放鞭炮的温馨场景，祝愿三代同堂的团圆之乐"
+    },
+    "推进": {
+     "切入点": "立春刚过与相识十年的缘分",
+     "唯一信息点": "借立春迎新问候今晚除夕团圆饭，附带一个轻松温暖的年节家常询问"
+    }
+   }
+  },
+  "first_draft": [
+   {
+    "text": "吴老师，除夕安康。给您和家人拜个早年，祝新岁顺遂，阖家和乐。",
+    "strategy": "极简",
+    "note_for_ca": "简练典雅，适合清晨第一时间的节日问候"
+   },
+   {
+    "text": "吴老师，除夕安康。想起您之前说今年全家在家里过，两个小孙子盼着放鞭炮，家里想必十分热闹。祝您和家人新春开怀，尽享天伦之乐。",
+    "strategy": "走心",
+    "note_for_ca": "融入全家在京过年与双胞胎孙子盼放鞭炮的细节"
+   },
+   {
+    "text": "吴老师，昨日刚过立春，今天又是除夕。一晃认识您整整十年了，今晚团圆饭是您和先生亲自掌勺，还是儿女们大显身手？祝您新春吉祥。",
+    "strategy": "推进",
+    "note_for_ca": "借立春与十年相识切入，以除夕团圆饭作轻松互动"
+   }
+  ],
+  "seconds": 88.8,
+  "diversity_max_sim": 0.2037037037037037,
+  "calls": [
+   {
+    "requested": "gemini-3.8-flash",
+    "served": "gemini-3.8-flash",
+    "seconds": 12.1,
+    "attempt": 1,
+    "in_tokens": 6042,
+    "out_tokens": 441,
+    "reasoning_tokens": null,
+    "fingerprint": null
+   },
+   {
+    "requested": "gemini-3.8-flash",
+    "served": "gemini-3.8-flash",
+    "seconds": 5.3,
+    "attempt": 1,
+    "in_tokens": 5387,
+    "out_tokens": 288,
+    "reasoning_tokens": null,
+    "fingerprint": null
+   },
+   {
+    "requested": "gemini-3.8-flash",
+    "served": "gemini-3.8-flash",
+    "seconds": 19.1,
+    "attempt": 1,
+    "in_tokens": 5227,
+    "out_tokens": 264,
+    "reasoning_tokens": null,
+    "fingerprint": null
+   },
+   {
+    "requested": "gemini-3.8-flash",
+    "served": "gemini-3.8-flash",
+    "seconds": 2.9,
+    "attempt": 1,
+    "in_tokens": 5669,
+    "out_tokens": 119,
+    "reasoning_tokens": null,
+    "fingerprint": null
+   },
+   {
+    "requested": "gemini-3.8-flash",
+    "served": "gemini-3.8-flash",
+    "seconds": 30.3,
+    "attempt": 1,
+    "in_tokens": 5225,
+    "out_tokens": 214,
+    "reasoning_tokens": null,
+    "fingerprint": null
+   },
+   {
+    "requested": "gemini-3.8-flash",
+    "served": "gemini-3.8-flash",
+    "seconds": 9.1,
+    "attempt": 1,
+    "in_tokens": 5695,
+    "out_tokens": 112,
+    "reasoning_tokens": null,
+    "fingerprint": null
+   },
+   {
+    "requested": "gemini-3.8-flash",
+    "served": "gemini-3.8-flash",
+    "seconds": 10.0,
+    "attempt": 1,
+    "in_tokens": 5219,
+    "out_tokens": 102,
+    "reasoning_tokens": null,
+    "fingerprint": null
+   }
+  ]
+ }
+}

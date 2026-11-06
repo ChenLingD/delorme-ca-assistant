@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "严重：替客户决定不再考虑这件戒指，既回避了价格和工艺质疑，也可能让客户觉得被放弃。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 2,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 2
+   },
+   "sendability": "小改可发",
+   "comment": "接住了客户的不满，但应由客户决定是否继续考虑，并补充有依据的工艺事实。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "严重：目录未说明手镯有倒角；客户偏爱线条纯粹、认为戒指不契合的判断也无依据。",
+    "context_failure": "轻微：主要讨论视觉重心，没有以可靠事实回应客户对价格和铺镶工艺的质疑。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 2,
+    "brand_voice": 2,
+    "naturalness": 2,
+    "effectiveness": 1
+   },
+   "sendability": "不可用",
+   "comment": "借已有手镯切入有针对性，但推断客户喜好并编造结构细节，难以取信于熟悉工艺的客户。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "严重：没有依据表明镶嵌说明已整理完成，也没有微爪工序及具体图解的资料；备注未提示这些说法未经确认。",
+    "context_failure": "轻微：衔接了先前答应的资料，但未直接回应客户对价格和工艺的判断。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 2,
+    "naturalness": 2,
+    "effectiveness": 1
+   },
+   "sendability": "不可用",
+   "comment": "跟进前序资料的方向合理，但不能虚报完成状态或编造工序和图解，“直接归档”也显得生硬。"
+  }
+ ],
+ "set": {
+  "diversity": 4,
+  "risk_judgement": "偏松",
+  "best_index": 1,
+  "must_coverage": "1/2",
+  "summary": "三条都较克制，但没有一条可靠地以专业事实回应客户的价格和铺镶质疑；候选1相对安全，却替客户做了决定。风险提醒未识别候选中的虚构工艺与资料状态，也过度倾向转移话题，而非回应已答应提供的镶嵌说明。"
+ },
+ "_judge": "openai:gpt-6.1-terra"
+}

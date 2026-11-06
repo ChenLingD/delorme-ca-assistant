@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 2,
+    "brand_voice": 4,
+    "naturalness": 4,
+    "effectiveness": 3
+   },
+   "sendability": "直接可发",
+   "comment": "安全、简短，明确要先确认且没有预设结果；但对她的热情毫无回应，显得有点公事公办，'must：保持热情'只做到一半，也没有告诉她预览本身仍欢迎她来。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 4
+   },
+   "sendability": "小改可发",
+   "comment": "先接住她想发笔记的想法，再说明要问公关、确认后告知，不承诺，也没有冷场；但“我知道啦”略随意且没有实际含义，没有回应她的兴奋，也没说“预览欢迎您来”，小改后可用。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 4,
+    "naturalness": 3,
+    "effectiveness": 4
+   },
+   "sendability": "小改可发",
+   "comment": "回应了她对珍珠展的喜爱，热度保持得最好，并明确去确认、有结果再说；但“听您说喜欢这个珍珠展”稍显生硬（她说的是“对胃口”），且没回应“想发一篇”这一核心诉求，略有错位。"
+  }
+ ],
+ "set": {
+  "diversity": 3,
+  "risk_judgement": "正确",
+  "best_index": 2,
+  "must_coverage": "3/3",
+  "summary": "三条都守住了不承诺、说明需确认、不编造政策这几条底线，风险判断为 caution 也恰当。主要问题是都偏短偏稳，没有借她的兴奋延续热度（如“您能来我很开心”“预览的位置先给您留着”类的确定信息，注意不要制造紧迫感），三条结构高度相似（“我去问公关→有结果告诉您”），差异主要在开头一句，多样性有限。"
+ },
+ "_judge": "anthropic:claude-sonnet-5-5"
+}

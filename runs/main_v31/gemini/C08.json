@@ -1,0 +1,262 @@
+{
+ "case_id": "C08",
+ "version": "v3.1",
+ "model": "gemini:gemini-3.8-flash",
+ "risk": {
+  "level": "ok",
+  "flags": [],
+  "advice": ""
+ },
+ "candidates": [
+  {
+   "text": "宋女士，生日快乐。新的一岁，祝您依然自在明亮，日子过得从容舒心。",
+   "strategy": "极简",
+   "note_for_ca": "干净得体的纯祝福，适合快速表达心意。"
+  },
+  {
+   "text": "宋女士，生日快乐。希望今天有两只小猫陪在身边，新的一岁用镜头记录下更多心仪的光线与好画面✨",
+   "strategy": "走心",
+   "note_for_ca": "融入布偶猫与胶片摄影爱好，温和贴心。"
+  },
+  {
+   "text": "宋女士，生日快乐！今天有没有选一家心仪的咖啡馆探店，好好犒劳一下自己？",
+   "strategy": "推进",
+   "note_for_ca": "结合咖啡爱好抛出轻松提问，不施压，适合想借机开启日常互动。"
+  }
+ ],
+ "checks": [
+  {
+   "pass": true,
+   "hard": [],
+   "soft": [],
+   "length": 32
+  },
+  {
+   "pass": true,
+   "hard": [],
+   "soft": [],
+   "length": 45
+  },
+  {
+   "pass": true,
+   "hard": [],
+   "soft": [],
+   "length": 35
+  }
+ ],
+ "trace": {
+  "rounds": [
+   {
+    "rule_checks": [
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 32
+     },
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 45
+     },
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 42
+     }
+    ],
+    "critic": {
+     "reviews": [
+      {
+       "index": 1,
+       "pass": true,
+       "issues": []
+      },
+      {
+       "index": 2,
+       "pass": true,
+       "issues": []
+      },
+      {
+       "index": 3,
+       "pass": true,
+       "issues": []
+      }
+     ],
+     "set_issues": [
+      {
+       "indices": [
+        2,
+        3
+       ],
+       "issue": "第 2 条与第 3 条均借用了客户养猫（两只小猫 / 两只布偶猫）这一档案细节，导致信息点重叠。建议第 3 条作为“推进”版本，聚焦于咖啡探店或庆生安排这一个轻松、好回复的问题，删去关于猫咪的内容，使两条草稿的切入点与话题彻底拉开。"
+      }
+     ]
+    },
+    "set_issues": [
+     "第 2 条与第 3 条均借用了客户养猫（两只小猫 / 两只布偶猫）这一档案细节，导致信息点重叠。建议第 3 条作为“推进”版本，聚焦于咖啡探店或庆生安排这一个轻松、好回复的问题，删去关于猫咪的内容，使两条草稿的切入点与话题彻底拉开。"
+    ],
+    "to_fix": {
+     "3": [
+      "与其他候选雷同：第 2 条与第 3 条均借用了客户养猫（两只小猫 / 两只布偶猫）这一档案细节，导致信息点重叠。建议第 3 条作为“推进”版本，聚焦于咖啡探店或庆生安排这一个轻松、好回复的问题，删去关于猫咪的内容，使两条草稿的切入点与话题彻底拉开。"
+     ]
+    }
+   },
+   {
+    "rule_checks": [
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 32
+     },
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 45
+     },
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 35
+     }
+    ],
+    "critic": {
+     "reviews": [
+      {
+       "index": 1,
+       "pass": true,
+       "issues": []
+      },
+      {
+       "index": 2,
+       "pass": true,
+       "issues": []
+      },
+      {
+       "index": 3,
+       "pass": true,
+       "issues": []
+      }
+     ],
+     "set_issues": []
+    },
+    "set_issues": [],
+    "to_fix": {}
+   }
+  ],
+  "plan": {
+   "client_read": "年轻活泼、热爱在社交平台分享穿搭的时尚博主，对品牌抱有真诚好感。目前处于入门阶段，与 CA 沟通轻松自然，正处于自发了解与心仪“沧海”珍珠系列的培育期。",
+   "risk": {
+    "level": "ok",
+    "flags": [],
+    "advice": ""
+   },
+   "ca_commitments": [],
+   "usable_facts": [
+    "今天（11-30）是客户生日",
+    "喜欢胶片摄影与拍照分享",
+    "养了两只布偶猫",
+    "4 月购入涟漪 18K 黄金耳钉"
+   ],
+   "do_not_mention": [
+    "未与品牌商业合作的博主身份或粉丝量",
+    "9 月说的“等我攒攒”或任何与预算、价格门槛相关的话题",
+    "擅自承诺生日礼品、折扣或到店礼遇",
+    "称呼对方为亲、亲爱的、宝子等网络昵称",
+    "描述具体天气或气温"
+   ],
+   "products": [],
+   "unanswerable": "",
+   "slots": {
+    "极简": {
+     "切入点": "纯粹真诚的生日祝福",
+     "唯一信息点": "祝宋女士新的一岁自在明亮、生日快乐"
+    },
+    "走心": {
+     "切入点": "结合她的生活爱好（摄影/猫咪）切入",
+     "唯一信息点": "祝她今天有两只猫咪陪伴，新的一岁用镜头记录下更多心仪的好光线与好画面"
+    },
+    "推进": {
+     "切入点": "生日问候结合一个轻松具体的日常互动",
+     "唯一信息点": "询问今天生日有没有给两只布偶猫也加个餐，或者去哪家心仪的咖啡馆庆祝"
+    }
+   }
+  },
+  "first_draft": [
+   {
+    "text": "宋女士，生日快乐。新的一岁，祝您依然自在明亮，日子过得从容舒心。",
+    "strategy": "极简",
+    "note_for_ca": "干净得体的纯祝福，适合快速表达心意。"
+   },
+   {
+    "text": "宋女士，生日快乐。希望今天有两只小猫陪在身边，新的一岁用镜头记录下更多心仪的光线与好画面✨",
+    "strategy": "走心",
+    "note_for_ca": "融入布偶猫与胶片摄影爱好，温和贴心。"
+   },
+   {
+    "text": "宋女士，生日快乐！今天打算去哪家心仪的咖啡馆庆祝，家里两只布偶猫有没有跟着一起加餐？",
+    "strategy": "推进",
+    "note_for_ca": "用探店和猫咪做轻松提问，开启生活化互动。"
+   }
+  ],
+  "seconds": 59.4,
+  "diversity_max_sim": 0.1206896551724138,
+  "calls": [
+   {
+    "requested": "gemini-3.8-flash",
+    "served": "gemini-3.8-flash",
+    "seconds": 7.7,
+    "attempt": 1,
+    "in_tokens": 5808,
+    "out_tokens": 464,
+    "reasoning_tokens": null,
+    "fingerprint": null
+   },
+   {
+    "requested": "gemini-3.8-flash",
+    "served": "gemini-3.8-flash",
+    "seconds": 10.8,
+    "attempt": 1,
+    "in_tokens": 5176,
+    "out_tokens": 237,
+    "reasoning_tokens": null,
+    "fingerprint": null
+   },
+   {
+    "requested": "gemini-3.8-flash",
+    "served": "gemini-3.8-flash",
+    "seconds": 19.2,
+    "attempt": 1,
+    "in_tokens": 4986,
+    "out_tokens": 213,
+    "reasoning_tokens": null,
+    "fingerprint": null
+   },
+   {
+    "requested": "gemini-3.8-flash",
+    "served": "gemini-3.8-flash",
+    "seconds": 8.5,
+    "attempt": 1,
+    "in_tokens": 5405,
+    "out_tokens": 95,
+    "reasoning_tokens": null,
+    "fingerprint": null
+   },
+   {
+    "requested": "gemini-3.8-flash",
+    "served": "gemini-3.8-flash",
+    "seconds": 13.3,
+    "attempt": 1,
+    "in_tokens": 4980,
+    "out_tokens": 101,
+    "reasoning_tokens": null,
+    "fingerprint": null
+   }
+  ]
+ }
+}

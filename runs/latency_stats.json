@@ -1,0 +1,59 @@
+{
+ "main_v0": {
+  "cases": 50,
+  "e2e_p50": 15.1,
+  "e2e_p90": 22.7,
+  "e2e_max": 43.5,
+  "calls_mean": 1,
+  "rewrite_rounds_mean": 0,
+  "in_tokens_mean": 2992,
+  "out_tokens_mean": 474,
+  "reasoning_tokens_mean": 0,
+  "per_stage_p50": {
+   "single": 15.1
+  },
+  "served": [
+   "gemini-3.8-flash"
+  ]
+ },
+ "main_v31": {
+  "cases": 50,
+  "e2e_p50": 67.9,
+  "e2e_p90": 104.5,
+  "e2e_max": 137.6,
+  "calls_mean": 6,
+  "rewrite_rounds_mean": 2.34,
+  "in_tokens_mean": 33027,
+  "out_tokens_mean": 1681,
+  "reasoning_tokens_mean": 0,
+  "per_stage_p50": {
+   "plan": 12.1,
+   "write": 5.9,
+   "critic": 13.9,
+   "rewrite": 9.8
+  },
+  "served": [
+   "gemini-3.8-flash"
+  ]
+ },
+ "main_v4": {
+  "cases": 50,
+  "e2e_p50": 53.1,
+  "e2e_p90": 95.5,
+  "e2e_max": 155.5,
+  "calls_mean": 4.7,
+  "rewrite_rounds_mean": 1.8,
+  "in_tokens_mean": 23384,
+  "out_tokens_mean": 1749,
+  "reasoning_tokens_mean": 0,
+  "per_stage_p50": {
+   "plan": 15.9,
+   "write": 7.5,
+   "critic": 12.7,
+   "rewrite": 8.4
+  },
+  "served": [
+   "gemini-3.8-flash"
+  ]
+ }
+}

@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无（“下周五起”即 11-20，日期正确；“展出几天”偏含糊但不算错）",
+    "context_failure": "无",
+    "must_not_hit": "无（“每场只有几位客人”是如实说明规模，没有制造“先到先得”的压力）"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 4,
+    "naturalness": 4,
+    "effectiveness": 4
+   },
+   "sendability": "直接可发",
+   "comment": "开头就回应她 9 月说想看老图稿的心愿，像在兑现承诺，也符合她“不喜人多”的习惯。缺点是没有写明具体日期和“私享预览”，也没有联系她自己的珍珠藏品。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "“下周末”与活动资料不符：预览是 11-20（周五）至 11-22，不只是周末。另外“把清静的时段发给您挑选”默认已有可选时段表，资料里没有这条。",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 4,
+    "naturalness": 4,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "轻量探询的语气得体，但日期说得不准，内容也最单薄，没有具体日期、地点细节或现场看点，也没有珍珠藏品的联系。改正日期后可用。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无（日期、三楼沙龙、串线师、每场最多八位均与资料一致）；“预留一个较少人的场次”是对 CA 诉求的承诺，发出前需向门店确认能否做到。",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 4,
+    "naturalness": 3,
+    "effectiveness": 4
+   },
+   "sendability": "小改可发",
+   "comment": "信息最完整、最准确，也给了选择余地。但读起来更像活动通知，没有明说“您上次提过想看”，对她心愿的呼应偏弱，也没有联系她 2025 年做过的串线和她的珍珠收藏。建议加一句呼应心愿的话。"
+  }
+ ],
+ "set": {
+  "diversity": 3,
+  "risk_judgement": "正确",
+  "best_index": 1,
+  "must_coverage": "2/3",
+  "summary": "三条都没有踩红线，也都按 CA 的要求提了安静时段，呼应老图稿心愿、信息基本准确，但都没有把活动和她自己的沧海藏品（Akoya 耳钉、南洋白珠项链、金珠吊坠）联系起来。三条的开头和结构相近，差别主要在信息量；候选 2 的“下周末”不准，候选 3 缺少对她心愿的直接呼应，候选 1 最贴合她的心愿，只需补上具体日期。"
+ },
+ "_judge": "anthropic:claude-sonnet-5-5"
+}

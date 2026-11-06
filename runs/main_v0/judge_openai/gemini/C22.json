@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "轻微：“现在安排时间刚好合适”对婚前完成过于乐观；4–8周只是通常周期，实际时间尚未确认。",
+    "context_failure": "轻微：回应了婚期顾虑，但没有提示实际完成时间仍需确认。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "权益、流程和周期较完整，但应把“时间刚好合适”改为实际完成时间需确认。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "严重：“肯定能”在婚礼前戴上是未经确认的时间承诺；手凉影响尺寸也只是未经证实的推测。",
+    "context_failure": "严重：对客户关注的婚期作出无法保证的答复，若延误会影响客户安排。",
+    "must_not_hit": "严重：承诺婚礼前一定能改好。"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 2,
+    "naturalness": 2,
+    "effectiveness": 2
+   },
+   "sendability": "不可用",
+   "comment": "免费改圈和复量流程说清了，但婚前保证及对偏紧原因的推测都需要删除。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "严重：“稳稳赶在”婚礼前拿回是未经确认的时间承诺；“手工调整”的改制细节也没有明确依据。",
+    "context_failure": "严重：对婚期作出无法保证的答复，可能影响客户安排。",
+    "must_not_hit": "严重：承诺婚礼前一定能改好。"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 2,
+    "naturalness": 3,
+    "effectiveness": 2
+   },
+   "sendability": "不可用",
+   "comment": "服务信息和复量引导清楚，但不能保证婚前拿回，也不应自行添加手工调整细节。"
+  }
+ ],
+ "set": {
+  "diversity": 2,
+  "risk_judgement": "偏松",
+  "best_index": 1,
+  "must_coverage": "2/3",
+  "summary": "三条都说明了一年内免费改圈及大致流程和周期，但切入方式相近。婚期答复是主要风险：候选1过于乐观，候选2和3直接作出无法保证的承诺，工具判定“无风险”偏松。"
+ },
+ "_judge": "openai:gpt-6.1-terra"
+}

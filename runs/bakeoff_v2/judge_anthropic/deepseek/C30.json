@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无，但没有具体指出是哪件事，隔了一年，客户可能一时对不上",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 2,
+    "brand_voice": 4,
+    "naturalness": 3,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "短、克制、不卖东西，也没有重提配额。但“是我的问题”有点笼统，还略带卑微的认错腔，隔了一年又没有自我交代，客户容易不知所指；加半句“去年的事”并稍微平衡一下姿态会更好。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "“看过很多遍”“一直搁在我心里”情绪过重，偏卑微、表演感强，不够克制",
+    "privacy_violation": "无",
+    "fabrication": "“那几句话我看过很多遍”是编造的 CA 内心活动；“自己一眼挑中的”在档案和聊天记录中都没有依据，属编造客户经历",
+    "context_failure": "拿沧海金珠这一件旧作品夹进道歉里，客户读来像在铺垫销售或炫耀记得；“去年我没能给您一个答复”也没有回应她真正的怒点（被区别对待）",
+    "must_not_hit": "语气过度自我矮化，接近“卑微讨好”"
+   },
+   "scores": {
+    "personalization": 2,
+    "brand_voice": 2,
+    "naturalness": 2,
+    "effectiveness": 2
+   },
+   "sendability": "不可用",
+   "comment": "编造“一眼挑中”，又把客户的怒话翻出来反复“看”，情绪表演过头、偏卑微；对方读来可能觉得被盘点、被打感情牌。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无；“您问了，我始终没能给您一个答复”略微重提晨星话题，但没有涉及配额细节",
+    "must_not_hit": "无硬性触犯；“换成我也会不舒服”和“欠您这句话”略偏讨好，但整体仍在可接受范围"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 4,
+    "naturalness": 4,
+    "effectiveness": 4
+   },
+   "sendability": "小改可发",
+   "comment": "有自我介绍，点明时间，坦承没处理好，明确“不是来说作品的”，并留好退路，最贴合“不想让她觉得又是来卖东西”。但篇幅稍长，“欠您这句话”和“换成我也会不舒服”略显用力，可删一句。注意：Tina 与客户相识两年，“我是德洛姆恒隆店的 Tina”有些生分，且手册写的是“恒隆店”而本店是上海恒隆广场精品店，小改即可。"
+  }
+ ],
+ "set": {
+  "diversity": 3,
+  "risk_judgement": "正确",
+  "best_index": 3,
+  "must_coverage": "2/2",
+  "summary": "风险判断为 hold 且强调只做一件事、不碰晨星承诺，方向准确；候选 3 最稳，候选 1 过于笼统，候选 2 编造了客户经历且情绪过度。最主要的问题是三条都围绕“道歉”，角度相近，没有一条提供不同姿态（例如不卑不亢、平视的问候），并且 1、3 都偏认错、略显矮化。"
+ },
+ "_judge": "anthropic:claude-sonnet-5-5"
+}

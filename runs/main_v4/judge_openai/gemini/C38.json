@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "严重：编造高珠鉴赏是巴黎工坊单件巡展、一对一闭门，以及无法协调席位；备注未向 CA 点明这些说法缺乏依据。",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 2,
+    "brand_voice": 2,
+    "naturalness": 2,
+    "effectiveness": 2
+   },
+   "sendability": "不可用",
+   "comment": "回应了询问并转向私宴，但用未经证实的活动安排解释无法参加，也缺少针对韩先生的邀请理由。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "轻微：以“场次非常少”突出未经证实的稀缺性，虽未直接催促，仍不符合品牌口径。",
+    "privacy_violation": "无",
+    "fabrication": "严重：编造高珠鉴赏的工坊预约、闭门形式及场次情况；活动资料也未说明私宴可携伴，不能直接邀请太太参加。",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 2,
+    "naturalness": 3,
+    "effectiveness": 2
+   },
+   "sendability": "不可用",
+   "comment": "借太太喜欢穹顶自然切入，但高珠说明和携伴安排均缺乏依据。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "严重：编造高珠巡展为单件作品的一对一闭门鉴赏，并以安排不过来解释无法参加；备注未点明这些说法缺乏依据。",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 3,
+    "naturalness": 2,
+    "effectiveness": 3
+   },
+   "sendability": "不可用",
+   "comment": "心愿登记接住了客户的高珠兴趣，也引向私宴，但整段偏长且高珠活动细节不可直接发送。"
+  }
+ ],
+ "set": {
+  "diversity": 2,
+  "risk_judgement": "偏松",
+  "best_index": 3,
+  "must_coverage": "2/2",
+  "summary": "三条都尝试回应高珠询问并转邀私宴，候选 3 还通过心愿登记承接了客户兴趣，但都需要重写后才能发送。最主要的问题是共同编造高珠活动形式及无法安排的原因，风险判断也错误地将这些细节当作客观依据。"
+ },
+ "_judge": "openai:gpt-6.1-terra"
+}

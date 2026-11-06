@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "“可以直接跟他交流”将未确认的现场安排说成确定事项。",
+    "privacy_violation": "无",
+    "fabrication": "活动资料只说可以用放大镜观看，未说明是高倍放大镜，也未确认可与镶嵌师直接交流；对工具和精度的展示范围也未经确认。",
+    "context_failure": "无",
+    "must_not_hit": "编造了活动细节；未编造技术参数。"
+   },
+   "scores": {
+    "personalization": 5,
+    "brand_voice": 3,
+    "naturalness": 4,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "与上次对话连接最直接，但应删去高倍、精度展示及直接交流等未确认内容。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "12月5日是周六，但相对于11月20日并非下周六；“隐形镶嵌”也不是活动资料使用的工艺名称，可能与“看不见的镶爪”混淆。",
+    "context_failure": "没有明确连接客户之前想看现场操作的意愿，个性化理由偏弱。",
+    "must_not_hit": "未准确使用活动资料中的工艺名称；未编造技术参数。"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 4,
+    "naturalness": 4,
+    "effectiveness": 2
+   },
+   "sendability": "小改可发",
+   "comment": "家庭同行的选择自然，但需修正日期说法和工艺名称，并补上客户想看现场操作的关联。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "活动资料只有放大镜下观看，未提及专门的显微观察环节；12月5日也并非相对于11月20日的下周六。",
+    "context_failure": "无",
+    "must_not_hit": "编造了专门的显微观察环节；未编造技术参数。"
+   },
+   "scores": {
+    "personalization": 5,
+    "brand_voice": 3,
+    "naturalness": 4,
+    "effectiveness": 2
+   },
+   "sendability": "小改可发",
+   "comment": "切入简洁且贴合客户兴趣，但须删除显微环节并修正星期的相对日期。"
+  }
+ ],
+ "set": {
+  "diversity": 3,
+  "risk_judgement": "偏松",
+  "best_index": 1,
+  "must_coverage": "2/2",
+  "summary": "三条都围绕工艺演示邀约，候选1与客户上次对话的连接最充分，但均需修改后才能发送。主要问题是将未经确认的活动细节写成事实，以及候选2、3误称12月5日为下周六。"
+ },
+ "_judge": "openai:gpt-6.1-terra"
+}

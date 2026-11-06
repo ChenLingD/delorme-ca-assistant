@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "直接评价投资考量，并比较珠宝与腕表，偏离了绕开投资问题的口径；“送太太的心意最重要”也替客户判断了优先级。",
+    "privacy_violation": "无",
+    "fabrication": "资料是同一工匠完成约120工时，不能说一百多小时都用于打磨；“工坊更多想的是经得起日常长久佩戴”也缺乏依据。",
+    "context_failure": "客户明确以投资角度犹豫，候选却正面评价“当成投资会有顾虑”，容易让客户觉得被纠正。",
+    "must_not_hit": "比较珠宝与腕表并称投资会有顾虑，暗示其投资属性存疑。"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 2,
+    "naturalness": 3,
+    "effectiveness": 2
+   },
+   "sendability": "小改可发",
+   "comment": "有接纳感，也回到了工艺和送礼场景，但应删除投资比较及未经证实的工艺描述。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "“在德洛姆，大家更看重”替他人表态；劝客户不要带着升值压力购买，带有说教意味。",
+    "privacy_violation": "无",
+    "fabrication": "客户收藏名表、经营企业，不等于“平时看腕表和实业多”；“反而少了太太戴它的从容”也臆测了太太的感受。",
+    "context_failure": "没有顺承客户已明确认可的做工，反而评价其购买心态，容易让客户觉得被纠正。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 2,
+    "brand_voice": 2,
+    "naturalness": 2,
+    "effectiveness": 2
+   },
+   "sendability": "不可用",
+   "comment": "工匠记号切入可以保留，但整段对客户心态和太太感受的揣测需要重写。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "直接讨论金融属性并与名表比较，偏离不回应投资问题的口径；“价值全在工时和手工细节里”也过于绝对。",
+    "privacy_violation": "无",
+    "fabrication": "客户想送太太并与穹顶手镯叠戴，但没有说当初留意晨星主要是因为两者线条很衬；这句擅自归因于客户。",
+    "context_failure": "正面评价投资预期，甚至主动提出先放一放，可能让客户感到被劝退。",
+    "must_not_hit": "称金融属性很难和名表相比，暗示作品的投资属性较弱。"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 2,
+    "naturalness": 3,
+    "effectiveness": 2
+   },
+   "sendability": "不可用",
+   "comment": "叠戴场景贴合客户，但金融属性比较和对客户动机的归因都需要重写。"
+  }
+ ],
+ "set": {
+  "diversity": 2,
+  "risk_judgement": "偏松",
+  "best_index": 1,
+  "must_coverage": "2/2",
+  "summary": "三条都没有承诺保值升值，也都提到了作品或其搭配，但均正面评论了客户的投资心态，部分还暗示投资属性。工具判定“无风险”偏松；候选1的接纳感和工艺切入相对较好，仍需删去投资比较并修正工艺事实。"
+ },
+ "_judge": "openai:gpt-6.1-terra"
+}

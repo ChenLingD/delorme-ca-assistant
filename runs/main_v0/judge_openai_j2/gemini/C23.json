@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "轻微：将免费刻字说成由工坊提供，已知资料未说明刻字服务的承办方。",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 4
+   },
+   "sendability": "小改可发",
+   "comment": "抓住了客户担心下坠的细节，但重复提耳垂薄略显生硬，刻字部分也可更简洁。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 4,
+    "naturalness": 4,
+    "effectiveness": 5
+   },
+   "sendability": "直接可发",
+   "comment": "结合此前聊过的耳堵松紧问佩戴感受，服务提醒清楚自然，略长但可以直接发。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "轻微：说“工坊支持”免费刻字，但已知资料未说明刻字服务的承办方。",
+    "context_failure": "轻微：只问耳钉是否合心意，没有明确问佩戴是否舒适，未充分落实 CA 的要求。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "呼应了冷白珠光，但“应该很灵动”略空泛，建议换成对舒适度的直接关心。"
+  }
+ ],
+ "set": {
+  "diversity": 2,
+  "risk_judgement": "偏松",
+  "best_index": 2,
+  "must_coverage": "2/2",
+  "summary": "三条均只与佩戴者讨论作品，也都提醒了免费刻字，没有触及付款信息。主要问题是切入方式相近，且候选 1、3 未经确认便将刻字服务归于工坊。"
+ },
+ "_judge": "openai:gpt-6.1-terra"
+}

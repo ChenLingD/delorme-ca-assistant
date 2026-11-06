@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 2,
+    "brand_voice": 4,
+    "naturalness": 4,
+    "effectiveness": 4
+   },
+   "sendability": "直接可发",
+   "comment": "接住了比价顾虑，也说明了官方证书、联保和串线服务；略长，但未评价代购。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "严重：没有依据表明会在官方工坊留下完整记录；“无论多少年”也超出了已知服务的表述范围。",
+    "context_failure": "轻微：没有回应客户的比价顾虑，也没有说明有依据的官方证书或售后保障。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 2,
+    "naturalness": 2,
+    "effectiveness": 1
+   },
+   "sendability": "不可用",
+   "comment": "传承心意取材真实，但表达过于煽情，还把客户的愿望说得过于确定；备注也未提示工坊记录缺乏依据。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "轻微：客户正在询问代购比价，却未说明官方渠道的证书或售后，转而邀请试戴。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 4,
+    "naturalness": 4,
+    "effectiveness": 2
+   },
+   "sendability": "小改可发",
+   "comment": "语气温和、给足考虑空间，但应先补充官方渠道保障，再视情况邀请试戴。"
+  }
+ ],
+ "set": {
+  "diversity": 4,
+  "risk_judgement": "偏松",
+  "best_index": 1,
+  "must_coverage": "2/2（候选 1 均做到）",
+  "summary": "三条切入角度有区别，候选 1 最适合回应当前比价问题。整体风险提示没有发现候选 2 编造工坊记录，也未指出候选 3 缺少官方保障说明。"
+ },
+ "_judge": "openai:gpt-6.1-terra"
+}

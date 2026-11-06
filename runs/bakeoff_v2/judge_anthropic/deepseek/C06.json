@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 2,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 4
+   },
+   "sendability": "小改可发",
+   "comment": "短、克制，没有“生日快乐”，也不碰作品和串线，“今天是您的日子，我记着”让她知道被记得；但“愿您安稳”接近手册禁止的空话式祝愿，“您的日子”也略生硬，建议改得更像真人说话。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "全文没有点明是生日，“这一天”指代不清，客户可能要自己猜；“今天不说客套话，也不多打扰您”带点自我说明的腔调，有些刻意。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "“认识您六年了”（2020-03 至今属实）带出了关系，也避开了丧亲和产品；但没提生日，“愿您清静、安稳”仍是空泛祝愿，加一句“今天是您生日”并去掉“不说客套话”的自述会更好。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "没有提到生日，也没有任何祝福；“不用赶在这一天说什么”指代模糊；整条变成“想聊随时找我”的联系邀请，偏离本场景“祝福本身就是目的”，也与工具自己说的“不把生日变成联系的借口”相矛盾。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 2,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 2
+   },
+   "sendability": "小改可发",
+   "comment": "不催促、不推销，姿态体贴，但完全不像生日问候，“哪天您想说话了”还隐含对她处境的揣测，需要补上生日问候才能发。"
+  }
+ ],
+ "set": {
+  "diversity": 3,
+  "risk_judgement": "正确",
+  "best_index": 1,
+  "must_coverage": "2/2",
+  "summary": "工具识别出了丧亲风险，三条都避开了欢快语气、产品和串线催问，克制得体。主要问题是三条基调相近、篇幅都很短，第 2、3 条没有点明生日，“愿您安稳”这类空话式祝愿略多，缺少一个更具体的真实细节；另外风险标签写 hold 却又说“照常发”，表述有些矛盾。"
+ },
+ "_judge": "anthropic:claude-sonnet-5-5"
+}

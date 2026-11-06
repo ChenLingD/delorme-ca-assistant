@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 2,
+    "brand_voice": 4,
+    "naturalness": 4,
+    "effectiveness": 2
+   },
+   "sendability": "小改可发",
+   "comment": "回应得简短尊重，但只有理解，没有提出其他选择的方向。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "将客户答谢活动说成在年会之后，输入未说明两者的先后顺序。",
+    "context_failure": "没有回应超预算的顾虑，而是继续强调原款适合客户。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 1
+   },
+   "sendability": "不可用",
+   "comment": "虽然引用了佩戴场景和冷白光泽，却说错未经确认的时间顺序，也回避了预算问题。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 4,
+    "naturalness": 3,
+    "effectiveness": 4
+   },
+   "sendability": "直接可发",
+   "comment": "尊重预算并提出查询同系列其他尺寸或戴法，虽然价格政策略显生硬，但没有编造现有款式。"
+  }
+ ],
+ "set": {
+  "diversity": 4,
+  "risk_judgement": "偏松",
+  "best_index": 3,
+  "must_coverage": "2/2",
+  "summary": "候选 3 最接近目标：守住价格并提出其他选择的方向，但具体款式仍需确认。工具将整体风险判为无，忽略了候选 2 编造活动先后顺序且未回应预算顾虑的问题。"
+ },
+ "_judge": "openai:gpt-6.1-terra"
+}

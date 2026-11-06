@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "轻微：资料只说明合作由公关部对接、门店不能承诺赠送，不足以断言品牌没有合作赠送机制；备注也未提示这一概括。",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 4,
+    "naturalness": 3,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "回应简洁且礼貌，但对合作机制说得过满，应改为门店无法承诺合作或赠送。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 5,
+    "brand_voice": 4,
+    "naturalness": 4,
+    "effectiveness": 4
+   },
+   "sendability": "直接可发",
+   "comment": "统一定价和门店权限交代清楚，也自然接住了客户对金珠的喜爱；结尾可再简短些。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "轻微：将达人价表述为门店没有权限，可能让客户误以为其他部门有权给予达人价。",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "轻微：没有明确说明品牌统一定价，未充分回应客户的达人价诉求。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 4,
+    "naturalness": 4,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "公关对接和自然光试戴切入得体，但应把达人价改为统一定价的政策口径。"
+  }
+ ],
+ "set": {
+  "diversity": 4,
+  "risk_judgement": "正确",
+  "best_index": 2,
+  "must_coverage": "2/2",
+  "summary": "三条分别采用简洁回应、作品细节和再次试戴的切入方式，候选 2 最完整地守住政策与关系。主要问题是候选 1 对合作机制断言过满，候选 3 则容易把达人价误解为门店权限问题。"
+ },
+ "_judge": "openai:gpt-6.1-terra"
+}

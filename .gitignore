@@ -1,0 +1,12 @@
+.venv/
+__pycache__/
+.env
+*.pyc
+*.pdf
+runs/raw/
+.streamlit/secrets.toml
+.claude/
+
+# submission bundle (sent privately)
+deliverables/*.zip
+deliverables/Delorme_submission.*

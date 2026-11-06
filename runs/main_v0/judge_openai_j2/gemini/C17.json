@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "严重：目录中没有沧海珍珠细手链或小珍珠戒指，不能作为现有作品推荐。",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 1
+   },
+   "sendability": "不可用",
+   "comment": "抓住了客户常戴珍珠耳钉的偏好，但推荐的两件作品均不在目录中。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "严重：目录中没有所述玫瑰金白珠戒指；CA正在看沧海新图稿也没有依据。",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 1
+   },
+   "sendability": "不可用",
+   "comment": "搭配已有吊坠的思路贴合客户，但编造作品和CA当前行为，不能发送。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "轻微：拟推荐两三件作品，可能超出一次最多推荐一件及一件备选的规范。",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "轻微：客户已主动请求推荐，消息却没有给出具体作品，还无依据地将选择限定为手链或戒指。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 2
+   },
+   "sendability": "小改可发",
+   "comment": "了解品类倾向可以，但更好的回应是直接推荐一件符合她珍珠偏好的目录作品。"
+  }
+ ],
+ "set": {
+  "diversity": 3,
+  "risk_judgement": "偏松",
+  "best_index": 3,
+  "must_coverage": "1/1",
+  "summary": "三条都围绕客户偏好展开，也没有提及付款人或预算来源，但候选3尚未给出具体推荐。最主要的问题是前两条编造了目录中不存在的作品，工具将整体风险判断为无明显偏松。"
+ },
+ "_judge": "openai:gpt-6.1-terra"
+}

@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 5,
+    "brand_voice": 4,
+    "naturalness": 4,
+    "effectiveness": 5
+   },
+   "sendability": "直接可发",
+   "comment": "关心礼物是否受喜爱，并给出一条实用保养提示；“平时佩戴顺便提一句”略不顺口。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "轻微：客户说要自己写卡片、会讲吊扣故事，但记录未确认已经写好或讲给女友听；“常戴光泽会更好”也缺乏依据。",
+    "context_failure": "轻微：主要问女友是否喜欢故事，没有直接关心她是否喜欢吊坠。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 3,
+    "naturalness": 2,
+    "effectiveness": 2
+   },
+   "sendability": "小改可发",
+   "comment": "细节虽贴近客户，却把未确认的事说成已发生，保养建议也需删改。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "轻微：客户十分钟内决定购买，不等于当时走得匆忙或因此没来得及刻字。",
+    "context_failure": "轻微：只问佩戴习惯，未问女友是否喜欢，也未按 CA 要求提珍珠保养。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 2
+   },
+   "sendability": "小改可发",
+   "comment": "免费刻字是可用的固定服务，但应去掉臆测原因，并补上喜好询问和保养提示。"
+  }
+ ],
+ "set": {
+  "diversity": 4,
+  "risk_judgement": "偏松",
+  "best_index": 1,
+  "must_coverage": "3/3",
+  "summary": "三条分别从简短关怀、礼物故事和服务提示切入，候选 1 最贴合本次要求。整体风险判断偏松：候选 2 和 3 均有未经确认的细节，且没有完整回应 CA 的跟进意图。"
+ },
+ "_judge": "openai:gpt-6.1-terra"
+}

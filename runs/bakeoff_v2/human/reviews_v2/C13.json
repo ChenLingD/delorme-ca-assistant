@@ -1,0 +1,52 @@
+{
+  "gflags": {
+    "C": [
+      "similar"
+    ]
+  },
+  "note": "",
+  "ranks": {
+    "A": 3,
+    "B": 2,
+    "C": 1,
+    "D": 2
+  },
+  "send": {
+    "A1": "send",
+    "A2": "no",
+    "A3": "edit",
+    "B1": "no",
+    "B2": "send",
+    "B3": "send",
+    "C1": "send",
+    "C2": "send",
+    "C3": "send",
+    "D1": "no",
+    "D2": "send",
+    "D3": "send"
+  },
+  "tags": {
+    "A2": [
+      "template"
+    ],
+    "A3": [
+      "pushy",
+      "template",
+      "context"
+    ],
+    "B1": [
+      "template",
+      "context"
+    ],
+    "B2": [
+      "fabricate"
+    ],
+    "C1": [
+      "tone"
+    ],
+    "D1": [
+      "template"
+    ]
+  },
+  "updatedAt": "2026-11-05T10:10:02.751Z"
+}

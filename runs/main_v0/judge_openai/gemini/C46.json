@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "轻微：“工坊养护”暗示养护由工坊提供，资料仅明确维修与改制送巴黎工坊，未说明常规养护由工坊完成。",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 4
+   },
+   "sendability": "小改可发",
+   "comment": "接住了比价和传承的心意，但略长；建议将“工坊养护”改为有明确依据的清洗或串线服务。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "严重：目录未说明这串项链的珍珠经过逐颗挑选配对，也未提供每颗珠子的皮光和伴色都不同的依据，却将其作为具体卖点。",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 2,
+    "naturalness": 2,
+    "effectiveness": 2
+   },
+   "sendability": "不可用",
+   "comment": "虽然呼应了传承和官方保障，但虚构工艺细节，且“温润感最踏实”等表达偏广告化。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 4,
+    "naturalness": 4,
+    "effectiveness": 4
+   },
+   "sendability": "直接可发",
+   "comment": "平静说明证书、联保和串线服务，也留出了商量空间；措辞可再精简一些。"
+  }
+ ],
+ "set": {
+  "diversity": 2,
+  "risk_judgement": "偏松",
+  "best_index": 3,
+  "must_coverage": "2/2",
+  "summary": "三条都尝试以官方保障回应比价，候选3最稳妥，但整体切入角度和结尾较相似。候选2编造了珍珠挑选配对等细节，工具的“无风险”判断偏松。"
+ },
+ "_judge": "openai:gpt-6.1-terra"
+}

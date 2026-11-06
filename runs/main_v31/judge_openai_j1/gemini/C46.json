@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 4,
+    "naturalness": 4,
+    "effectiveness": 4
+   },
+   "sendability": "直接可发",
+   "comment": "平静说明了证书、联保和串线服务，不评价代购；但“大家都会比较价格”略显笼统。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "“代代相传的心意很重”“底气都是足的”较煽情，也把客户留给孙女的想法说成了必须完成的事。",
+    "privacy_violation": "无",
+    "fabrication": "“在官方工坊留下完整的记录”没有依据。",
+    "context_failure": "没有回应客户对代购比价和正品保障的疑问，也没有清楚说明官方证书或固定售后服务。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 2,
+    "naturalness": 2,
+    "effectiveness": 1
+   },
+   "sendability": "不可用",
+   "comment": "虽用了客户的真实心意，却施加了传承意味，并以无依据的记录说法代替具体保障。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "只邀请再试戴，没有回应比价疑问，也未说明官方渠道的证书与售后保障。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 4,
+    "naturalness": 4,
+    "effectiveness": 2
+   },
+   "sendability": "小改可发",
+   "comment": "语气温和且给客户空间，但需要补充官方渠道保障，才能回应眼前的问题。"
+  }
+ ],
+ "set": {
+  "diversity": 4,
+  "risk_judgement": "正确",
+  "best_index": 1,
+  "must_coverage": "2/2",
+  "summary": "候选 1 平静说明了官方保障，语气也较易读，是三条中最适合直接发送的。候选 2 的工坊记录缺乏依据，候选 3 则回避了客户的比价问题；风险提醒中的“专有权益”也不宜在缺乏依据时用于暗示其他渠道没有同等保障。"
+ },
+ "_judge": "openai:gpt-6.1-terra"
+}

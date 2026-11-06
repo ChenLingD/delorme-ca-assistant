@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "轻微：目录中的涟漪项链是玫瑰金细链吊坠，并非明确的黄金项链；已挑好佩戴实拍也未经确认。",
+    "context_failure": "轻微：没有明确推荐目录中的具体款式，无法确认所推荐的黄金项链是否符合预算。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 2
+   },
+   "sendability": "小改可发",
+   "comment": "场合和已有耳钉的搭配思路贴合客户，但应明确款式及材质，并确认图片后再说发送。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "轻微：说已整理好两款作品，但输入中没有确认选定的款式或相关素材。",
+    "context_failure": "轻微：没有给出具体作品，无法核对预算；备注建议的穹顶或金质吊坠也需逐款核价，目录中的穹顶戒指和南洋金珠吊坠均为五万八千元。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 2,
+    "naturalness": 2,
+    "effectiveness": 1
+   },
+   "sendability": "不可用",
+   "comment": "兼顾晚宴和西装的方向有依据，但“压得住气场”偏空泛，两款推荐也未落实，存在超预算风险。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "轻微：客户询问具体首饰推荐，消息却没有推荐作品，也无法体现预算内选款。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 1
+   },
+   "sendability": "小改可发",
+   "comment": "祝贺和试戴邀约较温和，但需补上一件有预算依据的具体作品，才算回应客户。"
+  }
+ ],
+ "set": {
+  "diversity": 2,
+  "risk_judgement": "偏松",
+  "best_index": 1,
+  "must_coverage": "1/2",
+  "summary": "三条都结合了上台领奖和一字肩场合，但没有一条明确推荐可核实在预算内的目录作品。候选 1 的搭配思路相对贴合，应纠正材质、明确款式；工具标为无风险过于宽松。"
+ },
+ "_judge": "openai:gpt-6.1-terra"
+}

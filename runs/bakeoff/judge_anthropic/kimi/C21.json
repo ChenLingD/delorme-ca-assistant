@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 4,
+    "naturalness": 4,
+    "effectiveness": 4
+   },
+   "sendability": "直接可发",
+   "comment": "正面接住“质量就这样”的质疑，道歉、免费抛光、周二到周日在店、公司取件都有，也不归责；只缺“约40分钟”这个具体时长，对性子急的客户略可惜。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 4,
+    "naturalness": 4,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "简短，免费抛光、周二到周日、约40分钟都说清了，也不说教；但“让您操心了”对“质量就这样”的质疑接得偏轻，还漏了上门取件的选项，建议把致歉改得更直接并补上取件。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 4,
+    "naturalness": 4,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "“我来跑这一趟”的主动担当让人安心，也不推卸；但没有给出师傅在店时间和约40分钟，缺少明确时间，客户不知道何时能解决，需补上。"
+  }
+ ],
+ "set": {
+  "diversity": 3,
+  "risk_judgement": "正确",
+  "best_index": 1,
+  "must_coverage": "3/3（整组合计；候选1基本做齐，候选2、3各缺一部分）",
+  "summary": "三条都能先道歉、给免费抛光、不归责，也没提她的工作环境或推新品，未触红线，且避开了“周一师傅在店”的时间陷阱。主要问题是差异偏小，都是“道歉＋免费抛光”的变体，且没有一条把质疑回应、40分钟和取件三件事都放齐；候选1最完整，补上约40分钟即可发。"
+ },
+ "_judge": "anthropic:claude-sonnet-5-5"
+}

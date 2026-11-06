@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "“平时工作忙碌”没有档案或聊天记录支持。",
+    "context_failure": "建议今晚和家人放松，预设了客户的节日安排，略显越界。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "吊坠一周年的切入自然，删去对工作状态和今晚安排的推测会更得体。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "未经确认就说“随时”可清洗，并承诺几分钟恢复光泽；固定服务并未授权这些具体安排。",
+    "privacy_violation": "无",
+    "fabrication": "超声波清洗方式、几分钟的时长及清洗效果均无依据。",
+    "context_failure": "节日祝福很快转为到店服务建议，偏离了以祝福本身为目的的场景。",
+    "must_not_hit": "无；免费清洗是固定售后服务，并非推新品或活动。"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 2,
+    "naturalness": 2,
+    "effectiveness": 2
+   },
+   "sendability": "不可用",
+   "comment": "服务本身可以介绍，但不宜借节日主动引导到店，更不能编造清洗安排和效果。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 4,
+    "naturalness": 4,
+    "effectiveness": 4
+   },
+   "sendability": "直接可发",
+   "comment": "平安夜问候简短自然，回顾去年挑选吊坠也没有借机推销。"
+  }
+ ],
+ "set": {
+  "diversity": 2,
+  "risk_judgement": "偏松",
+  "best_index": 3,
+  "must_coverage": "2/2",
+  "summary": "候选3轻松得体，不推新品，能完成本场景目标；三条都围绕去年购买的吊坠，切入角度较接近。工具未识别候选2未经确认的清洗方式、时长及效果承诺，整体风险判断偏松。"
+ },
+ "_judge": "openai:gpt-6.1-terra"
+}

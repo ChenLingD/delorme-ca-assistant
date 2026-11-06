@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 2,
+    "brand_voice": 4,
+    "naturalness": 4,
+    "effectiveness": 4
+   },
+   "sendability": "直接可发",
+   "comment": "两句话，正式、克制，完全贴合这位极少回复、不喜欢被打扰的客户，也符合周敏偏正式的风格；缺点是除了称呼没有任何个人细节，“被记得”的感觉偏弱。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "把生日祝福牵回五个月前的清洗和串线售后，带出了她的作品，与工具自己风险提示里“不带作品”的要求相悖；她当时只回了“好”，这句也容易变成一条需要回应的售后回访",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 2
+   },
+   "sendability": "小改可发",
+   "comment": "扣头一事确有出处，不算编造；但祝福里夹带作品和售后，违背“祝福本身就是目的”和“不带产品”，还比另外两条长。删去扣头那一句基本就成了候选 1。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 4,
+    "naturalness": 4,
+    "effectiveness": 4
+   },
+   "sendability": "直接可发",
+   "comment": "用节气和一句体贴的话带出温度，仍然简短、不带产品、不带邀约，符合场景里“天气或节气”的切入。“多添一件”略带叮嘱口吻，对正式客户稍近了一点，但不失礼。"
+  }
+ ],
+ "set": {
+  "diversity": 3,
+  "risk_judgement": "正确",
+  "best_index": 3,
+  "must_coverage": "2/2（候选 1、3 完全做到；候选 2 的“不带产品”只做到一半）",
+  "summary": "风险判断准确：只发一条、不追发、不借祝福引向作品或邀约，三条也都没有碰礼物、到店这些红线。主要问题是三条的祝福句式相近（“安稳顺遂/顺意”），候选 2 又违背了工具自己提出的“不带作品”，导致三条里真正可用的实质只有两种写法，切入差异不够。"
+ },
+ "_judge": "anthropic:claude-sonnet-5-5"
+}

@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无。日期、地点、“首次公开”“1920年代上海珍珠手绘图稿原件”“每场8位”均来自活动资料。“较清静的时段”只说“再向店内确认”，没有承诺。",
+    "context_failure": "无",
+    "must_not_hit": "无。“每场8位”只是陈述规模，没有“先到先得”的压力。"
+   },
+   "scores": {
+    "personalization": 5,
+    "brand_voice": 4,
+    "naturalness": 4,
+    "effectiveness": 5
+   },
+   "sendability": "直接可发",
+   "comment": "开头直接兑现九月“有图稿请告诉我”的约定，信息准确，又自然带出CA想约清静时段的意图。语气正式，符合Grace和沈女士的沟通习惯。略长，也没提她自己的沧海作品。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无。只是信息过少，对回复慢的客户会多绕一轮。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 4,
+    "naturalness": 5,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "是策略允许的轻量邀请，很像真人。但没写活动名、日期，也没提清静时段，没完成CA的要求。沈女士隔天才回，建议至少补上日期。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无。图稿原件、串线师演示、下午茶、每场8位、日期地点均来自活动资料。",
+    "context_failure": "无",
+    "must_not_hit": "无。“这次不方便，也没有关系”给了退路。"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 4,
+    "naturalness": 3,
+    "effectiveness": 4
+   },
+   "sendability": "小改可发",
+   "comment": "体验描述清楚，也给了退路，小场的感觉到位。但没有明确呼应九月的约定，“我想您会愿意慢慢看……也可看……”读起来像活动介绍，建议加一句“您九月提过的图稿”。"
+  }
+ ],
+ "set": {
+  "diversity": 4,
+  "risk_judgement": "正确",
+  "best_index": 1,
+  "must_coverage": "2/3",
+  "summary": "三条均无红线问题，事实准确，没有施压，也没有把清静时段说成承诺。最大的不足是都没有明确连接她自己的珍珠收藏（沧海耳钉、项链、金珠吊坠或母亲的老Akoya），“与珍珠收藏关联”只靠图稿主题间接实现。另外候选2信息太少，候选3没有呼应九月之约。"
+ },
+ "_judge": "anthropic:claude-sonnet-5-5"
+}

@@ -1,0 +1,343 @@
+{
+ "case_id": "C04",
+ "version": "v4",
+ "model": "gemini:gemini-3.8-flash",
+ "risk": {
+  "level": "ok",
+  "flags": [],
+  "advice": ""
+ },
+ "candidates": [
+  {
+   "text": "何女士，平安夜快乐。愿您今晚过得轻松惬意，度过一个温暖的节日。",
+   "strategy": "极简节日问候",
+   "note_for_ca": "称呼已更正为“何女士”。删去了关于年底忙碌的铺垫，纯粹干净、毫无压力。在时隔8个月未联络时发送最稳妥，绝无打扰感；取舍在于没有带入专属记忆点，略显常规。"
+  },
+  {
+   "text": "何女士，平安夜快乐。想起去年这个时候正好是您挑中那条涟漪吊坠，不知不觉已经陪伴您一整年了。愿今晚温馨从容。",
+   "strategy": "带入一年陪伴",
+   "note_for_ca": "称呼已更正为“何女士”。自然带入一年前升职购入吊坠的时间节点，既有专属感又体现长久陪伴的品牌温度。取舍在于若客户近期佩戴变少，可能会有一点点心理负担。"
+  },
+  {
+   "text": "何女士，平安夜快乐。岁末手头的节奏往往最是紧凑，今天下班后好好犒劳一下自己，度过一个舒服放松的夜晚。",
+   "strategy": "关注职场岁末",
+   "note_for_ca": "称呼已更正为“何女士”。结合职场岁末节奏，从“犒赏自己”的心境切入，容易引起职场人共鸣；与草稿1拉开了明显差异。取舍在于关怀度稍显亲近，适合CA根据熟悉感决定是否选用。"
+  }
+ ],
+ "checks": [
+  {
+   "pass": true,
+   "hard": [],
+   "soft": [],
+   "length": 31
+  },
+  {
+   "pass": true,
+   "hard": [],
+   "soft": [],
+   "length": 53
+  },
+  {
+   "pass": true,
+   "hard": [],
+   "soft": [],
+   "length": 50
+  }
+ ],
+ "trace": {
+  "rounds": [
+   {
+    "rule_checks": [
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 37
+     },
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 50
+     },
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 45
+     }
+    ],
+    "critic": {
+     "reviews": [
+      {
+       "index": 1,
+       "pass": true,
+       "issues": []
+      },
+      {
+       "index": 2,
+       "pass": true,
+       "issues": []
+      },
+      {
+       "index": 3,
+       "pass": false,
+       "issues": [
+        "提及了客户未在聊天中主动分享过的内部档案信息：聊天记录中客户从未提及自己在‘外企’工作，直接说‘岁末外企节奏往往最忙’会让客户感到被背景调查或隐私被窥探，违反‘不提及客户不知道我们记录了的信息’原则。建议将‘外企节奏’改为更自然、普适的‘职场/年末节奏’或‘年底工作’。"
+       ]
+      }
+     ],
+     "set_issues": []
+    },
+    "to_fix": {
+     "3": [
+      "提及了客户未在聊天中主动分享过的内部档案信息：聊天记录中客户从未提及自己在‘外企’工作，直接说‘岁末外企节奏往往最忙’会让客户感到被背景调查或隐私被窥探，违反‘不提及客户不知道我们记录了的信息’原则。建议将‘外企节奏’改为更自然、普适的‘职场/年末节奏’或‘年底工作’。"
+     ]
+    }
+   },
+   {
+    "rule_checks": [
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 37
+     },
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 50
+     },
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 48
+     }
+    ],
+    "critic": {
+     "reviews": [
+      {
+       "index": 1,
+       "pass": false,
+       "issues": [
+        "称呼规范问题：品牌手册第 3 节规定默认称呼为“姓 + 女士 / 先生”，草稿使用了“何小姐”，建议调整为“何女士”。"
+       ]
+      },
+      {
+       "index": 2,
+       "pass": false,
+       "issues": [
+        "称呼规范问题：品牌手册第 3 节规定默认称呼为“姓 + 女士 / 先生”，草稿使用了“何小姐”，建议调整为“何女士”。"
+       ]
+      },
+      {
+       "index": 3,
+       "pass": false,
+       "issues": [
+        "称呼规范问题：品牌手册第 3 节规定默认称呼为“姓 + 女士 / 先生”，草稿使用了“何小姐”，建议调整为“何女士”。"
+       ]
+      }
+     ],
+     "set_issues": [
+      {
+       "indices": [
+        1,
+        3
+       ],
+       "issue": "草稿 1 与草稿 3 切入角度高度重合：两者均从“年底/岁末手头事情多、工作节奏忙碌”切入，落脚点也都是“今晚/下班后好好放松过节”，只是措辞微调，未形成让 CA 产生真正取舍的差异。建议将草稿 1 彻底收敛为一到两句纯粹干净的极简节日祝福（不铺垫职场忙碌），或将草稿 3 替换为结合其他生活细节/轻提醒品牌冬季保养服务的不同方向。"
+      }
+     ]
+    },
+    "to_fix": {
+     "1": [
+      "称呼规范问题：品牌手册第 3 节规定默认称呼为“姓 + 女士 / 先生”，草稿使用了“何小姐”，建议调整为“何女士”。"
+     ],
+     "2": [
+      "称呼规范问题：品牌手册第 3 节规定默认称呼为“姓 + 女士 / 先生”，草稿使用了“何小姐”，建议调整为“何女士”。"
+     ],
+     "3": [
+      "称呼规范问题：品牌手册第 3 节规定默认称呼为“姓 + 女士 / 先生”，草稿使用了“何小姐”，建议调整为“何女士”。",
+      "与其他候选雷同：草稿 1 与草稿 3 切入角度高度重合：两者均从“年底/岁末手头事情多、工作节奏忙碌”切入，落脚点也都是“今晚/下班后好好放松过节”，只是措辞微调，未形成让 CA 产生真正取舍的差异。建议将草稿 1 彻底收敛为一到两句纯粹干净的极简节日祝福（不铺垫职场忙碌），或将草稿 3 替换为结合其他生活细节/轻提醒品牌冬季保养服务的不同方向。"
+     ]
+    }
+   },
+   {
+    "rule_checks": [
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 31
+     },
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 53
+     },
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 50
+     }
+    ],
+    "critic": {
+     "reviews": [
+      {
+       "index": 1,
+       "pass": true,
+       "issues": []
+      },
+      {
+       "index": 2,
+       "pass": true,
+       "issues": []
+      },
+      {
+       "index": 3,
+       "pass": true,
+       "issues": []
+      }
+     ],
+     "set_issues": []
+    },
+    "to_fix": {}
+   }
+  ],
+  "plan": {
+   "client_read": "务实且懂得犒赏自己的外企职场女性，对品牌抱有好感且与李婷互动自然，最在意真诚克制、不被推销打扰的分寸感。",
+   "risk": {
+    "level": "ok",
+    "flags": [],
+    "advice": ""
+   },
+   "key_choice": "时隔8个月未联系，是发一条极简纯粹的平安夜问候，还是自然唤起吊坠陪伴满一年的温度？",
+   "directions": [
+    {
+     "label": "极简节日问候",
+     "idea": "两句话送上平安夜与岁末问候，干净温和，不施加任何回复压力。",
+     "tradeoff": "最克制得体，绝无打扰感；但缺少专属记忆点。"
+    },
+    {
+     "label": "带入一年陪伴",
+     "idea": "温和提及那条涟漪吊坠不知不觉已陪伴她整整一年，祝愿岁末平安喜乐。",
+     "tradeoff": "很有品牌专属陪伴感，唤起去年升职犒赏的美好回忆；若客户近期佩戴变少可能会有一丝心理负担。"
+    },
+    {
+     "label": "关注职场岁末",
+     "idea": "结合外企年末节奏，道一声辛苦，祝愿平安夜能放下忙碌、惬意度过。",
+     "tradeoff": "贴近职场人心境，容易引起共鸣；但分寸要把握好，不能显得过度刺探或假装熟络。"
+    }
+   ],
+   "ca_commitments": [],
+   "usable_facts": [
+    "今天是2026年12月24日平安夜",
+    "客户于2025年12月购入涟漪玫瑰金细链吊坠，至今刚好一年",
+    "客户此前反馈吊坠基本天天戴",
+    "CA为成都太古里精品店李婷"
+   ],
+   "do_not_mention": [
+    "推销任何新作品或活动",
+    "曾看过耳钉但超预算未买的事",
+    "客户消费金额、入门阶段等内部标签",
+    "未承诺的节日礼品或到店邀约",
+    "具体天气或气温描述"
+   ],
+   "products": []
+  },
+  "first_draft": [
+   {
+    "text": "何小姐，平安夜快乐。年底各项事情大概不少，祝您今晚过得轻松惬意，节日愉快。",
+    "strategy": "极简节日问候",
+    "note_for_ca": "最干净、毫无压力的节日问候。8个月未联络时发送最稳妥，不会显得过分热情；但没有带入作品记忆点，略显常规。"
+   },
+   {
+    "text": "何小姐，平安夜快乐。想起去年这个时候正好是您挑中那条涟漪吊坠，不知不觉陪您一整年了。愿今晚温馨从容。",
+    "strategy": "带入一年陪伴",
+    "note_for_ca": "自然带入一年前升职购入作品的时间节点，既有专属感又体现长久陪伴的温度。若客户近期已经不常佩戴，可能会有一点点心理负担。"
+   },
+   {
+    "text": "何小姐，平安夜快乐。岁末外企节奏往往最忙，今天下班后好好犒劳一下自己，度过一个舒服的夜晚。",
+    "strategy": "关注职场岁末",
+    "note_for_ca": "从外企职场人的年末状态切入，像一位懂行的朋友道一声辛苦，容易唤起共鸣；但略偏向个人生活关怀，需根据平时对话的熟络感把握。"
+   }
+  ],
+  "seconds": 88.6,
+  "diversity_max_sim": 0.13333333333333333,
+  "calls": [
+   {
+    "requested": "gemini-3.8-flash",
+    "served": "gemini-3.8-flash",
+    "seconds": 19.4,
+    "attempt": 1,
+    "in_tokens": 5398,
+    "out_tokens": 550,
+    "reasoning_tokens": null,
+    "fingerprint": null
+   },
+   {
+    "requested": "gemini-3.8-flash",
+    "served": "gemini-3.8-flash",
+    "seconds": 7.4,
+    "attempt": 1,
+    "in_tokens": 4485,
+    "out_tokens": 336,
+    "reasoning_tokens": null,
+    "fingerprint": null
+   },
+   {
+    "requested": "gemini-3.8-flash",
+    "served": "gemini-3.8-flash",
+    "seconds": 13.4,
+    "attempt": 1,
+    "in_tokens": 4451,
+    "out_tokens": 198,
+    "reasoning_tokens": null,
+    "fingerprint": null
+   },
+   {
+    "requested": "gemini-3.8-flash",
+    "served": "gemini-3.8-flash",
+    "seconds": 8.4,
+    "attempt": 1,
+    "in_tokens": 4923,
+    "out_tokens": 157,
+    "reasoning_tokens": null,
+    "fingerprint": null
+   },
+   {
+    "requested": "gemini-3.8-flash",
+    "served": "gemini-3.8-flash",
+    "seconds": 17.8,
+    "attempt": 1,
+    "in_tokens": 4476,
+    "out_tokens": 395,
+    "reasoning_tokens": null,
+    "fingerprint": null
+   },
+   {
+    "requested": "gemini-3.8-flash",
+    "served": "gemini-3.8-flash",
+    "seconds": 11.9,
+    "attempt": 1,
+    "in_tokens": 5268,
+    "out_tokens": 418,
+    "reasoning_tokens": null,
+    "fingerprint": null
+   },
+   {
+    "requested": "gemini-3.8-flash",
+    "served": "gemini-3.8-flash",
+    "seconds": 10.3,
+    "attempt": 1,
+    "in_tokens": 4509,
+    "out_tokens": 101,
+    "reasoning_tokens": null,
+    "fingerprint": null
+   }
+  ]
+ }
+}

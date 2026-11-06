@@ -1,0 +1,173 @@
+{
+ "case_id": "C13",
+ "version": "v3",
+ "model": "gemini:gemini-3.8-flash",
+ "risk": {
+  "level": "ok",
+  "flags": [],
+  "advice": ""
+ },
+ "candidates": [
+  {
+   "text": "罗先生，1.5 克拉相比 1 克拉，台面直径会大出近 1 毫米，上手视觉饱满度确实更明显。关于手寸不用担心，德洛姆有一年内免费改圈一次的固定服务，求婚时一般先按常规手寸制作，事后再带她来店里量身微调就好。",
+   "strategy": "极简",
+   "note_for_ca": "直接解答尺寸差异与改圈服务，清晰干脆"
+  },
+  {
+   "text": "罗先生，誓约系列用的是悬浮镶嵌，光线从侧面也能完全透进来，1 克拉在视觉上已经相当有体量。想保持求婚的惊喜感，可以先按大众手寸做，之后一年内我们提供一次免费改圈，完全不影响那刻的心意。",
+   "strategy": "走心",
+   "note_for_ca": "结合悬浮镶工艺细节与求婚惊喜心意，打消尺寸顾虑"
+  },
+  {
+   "text": "罗先生，手寸方面如果她平时有戴戒指的习惯，可以趁机拿一枚在她中指或无名指上的戒指，在纸上画出内圈轮廓，我帮您推算。另外 1 克拉和 1.5 克拉的上手效果，我拍两段自然光下的实戴视频给您看看？",
+   "strategy": "推进",
+   "note_for_ca": "给出测圈实操技巧，并提议发对比视频推进决策"
+  }
+ ],
+ "checks": [
+  {
+   "pass": true,
+   "hard": [],
+   "soft": [],
+   "length": 97
+  },
+  {
+   "pass": true,
+   "hard": [],
+   "soft": [],
+   "length": 91
+  },
+  {
+   "pass": true,
+   "hard": [],
+   "soft": [],
+   "length": 92
+  }
+ ],
+ "trace": {
+  "rounds": [
+   {
+    "rule_checks": [
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 97
+     },
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 91
+     },
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 92
+     }
+    ],
+    "critic": {
+     "reviews": [
+      {
+       "index": 1,
+       "pass": true,
+       "issues": []
+      },
+      {
+       "index": 2,
+       "pass": true,
+       "issues": []
+      },
+      {
+       "index": 3,
+       "pass": true,
+       "issues": []
+      }
+     ],
+     "set_issues": []
+    },
+    "set_issues": [],
+    "to_fix": {}
+   }
+  ],
+  "plan": {
+   "client_read": "罗先生是一位心思细致、正在认真准备求婚的专业人士，对工艺与实物细节关注度高。目前处于初次到店后的关键跟进阶段，正主动咨询规格对比与保密测圈方案。",
+   "risk": {
+    "level": "ok",
+    "flags": [],
+    "advice": ""
+   },
+   "ca_commitments": [],
+   "usable_facts": [
+    "正在考虑誓约单钻戒指，预算约15万",
+    "想给女友惊喜，需要保密戒圈尺寸",
+    "想了解1克拉与1.5克拉在视觉上的实际差异"
+   ],
+   "do_not_mention": [
+    "客户职业及女友职业等未在聊天中主动提及的档案信息",
+    "客户未购买的内部标签或消费门槛",
+    "保值、升值等投资性承诺"
+   ],
+   "products": [
+    "SER-R01"
+   ],
+   "slots": {
+    "极简": "直接解答1克拉与1.5克拉的视觉差异，并说明品牌提供的一年内免费改圈服务，打消尺寸顾虑。",
+    "走心": "结合誓约悬浮镶的工艺特点（显大且透光），告知求婚可先选标准手寸并在一年内免费调整，安心保留惊喜感。",
+    "推进": "发两款不同克拉的上手对比视频，或建议他悄悄借女友平时戴在无名指或中指的戒指来店里比对。"
+   }
+  },
+  "first_draft": [
+   {
+    "text": "罗先生，1.5 克拉相比 1 克拉，台面直径会大出近 1 毫米，上手视觉饱满度确实更明显。关于手寸不用担心，德洛姆有一年内免费改圈一次的固定服务，求婚时一般先按常规手寸制作，事后再带她来店里量身微调就好。",
+    "strategy": "极简",
+    "note_for_ca": "直接解答尺寸差异与改圈服务，清晰干脆"
+   },
+   {
+    "text": "罗先生，誓约系列用的是悬浮镶嵌，光线从侧面也能完全透进来，1 克拉在视觉上已经相当有体量。想保持求婚的惊喜感，可以先按大众手寸做，之后一年内我们提供一次免费改圈，完全不影响那刻的心意。",
+    "strategy": "走心",
+    "note_for_ca": "结合悬浮镶工艺细节与求婚惊喜心意，打消尺寸顾虑"
+   },
+   {
+    "text": "罗先生，手寸方面如果她平时有戴戒指的习惯，可以趁机拿一枚在她中指或无名指上的戒指，在纸上画出内圈轮廓，我帮您推算。另外 1 克拉和 1.5 克拉的上手效果，我拍两段自然光下的实戴视频给您看看？",
+    "strategy": "推进",
+    "note_for_ca": "给出测圈实操技巧，并提议发对比视频推进决策"
+   }
+  ],
+  "seconds": 34.0,
+  "diversity_max_sim": 0.030864197530864196,
+  "calls": [
+   {
+    "requested": "gemini-3.8-flash",
+    "served": "gemini-3.8-flash",
+    "seconds": 13.2,
+    "attempt": 1,
+    "in_tokens": 5384,
+    "out_tokens": 371,
+    "reasoning_tokens": null,
+    "fingerprint": null
+   },
+   {
+    "requested": "gemini-3.8-flash",
+    "served": "gemini-3.8-flash",
+    "seconds": 9.8,
+    "attempt": 1,
+    "in_tokens": 4728,
+    "out_tokens": 374,
+    "reasoning_tokens": null,
+    "fingerprint": null
+   },
+   {
+    "requested": "gemini-3.8-flash",
+    "served": "gemini-3.8-flash",
+    "seconds": 11.0,
+    "attempt": 1,
+    "in_tokens": 4705,
+    "out_tokens": 102,
+    "reasoning_tokens": null,
+    "fingerprint": null
+   }
+  ]
+ }
+}

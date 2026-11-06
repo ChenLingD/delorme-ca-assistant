@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "严重：活动资料未说有几件蓝宝石作品，也未说明由工坊送来；目录仅列出一件旺多姆之夜蓝宝石项链。",
+    "context_failure": "轻微：未说明需提前一周确认。",
+    "must_not_hit": "严重：编造了蓝宝石作品数量及来源。"
+   },
+   "scores": {
+    "personalization": 5,
+    "brand_voice": 4,
+    "naturalness": 4,
+    "effectiveness": 3
+   },
+   "sendability": "不可用",
+   "comment": "自然接住了客户上次的彩宝需求，也给出日期选择，但须删除无依据的作品数量和来源，并补充确认时间。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "轻微：“很纯正”“很衬您的眼光”偏夸饰和奉承，不够克制。",
+    "privacy_violation": "无",
+    "fabrication": "严重：未有依据称作品由巴黎工坊送来或评价其成色；每场人数资料为2–4位，不能写成只安排两三位；另擅自承诺单独留出时间，备注知情不等于CA已授权该安排。",
+    "context_failure": "轻微：未明确请客户选择日期，也未说明需提前一周确认。",
+    "must_not_hit": "严重：编造作品来源、成色、活动人数及留时安排，并使用夸饰措辞。"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 2,
+    "naturalness": 2,
+    "effectiveness": 2
+   },
+   "sendability": "不可用",
+   "comment": "斯里兰卡蓝宝石与客户兴趣相符，但奉承措辞和未经授权的留时承诺破坏了邀约的可信度。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "严重：活动资料没有说明有几件独一件蓝宝石作品，目录仅列出一件。",
+    "context_failure": "轻微：未说明需提前一周确认，也没有连接客户对彩宝的兴趣。",
+    "must_not_hit": "严重：编造了蓝宝石作品数量。"
+   },
+   "scores": {
+    "personalization": 2,
+    "brand_voice": 4,
+    "naturalness": 4,
+    "effectiveness": 3
+   },
+   "sendability": "不可用",
+   "comment": "日期选择清楚，语气克制，但缺少个人关联，且作品数量无依据。"
+  }
+ ],
+ "set": {
+  "diversity": 3,
+  "risk_judgement": "偏松",
+  "best_index": 1,
+  "must_coverage": "2/3",
+  "summary": "候选1最贴近客户上次的需求，且有私密感和日期选择，但三条都遗漏了提前一周确认。三条均编造作品或活动信息，候选2还擅自承诺留时，因此工具标为“ok；无”明显偏松。"
+ },
+ "_judge": "openai:gpt-6.1-terra"
+}

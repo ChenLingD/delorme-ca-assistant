@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 4,
+    "naturalness": 4,
+    "effectiveness": 5
+   },
+   "sendability": "直接可发",
+   "comment": "直接关心女友是否喜欢，并给出一条实用提示；后半句稍长，但整体自然。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "轻微：“珍珠天然有微孔”和“光泽能保持得最好”缺少给定资料依据；备注将购买吊坠误写为“购表”。",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 5,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 4
+   },
+   "sendability": "小改可发",
+   "comment": "海浪纹呼应了客户挑礼物时的交流，但问细节喜好不如直接问礼物是否喜欢，保养表述也应收敛。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "轻微：品牌固定服务包含清洗和检测，但没有明确“深度清洁”这一服务。",
+    "context_failure": "轻微：只问吊坠长度是否合适，没有按 CA 要求关心女友是否喜欢礼物。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "软布擦拭提示实用，但应先问收礼人的喜好，并将“深度清洁”改为品牌已确认的清洗服务。"
+  }
+ ],
+ "set": {
+  "diversity": 4,
+  "risk_judgement": "偏松",
+  "best_index": 1,
+  "must_coverage": "3/3",
+  "summary": "三条分别从喜好、故事和佩戴服务切入，候选 1 最贴合本次售后关怀。工具的风险判断偏松：候选 2 有无依据的保养表述及备注笔误，候选 3 则遗漏了询问收礼人是否喜欢。"
+ },
+ "_judge": "openai:gpt-6.1-terra"
+}

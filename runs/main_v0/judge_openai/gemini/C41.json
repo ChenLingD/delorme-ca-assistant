@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "严重：以“席位比较有限”制造稀缺感；“我也很有印象”刻意强调记得客户的朋友。",
+    "privacy_violation": "无",
+    "fabrication": "严重：活动资料未说明席位有限；对朋友“很有印象”也没有依据，备注未提示这是社交性说法。",
+    "context_failure": "无",
+    "must_not_hit": "严重：编造了席位有限的活动安排。"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 2,
+    "naturalness": 3,
+    "effectiveness": 2
+   },
+   "sendability": "小改可发",
+   "comment": "接住了闺蜜的话题，但应删除席位有限和强调印象的说法，直接说明会去确认能否携伴。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "轻微：CA 尚未询问店经理，“正在跟店经理沟通”与实际进度不符，备注也未点明。",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 2,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "回应了携伴问题，但应改为“我去跟店经理确认一下”，并去掉“第一时间”以免催促感。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "严重：未经 CA 授权，承诺今天向店经理确认并在有结果后马上回复。",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 2,
+    "brand_voice": 3,
+    "naturalness": 4,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "语气较轻松自然，结合上下文能回应携伴问题，但须删去“今天”和“马上”的承诺。"
+  }
+ ],
+ "set": {
+  "diversity": 2,
+  "risk_judgement": "偏松",
+  "best_index": 3,
+  "must_coverage": "2/2",
+  "summary": "三条都接住了携伴问题并表示需要确认，语气也较轻松，但切入方式相近，没有真正可直接发送的候选。主要问题是候选1编造席位有限，候选2虚报沟通进度，候选3擅自作出时间承诺；工具的“无风险”判断偏松。"
+ },
+ "_judge": "openai:gpt-6.1-terra"
+}

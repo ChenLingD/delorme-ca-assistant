@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "轻微：活动资料未说明作品由工坊送抵、展出几件，也未说明参与者是老朋友；每场人数为2–4位，而非两三位。",
+    "context_failure": "无",
+    "must_not_hit": "轻微：编造了作品运送、数量及参与者等活动信息，并缩小了每场人数范围。"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "自然接续了客户对彩宝的请求，但应核准人数、删去未经证实的细节，并补充提前一周确认。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "严重：“独立的私人鉴赏”“专属时段”暗示可为客户单独安排，与每场2–4位客人的资料不符，且未经授权承诺专属安排。",
+    "privacy_violation": "无",
+    "fabrication": "严重：未经证实便称几件作品从巴黎来京，并暗示两日均有客户专属的独立时段。",
+    "context_failure": "严重：客户只接受私人预约，却把多人场次表述为独立专属鉴赏，可能造成重要误解。",
+    "must_not_hit": "严重：编造了作品数量、来京安排及专属时段等活动信息。"
+   },
+   "scores": {
+    "personalization": 2,
+    "brand_voice": 2,
+    "naturalness": 2,
+    "effectiveness": 2
+   },
+   "sendability": "不可用",
+   "comment": "彩宝切入符合兴趣，但措辞较空泛，专属时段的说法尤其需要纠正，也缺少提前一周确认。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "严重：“独立安排”容易被理解为单独鉴赏，“我为您安排合适的时间段”也超出了已知活动安排。",
+    "privacy_violation": "无",
+    "fabrication": "严重：活动资料未说明展出数件彩宝作品，也未确认可独立安排鉴赏或由CA安排合适时段。",
+    "context_failure": "严重：客户重视私人预约，“独立安排”的表述可能让她误以为不会与其他客人同场。",
+    "must_not_hit": "严重：编造了作品数量、类型及鉴赏安排等活动信息。"
+   },
+   "scores": {
+    "personalization": 2,
+    "brand_voice": 3,
+    "naturalness": 2,
+    "effectiveness": 2
+   },
+   "sendability": "不可用",
+   "comment": "时间和地点清楚，但整体偏正式通知，缺少与客户兴趣的自然连接，也漏了提前一周确认。"
+  }
+ ],
+ "set": {
+  "diversity": 2,
+  "risk_judgement": "偏松",
+  "best_index": 1,
+  "must_coverage": "2/3",
+  "summary": "三条都体现了私密鉴赏并提供日期选择，但都遗漏了提前一周确认，且切入方式不够多样。候选1最贴近客户，但仍需修正人数和未经证实的活动细节；候选2、3则可能误导客户认为可以单独鉴赏。"
+ },
+ "_judge": "openai:gpt-6.1-terra"
+}

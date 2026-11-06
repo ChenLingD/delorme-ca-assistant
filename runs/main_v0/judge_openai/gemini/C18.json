@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 4,
+    "naturalness": 4,
+    "effectiveness": 4
+   },
+   "sendability": "直接可发",
+   "comment": "关心礼物反馈，也提供了实用保养信息；生日过得如何可以省去，消息会更利落。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "轻微：“一直惦念着”情绪偏满，又评价收礼人的气质，不够克制。",
+    "privacy_violation": "无",
+    "fabrication": "轻微：“一直惦念着”和“很衬她的气质”均缺乏依据，备注也未说明是社交修辞；策略还误称购表。",
+    "context_failure": "轻微：策略将购买金珠吊坠误写为购表。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 2,
+    "naturalness": 2,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "工艺细节与免费服务有依据，但应删去过度惦念和对女友气质的判断。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "轻微：聊天记录表明客户打算自己写卡片，但不能确认实际写了；备注也未点明这一不确定性。",
+    "context_failure": "轻微：重点追问卡片心意是否被喜欢，没有明确问女友是否喜欢吊坠。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "保养提醒实用，但应改为直接问收礼人是否喜欢吊坠，避免把计划写卡片说成已发生。"
+  }
+ ],
+ "set": {
+  "diversity": 2,
+  "risk_judgement": "偏松",
+  "best_index": 1,
+  "must_coverage": "1/1",
+  "summary": "三条都以礼物反馈、珍珠保养和到店服务为主线，角度区分有限；候选 1 最稳妥。候选 2 和 3 有未经确认的表述，工具标为无风险偏松。"
+ },
+ "_judge": "openai:gpt-6.1-terra"
+}

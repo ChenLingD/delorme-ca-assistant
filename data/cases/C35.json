@@ -1,0 +1,93 @@
+{
+  "case_id": "C35",
+  "scenario": "event_invitation",
+  "today": "2026-11-20",
+  "occasion": "邀请参加工坊开放日：镶嵌师的一天（12-05）",
+  "ca": {
+    "name": "李静",
+    "gender": "女",
+    "years_experience": 5,
+    "store": "成都太古里精品店",
+    "known_client_since": "2025-09",
+    "style": "适中"
+  },
+  "client": {
+    "surname": "何",
+    "given_name": "致远",
+    "gender": "男",
+    "age_range": "32-36",
+    "city": "成都",
+    "occupation": "AI 视觉检测公司联合创始人兼 CTO",
+    "client_since": "2025-09",
+    "spend_band": "5-30万",
+    "stage": "入门",
+    "last_visit": "2026-08-23",
+    "last_purchase": "2026-08",
+    "wealth_source": "创业",
+    "motivations": [
+      "犒赏自己",
+      "送礼"
+    ],
+    "social_visibility": "适中",
+    "price_sensitivity": "中",
+    "style_preference": "简洁、机械感",
+    "material_preference": "白金、磨砂金属",
+    "owned_pieces": [
+      {
+        "date": "2025-09",
+        "item": "工坊 18K 白金男士戒指",
+        "for_whom": "自戴",
+        "note": "公司 A 轮融资后买给自己的"
+      },
+      {
+        "date": "2026-08",
+        "item": "涟漪 18K 白金手链（三钻）",
+        "for_whom": "送给太太",
+        "note": "太太生日礼物"
+      }
+    ],
+    "sizes": "戒圈 20 号",
+    "formality": "随意",
+    "reply_habit": "回复快，常在深夜回",
+    "recommendation_openness": "一般",
+    "preferred_contact_time": "晚上 9 点以后",
+    "family_notes": "太太是建筑设计师",
+    "interests": [
+      "机械键盘",
+      "显微摄影",
+      "越野跑"
+    ],
+    "notes": "8 月来取手链时一直追问镶爪是怎么做到看不见的、用什么工具、精度多少，说想看看实际操作。对营销话术比较无感，喜欢直接说事。"
+  },
+  "conversation_history": [
+    {
+      "sender": "client",
+      "time": "2026-08-23 22:47",
+      "text": "对了 上次说的那个悬浮镶 公差大概能控制到多少？"
+    },
+    {
+      "sender": "ca",
+      "time": "2026-08-24 10:15",
+      "text": "何先生，具体数据我问了一下，工坊那边说这个主要靠镶嵌师手上功夫，我这边不太好给您准确数字，下次有机会请您直接问师傅。"
+    },
+    {
+      "sender": "client",
+      "time": "2026-08-24 23:02",
+      "text": "行 有机会的话我挺想看现场的"
+    }
+  ],
+  "event_id": "EVT-2612-CD",
+  "ca_request": "想邀请他来开放日，他之前说过想看现场操作",
+  "test_meta": {
+    "persona": "P2",
+    "type": "core",
+    "must": [
+      "突出工艺演示与他兴趣的联系",
+      "简洁直接，符合他不喜欢营销话术的习惯"
+    ],
+    "must_not": [
+      "编造活动内容",
+      "编造技术参数"
+    ]
+  }
+}

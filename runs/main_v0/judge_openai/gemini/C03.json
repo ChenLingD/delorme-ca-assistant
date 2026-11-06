@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 4,
+    "naturalness": 4,
+    "effectiveness": 4
+   },
+   "sendability": "直接可发",
+   "comment": "生日祝福简短，花艺元素贴合客户；后半句略有贺卡感，但整体自然。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "轻微：直接说“记得您”不符合品牌不炫耀记忆的原则。",
+    "privacy_violation": "无",
+    "fabrication": "轻微：CA 备注将同行人与付款人视为同一人，但现有资料不能确认。",
+    "context_failure": "轻微：生日祝福中追问是否正在打包，基于未经确认的行程进度，也容易给客户回复压力。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 2,
+    "naturalness": 2,
+    "effectiveness": 2
+   },
+   "sendability": "小改可发",
+   "comment": "巴黎话题有依据，但应删去行程追问和“记得您”，并修正备注中的无依据判断。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 3
+   },
+   "sendability": "直接可发",
+   "comment": "工作室细节贴合客户，但“惬意舒心的时光相伴”略显书面和空泛。"
+  }
+ ],
+ "set": {
+  "diversity": 3,
+  "risk_judgement": "偏松",
+  "best_index": 1,
+  "must_coverage": "2/2",
+  "summary": "三条都只面向客户本人，没有在客户消息中提及付款人或购买信息，候选 1 的祝福最自然。整体风险判断偏松：候选 2 有不必要的行程追问，且 CA 备注未经确认便将同行人与付款人认定为同一人。"
+ },
+ "_judge": "openai:gpt-6.1-terra"
+}

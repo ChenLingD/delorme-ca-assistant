@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "严重：目录未提供两种克拉数的台面直径，也未说明可按常规手寸制作；“没有传统金属爪遮挡”对悬浮镶的描述过于绝对。",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "回应了预算、尺寸和保密顾虑，但需要删去未经确认的数据及制作安排。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "严重：目录未提供两种克拉数的直径差，也不支持“光线从侧面完整穿透”；“先按常用号做”涉及未经确认的制作安排。",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 4
+   },
+   "sendability": "小改可发",
+   "comment": "画戒圈的方法和改圈服务较实用，但尺寸及工艺表述须改为有依据的说法。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "严重：目录没有1.5克拉的价格，不能断言会超预算较多；“顶级”品质、比一般爪镶更显大及先做标准手寸也缺乏依据。",
+    "context_failure": "轻微：重点转向价格，没有具体回答1克拉与1.5克拉的实际视觉差别。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 2,
+    "naturalness": 2,
+    "effectiveness": 2
+   },
+   "sendability": "不可用",
+   "comment": "多个关键判断缺乏依据，且没有解决客户关于尺寸差异的核心问题。"
+  }
+ ],
+ "set": {
+  "diversity": 2,
+  "risk_judgement": "偏松",
+  "best_index": 2,
+  "must_coverage": "2/2",
+  "summary": "三条都回应了戒圈顾虑，候选2还提供了具体取样方法，但尺寸和工艺描述需要核实。整体角度相近，且均加入了未经确认的产品事实或制作安排，不能判为无风险。"
+ },
+ "_judge": "openai:gpt-6.1-terra"
+}

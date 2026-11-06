@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 4,
+    "naturalness": 3,
+    "effectiveness": 4
+   },
+   "sendability": "小改可发",
+   "comment": "跟进时机和分寸都合适，但“舒适合手”略拗口，可简化为询问佩戴是否舒适。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "严重：目录没有提供“手工锻打修形”、弧度贴腕或配重方面的依据。",
+    "context_failure": "无",
+    "must_not_hit": "严重：编造了未记录的工艺和佩戴细节。"
+   },
+   "scores": {
+    "personalization": 5,
+    "brand_voice": 2,
+    "naturalness": 2,
+    "effectiveness": 1
+   },
+   "sendability": "不可用",
+   "comment": "取用了客户真实关注的工匠记号，但堆入未经证实的细节，不够极简。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "轻微：目录未说明手镯有“暗扣”或使用镶爪，也未明确列出针对这些部位的免费稳固检测；免费清洗和检测本身属于固定服务。",
+    "context_failure": "无",
+    "must_not_hit": "轻微：加入了未记录的结构和检测细节。"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "免费保养的切入适合售后，但应删去未经证实的部件和专项检测描述。"
+  }
+ ],
+ "set": {
+  "diversity": 3,
+  "risk_judgement": "正确",
+  "best_index": 1,
+  "must_coverage": "1/1",
+  "summary": "候选 1 最接近极简售后关怀，风险判断也符合客户不喜被打扰的习惯。主要问题是候选 2 和 3 加入了未经证实的作品细节，其中候选 2 尤其明显。"
+ },
+ "_judge": "openai:gpt-6.1-terra"
+}

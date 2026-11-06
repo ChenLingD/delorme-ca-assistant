@@ -1,0 +1,257 @@
+{
+ "case_id": "C06",
+ "version": "v4",
+ "model": "gemini:gemini-3.8-flash",
+ "risk": {
+  "level": "caution",
+  "flags": [
+   "客户父亲于一个月前（10月下旬）去世，正值守孝沉淀期，心境敏感特殊"
+  ],
+  "advice": "语气须极为克制沉静，避免任何热闹喜庆的用词与emoji，绝不主动提及丧事揭伤疤，也绝不可借机提及项链串线或作品推销。"
+ },
+ "candidates": [
+  {
+   "text": "陆女士，今天是您的生日。祝您生日安好，平顺舒心。",
+   "strategy": "极简克制",
+   "note_for_ca": "字句极短、克制雅致，用“安好”“舒心”代替热闹的喜庆词，最不给客户心理压力。适合希望给予最安全、得体问候的场景。"
+  },
+  {
+   "text": "陆女士，今天是您的生日。愿今天能有一段宁静舒缓的时光陪伴您，祝您生日安康，一切顺遂。",
+   "strategy": "温润寄语",
+   "note_for_ca": "体恤客户近期家中变故后的心境，不提旧事，着眼于当下专属的宁静与安康。措辞温厚，适合想表达更多人文关怀时选用。"
+  },
+  {
+   "text": "陆女士，转眼又到岁末。今天是您的生日，祝您生日安康，愿往后的日子平缓从容、温暖相伴。",
+   "strategy": "长久陪伴",
+   "note_for_ca": "修正了节气事实，改为更普适准确的岁末时序起笔，以相识多年的老朋友姿态传递平静温厚的长久陪伴感。避开了热闹欢庆的字眼，适合在兼顾关怀厚度与分寸感时选用。"
+  }
+ ],
+ "checks": [
+  {
+   "pass": true,
+   "hard": [],
+   "soft": [],
+   "length": 24
+  },
+  {
+   "pass": true,
+   "hard": [],
+   "soft": [],
+   "length": 42
+  },
+  {
+   "pass": true,
+   "hard": [],
+   "soft": [],
+   "length": 42
+  }
+ ],
+ "trace": {
+  "rounds": [
+   {
+    "rule_checks": [
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 24
+     },
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 42
+     },
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 45
+     }
+    ],
+    "critic": {
+     "reviews": [
+      {
+       "index": 1,
+       "pass": true,
+       "issues": []
+      },
+      {
+       "index": 2,
+       "pass": true,
+       "issues": []
+      },
+      {
+       "index": 3,
+       "pass": false,
+       "issues": [
+        "节气事实引用有误：当前系统日历明确显示今天是 11 月 27 日，已过‘小雪’节气 5 天，而草稿中写‘转眼又是一年立冬后’（立冬为 11 月上旬）。在注重文化细节与节气时序的语境下，节气表述不准确会显得不够专业。建议改为‘转眼又是一年岁末’，或直接从相识多年的时序切入，避免错用节气。"
+       ]
+      }
+     ],
+     "set_issues": []
+    },
+    "to_fix": {
+     "3": [
+      "节气事实引用有误：当前系统日历明确显示今天是 11 月 27 日，已过‘小雪’节气 5 天，而草稿中写‘转眼又是一年立冬后’（立冬为 11 月上旬）。在注重文化细节与节气时序的语境下，节气表述不准确会显得不够专业。建议改为‘转眼又是一年岁末’，或直接从相识多年的时序切入，避免错用节气。"
+     ]
+    }
+   },
+   {
+    "rule_checks": [
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 24
+     },
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 42
+     },
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 42
+     }
+    ],
+    "critic": {
+     "reviews": [
+      {
+       "index": 1,
+       "pass": true,
+       "issues": []
+      },
+      {
+       "index": 2,
+       "pass": true,
+       "issues": []
+      },
+      {
+       "index": 3,
+       "pass": true,
+       "issues": []
+      }
+     ],
+     "set_issues": []
+    },
+    "to_fix": {}
+   }
+  ],
+  "plan": {
+   "client_read": "陆女士是低调深厚的资深藏家，一个月前刚经历父亲离世，此刻正处于家庭变故后的沉淀与缓复期。她最在意的是不被打扰的体面、被尊重的分寸感以及不流于俗套的温和关怀。",
+   "risk": {
+    "level": "caution",
+    "flags": [
+     "客户父亲于一个月前（10月下旬）去世，正值守孝沉淀期，心境敏感特殊"
+    ],
+    "advice": "语气须极为克制沉静，避免任何热闹喜庆的用词与emoji，绝不主动提及丧事揭伤疤，也绝不可借机提及项链串线或作品推销。"
+   },
+   "key_choice": "在客户丧亲刚满月的特殊生日节点，是用极简克制的静心问候点到即止，还是送上体恤当下心境、愿其安宁舒心的温润祝愿。",
+   "directions": [
+    {
+     "label": "极简克制",
+     "idea": "一两句极短的生日问候，字句克制淡雅，只祝愿日日安宁顺遂，留足空间与尊严。",
+     "tradeoff": "最安全、最不打扰；但略显常规，对相识六年的关系而言情感厚度相对收敛。"
+    },
+    {
+     "label": "温润寄语",
+     "idea": "体恤当下心境，避开欢庆字眼，真诚祝愿今天有一份专属的宁静、舒心与温暖陪伴。",
+     "tradeoff": "温暖贴心、更具人文关怀；需极其注意措辞分寸，不能流露出刻意安慰或悲伤色彩。"
+    },
+    {
+     "label": "长久陪伴",
+     "idea": "以相识多年的老朋友姿态自然问候，简单祝愿生日安好，传递‘始终在、不打扰’的安静陪伴感。",
+     "tradeoff": "关系承接自然、温厚得体；若拿捏不好容易显得带有轻微社交负担。"
+    }
+   ],
+   "ca_commitments": [],
+   "usable_facts": [
+    "今天（11-27）是陆女士生日",
+    "与客户相识已满 6 年（自 2020 年起）",
+    "CA 为外滩源店 Yvonne"
+   ],
+   "do_not_mention": [
+    "父亲去世、丧事等家庭变故细节（切忌在生日当天揭人痛处）",
+    "项链串线保养或上门取件（不要提及售后或任何待办事项）",
+    "产品推销、到店邀约、礼遇或活动",
+    "热闹、喜庆、欢聚类过度热情的词汇及营销类Emoji"
+   ],
+   "products": []
+  },
+  "first_draft": [
+   {
+    "text": "陆女士，今天是您的生日。祝您生日安好，平顺舒心。",
+    "strategy": "极简克制",
+    "note_for_ca": "字句极短、克制雅致，用“安好”“舒心”代替热闹的喜庆词，最不给客户心理压力。适合希望给予最安全、得体问候的场景。"
+   },
+   {
+    "text": "陆女士，今天是您的生日。愿今天能有一段宁静舒缓的时光陪伴您，祝您生日安康，一切顺遂。",
+    "strategy": "温润寄语",
+    "note_for_ca": "体恤客户近期家中变故后的心境，不提旧事，着眼于当下专属的宁静与安康。措辞温厚，适合想表达更多人文关怀时选用。"
+   },
+   {
+    "text": "陆女士，转眼又是一年立冬后。今天是您的生日，祝您生日安康，愿往后的日子平稳从容、温暖相随。",
+    "strategy": "长久陪伴",
+    "note_for_ca": "借深秋初冬的自然时序自然起笔，以相识六年的老朋友姿态传递平静有力的陪伴感。语气温和有分寸，避开了任何欢闹浮躁的字眼。"
+   }
+  ],
+  "seconds": 46.5,
+  "diversity_max_sim": 0.2682926829268293,
+  "calls": [
+   {
+    "requested": "gemini-3.8-flash",
+    "served": "gemini-3.8-flash",
+    "seconds": 19.9,
+    "attempt": 1,
+    "in_tokens": 5804,
+    "out_tokens": 682,
+    "reasoning_tokens": null,
+    "fingerprint": null
+   },
+   {
+    "requested": "gemini-3.8-flash",
+    "served": "gemini-3.8-flash",
+    "seconds": 13.0,
+    "attempt": 1,
+    "in_tokens": 4781,
+    "out_tokens": 329,
+    "reasoning_tokens": null,
+    "fingerprint": null
+   },
+   {
+    "requested": "gemini-3.8-flash",
+    "served": "gemini-3.8-flash",
+    "seconds": 3.6,
+    "attempt": 1,
+    "in_tokens": 4634,
+    "out_tokens": 222,
+    "reasoning_tokens": null,
+    "fingerprint": null
+   },
+   {
+    "requested": "gemini-3.8-flash",
+    "served": "gemini-3.8-flash",
+    "seconds": 7.9,
+    "attempt": 1,
+    "in_tokens": 5245,
+    "out_tokens": 143,
+    "reasoning_tokens": null,
+    "fingerprint": null
+   },
+   {
+    "requested": "gemini-3.8-flash",
+    "served": "gemini-3.8-flash",
+    "seconds": 2.2,
+    "attempt": 1,
+    "in_tokens": 4645,
+    "out_tokens": 102,
+    "reasoning_tokens": null,
+    "fingerprint": null
+   }
+  ]
+ }
+}

@@ -1,0 +1,77 @@
+{
+  "case_id": "C13",
+  "scenario": "product_recommendation",
+  "today": "2026-11-08",
+  "ca": {
+    "name": "刘佳",
+    "gender": "女",
+    "years_experience": 6,
+    "store": "成都太古里精品店",
+    "known_client_since": "2026-11",
+    "style": "偏亲切"
+  },
+  "client": {
+    "surname": "罗",
+    "given_name": "嘉树",
+    "gender": "男",
+    "age_range": "30-35",
+    "city": "成都",
+    "occupation": "建筑设计院结构工程师",
+    "client_since": null,
+    "spend_band": "未购买",
+    "stage": "潜在客户",
+    "last_visit": "2026-11-01",
+    "wealth_source": "职业收入",
+    "motivations": [
+      "送礼"
+    ],
+    "social_visibility": "低调",
+    "price_sensitivity": "中",
+    "formality": "适中",
+    "reply_habit": "回复认真，问题问得很细",
+    "recommendation_openness": "欢迎",
+    "family_notes": "女友是小学美术老师，交往四年；打算明年春天求婚",
+    "interests": [
+      "骑行",
+      "摄影"
+    ],
+    "notes": "11 月 1 日第一次到店，看了誓约单钻戒指，预算 15 万左右。想给女友惊喜，所以不方便直接问她戒圈。"
+  },
+  "conversation_history": [
+    {
+      "sender": "ca",
+      "time": "2026-11-01 18:30",
+      "text": "罗先生，今天您看的誓约单钻，我把证书示例和镶口细节图发您，有问题随时问我。"
+    },
+    {
+      "sender": "client",
+      "time": "2026-11-01 20:12",
+      "text": "收到，谢谢刘小姐。"
+    },
+    {
+      "sender": "client",
+      "time": "2026-11-07 22:40",
+      "text": "刘小姐，想再请教下：誓约 1 克拉和再大一点的，比如 1.5 克拉，实际看起来差别大吗？"
+    },
+    {
+      "sender": "client",
+      "time": "2026-11-07 22:42",
+      "text": "另外我不知道她戒圈多少，想保密，这个怎么办比较好？预算大概还是 15 万左右"
+    }
+  ],
+  "product_skus": [
+    "SER-R01"
+  ],
+  "test_meta": {
+    "persona": "P0",
+    "type": "core",
+    "must": [
+      "回答问题",
+      "提示改圈服务/戒圈获取方法"
+    ],
+    "must_not": [
+      "推超预算",
+      "制造焦虑"
+    ]
+  }
+}

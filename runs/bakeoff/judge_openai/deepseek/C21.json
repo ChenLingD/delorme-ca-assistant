@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "只说“尽快安排”，没有告知抛光所需时间或师傅在店时间。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 2,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "接住了情绪并提出免费抛光，但“是我没跟上”略生硬，也缺少具体时间。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "新增了处理后送回的承诺；已知信息只确认可以去公司取件，未确认送回安排。",
+    "context_failure": "提出了抛光方案和时间，但没有说明抛光免费。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 4,
+    "naturalness": 4,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "道歉和取件选择都贴心，但应补上免费抛光，并确认能否送回。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "“抛完痕迹会淡很多”是未经检查就作出的效果判断，现有信息不足以确认。",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 4,
+    "naturalness": 4,
+    "effectiveness": 4
+   },
+   "sendability": "小改可发",
+   "comment": "安抚、免费方案和时间都齐全，但应删去未经确认的效果判断，收纳提示也可暂缓。"
+  }
+ ],
+ "set": {
+  "diversity": 3,
+  "risk_judgement": "正确",
+  "best_index": 3,
+  "must_coverage": "3/3",
+  "summary": "三条都围绕投诉处理，没有推销或解释划痕成因；候选 3 最完整，但需要删除未经确认的抛光效果。整体主要问题是方案细节不一致，且风险提醒中对客户公开分享的推测没有必要。"
+ },
+ "_judge": "openai:gpt-6.1-terra"
+}

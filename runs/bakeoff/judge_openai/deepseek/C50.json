@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "只接了此前的做工评价，未回应客户刚提出的价格顾虑和投资诉求。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 4,
+    "naturalness": 4,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "工时和工匠记号具体可信，但应先接住客户的顾虑，避免显得绕开问题。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "接住了价格顾虑，但没有回应投资诉求，也没有回到作品本身。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 2,
+    "brand_voice": 4,
+    "naturalness": 5,
+    "effectiveness": 2
+   },
+   "sendability": "小改可发",
+   "comment": "简短体贴、给了空间，但单独发送过于笼统，未完成场景目标。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "直接转向叠戴和上手感受，未接住客户的价格顾虑或回应投资诉求。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 5,
+    "brand_voice": 4,
+    "naturalness": 4,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "叠戴建议贴合已知需求且没有催促，但切换话题偏快。"
+  }
+ ],
+ "set": {
+  "diversity": 4,
+  "risk_judgement": "偏紧",
+  "best_index": 1,
+  "must_coverage": "2/2",
+  "summary": "三条均未暗示投资回报或承诺排期，候选1和3也回到了作品本身，但都未充分回应客户明确提出的投资诉求。风险等级设为 caution 合理，不过要求完全不接“升值”话头过于绝对；可以温和承认顾虑、不作升值判断，再谈作品。"
+ },
+ "_judge": "openai:gpt-6.1-terra"
+}

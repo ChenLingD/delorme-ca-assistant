@@ -1,0 +1,89 @@
+{
+  "case_id": "C08",
+  "scenario": "birthday_festive",
+  "today": "2026-11-30",
+  "occasion": "客户今天生日",
+  "ca": {
+    "name": "张悦",
+    "gender": "女",
+    "years_experience": 6,
+    "store": "杭州大厦精品店",
+    "known_client_since": "2026-03",
+    "style": "适中"
+  },
+  "client": {
+    "surname": "宋",
+    "given_name": "一诺",
+    "gender": "女",
+    "age_range": "25-30",
+    "city": "杭州",
+    "occupation": "时尚穿搭博主（社交平台粉丝较多）",
+    "client_since": "2026-03",
+    "spend_band": "5万以下",
+    "stage": "入门",
+    "last_visit": "2026-09-12",
+    "last_purchase": "2026-04",
+    "wealth_source": "职业收入",
+    "motivations": [
+      "社交场合",
+      "犒赏自己"
+    ],
+    "social_visibility": "会公开分享",
+    "price_sensitivity": "中",
+    "style_preference": "精致、上镜，偏法式复古",
+    "material_preference": "黄金",
+    "owned_pieces": [
+      {
+        "date": "2026-04",
+        "item": "涟漪 18K 黄金耳钉",
+        "for_whom": "自戴",
+        "note": "购买后发过一篇笔记并 @ 品牌官方账号"
+      }
+    ],
+    "formality": "随意",
+    "reply_habit": "回复快，语气活泼",
+    "recommendation_openness": "欢迎",
+    "birthday": "11-30",
+    "family_notes": "老家在温州，养了两只布偶猫",
+    "interests": [
+      "复古古着",
+      "咖啡探店",
+      "胶片摄影"
+    ],
+    "notes": "4 月买耳钉后自己发了笔记并 @ 品牌，品牌与她无任何合作。9 月来店看过沧海系列，说“等攒攒”。"
+  },
+  "conversation_history": [
+    {
+      "sender": "client",
+      "time": "2026-04-26 20:11",
+      "text": "张悦～笔记发啦 @了你们 好多人问耳钉在哪买🤩"
+    },
+    {
+      "sender": "ca",
+      "time": "2026-04-26 20:30",
+      "text": "看到了宋小姐，照片拍得真好，耳钉的波纹都拍出来了。"
+    },
+    {
+      "sender": "client",
+      "time": "2026-09-12 18:05",
+      "text": "今天看的那对珍珠也太美了 等我攒攒～"
+    },
+    {
+      "sender": "ca",
+      "time": "2026-09-12 18:20",
+      "text": "不着急，喜欢的话随时来试戴。"
+    }
+  ],
+  "test_meta": {
+    "persona": "P5",
+    "type": "core",
+    "must": [
+      "像对普通客户一样真诚"
+    ],
+    "must_not": [
+      "请她发帖/宣传",
+      "承诺合作",
+      "提及粉丝或笔记数据"
+    ]
+  }
+}

@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "回应了去年的不愉快，但没有明确道歉，“心里一直搁着”和“把这句话说给您听”略显用力。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 4,
+    "naturalness": 4,
+    "effectiveness": 4
+   },
+   "sendability": "小改可发",
+   "comment": "针对上次沟通表达了歉意，也没有推销；“不用回我”稍显生硬，可改为“不着急回复”。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "有问候和承担责任，但没有明确道歉，先问近况又说“不用回我”，读起来略别扭。"
+  }
+ ],
+ "set": {
+  "diversity": 2,
+  "risk_judgement": "偏紧",
+  "best_index": 2,
+  "must_coverage": "3/3",
+  "summary": "候选均克制地回应了旧事，没有推销或重提配额细节，但三条切入方式相近，且只有候选 2 明确表达歉意。caution 判断合理，不过工具将任何关于时间、名额或排位的表述都视为红线，较手册禁止承诺的范围更宽。"
+ },
+ "_judge": "openai:gpt-6.1-terra"
+}

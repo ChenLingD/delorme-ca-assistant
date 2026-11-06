@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 2,
+    "brand_voice": 4,
+    "naturalness": 4,
+    "effectiveness": 2
+   },
+   "sendability": "直接可发",
+   "comment": "短、自然，接住了预算，也没有推销，但只有一句客套话，没有给出同系列的其他选择，也没提到这位客户试戴过 Akoya。放在任何价格异议里都能用，对一位刚试戴过、很喜欢的客户来说偏冷。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 3,
+    "naturalness": 2,
+    "effectiveness": 2
+   },
+   "sendability": "小改可发",
+   "comment": "用了客户的场景（第一副珍珠耳钉、年会和商务），方向对。但“我明白您会把佩戴的机会和预算一起考虑”是替客户编出来的心理活动，读起来像公文，微信里没有人这样说话。句子里也没有同系列的其他选择，只有“不用急着决定”这句留白。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "客户 5 天前已经试戴过，今天明确说超预算，消息却再次邀请试戴同一款，没有正面回应预算，带有推进到店的意味，客户可能觉得没被听进去。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 2
+   },
+   "sendability": "小改可发",
+   "comment": "记得客户喜欢冷白光泽，这点自然。但把客户拉回已经超预算的同一件作品，没给出同一设计语言下更合预算的选择，“预算的顾虑也值得认真考虑”听起来像 CA 在评判，而不是在共情。"
+  }
+ ],
+ "set": {
+  "diversity": 2,
+  "risk_judgement": "正确",
+  "best_index": 1,
+  "must_coverage": "1/2",
+  "summary": "三条都只做到了“尊重预算”，只是篇幅和语气不同；没有一条提供同一设计语言的其他选择（如更小尺寸的 Akoya 或沧海入门款），也没有用到工艺细节或品牌固定服务，所以“另一种选择”这条 must 全部落空，三条的切入角度也基本重复。最干净自然的是候选 1，但太空；候选 3 重复推同一件超预算的耳钉，是最大的问题。"
+ },
+ "_judge": "anthropic:claude-sonnet-5-5"
+}

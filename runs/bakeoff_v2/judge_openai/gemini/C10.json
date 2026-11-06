@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "“无法直接订”属于输入中未确认的预订规则。",
+    "context_failure": "直接否定预订，容易让客户感到被拒绝；也没有回答价格和到货时间。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 2,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 2
+   },
+   "sendability": "不可用",
+   "comment": "主动提出登记心愿是对的，但不应自行断言无法预订。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "“太有眼光了”略显奉承，“值得等待它被做出来的那一刻”有替客户决定等待的意味。",
+    "privacy_violation": "无",
+    "fabrication": "资料只确认这款手镯由同一工匠完成，不能推及晨星每件作品；“等待它被做出来”也暗示作品将为客户制作。",
+    "context_failure": "接住了喜爱，却没有回应客户想购买、询价和询问到货时间的核心诉求。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 3,
+    "naturalness": 2,
+    "effectiveness": 2
+   },
+   "sendability": "不可用",
+   "comment": "工艺细节有依据，但过度泛化且回避了客户的问题。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "未经确认就说“已先为您做好心愿登记”；输入也没有穹顶系列微镶钻石手镯及其线条的资料，“手工作席需要等待”缺乏依据。",
+    "context_failure": "没有回答价格和到货时间，便转向另一件未经确认的作品。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 2,
+    "naturalness": 2,
+    "effectiveness": 2
+   },
+   "sendability": "不可用",
+   "comment": "聚会搭配的切入点贴合客户，但虚构登记状态和作品细节使其不可发。"
+  }
+ ],
+ "set": {
+  "diversity": 4,
+  "risk_judgement": "正确",
+  "best_index": 2,
+  "must_coverage": "2/3",
+  "summary": "三条分别尝试了登记心愿、讲工艺和场合搭配；有候选未拒绝也未承诺，候选1也提出了登记心愿，但没有可靠地引导客户了解其他系列的工艺。最主要的问题是三条都没有正面回应价格和到货时间，且分别存在未经确认的政策、工艺泛化或作品信息。"
+ },
+ "_judge": "openai:gpt-6.1-terra"
+}

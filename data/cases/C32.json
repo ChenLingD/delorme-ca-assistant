@@ -1,0 +1,87 @@
+{
+  "case_id": "C32",
+  "scenario": "reactivation",
+  "today": "2026-11-24",
+  "occasion": "博主一年半没联系，曾经很活跃",
+  "ca": {
+    "name": "Kiki",
+    "gender": "女",
+    "years_experience": 4,
+    "store": "成都太古里精品店",
+    "known_client_since": "2024-03",
+    "style": "偏亲切"
+  },
+  "client": {
+    "surname": "冉",
+    "given_name": "小溪",
+    "gender": "女",
+    "age_range": "27-31",
+    "city": "成都",
+    "occupation": "旅行与美食视频博主",
+    "client_since": "2024-03",
+    "spend_band": "5万以下",
+    "stage": "入门",
+    "last_visit": "2025-05",
+    "last_purchase": "2025-05",
+    "wealth_source": "职业收入",
+    "motivations": [
+      "犒赏自己"
+    ],
+    "social_visibility": "会公开分享",
+    "price_sensitivity": "中",
+    "style_preference": "轻巧、方便出行",
+    "material_preference": "黄金、珍珠",
+    "owned_pieces": [
+      {
+        "date": "2024-03",
+        "item": "涟漪 18K 黄金耳钉",
+        "for_whom": "自戴"
+      },
+      {
+        "date": "2025-05",
+        "item": "沧海 Akoya 珍珠耳钉",
+        "for_whom": "自戴"
+      }
+    ],
+    "formality": "随意",
+    "reply_habit": "以前回复很快、话多",
+    "recommendation_openness": "欢迎",
+    "interests": [
+      "徒步",
+      "云南菌子",
+      "纪录片"
+    ],
+    "notes": "2025 年 5 月说要去云南拍半年的乡村美食纪录片，之后就没再联系。以前常来店里聊天，在视频里戴过 Akoya 耳钉，但从没提过品牌。"
+  },
+  "conversation_history": [
+    {
+      "sender": "client",
+      "time": "2025-05-20 13:15",
+      "text": "Kiki 我下周就进山啦，要拍半年，信号可能不好"
+    },
+    {
+      "sender": "ca",
+      "time": "2025-05-20 13:30",
+      "text": "注意安全呀冉女士，耳钉在山里记得别沾太多汗和防晒，回来了带过来我们帮您清洗。"
+    },
+    {
+      "sender": "client",
+      "time": "2025-05-20 13:32",
+      "text": "好嘞！回来找你"
+    }
+  ],
+  "ca_request": "想重新联系她，自然一点。",
+  "test_meta": {
+    "persona": "P5",
+    "type": "core",
+    "must": [
+      "自然",
+      "有一个真实理由"
+    ],
+    "must_not": [
+      "请求宣传",
+      "提粉丝数",
+      "编造她纪录片的内容或成绩"
+    ]
+  }
+}

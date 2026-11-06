@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 2,
+    "brand_voice": 4,
+    "naturalness": 4,
+    "effectiveness": 4
+   },
+   "sendability": "直接可发",
+   "comment": "极简、不带产品、不要求回复，符合“很少回复、正式、不喜欢频繁联系”的客户；“岁岁从容”略带祝福套话，但整体克制得体，个性化不足只是小问题。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 3,
+    "naturalness": 2,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "借昆曲兴趣做细节很对路，但“记得您喜欢昆曲”和“我想送上一句祝福”显得刻意炫耀记得，句子偏长；“听曲的闲暇”也略套路。精简为“沈女士，生日快乐。愿您今天得闲，听一出喜欢的昆曲。”会更自然。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "祝福后追加提问“最近有没有喜欢的茶”，把祝福变成互动索取，违背“祝福本身就是目的”“留白、不是每条都要有下一步”；对一个很少回复、不喜欢频繁联系的客户施加回复压力。",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无视 CA 手记中“不喜欢频繁联系、多数不回”，在生日这一天抛出需要回复的问题，与客户习惯脱节。",
+    "must_not_hit": "无（虽未推销或邀约到店，但提问意图是引出话题/铺垫后续联系，与“极简、克制”的 must 相悖）"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 2,
+    "naturalness": 3,
+    "effectiveness": 2
+   },
+   "sendability": "不可用",
+   "comment": "“推进”策略放在此场景与客户习惯下不合适；茶的兴趣用得生硬，提问增加负担，应删去后半句。"
+  }
+ ],
+ "set": {
+  "diversity": 3,
+  "risk_judgement": "正确",
+  "best_index": 1,
+  "must_coverage": "2/2",
+  "summary": "风险判断准确地抓住了客户不喜欢频繁联系、节日问候多不回复这一点，候选 1 极简得体，可直接发送。主要问题是候选 3 以提问索取回复，违背祝福为目的和留白原则；候选 2 细节选得对，但措辞刻意，三条整体篇幅与语气也偏接近。"
+ },
+ "_judge": "anthropic:claude-sonnet-5-5"
+}

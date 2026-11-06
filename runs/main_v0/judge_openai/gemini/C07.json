@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "轻微：客户只说过生日要去北海道滑雪，不能确定她此刻已经在雪场。",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 4,
+    "naturalness": 4,
+    "effectiveness": 4
+   },
+   "sendability": "小改可发",
+   "comment": "生日祝福轻快自然，删去对客户当前位置的猜测即可。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "轻微：描述北海道当下的粉雪状况，违反不描述外部天气状况的要求。",
+    "privacy_violation": "无",
+    "fabrication": "轻微：粉雪正舒服没有依据，也不能确认客户此刻已和朋友在北海道度假。",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 2,
+    "naturalness": 3,
+    "effectiveness": 2
+   },
+   "sendability": "小改可发",
+   "comment": "祝福没有销售意图，但应去掉粉雪描述，避免把计划当成正在发生的事实。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "轻微：❄️不在生日祝福允许使用的 emoji 范围内。",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "没有推销，但金饰细节略显刻意，生日祝福可以更专注于客户本人。"
+  }
+ ],
+ "set": {
+  "diversity": 2,
+  "risk_judgement": "偏松",
+  "best_index": 1,
+  "must_coverage": "1/1",
+  "summary": "三条都基本做到年轻而得体，也没有使用网络流行语或营销类 emoji，但切入角度相近。工具忽略了行程与粉雪的无依据推断，以及候选 3 使用未允许的 emoji，其中候选 1 修改最少。"
+ },
+ "_judge": "openai:gpt-6.1-terra"
+}

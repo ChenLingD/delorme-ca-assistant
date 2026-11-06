@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 5,
+    "naturalness": 5,
+    "effectiveness": 4
+   },
+   "sendability": "直接可发",
+   "comment": "简洁直接，演示内容贴合客户兴趣，但没有点出他之前想看现场操作。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "轻微：活动资料未确认可以与镶嵌师直接探讨公差和工艺。",
+    "context_failure": "无",
+    "must_not_hit": "轻微：暗示了活动中未经确认的交流环节。"
+   },
+   "scores": {
+    "personalization": 5,
+    "brand_voice": 4,
+    "naturalness": 4,
+    "effectiveness": 4
+   },
+   "sendability": "小改可发",
+   "comment": "对客户兴趣的连接最具体，删去可直接向师傅探讨的表述即可。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "轻微：活动资料写的是“看不见的镶爪”，不能直接认定为“隐形镶嵌”。",
+    "context_failure": "无",
+    "must_not_hit": "轻微：使用了活动资料未确认的工艺名称。"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 4,
+    "naturalness": 4,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "带家人的选择贴合活动资料，但应使用原定工艺名称，并点出客户想看现场操作的兴趣。"
+  }
+ ],
+ "set": {
+  "diversity": 3,
+  "risk_judgement": "偏松",
+  "best_index": 2,
+  "must_coverage": "2/2",
+  "summary": "三条整体简洁直接，候选2对客户兴趣的连接最充分，但需删去未经确认的交流安排。工具未提示候选2的活动细节风险及候选3的工艺名称风险，风险判断偏松。"
+ },
+ "_judge": "openai:gpt-6.1-terra"
+}

@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 4,
+    "naturalness": 4,
+    "effectiveness": 5
+   },
+   "sendability": "直接可发",
+   "comment": "直接问到收礼人的喜好，也给了一条实用保养提示；“平时佩戴顺便提一句”稍显别扭。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "轻微：未确认客户已写好卡片并放入礼盒，也未确认他已向女友讲述海浪纹；“常戴光泽会更好”缺乏给定依据。",
+    "context_failure": "轻微：问的是女友是否喜欢故事，而非是否喜欢吊坠，偏离本次关怀重点。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 2,
+    "naturalness": 2,
+    "effectiveness": 2
+   },
+   "sendability": "小改可发",
+   "comment": "细节堆得较满，既显得刻意，也把未确认的事当作已经发生；应精简并直接问吊坠是否合意。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "轻微：未刻字有依据，但“当时走得匆忙没来得及刻字”的原因并未确认，备注也未点明。",
+    "context_failure": "轻微：只问佩戴是否习惯，没有问收礼人是否喜欢礼物。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 2
+   },
+   "sendability": "小改可发",
+   "comment": "免费刻字是有依据的服务，但不应编造未刻字的原因，且应优先关心收礼人的喜好。"
+  }
+ ],
+ "set": {
+  "diversity": 4,
+  "risk_judgement": "偏松",
+  "best_index": 1,
+  "must_coverage": "2/2",
+  "summary": "候选1覆盖了关心喜好和简短自然两项要求，也提供了一条可选的保养提示。整体风险判断偏松：候选2和3均有未经确认的说法，且没有直接问收礼人是否喜欢吊坠。"
+ },
+ "_judge": "openai:gpt-6.1-terra"
+}

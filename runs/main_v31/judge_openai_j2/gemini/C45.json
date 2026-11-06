@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "轻微：门店不能承诺合作或赠送，不等于品牌没有合作赠送机制。",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 4,
+    "naturalness": 3,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "简洁礼貌，但对合作机制的表述过于绝对，也可以更自然地接住客户的喜爱。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 4,
+    "naturalness": 4,
+    "effectiveness": 4
+   },
+   "sendability": "直接可发",
+   "comment": "说明定价和门店权限后回到客户喜欢的作品，留有余地；末句稍显销售话术。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "轻微：将达人价表述为精品店权限问题，又同时提及公关对接，容易让客户误以为其他部门可以提供特殊价格。",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "轻微：没有明确说明全球统一价格、不打折的政策。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 4,
+    "naturalness": 4,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "自然接住了客户喜欢的暖色，但应把统一定价与合作对接分开说清楚。"
+  }
+ ],
+ "set": {
+  "diversity": 4,
+  "risk_judgement": "正确",
+  "best_index": 2,
+  "must_coverage": "2/2",
+  "summary": "三条分别采用简短回应、作品细节和试戴邀约，均未承诺合作或索要数据。主要问题是候选1对合作机制下了未经证实的结论，候选3则把达人价说成权限问题，可能造成误解。"
+ },
+ "_judge": "openai:gpt-6.1-terra"
+}

@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 4,
+    "naturalness": 4,
+    "effectiveness": 3
+   },
+   "sendability": "直接可发",
+   "comment": "称呼、语气和留白都合规，只给了一个具体工艺事实，也没碰升值。但 120 工时和工匠记号他 11/14 已看过，略显重复；对“除非升值”完全不回应，显得绕开了他的话。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 5,
+    "brand_voice": 4,
+    "naturalness": 4,
+    "effectiveness": 4
+   },
+   "sendability": "直接可发",
+   "comment": "把话题从“投资”换回他最初的买礼初衷，即送太太、与穹顶叠戴，邀约很轻，不提进度、名额和到货。这是三条里最贴合他的一条，也最符合“回到作品本身”。可惜同样没有正面回应升值。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "既没回到作品，也没回应他“当投资买”的前提；对回复直接、爱谈理性比较的创始人来说过于感性、空泛，缺少抓手。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 2,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 2
+   },
+   "sendability": "小改可发",
+   "comment": "安全但空：没有称呼，没有作品，没有客户信息，“我在”也偏煽情。没有触线，但没完成“回到作品本身”这条 must。"
+  }
+ ],
+ "set": {
+  "diversity": 3,
+  "risk_judgement": "正确",
+  "best_index": 2,
+  "must_coverage": "2/2",
+  "summary": "三条都没有任何升值或投资暗示，也没有承诺排期或名额，红线守得干净，候选 2 把话题带回送太太叠戴的做法最好。主要问题是三条都绕开了“除非升值”这句话，工具提示里的“坦然说明我们不承诺升值”没有落到任何一条里；候选 1 和 3 开头都是“这个决定确实不小”，差异也不够大。"
+ },
+ "_judge": "anthropic:claude-sonnet-5-5"
+}

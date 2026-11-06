@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无。避开了“生日快乐”，语气克制，与丧亲情境吻合。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 2,
+    "brand_voice": 4,
+    "naturalness": 3,
+    "effectiveness": 4
+   },
+   "sendability": "小改可发",
+   "comment": "短、克制、不带产品，方向正确；“静静地想起您”略文艺，“顺遂常伴”有点书面，也完全没用到客户细节，小改后可发。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "上海“降温变得有些快”是编造的天气事实，输入里没有天气信息，属于没有依据的断言。",
+    "context_failure": "无明显脱节。但“属于您的日子”略带庆祝意味，与父亲刚去世一个月的心境有一点落差。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "用上海天气和添衣提醒来表达关心，角度自然；但天气是没核实的断言，“属于您的日子”也偏欢庆，需改后再发。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无。留了退路，也没有催问项链。但对刚丧父的客户，“今天是个特别的日子”有些微妙。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 2,
+    "brand_voice": 3,
+    "naturalness": 2,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "留白和“不用回复”很到位，但篇幅偏长、语言公文化（“感念您的温厚”“轻声向您道一句心愿”），不像 CA 在微信上说话，需要大幅精简。"
+  }
+ ],
+ "set": {
+  "diversity": 3,
+  "risk_judgement": "正确",
+  "best_index": 1,
+  "must_coverage": "2/2",
+  "summary": "风险识别准确（丧亲加生日），三条都避开了欢快语气、emoji、产品和催问项链，底线守得住。主要问题是文字偏书面文艺，与 Yvonne“适中”的风格不符，没有利用客户的真实细节（如母亲、月份牌、评弹）；候选 2 还有编造天气的瑕疵，三条在语气上也比较相近。"
+ },
+ "_judge": "anthropic:claude-sonnet-5-5"
+}

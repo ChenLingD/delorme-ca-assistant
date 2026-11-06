@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "“我先替您留一场”略显直接，也没有说明哪个时段人少，没有落实 CA 要求的安静时段，也没有给她留退路；对回复慢、不喜欢被催的客户来说有轻微催促感。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 4,
+    "naturalness": 4,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "呼应 9 月的图稿心愿，日期、地点、每场八位都准确，但没有落实“人少时段”，也没有“不着急”的退路，“替您留一场”有点推进过快；缺少与她珍珠收藏的关联。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "“会在店里展出”“11月20日起”基本准确，但省略了私享预览的性质、地点和场次；没有编造。",
+    "context_failure": "没有回应 CA 要求的安静时段，也没有说明这是小规模私享场次，容易像普通展览通知；“您想先来看看吗？”对正式、回复慢的客户偏随意。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 3,
+    "naturalness": 4,
+    "effectiveness": 2
+   },
+   "sendability": "小改可发",
+   "comment": "够短、够轻，兑现了老图稿的心愿，但信息过少，没有私享、小规模、地点，也没有珍珠藏品关联和时段安排，对这位客户来说诚意不足，且缺少下一步。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "“您那串白珠去年重串过”——档案写的是 2025-08 做过免费重新串线，今天是 2026-11，应为“去年”，对；但档案没写明是哪一串，“白珠”推断为南洋白珠单串项链，合理但属于推断；“按上午的场次去约”略有承诺意味，活动资料并未说明有上午场次。",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 5,
+    "brand_voice": 4,
+    "naturalness": 3,
+    "effectiveness": 4
+   },
+   "sendability": "小改可发",
+   "comment": "兑现图稿心愿，用重串项链自然连接现场的串线演示，并结合上午习惯和“不着急回复”留退路；但上午场次是否存在资料中没有写，需确认后再发，句子也略长。"
+  }
+ ],
+ "set": {
+  "diversity": 3,
+  "risk_judgement": "正确",
+  "best_index": 3,
+  "must_coverage": "3/3",
+  "summary": "三条都兑现了老图稿的心愿，没有出现“名额有限”或编造内容，其中候选 3 最贴合她的珍珠收藏与安静偏好。主要问题是：候选 1、2 没有落实 CA 要求的安静时段，候选 3 的“上午场次”缺少活动资料支持，需要先核实，三条的切入角度也较接近。"
+ },
+ "_judge": "anthropic:claude-sonnet-5-5"
+}

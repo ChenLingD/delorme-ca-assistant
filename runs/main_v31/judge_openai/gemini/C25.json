@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "轻微：“刚完成质检”中的完成时间未经确认，已知的是目前已完成质检。",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 4,
+    "naturalness": 4,
+    "effectiveness": 5
+   },
+   "sendability": "小改可发",
+   "comment": "进度、歉意和年会结论都交代清楚，删去质检前的“刚”即可。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "轻微：未确认扣头做了调校、重新检测，也未确认这些工作刚完成。",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 4
+   },
+   "sendability": "小改可发",
+   "comment": "情绪回应到位，但应改为已确认的“完成质检”，且“心里特别过意不去”略显用力。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "轻微：已知质检完成，但未确认是“最终质检”或已通过质检。",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 4
+   },
+   "sendability": "小改可发",
+   "comment": "信息完整，但应改为“已完成质检”；客户正因延误着急，此时追问到店试扣头略显急促。"
+  }
+ ],
+ "set": {
+  "diversity": 3,
+  "risk_judgement": "正确",
+  "best_index": 1,
+  "must_coverage": "3/3",
+  "summary": "三条都回应了客户的着急，说明预计时间和年会赶不上的事实，候选1最简洁得体。主要问题是都添加了未经确认的质检时间、结果或维修细节；三条的核心结构也较相近。"
+ },
+ "_judge": "openai:gpt-6.1-terra"
+}

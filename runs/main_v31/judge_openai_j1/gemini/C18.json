@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 4,
+    "naturalness": 4,
+    "effectiveness": 5
+   },
+   "sendability": "直接可发",
+   "comment": "问到了收礼感受，也给出一条实用保养提示；“平时佩戴顺便提一句”略显生硬。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "客户只说要自己写卡片，不能确认已写好并放入；“常戴光泽会更好”也缺乏给定依据。",
+    "context_failure": "重点问她是否喜欢海浪纹故事，而非是否喜欢吊坠；还预设客户已向她讲述故事。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 2,
+    "naturalness": 2,
+    "effectiveness": 2
+   },
+   "sendability": "小改可发",
+   "comment": "细节堆叠且有未经确认的推断，应改为简短询问吊坠是否受喜欢，保留一条保养提示。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "“当时走得匆忙没来得及刻字”编造了未刻字的原因；“随时带过来”也容易与购买后30天内免费刻字的期限混淆。",
+    "context_failure": "只问佩戴是否习惯，未明确关心是否喜欢，也未按CA要求提及珍珠保养。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 2
+   },
+   "sendability": "小改可发",
+   "comment": "免费刻字是相关服务，但编造未刻字原因，且偏离了询问喜好和提示保养的重点。"
+  }
+ ],
+ "set": {
+  "diversity": 4,
+  "risk_judgement": "偏松",
+  "best_index": 1,
+  "must_coverage": "2/2",
+  "summary": "候选1简短实用，覆盖询问收礼人喜好及贴合短句风格两项必做要求，并补充了保养提示。主要问题是候选2、3加入未经确认的事实，工具判断为无风险偏松。"
+ },
+ "_judge": "openai:gpt-6.1-terra"
+}

@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 4,
+    "naturalness": 4,
+    "effectiveness": 5
+   },
+   "sendability": "直接可发",
+   "comment": "简短地问到佩戴舒适度并提醒刻字期限，针对个人顾虑的细节稍少。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "轻微：资料未确认客户可随时将作品直接拿到工坊刻字，服务办理方式需先核实。",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 5,
+    "brand_voice": 4,
+    "naturalness": 3,
+    "effectiveness": 4
+   },
+   "sendability": "小改可发",
+   "comment": "抓住了客户担心下坠的重点，但可不必重复耳垂特征，并应改掉未经确认的工坊安排。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "轻微：建议在耳托刻名字缩写，但资料未确认该耳钉的耳托可刻字及可容纳的内容。",
+    "context_failure": "轻微：问的是耳钉是否合心意，没有直接问佩戴是否舒服，未充分回应 CA 的具体要求。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "演出信息有依据，但与售后关怀的关联较弱，应改问佩戴感受并避免指定未经确认的刻字位置。"
+  }
+ ],
+ "set": {
+  "diversity": 3,
+  "risk_judgement": "正确",
+  "best_index": 1,
+  "must_coverage": "2/2",
+  "summary": "三条均只与佩戴者讨论作品和售后服务，并提到了免费刻字，没有泄露付款信息。最主要的问题是候选 2 和 3 分别加入了未经确认的刻字办理地点或位置，且候选 3 没有直接问佩戴舒适度。"
+ },
+ "_judge": "openai:gpt-6.1-terra"
+}

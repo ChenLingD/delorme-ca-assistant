@@ -1,0 +1,65 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 4,
+    "naturalness": 3,
+    "effectiveness": 5
+   },
+   "sendability": "直接可发",
+   "comment": "简短得体，符合客户偏正式的沟通习惯；“今天是您的生日”略显重复。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 4
+   },
+   "sendability": "直接可发",
+   "comment": "以客户喜欢的茶入祝福，但“心境温润安然”略显书面和空泛。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "轻微：客户不喜欢频繁联系且很少回复，生日祝福后追问近况增加了回应负担。"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "昆曲兴趣有依据，但此时以祝福为目的更合适，建议删去问题。"
+  }
+ ],
+ "set": {
+  "diversity": 3,
+  "risk_judgement": "偏松",
+  "best_index": 1,
+  "must_coverage": "2/2",
+  "summary": "三条均简短且不带产品，候选1最符合这位客户的沟通习惯。候选3虽无硬性禁忌，但提问增加了客户的回应负担，整体风险判断应有所提醒。"
+ },
+ "_judge": "openai:gpt-6.1-terra"
+}

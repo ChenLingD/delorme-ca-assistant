@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "轻微：直接讨论纯投资的顾虑，没有完全绕开投资问题。",
+    "privacy_violation": "无",
+    "fabrication": "严重：将约120工时的完整制作过程说成工匠独立打磨一百多小时；工坊以长久日常佩戴为主要考量也无依据。",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 2,
+    "naturalness": 3,
+    "effectiveness": 3
+   },
+   "sendability": "不可用",
+   "comment": "理解客户并留有余地，但应准确表述工时，删去投资判断。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "严重：正面评论升值心态，并以太太的佩戴感受劝客户放下投资考量，有说教和替客户家人表态之嫌。",
+    "privacy_violation": "无",
+    "fabrication": "轻微：声称德洛姆的大家更看重专属感，以及带着升值压力会影响太太的佩戴感受，均无依据。",
+    "context_failure": "轻微：从客户的价格顾虑转而评判其资产视角，未充分接住犹豫。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 2,
+    "brand_voice": 1,
+    "naturalness": 1,
+    "effectiveness": 1
+   },
+   "sendability": "不可用",
+   "comment": "资产画像和“佩戴从容”的劝导生硬，容易让客户感到被纠正。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "严重：直接判断晨星的金融属性难与名表相比，违背绕开投资问题的要求。",
+    "privacy_violation": "无",
+    "fabrication": "轻微：资料显示太太喜欢叠戴穹顶系列，但不足以确认她常戴该手镯；金融属性的比较也无依据。",
+    "context_failure": "轻微：虽回应了犹豫，却将话题带入未经证实的金融属性比较。",
+    "must_not_hit": "严重：暗示晨星的投资属性不及名表。"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 2,
+    "naturalness": 2,
+    "effectiveness": 2
+   },
+   "sendability": "不可用",
+   "comment": "叠戴切入有依据，也愿意给客户空间，但金融属性比较不应出现。"
+  }
+ ],
+ "set": {
+  "diversity": 2,
+  "risk_judgement": "偏松",
+  "best_index": 1,
+  "must_coverage": "2/2",
+  "summary": "三条都回到了作品，且没有承诺保值升值，但均不同程度地正面讨论投资，候选3还暗示金融属性不及名表。候选1相对最好，仍须修正工时表述；工具判为无风险明显偏松。"
+ },
+ "_judge": "openai:gpt-6.1-terra"
+}

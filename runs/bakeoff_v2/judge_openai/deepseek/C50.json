@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "接住了价格压力，但没有回应客户以升值为购买前提的顾虑，也没有回到作品本身。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 2,
+    "brand_voice": 4,
+    "naturalness": 4,
+    "effectiveness": 2
+   },
+   "sendability": "小改可发",
+   "comment": "简短自然，但需要补充不承诺升值的回应和一个作品细节。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "回顾旧购偏刻意，且用未经证实的判断概括客户的挑选习惯。",
+    "privacy_violation": "无",
+    "fabrication": "袖扣用于自戴是已知事实，但“一直自己戴着”及“向来先看合不合用、经不经得住看”缺乏依据。",
+    "context_failure": "没有回应客户的投资和升值顾虑，也没有用晨星作品本身帮助客户判断。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 2,
+    "brand_voice": 2,
+    "naturalness": 2,
+    "effectiveness": 1
+   },
+   "sendability": "不可用",
+   "comment": "借旧购买经历制造熟悉感，却推断了客户习惯，也绕开了眼前的问题。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "直接说会摆出穹顶同系列作品供比较，暗含店内有合适作品可供展示和试戴，资料未确认。",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "能守住不承诺未来价值的底线，也联系了太太的手镯；展示其他作品前应先确认，并可用晨星工艺替代较生硬的邀约。"
+  }
+ ],
+ "set": {
+  "diversity": 4,
+  "risk_judgement": "偏松",
+  "best_index": 3,
+  "must_coverage": "2/2",
+  "summary": "第三条最接近场景目标：不承诺未来价值，并将话题带回作品，但须核实可展示的作品。整体主要问题是前两条回避了投资顾虑；风险提醒也不宜建议完全不接保值话头，或预设存在预算内选择。"
+ },
+ "_judge": "openai:gpt-6.1-terra"
+}

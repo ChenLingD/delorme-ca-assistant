@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "没有实际回答问题，只说“确认后再告诉您”；客户深夜发来两个具体问题，回复过于空泛，缺少提供戒圈方法或改圈服务的任何信息",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 2,
+    "brand_voice": 3,
+    "naturalness": 4,
+    "effectiveness": 1
+   },
+   "sendability": "小改可发",
+   "comment": "短而自然，但等于没答：改圈服务（品牌固定服务）本可直接说，却只做了“稍后回复”，客户的两个问题都悬空。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "只提了改圈服务，没有给出任何可操作的戒圈获取方法（如借她一枚常戴的戒指比对），对“怎么办”只答了一半；1 克拉 vs 1.5 克拉的差别也未回应",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 4,
+    "naturalness": 3,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "接住了“惊喜”情绪，并正确引用了“一年内免费改圈一次”这一固定服务，是唯一触及 must 的候选；但“适用范围我再确认”画蛇添足，也缺少获取戒圈的实用办法，略显书面。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "完全没回应戒圈保密问题，只围绕 1.5 克拉价格；主动提价格容易把客户放在预算压力上，且 1.5 克拉很可能超过 15 万预算，却没有任何预算提示或备选方案，与客户关心的点脱节",
+    "must_not_hit": "有擦边风险：主动去确认并推 1.5 克拉价格，存在引导至超预算的可能，尽管并未明确推荐"
+   },
+   "scores": {
+    "personalization": 2,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 1
+   },
+   "sendability": "不可用",
+   "comment": "漏掉戒圈这个核心问题，只盯着 1.5 克拉的价格，像在推进销售，而且有把客户带向超预算选项的风险。"
+  }
+ ],
+ "set": {
+  "diversity": 2,
+  "risk_judgement": "正确",
+  "best_index": 2,
+  "must_coverage": "1/2",
+  "summary": "三条都过于保守，只有候选 2 提到了改圈服务，且没有一条真正回答 1 克拉与 1.5 克拉的视觉差异，也没有给出可操作的戒圈获取办法（如借一枚她常戴的戒指对照），可直接说的信息被“我去确认”替代。候选 1 和 3 基本是同一类“稍后确认”，多样性不足，且候选 3 偏离戒圈问题并有触碰预算红线的倾向。"
+ },
+ "_judge": "anthropic:claude-sonnet-5-5"
+}

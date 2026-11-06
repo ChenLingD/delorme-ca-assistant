@@ -1,0 +1,332 @@
+{
+ "case_id": "C01",
+ "version": "v3",
+ "model": "openai:gpt-6.1-terra",
+ "risk": {
+  "level": "ok",
+  "flags": [
+   "不喜欢频繁联系，节日问候多数不回复"
+  ],
+  "advice": ""
+ },
+ "candidates": [
+  {
+   "text": "沈女士，生日快乐。祝您新的一岁平安顺遂。",
+   "strategy": "极简",
+   "note_for_ca": "适合简单送上生日祝福"
+  },
+  {
+   "text": "沈女士，今天是您的生日，祝您生日快乐。愿新的一岁里，常有闲暇听听昆曲。",
+   "strategy": "走心",
+   "note_for_ca": "用了她喜欢昆曲的细节"
+  },
+  {
+   "text": "沈女士，祝您生日快乐。您平时喜欢喝什么茶？",
+   "strategy": "推进",
+   "note_for_ca": "以茶为话题，适合轻松开启对话"
+  }
+ ],
+ "checks": [
+  {
+   "pass": true,
+   "hard": [],
+   "soft": [],
+   "length": 20
+  },
+  {
+   "pass": true,
+   "hard": [],
+   "soft": [],
+   "length": 35
+  },
+  {
+   "pass": true,
+   "hard": [],
+   "soft": [],
+   "length": 21
+  }
+ ],
+ "trace": {
+  "rounds": [
+   {
+    "rule_checks": [
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 20
+     },
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 35
+     },
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 35
+     }
+    ],
+    "critic": {
+     "reviews": [
+      {
+       "index": 1,
+       "pass": true,
+       "issues": []
+      },
+      {
+       "index": 2,
+       "pass": true,
+       "issues": []
+      },
+      {
+       "index": 3,
+       "pass": true,
+       "issues": []
+      }
+     ],
+     "set_issues": [
+      {
+       "indices": [
+        1,
+        3
+       ],
+       "issue": "两条都有「新的一岁」加顺遂祝愿，意思略有重复。第3条可保留生日祝福和茶的问题，省去「新的一岁自在顺心」，突出轻松回应的用途。"
+      }
+     ]
+    },
+    "set_issues": [
+     "两条都有「新的一岁」加顺遂祝愿，意思略有重复。第3条可保留生日祝福和茶的问题，省去「新的一岁自在顺心」，突出轻松回应的用途。"
+    ],
+    "to_fix": {
+     "3": [
+      "与其他候选雷同：两条都有「新的一岁」加顺遂祝愿，意思略有重复。第3条可保留生日祝福和茶的问题，省去「新的一岁自在顺心」，突出轻松回应的用途。"
+     ]
+    }
+   },
+   {
+    "rule_checks": [
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 20
+     },
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 35
+     },
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 24
+     }
+    ],
+    "critic": {
+     "reviews": [
+      {
+       "index": 1,
+       "pass": true,
+       "issues": []
+      },
+      {
+       "index": 2,
+       "pass": true,
+       "issues": []
+      },
+      {
+       "index": 3,
+       "pass": true,
+       "issues": []
+      }
+     ],
+     "set_issues": [
+      {
+       "indices": [
+        1,
+        3
+       ],
+       "issue": "两条都以“沈女士，生日快乐”开头。第3条可改为“沈女士，祝您生日快乐。您平时喜欢喝什么茶？”，保留祝福和具体问题，同时调整开头。"
+      }
+     ]
+    },
+    "set_issues": [
+     "两条都以“沈女士，生日快乐”开头。第3条可改为“沈女士，祝您生日快乐。您平时喜欢喝什么茶？”，保留祝福和具体问题，同时调整开头。"
+    ],
+    "to_fix": {
+     "3": [
+      "与其他候选雷同：两条都以“沈女士，生日快乐”开头。第3条可改为“沈女士，祝您生日快乐。您平时喜欢喝什么茶？”，保留祝福和具体问题，同时调整开头。"
+     ]
+    }
+   },
+   {
+    "rule_checks": [
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 20
+     },
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 35
+     },
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 21
+     }
+    ],
+    "critic": {
+     "reviews": [
+      {
+       "index": 1,
+       "pass": true,
+       "issues": []
+      },
+      {
+       "index": 2,
+       "pass": true,
+       "issues": []
+      },
+      {
+       "index": 3,
+       "pass": true,
+       "issues": []
+      }
+     ],
+     "set_issues": []
+    },
+    "set_issues": [],
+    "to_fix": {}
+   }
+  ],
+  "plan": {
+   "client_read": "沈女士偏好正式、克制的沟通，喜欢昆曲、宋瓷和茶，也不喜欢频繁联系。双方认识已有五年，上次中秋问候她简短回复了“谢谢”，此后没有互动。",
+   "risk": {
+    "level": "ok",
+    "flags": [
+     "不喜欢频繁联系，节日问候多数不回复"
+    ],
+    "advice": ""
+   },
+   "ca_commitments": [],
+   "usable_facts": [
+    "11月18日是沈女士的生日",
+    "沈女士喜欢昆曲",
+    "沈女士喜欢茶",
+    "9月25日中秋问候时，她回复了“谢谢”"
+   ],
+   "do_not_mention": [
+    "消费金额、客户等级和内部标签",
+    "财富来源及对其身份的判断",
+    "作品推荐、活动邀约或未经CA提供的礼物与礼遇"
+   ],
+   "products": [],
+   "slots": {
+    "极简": "直接送上简短、得体的生日祝福。",
+    "走心": "自然融入她喜欢昆曲这一细节，送上贴合她兴趣的生日祝愿，让她感到被用心记得。",
+    "推进": "生日祝福后，轻问她平时喜欢喝哪一种茶，给她一个容易回应的问题。"
+   }
+  },
+  "first_draft": [
+   {
+    "text": "沈女士，生日快乐。祝您新的一岁平安顺遂。",
+    "strategy": "极简",
+    "note_for_ca": "适合简单送上生日祝福"
+   },
+   {
+    "text": "沈女士，今天是您的生日，祝您生日快乐。愿新的一岁里，常有闲暇听听昆曲。",
+    "strategy": "走心",
+    "note_for_ca": "用了她喜欢昆曲的细节"
+   },
+   {
+    "text": "沈女士，祝您生日快乐，新的一岁自在顺心。我想问问，您平时喜欢喝什么茶？",
+    "strategy": "推进",
+    "note_for_ca": "以茶为话题，适合想轻松聊两句时"
+   }
+  ],
+  "seconds": 44.8,
+  "diversity_max_sim": 0.13157894736842105,
+  "calls": [
+   {
+    "requested": "gpt-6.1-terra",
+    "served": "gpt-6.1-terra",
+    "seconds": 14.3,
+    "attempt": 1,
+    "in_tokens": 5751,
+    "out_tokens": 779,
+    "reasoning_tokens": 459,
+    "fingerprint": null
+   },
+   {
+    "requested": "gpt-6.1-terra",
+    "served": "gpt-6.1-terra",
+    "seconds": 8.3,
+    "attempt": 1,
+    "in_tokens": 5076,
+    "out_tokens": 393,
+    "reasoning_tokens": 236,
+    "fingerprint": null
+   },
+   {
+    "requested": "gpt-6.1-terra",
+    "served": "gpt-6.1-terra",
+    "seconds": 6.3,
+    "attempt": 1,
+    "in_tokens": 4985,
+    "out_tokens": 407,
+    "reasoning_tokens": 257,
+    "fingerprint": null
+   },
+   {
+    "requested": "gpt-6.1-terra",
+    "served": "gpt-6.1-terra",
+    "seconds": 4.0,
+    "attempt": 1,
+    "in_tokens": 5276,
+    "out_tokens": 63,
+    "reasoning_tokens": 0,
+    "fingerprint": null
+   },
+   {
+    "requested": "gpt-6.1-terra",
+    "served": "gpt-6.1-terra",
+    "seconds": 5.8,
+    "attempt": 1,
+    "in_tokens": 4977,
+    "out_tokens": 377,
+    "reasoning_tokens": 226,
+    "fingerprint": null
+   },
+   {
+    "requested": "gpt-6.1-terra",
+    "served": "gpt-6.1-terra",
+    "seconds": 2.4,
+    "attempt": 1,
+    "in_tokens": 5261,
+    "out_tokens": 57,
+    "reasoning_tokens": 0,
+    "fingerprint": null
+   },
+   {
+    "requested": "gpt-6.1-terra",
+    "served": "gpt-6.1-terra",
+    "seconds": 3.6,
+    "attempt": 1,
+    "in_tokens": 4975,
+    "out_tokens": 162,
+    "reasoning_tokens": 107,
+    "fingerprint": null
+   }
+  ]
+ }
+}

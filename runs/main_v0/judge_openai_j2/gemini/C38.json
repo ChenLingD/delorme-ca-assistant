@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "严重：编造高珠巡展一对一、北京场次排满及已协调未果；邀请太太参加私宴也未经活动资料确认。",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 2,
+    "naturalness": 2,
+    "effectiveness": 2
+   },
+   "sendability": "不可用",
+   "comment": "虽回应了高珠询问并转向私宴，但解释过长且建立在未经证实的安排上。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "严重：编造高珠鉴赏在北京停留时间短、闭门专场全部约满，以及私宴请熟朋友参加；直接邀请太太同行也未经确认。",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 2
+   },
+   "sendability": "不可用",
+   "comment": "语气相对自然，也点出了小型私宴，但高珠安排和同行邀请都需要核实。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "严重：编造作品随工坊行程、高珠专场席位受限及排不开；把现场预约刻字说成现场有工匠刻字，并添加喝一杯和太太同行等未经确认的安排。",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 2,
+    "naturalness": 3,
+    "effectiveness": 2
+   },
+   "sendability": "不可用",
+   "comment": "私宴邀约较轻松，但高珠解释和现场体验均加入了未经证实的细节。"
+  }
+ ],
+ "set": {
+  "diversity": 2,
+  "risk_judgement": "偏松",
+  "best_index": 2,
+  "must_coverage": "1/2",
+  "summary": "三条都转向了新春私宴，也都尝试回应高珠询问，但虚构的理由不能算可靠、得体的回应。候选 2 相对自然；三条均不可直接发送，尤其需要删除未经确认的高珠安排和同行承诺。"
+ },
+ "_judge": "openai:gpt-6.1-terra"
+}

@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "轻微：使用“记得您提过”，不符合自然融入客户细节、避免宣布记得的原则。",
+    "privacy_violation": "无",
+    "fabrication": "轻微：“两个小孙子定是热闹极了”推断了孩子们当下的状态，聊天记录只提到他们盼着放鞭炮。",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 4
+   },
+   "sendability": "小改可发",
+   "comment": "家常细节贴合客户，但应去掉“记得”和对孙辈当下状态的断言。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "轻微：2017 年 1 月相识至今已满十年，进入第十一个年头，并非“已是第十个年头”；备注虽提到十周年，但未指出正文的年头表述有误。",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 3,
+    "naturalness": 2,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "相识周年是合适的切入点，但年头算错，且“感念”“守岁尽欢”等措辞略显书面。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 2,
+    "brand_voice": 4,
+    "naturalness": 3,
+    "effectiveness": 4
+   },
+   "sendability": "直接可发",
+   "comment": "祝福正式得体且无推销，但吉祥语稍密集，缺少这位客户特有的细节。"
+  }
+ ],
+ "set": {
+  "diversity": 4,
+  "risk_judgement": "偏松",
+  "best_index": 3,
+  "must_coverage": "2/2",
+  "summary": "三条分别从家庭细节、相识年限和简短拜年切入，整体正式温暖，也符合对长辈的语气。主要问题是候选 1 明说“记得”并推断孙辈状态，候选 2 算错相识年头，工具统一判断为无风险偏松。"
+ },
+ "_judge": "openai:gpt-6.1-terra"
+}

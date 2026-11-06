@@ -1,0 +1,63 @@
+{
+ "case_id": "C07",
+ "version": "v0",
+ "model": "gemini:gemini-3.8-flash",
+ "risk": {
+  "level": "ok",
+  "flags": [],
+  "advice": ""
+ },
+ "candidates": [
+  {
+   "text": "郑女士，生日快乐 🎂 猜您这会儿已经在北海道的雪场了，祝今天滑得痛快，新的一岁也自在尽兴。",
+   "strategy": "轻快亲切的生日祝福，自然融入客户此前分享的北海道滑雪行程，不带任何销售负担。",
+   "note_for_ca": "符合郑女士年轻、随和的性格，以老朋友般的语气送上纯粹祝福，适合下午发送。"
+  },
+  {
+   "text": "郑女士，祝您生日快乐 ✨ 这个时节北海道的粉雪正舒服，尽情和朋友享受假期，玩得开心。",
+   "strategy": "温和生活化的关怀，聚焦当下假期的美好氛围，留白不施压。",
+   "note_for_ca": "语气克制而有温度，没有提及作品，纯粹关心客户的生活体验。"
+  },
+  {
+   "text": "郑女士，生日快乐 ❄️ 祝您在雪季里度过一个特别开心的生日，新的一年继续戴着喜欢的金饰去更多好玩的地方。",
+   "strategy": "将生日祝福与客户偏爱的黄金配戴风格轻巧结合，不推销但拉近情感距离。",
+   "note_for_ca": "轻描淡写地呼应了她平时喜欢戴金饰拍照分享的习惯，亲切且有专属感。"
+  }
+ ],
+ "checks": [
+  {
+   "pass": true,
+   "hard": [],
+   "soft": [],
+   "length": 43
+  },
+  {
+   "pass": true,
+   "hard": [],
+   "soft": [],
+   "length": 40
+  },
+  {
+   "pass": true,
+   "hard": [],
+   "soft": [],
+   "length": 50
+  }
+ ],
+ "trace": {
+  "seconds": 12.2,
+  "diversity_max_sim": 0.07894736842105263,
+  "calls": [
+   {
+    "requested": "gemini-3.8-flash",
+    "served": "gemini-3.8-flash",
+    "seconds": 12.2,
+    "attempt": 1,
+    "in_tokens": 2994,
+    "out_tokens": 335,
+    "reasoning_tokens": null,
+    "fingerprint": null
+   }
+  ]
+ }
+}

@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 2,
+    "brand_voice": 4,
+    "naturalness": 4,
+    "effectiveness": 4
+   },
+   "sendability": "直接可发",
+   "comment": "极简、不带产品、不要求回复，很贴合这位不爱回复的客户；个性化弱，“过得舒心”略偏套话，但可以直接发。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "茶与宋瓷确实是档案里的兴趣，但对一位不爱回复的客户来说偏长，还带点评价（“那份安静的讲究很难得”）；缺少“生日快乐”的直接祝福，“泡一盏茶慢慢喝”也像在给建议，需要精简并加上明确的祝福。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "六月调扣头、重新串线的是沧海单串项链，引用有依据；但在生日当天追问佩戴情况，等于借祝福做售后回访，与“祝福本身就是目的”不符，也不顾她很少回复的习惯。",
+    "must_not_hit": "未触犯“推销、邀约到店、生日月到店礼物”这几条；但生日祝福后接客服式提问，不够极简，且带有明显的推进意图。"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 2
+   },
+   "sendability": "不可用",
+   "comment": "细节有依据，但在生日当天把祝福变成售后回访，给客户增加了回复负担，偏离“祝福即目的”，不建议发送。"
+  }
+ ],
+ "set": {
+  "diversity": 3,
+  "risk_judgement": "正确",
+  "best_index": 1,
+  "must_coverage": "2/2",
+  "summary": "三条在篇幅和切入角度上有区分，候选 1 最符合这位客户的节奏，可以直接发；候选 2 精简后可用。主要问题是候选 3 借生日做售后回访，违背本场景目标，候选 2 则偏长、缺少明确祝福。"
+ },
+ "_judge": "anthropic:claude-sonnet-5-5"
+}

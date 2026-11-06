@@ -1,0 +1,257 @@
+{
+ "case_id": "C43",
+ "version": "v3",
+ "model": "gemini:gemini-3.8-flash",
+ "risk": {
+  "level": "caution",
+  "flags": [
+   "客户明确提出价格超预算"
+  ],
+  "advice": "坦诚接纳预算顾虑，严守品牌不打折底线，切忌说教或催促，把重心放在尊重她的节奏与提供踏实的选择上。"
+ },
+ "candidates": [
+  {
+   "text": "冯女士，完全理解您的考虑。选珠宝还是要自己戴得踏实、安心，您完全不用有压力。",
+   "strategy": "极简",
+   "note_for_ca": "直接接住预算顾虑，主动卸除购买压力，坦诚真切。"
+  },
+  {
+   "text": "冯女士，特别理解。您准备年会和主持答谢会，想选一副撑得住场面又日常能戴的耳饰，多想想是应该的。一件陪自己重要场合的作品，本就值得慢慢选。",
+   "strategy": "走心",
+   "note_for_ca": "用上12月年会与主持活动需要撑场面的细节，肯定其审慎。"
+  },
+  {
+   "text": "冯女士，预算合适戴起来才最踏实。这副耳钉您先不着急定，距离年会还有一个月，下回路过店里，不妨带上主持准备穿的外套再在镜前整体看看，真正觉得非它不可了再考虑也不迟。",
+   "strategy": "推进",
+   "note_for_ca": "避开重复的“理解”句式，直面预算顾虑，以带外套复试推进下一步。"
+  }
+ ],
+ "checks": [
+  {
+   "pass": true,
+   "hard": [],
+   "soft": [],
+   "length": 38
+  },
+  {
+   "pass": true,
+   "hard": [],
+   "soft": [],
+   "length": 68
+  },
+  {
+   "pass": true,
+   "hard": [],
+   "soft": [],
+   "length": 81
+  }
+ ],
+ "trace": {
+  "rounds": [
+   {
+    "rule_checks": [
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 38
+     },
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 68
+     },
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 71
+     }
+    ],
+    "critic": {
+     "reviews": [
+      {
+       "index": 1,
+       "pass": true,
+       "issues": []
+      },
+      {
+       "index": 2,
+       "pass": true,
+       "issues": []
+      },
+      {
+       "index": 3,
+       "pass": true,
+       "issues": []
+      }
+     ],
+     "set_issues": [
+      {
+       "indices": [
+        1,
+        2,
+        3
+       ],
+       "issue": "三条开头句式高度雷同，均以“冯女士，[完全/特别]理解……”接话。建议拉开起手方式，例如推进版本可直接顺着作品和搭配切入，避免三条给 CA 提供备选时感觉结构单一。"
+      }
+     ]
+    },
+    "set_issues": [
+     "三条开头句式高度雷同，均以“冯女士，[完全/特别]理解……”接话。建议拉开起手方式，例如推进版本可直接顺着作品和搭配切入，避免三条给 CA 提供备选时感觉结构单一。"
+    ],
+    "to_fix": {
+     "3": [
+      "与其他候选雷同：三条开头句式高度雷同，均以“冯女士，[完全/特别]理解……”接话。建议拉开起手方式，例如推进版本可直接顺着作品和搭配切入，避免三条给 CA 提供备选时感觉结构单一。"
+     ]
+    }
+   },
+   {
+    "rule_checks": [
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 38
+     },
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 68
+     },
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 81
+     }
+    ],
+    "critic": {
+     "reviews": [
+      {
+       "index": 1,
+       "pass": true,
+       "issues": []
+      },
+      {
+       "index": 2,
+       "pass": true,
+       "issues": []
+      },
+      {
+       "index": 3,
+       "pass": true,
+       "issues": []
+      }
+     ],
+     "set_issues": []
+    },
+    "set_issues": [],
+    "to_fix": {}
+   }
+  ],
+  "plan": {
+   "client_read": "冯女士是一位务实且注重得体形象的职场女性，对消费有明确的理性规划；她对 Akoya 耳钉的佩戴效果很心动，但坦诚提出了预算顾虑，与 CA 处于坦诚互信的沟通状态。",
+   "risk": {
+    "level": "caution",
+    "flags": [
+     "客户明确提出价格超预算"
+    ],
+    "advice": "坦诚接纳预算顾虑，严守品牌不打折底线，切忌说教或催促，把重心放在尊重她的节奏与提供踏实的选择上。"
+   },
+   "ca_commitments": [],
+   "usable_facts": [
+    "12月中旬有公司年会和主持客户答谢活动的需求",
+    "试戴时很喜欢 Akoya 冷白光泽搭配西装的效果",
+    "半年前选过涟漪项链作为通勤珠宝"
+   ],
+   "do_not_mention": [
+    "折扣、优惠、降价或暗示可以申请特殊价格",
+    "客户的消费金额、客户等级与内部标签",
+    "催促决定或制造稀缺感",
+    "评判客户预算或说教式解释定价"
+   ],
+   "products": [
+    "MDC-E01"
+   ],
+   "slots": {
+    "极简": "坦诚接住预算顾虑并表示完全理解，主动卸除购买压力，坦然接受不买或等等看。",
+    "走心": "结合她筹备年会与主持活动的用心，肯定她精挑细选的理性，强调一件陪伴重要场合的作品值得踏实想清楚再做决定。",
+    "推进": "不急于做决定，邀请她若有空可以再来镜前搭配平时的通勤正装感受一次，或者先看同属简约风格的其他日常耳饰。"
+   }
+  },
+  "first_draft": [
+   {
+    "text": "冯女士，完全理解您的考虑。选珠宝还是要自己戴得踏实、安心，您完全不用有压力。",
+    "strategy": "极简",
+    "note_for_ca": "直接接住预算顾虑，主动卸除购买压力，坦诚真切。"
+   },
+   {
+    "text": "冯女士，特别理解。您准备年会和主持答谢会，想选一副撑得住场面又日常能戴的耳饰，多想想是应该的。一件陪自己重要场合的作品，本就值得慢慢选。",
+    "strategy": "走心",
+    "note_for_ca": "用上12月年会与主持活动需要撑场面的细节，肯定其审慎。"
+   },
+   {
+    "text": "冯女士，理解您的顾虑。这副耳钉的冷白光泽确实很衬正装，要是您不着急，下回路过可以带上年会穿的外套再到镜前整体看一眼，感受踏实了再做决定也不迟。",
+    "strategy": "推进",
+    "note_for_ca": "提议带正装到店做整体镜前搭配再决定，门槛低无促单压力。"
+   }
+  ],
+  "seconds": 67.2,
+  "diversity_max_sim": 0.022727272727272728,
+  "calls": [
+   {
+    "requested": "gemini-3.8-flash",
+    "served": "gemini-3.8-flash",
+    "seconds": 14.5,
+    "attempt": 1,
+    "in_tokens": 5503,
+    "out_tokens": 435,
+    "reasoning_tokens": null,
+    "fingerprint": null
+   },
+   {
+    "requested": "gemini-3.8-flash",
+    "served": "gemini-3.8-flash",
+    "seconds": 10.7,
+    "attempt": 1,
+    "in_tokens": 4911,
+    "out_tokens": 296,
+    "reasoning_tokens": null,
+    "fingerprint": null
+   },
+   {
+    "requested": "gemini-3.8-flash",
+    "served": "gemini-3.8-flash",
+    "seconds": 20.2,
+    "attempt": 1,
+    "in_tokens": 4740,
+    "out_tokens": 188,
+    "reasoning_tokens": null,
+    "fingerprint": null
+   },
+   {
+    "requested": "gemini-3.8-flash",
+    "served": "gemini-3.8-flash",
+    "seconds": 10.0,
+    "attempt": 1,
+    "in_tokens": 5195,
+    "out_tokens": 133,
+    "reasoning_tokens": null,
+    "fingerprint": null
+   },
+   {
+    "requested": "gemini-3.8-flash",
+    "served": "gemini-3.8-flash",
+    "seconds": 11.7,
+    "attempt": 1,
+    "in_tokens": 4743,
+    "out_tokens": 74,
+    "reasoning_tokens": null,
+    "fingerprint": null
+   }
+  ]
+ }
+}

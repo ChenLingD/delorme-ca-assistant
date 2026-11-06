@@ -1,0 +1,14 @@
+9 jobs to run
+[1/9] kimi:kimi-k3.1-pro C06 647.2s
+[2/9] kimi:kimi-k3.1-pro C10 682.8s
+[3/9] kimi:kimi-k3.1-pro C13 504.2s
+[4/9] kimi:kimi-k3.1-pro C21 479.2s
+03:32:49 kimi:kimi-k3.1-pro attempt 1 failed after 27.1s: RateLimitError('Error code: 429 - The engine is currently overloaded, please try again later')
+03:44:39 kimi:kimi-k3.1-pro attempt 1 failed after 17.4s: RateLimitError('Error code: 429 - The engine is currently overloaded, please try again later')
+[5/9] kimi:kimi-k3.1-pro C30 962.1s
+[6/9] kimi:kimi-k3.1-pro C34 602.9s
+[7/9] kimi:kimi-k3.1-pro C39 389.2s
+[8/9] kimi:kimi-k3.1-pro C43 323.2s
+[9/9] kimi:kimi-k3.1-pro C50 880.5s
+
+finished 9, failed 0 in 5471s

@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无。两个问题都有回应，但对“差别大不大”只说了“会有差别，不能按克拉等比例换算”，信息量偏少。",
+    "must_not_hit": "无。没有主动推 1.5 克拉，没有报价，也没有制造焦虑。"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 4,
+    "naturalness": 3,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "三条里最直接回答了两个问题：先答“有差别”，再说戒圈不用猜、一年内可免费改圈一次，且没有承诺一定能调。不足是“显大多少”没有具体细节，也没给戒圈的暗中获取办法，预算内如何选也没提；“不能按克拉数等比例换算”偏书面。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "没有直接回答“差别大吗”。通篇只说“不会只按克拉数判断”，把问题绕开了，客户读完仍不知道 1 和 1.5 克拉有没有明显差别。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 2,
+    "brand_voice": 3,
+    "naturalness": 2,
+    "effectiveness": 2
+   },
+   "sendability": "小改可发",
+   "comment": "像在解释自己的判断方法，而不是回答客户的问题；开头“看誓约，我不会只按克拉数判断”生硬，没有称呼，也没提保密惊喜。改圈信息写对了，但整条泛泛，对这位问题问得很细的客户帮助不大。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "克拉差别的问题完全推后（“我再去确认对比资料，不用现在一起定”），没有任何实质回答，对一位提问认真的客户略显敷衍。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 4,
+    "naturalness": 4,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "最贴合“保惊喜”的心思，“不用为了问尺寸影响惊喜”很得体，也给了退路；但只回应了戒圈，克拉问题只承诺之后再说。建议补一句对差别的基本回答，另加一个不惊动她的戒圈办法后再发。"
+  }
+ ],
+ "set": {
+  "diversity": 2,
+  "risk_judgement": "正确",
+  "best_index": 1,
+  "must_coverage": "1.5/2（改圈服务提示到了；“回答问题”只有候选 1 部分做到；三条都没给戒圈的实际获取办法）",
+  "summary": "三条都守住了红线：没有推超预算，没有制造焦虑，没有编造改圈政策，caution 的判断也合理。主要问题是三条内容几乎一样（都是“不用猜+免费改圈一次+我再确认实物”），只是顺序和语气略变；对“1 克拉和 1.5 克拉差别大吗”几乎没有实质回答；也没给戒圈的具体获取办法，比如借一枚她常戴的戒指比对。"
+ },
+ "_judge": "anthropic:claude-sonnet-5-5"
+}

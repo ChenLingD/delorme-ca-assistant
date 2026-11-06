@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "将约120工时说成确定的120个小时。",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 4
+   },
+   "sendability": "小改可发",
+   "comment": "工艺和叠戴都贴合客户，也留了退路；工时应加“约”，金融逻辑的说法可再柔和简短些。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "将约120工时说成“做满120工时”，断言了确切下限。",
+    "context_failure": "没有正面接住客户以升值为前提的顾虑，转而强调应当纯粹欣喜和常常佩戴。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 2,
+    "brand_voice": 2,
+    "naturalness": 2,
+    "effectiveness": 2
+   },
+   "sendability": "小改可发",
+   "comment": "“眼光一向很准”和“归根到底”显得奉承又说教，需要接住投资顾虑并修正工时表述。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "资料仅称约120工时，不能确定为“一百二十多个工时”。",
+    "context_failure": "客户只是以升值为购买前提，并未明确表示眼下不合适；“既然”替客户作了判断。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "回应了投资顾虑并给出退路，但“不好标的”略生硬，“慢慢沉淀”在投资语境下也有歧义。"
+  }
+ ],
+ "set": {
+  "diversity": 2,
+  "risk_judgement": "正确",
+  "best_index": 1,
+  "must_coverage": "2/2",
+  "summary": "三条都未暗示升值或承诺到货排期，也都回到了作品工艺，但切入角度和劝客户先放一放的结尾比较重复。主要问题是工时表述不够准确，部分措辞还有说教、奉承或替客户下判断的感觉。"
+ },
+ "_judge": "openai:gpt-6.1-terra"
+}

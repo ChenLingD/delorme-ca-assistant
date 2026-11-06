@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 4,
+    "naturalness": 4,
+    "effectiveness": 4
+   },
+   "sendability": "小改可发",
+   "comment": "自然呼应了九月看图稿的心愿，也响应了安静时段的要求；补上她的珍珠收藏关联，并把“几位”写明为每场8位会更好。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "“外公 Henri”没有依据，错误暗示了人物关系。",
+    "context_failure": "无",
+    "must_not_hit": "编造活动相关人物关系。"
+   },
+   "scores": {
+    "personalization": 2,
+    "brand_voice": 3,
+    "naturalness": 2,
+    "effectiveness": 2
+   },
+   "sendability": "小改可发",
+   "comment": "“外公”必须删除；还应呼应她九月想看图稿的心愿，补足地点和每场人数，并关联她的珍珠收藏。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "资料未说明图稿何时到店，也未确认有上午场次或能安排客流最少的时段；“每场八位以内”也不如资料中的“每场8位”准确。",
+    "context_failure": "无",
+    "must_not_hit": "编造未确认的到店时间及场次安排。"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 2
+   },
+   "sendability": "小改可发",
+   "comment": "清静时段的方向合适，但应改为先确认相对人少的场次，并补上特展名称、三楼沙龙及她的图稿心愿和珍珠收藏关联。"
+  }
+ ],
+ "set": {
+  "diversity": 2,
+  "risk_judgement": "偏松",
+  "best_index": 1,
+  "must_coverage": "2/3",
+  "summary": "候选1最贴近客户此前的图稿心愿，但三条都没有关联她已有的珍珠收藏，切入角度也较相似。候选2和3存在未经证实的表述，工具判断“无风险”偏松。"
+ },
+ "_judge": "openai:gpt-6.1-terra"
+}

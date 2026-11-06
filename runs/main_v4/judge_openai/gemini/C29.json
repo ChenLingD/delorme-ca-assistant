@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "轻微：Bella于10月调店，今天是12月1日，不能说“上个月”。",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 2,
+    "brand_voice": 4,
+    "naturalness": 4,
+    "effectiveness": 4
+   },
+   "sendability": "小改可发",
+   "comment": "交接清楚、不施压，删去“上个月”即可；问候略显平淡。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 4,
+    "naturalness": 4,
+    "effectiveness": 4
+   },
+   "sendability": "直接可发",
+   "comment": "交接后结合客户的戒指提供固定保养服务，有具体价值；首次联系便提到店稍显主动。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "轻微：强调Bella特别聊起客户的叠戴，显得刻意展示对客户的了解。",
+    "privacy_violation": "无",
+    "fabrication": "严重：没有依据表明Bella交接时特别聊起过客户的叠戴；备注也未提示这是未经证实的社交说法。",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 2,
+    "naturalness": 2,
+    "effectiveness": 2
+   },
+   "sendability": "不可用",
+   "comment": "叠戴切入有依据，但借Bella之口拉近关系未经证实，需重写。"
+  }
+ ],
+ "set": {
+  "diversity": 3,
+  "risk_judgement": "偏松",
+  "best_index": 2,
+  "must_coverage": "2/2",
+  "summary": "三条都交代了交接，语气总体轻松，分别尝试了问候、保养和叠戴切入，但结构与篇幅较相近。工具未提示候选1的调店时间错误，也未识别候选3编造交接谈话，风险判断偏松。"
+ },
+ "_judge": "openai:gpt-6.1-terra"
+}

@@ -1,0 +1,86 @@
+{
+  "case_id": "C19",
+  "scenario": "post_purchase",
+  "today": "2026-11-14",
+  "occasion": "购买后 7 天跟进：她的第一件“大件”，犒赏自己",
+  "ca": {
+    "name": "Grace",
+    "gender": "女",
+    "years_experience": 5,
+    "store": "杭州大厦精品店",
+    "known_client_since": "2026-09",
+    "style": "偏亲切"
+  },
+  "client": {
+    "surname": "孟",
+    "given_name": "清禾",
+    "gender": "女",
+    "age_range": "30-35",
+    "city": "杭州",
+    "occupation": "会计师事务所审计经理",
+    "client_since": "2026-11",
+    "spend_band": "5万以下",
+    "stage": "入门",
+    "last_visit": "2026-11-07",
+    "last_purchase": "2026-11-07",
+    "wealth_source": "职业收入",
+    "motivations": [
+      "犒赏自己"
+    ],
+    "social_visibility": "低调",
+    "price_sensitivity": "高",
+    "style_preference": "通勤、简洁，不喜欢太闪",
+    "material_preference": "白金",
+    "owned_pieces": [
+      {
+        "date": "2026-11-07",
+        "item": "涟漪 18K 白金手链（三钻）",
+        "for_whom": "自戴",
+        "note": "升任经理后的自我奖励，来店看过三次才决定"
+      }
+    ],
+    "sizes": "手腕约 15cm",
+    "formality": "适中",
+    "reply_habit": "工作日回复慢，周末回得多",
+    "recommendation_openness": "一般",
+    "preferred_contact_time": "周末",
+    "interests": [
+      "瑜伽",
+      "西湖边骑行"
+    ],
+    "notes": "9 月第一次进店，10 月又来试戴两次，一直在算预算。11 月 7 日买下时说“这是我给自己买过最贵的东西”。平时用电脑多，手腕常压在桌面上。"
+  },
+  "conversation_history": [
+    {
+      "sender": "client",
+      "time": "2026-11-07 19:20",
+      "text": "到家了，又拿出来看了一遍，还是很喜欢"
+    },
+    {
+      "sender": "ca",
+      "time": "2026-11-07 19:31",
+      "text": "孟女士，戴着开心最重要，有什么问题随时找我。"
+    },
+    {
+      "sender": "client",
+      "time": "2026-11-07 19:33",
+      "text": "嗯嗯，就是有点舍不得天天戴 怕磨坏"
+    }
+  ],
+  "product_skus": [
+    "OND-B03"
+  ],
+  "test_meta": {
+    "persona": "P4",
+    "type": "core",
+    "must": [
+      "肯定她的选择（不夸张）",
+      "一条实用保养",
+      "回应她“舍不得天天戴”的顾虑"
+    ],
+    "must_not": [
+      "长篇说明书",
+      "推荐搭配新品"
+    ]
+  }
+}

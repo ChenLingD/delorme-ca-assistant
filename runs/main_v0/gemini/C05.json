@@ -1,0 +1,63 @@
+{
+ "case_id": "C05",
+ "version": "v0",
+ "model": "gemini:gemini-3.8-flash",
+ "risk": {
+  "level": "ok",
+  "flags": [],
+  "advice": ""
+ },
+ "candidates": [
+  {
+   "text": "吴老师，除夕安康。记得您提过今年全家在京团聚，两个小孙子定是热闹极了。新的一年，祝您与家人和乐顺遂，新春吉祥。",
+   "strategy": "温和家常，自然呼应吴女士上次提及的合家守岁与孙辈天伦，契合除夕团圆氛围。",
+   "note_for_ca": "话语简练贴心，自然带出上次闲聊的细节，既显关怀又毫无负担。"
+  },
+  {
+   "text": "吴老师，除夕迎春。不知不觉相识已是第十个年头，一直很感念您的温和与信任。祝您和家人除夕守岁尽欢，新岁安康舒泰。",
+   "strategy": "从十年长久相伴的角度切入，表达得体尊重与感恩，符合老客人的信任深度与学人风度。",
+   "note_for_ca": "今年恰逢相识十周年，借除夕之际表达一份老朋友般的致意，克制且有分量。"
+  },
+  {
+   "text": "吴老师，岁除迎新，给您和家人拜个早年。愿新的一年阖家欢喜，岁岁长安，新春万事顺意。",
+   "strategy": "传统典雅的简短年节问候，用词书面雅致，符合教授的文化审美。",
+   "note_for_ca": "纯粹的节日致意，言简意深，适合除夕上午发送。"
+  }
+ ],
+ "checks": [
+  {
+   "pass": true,
+   "hard": [],
+   "soft": [],
+   "length": 55
+  },
+  {
+   "pass": true,
+   "hard": [],
+   "soft": [],
+   "length": 55
+  },
+  {
+   "pass": true,
+   "hard": [],
+   "soft": [],
+   "length": 41
+  }
+ ],
+ "trace": {
+  "seconds": 11.5,
+  "diversity_max_sim": 0.039473684210526314,
+  "calls": [
+   {
+    "requested": "gemini-3.8-flash",
+    "served": "gemini-3.8-flash",
+    "seconds": 11.5,
+    "attempt": 1,
+    "in_tokens": 3002,
+    "out_tokens": 382,
+    "reasoning_tokens": null,
+    "fingerprint": null
+   }
+  ]
+ }
+}

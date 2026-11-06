@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "严重：资料未确认作品已经到店；上海采购珍珠的渊源发生在1920年代，也未确定是1926年。",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 2
+   },
+   "sendability": "不可用",
+   "comment": "切入了客户感兴趣的上海往事，但缺少具体故事细节、已有藏品关联和退路，还未经确认就说作品到了。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 4,
+    "naturalness": 3,
+    "effectiveness": 3
+   },
+   "sendability": "直接可发",
+   "comment": "上海往事和渐变珠串都有依据，但略显铺陈，缺少与她已有金珠吊坠的关联，也没有给出退路。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "严重：未确认作品刚送到店，也没有依据说渐变珠串是依照当年手绘意境设计的；细节图和图录资料是否可提供亦未确认。",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 1,
+    "brand_voice": 2,
+    "naturalness": 3,
+    "effectiveness": 2
+   },
+   "sendability": "不可用",
+   "comment": "询问是否看图留有余地，但没有联系客户的兴趣或藏品，且突出编号数量不如讲清作品与她的关系。"
+  }
+ ],
+ "set": {
+  "diversity": 3,
+  "risk_judgement": "偏松",
+  "best_index": 2,
+  "must_coverage": "2/3",
+  "summary": "候选2的历史切入和作品细节最稳妥，候选3提供了退路，但三条都没有关联客户已有藏品。风险提醒未指出未经确认的到店信息和设计依据，候选3强调全球编号数量虽无催促，仍不如聚焦客户品味。"
+ },
+ "_judge": "openai:gpt-6.1-terra"
+}

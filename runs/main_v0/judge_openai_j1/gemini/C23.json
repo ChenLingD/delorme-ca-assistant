@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "手册确认品牌提供免费刻字，但未说明该服务由工坊提供。",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 4
+   },
+   "sendability": "小改可发",
+   "comment": "抓住了客户关心的下坠感，但重复提及耳垂薄略显刻意，建议删去“工坊”并精简问候。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 4,
+    "naturalness": 4,
+    "effectiveness": 5
+   },
+   "sendability": "直接可发",
+   "comment": "沿着此前聊过的耳堵松紧关心佩戴，又交代了免费刻字期限；“专属印记”稍显修饰，但不影响发送。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "手册确认品牌提供免费刻字，但未说明该服务由工坊提供。",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "冷白珠光呼应了客户的喜好，但“合心意”不如直接问戴着是否舒服，且需删去未经确认的工坊表述。"
+  }
+ ],
+ "set": {
+  "diversity": 2,
+  "risk_judgement": "偏松",
+  "best_index": 2,
+  "must_coverage": "2/2",
+  "summary": "三条都只围绕佩戴者和作品沟通，也都提到了免费刻字期限，但切入结构相近，差异有限。候选 1 和 3 将刻字服务归于工坊缺乏依据，原风险判断遗漏了这一点；候选 2 最自然实用。"
+ },
+ "_judge": "openai:gpt-6.1-terra"
+}

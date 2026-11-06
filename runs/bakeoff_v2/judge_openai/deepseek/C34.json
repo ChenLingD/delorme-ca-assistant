@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "没有呼应客户曾明确希望看到老图稿的心愿，也未接续此前的告知约定。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 1,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 1
+   },
+   "sendability": "小改可发",
+   "comment": "虽然简短得体，但像通用邀约，缺少图稿、珍珠收藏和活动时间等关键信息。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "活动资料只说明首次公开1920年代上海珍珠手绘图稿原件，不能确定图稿是在上海画下的。",
+    "context_failure": "无",
+    "must_not_hit": "编造活动或图稿的细节：将绘制地点说成上海。"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 4,
+    "naturalness": 3,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "准确抓住了客户想看图稿的心愿，但须修正绘制地点，并补充与她珍珠收藏的关联及必要的邀约信息。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "未提及客户曾希望亲眼看到的老图稿，错过此前约定的重要联系。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 2,
+    "brand_voice": 4,
+    "naturalness": 4,
+    "effectiveness": 2
+   },
+   "sendability": "小改可发",
+   "comment": "时间、规模和串线演示准确，询问较少人的场次也有分寸，但缺少特展名称、地点以及与客户收藏和图稿心愿的联系。"
+  }
+ ],
+ "set": {
+  "diversity": 4,
+  "risk_judgement": "偏松",
+  "best_index": 2,
+  "must_coverage": "2/3",
+  "summary": "整体有极简、心愿连接和推进邀约三个不同角度，组合中覆盖了准确活动信息和九月的图稿心愿，但没有一条与客户的珍珠收藏建立明确联系。候选2最贴近客户的真实兴趣，却把图稿说成在上海画下，工具将整体风险判断为“无”偏松；各候选也没有单独完成全部 must 项。"
+ },
+ "_judge": "openai:gpt-6.1-terra"
+}

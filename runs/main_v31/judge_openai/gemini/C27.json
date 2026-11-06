@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "严重：品牌固定服务包含免费清洗和检测，但没有说明使用超声波，不能擅自承诺清洗方式。",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 4,
+    "naturalness": 4,
+    "effectiveness": 4
+   },
+   "sendability": "不可用",
+   "comment": "服务切入自然、压力小，但须删除未经确认的“超声波”后再发送。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "轻微：客户曾说上班每天戴，但无法确认耳钉持续陪伴通勤快三年；“18K金随时间养出更温润的光泽”也没有给定依据。",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 2,
+    "naturalness": 2,
+    "effectiveness": 2
+   },
+   "sendability": "小改可发",
+   "comment": "工作纪念日的细节有针对性，但堆叠经历和空泛的光泽描述显得刻意，不像轻量问候。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "轻微：此前聊天支持耳堵可拿到店调节，但没有依据保证门店随时能做调校和紧固。",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 4,
+    "naturalness": 4,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "耳堵切入有聊天依据，但久未联系便追问佩戴情况略显突兀，应去掉“随时能”的承诺。"
+  }
+ ],
+ "set": {
+  "diversity": 3,
+  "risk_judgement": "正确",
+  "best_index": 1,
+  "must_coverage": "2/2",
+  "summary": "整体避开了推新品和价格话题，也提供了无压力的服务切入，候选1修改后最适合唤醒客户。主要问题是未经确认就写入清洗方式或门店安排，候选2还对持续佩戴和金饰光泽作了无依据的描述。"
+ },
+ "_judge": "openai:gpt-6.1-terra"
+}

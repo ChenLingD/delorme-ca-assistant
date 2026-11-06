@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "“随时帮您恢复原来的光泽”暗示随时可处理，并承诺恢复效果；师傅仅周二至周日在店，抛光效果也未确认。",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 4,
+    "naturalness": 4,
+    "effectiveness": 4
+   },
+   "sendability": "小改可发",
+   "comment": "先接住情绪，再给出免费抛光及所需时间；删去“随时”和恢复原貌的承诺即可。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "擅自承诺明天完成抛光并送还；CA 只明确授权上门取件，未授权送还或明日完成。",
+    "context_failure": "未说明现场抛光约需 40 分钟。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 3,
+    "naturalness": 4,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "理解客户心疼并提供上门取件，但须删除未经授权的完成及送还承诺，补充约 40 分钟的现场处理时间。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "“划痕别担心”没有接住客户对新戒指划痕及质量的质疑，直接要求选择处理方式略显急促。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 3,
+    "naturalness": 4,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "免费抛光、师傅在店时间和取件方案都具体，但应先承认客户的不快，再温和询问方便的处理方式。"
+  }
+ ],
+ "set": {
+  "diversity": 3,
+  "risk_judgement": "正确",
+  "best_index": 1,
+  "must_coverage": "3/3",
+  "summary": "候选 1 最完整地接住了情绪，并给出免费抛光及约 40 分钟的处理时间；三条均未推卸责任或触发 must_not。主要问题是候选 1 和 2 含未经确认的效果或时间承诺，候选 3 则缺少对客户感受的承认，均需修改后发送。"
+ },
+ "_judge": "openai:gpt-6.1-terra"
+}

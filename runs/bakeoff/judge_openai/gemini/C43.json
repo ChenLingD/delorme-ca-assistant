@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 2,
+    "brand_voice": 4,
+    "naturalness": 5,
+    "effectiveness": 2
+   },
+   "sendability": "小改可发",
+   "comment": "接住了预算顾虑，简短自然，但没有回应客户想找珍珠耳钉的需求，可补一句帮她看看同一设计语言的其他选择。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "手册承诺终身免费清洗、抛光与检测，但未明确承诺终身免费镶托保养。",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 2,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 2
+   },
+   "sendability": "小改可发",
+   "comment": "态度温和，但售后表述超出已知承诺，且没有提供同一设计语言的其他选择。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "将年会与客户答谢活动混为一谈：已知客户要主持的是客户答谢活动，并未说主持年会。",
+    "context_failure": "用已有吊坠替代耳钉建议，偏离客户想买第一副珍珠耳钉的需求。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 2
+   },
+   "sendability": "小改可发",
+   "comment": "尝试结合已有作品和穿搭，但混淆活动事实，也未给出珍珠耳钉的其他选择。"
+  }
+ ],
+ "set": {
+  "diversity": 3,
+  "risk_judgement": "正确",
+  "best_index": 1,
+  "must_coverage": "1/2",
+  "summary": "三条都尊重预算、没有催促或让价暗示，候选1最自然。主要问题是均未提出同一设计语言的其他选择，另外候选2和3分别有服务承诺及活动事实不准确的问题。"
+ },
+ "_judge": "openai:gpt-6.1-terra"
+}

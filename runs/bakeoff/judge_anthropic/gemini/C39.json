@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "轻微：“今天晚点给您答复”是输入里没有的时间承诺。CA 只说想先回复，并没说今天能拿到公关的答复。",
+    "context_failure": "无",
+    "must_not_hit": "无。没有答应拍摄，也没有编造拍摄政策。"
+   },
+   "scores": {
+    "personalization": 2,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 4
+   },
+   "sendability": "小改可发",
+   "comment": "明确说了要先向公关报备，没有答应拍摄，也接住了她的热情。扣分在“今天晚点”这个时间承诺，应改成“有消息第一时间告诉您”。开头“太好了您喜欢！”稍微生硬，也没呼应她想发笔记的心思。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "轻微：“我正帮您向公关报备确认”说成已经在办，“稍后给您准信”暗示很快有确定答复，这两点都没有依据。",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 2,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "短而稳，没有越权，但回得偏公事公办。她刚兴奋地说“太对我胃口了”，这条完全没接情绪，没有“不冷场”的效果。“准信”也容易让她以为结果是确定的。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "有：“光线好、人相对宽松的场次”没有任何依据。资料只说每场 8 位客人，没提各场光线和人流差异，也没说能按拍摄需求选场次。",
+    "context_failure": "无",
+    "must_not_hit": "擦边：“能记录下来就太好了”加上“我尽量帮您选个……场次”，听起来像已默认拍摄可行，接近“直接答应”。"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "最有温度，也最有推进感：用到了每场 8 位这个真实信息，还主动问场次。但“光线好、人宽松”是编造，整体又暗示拍摄大概率能成，会抬高她的预期。要删掉最后一句，并把开头改成中性表达，才不越线。"
+  }
+ ],
+ "set": {
+  "diversity": 2,
+  "risk_judgement": "正确",
+  "best_index": 1,
+  "must_coverage": "3/3（以候选 1 计；候选 2 的热情不足，候选 3 在“不直接答应”上有风险）",
+  "summary": "风险判断为 caution 是对的，三条都把“要先问公关”说清楚了，也都没有编造拍摄政策。主要问题有两点：三条本质上都是“我去报备”，只是长短不同，差异不大；另外 1 和 2 加了没有依据的时间承诺，3 加了编造的场次细节，并暗示拍摄可行。"
+ },
+ "_judge": "anthropic:claude-sonnet-5-5"
+}

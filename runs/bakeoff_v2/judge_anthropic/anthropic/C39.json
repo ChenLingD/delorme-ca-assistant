@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 2,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "没有承诺拍摄，也说明了要确认，但“您喜欢就好”答非所问，客户刚说“太对我胃口了”、想发笔记，这句接不住她的热情，显得冷淡生硬，有点像打发。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 5,
+    "brand_voice": 4,
+    "naturalness": 4,
+    "effectiveness": 4
+   },
+   "sendability": "小改可发",
+   "comment": "用她发过的珍珠叠戴笔记接住热情，拍摄如实说要先问公关、没有暗示通过也没承诺时间，最有温度；“我一点也不意外”稍显主观，“不想随口给您一个不准的答复”略书面，可再口语化，也没有把邀请往前推。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 2,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 4
+   },
+   "sendability": "小改可发",
+   "comment": "日期、规模、地点都准确，并把邀请往前推进，但开头没回应她的兴奋，直接问日期有点公事公办，还重复了她已知的信息；“每场8位”若被理解成催促也要留意，整体偏流程化。"
+  }
+ ],
+ "set": {
+  "diversity": 3,
+  "risk_judgement": "正确",
+  "best_index": 2,
+  "must_coverage": "3/3",
+  "summary": "三条都守住了底线：没有答应拍摄、没有编造政策，也没有承诺回复时间，风险判断 caution 准确。主要问题是情绪接住不够：候选 1 和 3 没有回应客户的兴奋，候选 2 最自然但稍书面，三条的核心内容（先问公关再回复）基本相同，差异主要在篇幅和是否带日期信息。"
+ },
+ "_judge": "anthropic:claude-sonnet-5-5"
+}

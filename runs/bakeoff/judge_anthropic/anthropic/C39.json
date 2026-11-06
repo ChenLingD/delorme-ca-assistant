@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 2,
+    "brand_voice": 4,
+    "naturalness": 4,
+    "effectiveness": 3
+   },
+   "sendability": "直接可发",
+   "comment": "安全、简短，没有预设答案，也没有给时间承诺。但她刚兴奋地说“太对我胃口了”，这条回得偏公事公办，没接住热情，也没说“不管拍不拍都欢迎来”，有点冷。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 4,
+    "naturalness": 4,
+    "effectiveness": 4
+   },
+   "sendability": "直接可发",
+   "comment": "先接住她的热情，再说拍摄要先问品牌同事，同时收集摄影师人数和拍摄内容，方便转达。“不管拍摄怎样，都想请您来看看原件”把邀请和拍摄分开了，日期也与活动资料一致。小瑕疵：没有明说“有消息告诉您”，一次问的点略多。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 3,
+    "naturalness": 2,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "没有承诺，也说了要确认。但开头重复上一条已说过的图稿卖点，“会合您的心意”措辞别扭，“您先别着急”并不贴合她的情绪，“先留意一下”日期很含糊。没有明确表达“不论能否拍摄都欢迎来”，读起来像在拼凑。"
+  }
+ ],
+ "set": {
+  "diversity": 3,
+  "risk_judgement": "正确",
+  "best_index": 2,
+  "must_coverage": "3/3（候选 2 全部做到；候选 1 只做到 2/3，热情不足；候选 3 勉强做到）",
+  "summary": "风险判断准确：定为 caution，识别出不能默许拍摄、客户会公开分享、现场有其他客人，并把称呼改回“江女士”。三条都守住了“不承诺、需确认”的底线，候选 2 兼顾确认、信息收集和保留邀请，最好。主要问题是三条差异不大：候选 1 过于简短，候选 3 重复旧信息且措辞别扭，候选 2、3 结构也相近。"
+ },
+ "_judge": "anthropic:claude-sonnet-5-5"
+}

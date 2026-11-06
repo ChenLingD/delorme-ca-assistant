@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 2,
+    "brand_voice": 5,
+    "naturalness": 5,
+    "effectiveness": 5
+   },
+   "sendability": "直接可发",
+   "comment": "简短、轻快又得体，生日蛋糕 emoji 也符合场景；个性化虽少，但祝福足够真诚。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "轻微：客户只说过生日要去北海道滑雪，不能确定此刻已在雪道上。",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "滑雪细节贴近客户，但应避免猜测行程进度，结尾也略显套话。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "轻微：两个月前的叠戴反馈被带入“最近”追问，生日祝福也被作品话题冲淡。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 3,
+    "naturalness": 2,
+    "effectiveness": 2
+   },
+   "sendability": "小改可发",
+   "comment": "耳钉是有意义的生日细节，但后半句绕口且急于追问，建议只保留祝福和去年挑耳钉的回忆。"
+  }
+ ],
+ "set": {
+  "diversity": 4,
+  "risk_judgement": "偏松",
+  "best_index": 1,
+  "must_coverage": "1/1",
+  "summary": "三条切入角度有区别，候选 1 最符合年轻而得体的生日祝福。工具判断“无风险”偏松：候选 2 猜测客户已到雪道，候选 3 则把两个月前的叠戴经历当作近期话题追问。"
+ },
+ "_judge": "openai:gpt-6.1-terra"
+}

@@ -1,0 +1,338 @@
+{
+ "case_id": "C30",
+ "version": "v2",
+ "model": "openai:gpt-6.1-terra",
+ "risk": {
+  "level": "hold",
+  "flags": [
+   "晨星心愿无法确认时间引发不满",
+   "上次互动以客户认为自己不被尊重结束",
+   "投诉尚未解决，此后一年未联系"
+  ],
+  "advice": "先为上次让她感到不被尊重致歉，并留出回应空间，不以产品或销售为切入点。"
+ },
+ "candidates": [
+  {
+   "text": "葛女士，我来问候您，也为上次的沟通向您道歉。",
+   "strategy": "极简",
+   "note_for_ca": "适合先简短问候并致歉时使用。"
+  },
+  {
+   "text": "葛女士，想起您上次说觉得不被尊重，我一直记着。那次沟通让您有这样的感受，我很抱歉，今天想来问候您一声。",
+   "strategy": "走心",
+   "note_for_ca": "回应她上次感到不被尊重的留言。"
+  },
+  {
+   "text": "葛女士，上次没能好好回应您的感受，我向您道歉。隔了这么久，我还是想来跟您打声招呼。关于当时的事，您愿意让我听听您的想法吗？不急着回复。",
+   "strategy": "推进",
+   "note_for_ca": "适合希望先回应投诉、倾听客户感受时使用。"
+  }
+ ],
+ "checks": [
+  {
+   "pass": true,
+   "hard": [],
+   "soft": [],
+   "length": 22
+  },
+  {
+   "pass": true,
+   "hard": [],
+   "soft": [],
+   "length": 51
+  },
+  {
+   "pass": true,
+   "hard": [],
+   "soft": [],
+   "length": 67
+  }
+ ],
+ "trace": {
+  "rounds": [
+   {
+    "rule_checks": [
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 22
+     },
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 51
+     },
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 72
+     }
+    ],
+    "critic": {
+     "reviews": [
+      {
+       "index": 1,
+       "pass": true,
+       "issues": []
+      },
+      {
+       "index": 2,
+       "pass": true,
+       "issues": []
+      },
+      {
+       "index": 3,
+       "pass": true,
+       "issues": []
+      }
+     ],
+     "set_issues": [
+      {
+       "indices": [
+        2,
+        3
+       ],
+       "issue": "两条都着重复述客户感到不被尊重，再致歉问候，侧重较相似。走心版可保留对感受的回应；推进版保留问候和致歉后，直接询问客户是否愿意谈谈当时的沟通，突出倾听。"
+      }
+     ]
+    },
+    "set_issues": [
+     "两条都着重复述客户感到不被尊重，再致歉问候，侧重较相似。走心版可保留对感受的回应；推进版保留问候和致歉后，直接询问客户是否愿意谈谈当时的沟通，突出倾听。"
+    ],
+    "to_fix": {
+     "3": [
+      "与其他候选雷同：两条都着重复述客户感到不被尊重，再致歉问候，侧重较相似。走心版可保留对感受的回应；推进版保留问候和致歉后，直接询问客户是否愿意谈谈当时的沟通，突出倾听。"
+     ]
+    }
+   },
+   {
+    "rule_checks": [
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 22
+     },
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 51
+     },
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 56
+     }
+    ],
+    "critic": {
+     "reviews": [
+      {
+       "index": 1,
+       "pass": true,
+       "issues": []
+      },
+      {
+       "index": 2,
+       "pass": true,
+       "issues": []
+      },
+      {
+       "index": 3,
+       "pass": true,
+       "issues": []
+      }
+     ],
+     "set_issues": [
+      {
+       "indices": [
+        1,
+        3
+       ],
+       "issue": "两条都用“问候您，也为上次的沟通向您道歉”，句式较接近。第3条可先道歉，再表达重新问候的心意并询问是否愿意聊聊，以突出倾听投诉的用途。"
+      }
+     ]
+    },
+    "set_issues": [
+     "两条都用“问候您，也为上次的沟通向您道歉”，句式较接近。第3条可先道歉，再表达重新问候的心意并询问是否愿意聊聊，以突出倾听投诉的用途。"
+    ],
+    "to_fix": {
+     "3": [
+      "与其他候选雷同：两条都用“问候您，也为上次的沟通向您道歉”，句式较接近。第3条可先道歉，再表达重新问候的心意并询问是否愿意聊聊，以突出倾听投诉的用途。"
+     ]
+    }
+   },
+   {
+    "rule_checks": [
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 22
+     },
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 51
+     },
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 67
+     }
+    ],
+    "critic": {
+     "reviews": [
+      {
+       "index": 1,
+       "pass": true,
+       "issues": []
+      },
+      {
+       "index": 2,
+       "pass": true,
+       "issues": []
+      },
+      {
+       "index": 3,
+       "pass": true,
+       "issues": []
+      }
+     ],
+     "set_issues": []
+    },
+    "set_issues": [],
+    "to_fix": {}
+   }
+  ],
+  "plan": {
+   "client_read": "葛女士偏爱有辨识度的珠宝，也曾想将穹顶手镯与晨星叠戴。上次沟通以她感到不被尊重结束，投诉尚未解决，此后双方一年未联系。",
+   "risk": {
+    "level": "hold",
+    "flags": [
+     "晨星心愿无法确认时间引发不满",
+     "上次互动以客户认为自己不被尊重结束",
+     "投诉尚未解决，此后一年未联系"
+    ],
+    "advice": "先为上次让她感到不被尊重致歉，并留出回应空间，不以产品或销售为切入点。"
+   },
+   "ca_commitments": [],
+   "usable_facts": [
+    "她曾希望将穹顶玫瑰金手镯与晨星叠戴",
+    "她曾询问晨星手镯何时能拿到",
+    "她上次留言表示感到不被尊重",
+    "她的晨星心愿登记仍保留"
+   ],
+   "do_not_mention": [
+    "消费金额、客户等级及内部标签",
+    "消费门槛、配货条件",
+    "未经确认的到货时间、名额或排位",
+    "其他客户的信息",
+    "产品推荐或催促到店"
+   ],
+   "products": [],
+   "slots": {
+    "极简": "先问候，并为上次沟通带来的不愉快致歉。",
+    "走心": "回应她上次感到不被尊重这件事，让她知道自己的感受被认真听见。",
+    "推进": "询问她是否愿意聊聊上次未解决的沟通，不要求立即回复，也不承诺晨星的结果或时间。"
+   }
+  },
+  "first_draft": [
+   {
+    "text": "葛女士，我来问候您，也为上次的沟通向您道歉。",
+    "strategy": "极简",
+    "note_for_ca": "适合先简短问候并致歉时使用。"
+   },
+   {
+    "text": "葛女士，想起您上次说觉得不被尊重，我一直记着。那次沟通让您有这样的感受，我很抱歉，今天想来问候您一声。",
+    "strategy": "走心",
+    "note_for_ca": "回应她上次感到不被尊重的留言。"
+   },
+   {
+    "text": "葛女士，隔了一段时间，我想向您问声好。上次关于晨星的沟通让您感到不被尊重，对不起。如果您愿意，我想听听您对那次沟通还有什么想说的，不用急着回复。",
+    "strategy": "推进",
+    "note_for_ca": "适合想给客户留出回应投诉的空间时使用。"
+   }
+  ],
+  "seconds": 43.6,
+  "diversity_max_sim": 0.05263157894736842,
+  "calls": [
+   {
+    "requested": "gpt-6.1-terra",
+    "served": "gpt-6.1-terra",
+    "seconds": 10.2,
+    "attempt": 1,
+    "in_tokens": 5560,
+    "out_tokens": 557,
+    "reasoning_tokens": 137,
+    "fingerprint": null
+   },
+   {
+    "requested": "gpt-6.1-terra",
+    "served": "gpt-6.1-terra",
+    "seconds": 7.1,
+    "attempt": 1,
+    "in_tokens": 4981,
+    "out_tokens": 358,
+    "reasoning_tokens": 142,
+    "fingerprint": null
+   },
+   {
+    "requested": "gpt-6.1-terra",
+    "served": "gpt-6.1-terra",
+    "seconds": 8.5,
+    "attempt": 1,
+    "in_tokens": 4807,
+    "out_tokens": 494,
+    "reasoning_tokens": 325,
+    "fingerprint": null
+   },
+   {
+    "requested": "gpt-6.1-terra",
+    "served": "gpt-6.1-terra",
+    "seconds": 2.8,
+    "attempt": 1,
+    "in_tokens": 5279,
+    "out_tokens": 93,
+    "reasoning_tokens": 0,
+    "fingerprint": null
+   },
+   {
+    "requested": "gpt-6.1-terra",
+    "served": "gpt-6.1-terra",
+    "seconds": 6.8,
+    "attempt": 1,
+    "in_tokens": 4798,
+    "out_tokens": 448,
+    "reasoning_tokens": 290,
+    "fingerprint": null
+   },
+   {
+    "requested": "gpt-6.1-terra",
+    "served": "gpt-6.1-terra",
+    "seconds": 2.7,
+    "attempt": 1,
+    "in_tokens": 5251,
+    "out_tokens": 98,
+    "reasoning_tokens": 0,
+    "fingerprint": null
+   },
+   {
+    "requested": "gpt-6.1-terra",
+    "served": "gpt-6.1-terra",
+    "seconds": 5.6,
+    "attempt": 1,
+    "in_tokens": 4804,
+    "out_tokens": 294,
+    "reasoning_tokens": 239,
+    "fingerprint": null
+   }
+  ]
+ }
+}

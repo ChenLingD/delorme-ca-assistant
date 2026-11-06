@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 2,
+    "brand_voice": 3,
+    "naturalness": 4,
+    "effectiveness": 2
+   },
+   "sendability": "小改可发",
+   "comment": "没有承诺、没有编造，语气也像真人，但对她「太对我胃口了」的热情毫无回应，显得冷淡；「我先问问公关」是内部口吻，没有说会回复她，也没有留下对活动本身的期待。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 4,
+    "naturalness": 3,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "用她的珍珠叠戴笔记和图稿接住了热情，保住了氛围，也说明了要先向公关确认；但没说确认后会回复她，「感觉您会喜欢」有点泛，且这个理由前一天邀约时已经讲过，略重复，句子也偏书面。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 4,
+    "naturalness": 3,
+    "effectiveness": 4
+   },
+   "sendability": "小改可发",
+   "comment": "直接回答了她的拍摄问题，说明要向公关确认并会回复她，不预设结果，must 项基本做到；缺点是热情回应偏弱，「确认」说了两遍有些啰嗦，也没有给时间预期（这点是对的，不编造）。"
+  }
+ ],
+ "set": {
+  "diversity": 3,
+  "risk_judgement": "正确",
+  "best_index": 3,
+  "must_coverage": "2.5/3",
+  "summary": "三条都守住了不承诺、不编造拍摄政策的底线，风险判断为 caution 恰当。主要问题是普遍没有回应她「太对我胃口了」的兴奋，也没有把「我先问公关」和「确认后回复您」同时说清楚——只有候选 3 说了会回复；候选 2 有热情但没有承诺回复，候选 1 则两者都缺。三条之间差别主要在篇幅，核心信息雷同。"
+ },
+ "_judge": "anthropic:claude-sonnet-5-5"
+}

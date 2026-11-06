@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "客户问何时能拿到，但“具体情况我去确认”较含糊，没有明确说明目前无法给出到货时间。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 2,
+    "brand_voice": 3,
+    "naturalness": 4,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "简短稳妥，也提出登记心愿，但应更明确回应客户对时间的疑问。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 4,
+    "naturalness": 3,
+    "effectiveness": 4
+   },
+   "sendability": "直接可发",
+   "comment": "回应了客户的喜欢和到货时间问题，工艺细节也准确；只是复述稍长，缺少登记心愿或后续了解的引导。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "“手镯的心愿我这边也登记着”暗示心愿已经登记，输入中没有这一事实。",
+    "context_failure": "没有回应客户问的到货时间，先转向沧海，容易让客户觉得自己的明确需求被绕开。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 2
+   },
+   "sendability": "小改可发",
+   "comment": "黄金偏好和金珠细节有针对性，但应先回应晨星的时间问题，并将已登记改为可以登记。"
+  }
+ ],
+ "set": {
+  "diversity": 4,
+  "risk_judgement": "偏松",
+  "best_index": 2,
+  "must_coverage": "3/3",
+  "summary": "三条合起来覆盖了不拒绝不承诺、登记心愿和了解其他系列工艺，但没有一条同时完成这些动作。风险提醒抓住了配额红线，却未指出候选3暗示已登记、回避时间问题；另外，建议中的“沧海金珠吊坠”也缺少明确产品资料支持。"
+ },
+ "_judge": "openai:gpt-6.1-terra"
+}

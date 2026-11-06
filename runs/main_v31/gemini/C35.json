@@ -1,0 +1,253 @@
+{
+ "case_id": "C35",
+ "version": "v3.1",
+ "model": "gemini:gemini-3.8-flash",
+ "risk": {
+  "level": "ok",
+  "flags": [],
+  "advice": ""
+ },
+ "candidates": [
+  {
+   "text": "何先生，12月5日太古里店有工坊开放日，巴黎工坊的镶嵌师会过来，现场演示“看不见的镶爪”。您如果感兴趣，可以过来看看。",
+   "strategy": "极简",
+   "note_for_ca": "开门见山直奔主题，适合何先生这种喜欢高效说事的习惯。"
+  },
+  {
+   "text": "何先生，8月您聊起想看悬浮镶的现场操作，12月5日我们太古里店正好有一场工坊日。巴黎工坊的师傅会当场演示，现场也能在放大镜下看结构，您正好可以直接跟师傅探讨公差和工艺。",
+   "strategy": "走心",
+   "note_for_ca": "呼应8月聊过的公差与看现场操作，科技理性视角更易共鸣。"
+  },
+  {
+   "text": "何先生，12月5日太古里店有一场工坊开放日，现场会演示隐形镶嵌，活动可以携带家人。不知您和太太那天时间是否方便，可以一起过来看看。",
+   "strategy": "推进",
+   "note_for_ca": "提出携太太同行的选项，询问具体日期是否方便，推进决策。"
+  }
+ ],
+ "checks": [
+  {
+   "pass": true,
+   "hard": [],
+   "soft": [],
+   "length": 59
+  },
+  {
+   "pass": true,
+   "hard": [],
+   "soft": [],
+   "length": 84
+  },
+  {
+   "pass": true,
+   "hard": [],
+   "soft": [],
+   "length": 65
+  }
+ ],
+ "trace": {
+  "rounds": [
+   {
+    "rule_checks": [
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 59
+     },
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 84
+     },
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 62
+     }
+    ],
+    "critic": {
+     "reviews": [
+      {
+       "index": 1,
+       "pass": true,
+       "issues": []
+      },
+      {
+       "index": 2,
+       "pass": true,
+       "issues": []
+      },
+      {
+       "index": 3,
+       "pass": false,
+       "issues": [
+        "称谓与分寸不当：大陆现代社交语境下对客户配偶通常称“您太太”，直接称“何太太”属于生硬套用冠夫姓习惯；且替客户太太预设“对结构应该也会有兴趣”略显揣度。",
+        "承诺性内容超纲：输入中未提供预留权限，“帮您两位留个时间”涉及预留承诺，且活动资料未划分具体时段。建议改为询问“不知您和太太12月5日是否有空，方便的话可以一起过来看看”。"
+       ]
+      }
+     ],
+     "set_issues": []
+    },
+    "set_issues": [],
+    "to_fix": {
+     "3": [
+      "称谓与分寸不当：大陆现代社交语境下对客户配偶通常称“您太太”，直接称“何太太”属于生硬套用冠夫姓习惯；且替客户太太预设“对结构应该也会有兴趣”略显揣度。",
+      "承诺性内容超纲：输入中未提供预留权限，“帮您两位留个时间”涉及预留承诺，且活动资料未划分具体时段。建议改为询问“不知您和太太12月5日是否有空，方便的话可以一起过来看看”。"
+     ]
+    }
+   },
+   {
+    "rule_checks": [
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 59
+     },
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 84
+     },
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 65
+     }
+    ],
+    "critic": {
+     "reviews": [
+      {
+       "index": 1,
+       "pass": true,
+       "issues": []
+      },
+      {
+       "index": 2,
+       "pass": true,
+       "issues": []
+      },
+      {
+       "index": 3,
+       "pass": true,
+       "issues": []
+      }
+     ],
+     "set_issues": []
+    },
+    "set_issues": [],
+    "to_fix": {}
+   }
+  ],
+  "plan": {
+   "client_read": "何先生是务实理性、对微观结构与技术工艺有极高敏锐度的科技创业者。目前关系良好，3个月前他主动表达过想看工匠现场操作，本次邀约属于自然履约。",
+   "risk": {
+    "level": "ok",
+    "flags": [],
+    "advice": ""
+   },
+   "ca_commitments": [],
+   "usable_facts": [
+    "8月曾追问悬浮镶结构与公差，并明确表示想看现场操作",
+    "对营销话术无感，喜欢直接说事",
+    "太太是建筑设计师（活动可携带家人）"
+   ],
+   "do_not_mention": [
+    "内部消费区间与入门客户标签",
+    "公司A轮融资背景",
+    "任何营销促销词汇或名额紧张等紧迫感施压"
+   ],
+   "products": [],
+   "unanswerable": "",
+   "slots": {
+    "极简": {
+     "切入点": "直接说明活动时间与核心内容",
+     "唯一信息点": "12月5日太古里店有工坊开放日，巴黎镶嵌师会现场演示“看不见的镶爪”"
+    },
+    "走心": {
+     "切入点": "接续8月关于公差和想看现场操作的约定",
+     "唯一信息点": "现场提供显微/放大镜视角看手工镶嵌，可以直接当面跟工坊师傅探讨工艺结构"
+    },
+    "推进": {
+     "切入点": "活动可携伴同行的安排",
+     "唯一信息点": "活动可以带太太一起来，询问12月5日时间是否方便"
+    }
+   }
+  },
+  "first_draft": [
+   {
+    "text": "何先生，12月5日太古里店有工坊开放日，巴黎工坊的镶嵌师会过来，现场演示“看不见的镶爪”。您如果感兴趣，可以过来看看。",
+    "strategy": "极简",
+    "note_for_ca": "开门见山直奔主题，适合何先生这种喜欢高效说事的习惯。"
+   },
+   {
+    "text": "何先生，8月您聊起想看悬浮镶的现场操作，12月5日我们太古里店正好有一场工坊日。巴黎工坊的师傅会当场演示，现场也能在放大镜下看结构，您正好可以直接跟师傅探讨公差和工艺。",
+    "strategy": "走心",
+    "note_for_ca": "呼应8月聊过的公差与看现场操作，科技理性视角更易共鸣。"
+   },
+   {
+    "text": "何先生，12月5日太古里店有镶嵌师现场演示的工坊日，可以带家人同行。何太太对结构应该也会有兴趣，方便的话我帮您两位留个时间？",
+    "strategy": "推进",
+    "note_for_ca": "结合太太建筑师背景抛出携伴邀约，给出一个具体的答复节点。"
+   }
+  ],
+  "seconds": 38.5,
+  "diversity_max_sim": 0.17777777777777778,
+  "calls": [
+   {
+    "requested": "gemini-3.8-flash",
+    "served": "gemini-3.8-flash",
+    "seconds": 10.4,
+    "attempt": 1,
+    "in_tokens": 5916,
+    "out_tokens": 416,
+    "reasoning_tokens": null,
+    "fingerprint": null
+   },
+   {
+    "requested": "gemini-3.8-flash",
+    "served": "gemini-3.8-flash",
+    "seconds": 4.6,
+    "attempt": 1,
+    "in_tokens": 5235,
+    "out_tokens": 318,
+    "reasoning_tokens": null,
+    "fingerprint": null
+   },
+   {
+    "requested": "gemini-3.8-flash",
+    "served": "gemini-3.8-flash",
+    "seconds": 15.3,
+    "attempt": 1,
+    "in_tokens": 5118,
+    "out_tokens": 228,
+    "reasoning_tokens": null,
+    "fingerprint": null
+   },
+   {
+    "requested": "gemini-3.8-flash",
+    "served": "gemini-3.8-flash",
+    "seconds": 5.9,
+    "attempt": 1,
+    "in_tokens": 5575,
+    "out_tokens": 112,
+    "reasoning_tokens": null,
+    "fingerprint": null
+   },
+   {
+    "requested": "gemini-3.8-flash",
+    "served": "gemini-3.8-flash",
+    "seconds": 2.2,
+    "attempt": 1,
+    "in_tokens": 5117,
+    "out_tokens": 102,
+    "reasoning_tokens": null,
+    "fingerprint": null
+   }
+  ]
+ }
+}

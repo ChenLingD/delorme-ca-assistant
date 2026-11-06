@@ -1,0 +1,352 @@
+{
+ "case_id": "C06",
+ "version": "v3.1",
+ "model": "gemini:gemini-3.8-flash",
+ "risk": {
+  "level": "hold",
+  "flags": [
+   "近期丧亲（父亲于2026年10月下旬离世，距今仅一个月）"
+  ],
+  "advice": "不可发欢庆性质的“生日快乐”，严禁提及项链串线等搁置事务或产品邀约，仅表达克制温和的挂念与关怀。"
+ },
+ "candidates": [
+  {
+   "text": "陆女士，今天是您的生辰，愿您今日安宁、顺遂。保重身体。",
+   "strategy": "极简",
+   "note_for_ca": "避开“快乐”，极简温和，适合丧亲初期的安静致意。"
+  },
+  {
+   "text": "陆女士，今天给您道一声生辰祝愿。与您相识这些年，愿您在冬日里多添一份心力与舒展，平日多加珍重。",
+   "strategy": "走心",
+   "note_for_ca": "基于相识多年的默契，温和致意并祝愿心力舒展，分寸克制。"
+  },
+  {
+   "text": "陆女士，生辰日平顺。若近来有任何我能为您协助照料的小事，您随时交代，我一直都在外滩源这边。",
+   "strategy": "推进",
+   "note_for_ca": "以随时待命的姿态提供支持，避开重复用词，适合传达陪伴分担时选用。"
+  }
+ ],
+ "checks": [
+  {
+   "pass": true,
+   "hard": [],
+   "soft": [],
+   "length": 27
+  },
+  {
+   "pass": true,
+   "hard": [],
+   "soft": [],
+   "length": 47
+  },
+  {
+   "pass": true,
+   "hard": [],
+   "soft": [],
+   "length": 45
+  }
+ ],
+ "trace": {
+  "rounds": [
+   {
+    "rule_checks": [
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 27
+     },
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 48
+     },
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 51
+     }
+    ],
+    "critic": {
+     "reviews": [
+      {
+       "index": 1,
+       "pass": true,
+       "issues": []
+      },
+      {
+       "index": 2,
+       "pass": false,
+       "issues": [
+        "草稿中出现“心里一直记挂着您”，违反了品牌手册中“记得，但不炫耀记得；不要宣布我记得/我记着/一直放在心上”的规定。建议删去宣称记挂的字句，改为更自然、克制的心意表达。"
+       ]
+      },
+      {
+       "index": 3,
+       "pass": false,
+       "issues": [
+        "“外面的事情您不必劳心”分寸越界且带空话安慰感，CA 面对集团高管客户说此类话显得说教与不自量力；“搭把手”用词略显轻浮市井，不符合品牌温和克制的高级珠宝顾问语调。建议删去对客户外界事务的说教，改为得体、随时待命的克制守候（如“若日常有任何需要我协助的小事，您随时吩咐”）。"
+       ]
+      }
+     ],
+     "set_issues": [
+      {
+       "indices": [
+        2,
+        3
+       ],
+       "issue": "草稿 2 的“道一声生辰问候”与草稿 3 的“送去一份安静的问候”在表达结构上雷同，且后半句都属于抽象空泛的安慰。建议草稿 2 侧重于相识多年的静默相伴与温和祝福，草稿 3 侧重于提供一个低扰动、随时可回应的后盾支持，拉开切入点差异。"
+      }
+     ]
+    },
+    "set_issues": [
+     "草稿 2 的“道一声生辰问候”与草稿 3 的“送去一份安静的问候”在表达结构上雷同，且后半句都属于抽象空泛的安慰。建议草稿 2 侧重于相识多年的静默相伴与温和祝福，草稿 3 侧重于提供一个低扰动、随时可回应的后盾支持，拉开切入点差异。"
+    ],
+    "to_fix": {
+     "2": [
+      "草稿中出现“心里一直记挂着您”，违反了品牌手册中“记得，但不炫耀记得；不要宣布我记得/我记着/一直放在心上”的规定。建议删去宣称记挂的字句，改为更自然、克制的心意表达。"
+     ],
+     "3": [
+      "“外面的事情您不必劳心”分寸越界且带空话安慰感，CA 面对集团高管客户说此类话显得说教与不自量力；“搭把手”用词略显轻浮市井，不符合品牌温和克制的高级珠宝顾问语调。建议删去对客户外界事务的说教，改为得体、随时待命的克制守候（如“若日常有任何需要我协助的小事，您随时吩咐”）。",
+      "与其他候选雷同：草稿 2 的“道一声生辰问候”与草稿 3 的“送去一份安静的问候”在表达结构上雷同，且后半句都属于抽象空泛的安慰。建议草稿 2 侧重于相识多年的静默相伴与温和祝福，草稿 3 侧重于提供一个低扰动、随时可回应的后盾支持，拉开切入点差异。"
+     ]
+    }
+   },
+   {
+    "rule_checks": [
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 27
+     },
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 47
+     },
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 46
+     }
+    ],
+    "critic": {
+     "reviews": [
+      {
+       "index": 1,
+       "pass": true,
+       "issues": []
+      },
+      {
+       "index": 2,
+       "pass": true,
+       "issues": []
+      },
+      {
+       "index": 3,
+       "pass": true,
+       "issues": [
+        "“我一直都在”语气略显煽情空泛，不够克制沉稳，且与 10 月底刚发过的“有任何需要随时告诉我”意向重复；建议落脚在平静、专业的静候与待命，去掉煽情字眼。"
+       ]
+      }
+     ],
+     "set_issues": [
+      {
+       "indices": [
+        2,
+        3
+       ],
+       "issue": "草稿 2 与草稿 3 均使用了“珍重”（“平日多加珍重”与“这段时间请多珍重”），关怀语义与句式略显重合。建议草稿 3 换掉“珍重”一词，将重心更纯粹地放在安静守候、不作打扰的专业支持上，与草稿 2 的心境抚慰进一步拉开区分。"
+      }
+     ]
+    },
+    "set_issues": [
+     "草稿 2 与草稿 3 均使用了“珍重”（“平日多加珍重”与“这段时间请多珍重”），关怀语义与句式略显重合。建议草稿 3 换掉“珍重”一词，将重心更纯粹地放在安静守候、不作打扰的专业支持上，与草稿 2 的心境抚慰进一步拉开区分。"
+    ],
+    "to_fix": {
+     "3": [
+      "与其他候选雷同：草稿 2 与草稿 3 均使用了“珍重”（“平日多加珍重”与“这段时间请多珍重”），关怀语义与句式略显重合。建议草稿 3 换掉“珍重”一词，将重心更纯粹地放在安静守候、不作打扰的专业支持上，与草稿 2 的心境抚慰进一步拉开区分。"
+     ]
+    }
+   },
+   {
+    "rule_checks": [
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 27
+     },
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 47
+     },
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 45
+     }
+    ],
+    "critic": {
+     "reviews": [
+      {
+       "index": 1,
+       "pass": true,
+       "issues": []
+      },
+      {
+       "index": 2,
+       "pass": true,
+       "issues": []
+      },
+      {
+       "index": 3,
+       "pass": true,
+       "issues": []
+      }
+     ],
+     "set_issues": []
+    },
+    "set_issues": [],
+    "to_fix": {}
+   }
+  ],
+  "plan": {
+   "client_read": "陆女士是低调深厚的家族企业高管与资深收藏级藏家，沟通克制体面。目前正处于父亲新丧的守丧期，关系需要极度的克制、分寸与安静守候。",
+   "risk": {
+    "level": "hold",
+    "flags": [
+     "近期丧亲（父亲于2026年10月下旬离世，距今仅一个月）"
+    ],
+    "advice": "不可发欢庆性质的“生日快乐”，严禁提及项链串线等搁置事务或产品邀约，仅表达克制温和的挂念与关怀。"
+   },
+   "ca_commitments": [],
+   "usable_facts": [
+    "今天是陆女士的生辰",
+    "与CA Yvonne相识相伴多年"
+   ],
+   "do_not_mention": [
+    "“生日快乐”及庆祝、欢喜字眼",
+    "南洋白珠项链重新串线等未完成的售后琐事",
+    "闲聊个人兴趣（评弹、月份牌等）或提起家庭伤痛",
+    "推销、到店邀约或任何产品推荐",
+    "消费金额及晨星资格等内部标签"
+   ],
+   "products": [],
+   "unanswerable": "",
+   "slots": {
+    "极简": {
+     "切入点": "克制安宁的生辰日问候",
+     "唯一信息点": "不提“快乐”，只愿陆女士今日安宁、顺遂"
+    },
+    "走心": {
+     "切入点": "多年相伴的温和挂念",
+     "唯一信息点": "默默记挂着陆女士，愿冬日里多添一份心力与温暖"
+    },
+    "推进": {
+     "切入点": "随时守候的体贴支持",
+     "唯一信息点": "传达随时都在的支持与关照，且不必挂心任何日常琐事"
+    }
+   }
+  },
+  "first_draft": [
+   {
+    "text": "陆女士，今天是您的生辰，愿您今日安宁、顺遂。保重身体。",
+    "strategy": "极简",
+    "note_for_ca": "避开“快乐”，极简温和，适合丧亲初期的安静致意。"
+   },
+   {
+    "text": "陆女士，今天给您道一声生辰问候。相识这些年，心里一直记挂着您，愿这个冬天里能多添一份暖意与心力。",
+    "strategy": "走心",
+    "note_for_ca": "结合多年相识的陪伴，表达深层关怀而不触及具体伤痛。"
+   },
+   {
+    "text": "陆女士，生辰之际，给您送去一份安静的问候。外面的事情您不必劳心，若有任何我能搭把手的地方，我一直都在。",
+    "strategy": "推进",
+    "note_for_ca": "不催促搁置事务，给予随时待命的情感支持。"
+   }
+  ],
+  "seconds": 92.3,
+  "diversity_max_sim": 0.05263157894736842,
+  "calls": [
+   {
+    "requested": "gemini-3.8-flash",
+    "served": "gemini-3.8-flash",
+    "seconds": 12.8,
+    "attempt": 1,
+    "in_tokens": 6249,
+    "out_tokens": 473,
+    "reasoning_tokens": null,
+    "fingerprint": null
+   },
+   {
+    "requested": "gemini-3.8-flash",
+    "served": "gemini-3.8-flash",
+    "seconds": 3.9,
+    "attempt": 1,
+    "in_tokens": 5421,
+    "out_tokens": 229,
+    "reasoning_tokens": null,
+    "fingerprint": null
+   },
+   {
+    "requested": "gemini-3.8-flash",
+    "served": "gemini-3.8-flash",
+    "seconds": 16.0,
+    "attempt": 1,
+    "in_tokens": 5225,
+    "out_tokens": 408,
+    "reasoning_tokens": null,
+    "fingerprint": null
+   },
+   {
+    "requested": "gemini-3.8-flash",
+    "served": "gemini-3.8-flash",
+    "seconds": 9.8,
+    "attempt": 1,
+    "in_tokens": 5928,
+    "out_tokens": 212,
+    "reasoning_tokens": null,
+    "fingerprint": null
+   },
+   {
+    "requested": "gemini-3.8-flash",
+    "served": "gemini-3.8-flash",
+    "seconds": 26.0,
+    "attempt": 1,
+    "in_tokens": 5223,
+    "out_tokens": 286,
+    "reasoning_tokens": null,
+    "fingerprint": null
+   },
+   {
+    "requested": "gemini-3.8-flash",
+    "served": "gemini-3.8-flash",
+    "seconds": 10.5,
+    "attempt": 1,
+    "in_tokens": 5672,
+    "out_tokens": 110,
+    "reasoning_tokens": null,
+    "fingerprint": null
+   },
+   {
+    "requested": "gemini-3.8-flash",
+    "served": "gemini-3.8-flash",
+    "seconds": 13.4,
+    "attempt": 1,
+    "in_tokens": 5223,
+    "out_tokens": 74,
+    "reasoning_tokens": null,
+    "fingerprint": null
+   }
+  ]
+ }
+}

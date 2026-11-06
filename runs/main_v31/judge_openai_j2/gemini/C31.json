@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "轻微：“戒指陪伴您两年”暗示戒指一直在客户身边，但求婚后的戒指去向未知。",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 4,
+    "naturalness": 4,
+    "effectiveness": 4
+   },
+   "sendability": "小改可发",
+   "comment": "清洗服务切入自然，建议将“陪伴您两年”改为“两年前选的那枚誓约戒指”。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "轻微：将铂金戴过两年、主石下积尘说成既定情况，但戒指后续的佩戴和保养情况未知。",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 3,
+    "naturalness": 2,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "有清洗服务这一合理联系理由，但对戒指状态的推测过多，“沉淀质感”和“恢复火彩”也偏修饰。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "严重：未经 CA 确认，即称工坊随时可以办理刻字与深度养护，擅自承诺服务安排。",
+    "privacy_violation": "无",
+    "fabrication": "严重：购买时未刻字不等于客户“特意留白”；超过免费刻字期后是否可办理刻字及深度养护也未经确认。",
+    "context_failure": "轻微：主动询问补刻纪念日期的想法，容易触及未知的求婚后续，增加唤醒联系的压力。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 2,
+    "brand_voice": 2,
+    "naturalness": 2,
+    "effectiveness": 2
+   },
+   "sendability": "不可用",
+   "comment": "虽然没有直接追问求婚结果或声称刻字免费，但臆测客户意图并承诺未确认的服务，需要重写。"
+  }
+ ],
+ "set": {
+  "diversity": 3,
+  "risk_judgement": "正确",
+  "best_index": 1,
+  "must_coverage": "1/1",
+  "summary": "三条都没有假设客户已婚，候选 1 以固定清洗服务切入最稳妥。主要问题是推测戒指的后续状态，而候选 3 还擅自承诺未确认的刻字与养护安排。"
+ },
+ "_judge": "openai:gpt-6.1-terra"
+}

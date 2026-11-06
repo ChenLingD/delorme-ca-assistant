@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "轻微：“最近整理展柜时看到沧海的珍珠”是未经确认的 CA 经历。",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 5,
+    "brand_voice": 4,
+    "naturalness": 4,
+    "effectiveness": 4
+   },
+   "sendability": "小改可发",
+   "comment": "海浪图稿和插画切入贴合客户，但问候、邀约和清洁放在一起略多，删去未经确认的展柜细节即可。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "轻微：档案显示作品自戴，但不能确定客户“随身常戴”。",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 4,
+    "naturalness": 3,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "售后关怀与藏品相关，但作品被笼统概括，且“没见”后的佩戴追问和到店建议略显刻意。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "轻微：“天凉了些”描述天气，违反外部事实规范。",
+    "privacy_violation": "无",
+    "fabrication": "严重：“几分钟就能打理好”自行承诺服务时长；“常戴”及翻看护理记录的经历也未经确认。",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 2,
+    "brand_voice": 2,
+    "naturalness": 3,
+    "effectiveness": 2
+   },
+   "sendability": "不可用",
+   "comment": "虽有自我介绍和服务切入，但天气、护理记录和时长承诺都需要删除，整条应重写。"
+  }
+ ],
+ "set": {
+  "diversity": 3,
+  "risk_judgement": "偏松",
+  "best_index": 1,
+  "must_coverage": "2/2",
+  "summary": "三条均以客户本人为中心，没有提及付款人或打探关系现状，但都依赖清洁保养，切入角度区分有限。工具判为无风险偏松，主要漏掉了第三条未经授权的服务时长承诺，以及多处未经确认的细节。"
+ },
+ "_judge": "openai:gpt-6.1-terra"
+}

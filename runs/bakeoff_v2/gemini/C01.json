@@ -1,0 +1,174 @@
+{
+ "case_id": "C01",
+ "version": "v2",
+ "model": "gemini:gemini-3.8-flash",
+ "risk": {
+  "level": "ok",
+  "flags": [],
+  "advice": ""
+ },
+ "candidates": [
+  {
+   "text": "沈女士，今天是您的生日，祝您生辰愉快，顺心从容。",
+   "strategy": "极简",
+   "note_for_ca": "干净克制，不打扰，适合她极简的回复习惯。"
+  },
+  {
+   "text": "沈女士，祝您生辰常安。今日若有空闲，愿您烹一壶好茶，静享清雅时光。",
+   "strategy": "走心",
+   "note_for_ca": "结合客户爱茶细节，语气雅致温和且留白。"
+  },
+  {
+   "text": "沈女士，祝您生日快乐。小雪节气在即，日常操持之余，近来昆曲可有常听？您得闲看看便好，不着急回复。",
+   "strategy": "推进",
+   "note_for_ca": "结合昆曲爱好给出一个轻松问候，并留足退路。"
+  }
+ ],
+ "checks": [
+  {
+   "pass": true,
+   "hard": [],
+   "soft": [],
+   "length": 24
+  },
+  {
+   "pass": true,
+   "hard": [],
+   "soft": [],
+   "length": 33
+  },
+  {
+   "pass": true,
+   "hard": [],
+   "soft": [],
+   "length": 48
+  }
+ ],
+ "trace": {
+  "rounds": [
+   {
+    "rule_checks": [
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 24
+     },
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 33
+     },
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 48
+     }
+    ],
+    "critic": {
+     "reviews": [
+      {
+       "index": 1,
+       "pass": true,
+       "issues": []
+      },
+      {
+       "index": 2,
+       "pass": true,
+       "issues": []
+      },
+      {
+       "index": 3,
+       "pass": true,
+       "issues": []
+      }
+     ],
+     "set_issues": []
+    },
+    "set_issues": [],
+    "to_fix": {}
+   }
+  ],
+  "plan": {
+   "client_read": "沈女士是一位审美极素净、性格内敛且话极少的高净值核心客户，喜好宋瓷与昆曲。目前与品牌关系稳定但低频，中秋问候仅礼貌回复“谢谢”，不宜有任何销售打扰。",
+   "risk": {
+    "level": "ok",
+    "flags": [],
+    "advice": ""
+   },
+   "ca_commitments": [],
+   "usable_facts": [
+    "今天（11-18）是沈女士生日",
+    "喜欢喝茶、宋瓷、昆曲等东方雅致生活",
+    "已有沧海南洋白珠项链等珍珠作品，偏好素净",
+    "回复习惯极为简短克制"
+   ],
+   "do_not_mention": [
+    "消费金额与核心客户等级",
+    "推销任何新作品或催促到店",
+    "自创礼品/预留/特权承诺",
+    "描述具体天气、气温",
+    "提及先生与在英国读研的儿子（未经CA要点提示，不过度展露档案信息）"
+   ],
+   "products": [],
+   "slots": {
+    "极简": "纯粹真诚的生日问候，字数极简克制，不造成任何回复压力",
+    "走心": "结合其喜茶与闲雅心境切入，祝愿岁朝安闲、茶香温润，传达懂其审美品味的尊重与留白",
+    "推进": "以近立冬、小雪将至的时节为引，送上生日祝福，并以极轻柔的一句关于入冬日常安适的问候收尾，无需回复"
+   }
+  },
+  "first_draft": [
+   {
+    "text": "沈女士，今天是您的生日，祝您生辰愉快，顺心从容。",
+    "strategy": "极简",
+    "note_for_ca": "干净克制，不打扰，适合她极简的回复习惯。"
+   },
+   {
+    "text": "沈女士，祝您生辰常安。今日若有空闲，愿您烹一壶好茶，静享清雅时光。",
+    "strategy": "走心",
+    "note_for_ca": "结合客户爱茶细节，语气雅致温和且留白。"
+   },
+   {
+    "text": "沈女士，祝您生日快乐。小雪节气在即，日常操持之余，近来昆曲可有常听？您得闲看看便好，不着急回复。",
+    "strategy": "推进",
+    "note_for_ca": "结合昆曲爱好给出一个轻松问候，并留足退路。"
+   }
+  ],
+  "seconds": 32.8,
+  "diversity_max_sim": 0.07317073170731707,
+  "calls": [
+   {
+    "requested": "gemini-3.8-flash",
+    "served": "gemini-3.8-flash",
+    "seconds": 10.5,
+    "attempt": 1,
+    "in_tokens": 5307,
+    "out_tokens": 406,
+    "reasoning_tokens": null,
+    "fingerprint": null
+   },
+   {
+    "requested": "gemini-3.8-flash",
+    "served": "gemini-3.8-flash",
+    "seconds": 4.3,
+    "attempt": 1,
+    "in_tokens": 4686,
+    "out_tokens": 240,
+    "reasoning_tokens": null,
+    "fingerprint": null
+   },
+   {
+    "requested": "gemini-3.8-flash",
+    "served": "gemini-3.8-flash",
+    "seconds": 18.0,
+    "attempt": 1,
+    "in_tokens": 4484,
+    "out_tokens": 102,
+    "reasoning_tokens": null,
+    "fingerprint": null
+   }
+  ]
+ }
+}

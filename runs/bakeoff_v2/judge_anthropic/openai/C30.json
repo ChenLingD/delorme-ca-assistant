@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 2,
+    "brand_voice": 4,
+    "naturalness": 3,
+    "effectiveness": 4
+   },
+   "sendability": "直接可发",
+   "comment": "一句话把问候和道歉都说了，不碰晨星、不求回复、不推销，压力最小；缺点是略显突兀，“我来问候您”有点书面，也没提时间过去了。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "把她的原话转述成“觉得不被尊重”，等于重新翻出旧伤；“让您有这样的感受，我很抱歉”是半推责的道歉，真诚度打折，客户容易读成“是你自己多想”。建议改成直接认错。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "承认时间过去、先处理不愉快、留了退路，思路正确；但“愿意让我听听您的想法吗”把她重新拉回投诉话题，隔一年的首条消息就要求她表态，有压力，也有重提晨星争议的风险。篇幅偏长，略像公文。"
+  }
+ ],
+ "set": {
+  "diversity": 3,
+  "risk_judgement": "正确",
+  "best_index": 1,
+  "must_coverage": "2/2",
+  "summary": "三条都稳妥：先道歉、不承诺晨星、不提门槛、不卑微，hold 判断也准确，因为投诉未解决。主要问题是三条几乎都是同一个“道歉”角度，只在长短和是否追问上有差别，缺少一个轻量的、不带道歉的纯问候备选；候选 2 的“让您有这样的感受”和候选 3 的追问各有瑕疵。"
+ },
+ "_judge": "anthropic:claude-sonnet-5-5"
+}

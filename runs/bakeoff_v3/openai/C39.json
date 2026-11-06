@@ -1,0 +1,359 @@
+{
+ "case_id": "C39",
+ "version": "v3",
+ "model": "openai:gpt-6.1-terra",
+ "risk": {
+  "level": "caution",
+  "flags": [
+   "客户询问能否带摄影师拍摄，门店拍摄需向品牌公关报备，CA 无权直接同意外部摄影。"
+  ],
+  "advice": "先回应她的拍摄问题，说明会向品牌公关确认，再告知结果；不要承诺许可或回复时间。"
+ },
+ "candidates": [
+  {
+   "text": "江女士，带摄影师拍摄的事，我先问一下品牌公关，确认后告诉您。",
+   "strategy": "极简",
+   "note_for_ca": "适合先简短回应拍摄问题"
+  },
+  {
+   "text": "江女士，您之前分享过珍珠叠戴笔记，这次也想拍下来写一篇。我去向品牌公关确认一下能否带摄影师拍摄，再告诉您。",
+   "strategy": "走心",
+   "note_for_ca": "用了她分享过珍珠叠戴笔记的细节"
+  },
+  {
+   "text": "江女士，私享预览是11月20日到22日，您比较想哪天来看展？关于带摄影师拍摄，我会向品牌公关确认后告诉您。",
+   "strategy": "推进",
+   "note_for_ca": "以日期选择推进，适合客户有意参加时使用。"
+  }
+ ],
+ "checks": [
+  {
+   "pass": true,
+   "hard": [],
+   "soft": [],
+   "length": 30
+  },
+  {
+   "pass": true,
+   "hard": [],
+   "soft": [],
+   "length": 53
+  },
+  {
+   "pass": true,
+   "hard": [],
+   "soft": [],
+   "length": 53
+  }
+ ],
+ "trace": {
+  "rounds": [
+   {
+    "rule_checks": [
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 30
+     },
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 53
+     },
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 54
+     }
+    ],
+    "critic": {
+     "reviews": [
+      {
+       "index": 1,
+       "pass": true,
+       "issues": []
+      },
+      {
+       "index": 2,
+       "pass": true,
+       "issues": []
+      },
+      {
+       "index": 3,
+       "pass": true,
+       "issues": []
+      }
+     ],
+     "set_issues": [
+      {
+       "indices": [
+        1,
+        3
+       ],
+       "issue": "两条前半段都以询问公关、确认后告知的相近句式回应拍摄问题。第 3 条可先询问想来的日期，再说明会向公关确认拍摄，让推进用途更鲜明。"
+      }
+     ]
+    },
+    "set_issues": [
+     "两条前半段都以询问公关、确认后告知的相近句式回应拍摄问题。第 3 条可先询问想来的日期，再说明会向公关确认拍摄，让推进用途更鲜明。"
+    ],
+    "to_fix": {
+     "3": [
+      "与其他候选雷同：两条前半段都以询问公关、确认后告知的相近句式回应拍摄问题。第 3 条可先询问想来的日期，再说明会向公关确认拍摄，让推进用途更鲜明。"
+     ]
+    }
+   },
+   {
+    "rule_checks": [
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 30
+     },
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 53
+     },
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 48
+     }
+    ],
+    "critic": {
+     "reviews": [
+      {
+       "index": 1,
+       "pass": true,
+       "issues": []
+      },
+      {
+       "index": 2,
+       "pass": true,
+       "issues": []
+      },
+      {
+       "index": 3,
+       "pass": true,
+       "issues": []
+      }
+     ],
+     "set_issues": [
+      {
+       "indices": [
+        1,
+        2,
+        3
+       ],
+       "issue": "三条都以向公关确认后告诉客户作结，尤其第 1、3 条结尾几乎相同。可将第 3 条的确认说明放在前面，以日期选择问题结尾，突出推进用途。"
+      }
+     ]
+    },
+    "set_issues": [
+     "三条都以向公关确认后告诉客户作结，尤其第 1、3 条结尾几乎相同。可将第 3 条的确认说明放在前面，以日期选择问题结尾，突出推进用途。"
+    ],
+    "to_fix": {
+     "3": [
+      "与其他候选雷同：三条都以向公关确认后告诉客户作结，尤其第 1、3 条结尾几乎相同。可将第 3 条的确认说明放在前面，以日期选择问题结尾，突出推进用途。"
+     ]
+    }
+   },
+   {
+    "rule_checks": [
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 30
+     },
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 53
+     },
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 56
+     }
+    ],
+    "critic": {
+     "reviews": [
+      {
+       "index": 1,
+       "pass": true,
+       "issues": []
+      },
+      {
+       "index": 2,
+       "pass": true,
+       "issues": []
+      },
+      {
+       "index": 3,
+       "pass": true,
+       "issues": []
+      }
+     ],
+     "set_issues": [
+      {
+       "indices": [
+        1,
+        3
+       ],
+       "issue": "两条关于摄影师的开头几乎相同。第3条可调整句式，将日期选择作为重点，同时保留向公关确认拍摄的要点。"
+      }
+     ]
+    },
+    "set_issues": [
+     "两条关于摄影师的开头几乎相同。第3条可调整句式，将日期选择作为重点，同时保留向公关确认拍摄的要点。"
+    ],
+    "to_fix": {
+     "3": [
+      "与其他候选雷同：两条关于摄影师的开头几乎相同。第3条可调整句式，将日期选择作为重点，同时保留向公关确认拍摄的要点。"
+     ]
+    }
+   }
+  ],
+  "plan": {
+   "client_read": "江女士喜欢珍珠、复古风格和摄影，也会分享自己的内容创作。她对私享预览很感兴趣，正询问能否带摄影师拍摄并发布一篇内容。",
+   "risk": {
+    "level": "caution",
+    "flags": [
+     "客户询问能否带摄影师拍摄，门店拍摄需向品牌公关报备，CA 无权直接同意外部摄影。"
+    ],
+    "advice": "先回应她的拍摄问题，说明会向品牌公关确认，再告知结果；不要承诺许可或回复时间。"
+   },
+   "ca_commitments": [
+    "拍摄需要问公关，想先回复她"
+   ],
+   "usable_facts": [
+    "江女士对珍珠特展私享预览表示很感兴趣。",
+    "她想带摄影师拍摄，并发一篇内容。",
+    "她喜欢胶片摄影和上海老建筑。",
+    "她曾分享过珍珠叠戴笔记。"
+   ],
+   "do_not_mention": [
+    "客户消费金额、进阶阶段及其他内部标签",
+    "未经公关确认的拍摄许可、发布许可或拍摄安排",
+    "未经确认的回复时间"
+   ],
+   "products": [],
+   "slots": {
+    "极简": "回应带摄影师拍摄的问题，说明会向公关确认后告知。",
+    "走心": "自然接住她想拍摄并发一篇内容的想法，让她感到自己的创作需求被认真对待。",
+    "推进": "给出下一步：向品牌公关确认能否带摄影师拍摄，再向江女士反馈。"
+   }
+  },
+  "first_draft": [
+   {
+    "text": "江女士，带摄影师拍摄的事，我先问一下品牌公关，确认后告诉您。",
+    "strategy": "极简",
+    "note_for_ca": "适合先简短回应拍摄问题"
+   },
+   {
+    "text": "江女士，您之前分享过珍珠叠戴笔记，这次也想拍下来写一篇。我去向品牌公关确认一下能否带摄影师拍摄，再告诉您。",
+    "strategy": "走心",
+    "note_for_ca": "用了她分享过珍珠叠戴笔记的细节"
+   },
+   {
+    "text": "江女士，关于带摄影师拍摄，我先向品牌公关确认，之后告诉您。您比较想哪天来呢，11月20日、21日还是22日？",
+    "strategy": "推进",
+    "note_for_ca": "适合确认拍摄的同时了解意向日期"
+   }
+  ],
+  "seconds": 46.3,
+  "diversity_max_sim": 0.22807017543859648,
+  "calls": [
+   {
+    "requested": "gpt-6.1-terra",
+    "served": "gpt-6.1-terra",
+    "seconds": 10.1,
+    "attempt": 1,
+    "in_tokens": 5766,
+    "out_tokens": 599,
+    "reasoning_tokens": 199,
+    "fingerprint": null
+   },
+   {
+    "requested": "gpt-6.1-terra",
+    "served": "gpt-6.1-terra",
+    "seconds": 8.6,
+    "attempt": 1,
+    "in_tokens": 5166,
+    "out_tokens": 411,
+    "reasoning_tokens": 175,
+    "fingerprint": null
+   },
+   {
+    "requested": "gpt-6.1-terra",
+    "served": "gpt-6.1-terra",
+    "seconds": 7.6,
+    "attempt": 1,
+    "in_tokens": 5046,
+    "out_tokens": 481,
+    "reasoning_tokens": 327,
+    "fingerprint": null
+   },
+   {
+    "requested": "gpt-6.1-terra",
+    "served": "gpt-6.1-terra",
+    "seconds": 2.5,
+    "attempt": 1,
+    "in_tokens": 5419,
+    "out_tokens": 80,
+    "reasoning_tokens": 0,
+    "fingerprint": null
+   },
+   {
+    "requested": "gpt-6.1-terra",
+    "served": "gpt-6.1-terra",
+    "seconds": 7.4,
+    "attempt": 1,
+    "in_tokens": 5043,
+    "out_tokens": 490,
+    "reasoning_tokens": 334,
+    "fingerprint": null
+   },
+   {
+    "requested": "gpt-6.1-terra",
+    "served": "gpt-6.1-terra",
+    "seconds": 2.3,
+    "attempt": 1,
+    "in_tokens": 5412,
+    "out_tokens": 85,
+    "reasoning_tokens": 0,
+    "fingerprint": null
+   },
+   {
+    "requested": "gpt-6.1-terra",
+    "served": "gpt-6.1-terra",
+    "seconds": 5.6,
+    "attempt": 1,
+    "in_tokens": 5050,
+    "out_tokens": 361,
+    "reasoning_tokens": 258,
+    "fingerprint": null
+   },
+   {
+    "requested": "gpt-6.1-terra",
+    "served": "gpt-6.1-terra",
+    "seconds": 2.3,
+    "attempt": 1,
+    "in_tokens": 5412,
+    "out_tokens": 83,
+    "reasoning_tokens": 0,
+    "fingerprint": null
+   }
+  ]
+ }
+}

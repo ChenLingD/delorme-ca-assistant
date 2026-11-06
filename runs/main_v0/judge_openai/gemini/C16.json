@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "严重：外借规定、公关报批流程及门店刚到白金钻石新款均无依据。",
+    "context_failure": "轻微：没有推荐具体作品，也没有使用客户此前试戴穹顶手镯的经历。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 2,
+    "brand_voice": 2,
+    "naturalness": 2,
+    "effectiveness": 2
+   },
+   "sendability": "不可用",
+   "comment": "虽回应了借戴，但话术偏长，只泛推几件新品；应推荐一件有依据的作品，并确认能否借出。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "严重：安全规范、商借公关报批流程及戒指最近新到均无依据。",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 3,
+    "naturalness": 2,
+    "effectiveness": 3
+   },
+   "sendability": "不可用",
+   "comment": "推荐穹顶白金满钻戒指有审美和系列依据，但新到及借戴规则需删除；该款价格明显高于客户已有作品，也宜先了解接受度。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "严重：未经确认便安排私享厅搭配及拍摄，超出 CA 已知授权。",
+    "privacy_violation": "无",
+    "fabric": "严重：保险及出店限制无依据；8 月拍摄获准仅限当次店内拍摄，不能据此认定发生在私享厅或承诺再次拍摄。",
+    "context_failure": "轻微：没有推荐具体上镜作品，而是泛指几组单品。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 2,
+    "naturalness": 2,
+    "effectiveness": 2
+   },
+   "sendability": "不可用",
+   "comment": "借用了过往拍摄经历，但把试戴和拍摄安排说得过满，也未给出具体推荐。"
+  }
+ ],
+ "set": {
+  "diversity": 3,
+  "risk_judgement": "偏松",
+  "best_index": 2,
+  "must_coverage": "2/2",
+  "summary": "候选 2 提出了具体上镜作品，也表示会确认借戴相关流程，但整组没有一条可直接发送。三条均编造外借规则，候选 3 还擅自安排拍摄；确认流程应改为确认能否借戴，推荐则只保留有依据的作品细节。"
+ },
+ "_judge": "openai:gpt-6.1-terra"
+}

@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 2,
+    "brand_voice": 4,
+    "naturalness": 4,
+    "effectiveness": 2
+   },
+   "sendability": "小改可发",
+   "comment": "简短且尊重预算，但较笼统，未提供同一设计语言的其他选择。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 2
+   },
+   "sendability": "小改可发",
+   "comment": "冷白色泽和第一副珍珠耳钉贴合客户需求，但后半段略显说教，也没有提供其他选择。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "假定客户已为主持答谢会准备了西装，现有信息并未确认。",
+    "context_failure": "客户表示耳钉超预算，却邀请她再次试戴同一款，未回应预算顾虑或提供其他选择。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 2
+   },
+   "sendability": "小改可发",
+   "comment": "使用了答谢会场景，但需删除对西装的假设，并改为回应预算的可行选择。"
+  }
+ ],
+ "set": {
+  "diversity": 3,
+  "risk_judgement": "正确",
+  "best_index": 1,
+  "must_coverage": "1/2",
+  "summary": "三条都给了客户考虑空间，候选 1 最简洁自然，风险判断也恰当。主要问题是均未提供同一设计语言的其他选择；候选 3 还假定客户已为答谢会准备西装。"
+ },
+ "_judge": "openai:gpt-6.1-terra"
+}

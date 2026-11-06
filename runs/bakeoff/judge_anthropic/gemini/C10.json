@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "轻微：“工坊没有固定现货”不在输入里。输入只说“配额作品，无法预订到货时间”，这句是 CA 自行推断的库存情况。",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 4,
+    "naturalness": 4,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "直接回答了“什么时候能拿到”，明确不承诺时间，也没有拒绝，并登记了心愿，对这位说话直接的客户很合适。但“没有固定现货”是多出来的说法，且没有给下一步，也没有引导去了解其他系列。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "轻微：客户直接问“什么时候能拿到”，这条只用“急不来”暗示，没有明确说无法给出时间，客户可能觉得问题被绕开了。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 2,
+    "brand_voice": 4,
+    "naturalness": 4,
+    "effectiveness": 2
+   },
+   "sendability": "小改可发",
+   "comment": "很短，很像真人，工时数据准确，但对“多少钱都行”的急切接得太轻，没有明说无法给时间，也没有任何推进。补一句“具体时间我这边没法给您承诺”会更稳。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "“晨星上手很有分寸感”是对佩戴效果的主观描述，客户没试过，输入里也没有依据。“来试戴确认手寸”默认店里有试戴样品，输入没有这个信息。",
+    "context_failure": "“确认手寸”隐含客户会拿到这只手镯，与“不承诺”有张力，可能让客户误以为有名额或排位。",
+    "must_not_hit": "无明确触犯，但“确认手寸”有暗示承诺的风险"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "唯一给了到店这一步的候选，退路措辞也得体。但“眼光很准”偏恭维，“确认手寸”有预设成交的暗示，且篇幅最长。去掉“手寸”，把试戴改成“先看看其他系列”，会更安全。"
+  }
+ ],
+ "set": {
+  "diversity": 2,
+  "risk_judgement": "正确",
+  "best_index": 1,
+  "must_coverage": "2/3",
+  "summary": "三条都守住了红线（无配额门槛、无到货承诺，也没有看低客户），并登记了心愿，但骨架几乎相同：夸一句，说手工耗时，说给不了时间，登记心愿。最主要的问题是没有一条引导客户去认识涟漪、沧海、穹顶等其他系列的工艺语言，也没有借“朋友戴晨星”引出客户自己的品味，这是本用例最关键的 must 项。"
+ },
+ "_judge": "anthropic:claude-sonnet-5-5"
+}

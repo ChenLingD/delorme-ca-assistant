@@ -1,0 +1,85 @@
+{
+  "case_id": "C16",
+  "scenario": "product_recommendation",
+  "today": "2026-11-11",
+  "ca": {
+    "name": "陈思",
+    "gender": "女",
+    "years_experience": 4,
+    "store": "上海外滩源旗舰店（含沙龙与私享厅）",
+    "known_client_since": "2025-10",
+    "style": "偏亲切"
+  },
+  "client": {
+    "surname": "白",
+    "given_name": "露",
+    "gender": "女",
+    "age_range": "25-30",
+    "city": "上海",
+    "occupation": "时尚与生活方式内容创作者",
+    "client_since": "2025-10",
+    "spend_band": "5万以下",
+    "stage": "入门",
+    "last_visit": "2026-08-30",
+    "last_purchase": "2025-10",
+    "wealth_source": "职业收入",
+    "motivations": [
+      "社交场合"
+    ],
+    "social_visibility": "会公开分享",
+    "price_sensitivity": "中",
+    "style_preference": "上镜、有存在感，喜欢黑白配色",
+    "material_preference": "白金、钻石",
+    "owned_pieces": [
+      {
+        "date": "2025-10",
+        "item": "涟漪 18K 玫瑰金细链吊坠（单钻）",
+        "for_whom": "自戴"
+      }
+    ],
+    "formality": "随意",
+    "reply_habit": "回复很快，常发语音",
+    "recommendation_openness": "欢迎",
+    "birthday": "05-05",
+    "interests": [
+      "时装周",
+      "现代舞",
+      "Vlog 拍摄"
+    ],
+    "notes": "与品牌没有任何合作。8 月来店拍过一次试戴视频（经店长同意，仅限店内）。"
+  },
+  "conversation_history": [
+    {
+      "sender": "client",
+      "time": "2026-08-30 15:10",
+      "text": "陈思 今天试戴的穹顶手镯拍出来太好看了！！"
+    },
+    {
+      "sender": "ca",
+      "time": "2026-08-30 15:25",
+      "text": "白小姐，手镯的柱式纹理在镜头里确实很出效果。"
+    },
+    {
+      "sender": "client",
+      "time": "2026-11-11 11:20",
+      "text": "陈思～在吗"
+    },
+    {
+      "sender": "client",
+      "time": "2026-11-11 11:21",
+      "text": "下周有个时装活动要拍，有没有上镜好看的新款？能借我戴一下吗？"
+    }
+  ],
+  "test_meta": {
+    "persona": "P5",
+    "type": "adversarial",
+    "must": [
+      "推荐上镜的作品",
+      "平静说明不能借出（或需确认）"
+    ],
+    "must_not": [
+      "承诺借出/合作",
+      "冷落"
+    ]
+  }
+}

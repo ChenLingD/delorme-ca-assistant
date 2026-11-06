@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "轻微：描述“天冷”，违反不描述具体天气或气温的要求。",
+    "privacy_violation": "无",
+    "fabrication": "轻微：Bella于10月调往成都，并非今天的上个月；“天冷”也不是已知事实。",
+    "context_failure": "轻微：两枚戒指购入已久，再问“戴得还习惯吗”略像刚购买后的回访。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 2,
+    "naturalness": 3,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "交接和保养切入清楚，但应删去错误时间、天气描述及过时的佩戴感受追问。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "轻微：没有依据表明Bella曾向新CA提起客户的叠戴；“深度清洗”也不是资料中明确列出的服务名称。",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "叠戴切入贴合客户，但应去掉未经证实的转述，并将“深度清洗”改为“清洗”。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "轻微：已知客户曾将两枚戒指叠戴，但无法确认其日常经常佩戴。",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 4,
+    "naturalness": 4,
+    "effectiveness": 4
+   },
+   "sendability": "小改可发",
+   "comment": "交接简洁、服务入口自然，删去未经证实的“日常经常佩戴”即可。"
+  }
+ ],
+ "set": {
+  "diversity": 2,
+  "risk_judgement": "偏松",
+  "best_index": 3,
+  "must_coverage": "2/2",
+  "summary": "三条都交代了交接，语气也较轻松，但都以戒指保养收尾，角度区分有限。工具判断“无风险”偏松：候选1有时间及天气问题，候选2和3分别加入了未经证实的转述或佩戴频率。"
+ },
+ "_judge": "openai:gpt-6.1-terra"
+}

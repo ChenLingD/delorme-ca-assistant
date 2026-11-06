@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 4,
+    "naturalness": 4,
+    "effectiveness": 4
+   },
+   "sendability": "小改可发",
+   "comment": "准确兑现九月的图稿之约，也照顾到她偏好清静；补一句与她珍珠收藏的自然关联会更完整。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 4,
+    "naturalness": 5,
+    "effectiveness": 2
+   },
+   "sendability": "小改可发",
+   "comment": "轻问自然，也呼应了图稿话题，但未点明私享预览或关联她的珍珠收藏，邀请意图偏模糊。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 4,
+    "naturalness": 3,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "活动信息准确，也为清静时段和不方便赴约留了余地，但内容略满，未明确呼应九月心愿或她的珍珠收藏。"
+  }
+ ],
+ "set": {
+  "diversity": 4,
+  "risk_judgement": "正确",
+  "best_index": 1,
+  "must_coverage": "2/3",
+  "summary": "三条分别采用兑现心愿、轻问和体验介绍的方式，均无明显红线或编造问题，候选1最适合作为邀约基础。整体最主要的缺口是没有自然关联沈女士的珍珠收藏；候选1补上这一点即可更完整。"
+ },
+ "_judge": "openai:gpt-6.1-terra"
+}

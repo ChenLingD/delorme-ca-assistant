@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "轻微：生日 emoji 仅适用于关系熟络的客户，现有记录不足以确认关系熟络。",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 4,
+    "naturalness": 4,
+    "effectiveness": 4
+   },
+   "sendability": "小改可发",
+   "comment": "呼应了客户忙于新品的近况，祝福简洁；去掉蛋糕 emoji 会更稳妥。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "轻微：手记注明客户32岁，但不足以确认这次是否是32岁生日。",
+    "context_failure": "轻微：手记称12月发布，但客户10月31日说的是下个月发布，时间存在冲突，不宜直接写“下月”。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "祝福有针对性，但应删去年龄和发布月份，“期待您的大作”也略显客套。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 4,
+    "naturalness": 4,
+    "effectiveness": 4
+   },
+   "sendability": "直接可发",
+   "comment": "用客户的忙碌近况和咖啡爱好带出祝福，自然亲切，稍有劝其安排休息的意味。"
+  }
+ ],
+ "set": {
+  "diversity": 2,
+  "risk_judgement": "偏松",
+  "best_index": 3,
+  "must_coverage": "2/2",
+  "summary": "三条都没有推产品，也基本轻松得体，但都围绕工作忙碌展开，切入角度不够丰富。风险判断遗漏了候选1的 emoji 使用条件，以及候选2的生日年龄和发布时间不确定性。"
+ },
+ "_judge": "openai:gpt-6.1-terra"
+}

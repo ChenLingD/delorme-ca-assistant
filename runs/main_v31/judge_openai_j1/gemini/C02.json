@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 2,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 3
+   },
+   "sendability": "直接可发",
+   "comment": "简短稳妥，节气使用准确，但“诸事顺意”略显套话，个人化不足。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "手记称12月发布，但客户10月31日说“下个月”发布，时间存在冲突，不宜未经确认就写定12月。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "咖啡和工作细节有针对性，但应避开未确认的发布时间，“再忙也抽空”也稍有叮嘱感。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "只知道客户喜欢跑步，并无晨跑或持续晨跑的记录。",
+    "context_failure": "客户正忙，追问晨跑近况增加了不必要的回复负担。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 2,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 2
+   },
+   "sendability": "小改可发",
+   "comment": "语气亲切，但把跑步爱好推成晨跑习惯，并在生日祝福中追问近况，不够妥帖。"
+  }
+ ],
+ "set": {
+  "diversity": 3,
+  "risk_judgement": "偏松",
+  "best_index": 1,
+  "must_coverage": "1/1",
+  "summary": "三条都没有推销，整体较克制，也尝试以客户细节拉近关系；候选1最稳妥，但略显泛泛。主要问题是未识别发布月份的记录冲突，候选3还把跑步爱好推成了晨跑习惯。"
+ },
+ "_judge": "openai:gpt-6.1-terra"
+}

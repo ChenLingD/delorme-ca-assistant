@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "轻微：目录只说明磨砂面与亮面拼接，未说明“整圈”如此处理，也没有依据确认戴上手的实际分量。",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "戒指切中客户想要更酷款式的需求，但应删除未经证实的“整圈”和实际分量描述。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 5,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 4
+   },
+   "sendability": "小改可发",
+   "comment": "手表叠戴和玫瑰金都贴合客户偏好，但“合衬”“力量感”等表述偏满，精简后会更像微信。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 5,
+    "brand_voice": 4,
+    "naturalness": 4,
+    "effectiveness": 4
+   },
+   "sendability": "直接可发",
+   "comment": "接住了客户想要更酷款式的原话，语气自然；不过两款并列推荐，若突出一款、另一款作为备选会更聚焦。"
+  }
+ ],
+ "set": {
+  "diversity": 3,
+  "risk_judgement": "偏紧",
+  "best_index": 3,
+  "must_coverage": "1/1",
+  "summary": "三条都没有吹捧客户身份或财富，也基本贴合年轻客户的沟通习惯；候选3最自然，但可以更聚焦单件。客户此前主动要求推荐，40天后的自然接续不必视为较高风险，反而应注意候选1缺乏依据的产品细节。"
+ },
+ "_judge": "openai:gpt-6.1-terra"
+}

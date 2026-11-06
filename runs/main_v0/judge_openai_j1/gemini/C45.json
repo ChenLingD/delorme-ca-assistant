@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 4,
+    "naturalness": 3,
+    "effectiveness": 4
+   },
+   "sendability": "小改可发",
+   "comment": "政策说明礼貌清楚，也用到了客户认可的香槟色；末句略空，精简后更像微信。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "使用了手册禁用词“折扣”；但此处是在说明不提供达人折扣，并非让价暗示。",
+    "privacy_violation": "无",
+    "fabrication": "“每位客人结缘的条件都一样”超出全球统一价格政策，无法据此断言所有条件都相同。",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 2,
+    "brand_voice": 2,
+    "naturalness": 2,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "接住了分享意愿，但“严格实行”“结缘的条件”偏公文化，且平等条件的表述过于绝对。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "使用了手册禁用词“折扣”；但此处是在说明不提供特殊折扣，并非让价暗示。",
+    "privacy_violation": "无",
+    "fabrication": "已知品牌合作由公关部对接，但没有依据说所有商务合作均由“巴黎和总部的公关团队统筹”。",
+    "context_failure": "“纯粹因为喜欢而戴它”替客户限定佩戴动机，忽略其内容创作需求，略显说教。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 2,
+    "naturalness": 2,
+    "effectiveness": 2
+   },
+   "sendability": "小改可发",
+   "comment": "海浪纹细节贴合客户喜好，但公关权责被编得过于具体，结尾也在引导客户接受单一动机。"
+  }
+ ],
+ "set": {
+  "diversity": 2,
+  "risk_judgement": "偏松",
+  "best_index": 1,
+  "must_coverage": "2/2",
+  "summary": "三条都礼貌说明了价格和门店边界，没有冷落客户，也未承诺合作或赠送、提粉丝价值或索要评价数据。整体切入角度相近；候选2和3使用了禁用词并有未经证实的绝对化表述，因此风险判断为“ok；无”偏松。"
+ },
+ "_judge": "openai:gpt-6.1-terra"
+}

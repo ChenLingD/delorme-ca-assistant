@@ -1,0 +1,178 @@
+{
+ "case_id": "C39",
+ "version": "v3",
+ "model": "gemini:gemini-3.8-flash",
+ "risk": {
+  "level": "caution",
+  "flags": [
+   "客户提出携带摄影师进店拍摄的请求，超出CA直接权限，需报备公关审核"
+  ],
+  "advice": "肯定其创作热情，坦诚说明需向公关团队确认拍摄细节与规范，切勿擅自做主承诺。"
+ },
+ "candidates": [
+  {
+   "text": "江女士，您有兴趣太好了。关于带摄影师拍摄，我需要先和店里的公关同事报备确认一下，有确切答复我第一时间告诉您。",
+   "strategy": "极简",
+   "note_for_ca": "快速正面回应，明确表示需报备公关并会跟进。"
+  },
+  {
+   "text": "江女士，看到您想拍这组手稿原件太让人期待了，您上次分享的珍珠叠戴就很有味道。因为预览现场有工匠在，摄影进场需要和公关同事核准一下细节，我先去帮您问清楚。",
+   "strategy": "走心",
+   "note_for_ca": "提及她曾分享的珍珠内容，肯定其审美品味并说明报备流程。"
+  },
+  {
+   "text": "江女士，很期待您来记录。现场拍摄需要跟公关走个报备流程，您目前比较倾向 20 到 22 号哪一天的下午？还有大概的拍摄设备类型，我正好一起提交给公关确认。",
+   "strategy": "推进",
+   "note_for_ca": "询问心仪场次与拍摄方式，便于推进公关报备并锁定信息。"
+  }
+ ],
+ "checks": [
+  {
+   "pass": true,
+   "hard": [],
+   "soft": [],
+   "length": 54
+  },
+  {
+   "pass": true,
+   "hard": [],
+   "soft": [],
+   "length": 76
+  },
+  {
+   "pass": true,
+   "hard": [],
+   "soft": [],
+   "length": 73
+  }
+ ],
+ "trace": {
+  "rounds": [
+   {
+    "rule_checks": [
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 54
+     },
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 76
+     },
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 73
+     }
+    ],
+    "critic": {
+     "reviews": [
+      {
+       "index": 1,
+       "pass": true,
+       "issues": []
+      },
+      {
+       "index": 2,
+       "pass": true,
+       "issues": []
+      },
+      {
+       "index": 3,
+       "pass": true,
+       "issues": []
+      }
+     ],
+     "set_issues": []
+    },
+    "set_issues": [],
+    "to_fix": {}
+   }
+  ],
+  "plan": {
+   "client_read": "热爱复古与珍珠的时尚内容创作者，对展览主题表现出极高兴趣且主动提出创作意向。目前关系热络，但其拍摄诉求涉及公关报备流程，需稳妥接住热情同时守住规则。",
+   "risk": {
+    "level": "caution",
+    "flags": [
+     "客户提出携带摄影师进店拍摄的请求，超出CA直接权限，需报备公关审核"
+    ],
+    "advice": "肯定其创作热情，坦诚说明需向公关团队确认拍摄细节与规范，切勿擅自做主承诺。"
+   },
+   "ca_commitments": [
+    "拍摄需要问公关，想先回复她"
+   ],
+   "usable_facts": [
+    "客户想带摄影师拍摄并发布内容",
+    "客户此前分享过珍珠叠戴内容",
+    "特展预览时间为11月20日至22日",
+    "展览包含1920年代手绘图稿原件与工坊串线演示"
+   ],
+   "do_not_mention": [
+    "直接承诺允许携带专业摄影师入场",
+    "客户消费金额及内部创作者标签",
+    "催促或制造预览席位紧迫感"
+   ],
+   "products": [],
+   "slots": {
+    "极简": "直接接住客户的热情，明确告知需向公关部门确认拍摄事宜，核实后第一时间告知。",
+    "走心": "呼应她对老上海手稿与珍珠内容的敏锐度，感谢她的分享心意，同时真诚说明正在沟通协调拍摄许可。",
+    "推进": "询问其预计到场的具体场次或设备情况，便于向公关报备时提交完整信息并及时同步进展。"
+   }
+  },
+  "first_draft": [
+   {
+    "text": "江女士，您有兴趣太好了。关于带摄影师拍摄，我需要先和店里的公关同事报备确认一下，有确切答复我第一时间告诉您。",
+    "strategy": "极简",
+    "note_for_ca": "快速正面回应，明确表示需报备公关并会跟进。"
+   },
+   {
+    "text": "江女士，看到您想拍这组手稿原件太让人期待了，您上次分享的珍珠叠戴就很有味道。因为预览现场有工匠在，摄影进场需要和公关同事核准一下细节，我先去帮您问清楚。",
+    "strategy": "走心",
+    "note_for_ca": "提及她曾分享的珍珠内容，肯定其审美品味并说明报备流程。"
+   },
+   {
+    "text": "江女士，很期待您来记录。现场拍摄需要跟公关走个报备流程，您目前比较倾向 20 到 22 号哪一天的下午？还有大概的拍摄设备类型，我正好一起提交给公关确认。",
+    "strategy": "推进",
+    "note_for_ca": "询问心仪场次与拍摄方式，便于推进公关报备并锁定信息。"
+   }
+  ],
+  "seconds": 33.9,
+  "diversity_max_sim": 0.026785714285714284,
+  "calls": [
+   {
+    "requested": "gemini-3.8-flash",
+    "served": "gemini-3.8-flash",
+    "seconds": 9.3,
+    "attempt": 1,
+    "in_tokens": 5573,
+    "out_tokens": 422,
+    "reasoning_tokens": null,
+    "fingerprint": null
+   },
+   {
+    "requested": "gemini-3.8-flash",
+    "served": "gemini-3.8-flash",
+    "seconds": 13.5,
+    "attempt": 1,
+    "in_tokens": 4969,
+    "out_tokens": 280,
+    "reasoning_tokens": null,
+    "fingerprint": null
+   },
+   {
+    "requested": "gemini-3.8-flash",
+    "served": "gemini-3.8-flash",
+    "seconds": 11.0,
+    "attempt": 1,
+    "in_tokens": 4826,
+    "out_tokens": 101,
+    "reasoning_tokens": null,
+    "fingerprint": null
+   }
+  ]
+ }
+}

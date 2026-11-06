@@ -1,0 +1,63 @@
+{
+ "case_id": "C20",
+ "version": "v0",
+ "model": "gemini:gemini-3.8-flash",
+ "risk": {
+  "level": "ok",
+  "flags": [],
+  "advice": ""
+ },
+ "candidates": [
+  {
+   "text": "宋女士，手镯取走刚好一周，日常佩戴是否顺手贴合？若手寸或开合处有需要微调的地方，您随时告诉我。",
+   "strategy": "佩戴舒适度关怀",
+   "note_for_ca": "客户话少且注重实际佩戴体验，直截了当询问手寸与开合贴合度，不带任何推销感，符合高净值老客户的沟通分寸。"
+  },
+  {
+   "text": "宋女士，您好。晨星手镯戴了一周，在自然光下的质感还合心意吗？上次您留意的内圈工匠记号，确实是那位工匠完成整件作品后亲手凿刻的，很荣幸这件作品由您收藏。",
+   "strategy": "工艺细节呼应与共鸣",
+   "note_for_ca": "自然呼应客户在店里放大镜下细看工匠记号的细节，肯定其独特的独工价值，不额外要求回复，体现懂行老朋友的共鸣。"
+  },
+  {
+   "text": "宋女士，晨星手镯日常佩戴如果沾了细微痕迹，随时带回店里，我为您做基础清洗与检测。祝您冬日一切顺遂。",
+   "strategy": "品牌固定售后保障与极简问候",
+   "note_for_ca": "基于品牌固定清洗检测服务，语言克制礼貌，符合王蕾偏正式的风格，完全不给客户回复压力。"
+  }
+ ],
+ "checks": [
+  {
+   "pass": true,
+   "hard": [],
+   "soft": [],
+   "length": 47
+  },
+  {
+   "pass": true,
+   "hard": [],
+   "soft": [],
+   "length": 75
+  },
+  {
+   "pass": true,
+   "hard": [],
+   "soft": [],
+   "length": 49
+  }
+ ],
+ "trace": {
+  "seconds": 9.8,
+  "diversity_max_sim": 0.0379746835443038,
+  "calls": [
+   {
+    "requested": "gemini-3.8-flash",
+    "served": "gemini-3.8-flash",
+    "seconds": 9.8,
+    "attempt": 1,
+    "in_tokens": 3114,
+    "out_tokens": 343,
+    "reasoning_tokens": null,
+    "fingerprint": null
+   }
+  ]
+ }
+}

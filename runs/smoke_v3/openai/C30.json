@@ -1,0 +1,257 @@
+{
+ "case_id": "C30",
+ "version": "v3",
+ "model": "openai:gpt-6.1-terra",
+ "risk": {
+  "level": "hold",
+  "flags": [
+   "2025 年 11 月关于晨星心愿的投诉尚未解决",
+   "客户最后留言认为自己被看不起，此后一年未联系"
+  ],
+  "advice": "先为上次让客户感到不被尊重真诚致歉，再重新问候；不推荐作品，也不承诺晨星的时间或名额。"
+ },
+ "candidates": [
+  {
+   "text": "葛女士，我是Tina。上次沟通让您觉得不被尊重，对不起。隔了一年，我来问候您一声。",
+   "strategy": "极简",
+   "note_for_ca": "适合先简短致歉、重新建立联系"
+  },
+  {
+   "text": "葛女士，隔了这么久，我想来问候您。上次晨星心愿没能给您一个确切时间，我的沟通也让您觉得被看不起，真的很抱歉。",
+   "strategy": "走心",
+   "note_for_ca": "结合晨星心愿致歉，适合修复关系时使用"
+  },
+  {
+   "text": "葛女士，一年没联系了，我想问候您，也想为上次让您感到不被尊重向您道歉。您愿意和我谈谈上次的事吗？",
+   "strategy": "推进",
+   "note_for_ca": "适合尝试继续处理上次的不愉快"
+  }
+ ],
+ "checks": [
+  {
+   "pass": true,
+   "hard": [],
+   "soft": [],
+   "length": 41
+  },
+  {
+   "pass": true,
+   "hard": [],
+   "soft": [],
+   "length": 54
+  },
+  {
+   "pass": true,
+   "hard": [],
+   "soft": [],
+   "length": 48
+  }
+ ],
+ "trace": {
+  "rounds": [
+   {
+    "rule_checks": [
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 41
+     },
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 52
+     },
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 48
+     }
+    ],
+    "critic": {
+     "reviews": [
+      {
+       "index": 1,
+       "pass": true,
+       "issues": []
+      },
+      {
+       "index": 2,
+       "pass": true,
+       "issues": []
+      },
+      {
+       "index": 3,
+       "pass": true,
+       "issues": []
+      }
+     ],
+     "set_issues": [
+      {
+       "indices": [
+        1,
+        2
+       ],
+       "issue": "两条都以回应“不被尊重”、道歉、隔了一段时间问候的顺序展开，意思较接近。第2条可自然带入晨星心愿无法确认时间这一具体缘由，突出走心版本的区别，同时不作到货承诺。"
+      }
+     ]
+    },
+    "set_issues": [
+     "两条都以回应“不被尊重”、道歉、隔了一段时间问候的顺序展开，意思较接近。第2条可自然带入晨星心愿无法确认时间这一具体缘由，突出走心版本的区别，同时不作到货承诺。"
+    ],
+    "to_fix": {
+     "2": [
+      "与其他候选雷同：两条都以回应“不被尊重”、道歉、隔了一段时间问候的顺序展开，意思较接近。第2条可自然带入晨星心愿无法确认时间这一具体缘由，突出走心版本的区别，同时不作到货承诺。"
+     ]
+    }
+   },
+   {
+    "rule_checks": [
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 41
+     },
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 54
+     },
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 48
+     }
+    ],
+    "critic": {
+     "reviews": [
+      {
+       "index": 1,
+       "pass": true,
+       "issues": []
+      },
+      {
+       "index": 2,
+       "pass": true,
+       "issues": []
+      },
+      {
+       "index": 3,
+       "pass": true,
+       "issues": []
+      }
+     ],
+     "set_issues": []
+    },
+    "set_issues": [],
+    "to_fix": {}
+   }
+  ],
+  "plan": {
+   "client_read": "葛女士喜欢有辨识度的作品，也曾希望将穹顶手镯与晨星叠戴。上次沟通因晨星心愿未果而以不愉快结束，投诉尚未解决，关系需要先修复。",
+   "risk": {
+    "level": "hold",
+    "flags": [
+     "2025 年 11 月关于晨星心愿的投诉尚未解决",
+     "客户最后留言认为自己被看不起，此后一年未联系"
+    ],
+    "advice": "先为上次让客户感到不被尊重真诚致歉，再重新问候；不推荐作品，也不承诺晨星的时间或名额。"
+   },
+   "ca_commitments": [],
+   "usable_facts": [
+    "客户称呼为葛女士，Tina 与她自 2024 年认识",
+    "上次联系是在 2025 年 11 月",
+    "客户曾因晨星心愿无法确认时间而不满，并表示觉得被看不起",
+    "客户当时希望将穹顶玫瑰金手镯与晨星叠戴"
+   ],
+   "do_not_mention": [
+    "客户的消费金额、等级及内部标签",
+    "晨星的消费门槛、配货条件或未经确认的时间、名额和排位",
+    "其他客户的信息",
+    "产品推荐、价格或购买邀约"
+   ],
+   "products": [],
+   "slots": {
+    "极简": "称呼葛女士，先为上次沟通中的不妥致歉，再简单问候，不提销售。",
+    "走心": "回应她上次觉得被看不起的感受，为让她有这样的感受致歉，再重新问候，让她感到自己的委屈被认真对待。",
+    "推进": "致歉并问候后，轻声询问她是否愿意谈谈上次的事，让她决定是否继续沟通。"
+   }
+  },
+  "first_draft": [
+   {
+    "text": "葛女士，我是Tina。上次沟通让您觉得不被尊重，对不起。隔了一年，我来问候您一声。",
+    "strategy": "极简",
+    "note_for_ca": "适合先简短致歉、重新建立联系"
+   },
+   {
+    "text": "葛女士，上次您说觉得被看不起，是我沟通得不好，让您有了这样的感受，对不起。隔了这么久，我想向您问候一声。",
+    "strategy": "走心",
+    "note_for_ca": "回应她上次说觉得被看不起"
+   },
+   {
+    "text": "葛女士，一年没联系了，我想问候您，也想为上次让您感到不被尊重向您道歉。您愿意和我谈谈上次的事吗？",
+    "strategy": "推进",
+    "note_for_ca": "适合尝试继续处理上次的不愉快"
+   }
+  ],
+  "seconds": 33.5,
+  "diversity_max_sim": 0.06756756756756757,
+  "calls": [
+   {
+    "requested": "gpt-6.1-terra",
+    "served": "gpt-6.1-terra",
+    "seconds": 13.7,
+    "attempt": 1,
+    "in_tokens": 5568,
+    "out_tokens": 698,
+    "reasoning_tokens": 241,
+    "fingerprint": null
+   },
+   {
+    "requested": "gpt-6.1-terra",
+    "served": "gpt-6.1-terra",
+    "seconds": 7.7,
+    "attempt": 1,
+    "in_tokens": 5026,
+    "out_tokens": 386,
+    "reasoning_tokens": 184,
+    "fingerprint": null
+   },
+   {
+    "requested": "gpt-6.1-terra",
+    "served": "gpt-6.1-terra",
+    "seconds": 6.1,
+    "attempt": 1,
+    "in_tokens": 4858,
+    "out_tokens": 364,
+    "reasoning_tokens": 201,
+    "fingerprint": null
+   },
+   {
+    "requested": "gpt-6.1-terra",
+    "served": "gpt-6.1-terra",
+    "seconds": 2.5,
+    "attempt": 1,
+    "in_tokens": 5300,
+    "out_tokens": 89,
+    "reasoning_tokens": 0,
+    "fingerprint": null
+   },
+   {
+    "requested": "gpt-6.1-terra",
+    "served": "gpt-6.1-terra",
+    "seconds": 3.4,
+    "attempt": 1,
+    "in_tokens": 4864,
+    "out_tokens": 169,
+    "reasoning_tokens": 114,
+    "fingerprint": null
+   }
+  ]
+ }
+}

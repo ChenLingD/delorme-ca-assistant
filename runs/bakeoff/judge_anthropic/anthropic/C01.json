@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 2,
+    "brand_voice": 5,
+    "naturalness": 4,
+    "effectiveness": 4
+   },
+   "sendability": "直接可发",
+   "comment": "两句话、称呼正确、不带产品、不要求回复，正好适合这位不爱被打扰又回复极少的客户；“安静”呼应她低调的气质，只是个性化很薄。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 4,
+    "naturalness": 3,
+    "effectiveness": 4
+   },
+   "sendability": "小改可发",
+   "comment": "杭州深秋、小雪将至（2026 年小雪约 11-22）符合时令，也是场景策略认可的细节，且没有引用档案。但先写天气再写“今天是您的生日”，次序有些绕，也没有明说“生日快乐”，建议改成先祝福再带节气。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "“都记着今天”有点炫耀“记得”，与手册“记得，但不炫耀记得”的原则相悖，对低调、不爱被打扰的客户可能带来被关注的压力。",
+    "privacy_violation": "无",
+    "fabrication": "“我和店里的同事都记着今天”是输入里没有的事实，同事是否都记得无从确认，是替门店编的情感背书。",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 2,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "没有推销也没有邀约，但“同事都记着”属于编造且显得刻意，末句“您安心过好今天就好”也多余。删掉同事那句、保留前后祝福就很干净。"
+  }
+ ],
+ "set": {
+  "diversity": 3,
+  "risk_judgement": "正确",
+  "best_index": 1,
+  "must_coverage": "2/2",
+  "summary": "三条都守住了“极简、克制、不带产品”，也都避开了生日月礼物、到店邀约和售后追问；风险判断（caution、上午发送、不求回复、不引用档案里的家人和兴趣）也很到位。主要问题是三条几乎都是纯祝福，候选 1 和 3 句式相近，差异主要来自候选 2 的节气，而候选 3 的“同事都记着”带有编造和被记录的观察感，应删去。"
+ },
+ "_judge": "anthropic:claude-sonnet-5-5"
+}

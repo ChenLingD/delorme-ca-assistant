@@ -1,0 +1,51 @@
+{
+  "gflags": {
+    "B": [
+      "similar"
+    ],
+    "C": [
+      "similar"
+    ]
+  },
+  "note": "合理吗，你6月份修的手链，11月份问顺不顺手？这不开玩笑吗",
+  "ranks": {
+    "A": 4,
+    "B": 4,
+    "C": 2,
+    "D": 3
+  },
+  "send": {
+    "A1": "send",
+    "A2": "no",
+    "A3": "no",
+    "B1": "send",
+    "B2": "no",
+    "B3": "no",
+    "C1": "send",
+    "C2": "send",
+    "D1": "send",
+    "D2": "edit",
+    "D3": "no"
+  },
+  "tags": {
+    "A2": [
+      "context"
+    ],
+    "A3": [
+      "template"
+    ],
+    "B2": [
+      "template"
+    ],
+    "B3": [
+      "template"
+    ],
+    "D2": [
+      "template"
+    ],
+    "D3": [
+      "context"
+    ]
+  },
+  "updatedAt": "2026-11-05T09:40:58.976Z"
+}

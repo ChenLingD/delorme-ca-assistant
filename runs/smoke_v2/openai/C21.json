@@ -1,0 +1,383 @@
+{
+ "case_id": "C21",
+ "version": "v2",
+ "model": "openai:gpt-6.1-terra",
+ "risk": {
+  "level": "hold",
+  "flags": [
+   "戒指佩戴两周出现划痕，客户质疑质量",
+   "投诉尚未回复处理"
+  ],
+  "advice": "先致歉并回应质量疑虑，不预判划痕原因；说明免费抛光及 CA 已提供的处理安排。"
+ },
+ "candidates": [
+  {
+   "text": "唐女士，戒指出现划痕，很抱歉。我可以去您公司取，免费抛光；师傅周二至周日在店，现场抛光约40分钟。",
+   "strategy": "极简",
+   "note_for_ca": "简短致歉并说明处理安排，适合先回应投诉。"
+  },
+  {
+   "text": "唐女士，记得您说喜欢这枚戒指的弧度，这么快看到划痕，一定很失望，抱歉让您担心了。戒指可免费抛光；师傅周二至周日在店，现场约40分钟。不方便来，我可以去您公司取。",
+   "strategy": "走心",
+   "note_for_ca": "从她喜欢的戒指弧度切入，适合安抚情绪。"
+  },
+  {
+   "text": "唐女士，抱歉给您添了困扰。我想先请师傅看看戒指，可以免费抛光。师傅周二到周日在店，现场抛光约40分钟。您方便到店，还是我去您公司取更合适？",
+   "strategy": "推进",
+   "note_for_ca": "说明处理方式并给出选择，适合商量下一步。"
+  }
+ ],
+ "checks": [
+  {
+   "pass": false,
+   "hard": [
+    "“极简”应不超过 35 字，现为 49 字",
+    "“极简”不应包含数字、时间或价格等细节"
+   ],
+   "soft": [],
+   "length": 49
+  },
+  {
+   "pass": true,
+   "hard": [],
+   "soft": [],
+   "length": 80
+  },
+  {
+   "pass": true,
+   "hard": [],
+   "soft": [],
+   "length": 69
+  }
+ ],
+ "trace": {
+  "rounds": [
+   {
+    "rule_checks": [
+     {
+      "pass": false,
+      "hard": [
+       "“极简”应不超过 35 字，现为 61 字",
+       "“极简”不应包含数字、时间或价格等细节"
+      ],
+      "soft": [],
+      "length": 61
+     },
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 101
+     },
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 91
+     }
+    ],
+    "critic": {
+     "reviews": [
+      {
+       "index": 1,
+       "pass": true,
+       "issues": []
+      },
+      {
+       "index": 2,
+       "pass": true,
+       "issues": []
+      },
+      {
+       "index": 3,
+       "pass": true,
+       "issues": []
+      }
+     ],
+     "set_issues": []
+    },
+    "set_issues": [
+     "候选 1 和 2 结尾相同（“去您公司取”）"
+    ],
+    "to_fix": {
+     "1": [
+      "“极简”应不超过 35 字，现为 61 字",
+      "“极简”不应包含数字、时间或价格等细节"
+     ],
+     "2": [
+      "候选 1 和 2 结尾相同（“去您公司取”）"
+     ]
+    }
+   },
+   {
+    "rule_checks": [
+     {
+      "pass": false,
+      "hard": [
+       "“极简”应不超过 35 字，现为 55 字",
+       "“极简”不应包含数字、时间或价格等细节"
+      ],
+      "soft": [],
+      "length": 55
+     },
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 70
+     },
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 91
+     }
+    ],
+    "critic": {
+     "reviews": [
+      {
+       "index": 1,
+       "pass": false,
+       "issues": [
+        "直接提出抛光，未回应客户对质量的疑虑。建议先表示请师傅查看确认，再说明免费抛光及相关安排。"
+       ]
+      },
+      {
+       "index": 2,
+       "pass": false,
+       "issues": [
+        "表达了歉意和抛光方案，但未回应客户对质量的疑虑。建议补充请师傅先查看确认，不预判划痕原因。"
+       ]
+      },
+      {
+       "index": 3,
+       "pass": true,
+       "issues": []
+      }
+     ],
+     "set_issues": []
+    },
+    "set_issues": [],
+    "to_fix": {
+     "1": [
+      "“极简”应不超过 35 字，现为 55 字",
+      "“极简”不应包含数字、时间或价格等细节",
+      "直接提出抛光，未回应客户对质量的疑虑。建议先表示请师傅查看确认，再说明免费抛光及相关安排。"
+     ],
+     "2": [
+      "表达了歉意和抛光方案，但未回应客户对质量的疑虑。建议补充请师傅先查看确认，不预判划痕原因。"
+     ]
+    }
+   },
+   {
+    "rule_checks": [
+     {
+      "pass": false,
+      "hard": [
+       "“极简”应不超过 35 字，现为 64 字",
+       "“极简”不应包含数字、时间或价格等细节"
+      ],
+      "soft": [],
+      "length": 64
+     },
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 83
+     },
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 91
+     }
+    ],
+    "critic": {
+     "reviews": [
+      {
+       "index": 1,
+       "pass": true,
+       "issues": [
+        "超过极简槽位的30字上限，但因需完整传达CA的处理安排，分工可放宽；建议在不遗漏要点的前提下压缩措辞。"
+       ]
+      },
+      {
+       "index": 2,
+       "pass": true,
+       "issues": []
+      },
+      {
+       "index": 3,
+       "pass": true,
+       "issues": []
+      }
+     ],
+     "set_issues": [
+      {
+       "indices": [
+        1,
+        3
+       ],
+       "issue": "两条都以戒指很快出现划痕和致歉开头，随后依次讲查看、抛光和取件，区别不够明显。可让第1条更简洁地回应投诉，第3条保留供客户选择的具体下一步，同时都完整传达CA要点。"
+      }
+     ]
+    },
+    "set_issues": [
+     "两条都以戒指很快出现划痕和致歉开头，随后依次讲查看、抛光和取件，区别不够明显。可让第1条更简洁地回应投诉，第3条保留供客户选择的具体下一步，同时都完整传达CA要点。",
+     "候选 1 和 2 结尾相同（“以去公司取”）"
+    ],
+    "to_fix": {
+     "1": [
+      "“极简”应不超过 35 字，现为 64 字",
+      "“极简”不应包含数字、时间或价格等细节"
+     ],
+     "3": [
+      "与其他候选雷同：两条都以戒指很快出现划痕和致歉开头，随后依次讲查看、抛光和取件，区别不够明显。可让第1条更简洁地回应投诉，第3条保留供客户选择的具体下一步，同时都完整传达CA要点。"
+     ],
+     "2": [
+      "候选 1 和 2 结尾相同（“以去公司取”）"
+     ]
+    }
+   }
+  ],
+  "plan": {
+   "client_read": "唐女士喜欢有辨识度的黄金设计，沟通直接、回复较快。她因戒指佩戴两周出现划痕而质疑质量，投诉尚未得到回应。",
+   "risk": {
+    "level": "hold",
+    "flags": [
+     "戒指佩戴两周出现划痕，客户质疑质量",
+     "投诉尚未回复处理"
+    ],
+    "advice": "先致歉并回应质量疑虑，不预判划痕原因；说明免费抛光及 CA 已提供的处理安排。"
+   },
+   "ca_commitments": [
+    "可以免费抛光",
+    "店里周二到周日都有维修师傅在",
+    "素金抛光现场大约 40 分钟能做好",
+    "她不方便来的话我可以去她公司取"
+   ],
+   "usable_facts": [
+    "唐女士说过喜欢戒指的弧度",
+    "她曾分享佩戴照片，说朋友都问是哪家的",
+    "她反映戒指佩戴两周出现划痕，并发了照片",
+    "她通常回复较快，也常发语音和照片"
+   ],
+   "do_not_mention": [
+    "客户年龄、职业身份、财富来源、消费金额及内部标签",
+    "未经确认的划痕成因或质量判断",
+    "未经确认的抛光效果保证或确定完成时间",
+    "新品推荐或其他销售内容"
+   ],
+   "products": [
+    "COU-R01"
+   ],
+   "slots": {
+    "极简": "先为划痕问题致歉，再简洁说明免费抛光、维修师傅在店时间、约 40 分钟的现场处理时间和可去公司取件；因 CA 有明确要点，可放宽字数限制。",
+    "走心": "从她曾说喜欢戒指的弧度切入，理解她看到划痕后的失望，不替质量问题下结论；同时传达免费抛光、在店时间、预计用时和公司取件选项。",
+    "推进": "请她选择方便到店还是由 Eric 去公司取件，并说明免费抛光、维修师傅周二至周日在店及现场处理约 40 分钟。"
+   }
+  },
+  "first_draft": [
+   {
+    "text": "唐女士，很抱歉让您遇到这个问题。戒指可以免费抛光，师傅周二到周日在店，现场处理大约40分钟。您不方便来，我可以去您公司取。",
+    "strategy": "极简",
+    "note_for_ca": "适合先致歉，并简洁说明处理方式"
+   },
+   {
+    "text": "唐女士，您之前说很喜欢这枚戒指的弧度，才戴两周就看到划痕，难怪您会质疑，抱歉让您有这样的体验。我可以请师傅先看看，也可以免费抛光。师傅周二到周日在店，现场抛光大约40分钟；您不方便来，我可以去您公司取。",
+    "strategy": "走心",
+    "note_for_ca": "提到她喜欢戒指弧度，适合先回应失望"
+   },
+   {
+    "text": "唐女士，看到您发的照片了，戒指这么快出现划痕，抱歉让您担心了。我想请师傅先看看，素金戒指可以免费抛光。师傅周二到周日在店，现场抛光大约40分钟。您方便到店，还是我去您公司取比较合适？",
+    "strategy": "推进",
+    "note_for_ca": "适合请客户选择到店或公司取件"
+   }
+  ],
+  "seconds": 85.2,
+  "diversity_max_sim": 0.27058823529411763,
+  "calls": [
+   {
+    "requested": "gpt-6.1-terra",
+    "served": "gpt-6.1-terra",
+    "seconds": 13.1,
+    "attempt": 1,
+    "in_tokens": 5641,
+    "out_tokens": 771,
+    "reasoning_tokens": 246,
+    "fingerprint": null
+   },
+   {
+    "requested": "gpt-6.1-terra",
+    "served": "gpt-6.1-terra",
+    "seconds": 7.1,
+    "attempt": 1,
+    "in_tokens": 5169,
+    "out_tokens": 409,
+    "reasoning_tokens": 66,
+    "fingerprint": null
+   },
+   {
+    "requested": "gpt-6.1-terra",
+    "served": "gpt-6.1-terra",
+    "seconds": 13.0,
+    "attempt": 1,
+    "in_tokens": 5028,
+    "out_tokens": 713,
+    "reasoning_tokens": 652,
+    "fingerprint": null
+   },
+   {
+    "requested": "gpt-6.1-terra",
+    "served": "gpt-6.1-terra",
+    "seconds": 7.1,
+    "attempt": 1,
+    "in_tokens": 5667,
+    "out_tokens": 474,
+    "reasoning_tokens": 298,
+    "fingerprint": null
+   },
+   {
+    "requested": "gpt-6.1-terra",
+    "served": "gpt-6.1-terra",
+    "seconds": 14.0,
+    "attempt": 1,
+    "in_tokens": 4996,
+    "out_tokens": 772,
+    "reasoning_tokens": 593,
+    "fingerprint": null
+   },
+   {
+    "requested": "gpt-6.1-terra",
+    "served": "gpt-6.1-terra",
+    "seconds": 5.0,
+    "attempt": 1,
+    "in_tokens": 5652,
+    "out_tokens": 312,
+    "reasoning_tokens": 108,
+    "fingerprint": null
+   },
+   {
+    "requested": "gpt-6.1-terra",
+    "served": "gpt-6.1-terra",
+    "seconds": 19.8,
+    "attempt": 1,
+    "in_tokens": 5017,
+    "out_tokens": 1181,
+    "reasoning_tokens": 945,
+    "fingerprint": null
+   },
+   {
+    "requested": "gpt-6.1-terra",
+    "served": "gpt-6.1-terra",
+    "seconds": 6.1,
+    "attempt": 1,
+    "in_tokens": 5832,
+    "out_tokens": 369,
+    "reasoning_tokens": 84,
+    "fingerprint": null
+   }
+  ]
+ }
+}

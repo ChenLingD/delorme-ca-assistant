@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "严重：活动资料未说明有几件作品由工坊送抵，也未确认下午场次；“两三位老朋友”既将实际每场2–4位缩窄，又编造了客人身份。",
+    "context_failure": "无",
+    "must_not_hit": "严重：编造了活动作品、参与者及场次相关信息。"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 2
+   },
+   "sendability": "不可用",
+   "comment": "呼应了上次彩宝约定，也给了日期选择，但人数及场次信息不可靠，且漏了提前一周确认。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "严重：未确认有几件作品来京；“独立的私人鉴赏”和两天均有“专属时段”暗示可单独安排，活动资料仅说明每场2–4位客人。",
+    "context_failure": "无",
+    "must_not_hit": "严重：编造了作品数量及活动安排。"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 2
+   },
+   "sendability": "不可用",
+   "comment": "彩宝主题与客户兴趣相关，但邀约略显泛化，专属时段缺乏依据，也未说明提前一周确认。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "轻微：给CA的备注以董事长身份作为更显尊崇的理由，不符合不因客户身份改变尊重程度的原则。",
+    "privacy_violation": "无",
+    "fabrication": "严重：未确认展出数件独一件彩宝作品；“独立安排”及“我为您安排合适的时间段”暗示可单独安排或保证场次，资料没有支持。",
+    "context_failure": "无",
+    "must_not_hit": "严重：编造了展品数量和活动安排。"
+   },
+   "scores": {
+    "personalization": 2,
+    "brand_voice": 2,
+    "naturalness": 2,
+    "effectiveness": 2
+   },
+   "sendability": "不可用",
+   "comment": "日期和地点清楚，但措辞偏公文，缺少对客户彩宝兴趣的具体呼应，也漏了提前一周确认。"
+  }
+ ],
+ "set": {
+  "diversity": 2,
+  "risk_judgement": "偏松",
+  "best_index": 1,
+  "must_coverage": "2/3",
+  "summary": "三条都体现了私人鉴赏和日期选择，但均未说明提前一周确认，切入方式也较相似。候选1最贴近客户的上次嘱托，不过三条均编造或暗示未经确认的活动细节，风险判断为“无”明显偏松。"
+ },
+ "_judge": "openai:gpt-6.1-terra"
+}

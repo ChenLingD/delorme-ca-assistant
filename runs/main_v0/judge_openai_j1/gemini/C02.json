@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "生日 emoji 仅限与客户关系熟络时使用；认识约五个月，现有聊天不足以判断关系熟络。",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 4,
+    "naturalness": 4,
+    "effectiveness": 4
+   },
+   "sendability": "小改可发",
+   "comment": "呼应工作近况且没有推销，语气自然；去掉蛋糕 emoji 即可。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "“下月发布”有档案依据，但客户10月31日曾说“下个月”发布，与档案中的12月存在冲突，不宜未经确认写死时间。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "事业细节有针对性，但年龄、发布时间和“期待您的大作”叠加后显得刻意，建议简化并去掉具体月份。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 4,
+    "naturalness": 3,
+    "effectiveness": 4
+   },
+   "sendability": "直接可发",
+   "comment": "工作近况和咖啡喜好都有依据，祝福也不带营销；“忙完早点喝杯好咖啡”稍显拗口。"
+  }
+ ],
+ "set": {
+  "diversity": 3,
+  "risk_judgement": "偏松",
+  "best_index": 3,
+  "must_coverage": "2/2",
+  "summary": "三条都没有推产品，也都结合了客户近况，但切入点较集中，区别主要在附加细节。工具未提醒候选1的 emoji 熟络度条件，以及候选2的发布时间在档案与聊天中存在冲突。"
+ },
+ "_judge": "openai:gpt-6.1-terra"
+}

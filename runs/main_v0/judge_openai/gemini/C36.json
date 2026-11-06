@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "轻微：活动资料只提到放大镜，未说明其为“专业放大镜”。",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 5,
+    "brand_voice": 4,
+    "naturalness": 4,
+    "effectiveness": 5
+   },
+   "sendability": "小改可发",
+   "comment": "自然呼应朵朵对放大镜的兴趣，也明确邀请母女同行；删去“专业”即可。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 4,
+    "naturalness": 4,
+    "effectiveness": 4
+   },
+   "sendability": "直接可发",
+   "comment": "结合了朵朵喜欢手工的事实，也说明可带家人，但活动体验描述略泛。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "轻微：活动资料未说明工匠会带“全套工具”；“看真正的珠宝工坊是怎么工作的”也扩大了现场演示的范围。",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 5,
+    "brand_voice": 3,
+    "naturalness": 4,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "承接上次聊天很自然，但应将活动内容改为资料中明确的镶嵌演示。"
+  }
+ ],
+ "set": {
+  "diversity": 2,
+  "risk_judgement": "偏松",
+  "best_index": 1,
+  "must_coverage": "1/1",
+  "summary": "三条都邀请或允许客户带朵朵参加，候选1与客户上次的兴趣连接最贴切。主要问题是候选3添加了未经证实的工具和体验描述，三条的切入方式也比较相似。"
+ },
+ "_judge": "openai:gpt-6.1-terra"
+}

@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 4,
+    "naturalness": 4,
+    "effectiveness": 4
+   },
+   "sendability": "小改可发",
+   "comment": "认下了“被怠慢”的感受，没提晨星和配额，也没有推销，真诚度够。但“这事我心里一直搁着”“今天不为别的”有点沉，像在交代自己的心情；对认识两年的客户，自我介绍也略显生分。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 4,
+    "naturalness": 4,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "最短最干净，“这句抱歉该早点说”有分寸，不卑微。缺点是开头直接点名“晨星那次”，把她最在意又无法解决的东西重新摆到眼前。虽然没谈进度或配额，但不如只说“去年十一月那次”稳妥。通篇只有道歉，没有问候，与 CA 想“重新问候”的诉求有距离。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 4,
+    "naturalness": 5,
+    "effectiveness": 4
+   },
+   "sendability": "小改可发",
+   "comment": "最像真人微信：“隔了一年，先问一句近来好吗”承认时间过去而不责怪，把关系放回平等位置，不卑不亢，也最贴 CA 的“问候”意图。不足是对去年那件事的道歉偏轻（“没处理好，一直记着”），对一个被“看不起”刺到的客户可能不够具体；“近来好吗”和“不用回我”也略有拉扯。"
+  }
+ ],
+ "set": {
+  "diversity": 2,
+  "risk_judgement": "正确",
+  "best_index": 3,
+  "must_coverage": "2/2",
+  "summary": "风险判断准确：只发一条、先认事、不碰晨星进度和配额、明确不用回复。三条都没触碰红线，也没有卑微讨好。但三条本质都是“道歉＋不用回我”的同义改写，缺少真正不同的角度，比如更轻的纯问候，或道歉程度更克制的版本，CA 实际可选空间有限。候选 3 最自然，也最符合“不让她觉得又来卖东西”。"
+ },
+ "_judge": "anthropic:claude-sonnet-5-5"
+}

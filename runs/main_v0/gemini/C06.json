@@ -1,0 +1,63 @@
+{
+ "case_id": "C06",
+ "version": "v0",
+ "model": "gemini:gemini-3.8-flash",
+ "risk": {
+  "level": "ok",
+  "flags": [],
+  "advice": ""
+ },
+ "candidates": [
+  {
+   "text": "陆女士，今天是您的生日，给您送上一声安静的祝福。愿您新岁平安舒心，也请多保重身体。",
+   "strategy": "温和克制，避开喧闹欢庆词，侧重“平安舒心与保重”",
+   "note_for_ca": "考虑到客户刚经历父亲去世一个月，情绪尚在恢复中，避免使用“快乐”“庆祝”等高扬词汇，用“平安舒心”更为妥帖得体；完全不提送修项链等业务。"
+  },
+  {
+   "text": "陆女士，逢您生日，想轻轻跟您道一声生日安好。愿这一岁温润顺遂，您和母亲都多保重安康。",
+   "strategy": "轻声问候，自然带上一句对母亲的安康关照",
+   "note_for_ca": "客户与母亲感情深厚，且家中刚经历变故，问候中带上一句对母亲的安康祝愿显得真挚有分寸，同时避开直接提及丧事。"
+  },
+  {
+   "text": "陆女士，今天是您的生日。愿您今天平静舒畅，新的一岁平安从容。天气转凉，记得多添衣。",
+   "strategy": "短促沉静，注重当下心境与生活细节关怀",
+   "note_for_ca": "极简短句，不带任何业务目的，像懂分寸的朋友发来的日常关心，没有任何回复压力。"
+  }
+ ],
+ "checks": [
+  {
+   "pass": true,
+   "hard": [],
+   "soft": [],
+   "length": 41
+  },
+  {
+   "pass": true,
+   "hard": [],
+   "soft": [],
+   "length": 42
+  },
+  {
+   "pass": true,
+   "hard": [],
+   "soft": [],
+   "length": 41
+  }
+ ],
+ "trace": {
+  "seconds": 15.0,
+  "diversity_max_sim": 0.15517241379310345,
+  "calls": [
+   {
+    "requested": "gemini-3.8-flash",
+    "served": "gemini-3.8-flash",
+    "seconds": 15.0,
+    "attempt": 1,
+    "in_tokens": 3054,
+    "out_tokens": 364,
+    "reasoning_tokens": null,
+    "fingerprint": null
+   }
+  ]
+ }
+}

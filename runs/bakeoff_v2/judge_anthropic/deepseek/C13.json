@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "没有回答客户的两个具体问题（克拉差别、戒圈保密），只说“整理好再回您”，客户深夜发来细致提问，这条等于没回应；同时隐含一个未明确的回复时间承诺（“整理好再回”）。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 2,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 1
+   },
+   "sendability": "不可用",
+   "comment": "只是确认收到，两个 must 项（回答问题、提示改圈服务）都没做；对一个提问很细、认真等回复的客户来说太敷衍，可作为深夜先稳住的前置消息，但不能当作本次回复。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "完全没有回答克拉对比和戒圈怎么办，只做情感共鸣，与客户的实际问题脱节。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 2,
+    "naturalness": 2,
+    "effectiveness": 1
+   },
+   "sendability": "不可用",
+   "comment": "“这份心思我懂”“惊喜之所以是惊喜”偏文艺、说教，像空话安慰；提了保密却没给任何解决办法，对工程师客户尤其无效。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "“主石大部分都露在光里”是对悬浮镶的描述性推断，输入只写了“悬浮镶”；“拍几张不同克拉数的上手照”属于 CA 的新增承诺，输入未提供，且门店是否有各克拉样品并不确定。",
+    "context_failure": "只回答了克拉差别的一半（没有给出 1 克拉与 1.5 克拉的实际视觉差别，只说“数字与上手不同”），完全没有回应戒圈保密问题，也没有提改圈服务。",
+    "must_not_hit": "无硬性触犯：没有推超预算，也没有制造焦虑，但“不同克拉数”的上手照会把 1.5 克拉带进视线，与 15 万预算有潜在冲突，且没有说明。"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 2
+   },
+   "sendability": "不可用",
+   "comment": "方向对、语气得体，有退路，但没回答具体差别、漏掉改圈这个关键 must，并有拍照承诺和轻微编造，需重写后才能发。"
+  }
+ ],
+ "set": {
+  "diversity": 3,
+  "risk_judgement": "正确",
+  "best_index": 3,
+  "must_coverage": "0/2",
+  "summary": "风险判断 caution 是对的，且工具在分析里已明确写出要讲“一年内免费改圈一次”，但三条候选都没有落地：既没有回答克拉差别，也没有提改圈服务或获取戒圈的办法，分析与候选严重脱节。最主要的问题是三条候选都在回避客户的具体问题，一条敷衍、一条空话、一条只答半句，没有一条能直接发给这位提问很细的客户。"
+ },
+ "_judge": "anthropic:claude-sonnet-5-5"
+}

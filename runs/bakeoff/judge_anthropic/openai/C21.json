@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 4,
+    "naturalness": 4,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "语气短而得体，先致歉再给出免费抛光，没有辩解。但没写时间，也没写取件或到店安排，\"看看怎么处理更合适\"太含糊。对急性子的客户来说，缺少 must 里要求的时间。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 4,
+    "naturalness": 3,
+    "effectiveness": 4
+   },
+   "sendability": "直接可发",
+   "comment": "先回应照片和\"质量\"的担忧，再给出营业日、免费抛光和约 40 分钟，三项 must 基本都做到了。\"具体还要看检查结果\"稍显公文，也没有约时间或提取件，但信息最完整，最能解决问题。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 4,
+    "naturalness": 4,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "上门取件很贴合忙碌的创业者，\"您方便的时候告诉我就好\"也给了退路，语气像真人。但没有写抛光时间，也没提到店的安排，\"不方便来店里\"前面缺铺垫。补上约 40 分钟后会更完整。"
+  }
+ ],
+ "set": {
+  "diversity": 3,
+  "risk_judgement": "正确",
+  "best_index": 2,
+  "must_coverage": "3/3（整组合计；其中只有候选 2 同时覆盖免费抛光方案与时间）",
+  "summary": "三条都先承认感受、不推卸，没有说教、推新品，也没有提到工作环境，风险提醒（不保证效果、不重提碰撞）也到位。主要问题是候选 1、3 漏了 CA 明确给出的 40 分钟时间，而候选 2 又少了取件和下一步邀约；三条的结构也偏相似，都是\"致歉＋免费检查/抛光\"。"
+ },
+ "_judge": "anthropic:claude-sonnet-5-5"
+}

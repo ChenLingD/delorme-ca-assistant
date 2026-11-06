@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "轻微：“我们也很期待”替团队表达了情绪。",
+    "privacy_violation": "无",
+    "fabrication": "严重：“我正在帮您申请”暗示已经开始申请，输入未确认 CA 已采取行动。",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "接住了拍摄需求，询问设备和人数也有助于确认，但应改为“我先和公关确认”，并只代表自己表达期待。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "严重：“我正在和品牌公关走报备流程”暗示流程已经启动，输入没有依据。",
+    "context_failure": "轻微：客户问的是能否带摄影师，消息却转为夸赞客户本人拍摄，并把场次意向放进报备。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "有回应客户的热情，也保留了确认余地，但场次追问稍显分心，应先准确回应摄影师的问题。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "严重：“平常大家随手拍都很出片”无依据，暗示现场有随手拍摄的惯例；光线和图稿陈列的描述也无资料支持。",
+    "context_failure": "轻微：客户询问带摄影师，消息却改说专业相机拍摄及现场随手拍，弱化了原问题。",
+    "must_not_hit": "严重：“平常大家随手拍”无依据地暗示拍摄惯例，触及编造拍摄政策的禁忌。"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 2,
+    "naturalness": 2,
+    "effectiveness": 1
+   },
+   "sendability": "不可用",
+   "comment": "虽然说了需要确认，但无依据的拍摄暗示和现场描述可能让客户误以为拍摄已获允许。"
+  }
+ ],
+ "set": {
+  "diversity": 3,
+  "risk_judgement": "偏松",
+  "best_index": 1,
+  "must_coverage": "3/3",
+  "summary": "三条都表达了需确认、未直接答应，也尝试接住客户的热情，候选 1 最贴近摄影师问题。主要问题是候选 1、2 假定报备已经启动，候选 3 还无依据地暗示现场拍摄惯例；工具的风险提醒未识别这些问题。"
+ },
+ "_judge": "openai:gpt-6.1-terra"
+}

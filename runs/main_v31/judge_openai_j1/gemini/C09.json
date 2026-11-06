@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "资料只说 Henri 在 1920 年代多次赴上海采购珍珠，不能确定是 1926 年；作品是否已到店也未确认。",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 2,
+    "naturalness": 2,
+    "effectiveness": 2
+   },
+   "sendability": "小改可发",
+   "comment": "切入了客户聊过的上海渊源，但措辞偏公文，缺少藏品关联和退路，还需删去未经确认的年份与到货信息。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "上海采购故事和渐变金珠都有依据，也贴合客户兴趣，但未关联已有藏品或给退路，细节略显堆叠。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "突出“全球编号一百件”，以数量强调稀缺性，虽未直接催促，仍有制造稀缺感的风险。",
+    "privacy_violation": "无",
+    "fabrication": "未确认作品是工坊刚送到的，也没有依据称渐变珠串依照当年手绘意境设计。",
+    "context_failure": "以发图为主要推进方式，与客户通常不回应产品图的习惯不够契合；但只是征询，并非强推。",
+    "must_not_hit": "突出全球编号数量，有触犯稀缺紧迫禁忌的风险。"
+   },
+   "scores": {
+    "personalization": 2,
+    "brand_voice": 2,
+    "naturalness": 3,
+    "effectiveness": 2
+   },
+   "sendability": "不可用",
+   "comment": "征询发图留有退路，但未经确认的到货和设计依据、数量强调及缺少藏品关联，都需要重写。"
+  }
+ ],
+ "set": {
+  "diversity": 2,
+  "risk_judgement": "偏松",
+  "best_index": 2,
+  "must_coverage": "2/3",
+  "summary": "候选 2 的故事与作品细节较贴合客户，候选 3 提供了退路，但没有任何一条关联客户已有藏品，也没有单条完整覆盖三项要求。风险提醒识别了客户不喜推销，却遗漏了未证实的年份、到货及设计依据，以及突出编号数量的稀缺风险。"
+ },
+ "_judge": "openai:gpt-6.1-terra"
+}

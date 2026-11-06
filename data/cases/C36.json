@@ -1,0 +1,91 @@
+{
+  "case_id": "C36",
+  "scenario": "event_invitation",
+  "today": "2026-11-21",
+  "occasion": "邀请参加工坊开放日：镶嵌师的一天（12-05），可携带家人",
+  "ca": {
+    "name": "Iris",
+    "gender": "女",
+    "years_experience": 3,
+    "store": "成都太古里精品店",
+    "known_client_since": "2024-03",
+    "style": "偏亲切"
+  },
+  "client": {
+    "surname": "唐",
+    "given_name": "雨桐",
+    "gender": "女",
+    "age_range": "38-42",
+    "city": "成都",
+    "occupation": "高校附属医院儿科主任医师",
+    "client_since": "2023-05",
+    "spend_band": "5-30万",
+    "stage": "入门",
+    "last_visit": "2026-10-03",
+    "last_purchase": "2025-11",
+    "wealth_source": "职业收入",
+    "motivations": [
+      "犒赏自己",
+      "纪念日"
+    ],
+    "social_visibility": "低调",
+    "price_sensitivity": "中",
+    "style_preference": "温柔、日常好搭",
+    "material_preference": "玫瑰金",
+    "owned_pieces": [
+      {
+        "date": "2023-05",
+        "item": "涟漪 18K 玫瑰金细链吊坠（单钻）",
+        "for_whom": "自戴",
+        "note": "结婚十周年"
+      },
+      {
+        "date": "2025-11",
+        "item": "涟漪 18K 黄金耳钉",
+        "for_whom": "自戴"
+      }
+    ],
+    "formality": "适中",
+    "reply_habit": "工作日很少回，周末回复",
+    "recommendation_openness": "一般",
+    "preferred_contact_time": "周末",
+    "family_notes": "女儿朵朵 9 岁，喜欢做手工、串珠子；先生是中学物理老师",
+    "interests": [
+      "亲子手工",
+      "露营",
+      "烘焙"
+    ],
+    "notes": "10 月国庆带女儿来店清洗吊坠，女儿趴在柜台看了很久放大镜，问了很多问题。"
+  },
+  "conversation_history": [
+    {
+      "sender": "ca",
+      "time": "2026-10-03 18:20",
+      "text": "唐女士，今天谢谢您和朵朵过来，吊坠已经清洗好了。朵朵问的问题都特别认真。"
+    },
+    {
+      "sender": "client",
+      "time": "2026-10-04 20:31",
+      "text": "哈哈她回家还在说那个放大镜，说长大要做珠宝。谢谢你啦 Iris"
+    },
+    {
+      "sender": "ca",
+      "time": "2026-10-05 10:02",
+      "text": "太可爱了，下次她来我再给她看看。"
+    }
+  ],
+  "event_id": "EVT-2612-CD",
+  "ca_request": "想邀请她带女儿一起来开放日",
+  "test_meta": {
+    "persona": "P0",
+    "type": "core",
+    "must": [
+      "提到可以带孩子",
+      "可自然呼应女儿对放大镜的兴趣"
+    ],
+    "must_not": [
+      "编造儿童专属环节",
+      "承诺孩子可以动手操作"
+    ]
+  }
+}

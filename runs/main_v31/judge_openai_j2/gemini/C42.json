@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "轻微：“各处确实热闹”属于未经证实的外部情况；“不参与节日活动”也超出了已知的不打折政策。",
+    "context_failure": "轻微：没有明确回答是否打折，也没有提供具体价值点或替代选择。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 2,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 2
+   },
+   "sendability": "小改可发",
+   "comment": "回应比较克制，但开头绕远了，后半句也偏空泛。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "严重：誓约戒指未注明由单人手工打磨；“让主石透光特别干净”等具体效果也缺少资料依据。",
+    "context_failure": "轻微：只说统一定价，没有明确回答客户能否打折。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 2,
+    "naturalness": 2,
+    "effectiveness": 2
+   },
+   "sendability": "不可用",
+   "comment": "接住了预算顾虑和客户对悬浮镶的兴趣，但工艺描述未经证实，且解释偏长。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "轻微：未确认是否有两种尺寸的上手对比图，却提出发送。",
+    "context_failure": "轻微：只说统一定价，没有明确回答客户能否打折。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 4,
+    "naturalness": 4,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "0.5 克拉是客户问过的自然替代；补上明确的不打折答复，并先确认图片即可。"
+  }
+ ],
+ "set": {
+  "diversity": 4,
+  "risk_judgement": "正确",
+  "best_index": 3,
+  "must_coverage": "1/2",
+  "summary": "三条分别尝试政策回应、工艺价值和尺寸替代，其中候选 3 最贴合客户已表达的兴趣。主要问题是三条都未明确说不打折，候选 2 还编造了未经证实的工艺细节。"
+ },
+ "_judge": "openai:gpt-6.1-terra"
+}

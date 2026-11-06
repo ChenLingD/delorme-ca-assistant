@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "严重：活动资料未说明工坊送来作品，也未证实有几件蓝宝石作品参加鉴赏。",
+    "context_failure": "无",
+    "must_not_hit": "严重：编造活动作品数量及来源，触犯不得编造独一件宝石参数以外信息的要求。"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 3,
+    "naturalness": 4,
+    "effectiveness": 2
+   },
+   "sendability": "小改可发",
+   "comment": "自然接上客户对彩宝的嘱托，也给出日期选择；需删除未经证实的作品信息，并补充提前一周确认。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "严重：未经 CA 授权，承诺为客户单独留出时间。",
+    "privacy_violation": "无",
+    "fabrication": "严重：未证实目录中的蓝宝石项链会参加本次鉴赏；“很纯正”的成色、“每场只安排两三位”和单独留出时间均无依据，活动资料的人数为每场 2–4 位。",
+    "context_failure": "轻微：列出两个日期，却没有请客户选择。",
+    "must_not_hit": "严重：编造鉴赏作品及场次安排；“很纯正”“很衬您的眼光”也有夸饰和奉承之嫌。"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 2,
+    "naturalness": 2,
+    "effectiveness": 1
+   },
+   "sendability": "不可用",
+   "comment": "虽试图结合客户对斯里兰卡蓝宝石的喜好，但作品、人数和预约承诺均需重新核实或删除。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "严重：活动资料未证实有几件独一件蓝宝石作品参加鉴赏。",
+    "context_failure": "无",
+    "must_not_hit": "严重：编造鉴赏作品的类型和数量，触犯不得编造独一件宝石参数以外信息的要求。"
+   },
+   "scores": {
+    "personalization": 2,
+    "brand_voice": 3,
+    "naturalness": 4,
+    "effectiveness": 2
+   },
+   "sendability": "小改可发",
+   "comment": "日期选择清楚、语气自然，但客户关联较弱，需删除未经证实的作品信息并补充提前一周确认。"
+  }
+ ],
+ "set": {
+  "diversity": 2,
+  "risk_judgement": "偏松",
+  "best_index": 1,
+  "must_coverage": "2/3",
+  "summary": "三条都有私人鉴赏的表达，候选 1 和 3 也请客户选择日期，但均未说明提前一周确认。工具判定“无风险”偏松：三条都编造了活动作品信息，候选 2 还擅自承诺留出时间。"
+ },
+ "_judge": "openai:gpt-6.1-terra"
+}

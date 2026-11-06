@@ -1,0 +1,92 @@
+{
+  "case_id": "C04",
+  "scenario": "birthday_festive",
+  "today": "2026-12-24",
+  "occasion": "圣诞节",
+  "ca": {
+    "name": "李婷",
+    "gender": "女",
+    "years_experience": 3,
+    "store": "成都太古里精品店",
+    "known_client_since": "2025-12",
+    "style": "适中"
+  },
+  "client": {
+    "surname": "何",
+    "given_name": "佳怡",
+    "gender": "女",
+    "age_range": "30-35",
+    "city": "成都",
+    "occupation": "外企市场经理",
+    "client_since": "2025-12",
+    "spend_band": "5万以下",
+    "stage": "入门",
+    "last_visit": "2025-12-20",
+    "last_purchase": "2025-12",
+    "wealth_source": "职业收入",
+    "motivations": [
+      "犒赏自己"
+    ],
+    "social_visibility": "适中",
+    "price_sensitivity": "高",
+    "style_preference": "通勤、简洁",
+    "material_preference": "玫瑰金",
+    "owned_pieces": [
+      {
+        "date": "2025-12",
+        "item": "涟漪 18K 玫瑰金细链吊坠（单钻）",
+        "for_whom": "自戴",
+        "note": "升职纪念，选了 40cm 链长"
+      }
+    ],
+    "formality": "适中",
+    "reply_habit": "工作日回复慢，周末会回",
+    "recommendation_openness": "一般",
+    "preferred_contact_time": "周末或晚上",
+    "birthday": "04-09",
+    "important_dates": [
+      "2025-12 升职为市场经理"
+    ],
+    "family_notes": "和男友养了一只柯基",
+    "interests": [
+      "徒步",
+      "火锅",
+      "播客"
+    ],
+    "notes": "33 岁。去年为纪念升职买的吊坠，说是“给自己的奖励”。对价格比较在意，看过耳钉觉得超预算没买。"
+  },
+  "conversation_history": [
+    {
+      "sender": "ca",
+      "time": "2025-12-20 16:30",
+      "text": "何小姐，恭喜升职！吊坠链长帮您调到 40cm 了，日常洗澡游泳的时候摘下来就好。"
+    },
+    {
+      "sender": "client",
+      "time": "2025-12-20 17:02",
+      "text": "谢谢～终于给自己买了件像样的"
+    },
+    {
+      "sender": "ca",
+      "time": "2026-04-09 10:00",
+      "text": "何小姐，生日快乐，新的一岁顺顺利利。"
+    },
+    {
+      "sender": "client",
+      "time": "2026-04-11 20:15",
+      "text": "谢谢李婷！吊坠基本天天戴 哈哈"
+    }
+  ],
+  "test_meta": {
+    "persona": "P4",
+    "type": "core",
+    "must": [
+      "轻松得体",
+      "可提吊坠但不推新"
+    ],
+    "must_not": [
+      "借节日推活动或产品",
+      "群发感"
+    ]
+  }
+}

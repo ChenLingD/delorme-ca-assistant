@@ -1,0 +1,339 @@
+{
+ "case_id": "C33",
+ "version": "v3.1",
+ "model": "gemini:gemini-3.8-flash",
+ "risk": {
+  "level": "caution",
+  "flags": [
+   "付款人与佩戴者非同一人（礼赠关系），近一年两人均无到店记录且现状不明"
+  ],
+  "advice": "严格聚焦于简女士本人及其已有作品的佩戴与保养，绝不提及付款人、送礼或双方关系。"
+ },
+ "candidates": [
+  {
+   "text": "简女士好，我是德洛姆的诗韵。今天翻看工坊图册时想到了您，不知道近来画画和生活都好吗？",
+   "strategy": "极简",
+   "note_for_ca": "删去套话与自我评价，以职业近况轻问候，得体且无压力。"
+  },
+  {
+   "text": "简女士好，我是诗韵。看到工坊翻印的采珠手绘水纹图稿，线条很灵动，感觉很合您写生时的画风。不知道最近海浪插画画得顺利吗？",
+   "strategy": "走心",
+   "note_for_ca": "以采珠手稿与海浪插画切入，不宣布记得，唤起共同审美记忆。"
+  },
+  {
+   "text": "简女士好，我是诗韵。算起来您的穹顶戒指和耳钉佩戴有一阵子了，如果顺路经过万象城，随时带过来，我帮您做个免费的松动检测和深度清洗。",
+   "strategy": "推进",
+   "note_for_ca": "以固定清洗与检测服务为由头，给出轻松的到店台阶。"
+  }
+ ],
+ "checks": [
+  {
+   "pass": true,
+   "hard": [],
+   "soft": [],
+   "length": 42
+  },
+  {
+   "pass": true,
+   "hard": [],
+   "soft": [],
+   "length": 59
+  },
+  {
+   "pass": true,
+   "hard": [],
+   "soft": [],
+   "length": 64
+  }
+ ],
+ "trace": {
+  "rounds": [
+   {
+    "rule_checks": [
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 46
+     },
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 67
+     },
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 64
+     }
+    ],
+    "critic": {
+     "reviews": [
+      {
+       "index": 1,
+       "pass": true,
+       "issues": [
+        "“简单跟您打个招呼”略带对消息本身的评论与解释（手册第 2 节原则 5 建议不要解释“没别的事/只是打招呼”）。建议直接克制问候，如“近来一切都顺心吧”，更显自然从容。"
+       ]
+      },
+      {
+       "index": 2,
+       "pass": true,
+       "issues": [
+        "“又让我想起您提过想画的海浪插画”带有宣布“我还记得你说过什么”的痕迹（手册第 2 节原则 4）。建议把客户细节更自然地融进情境，例如改为“看到里面的波纹线条，就想到海浪起伏的笔触，不知道近来有没有去海边写生”，避免强调“您提过”。"
+       ]
+      },
+      {
+       "index": 3,
+       "pass": true,
+       "issues": [
+        "客户持有的穹顶系列为 18K 黄金戒指（素金无宝镶嵌），对其提及“松动检测”在珠宝专业表述上略显突兀（松动检测通常针对爪镶宝石或珍珠托位）。建议将措辞调整为“整件深度清洗与佩戴检查”，更为精准得体。"
+       ]
+      }
+     ],
+     "set_issues": [
+      {
+       "indices": [
+        1,
+        2
+       ],
+       "issue": "切入由头存在局部重叠：第 1 条使用了“整理工坊图册时想起了您”，第 2 条使用了“翻到当年老图稿想起了您”，两者在客户视角下都是“看图册/图稿想起我”。建议第 1 条作为极简版本，直接采用纯问候切入，不必借用图册由头，把“沧海采珠图稿”完全留给第 2 条作为独家信息点。"
+      }
+     ]
+    },
+    "set_issues": [
+     "切入由头存在局部重叠：第 1 条使用了“整理工坊图册时想起了您”，第 2 条使用了“翻到当年老图稿想起了您”，两者在客户视角下都是“看图册/图稿想起我”。建议第 1 条作为极简版本，直接采用纯问候切入，不必借用图册由头，把“沧海采珠图稿”完全留给第 2 条作为独家信息点。"
+    ],
+    "to_fix": {
+     "2": [
+      "与其他候选雷同：切入由头存在局部重叠：第 1 条使用了“整理工坊图册时想起了您”，第 2 条使用了“翻到当年老图稿想起了您”，两者在客户视角下都是“看图册/图稿想起我”。建议第 1 条作为极简版本，直接采用纯问候切入，不必借用图册由头，把“沧海采珠图稿”完全留给第 2 条作为独家信息点。"
+     ]
+    }
+   },
+   {
+    "rule_checks": [
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 46
+     },
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 59
+     },
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 64
+     }
+    ],
+    "critic": {
+     "reviews": [
+      {
+       "index": 1,
+       "pass": false,
+       "issues": [
+        "“简单跟您打个招呼”属于评论消息本身（类似于“没别的事”），会让消息显得多余；结尾“近来一切都顺心吧”属于没有具体信息的空泛套话，违反手册“不说空话安慰/客套”的原则。建议删去自我定性的废话，将问候收拢得更自然克制，例如：“简女士好，我是德洛姆的诗韵。最近整理工坊图册时想起了您，不知道近来画画和生活都好吗？”"
+       ]
+      },
+      {
+       "index": 2,
+       "pass": true,
+       "issues": []
+      },
+      {
+       "index": 3,
+       "pass": true,
+       "issues": []
+      }
+     ],
+     "set_issues": []
+    },
+    "set_issues": [],
+    "to_fix": {
+     "1": [
+      "“简单跟您打个招呼”属于评论消息本身（类似于“没别的事”），会让消息显得多余；结尾“近来一切都顺心吧”属于没有具体信息的空泛套话，违反手册“不说空话安慰/客套”的原则。建议删去自我定性的废话，将问候收拢得更自然克制，例如：“简女士好，我是德洛姆的诗韵。最近整理工坊图册时想起了您，不知道近来画画和生活都好吗？”"
+     ]
+    }
+   },
+   {
+    "rule_checks": [
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 42
+     },
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 59
+     },
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 64
+     }
+    ],
+    "critic": {
+     "reviews": [
+      {
+       "index": 1,
+       "pass": true,
+       "issues": []
+      },
+      {
+       "index": 2,
+       "pass": true,
+       "issues": []
+      },
+      {
+       "index": 3,
+       "pass": true,
+       "issues": []
+      }
+     ],
+     "set_issues": []
+    },
+    "set_issues": [],
+    "to_fix": {}
+   }
+  ],
+  "plan": {
+   "client_read": "简女士是一位低调温和的独立插画师，偏好小巧且有故事感的珠宝。距上次互动已过去一年多，其藏品均为礼赠所得且双方现状不明，当前处于需要克制维系的沉睡状态。",
+   "risk": {
+    "level": "caution",
+    "flags": [
+     "付款人与佩戴者非同一人（礼赠关系），近一年两人均无到店记录且现状不明"
+    ],
+    "advice": "严格聚焦于简女士本人及其已有作品的佩戴与保养，绝不提及付款人、送礼或双方关系。"
+   },
+   "ca_commitments": [],
+   "usable_facts": [
+    "简女士是独立插画师，喜欢海边写生与沧海图稿的故事",
+    "拥有穹顶戒指、沧海珍珠耳钉、涟漪吊坠",
+    "距上次到店取戒指已过了一年多"
+   ],
+   "do_not_mention": [
+    "付款人及任何与赠礼男士相关的内容",
+    "“我们挑的”“那位先生”等指向两人关系的话题",
+    "购买金额、客户标签与未到店时间长度的指责式提醒"
+   ],
+   "products": [],
+   "unanswerable": "",
+   "slots": {
+    "极简": {
+     "切入点": "纯问候切入",
+     "唯一信息点": "简单的近况问候与自我提醒（CA身份说明）"
+    },
+    "走心": {
+     "切入点": "兴趣与审美细节切入",
+     "唯一信息点": "提及当年聊过的沧海海浪纹图稿与插画写生"
+    },
+    "推进": {
+     "切入点": "品牌固定服务切入",
+     "唯一信息点": "提醒已有作品满一年可享有的日常检测与免费深度清洗保养"
+    }
+   }
+  },
+  "first_draft": [
+   {
+    "text": "简女士好，我是德洛姆的诗韵。最近整理工坊图册时想起了您，简单跟您打个招呼，近来一切都顺心吧。",
+    "strategy": "极简",
+    "note_for_ca": "纯问候无负担，适合低调探寻现状、唤醒联系。"
+   },
+   {
+    "text": "简女士好，我是诗韵。翻到当年巴黎远赴上海采珠的老图稿，里面那些波纹线条，又让我想起您提过想画的海浪插画，不知道这阵子有没有去海边写生。",
+    "strategy": "走心",
+    "note_for_ca": "结合插画师身份及想画海浪图稿的细节，真诚自然。"
+   },
+   {
+    "text": "简女士好，我是诗韵。算起来您的穹顶戒指和耳钉佩戴有一阵子了，如果顺路经过万象城，随时带过来，我帮您做个免费的松动检测和深度清洗。",
+    "strategy": "推进",
+    "note_for_ca": "以固定清洗与检测服务为由头，给出轻松的到店台阶。"
+   }
+  ],
+  "seconds": 92.8,
+  "diversity_max_sim": 0.06097560975609756,
+  "calls": [
+   {
+    "requested": "gemini-3.8-flash",
+    "served": "gemini-3.8-flash",
+    "seconds": 6.0,
+    "attempt": 1,
+    "in_tokens": 5892,
+    "out_tokens": 462,
+    "reasoning_tokens": null,
+    "fingerprint": null
+   },
+   {
+    "requested": "gemini-3.8-flash",
+    "served": "gemini-3.8-flash",
+    "seconds": 4.9,
+    "attempt": 1,
+    "in_tokens": 5258,
+    "out_tokens": 298,
+    "reasoning_tokens": null,
+    "fingerprint": null
+   },
+   {
+    "requested": "gemini-3.8-flash",
+    "served": "gemini-3.8-flash",
+    "seconds": 41.5,
+    "attempt": 1,
+    "in_tokens": 5093,
+    "out_tokens": 474,
+    "reasoning_tokens": null,
+    "fingerprint": null
+   },
+   {
+    "requested": "gemini-3.8-flash",
+    "served": "gemini-3.8-flash",
+    "seconds": 7.1,
+    "attempt": 1,
+    "in_tokens": 5584,
+    "out_tokens": 124,
+    "reasoning_tokens": null,
+    "fingerprint": null
+   },
+   {
+    "requested": "gemini-3.8-flash",
+    "served": "gemini-3.8-flash",
+    "seconds": 16.7,
+    "attempt": 1,
+    "in_tokens": 5090,
+    "out_tokens": 223,
+    "reasoning_tokens": null,
+    "fingerprint": null
+   },
+   {
+    "requested": "gemini-3.8-flash",
+    "served": "gemini-3.8-flash",
+    "seconds": 6.6,
+    "attempt": 1,
+    "in_tokens": 5579,
+    "out_tokens": 109,
+    "reasoning_tokens": null,
+    "fingerprint": null
+   },
+   {
+    "requested": "gemini-3.8-flash",
+    "served": "gemini-3.8-flash",
+    "seconds": 10.0,
+    "attempt": 1,
+    "in_tokens": 5087,
+    "out_tokens": 102,
+    "reasoning_tokens": null,
+    "fingerprint": null
+   }
+  ]
+ }
+}

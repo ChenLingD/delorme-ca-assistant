@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无明显失败，但客户把升值当作购买前提，这条完全没有回应；也没有回到作品本身。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 1,
+    "brand_voice": 4,
+    "naturalness": 4,
+    "effectiveness": 2
+   },
+   "sendability": "小改可发",
+   "comment": "短、克制、不踩红线，像真人。但只是泛泛的“理解”，没有任何个性化，也没回到作品。“等一等”放在配额款语境里，还可能被听成在等到货。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "没有先接住“太贵了”的情绪，直接讲工时和工匠，对客户刚发的消息有点答非所问，略带“解释为什么值”的味道。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 4,
+    "naturalness": 3,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "回到作品本身，引用了客户说过的“做工没话说”，120 工时和同一位工匠都有出处，也避开了升值话题。开头缺一句对价格感受的回应，补上就能发。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "把穹顶“小号腕表款手镯”当作替代选择推出，容易被读成更便宜的替代；对一位明确以投资角度看晨星的客户，这样转移话题也不够得体。",
+    "privacy_violation": "无",
+    "fabrication": "编造了输入中没有的产品：“穹顶小号腕表款手镯”“没有表盘，是手表的形状”。产品资料里只有晨星手镯，这条没有任何依据。",
+    "context_failure": "客户在谈晨星的价格和升值，这条绕开问题去推一件不存在的产品；“手表的形状”的描述也不通顺。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 2,
+    "naturalness": 2,
+    "effectiveness": 1
+   },
+   "sendability": "不可用",
+   "comment": "开头的共情不错，也用到了太太叠戴穹顶这一点。但编造了产品，表述别扭，而且没回到晨星这件作品本身，不可用。"
+  }
+ ],
+ "set": {
+  "diversity": 3,
+  "risk_judgement": "正确",
+  "best_index": 2,
+  "must_coverage": "2/2（仅候选2同时做到“不承诺保值升值”和“回到作品本身”；候选1只做到前一条）",
+  "summary": "工具的风险判断准确，抓住了升值、配额、到货时间这几个雷区，三条也都没有承诺升值或排期。主要问题是候选没有照着自己的提示去做：没有一条先接住情绪再回到作品，候选1空泛，候选2缺共情，候选3还编造了产品。"
+ },
+ "_judge": "anthropic:claude-sonnet-5-5"
+}

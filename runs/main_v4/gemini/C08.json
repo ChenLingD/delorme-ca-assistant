@@ -1,0 +1,185 @@
+{
+ "case_id": "C08",
+ "version": "v4",
+ "model": "gemini:gemini-3.8-flash",
+ "risk": {
+  "level": "ok",
+  "flags": [],
+  "advice": ""
+ },
+ "candidates": [
+  {
+   "text": "宋女士，祝您生日快乐！新的一岁，愿生活里尽是喜欢的事物与好心情。🎂",
+   "strategy": "轻快真诚",
+   "note_for_ca": "最干净利落的纯祝福，完全不带任何推销或试探痕迹，零压力；适合只想单纯表达心意、不想打扰客户的场景。"
+  },
+  {
+   "text": "宋女士，生日快乐！愿您新的一岁镜头里定格更多美好的光影与心动瞬间，每天都明朗自在。",
+   "strategy": "审美共鸣",
+   "note_for_ca": "融入了对她喜爱影像与记录生活特质的共鸣，走心且显专属感；如果客户当天消息很多，这种带一点审美默契的祝福更容易被记住。"
+  },
+  {
+   "text": "宋女士，生日快乐！刚好赶上 11 月的最后一天，愿这个初冬温暖从容，开开心心度过今天。",
+   "strategy": "岁末暖意",
+   "note_for_ca": "结合了 11 月末的自然时间节点，亲切温和像朋友问候；没有提及具体穿搭或珠宝，包容度最高。"
+  }
+ ],
+ "checks": [
+  {
+   "pass": true,
+   "hard": [],
+   "soft": [],
+   "length": 33
+  },
+  {
+   "pass": true,
+   "hard": [],
+   "soft": [],
+   "length": 41
+  },
+  {
+   "pass": true,
+   "hard": [],
+   "soft": [],
+   "length": 41
+  }
+ ],
+ "trace": {
+  "rounds": [
+   {
+    "rule_checks": [
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 33
+     },
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 41
+     },
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 41
+     }
+    ],
+    "critic": {
+     "reviews": [
+      {
+       "index": 1,
+       "pass": true,
+       "issues": []
+      },
+      {
+       "index": 2,
+       "pass": true,
+       "issues": []
+      },
+      {
+       "index": 3,
+       "pass": true,
+       "issues": []
+      }
+     ],
+     "set_issues": []
+    },
+    "to_fix": {}
+   }
+  ],
+  "plan": {
+   "client_read": "宋女士是审美敏锐、活泼自信的年轻时尚博主，真心喜爱德洛姆的设计与质感。目前两人保持着轻松友善的弱连接，客户在生日这天最在意的是被真诚惦记，而不是被借机推销。",
+   "risk": {
+    "level": "ok",
+    "flags": [],
+    "advice": ""
+   },
+   "key_choice": "是给一句轻快纯粹的日常生日祝福，还是融入法式胶片感的审美共鸣，亦或是结合初冬节点的温暖致意。",
+   "directions": [
+    {
+     "label": "轻快真诚",
+     "idea": "一两句干净温和的生日祝福，语气亲切自然，不带任何产品与目的。",
+     "tradeoff": "最纯粹体面，完全没有压迫感；但篇幅短，没有延展话题。"
+    },
+    {
+     "label": "审美共鸣",
+     "idea": "结合她对复古光影与生活美感的偏好，祝愿她新的一岁定格更多美好瞬间。",
+     "tradeoff": "契合博主特质且显用心；但若把握不好分寸容易略显文艺。"
+    },
+    {
+     "label": "岁末暖意",
+     "idea": "立足 11 月末的初冬节点，送上兼具生活气息与松弛感的温暖问候。",
+     "tradeoff": "生活感强、体贴入微；但相比之下个人化辨识度略弱。"
+    }
+   ],
+   "ca_commitments": [],
+   "usable_facts": [
+    "今天是 11 月 30 日，宋女士生日",
+    "宋女士偏爱法式复古风格与生活记录",
+    "CA 张悦与宋女士已相识约 8 个月，日常沟通轻松活泼"
+   ],
+   "do_not_mention": [
+    "主动推荐沧海珍珠系列或催促购买",
+    "提及 9 月到店时说的“等我攒攒”",
+    "擅自承诺生日礼品、积分礼遇或折扣",
+    "提及博主身份、粉丝量或提出合作意向",
+    "描摹具体气温或天气"
+   ],
+   "products": []
+  },
+  "first_draft": [
+   {
+    "text": "宋女士，祝您生日快乐！新的一岁，愿生活里尽是喜欢的事物与好心情。🎂",
+    "strategy": "轻快真诚",
+    "note_for_ca": "最干净利落的纯祝福，完全不带任何推销或试探痕迹，零压力；适合只想单纯表达心意、不想打扰客户的场景。"
+   },
+   {
+    "text": "宋女士，生日快乐！愿您新的一岁镜头里定格更多美好的光影与心动瞬间，每天都明朗自在。",
+    "strategy": "审美共鸣",
+    "note_for_ca": "融入了对她喜爱影像与记录生活特质的共鸣，走心且显专属感；如果客户当天消息很多，这种带一点审美默契的祝福更容易被记住。"
+   },
+   {
+    "text": "宋女士，生日快乐！刚好赶上 11 月的最后一天，愿这个初冬温暖从容，开开心心度过今天。",
+    "strategy": "岁末暖意",
+    "note_for_ca": "结合了 11 月末的自然时间节点，亲切温和像朋友问候；没有提及具体穿搭或珠宝，包容度最高。"
+   }
+  ],
+  "seconds": 28.6,
+  "diversity_max_sim": 0.08771929824561403,
+  "calls": [
+   {
+    "requested": "gemini-3.8-flash",
+    "served": "gemini-3.8-flash",
+    "seconds": 14.4,
+    "attempt": 1,
+    "in_tokens": 5332,
+    "out_tokens": 545,
+    "reasoning_tokens": null,
+    "fingerprint": null
+   },
+   {
+    "requested": "gemini-3.8-flash",
+    "served": "gemini-3.8-flash",
+    "seconds": 5.7,
+    "attempt": 1,
+    "in_tokens": 4414,
+    "out_tokens": 307,
+    "reasoning_tokens": null,
+    "fingerprint": null
+   },
+   {
+    "requested": "gemini-3.8-flash",
+    "served": "gemini-3.8-flash",
+    "seconds": 8.5,
+    "attempt": 1,
+    "in_tokens": 4369,
+    "out_tokens": 102,
+    "reasoning_tokens": null,
+    "fingerprint": null
+   }
+  ]
+ }
+}

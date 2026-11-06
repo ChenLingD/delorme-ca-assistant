@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 2,
+    "brand_voice": 4,
+    "naturalness": 4,
+    "effectiveness": 4
+   },
+   "sendability": "直接可发",
+   "comment": "极简克制、不带产品、不要求回复，很符合这位少回复的正式客户和周敏偏正式的风格；“我祝您”略生硬，“平安顺意”稍套话，但无大碍。个性化几乎没有，但对这类客户这是合理取舍。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 2,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "策略名“一盏清茶”，正文里却没有茶，也没有任何客户细节，名不副实；“我想送上一声祝福”偏书面、有点公文腔，“从容自在，常有喜悦”泛泛。篇幅仍短，删去“今天是您的生日，我想送上一声祝福”这类铺垫会更好。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 2,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "“认识您已有几年”有点含糊，也略显刻意、像在强调关系，不如直接祝福；三句话在这位不喜被频繁联系的客户面前略长一点，但未越界。"
+  }
+ ],
+ "set": {
+  "diversity": 2,
+  "risk_judgement": "正确",
+  "best_index": 1,
+  "must_coverage": "2/2",
+  "summary": "三条都守住了极简、不带产品、不邀约、不提生日礼物这几条底线，风险判断（caution、上午发、不期待回复、扣头问题另择时机）也准确得当。主要问题是三条几乎是同一句祝福的改写，缺乏真正不同的角度，策略标签（如“一盏清茶”）与正文不符，且完全没用到客户的真实细节（昆曲、宋瓷、茶、杭州秋天等）。"
+ },
+ "_judge": "anthropic:claude-sonnet-5-5"
+}

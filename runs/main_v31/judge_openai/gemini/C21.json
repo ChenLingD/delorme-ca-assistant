@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "轻微：“随时帮您恢复”暗示不受时间限制，但只知道维修师傅周二到周日在店，今天周一是否能处理未确认。",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 4,
+    "naturalness": 4,
+    "effectiveness": 4
+   },
+   "sendability": "小改可发",
+   "comment": "先接住情绪，再给免费抛光和预计时长；去掉“随时”，补充师傅在店时间更稳妥。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "严重：CA 只授权去公司取件，未授权送还；“明天做好”也将现场约40分钟的处理时间扩大为取件后的次日完成承诺。",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 3
+   },
+   "sendability": "不可用",
+   "comment": "共情和取件方案贴合客户，但擅自承诺次日完成并送还，需删除或先确认。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "轻微：面对质量投诉，开头仅说“别担心”，没有先承认客户对新戒指出现划痕的不快。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "免费抛光、在店时间和取件选项都具体，但应先接住情绪，明天二选一也略显催促。"
+  }
+ ],
+ "set": {
+  "diversity": 3,
+  "risk_judgement": "正确",
+  "best_index": 1,
+  "must_coverage": "3/3",
+  "summary": "三条都围绕投诉提供免费抛光，没有推卸责任或推销，候选1最完整地先承认感受并给出方案和时长。主要问题是候选2擅自承诺次日完成和送还，候选1也需收紧“随时”的表述。"
+ },
+ "_judge": "openai:gpt-6.1-terra"
+}

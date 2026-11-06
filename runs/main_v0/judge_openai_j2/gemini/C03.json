@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "轻微：祝福中提到“好天气”，不符合不描述天气的要求。",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 3,
+    "naturalness": 4,
+    "effectiveness": 4
+   },
+   "sendability": "小改可发",
+   "comment": "花艺细节贴合客户，去掉天气相关表述后会更合适。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "轻微：直接说“记得您”，不符合自然运用客户信息、不宣称记得的原则。",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "轻微：出行时间未明确，却追问是否正在打包，让生日祝福多了一层不必要的回应压力。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 2,
+    "naturalness": 3,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "巴黎花店话题选得贴切，但应去掉“记得”和打包追问，让祝福本身成为重点。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 4,
+    "naturalness": 3,
+    "effectiveness": 4
+   },
+   "sendability": "直接可发",
+   "comment": "结合花艺工作室与旅行祝福，分寸得当，但“惬意舒心的时光相伴”稍显书面。"
+  }
+ ],
+ "set": {
+  "diversity": 3,
+  "risk_judgement": "偏松",
+  "best_index": 3,
+  "must_coverage": "2/2",
+  "summary": "三条均只与客户本人交流，没有提及付款、购买或同行人，也没有借生日推销；候选3相对稳妥。工具判断“无风险”偏松：候选1提及天气，候选2则宣称记得并对行程作了不必要的追问。"
+ },
+ "_judge": "openai:gpt-6.1-terra"
+}

@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "轻微：“陪伴您两年”暗示戒指一直在钱先生身边，实际去向未知。",
+    "context_failure": "轻微：戒指为求婚所购，后续情况未知，不宜默认它陪伴客户至今。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 4,
+    "naturalness": 4,
+    "effectiveness": 4
+   },
+   "sendability": "小改可发",
+   "comment": "服务切入得体，删去“陪伴您两年”的推断即可。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "轻微：无法确认戒指佩戴了两年或已积尘；清洗能恢复最初火彩也缺乏依据。",
+    "context_failure": "轻微：求婚结果未知，不宜默认戒指已有两年佩戴经历。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 2,
+    "naturalness": 2,
+    "effectiveness": 2
+   },
+   "sendability": "小改可发",
+   "comment": "清洗切入合适，但对佩戴状态的推断和“沉淀质感”“恢复火彩”的修饰都应删减。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "严重：未经 CA 授权，承诺工坊随时可办理刻字及深度养护。",
+    "privacy_violation": "无",
+    "fabrication": "严重：未刻字不等于“特意留了白”；工坊随时办理补刻和深度养护也没有依据。",
+    "context_failure": "轻微：后续感情状况未知，主动询问是否补刻纪念日期容易令客户尴尬。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 2,
+    "brand_voice": 2,
+    "naturalness": 2,
+    "effectiveness": 1
+   },
+   "sendability": "不可用",
+   "comment": "刻字切入既推测客户原意，又擅自承诺服务，应改为不涉及纪念日期的清洗问候；若提补刻，须先确认可行性和费用。"
+  }
+ ],
+ "set": {
+  "diversity": 3,
+  "risk_judgement": "偏松",
+  "best_index": 1,
+  "must_coverage": "1/1",
+  "summary": "三条均未假设婚姻状况，也未追问求婚结果或声称刻字仍免费；候选1最接近可发，但需去掉戒指陪伴客户两年的推断。风险提示抓住了婚姻状况和免费刻字期限，却遗漏了候选3对补刻及养护安排的擅自承诺。"
+ },
+ "_judge": "openai:gpt-6.1-terra"
+}

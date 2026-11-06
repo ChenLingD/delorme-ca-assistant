@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "轻微：“惊喜求婚通常先按标准圈号做”及先做后改的安排没有依据，需先确认。",
+    "context_failure": "轻微：只描述了1克拉的观感，没有回答与1.5克拉的实际差别。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 2
+   },
+   "sendability": "小改可发",
+   "comment": "抓住了预算和保密求婚的顾虑，但没有比较大小，“视觉舒展”等表述也较空泛。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "严重：将6.5毫米和7.3毫米称为台面直径，混淆了常见圆钻外径与台面直径；目录也未提供钻石形状及这些尺寸。“看不到镶爪、侧面透光极佳”和按常规圈号制作亦缺乏依据。",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 2,
+    "naturalness": 2,
+    "effectiveness": 1
+   },
+   "sendability": "不可用",
+   "comment": "虽然尝试用数据回答对比问题并提到改圈，但核心数据和工艺描述不可靠，不能发给客户。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "轻微：“店里可以先按常规圈号来做”属于未经确认的门店安排；拍两种大小的对比图也应先确认是否有相应实物。",
+    "context_failure": "轻微：提出看图和看实物，但尚未直接回答两种大小的差别。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 4,
+    "naturalness": 4,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "语气自然、给客户留有余地，但应先确认实物和圈号安排，并补充有依据的大小对比。"
+  }
+ ],
+ "set": {
+  "diversity": 3,
+  "risk_judgement": "偏松",
+  "best_index": 3,
+  "must_coverage": "1/2",
+  "summary": "三条都提到了免费改圈，但没有可靠地回答1克拉与1.5克拉的实际差别。最主要的问题是候选2的数据有误且缺乏依据，三条也都未经确认就提出常规圈号制作，工具判定无风险偏松。"
+ },
+ "_judge": "openai:gpt-6.1-terra"
+}

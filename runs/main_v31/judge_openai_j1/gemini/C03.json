@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 2,
+    "brand_voice": 4,
+    "naturalness": 4,
+    "effectiveness": 4
+   },
+   "sendability": "直接可发",
+   "comment": "简短得体，适合作为生日祝福，但除称呼和生日外缺少客户专属细节。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "“做自己喜欢的事本身就很美”和“浪漫惬意”等表达偏空泛，形容词稍显堆叠。",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 2,
+    "naturalness": 2,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "用到了花艺兴趣，但祝福修饰过多，不够像微信里的自然说话。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "生日祝福后追问是否出发，并引向门店咨询，让祝福偏向推进，也增加了客户回复的负担。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 5,
+    "brand_voice": 3,
+    "naturalness": 4,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "巴黎花店的细节贴合聊天记录，但删去出发追问和门店咨询会更符合生日祝福的目的。"
+  }
+ ],
+ "set": {
+  "diversity": 4,
+  "risk_judgement": "正确",
+  "best_index": 1,
+  "must_coverage": "2/2",
+  "summary": "三条均只与唐女士本人交流，未触及付款人等禁区；风险提醒也恰当。候选 1 最简洁可发，主要不足是整组话术分别存在个性化不足、措辞堆砌或借祝福推进话题的问题。"
+ },
+ "_judge": "openai:gpt-6.1-terra"
+}

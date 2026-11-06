@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "严重：目录只说明誓约采用悬浮镶，未说明每枚都需手工调校金属张力；“完全不用担心”也对改圈结果作了过度保证。",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 3
+   },
+   "sendability": "不可用",
+   "comment": "改圈服务切合求婚场景，但工艺细节未经证实，且安慰说得太满，需删除后重写。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "轻微：0.5 克拉款“视觉上线条会更纤细轻盈”缺少目录依据，不宜作为确定效果描述。",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 4
+   },
+   "sendability": "小改可发",
+   "comment": "承接客户问过的 0.5 克拉方案很贴切，删去未经确认的视觉效果，语气再简洁些即可。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 4,
+    "naturalness": 4,
+    "effectiveness": 4
+   },
+   "sendability": "直接可发",
+   "comment": "价格政策清楚，也借客户问过的 0.5 克拉提供了比较空间；“精打细算很正常”略有说教感。"
+  }
+ ],
+ "set": {
+  "diversity": 4,
+  "risk_judgement": "偏松",
+  "best_index": 3,
+  "must_coverage": "2/2",
+  "summary": "三条都说明了不打折，并分别提供工艺或服务、替代选择与比较空间。工具判断“无风险”偏松，尤其漏掉了候选 1 未经证实的工艺细节和过度保证。"
+ },
+ "_judge": "openai:gpt-6.1-terra"
+}

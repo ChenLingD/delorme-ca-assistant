@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "轻微：“入不了您的法眼”过于自贬，不符合克制、平等的沟通方式。",
+    "privacy_violation": "无",
+    "fabrication": "严重：目录只说明戒身铺镶1.2克拉小钻，并未说明戒壁弧度较大、采用微钉密镶，也未确认客户上手试戴。",
+    "context_failure": "严重：用未经证实的工艺细节回应专业质疑，并替客户决定不再考虑，未回应此前约定的工坊说明。",
+    "must_not_hit": "严重：编造工艺参数或做法；“入不了您的法眼”带有恭维意味。"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 2,
+    "naturalness": 3,
+    "effectiveness": 1
+   },
+   "sendability": "不可用",
+   "comment": "虽试图从工艺切入，但具体说法缺乏依据，结尾也替客户做了决定。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "严重：围绕客户眼光和放大镜的恭维过重，不符合客户明确的沟通偏好。",
+    "privacy_violation": "无",
+    "fabrication": "轻微：“能过您那把放大镜的作品本来就极少”是对客户判断经历的无依据推断。",
+    "context_failure": "严重：回避了价格与铺镶质疑，也未回应此前约定的工坊说明，转而提出未来推荐。",
+    "must_not_hit": "严重：恭维客户；没有用专业事实回应。"
+   },
+   "scores": {
+    "personalization": 2,
+    "brand_voice": 1,
+    "naturalness": 2,
+    "effectiveness": 1
+   },
+   "sendability": "不可用",
+   "comment": "放大镜虽来自手记，却被用来刻意恭维，且整条没有回答客户的问题。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "轻微：“您的判断很准”在缺乏工艺依据时显得迎合，且不必要地贬低了正在讨论的作品。",
+    "privacy_violation": "无",
+    "fabrication": "严重：把现代铺镶与古董金工的质感差异当作已确认事实；“我不为您留了”还暗示存在此前未确认的预留。",
+    "context_failure": "严重：未以已知事实回应戒指的价格和铺镶质疑，却替客户判断不值得入手并宣布不再预留。",
+    "must_not_hit": "严重：以未经证实的工艺概括回应质疑，并用“您的判断很准”空泛迎合。"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 2,
+    "naturalness": 2,
+    "effectiveness": 1
+   },
+   "sendability": "不可用",
+   "comment": "借客户的古董首饰偏好展开，但缺乏针对这枚戒指的事实，还无依据地提及预留。"
+  }
+ ],
+ "set": {
+  "diversity": 2,
+  "risk_judgement": "偏松",
+  "best_index": 2,
+  "must_coverage": "0/2",
+  "summary": "三条都没有做到以可靠的专业事实回应质疑并保持不卑不亢，且都过早替客户把这件作品翻篇。候选2相对没有编造具体镶嵌工艺，但恭维明显、回避问题，三条均不可直接发送，工具判为无风险明显偏松。"
+ },
+ "_judge": "openai:gpt-6.1-terra"
+}

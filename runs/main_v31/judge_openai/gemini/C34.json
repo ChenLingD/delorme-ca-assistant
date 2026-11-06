@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "轻微：“老手稿到了”未经活动资料确认；直接承诺安排“安静的时段”也超出为她协调人少时段的要求。",
+    "context_failure": "无",
+    "must_not_hit": "轻微：包含未经确认的到件信息及时段安排。"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 4,
+    "naturalness": 4,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "自然回应了看老图稿的心愿，但未关联珍珠藏品；改为告知图稿将在预览展出，并表示可帮她协调人少些的时段。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "轻微：活动资料未确认展出吊扣海浪纹的具体出处，也未确认现场环境“雅致清静”。",
+    "context_failure": "无",
+    "must_not_hit": "轻微：编造了未确认的展出内容及现场环境。"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "关联金珠吊坠与图稿兴趣较贴切，但须去掉“能看到出处”的断言，补充私享预览地点，并改为协调人少些的时段。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "轻微：没有回应客户明确希望看到老图稿的心愿，也未说明活动地点。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 2,
+    "brand_voice": 4,
+    "naturalness": 4,
+    "effectiveness": 2
+   },
+   "sendability": "小改可发",
+   "comment": "日期和星期准确，也照顾了她不喜欢人多的偏好，但缺少图稿、珍珠收藏与地点，邀约理由不够个人化。"
+  }
+ ],
+ "set": {
+  "diversity": 3,
+  "risk_judgement": "偏松",
+  "best_index": 1,
+  "must_coverage": "2/3",
+  "summary": "三条合起来涉及了珍珠藏品和看老图稿的心愿，但没有一条完整、准确地落实全部要求。候选1最适合修改后使用；主要风险是未经确认地声称手稿已到、可看到海浪纹出处或保证环境清静，整体风险判断偏松。"
+ },
+ "_judge": "openai:gpt-6.1-terra"
+}

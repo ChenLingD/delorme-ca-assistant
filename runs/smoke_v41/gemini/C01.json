@@ -1,0 +1,324 @@
+{
+ "case_id": "C01",
+ "version": "v4.1",
+ "model": "gemini:gemini-3.8-flash",
+ "risk": {
+  "level": "ok",
+  "flags": [],
+  "advice": ""
+ },
+ "candidates": [
+  {
+   "text": "沈女士，今天是您的生日，祝您生辰吉乐，岁岁从容安适。",
+   "strategy": "极简素雅",
+   "note_for_ca": "最稳妥的选择，完全尊重她少言克制的习惯，没有任何压迫感或多余修饰；缺点是稍显常规，没有体现太多个人细节。"
+  },
+  {
+   "text": "沈女士，祝您生辰吉乐。初冬草木渐敛，岁末安然，愿您日子始终从容舒朗，心神宁静。",
+   "strategy": "草木雅致",
+   "note_for_ca": "去除了原草稿中涉及个人兴趣标签的直白字眼，借初冬时节草木收敛的清宁意境送上祝福，气质素雅温润；适合想表达比纯粹问候多一份东方韵味、同时严格守住分寸感的时刻。"
+  },
+  {
+   "text": "沈女士，祝您生日快乐。陪伴您的这些年，很感谢您对德洛姆一贯的信任。愿您新岁安康，日子始终舒朗从容。",
+   "strategy": "工坊长情",
+   "note_for_ca": "修正了原稿生硬且不够精准的年限表述，并删除了来店邀约，纯粹以长久相伴的克制姿态表达敬意与谢意；适合想展现品牌沉淀与长情默契、同时不给客户任何社交负担的时刻。"
+  }
+ ],
+ "checks": [
+  {
+   "pass": true,
+   "hard": [],
+   "soft": [],
+   "length": 26
+  },
+  {
+   "pass": true,
+   "hard": [],
+   "soft": [],
+   "length": 39
+  },
+  {
+   "pass": true,
+   "hard": [],
+   "soft": [],
+   "length": 49
+  }
+ ],
+ "trace": {
+  "rounds": [
+   {
+    "rule_checks": [
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 26
+     },
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 37
+     },
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 57
+     }
+    ],
+    "critic": {
+     "reviews": [
+      {
+       "index": 1,
+       "pass": true,
+       "issues": []
+      },
+      {
+       "index": 2,
+       "pass": false,
+       "issues": [
+        "隐私与分寸问题：档案中的“宋瓷、茶”属于内部画像与个人兴趣标签，未在双方过往聊天记录中自然出现过。草稿直接将“素瓷、茶香”作为意象写进祝词，容易让低调、警惕的客户察觉到门店在私下记录并剖析其个人偏好，产生被窥探感（违背“记得，但不炫耀记得”、“不提及客户不知道我们记录了的信息”原则）。此外，此类修辞略显辞藻堆砌，缺乏真人的自然表达。建议去掉刻意的文人意象，改为更从容得体的节令问候或真挚素净的祝福。"
+       ]
+      },
+      {
+       "index": 3,
+       "pass": true,
+       "issues": []
+      }
+     ],
+     "set_issues": []
+    },
+    "to_fix": {
+     "2": [
+      "隐私与分寸问题：档案中的“宋瓷、茶”属于内部画像与个人兴趣标签，未在双方过往聊天记录中自然出现过。草稿直接将“素瓷、茶香”作为意象写进祝词，容易让低调、警惕的客户察觉到门店在私下记录并剖析其个人偏好，产生被窥探感（违背“记得，但不炫耀记得”、“不提及客户不知道我们记录了的信息”原则）。此外，此类修辞略显辞藻堆砌，缺乏真人的自然表达。建议去掉刻意的文人意象，改为更从容得体的节令问候或真挚素净的祝福。"
+     ]
+    }
+   },
+   {
+    "rule_checks": [
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 26
+     },
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 39
+     },
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 57
+     }
+    ],
+    "critic": {
+     "reviews": [
+      {
+       "index": 1,
+       "pass": true,
+       "issues": []
+      },
+      {
+       "index": 2,
+       "pass": true,
+       "issues": []
+      },
+      {
+       "index": 3,
+       "pass": false,
+       "issues": [
+        "算错相伴年限：沈女士自 2018 年 4 月成为客户，至 2026 年 11 月已满 8 年半（第 9 个年头），说“第八个年头”不仅不准确，且容易显得品牌对客户档案不够用心。建议改为“陪您走过八年”或“认识您的这几年”；此外，针对“极少回复、不喜欢频繁联系、仅在必要时进店”的客群，顺带提出“来店里坐坐、喝杯热茶”的邀约偏离了“生日祝福不设诉求/不带目的”的克制原则，略显施加社交负担，建议删去邀约，纯粹表达感谢与祝愿。"
+       ]
+      }
+     ],
+     "set_issues": []
+    },
+    "to_fix": {
+     "3": [
+      "算错相伴年限：沈女士自 2018 年 4 月成为客户，至 2026 年 11 月已满 8 年半（第 9 个年头），说“第八个年头”不仅不准确，且容易显得品牌对客户档案不够用心。建议改为“陪您走过八年”或“认识您的这几年”；此外，针对“极少回复、不喜欢频繁联系、仅在必要时进店”的客群，顺带提出“来店里坐坐、喝杯热茶”的邀约偏离了“生日祝福不设诉求/不带目的”的克制原则，略显施加社交负担，建议删去邀约，纯粹表达感谢与祝愿。"
+     ]
+    }
+   },
+   {
+    "rule_checks": [
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 26
+     },
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 39
+     },
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 49
+     }
+    ],
+    "critic": {
+     "reviews": [
+      {
+       "index": 1,
+       "pass": true,
+       "issues": []
+      },
+      {
+       "index": 2,
+       "pass": true,
+       "issues": []
+      },
+      {
+       "index": 3,
+       "pass": true,
+       "issues": []
+      }
+     ],
+     "set_issues": []
+    },
+    "to_fix": {}
+   }
+  ],
+  "plan": {
+   "client_read": "沈女士是成熟低调、素雅讲究的核心客户，与品牌相伴多年但习惯极简沟通，回信向来惜字如金。此刻恰逢她生日，她最在意的是不被打扰的分寸感与真诚纯粹的尊重，容不下任何销售企图或过度热情。",
+   "risk": {
+    "level": "ok",
+    "flags": [],
+    "advice": ""
+   },
+   "key_choice": "面对极简、少言的高净值客户，生日祝福是点到为止的极简敬意，还是融入其宋瓷茶事意境的温润致意，亦或是结合相识多年的陪伴感？",
+   "directions": [
+    {
+     "label": "极简素雅",
+     "idea": "两句干净正式的生日祝愿，不带任何多余修饰与寒暄，留足空间与静气。",
+     "tradeoff": "最符合她少言习惯，绝无打扰感；但语气偏克制平淡，没有体现太多个人细节。"
+    },
+    {
+     "label": "草木雅致",
+     "idea": "借岁末安宁、草木茶趣的静穆意象，温润表达生辰常乐之意，契合其审美心性。",
+     "tradeoff": "更具东方文化底蕴与共鸣，适合她宋瓷与茶的意趣；若笔墨稍重可能略显文人气息，需拿捏得极轻。"
+    },
+    {
+     "label": "工坊静候",
+     "idea": "真挚祝贺生辰，以相伴多年的老朋友姿态自然问候，仅在末尾落一句若路过随时来喝杯热茶。",
+     "tradeoff": "体现长期关系的长情与温度；但微带邀约暗示，对极度怕被打扰的客户可能有微小社交压力。"
+    }
+   ],
+   "ca_commitments": [],
+   "usable_facts": [
+    "今天是沈女士的生日（11月18日）",
+    "沈女士偏爱素雅清净的审美，喜欢宋瓷与茶",
+    "沈女士成为德洛姆客户已有8年多（自2018年）",
+    "CA周敏服务沈女士已5年，彼此了解沟通习惯"
+   ],
+   "do_not_mention": [
+    "任何产品推荐、推销或新品信息",
+    "到店礼、生日礼遇或预留（CA未承诺）",
+    "提及先生、企业或在英国读研的儿子（涉及家庭隐私）",
+    "提及消费金额、累积积分或客户等级",
+    "描述具体天气或气温"
+   ],
+   "products": []
+  },
+  "first_draft": [
+   {
+    "text": "沈女士，今天是您的生日，祝您生辰吉乐，岁岁从容安适。",
+    "strategy": "极简素雅",
+    "note_for_ca": "最稳妥的选择，完全尊重她少言克制的习惯，没有任何压迫感或多余修饰；缺点是稍显常规，没有体现太多个人细节。"
+   },
+   {
+    "text": "沈女士，生辰快乐。岁末静穆，愿您这一年日子如素瓷静好，茶香常在，心神安宁。",
+    "strategy": "草木雅致",
+    "note_for_ca": "契合她偏爱素净、好茶与宋瓷的东方审美，读来温润有心意；如果客户性格极度严肃防备，可能会觉得略带文人意象的问候稍显客套。"
+   },
+   {
+    "text": "沈女士，祝您生日快乐。德洛姆陪您走过第八个年头，很感谢这份长久的信任。往后路过大厦，随时欢迎来店里坐坐，喝杯热茶。",
+    "strategy": "工坊长情",
+    "note_for_ca": "适合想借生日强调相伴多年的长期信任与温度；注意末尾带了一句顺路喝茶的随性邀约，对极度怕麻烦的客户可能稍有一点点社交压力。"
+   }
+  ],
+  "seconds": 66.1,
+  "diversity_max_sim": 0.10869565217391304,
+  "calls": [
+   {
+    "requested": "gemini-3.8-flash",
+    "served": "gemini-3.8-flash",
+    "seconds": 9.8,
+    "attempt": 1,
+    "in_tokens": 5475,
+    "out_tokens": 646,
+    "reasoning_tokens": null,
+    "fingerprint": null
+   },
+   {
+    "requested": "gemini-3.8-flash",
+    "served": "gemini-3.8-flash",
+    "seconds": 7.4,
+    "attempt": 1,
+    "in_tokens": 4664,
+    "out_tokens": 339,
+    "reasoning_tokens": null,
+    "fingerprint": null
+   },
+   {
+    "requested": "gemini-3.8-flash",
+    "served": "gemini-3.8-flash",
+    "seconds": 21.2,
+    "attempt": 1,
+    "in_tokens": 4567,
+    "out_tokens": 257,
+    "reasoning_tokens": null,
+    "fingerprint": null
+   },
+   {
+    "requested": "gemini-3.8-flash",
+    "served": "gemini-3.8-flash",
+    "seconds": 11.0,
+    "attempt": 1,
+    "in_tokens": 5168,
+    "out_tokens": 152,
+    "reasoning_tokens": null,
+    "fingerprint": null
+   },
+   {
+    "requested": "gemini-3.8-flash",
+    "served": "gemini-3.8-flash",
+    "seconds": 4.8,
+    "attempt": 1,
+    "in_tokens": 4583,
+    "out_tokens": 274,
+    "reasoning_tokens": null,
+    "fingerprint": null
+   },
+   {
+    "requested": "gemini-3.8-flash",
+    "served": "gemini-3.8-flash",
+    "seconds": 9.5,
+    "attempt": 1,
+    "in_tokens": 5216,
+    "out_tokens": 155,
+    "reasoning_tokens": null,
+    "fingerprint": null
+   },
+   {
+    "requested": "gemini-3.8-flash",
+    "served": "gemini-3.8-flash",
+    "seconds": 2.4,
+    "attempt": 1,
+    "in_tokens": 4595,
+    "out_tokens": 102,
+    "reasoning_tokens": null,
+    "fingerprint": null
+   }
+  ]
+ }
+}

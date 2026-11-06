@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 2
+   },
+   "sendability": "直接可发",
+   "comment": "尊重预算，也给了客户空间，但“多放几天慢慢感受”略生硬，没有提供具体的其他选择。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "轻微：客户要主持的是客户答谢活动，并非已知要主持年会。",
+    "context_failure": "轻微：将耳钉价格说成“两万多的预算”，客户实际预算范围并不明确。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 3,
+    "naturalness": 2,
+    "effectiveness": 2
+   },
+   "sendability": "小改可发",
+   "comment": "人工配对是有依据的价值点，但活动信息说错，且继续强调原款的用途容易让超预算的客户感到被劝买。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 2
+   },
+   "sendability": "直接可发",
+   "comment": "明确尊重预算并关联年会，但“其他戴法”过于笼统，没有形成可供客户考虑的具体选择。"
+  }
+ ],
+ "set": {
+  "diversity": 3,
+  "risk_judgement": "偏松",
+  "best_index": 1,
+  "must_coverage": "1/2",
+  "summary": "三条都尊重预算，但都没有给出同一设计语言的具体其他选择；目录中也没有另一款珍珠耳钉，不宜自行编造。候选2还误写了主持场合，并把作品价格当作客户预算，工具的“无风险”判断偏松。"
+ },
+ "_judge": "openai:gpt-6.1-terra"
+}

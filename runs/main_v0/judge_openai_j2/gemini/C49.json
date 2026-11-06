@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "严重：目录未说明这款手镯可以在内侧刻字，不能直接承诺该作品享有刻字服务。",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 2
+   },
+   "sendability": "不可用",
+   "comment": "毕业礼物的切入点贴合客户，但刻字未经确认，且政策表述偏生硬。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 4,
+    "naturalness": 3,
+    "effectiveness": 4
+   },
+   "sendability": "直接可发",
+   "comment": "绕开母亲身份，结合试戴和固定服务说明价值；若减少气质评价、语句再短些会更自然。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "轻微：以老客户为例回应身份相关的价格问题，未按场景要求绕开这一话题。",
+    "privacy_violation": "无",
+    "fabrication": "严重：没有依据说明家人的眼光一致，也未确认手镯完全由手工打磨。",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 2,
+    "brand_voice": 2,
+    "naturalness": 3,
+    "effectiveness": 2
+   },
+   "sendability": "不可用",
+   "comment": "留出了考虑空间，但臆测家庭审美、添加未经确认的工艺细节，削弱了可信度。"
+  }
+ ],
+ "set": {
+  "diversity": 2,
+  "risk_judgement": "偏松",
+  "best_index": 2,
+  "must_coverage": "2/2",
+  "summary": "三条均未让价或讨论母亲账户信息，但都以统一价格开头，切入方式差异有限。候选 1 和 3 存在未经确认的服务或工艺表述，整体风险判断为“无”偏松。"
+ },
+ "_judge": "openai:gpt-6.1-terra"
+}

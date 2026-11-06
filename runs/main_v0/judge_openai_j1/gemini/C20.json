@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 4,
+    "naturalness": 4,
+    "effectiveness": 4
+   },
+   "sendability": "直接可发",
+   "comment": "紧扣取件后一周的佩戴感受，简短得体；“手寸”用于手镯略显别扭。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "结尾“很荣幸这件作品由您收藏”略显客套，不够克制。",
+    "privacy_violation": "无",
+    "fabrication": "资料只说明内圈刻有工匠记号，并未说明由该工匠在完成整件作品后亲手凿刻；“戴了一周”也假定了实际佩戴情况。",
+    "context_failure": "无",
+    "must_not_hit": "编造了未记录的工匠记号制作细节。"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 2,
+    "naturalness": 2,
+    "effectiveness": 2
+   },
+   "sendability": "不可用",
+   "comment": "抓住了客户留意的工匠记号，但添加了无依据的细节，且整体不够极简。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "“祝您冬日一切顺遂”属于缺少具体信息的空泛祝福。",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 2,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "清洗与检测是实用的固定服务，但内容较泛，删去末尾祝福会更利落。"
+  }
+ ],
+ "set": {
+  "diversity": 4,
+  "risk_judgement": "偏松",
+  "best_index": 1,
+  "must_coverage": "1/1",
+  "summary": "三条分别从佩戴感受、工艺和售后服务切入，候选 1 最符合本次极简关怀的要求。工具未提示候选 2 编造工艺细节的风险，整体风险判断偏松。"
+ },
+ "_judge": "openai:gpt-6.1-terra"
+}

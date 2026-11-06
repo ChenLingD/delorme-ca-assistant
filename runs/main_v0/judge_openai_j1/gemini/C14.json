@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "“我拍了张上手细节”声称已拍照，输入中没有这一事实。",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 4,
+    "naturalness": 4,
+    "effectiveness": 4
+   },
+   "sendability": "小改可发",
+   "comment": "白金戒指和拼接细节切合客户想要更酷的反馈，但应确认图片后再说已拍摄。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "“很有分量”可能被理解为实际重量，但资料未提供重量；可改为描述视觉上的分量感。",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 4,
+    "naturalness": 4,
+    "effectiveness": 4
+   },
+   "sendability": "小改可发",
+   "comment": "腕表叠戴的切入点贴合客户需求，但分量表述需更准确，且可再简短一些。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "两件作品的上手图是否可提供未确认，不宜直接表示会把两张图发出。",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "虽结合了硬朗和腕表叠戴需求，但双款并列削弱重点，“质感很克制”也不够贴合客户想要的酷感。"
+  }
+ ],
+ "set": {
+  "diversity": 3,
+  "risk_judgement": "偏松",
+  "best_index": 1,
+  "must_coverage": "1/1",
+  "summary": "三条都没有吹捧客户身份或财富，语气也基本适合年轻客户；候选1的单品和细节最贴近聊天反馈。工具的风险判断偏松：候选1声称已拍照、候选3预设可发送两件上手图，候选2的分量表述也需核实或改写。"
+ },
+ "_judge": "openai:gpt-6.1-terra"
+}

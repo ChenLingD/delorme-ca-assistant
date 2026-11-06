@@ -1,0 +1,183 @@
+{
+ "case_id": "C24",
+ "version": "v3.1",
+ "model": "gemini:gemini-3.8-flash",
+ "risk": {
+  "level": "ok",
+  "flags": [],
+  "advice": ""
+ },
+ "candidates": [
+  {
+   "text": "苏女士，最实用的其实就两条：一是“最后戴、最先摘”，化妆、喷香水之后再戴上；二是戴完摘下来，用软布擦一下收好就行，避开强光直晒。",
+   "strategy": "极简",
+   "note_for_ca": "直接给最干货的日常习惯，方便她直接发给粉丝"
+  },
+  {
+   "text": "南洋白珠其实没有想象中娇气，它的珠层很厚。常戴着它接触人体的温度和微量油脂，光泽反而润。只要注意别闷在不透气的盒子里，也别碰酸碱液体就好。",
+   "strategy": "走心",
+   "note_for_ca": "结合博主松弛感与珠层特质，消除佩戴焦虑"
+  },
+  {
+   "text": "日常注意避开香水和汗水就好。另外可以和大家提一句，珍珠项链一般建议戴一到两年重新串一次线，德洛姆这边终身提供免费串线和清洗检测，随时拿来给我就行。",
+   "strategy": "推进",
+   "note_for_ca": "提供品牌免费串线服务作为专业支撑，方便她回复粉丝"
+  }
+ ],
+ "checks": [
+  {
+   "pass": true,
+   "hard": [],
+   "soft": [],
+   "length": 64
+  },
+  {
+   "pass": true,
+   "hard": [],
+   "soft": [],
+   "length": 69
+  },
+  {
+   "pass": true,
+   "hard": [],
+   "soft": [],
+   "length": 73
+  }
+ ],
+ "trace": {
+  "rounds": [
+   {
+    "rule_checks": [
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 64
+     },
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 69
+     },
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 73
+     }
+    ],
+    "critic": {
+     "reviews": [
+      {
+       "index": 1,
+       "pass": true,
+       "issues": []
+      },
+      {
+       "index": 2,
+       "pass": true,
+       "issues": []
+      },
+      {
+       "index": 3,
+       "pass": true,
+       "issues": []
+      }
+     ],
+     "set_issues": []
+    },
+    "set_issues": [],
+    "to_fix": {}
+   }
+  ],
+  "plan": {
+   "client_read": "苏女士是一位审美松弛、自费购入且乐于主动公开分享的生活方式博主；目前与品牌关系熟络信任，正需要专业且得体的珍珠保养要点供其整理内容回复粉丝。",
+   "risk": {
+    "level": "ok",
+    "flags": [],
+    "advice": ""
+   },
+   "ca_commitments": [],
+   "usable_facts": [
+    "近期自费购买了沧海南洋白珠单串项链并发布了笔记",
+    "粉丝在评论区询问珍珠保养方式",
+    "自2024年4月起已相识两年多"
+   ],
+   "do_not_mention": [
+    "累计消费金额与核心客户内部等级",
+    "商业合作、推广、赞助等非事实字眼（客户为自费购买且无商业合作）",
+    "推销其他产品或诱导二次消费"
+   ],
+   "products": [
+    "MDC-N03"
+   ],
+   "unanswerable": "",
+   "slots": {
+    "极简": {
+     "切入点": "直接列出最核心的日常佩戴保养原则",
+     "唯一信息点": "“后戴先摘”避开香水发胶，佩戴后用柔软微湿布轻拭"
+    },
+    "走心": {
+     "切入点": "结合南洋白珠的材质特性与日常佩戴细节",
+     "唯一信息点": "南洋珠层厚温润、怕闷怕干燥，经常佩戴感受人体微量油脂反而会让光泽更好"
+    },
+    "推进": {
+     "切入点": "从博主为粉丝解答延伸至品牌官方固定服务支撑",
+     "唯一信息点": "珍珠建议每1–2年重新串线一次，德洛姆提供终身免费串线与清洗检测服务"
+    }
+   }
+  },
+  "first_draft": [
+   {
+    "text": "苏女士，最实用的其实就两条：一是“最后戴、最先摘”，化妆、喷香水之后再戴上；二是戴完摘下来，用软布擦一下收好就行，避开强光直晒。",
+    "strategy": "极简",
+    "note_for_ca": "直接给最干货的日常习惯，方便她直接发给粉丝"
+   },
+   {
+    "text": "南洋白珠其实没有想象中娇气，它的珠层很厚。常戴着它接触人体的温度和微量油脂，光泽反而润。只要注意别闷在不透气的盒子里，也别碰酸碱液体就好。",
+    "strategy": "走心",
+    "note_for_ca": "结合博主松弛感与珠层特质，消除佩戴焦虑"
+   },
+   {
+    "text": "日常注意避开香水和汗水就好。另外可以和大家提一句，珍珠项链一般建议戴一到两年重新串一次线，德洛姆这边终身提供免费串线和清洗检测，随时拿来给我就行。",
+    "strategy": "推进",
+    "note_for_ca": "提供品牌免费串线服务作为专业支撑，方便她回复粉丝"
+   }
+  ],
+  "seconds": 25.6,
+  "diversity_max_sim": 0.0,
+  "calls": [
+   {
+    "requested": "gemini-3.8-flash",
+    "served": "gemini-3.8-flash",
+    "seconds": 10.3,
+    "attempt": 1,
+    "in_tokens": 5839,
+    "out_tokens": 455,
+    "reasoning_tokens": null,
+    "fingerprint": null
+   },
+   {
+    "requested": "gemini-3.8-flash",
+    "served": "gemini-3.8-flash",
+    "seconds": 4.9,
+    "attempt": 1,
+    "in_tokens": 5196,
+    "out_tokens": 280,
+    "reasoning_tokens": null,
+    "fingerprint": null
+   },
+   {
+    "requested": "gemini-3.8-flash",
+    "served": "gemini-3.8-flash",
+    "seconds": 10.5,
+    "attempt": 1,
+    "in_tokens": 5057,
+    "out_tokens": 101,
+    "reasoning_tokens": null,
+    "fingerprint": null
+   }
+  ]
+ }
+}

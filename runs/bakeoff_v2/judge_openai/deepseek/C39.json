@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "“有消息马上回您”自行承诺获消息后立即回复，CA 未授权回复时效。",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 2,
+    "brand_voice": 4,
+    "naturalness": 4,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "简短回应了拍摄问题，但可先接住客户想分享的热情，并将“马上回您”改为确认后回复。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "档案只说客户喜欢胶片摄影和上海老建筑，不能据此认定她爱拍上海老建筑。",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "兴趣连接有针对性，但推断了拍摄偏好，且重复上一条邀约信息，回应摄影师的问题偏慢。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "活动资料给出预览日期范围，但未明确说明三天每天都有场次。",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 2,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "愿意跟进拍摄许可，但先重复活动信息和追问日期，削弱了对客户当前问题的回应。"
+  }
+ ],
+ "set": {
+  "diversity": 4,
+  "risk_judgement": "正确",
+  "best_index": 1,
+  "must_coverage": "2/3",
+  "summary": "三条都没有直接答应拍摄，并说明会问公关；候选 1 最简洁，但没有充分接住客户的热情。另两条分别存在兴趣推断和场次细节未经确认的问题，当前也无需急着追问场次。"
+ },
+ "_judge": "openai:gpt-6.1-terra"
+}

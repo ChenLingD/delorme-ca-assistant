@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 1,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 3
+   },
+   "sendability": "直接可发",
+   "comment": "祝福得体、不推销，但两句祝愿略有重复，缺少个人细节。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "轻微：暗示客户年尾手头忙、今晚能忙完；吊坠一直陪伴至今也未经确认。",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 3,
+    "naturalness": 2,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "升职和吊坠的细节有依据，但“默默陪您走过整整一年”偏抒情，后半句也替客户安排了状态。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "轻微：暗示客户年末的工作已能松口气，缺乏依据。",
+    "context_failure": "轻微：近八个月未联系，连续猜测工作状态并追问出行计划，祝福显得有些刻意推进。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 2
+   },
+   "sendability": "小改可发",
+   "comment": "柯基是客户真实细节，但工作状态和周边出行的追问削弱了祝福本身。"
+  }
+ ],
+ "set": {
+  "diversity": 4,
+  "risk_judgement": "偏松",
+  "best_index": 1,
+  "must_coverage": "2/2",
+  "summary": "三条都没有借节日推销，候选1最稳妥，候选2和3则尝试使用客户细节。整体风险判断偏松：后两条对客户近况作了未经确认的推测，候选3还把祝福带向了追问。"
+ },
+ "_judge": "openai:gpt-6.1-terra"
+}

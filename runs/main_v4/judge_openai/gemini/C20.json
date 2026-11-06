@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "严重：未经授权承诺随时在店里为客户微调处理，超出已知固定服务。",
+    "privacy_violation": "无",
+    "fabrication": "严重：未经授权承诺随时在店处理和微调；也没有依据断定客户已佩戴一周。",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 3,
+    "naturalness": 4,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "佩戴关怀切题且简短，但应改为取走一周，并删除未经确认的微调承诺。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "轻微：没有依据断定客户已佩戴一周。",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 3,
+    "naturalness": 2,
+    "effectiveness": 2
+   },
+   "sendability": "小改可发",
+   "comment": "工匠细节契合客户关注点，但“温润”等描述偏虚，整条对这位客户而言不够极简。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "轻微：没有依据断定客户已佩戴一周。",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 4,
+    "naturalness": 3,
+    "effectiveness": 4
+   },
+   "sendability": "小改可发",
+   "comment": "不追问且提供了实用的固定服务，改成“取走一周”并删去客套问候会更自然。"
+  }
+ ],
+ "set": {
+  "diversity": 3,
+  "risk_judgement": "正确",
+  "best_index": 3,
+  "must_coverage": "1/1",
+  "summary": "候选覆盖了较简短的售后关怀，但候选 2 对这位客户仍显啰嗦。三条都未经证实地说客户已戴了一周，候选 1 还额外承诺了未经授权的微调服务。"
+ },
+ "_judge": "openai:gpt-6.1-terra"
+}

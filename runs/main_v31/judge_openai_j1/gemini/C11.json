@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "未提供产品目录，无法确认涟漪系列有该款单钻吊坠，也无法确认其舞台灯光下的效果。",
+    "context_failure": "回应了礼服和上台场合，但未确认推荐是否在三万元左右的预算内。",
+    "must_not_hit": "无；价格未知，不能判定作品超预算。"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 2,
+    "naturalness": 2,
+    "effectiveness": 2
+   },
+   "sendability": "小改可发",
+   "comment": "切中了礼服和领奖场合，但“台风会很稳”说得过满，发送前须核实款式和价格。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "未提供产品目录，无法确认推荐的同系列黄金项链及“微弧的水波”设计细节。",
+    "context_failure": "结合了已有耳钉和领奖场合，但未确认推荐是否在三万元左右的预算内。",
+    "must_not_hit": "无；价格未知，不能判定作品超预算。"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "用已有耳钉做搭配理由最自然，但产品及价格需核实，后半句也可更简洁。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "未提供产品目录或图片资料，无法确认黄金单钻项链的款式、量感、线条及不同长度的佩戴图。",
+    "context_failure": "回应了礼服搭配，但未明确照顾上台领奖的场合，也未确认推荐是否在三万元左右的预算内。",
+    "must_not_hit": "无；价格未知，不能判定作品超预算。"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 2,
+    "naturalness": 3,
+    "effectiveness": 2
+   },
+   "sendability": "小改可发",
+   "comment": "询问是否先看图有退路，但“提提气色”偏空泛，款式、价格和图片都需先核实。"
+  }
+ ],
+ "set": {
+  "diversity": 2,
+  "risk_judgement": "偏松",
+  "best_index": 2,
+  "must_coverage": "1/2",
+  "summary": "三条都围绕黑色礼服推荐涟漪黄金首饰，候选 2 对已有藏品的运用最自然，但差异整体不大。它们均未确认推荐款式及价格，不能认定已满足预算要求，也不能据此断言已经超预算。"
+ },
+ "_judge": "openai:gpt-6.1-terra"
+}

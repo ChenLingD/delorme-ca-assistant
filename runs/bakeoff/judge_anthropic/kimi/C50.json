@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无（“以后值多少，我不能向您承诺”是明确的不承诺，不构成升值暗示；仅“值不值得，还是回到作品本身”略带说教口气）",
+    "privacy_violation": "无",
+    "fabrication": "无（约120工时、同一位工匠、内圈工匠记号、“做工没话说”都来自输入）",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 4,
+    "naturalness": 3,
+    "effectiveness": 4
+   },
+   "sendability": "小改可发",
+   "comment": "唯一同时做到“明说不承诺”和“回到作品本身”的一条，引用他上次说过的“做工没话说”也很贴切；“但”字转折和“落到实处”“值不值得”有点公文和说教味，改得口语些就好。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "轻微：“我不想拿以后的价钱来劝您”字面是否定，潜台词却是价格以后会涨，对一位明说“当投资买”的客户有被读成升值暗示的风险",
+    "privacy_violation": "无",
+    "fabrication": "无明显编造；但“来试试黄金晨星”隐含店里有现货可试，输入只说是配额作品、无法预订，这点需要 CA 自己核实",
+    "context_failure": "没有直接回应“除非能升值”这个核心顾虑，也没有明确说明不承诺保值；对价格情绪几乎没有接住",
+    "must_not_hit": "无（但“以后的价钱”接近边缘）"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 3,
+    "naturalness": 4,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "转到太太佩戴和叠戴穹顶的角度有温度，也贴合他的购买动机；但没有直接说不承诺升值，“以后的价钱”一句有隐患，且邀太太到店有轻微催促感。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "没有说明不承诺升值，也没有把话题带回作品本身；“先不决定也好”读起来有点像直接放手，“不被放弃”的感觉不足",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 2,
+    "brand_voice": 4,
+    "naturalness": 4,
+    "effectiveness": 2
+   },
+   "sendability": "小改可发",
+   "comment": "短、克制、留退路，像真人会发的话；但太薄，没有价值点也没有关系维系，“若您最在意以后值多少”等于默认了投资框架，却没有澄清立场。"
+  }
+ ],
+ "set": {
+  "diversity": 4,
+  "risk_judgement": "正确",
+  "best_index": 1,
+  "must_coverage": "2/2（候选 1 同时做到；候选 2、3 各只做到一部分或没有明确做到）",
+  "summary": "风险判断准确：识别出投资预期、配额不能承诺、不能拿心愿进展施压，三条也都没有提到名额、排位和到货时间。主要问题是候选 2 的“以后的价钱”有隐含升值的嫌疑、候选 3 偏空；只有候选 1 把“不承诺升值”和“回到工艺”同时说清，文字再口语化一点即可发送。"
+ },
+ "_judge": "anthropic:claude-sonnet-5-5"
+}

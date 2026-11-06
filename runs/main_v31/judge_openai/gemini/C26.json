@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "轻微：以“整理养护档案”引出客户记录，不符合自然使用客户信息的原则。",
+    "privacy_violation": "轻微：直接透露记录了项链购入后的串线情况，可能让客户产生被追踪的感觉。",
+    "fabrication": "轻微：“整理养护档案时”是输入中未提供的联系起因，备注也未点明。",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 3,
+    "naturalness": 2,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "服务理由具体，但应去掉查阅档案和未串线的表述，直接提醒建议保养周期即可。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 4,
+    "naturalness": 3,
+    "effectiveness": 4
+   },
+   "sendability": "直接可发",
+   "comment": "节气与项链使用习惯均有依据，服务切入自然；“岁末若有用到的场合”稍显绕。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "轻微：要求客户选择下周平日或周末，不符合不催促、不追问的原则。",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "轻微：对久未联系、回复较少的客户提出近期二选一安排，增加了回复和到店压力。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "免费串线的信息有用，但应去掉下周二选一，留出客户自行安排的空间。"
+  }
+ ],
+ "set": {
+  "diversity": 3,
+  "risk_judgement": "偏松",
+  "best_index": 2,
+  "must_coverage": "2/2",
+  "summary": "三条均以串线服务为由，篇幅也较短，候选2相对自然。主要问题是候选1暴露档案并虚构联系起因，候选3则通过二选一施加推进压力，工具未识别这些风险。"
+ },
+ "_judge": "openai:gpt-6.1-terra"
+}

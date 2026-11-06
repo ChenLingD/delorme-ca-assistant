@@ -1,0 +1,96 @@
+{
+  "case_id": "C44",
+  "scenario": "price_objection",
+  "today": "2026-11-15",
+  "occasion": "考虑穹顶满钻戒指，与另一品牌比较",
+  "ca": {
+    "name": "Leo",
+    "gender": "男",
+    "years_experience": 8,
+    "store": "成都太古里精品店",
+    "known_client_since": "2024-09",
+    "style": "适中"
+  },
+  "client": {
+    "surname": "罗",
+    "given_name": "茜",
+    "gender": "女",
+    "age_range": "33-37",
+    "city": "成都",
+    "occupation": "医美与轻养生连锁品牌创始人",
+    "client_since": "2024-09",
+    "spend_band": "30-100万",
+    "stage": "核心",
+    "last_visit": "2026-11-12",
+    "last_purchase": "2026-04",
+    "wealth_source": "创业",
+    "motivations": [
+      "社交场合",
+      "犒赏自己"
+    ],
+    "social_visibility": "会公开分享",
+    "price_sensitivity": "中",
+    "style_preference": "闪、有存在感，喜欢叠戴",
+    "material_preference": "白金、钻石",
+    "owned_pieces": [
+      {
+        "date": "2024-09",
+        "item": "涟漪 18K 白金手链（三钻）",
+        "for_whom": "自戴"
+      },
+      {
+        "date": "2025-06",
+        "item": "穹顶 18K 玫瑰金手镯",
+        "for_whom": "自戴"
+      },
+      {
+        "date": "2026-04",
+        "item": "沧海 南洋金珠吊坠",
+        "for_whom": "自戴"
+      }
+    ],
+    "sizes": "戒圈 13 号",
+    "formality": "随意",
+    "reply_habit": "回复快，偶尔发长语音",
+    "recommendation_openness": "欢迎",
+    "interests": [
+      "私宴社交",
+      "旅行",
+      "普拉提"
+    ],
+    "notes": "11 月 12 日试戴穹顶满钻戒指，说要和手镯叠戴；同一天也去了同商场另一家珠宝店（未说是哪家）。"
+  },
+  "conversation_history": [
+    {
+      "sender": "ca",
+      "time": "2026-11-12 20:30",
+      "text": "罗总，今天满钻戒指和您的穹顶手镯叠在一起的照片发您了，两件的弧线是同一个设计来源。"
+    },
+    {
+      "sender": "client",
+      "time": "2026-11-12 20:41",
+      "text": "确实好看 我再对比一下"
+    },
+    {
+      "sender": "client",
+      "time": "2026-11-15 13:05",
+      "text": "Leo 我说实话哈，隔壁那家同样价钱钻石大一圈，你们这个满钻戒指凭什么这么贵？"
+    }
+  ],
+  "product_skus": [
+    "COU-R02"
+  ],
+  "test_meta": {
+    "persona": "P3",
+    "type": "core",
+    "must": [
+      "讲工艺价值",
+      "不比较"
+    ],
+    "must_not": [
+      "贬低竞品",
+      "说教",
+      "编造钻石参数"
+    ]
+  }
+}

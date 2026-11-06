@@ -1,0 +1,253 @@
+{
+ "case_id": "C34",
+ "version": "v3",
+ "model": "openai:gpt-6.1-terra",
+ "risk": {
+  "level": "ok",
+  "flags": [],
+  "advice": ""
+ },
+ "candidates": [
+  {
+   "text": "沈女士，想邀请您参加沧海·百年珍珠特展私享预览，11月20日至22日在外滩源旗舰店三楼沙龙。我可以帮您确认人少一些的时段。",
+   "strategy": "极简",
+   "note_for_ca": "适合简洁告知活动并提出邀约"
+  },
+  {
+   "text": "沈女士，您上次提到若老图稿有机会展出，想亲眼看看。沧海·百年珍珠特展私享预览将首次公开 Henri Delorme 1920年代上海珍珠手绘图稿原件，11月20日至22日在外滩源旗舰店三楼沙龙。我想邀请您来看看，也可以帮您确认人少一些的时段。",
+   "strategy": "走心",
+   "note_for_ca": "呼应她想亲眼看老图稿的心愿"
+  },
+  {
+   "text": "沈女士，想请您来外滩源旗舰店三楼沙龙，看看沧海·百年珍珠特展的私享预览。11月20日、21日或22日，您哪天方便？我再了解一下当天哪些时段人少一些。",
+   "strategy": "推进",
+   "note_for_ca": "给出三个日期供选择，适合推进预约。"
+  }
+ ],
+ "checks": [
+  {
+   "pass": true,
+   "hard": [],
+   "soft": [],
+   "length": 61
+  },
+  {
+   "pass": true,
+   "hard": [],
+   "soft": [],
+   "length": 118
+  },
+  {
+   "pass": true,
+   "hard": [],
+   "soft": [],
+   "length": 74
+  }
+ ],
+ "trace": {
+  "rounds": [
+   {
+    "rule_checks": [
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 61
+     },
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 118
+     },
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 72
+     }
+    ],
+    "critic": {
+     "reviews": [
+      {
+       "index": 1,
+       "pass": true,
+       "issues": []
+      },
+      {
+       "index": 2,
+       "pass": true,
+       "issues": []
+      },
+      {
+       "index": 3,
+       "pass": true,
+       "issues": []
+      }
+     ],
+     "set_issues": [
+      {
+       "indices": [
+        1,
+        2,
+        3
+       ],
+       "issue": "三条结尾都用“帮您确认人少一些的时段”，表述较重复。可保留极简版的说法，走心版改为“我去了解一下较安静的时段”，推进版则结合日期选择，改为“您选一天，我再了解当天哪些时段人少一些”。"
+      }
+     ]
+    },
+    "set_issues": [
+     "三条结尾都用“帮您确认人少一些的时段”，表述较重复。可保留极简版的说法，走心版改为“我去了解一下较安静的时段”，推进版则结合日期选择，改为“您选一天，我再了解当天哪些时段人少一些”。"
+    ],
+    "to_fix": {
+     "3": [
+      "与其他候选雷同：三条结尾都用“帮您确认人少一些的时段”，表述较重复。可保留极简版的说法，走心版改为“我去了解一下较安静的时段”，推进版则结合日期选择，改为“您选一天，我再了解当天哪些时段人少一些”。"
+     ]
+    }
+   },
+   {
+    "rule_checks": [
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 61
+     },
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 118
+     },
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 74
+     }
+    ],
+    "critic": {
+     "reviews": [
+      {
+       "index": 1,
+       "pass": true,
+       "issues": []
+      },
+      {
+       "index": 2,
+       "pass": true,
+       "issues": []
+      },
+      {
+       "index": 3,
+       "pass": true,
+       "issues": []
+      }
+     ],
+     "set_issues": []
+    },
+    "set_issues": [],
+    "to_fix": {}
+   }
+  ],
+  "plan": {
+   "client_read": "沈女士偏爱有年代感的珍珠作品，也关注近代上海的珠宝图稿，沟通正式而审慎。她曾主动请 Grace 在老图稿展出时告知，近期互动平稳，这次邀约有自然的联系理由。",
+   "risk": {
+    "level": "ok",
+    "flags": [],
+    "advice": ""
+   },
+   "ca_commitments": [
+    "最好帮她约人少一点的时段"
+   ],
+   "usable_facts": [
+    "她曾说若老图稿有机会展出，请 Grace 告知。",
+    "她对 1920 年代上海珠宝行的图稿感兴趣。",
+    "她喜欢沧海金珠吊坠的海浪纹，也问过纹样的来历。",
+    "她不喜欢人多的场合。"
+   ],
+   "do_not_mention": [
+    "累计消费区间、客户等级及内部进阶标签",
+    "财富来源及对客户身份、年龄的判断",
+    "未经确认的具体场次、人流情况或可预留名额"
+   ],
+   "products": [],
+   "slots": {
+    "极简": "邀请她参加 11 月 20 日至 22 日的私享预览，并提出可帮她确认人少一些的时段。",
+    "走心": "呼应她曾盼望老图稿展出的心愿，说明预览将首次公开 1920 年代上海珍珠手绘图稿原件，并提出帮她确认人少一些的时段。",
+    "推进": "请她从 11 月 20 日、21 日或 22 日中选择方便的日期，再确认当天人少一些的时段。"
+   }
+  },
+  "first_draft": [
+   {
+    "text": "沈女士，想邀请您参加沧海·百年珍珠特展私享预览，11月20日至22日在外滩源旗舰店三楼沙龙。我可以帮您确认人少一些的时段。",
+    "strategy": "极简",
+    "note_for_ca": "适合简洁告知活动并提出邀约"
+   },
+   {
+    "text": "沈女士，您上次提到若老图稿有机会展出，想亲眼看看。沧海·百年珍珠特展私享预览将首次公开 Henri Delorme 1920年代上海珍珠手绘图稿原件，11月20日至22日在外滩源旗舰店三楼沙龙。我想邀请您来看看，也可以帮您确认人少一些的时段。",
+    "strategy": "走心",
+    "note_for_ca": "呼应她想亲眼看老图稿的心愿"
+   },
+   {
+    "text": "沈女士，11月20日、21日或22日，您哪天方便？我想邀请您参加外滩源旗舰店三楼沙龙的沧海·百年珍珠特展私享预览，再帮您确认当天人少一些的时段。",
+    "strategy": "推进",
+    "note_for_ca": "适合请客户先选方便的日期"
+   }
+  ],
+  "seconds": 31.9,
+  "diversity_max_sim": 0.37815126050420167,
+  "calls": [
+   {
+    "requested": "gpt-6.1-terra",
+    "served": "gpt-6.1-terra",
+    "seconds": 11.8,
+    "attempt": 1,
+    "in_tokens": 5897,
+    "out_tokens": 688,
+    "reasoning_tokens": 284,
+    "fingerprint": null
+   },
+   {
+    "requested": "gpt-6.1-terra",
+    "served": "gpt-6.1-terra",
+    "seconds": 7.8,
+    "attempt": 1,
+    "in_tokens": 5301,
+    "out_tokens": 349,
+    "reasoning_tokens": 59,
+    "fingerprint": null
+   },
+   {
+    "requested": "gpt-6.1-terra",
+    "served": "gpt-6.1-terra",
+    "seconds": 6.0,
+    "attempt": 1,
+    "in_tokens": 5278,
+    "out_tokens": 432,
+    "reasoning_tokens": 255,
+    "fingerprint": null
+   },
+   {
+    "requested": "gpt-6.1-terra",
+    "served": "gpt-6.1-terra",
+    "seconds": 3.2,
+    "attempt": 1,
+    "in_tokens": 5692,
+    "out_tokens": 162,
+    "reasoning_tokens": 53,
+    "fingerprint": null
+   },
+   {
+    "requested": "gpt-6.1-terra",
+    "served": "gpt-6.1-terra",
+    "seconds": 3.0,
+    "attempt": 1,
+    "in_tokens": 5280,
+    "out_tokens": 143,
+    "reasoning_tokens": 88,
+    "fingerprint": null
+   }
+  ]
+ }
+}

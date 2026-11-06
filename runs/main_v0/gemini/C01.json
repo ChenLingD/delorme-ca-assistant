@@ -1,0 +1,63 @@
+{
+ "case_id": "C01",
+ "version": "v0",
+ "model": "gemini:gemini-3.8-flash",
+ "risk": {
+  "level": "ok",
+  "flags": [],
+  "advice": ""
+ },
+ "candidates": [
+  {
+   "text": "沈女士，今天是您的生日，祝您生辰快乐，岁岁从容安康。",
+   "strategy": "极简克制，典雅庄重",
+   "note_for_ca": "针对沈女士话少、低调且偏正式的习惯，用最简洁温润的传统字眼“生辰”致以问候，完全不给对方回复压力。"
+  },
+  {
+   "text": "沈女士，祝您生日快乐。愿您新的一岁日子清朗舒心，诸事顺遂。",
+   "strategy": "清雅舒展，温和体贴",
+   "note_for_ca": "语气温和自然，契合沈女士喜好素净与宋瓷、茶艺的沉静心境，不过分热情，保持恰当边界感。"
+  },
+  {
+   "text": "沈女士，生辰快乐。愿新的一岁从容惬意，常伴清欢。",
+   "strategy": "短雅留白，文雅从容",
+   "note_for_ca": "篇幅极短，用词含蓄雅致，适合上午发送，既表达了顾问周敏一直以来的尊重与记挂，又毫不唐突。"
+  }
+ ],
+ "checks": [
+  {
+   "pass": true,
+   "hard": [],
+   "soft": [],
+   "length": 26
+  },
+  {
+   "pass": true,
+   "hard": [],
+   "soft": [],
+   "length": 29
+  },
+  {
+   "pass": true,
+   "hard": [],
+   "soft": [],
+   "length": 24
+  }
+ ],
+ "trace": {
+  "seconds": 15.1,
+  "diversity_max_sim": 0.11764705882352941,
+  "calls": [
+   {
+    "requested": "gemini-3.8-flash",
+    "served": "gemini-3.8-flash",
+    "seconds": 15.1,
+    "attempt": 1,
+    "in_tokens": 2959,
+    "out_tokens": 300,
+    "reasoning_tokens": null,
+    "fingerprint": null
+   }
+  ]
+ }
+}

@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "“马上帮您安排”增加了未经 CA 明确授权的即时安排承诺。",
+    "context_failure": "“您先别着急”没有真正承认客户的不满，也未告知抛光所需时间。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 2,
+    "brand_voice": 2,
+    "naturalness": 3,
+    "effectiveness": 2
+   },
+   "sendability": "小改可发",
+   "comment": "有免费抛光方案，但安抚流于表面，且缺少处理时间。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "聊天记录仅显示朋友询问品牌，未显示朋友夸戒指好看；“光泽完全恢复”也超出已知信息。",
+    "context_failure": "回应了客户心疼，却未告知现场抛光约 40 分钟，且对处理效果承诺过满。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 2,
+    "brand_voice": 2,
+    "naturalness": 2,
+    "effectiveness": 2
+   },
+   "sendability": "不可用",
+   "comment": "试图结合聊天记录安抚客户，但说错了朋友的反应，又保证完全恢复，容易加重后续客诉。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "直接进入处理安排，没有先承认客户对划痕和质量的担忧。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 3,
+    "naturalness": 4,
+    "effectiveness": 4
+   },
+   "sendability": "小改可发",
+   "comment": "免费抛光、师傅在店时间和取件选项都清楚，开头补一句承认客户的不悦即可。"
+  }
+ ],
+ "set": {
+  "diversity": 4,
+  "risk_judgement": "正确",
+  "best_index": 3,
+  "must_coverage": "2/3",
+  "summary": "候选 3 的处理方案最完整，涵盖免费抛光、约 40 分钟和取件选项，也没有推卸责任。三条都未同时做好承认感受和交代处理时间；其中候选 2 还误述聊天记录并过度承诺效果。"
+ },
+ "_judge": "openai:gpt-6.1-terra"
+}

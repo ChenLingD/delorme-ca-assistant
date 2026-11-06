@@ -1,0 +1,354 @@
+{
+ "case_id": "C29",
+ "version": "v3.1",
+ "model": "gemini:gemini-3.8-flash",
+ "risk": {
+  "level": "caution",
+  "flags": [
+   "新 CA 接手交接",
+   "距上次沟通已达 18 个月"
+  ],
+  "advice": "先自然说明 Bella 调任及由自己接手，语气保持年轻轻松，切忌催促或一上来就硬推产品。"
+ },
+ "candidates": [
+  {
+   "text": "沈先生您好，我是北京 SKP 德洛姆的赵一鸣。Bella 上个月调去了成都店，以后由我来为您做后续的服务，特意跟您打个招呼，微信这边随时能联系到我。",
+   "strategy": "极简",
+   "note_for_ca": "简明清晰完成顾问交接报备，适合不想过度打扰的首次破冰"
+  },
+  {
+   "text": "沈先生好，我是北京 SKP 的赵一鸣。Bella 调去成都店了，往后由我接棒为您服务。交接时看到您把工坊白金和穹顶黄金叠戴的照片，磨砂配亮面很有自己的辨识度。今天先来跟您正式认识一下，往后在 SKP 这边有我照应，常联络。",
+   "strategy": "走心",
+   "note_for_ca": "认可其叠戴审美，自然完成交接并拉近距离，适合想建立亲切交情时用。"
+  },
+  {
+   "text": "沈先生您好，我是北京 SKP 的赵一鸣，接替调任成都的 Bella 为您服务。您的两枚戒指日常叠戴已有一年多，店里有终身免费的清洗与戒圈检测，哪天路过 SKP 随时带过来交给我，几分钟就能打理好。",
+   "strategy": "推进",
+   "note_for_ca": "以免费清洁检测为契机，提供具体且门槛极低的到店维护理由。"
+  }
+ ],
+ "checks": [
+  {
+   "pass": true,
+   "hard": [],
+   "soft": [],
+   "length": 71
+  },
+  {
+   "pass": true,
+   "hard": [],
+   "soft": [],
+   "length": 106
+  },
+  {
+   "pass": true,
+   "hard": [],
+   "soft": [],
+   "length": 92
+  }
+ ],
+ "trace": {
+  "rounds": [
+   {
+    "rule_checks": [
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 71
+     },
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 103
+     },
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 104
+     }
+    ],
+    "critic": {
+     "reviews": [
+      {
+       "index": 1,
+       "pass": true,
+       "issues": []
+      },
+      {
+       "index": 2,
+       "pass": false,
+       "issues": [
+        "承诺性内容违规：草稿中提到“随时来 SKP 喝杯咖啡”，而“喝杯咖啡/提供饮品招待”未出现在 CA 明确提供的承诺性内容清单或手记中，属于未授权的门店服务/礼遇承诺，建议删去“喝杯咖啡”，直接自然落到路过来店做个基础清洁保养。"
+       ]
+      },
+      {
+       "index": 3,
+       "pass": true,
+       "issues": []
+      }
+     ],
+     "set_issues": [
+      {
+       "indices": [
+        2,
+        3
+       ],
+       "issue": "第 2 条和第 3 条在后半段的动作设计与推进点上出现撞车，都落脚在“工坊与穹顶戒指带过来做清洁检测”。建议将第 2 条（走心）聚焦于审美共鸣与交接问候（如聊聊叠戴混搭的巧思，不设具体保养邀约），而将“清洗、检测划痕与保养”的明确服务行动专属于第 3 条（推进），拉开两者的功能差异。"
+      }
+     ]
+    },
+    "set_issues": [
+     "第 2 条和第 3 条在后半段的动作设计与推进点上出现撞车，都落脚在“工坊与穹顶戒指带过来做清洁检测”。建议将第 2 条（走心）聚焦于审美共鸣与交接问候（如聊聊叠戴混搭的巧思，不设具体保养邀约），而将“清洗、检测划痕与保养”的明确服务行动专属于第 3 条（推进），拉开两者的功能差异。"
+    ],
+    "to_fix": {
+     "2": [
+      "承诺性内容违规：草稿中提到“随时来 SKP 喝杯咖啡”，而“喝杯咖啡/提供饮品招待”未出现在 CA 明确提供的承诺性内容清单或手记中，属于未授权的门店服务/礼遇承诺，建议删去“喝杯咖啡”，直接自然落到路过来店做个基础清洁保养。"
+     ],
+     "3": [
+      "与其他候选雷同：第 2 条和第 3 条在后半段的动作设计与推进点上出现撞车，都落脚在“工坊与穹顶戒指带过来做清洁检测”。建议将第 2 条（走心）聚焦于审美共鸣与交接问候（如聊聊叠戴混搭的巧思，不设具体保养邀约），而将“清洗、检测划痕与保养”的明确服务行动专属于第 3 条（推进），拉开两者的功能差异。"
+     ]
+    }
+   },
+   {
+    "rule_checks": [
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 71
+     },
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 102
+     },
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 92
+     }
+    ],
+    "critic": {
+     "reviews": [
+      {
+       "index": 1,
+       "pass": true,
+       "issues": [
+        "时间细节微瑕：CA 手记注明 Bella 是 2026 年 10 月调动，当前日期为 12 月 1 日，表述为‘上个月’在事实计算上有小偏差，建议调整为‘前阵子’或直接说‘Bella 调去成都店了’。"
+       ]
+      },
+      {
+       "index": 2,
+       "pass": true,
+       "issues": []
+      },
+      {
+       "index": 3,
+       "pass": true,
+       "issues": []
+      }
+     ],
+     "set_issues": [
+      {
+       "indices": [
+        1,
+        2
+       ],
+       "issue": "草稿 1 与草稿 2 的收尾句（‘特意跟您打个招呼，微信这边随时能联系到我’与‘先跟您打个招呼认识一下，微信这边随时能联系到我’）句式结构与表达高度重合。建议草稿 2 在提及叠戴风格后自然收束，例如直接以交流风格收口，避免重复使用‘随时能联系到我’的模板句。"
+      }
+     ]
+    },
+    "set_issues": [
+     "草稿 1 与草稿 2 的收尾句（‘特意跟您打个招呼，微信这边随时能联系到我’与‘先跟您打个招呼认识一下，微信这边随时能联系到我’）句式结构与表达高度重合。建议草稿 2 在提及叠戴风格后自然收束，例如直接以交流风格收口，避免重复使用‘随时能联系到我’的模板句。"
+    ],
+    "to_fix": {
+     "2": [
+      "与其他候选雷同：草稿 1 与草稿 2 的收尾句（‘特意跟您打个招呼，微信这边随时能联系到我’与‘先跟您打个招呼认识一下，微信这边随时能联系到我’）句式结构与表达高度重合。建议草稿 2 在提及叠戴风格后自然收束，例如直接以交流风格收口，避免重复使用‘随时能联系到我’的模板句。"
+     ]
+    }
+   },
+   {
+    "rule_checks": [
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 71
+     },
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 106
+     },
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 92
+     }
+    ],
+    "critic": {
+     "reviews": [
+      {
+       "index": 1,
+       "pass": true,
+       "issues": []
+      },
+      {
+       "index": 2,
+       "pass": true,
+       "issues": []
+      },
+      {
+       "index": 3,
+       "pass": true,
+       "issues": []
+      }
+     ],
+     "set_issues": []
+    },
+    "set_issues": [],
+    "to_fix": {}
+   }
+  ],
+  "plan": {
+   "client_read": "年轻、热爱音乐节与潮流叠戴的自在客人；因原顾问 Bella 调任成都且有一年半未互动，目前处于顾问交接的初次触达阶段。",
+   "risk": {
+    "level": "caution",
+    "flags": [
+     "新 CA 接手交接",
+     "距上次沟通已达 18 个月"
+    ],
+    "advice": "先自然说明 Bella 调任及由自己接手，语气保持年轻轻松，切忌催促或一上来就硬推产品。"
+   },
+   "ca_commitments": [
+    "Bella 调去成都了，我想跟他打个招呼，说明以后由我负责"
+   ],
+   "usable_facts": [
+    "原顾问 Bella 调往成都太古里店",
+    "已购入工坊白金戒指与穹顶黄金戒指叠戴",
+    "平时常在北京 SKP 精品店",
+    "两枚戒指购入均已超过一年"
+   ],
+   "do_not_mention": [
+    "内部消费金额（5-30万）与核心客户评级",
+    "家族地产背景等未公开个人隐私",
+    "像催促到店或询问一年半没来的原因",
+    "折扣、优惠、保值等违规词汇"
+   ],
+   "products": [],
+   "unanswerable": "",
+   "slots": {
+    "极简": {
+     "切入点": "直截了当的人事交接说明",
+     "唯一信息点": "自我介绍，说明 Bella 调任成都，今后由北京 SKP 的赵一鸣负责服务"
+    },
+    "走心": {
+     "切入点": "客户钟爱的白金与黄金两枚戒指叠戴",
+     "唯一信息点": "提及他那套工坊与穹顶的混搭戴法，若在北京 SKP 附近路过随时可以来店做个基础清洁保养"
+    },
+    "推进": {
+     "切入点": "日常佩戴中的品牌固定维护服务",
+     "唯一信息点": "两枚戒指已佩戴一年多，提供一个具体低门槛的互动：得空经过 SKP 时随时拿过来做免费清洗和戒圈检测"
+    }
+   }
+  },
+  "first_draft": [
+   {
+    "text": "沈先生您好，我是北京 SKP 德洛姆的赵一鸣。Bella 上个月调去了成都店，以后由我来为您做后续的服务，特意跟您打个招呼，微信这边随时能联系到我。",
+    "strategy": "极简",
+    "note_for_ca": "简明清晰完成顾问交接报备，适合不想过度打扰的首次破冰"
+   },
+   {
+    "text": "沈先生您好，我是北京 SKP 的赵一鸣。之前 Bella 调去成都店，之后由我来负责您的服务。之前听她说起您把工坊白金和穹顶黄金叠戴很有感觉，平时在附近玩如果顺路，随时来 SKP 喝杯咖啡，顺便给两枚戒指做个基础清洁。",
+    "strategy": "走心",
+    "note_for_ca": "提及工坊与穹顶叠戴细节，以顺路做清洁自然拉近距离"
+   },
+   {
+    "text": "沈先生您好，我是北京 SKP 店的赵一鸣。接替调去成都的 Bella 负责您之后的售后与沟通。您的工坊和穹顶戒指戴了一年多，日常摩擦难免有些微划痕，哪天路过 SKP 随时拿过来，我帮您做个免费清洗和戒圈检测，几分钟就好。",
+    "strategy": "推进",
+    "note_for_ca": "借一年多的佩戴周期提供免费清洗检测，给出一个低负担回应用由"
+   }
+  ],
+  "seconds": 72.3,
+  "diversity_max_sim": 0.11538461538461539,
+  "calls": [
+   {
+    "requested": "gemini-3.8-flash",
+    "served": "gemini-3.8-flash",
+    "seconds": 7.5,
+    "attempt": 1,
+    "in_tokens": 5848,
+    "out_tokens": 538,
+    "reasoning_tokens": null,
+    "fingerprint": null
+   },
+   {
+    "requested": "gemini-3.8-flash",
+    "served": "gemini-3.8-flash",
+    "seconds": 8.1,
+    "attempt": 1,
+    "in_tokens": 5289,
+    "out_tokens": 369,
+    "reasoning_tokens": null,
+    "fingerprint": null
+   },
+   {
+    "requested": "gemini-3.8-flash",
+    "served": "gemini-3.8-flash",
+    "seconds": 4.2,
+    "attempt": 1,
+    "in_tokens": 5141,
+    "out_tokens": 322,
+    "reasoning_tokens": null,
+    "fingerprint": null
+   },
+   {
+    "requested": "gemini-3.8-flash",
+    "served": "gemini-3.8-flash",
+    "seconds": 14.7,
+    "attempt": 1,
+    "in_tokens": 5901,
+    "out_tokens": 277,
+    "reasoning_tokens": null,
+    "fingerprint": null
+   },
+   {
+    "requested": "gemini-3.8-flash",
+    "served": "gemini-3.8-flash",
+    "seconds": 15.7,
+    "attempt": 1,
+    "in_tokens": 5131,
+    "out_tokens": 300,
+    "reasoning_tokens": null,
+    "fingerprint": null
+   },
+   {
+    "requested": "gemini-3.8-flash",
+    "served": "gemini-3.8-flash",
+    "seconds": 19.8,
+    "attempt": 1,
+    "in_tokens": 5686,
+    "out_tokens": 160,
+    "reasoning_tokens": null,
+    "fingerprint": null
+   },
+   {
+    "requested": "gemini-3.8-flash",
+    "served": "gemini-3.8-flash",
+    "seconds": 2.3,
+    "attempt": 1,
+    "in_tokens": 5140,
+    "out_tokens": 74,
+    "reasoning_tokens": null,
+    "fingerprint": null
+   }
+  ]
+ }
+}

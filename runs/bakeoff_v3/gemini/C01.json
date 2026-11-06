@@ -1,0 +1,340 @@
+{
+ "case_id": "C01",
+ "version": "v3",
+ "model": "gemini:gemini-3.8-flash",
+ "risk": {
+  "level": "ok",
+  "flags": [],
+  "advice": ""
+ },
+ "candidates": [
+  {
+   "text": "沈女士，祝您生辰快乐，岁岁清宁祥和。",
+   "strategy": "极简",
+   "note_for_ca": "端庄利落，符合她素雅且少言的沟通习惯"
+  },
+  {
+   "text": "沈女士，祝您生日快乐。愿新的一岁常有一盏清茶相伴，日子从容舒徐，诸事顺遂。",
+   "strategy": "走心",
+   "note_for_ca": "以茶的意象融入新岁祝福，不预设当日行程，得体且不显说教。"
+  },
+  {
+   "text": "沈女士，祝您生辰安康。不知您近来得闲时，可有去听上一出合心意的昆曲？",
+   "strategy": "推进",
+   "note_for_ca": "结合昆曲雅好抛出轻松话题，不刺探家庭隐私，易于低调客户回复。"
+  }
+ ],
+ "checks": [
+  {
+   "pass": true,
+   "hard": [],
+   "soft": [],
+   "length": 18
+  },
+  {
+   "pass": true,
+   "hard": [],
+   "soft": [],
+   "length": 37
+  },
+  {
+   "pass": true,
+   "hard": [],
+   "soft": [],
+   "length": 34
+  }
+ ],
+ "trace": {
+  "rounds": [
+   {
+    "rule_checks": [
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 18
+     },
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 36
+     },
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 34
+     }
+    ],
+    "critic": {
+     "reviews": [
+      {
+       "index": 1,
+       "pass": true,
+       "issues": []
+      },
+      {
+       "index": 2,
+       "pass": false,
+       "issues": [
+        "『如烹好茶、赏定窑』将档案中的爱好直接堆砌在祝福语中，显得刻意且像书面祝词，违背了『具体胜过形容词、记得但不炫耀记得』的原则，建议将客户对茶或宋瓷的兴趣以更自然的真人语气融入。"
+       ]
+      },
+      {
+       "index": 3,
+       "pass": false,
+       "issues": [
+        "虽然档案中记录其儿子在英国读研，但两人聊天记录中从未提及儿子，突然主动过问『远在英国求学的公子今天应该也给您发来祝福了吧』触碰了隐私与分寸感，显得窥探客户家事，且反问式追问有打扰感。建议改为询问一个与日常闲暇（如近期看昆曲或饮茶）相关的轻松话题作为下一步。"
+       ]
+      }
+     ],
+     "set_issues": []
+    },
+    "set_issues": [],
+    "to_fix": {
+     "2": [
+      "『如烹好茶、赏定窑』将档案中的爱好直接堆砌在祝福语中，显得刻意且像书面祝词，违背了『具体胜过形容词、记得但不炫耀记得』的原则，建议将客户对茶或宋瓷的兴趣以更自然的真人语气融入。"
+     ],
+     "3": [
+      "虽然档案中记录其儿子在英国读研，但两人聊天记录中从未提及儿子，突然主动过问『远在英国求学的公子今天应该也给您发来祝福了吧』触碰了隐私与分寸感，显得窥探客户家事，且反问式追问有打扰感。建议改为询问一个与日常闲暇（如近期看昆曲或饮茶）相关的轻松话题作为下一步。"
+     ]
+    }
+   },
+   {
+    "rule_checks": [
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 18
+     },
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 38
+     },
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 35
+     }
+    ],
+    "critic": {
+     "reviews": [
+      {
+       "index": 1,
+       "pass": true,
+       "issues": []
+      },
+      {
+       "index": 2,
+       "pass": true,
+       "issues": []
+      },
+      {
+       "index": 3,
+       "pass": false,
+       "issues": [
+        "违规描写了具体气温与天气（“杭州渐凉”）。品牌手册明确规定“不描述天气、气温”，负面清单中也明确禁止“具体天气或气温描述”，节气是历法概念，不可用于推论体感温度。建议删去“杭州渐凉”，直接从时令或昆曲话题切入，例如：“沈女士，祝您生日快乐。立冬刚过，不知您最近可有去剧场听昆曲？”"
+       ]
+      }
+     ],
+     "set_issues": []
+    },
+    "set_issues": [],
+    "to_fix": {
+     "3": [
+      "违规描写了具体气温与天气（“杭州渐凉”）。品牌手册明确规定“不描述天气、气温”，负面清单中也明确禁止“具体天气或气温描述”，节气是历法概念，不可用于推论体感温度。建议删去“杭州渐凉”，直接从时令或昆曲话题切入，例如：“沈女士，祝您生日快乐。立冬刚过，不知您最近可有去剧场听昆曲？”"
+     ]
+    }
+   },
+   {
+    "rule_checks": [
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 18
+     },
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 38
+     },
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 38
+     }
+    ],
+    "critic": {
+     "reviews": [
+      {
+       "index": 1,
+       "pass": true,
+       "issues": []
+      },
+      {
+       "index": 2,
+       "pass": false,
+       "issues": [
+        "“今日煮水沏茶”预设了客户当天的具体行为，属于编造未确认的经历；“愿您多一分静气与从容”带有审视、指导长辈客户心境的说教感，显得不够得体和平视。建议将茶的意象改为更克制自然的问候（如祝新岁生活从容适意）。"
+       ]
+      },
+      {
+       "index": 3,
+       "pass": false,
+       "issues": [
+        "刺探隐私与念档案痕迹过重：客户性格低调且与 CA 互动极少，直接点出“远在英国读书的公子”并追问是否通电话，越界打听私人家庭生活，不仅显得像在念内部档案，还会给习惯简短回复的客户施加社交压力。另外立冬已过 11 天，说“立冬刚过”时间感生硬脱节。建议换为更轻盈、与私人家庭无关的开放式问候（如聊及昆曲或宋瓷相关展演的轻松话题）。"
+       ]
+      }
+     ],
+     "set_issues": []
+    },
+    "set_issues": [],
+    "to_fix": {
+     "2": [
+      "“今日煮水沏茶”预设了客户当天的具体行为，属于编造未确认的经历；“愿您多一分静气与从容”带有审视、指导长辈客户心境的说教感，显得不够得体和平视。建议将茶的意象改为更克制自然的问候（如祝新岁生活从容适意）。"
+     ],
+     "3": [
+      "刺探隐私与念档案痕迹过重：客户性格低调且与 CA 互动极少，直接点出“远在英国读书的公子”并追问是否通电话，越界打听私人家庭生活，不仅显得像在念内部档案，还会给习惯简短回复的客户施加社交压力。另外立冬已过 11 天，说“立冬刚过”时间感生硬脱节。建议换为更轻盈、与私人家庭无关的开放式问候（如聊及昆曲或宋瓷相关展演的轻松话题）。"
+     ]
+    }
+   }
+  ],
+  "plan": {
+   "client_read": "沈女士行事低调克制、偏好素雅，习惯极简的正式沟通。双方认识五年但互动频次低，属于相互尊重、保持恰当距离的稳定核心客群。",
+   "risk": {
+    "level": "ok",
+    "flags": [],
+    "advice": ""
+   },
+   "ca_commitments": [],
+   "usable_facts": [
+    "今天是沈女士的生日（11月18日）",
+    "儿子在英国读研",
+    "平时爱好品茶与宋瓷",
+    "日常偏爱素净、清雅的风格"
+   ],
+   "do_not_mention": [
+    "累计消费金额与核心客户等级",
+    "提及客户平时回复少或对手记内容的引用",
+    "推销任何珠宝作品或邀请到店选购",
+    "未经CA明确承诺的生日礼遇或预留礼物",
+    "具体天气或气温描述"
+   ],
+   "products": [],
+   "slots": {
+    "极简": "送上一句克制、端庄而真诚的生日祝福，不带任何多余字句。",
+    "走心": "融入宋瓷与茶事般清润宁静的心境细节，让她感受到不被打扰的理解与尊重。",
+    "推进": "在生日祝福之余，自然关照远在英国读研的儿子是否已通电话，抛出一个轻松、无需负担的温和问候。"
+   }
+  },
+  "first_draft": [
+   {
+    "text": "沈女士，祝您生辰快乐，岁岁清宁祥和。",
+    "strategy": "极简",
+    "note_for_ca": "端庄利落，符合她素雅且少言的沟通习惯"
+   },
+   {
+    "text": "沈女士，祝您生辰愉快。愿您新的一岁如烹好茶、赏定窑，从容宁静，舒心自在。",
+    "strategy": "走心",
+    "note_for_ca": "融入宋瓷与茶道意趣，契合她素净的生活审美"
+   },
+   {
+    "text": "沈女士，祝您生日快乐。远在英国求学的公子今天应该也给您发来祝福了吧？",
+    "strategy": "推进",
+    "note_for_ca": "关切其在英国读研的儿子，温和易回且不具负担"
+   }
+  ],
+  "seconds": 109.7,
+  "diversity_max_sim": 0.1388888888888889,
+  "calls": [
+   {
+    "requested": "gemini-3.8-flash",
+    "served": "gemini-3.8-flash",
+    "seconds": 13.5,
+    "attempt": 1,
+    "in_tokens": 5570,
+    "out_tokens": 350,
+    "reasoning_tokens": null,
+    "fingerprint": null
+   },
+   {
+    "requested": "gemini-3.8-flash",
+    "served": "gemini-3.8-flash",
+    "seconds": 6.5,
+    "attempt": 1,
+    "in_tokens": 4894,
+    "out_tokens": 229,
+    "reasoning_tokens": null,
+    "fingerprint": null
+   },
+   {
+    "requested": "gemini-3.8-flash",
+    "served": "gemini-3.8-flash",
+    "seconds": 8.5,
+    "attempt": 1,
+    "in_tokens": 4756,
+    "out_tokens": 234,
+    "reasoning_tokens": null,
+    "fingerprint": null
+   },
+   {
+    "requested": "gemini-3.8-flash",
+    "served": "gemini-3.8-flash",
+    "seconds": 4.6,
+    "attempt": 1,
+    "in_tokens": 5253,
+    "out_tokens": 198,
+    "reasoning_tokens": null,
+    "fingerprint": null
+   },
+   {
+    "requested": "gemini-3.8-flash",
+    "served": "gemini-3.8-flash",
+    "seconds": 13.6,
+    "attempt": 1,
+    "in_tokens": 4762,
+    "out_tokens": 213,
+    "reasoning_tokens": null,
+    "fingerprint": null
+   },
+   {
+    "requested": "gemini-3.8-flash",
+    "served": "gemini-3.8-flash",
+    "seconds": 3.1,
+    "attempt": 1,
+    "in_tokens": 5139,
+    "out_tokens": 103,
+    "reasoning_tokens": null,
+    "fingerprint": null
+   },
+   {
+    "requested": "gemini-3.8-flash",
+    "served": "gemini-3.8-flash",
+    "seconds": 38.6,
+    "attempt": 1,
+    "in_tokens": 4762,
+    "out_tokens": 322,
+    "reasoning_tokens": null,
+    "fingerprint": null
+   },
+   {
+    "requested": "gemini-3.8-flash",
+    "served": "gemini-3.8-flash",
+    "seconds": 21.2,
+    "attempt": 1,
+    "in_tokens": 5311,
+    "out_tokens": 198,
+    "reasoning_tokens": null,
+    "fingerprint": null
+   }
+  ]
+ }
+}

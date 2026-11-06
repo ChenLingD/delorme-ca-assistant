@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 2,
+    "brand_voice": 5,
+    "naturalness": 5,
+    "effectiveness": 5
+   },
+   "sendability": "直接可发",
+   "comment": "没有额外引用客户细节，但生日问候简短得体，适合这位不喜欢频繁联系的客户。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "借生日祝福讲述珍珠项链，偏离本场景不带作品的要求。",
+    "privacy_violation": "无",
+    "fabrication": "“珠子是越养越温润的”缺乏资料依据；项链购于2020年9月，距今已超过六年，并非恰好六年。",
+    "context_failure": "逐项提及到店、串线和持有年限，像在复述客户档案，不符合客户偏好简短问候的情境。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 2,
+    "naturalness": 2,
+    "effectiveness": 1
+   },
+   "sendability": "不可用",
+   "comment": "真实细节用得生硬，还加入无依据的珍珠描述，需要去掉作品内容重新写。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "文字偏长且解释昆曲，缺少品牌要求的克制和留白。",
+    "privacy_violation": "无",
+    "fabrication": "“我懂得不多”对CA本人昆曲了解程度的表述没有提供依据。",
+    "context_failure": "客户很少回复且不喜欢频繁联系，询问近况并请她提一句，仍给生日祝福增加了回应压力。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 2,
+    "naturalness": 2,
+    "effectiveness": 2
+   },
+   "sendability": "小改可发",
+   "comment": "昆曲和茶的细节有依据，但应删去提问和对昆曲的解释，保留简短祝福即可。"
+  }
+ ],
+ "set": {
+  "diversity": 5,
+  "risk_judgement": "正确",
+  "best_index": 1,
+  "must_coverage": "2/2",
+  "summary": "候选1同时做到极简克制和不带产品，是最适合直接发送的一条。整体主要问题是风险提醒虽正确，候选2和3却没有贯彻简短、不拉长对话的判断。"
+ },
+ "_judge": "openai:gpt-6.1-terra"
+}

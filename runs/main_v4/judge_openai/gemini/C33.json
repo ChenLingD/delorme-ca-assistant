@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "轻微：“今天翻看工坊图册”没有事实依据，CA 备注也未提示这是虚构的联系理由。",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 5,
+    "brand_voice": 4,
+    "naturalness": 4,
+    "effectiveness": 4
+   },
+   "sendability": "小改可发",
+   "comment": "海浪纹和插画兴趣切入自然，删除未经确认的“今天翻看图册”即可。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "轻微：购入已满一年不等于客户实际佩戴满一年；固定服务包含清洗，但未确认有“深度清洗”这一服务。",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "保养切入有依据，但应避免推断佩戴时长，并将“深度清洗”改为“清洗”；备注称其“毫无压迫感”也过于绝对。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 2,
+    "brand_voice": 3,
+    "naturalness": 2,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "问候中性且没有业务压力，但“顺祝近安”偏书面，整体也比较空泛。"
+  }
+ ],
+ "set": {
+  "diversity": 4,
+  "risk_judgement": "正确",
+  "best_index": 1,
+  "must_coverage": "2/2",
+  "summary": "三条分别从个人兴趣、藏品服务和纯问候切入，均以客户本人为中心，没有触及礼赠关系。候选 1 最贴合客户，但需删去未经确认的联系理由；候选 2 也有佩戴时长和清洗程度的依据不足问题。"
+ },
+ "_judge": "openai:gpt-6.1-terra"
+}

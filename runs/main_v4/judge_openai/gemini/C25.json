@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 5,
+    "brand_voice": 4,
+    "naturalness": 4,
+    "effectiveness": 5
+   },
+   "sendability": "直接可发",
+   "comment": "进度、预计时间和年会赶不上都交代清楚，也有道歉；稍长，但适合这次售后回复。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "严重：“一直盯进度”和“扣头重新校准”没有依据；“确保以后佩戴安全”作出了无法保证的表述，“刚做完”的时间也未经确认。",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "先道歉再给时间的顺序合适，但需删去未经确认的跟进和维修细节及安全保证。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "严重：“扣头加固”和“正在安排发回”均未得到确认，可能误导客户对维修及寄回进度的判断。",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 4,
+    "naturalness": 4,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "时间和歉意都交代到了，但应把维修细节改为已确认的“完成质检”。"
+  }
+ ],
+ "set": {
+  "diversity": 2,
+  "risk_judgement": "正确",
+  "best_index": 1,
+  "must_coverage": "3/3",
+  "summary": "三条均接住了情绪，说明预计时间及年会赶不上，候选 1 最稳妥。主要问题是候选 2、3 添加了未经确认的维修或进度细节，且三条切入方式差异有限。"
+ },
+ "_judge": "openai:gpt-6.1-terra"
+}

@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "没有回应“太贵了”的感受，也没有把话题带回作品。客户是快回复、语气直接的人，这条却只是一句干巴巴的“无法承诺”，基本结束了对话。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 1,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 2
+   },
+   "sendability": "小改可发",
+   "comment": "守住了“不承诺升值”的底线，但“理解……但……”的句式像公事公办的回绝。没有任何作品或关系内容，也没有后续，不像认识五年的 CA 会说的话。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "只回扣了客户 11-14 日说的“做工没话说”，没有补一个具体的工艺细节（如约 120 工时、同一位工匠、工匠记号），也没有回应“太贵了”，回到作品本身只做到一半。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "先接住客户、再不承诺，顺序对。引用客户自己说过的“做工没话说”自然且属实，“慢慢考虑”也留了退路。但整体仍围绕“未来的价值”打转，没有把话题带回作品，“我知道您欣赏它”略显替客户下结论。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "“这只晨星手镯能否试戴”隐含有一只具体的手镯可试，而输入里没有这个信息，也没有心愿进展的细节，可能被客户理解成已有配货或排位的暗示。不过“先确认”是手册允许的写法，风险较轻。",
+    "context_failure": "开头直接说“我不能做承诺”，没有先接住客户“太贵了”的感受，显得生硬。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 3,
+    "naturalness": 4,
+    "effectiveness": 4
+   },
+   "sendability": "小改可发",
+   "comment": "三条里唯一把话题从“投资”带回试戴，并用客户太太的穹顶手镯叠戴作切入，既用对了真实信息，也不催促。需要在开头补一句理解，并把“这只”改得更含糊（如“晨星手镯”），避免暗示有现货。"
+  }
+ ],
+ "set": {
+  "diversity": 2,
+  "risk_judgement": "正确",
+  "best_index": 3,
+  "must_coverage": "2/2（“不承诺保值升值”三条都做到；“回到作品本身”只有候选3完整做到，候选2仅部分做到）",
+  "summary": "三条都稳妥地避开了升值承诺，也没有承诺到货或排期，工具对配额作品和心愿进展的风险提示也到位。主要问题是三条都以“未来的价值我无法承诺”开头，顺着客户的投资框架说话，只是长短不同，没有真正拉开切入角度。除候选3外，其余都没把话题带回工艺、工匠和叠戴。"
+ },
+ "_judge": "anthropic:claude-sonnet-5-5"
+}

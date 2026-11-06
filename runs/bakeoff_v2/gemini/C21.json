@@ -1,0 +1,256 @@
+{
+ "case_id": "C21",
+ "version": "v2",
+ "model": "gemini:gemini-3.8-flash",
+ "risk": {
+  "level": "hold",
+  "flags": [
+   "未解决的客诉：客户刚发图质问戒指两周出现划痕及质量问题，情绪直接且急躁"
+  ],
+  "advice": "先接住客户的心疼与不悦，绝不辩解或归咎于其工作接触硬物，直接给出明确、省心的抛光解决与取件方案。"
+ },
+ "candidates": [
+  {
+   "text": "唐女士您先别着急，划痕可以免费抛光处理，我马上帮您安排。",
+   "strategy": "极简",
+   "note_for_ca": "快速稳住情绪，给出明确承诺，适合第一时间秒回"
+  },
+  {
+   "text": "唐女士，前几天您才说朋友夸它好看，现在看到划痕肯定特别心疼。店里都是免费抛光的，交给我来处理就好，师傅现场就能帮您把光泽完全恢复好。",
+   "strategy": "走心",
+   "note_for_ca": "调出她先前受夸奖的细节切入共情，诚恳安抚并承诺复原光泽。"
+  },
+  {
+   "text": "唐女士，我们店周二到周日师傅都在，免费抛光现场大约四十分钟就能做好。如果您这几天工作忙抽不开身，我也可以直接去您公司取，您看哪种方式方便？",
+   "strategy": "推进",
+   "note_for_ca": "给出具体到店时间与上门取件两种省心方案供她选择"
+  }
+ ],
+ "checks": [
+  {
+   "pass": true,
+   "hard": [],
+   "soft": [],
+   "length": 28
+  },
+  {
+   "pass": true,
+   "hard": [],
+   "soft": [],
+   "length": 66
+  },
+  {
+   "pass": true,
+   "hard": [],
+   "soft": [],
+   "length": 69
+  }
+ ],
+ "trace": {
+  "rounds": [
+   {
+    "rule_checks": [
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 28
+     },
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 64
+     },
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 69
+     }
+    ],
+    "critic": {
+     "reviews": [
+      {
+       "index": 1,
+       "pass": true,
+       "issues": []
+      },
+      {
+       "index": 2,
+       "pass": false,
+       "issues": [
+        "面对客户质疑质量的投诉，说“素金镜面有些细痕很正常”带有辩解和说教意味，容易激化客户的抵触情绪，不符合“先承认、给方案，不推卸不辩解”的原则；结尾“您别难受”属于无意义的空话安慰。建议删去辩解和空话，直接共情并给出抛光方案。"
+       ]
+      },
+      {
+       "index": 3,
+       "pass": true,
+       "issues": []
+      }
+     ],
+     "set_issues": []
+    },
+    "set_issues": [],
+    "to_fix": {
+     "2": [
+      "面对客户质疑质量的投诉，说“素金镜面有些细痕很正常”带有辩解和说教意味，容易激化客户的抵触情绪，不符合“先承认、给方案，不推卸不辩解”的原则；结尾“您别难受”属于无意义的空话安慰。建议删去辩解和空话，直接共情并给出抛光方案。"
+     ]
+    }
+   },
+   {
+    "rule_checks": [
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 28
+     },
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 66
+     },
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 69
+     }
+    ],
+    "critic": {
+     "reviews": [
+      {
+       "index": 1,
+       "pass": true,
+       "issues": [
+        "面对客户因品质质疑而生气的场景，开头说“您先别着急”容易被误解为否定客户情绪或敷衍推脱。建议去掉口头安抚，直接进入负责的行动，如调整为“唐女士，素金划痕我们店里可以免费抛光，我马上帮您妥善安排。”"
+       ]
+      },
+      {
+       "index": 2,
+       "pass": true,
+       "issues": [
+        "结尾承诺“师傅现场就能帮您把光泽完全恢复好”稍显绝对。在未实物检查划痕深浅前，使用“完全”存在过度承诺风险，若遇深磕痕易引发二次不满。建议弱化绝对化词汇，改为“帮您把光泽重新恢复出来”。"
+       ]
+      },
+      {
+       "index": 3,
+       "pass": true,
+       "issues": []
+      }
+     ],
+     "set_issues": []
+    },
+    "set_issues": [],
+    "to_fix": {}
+   }
+  ],
+  "plan": {
+   "client_read": "唐女士是注重形象、做事干脆且极在意细节的轻医美创始人；此刻她因心爱的穹顶戒指戴两周便出现划痕而深感失望与不满，急需得到诚恳接纳与高效解决。",
+   "risk": {
+    "level": "hold",
+    "flags": [
+     "未解决的客诉：客户刚发图质问戒指两周出现划痕及质量问题，情绪直接且急躁"
+    ],
+    "advice": "先接住客户的心疼与不悦，绝不辩解或归咎于其工作接触硬物，直接给出明确、省心的抛光解决与取件方案。"
+   },
+   "ca_commitments": [
+    "可以免费抛光",
+    "店里周二到周日都有维修师傅在，现场大约 40 分钟能做好",
+    "若不方便到店，CA 可以去她公司取件"
+   ],
+   "usable_facts": [
+    "两周前购买并佩戴穹顶 18K 黄金戒指",
+    "此前非常喜欢该戒指的上手弧度与效果",
+    "平时工作在公司、节奏紧凑"
+   ],
+   "do_not_mention": [
+    "辩解 18K 金硬度或暗示是她工作接触器械导致",
+    "推卸责任说之前提醒过不能碰硬物",
+    "客户累计消费金额、内部核心标签",
+    "任何新品推销或与解决划痕无关的内容"
+   ],
+   "products": [
+    "COU-R01"
+   ],
+   "slots": {
+    "极简": "先接住情绪，告知可以免费抛光，随时帮她处理好。",
+    "走心": "体会她新戴两周就心疼的心情，说明工坊师傅在店现场约40分钟即可还原光泽，让她安心。",
+    "推进": "提供具体省心方案：周二到周日可随时到店现场做，或直接去她公司取件代办，询问哪种更方便。"
+   }
+  },
+  "first_draft": [
+   {
+    "text": "唐女士您先别着急，划痕可以免费抛光处理，我马上帮您安排。",
+    "strategy": "极简",
+    "note_for_ca": "快速稳住情绪，给出明确承诺，适合第一时间秒回"
+   },
+   {
+    "text": "唐女士，才戴两周就刮到确实让人心疼。素金镜面有些细痕很正常，店里可以免费精细抛光。师傅在的话现场四十分钟就能恢复如新，您别难受。",
+    "strategy": "走心",
+    "note_for_ca": "共情她刚戴两周的心疼感，解释素金特性并给予定心丸"
+   },
+   {
+    "text": "唐女士，我们店周二到周日师傅都在，免费抛光现场大约四十分钟就能做好。如果您这几天工作忙抽不开身，我也可以直接去您公司取，您看哪种方式方便？",
+    "strategy": "推进",
+    "note_for_ca": "给出具体到店时间与上门取件两种省心方案供她选择"
+   }
+  ],
+  "seconds": 59.9,
+  "diversity_max_sim": 0.038461538461538464,
+  "calls": [
+   {
+    "requested": "gemini-3.8-flash",
+    "served": "gemini-3.8-flash",
+    "seconds": 13.7,
+    "attempt": 1,
+    "in_tokens": 5458,
+    "out_tokens": 490,
+    "reasoning_tokens": null,
+    "fingerprint": null
+   },
+   {
+    "requested": "gemini-3.8-flash",
+    "served": "gemini-3.8-flash",
+    "seconds": 5.6,
+    "attempt": 1,
+    "in_tokens": 4920,
+    "out_tokens": 278,
+    "reasoning_tokens": null,
+    "fingerprint": null
+   },
+   {
+    "requested": "gemini-3.8-flash",
+    "served": "gemini-3.8-flash",
+    "seconds": 3.5,
+    "attempt": 1,
+    "in_tokens": 4699,
+    "out_tokens": 196,
+    "reasoning_tokens": null,
+    "fingerprint": null
+   },
+   {
+    "requested": "gemini-3.8-flash",
+    "served": "gemini-3.8-flash",
+    "seconds": 11.4,
+    "attempt": 1,
+    "in_tokens": 5222,
+    "out_tokens": 123,
+    "reasoning_tokens": null,
+    "fingerprint": null
+   },
+   {
+    "requested": "gemini-3.8-flash",
+    "served": "gemini-3.8-flash",
+    "seconds": 25.6,
+    "attempt": 1,
+    "in_tokens": 4695,
+    "out_tokens": 255,
+    "reasoning_tokens": null,
+    "fingerprint": null
+   }
+  ]
+ }
+}

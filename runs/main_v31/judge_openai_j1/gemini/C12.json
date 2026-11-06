@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "未提供产品目录，无法确认穹顶系列有这款18K黄金戒指及其无装饰弧线；仅凭戒圈信息也不能断言戴着合适。",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 5,
+    "brand_voice": 4,
+    "naturalness": 4,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "推荐理由贴合白衬衫和简洁偏好，但须先核实作品，并删去对佩戴合适的断言。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "用“不少懂建筑的朋友都偏爱”作群体背书，不够克制。",
+    "privacy_violation": "无",
+    "fabrication": "未提供产品目录，无法确认戒指、穹顶力学线条的设计灵感及建筑爱好者的偏好；具体戒指内圈能否刻上所需字样也需确认，免费刻字服务本身则有手册依据。",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 2,
+    "naturalness": 2,
+    "effectiveness": 2
+   },
+   "sendability": "小改可发",
+   "comment": "有回应纪念日和日常佩戴需求，但建筑故事及他人偏好缺乏依据，需删改并核实作品。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "未提供产品目录，无法确认戒指及其弧度；“正好在店里”和能拍到11号佩戴图也没有已知依据。",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "搭配白衬衫并提出先看图，方向合适，但须核实作品和拍图条件，语气也可收敛。"
+  }
+ ],
+ "set": {
+  "diversity": 2,
+  "risk_judgement": "偏松",
+  "best_index": 1,
+  "must_coverage": "2/2",
+  "summary": "三条都结合了太太的喜好，且各只推荐一件，但都依赖未经证实的作品信息，不能直接发送。候选之间主要是措辞和推进方式不同；尤其候选2加入了缺乏依据的设计故事与群体背书。"
+ },
+ "_judge": "openai:gpt-6.1-terra"
+}

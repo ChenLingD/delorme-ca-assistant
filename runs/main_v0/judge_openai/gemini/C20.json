@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "轻微：目录未说明这款手镯的开合处可以微调，话术有此暗示。",
+    "context_failure": "无",
+    "must_not_hit": "轻微：暗示了未记录的手镯调节细节。"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 4,
+    "naturalness": 3,
+    "effectiveness": 4
+   },
+   "sendability": "小改可发",
+   "comment": "跟进时机和方向合适，删去开合处微调，简短询问佩戴是否舒适即可。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "轻微：资料只说明整件作品由同一工匠完成、内圈刻有工匠记号，未说明记号由其在完工后亲手凿刻；也无法确认客户已佩戴一周。",
+    "context_failure": "无",
+    "must_not_hit": "轻微：加入了未记录的工匠刻记号细节。"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 2,
+    "naturalness": 2,
+    "effectiveness": 2
+   },
+   "sendability": "小改可发",
+   "comment": "呼应了客户关注的工匠记号，但话偏长，结尾也过于郑重，需删去无依据的细节。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "清洗与检测提示有用，但祝福语偏空泛，删去后会更克制自然。"
+  }
+ ],
+ "set": {
+  "diversity": 4,
+  "risk_judgement": "偏松",
+  "best_index": 1,
+  "must_coverage": "1/1",
+  "summary": "三条分别从佩戴感受、工艺和售后服务切入，整体未推销；候选1相对简洁，最适合修改后发送。最主要的问题是候选1和2加入了未经证实的作品细节，风险判断不应写“无”。"
+ },
+ "_judge": "openai:gpt-6.1-terra"
+}

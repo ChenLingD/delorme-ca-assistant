@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 4,
+    "naturalness": 4,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "呼应了她 9 月想看老图稿的心愿，短而克制，是合适的轻量邀请。但活动名称、日期、地点都没有，也没问她是否有兴趣，没提她的珍珠收藏，CA 要求的「人少的时段」也没体现。她回复慢，这条会逼她再追问一轮。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 5,
+    "brand_voice": 5,
+    "naturalness": 4,
+    "effectiveness": 4
+   },
+   "sendability": "小改可发",
+   "comment": "准确引用她 9 月说的话，点明原稿首次公开，「哪个时段人少些，我先去确认」既落实了 CA 的要求，又没替门店做承诺，也没暴露「不喜欢人多」这条手记。缺点是没有日期（11-20 至 22）和地点，她不知道有哪些时段可选，也没提沧海或她的珍珠，补上日期即可发。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 2,
+    "brand_voice": 4,
+    "naturalness": 3,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "日期、地点、每场 8 位、下午茶、串线演示都来自活动资料，准确，也回应了「人少时段」。但全文没提她想看的老图稿，读起来像通知，不像为她挑选的邀请，「回我日期就好」还有点催。需要补上图稿这个钩子，并留个退路。"
+  }
+ ],
+ "set": {
+  "diversity": 4,
+  "risk_judgement": "正确",
+  "best_index": 2,
+  "must_coverage": "2/3",
+  "summary": "三条都没有红线问题，信息准确，没有「名额有限、先到先得」式的压力，也没有编造内容。主要问题是三条都没把活动和她的沧海珍珠收藏（耳钉、白珠项链、金珠吊坠）明确联系起来；候选 1 太简，候选 3 漏了老图稿这个核心钩子，只有候选 2 兼顾心愿与「人少时段」，补上日期后最适合发送。"
+ },
+ "_judge": "anthropic:claude-sonnet-5-5"
+}

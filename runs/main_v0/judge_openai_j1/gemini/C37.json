@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "活动资料未说明作品由工坊送抵，也未确认有彩宝作品；“仅接待两三位老朋友”无依据，且活动资料为每场2–4位客人。",
+    "context_failure": "无",
+    "must_not_hit": "编造活动作品和接待细节。"
+   },
+   "scores": {
+    "personalization": 5,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 2
+   },
+   "sendability": "不可用",
+   "comment": "呼应了客户主动提出的彩宝需求，也给了日期选择，但活动细节失实且漏了提前一周确认。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "未经授权暗示已安排独立的专属时段。",
+    "privacy_violation": "无",
+    "fabrication": "活动资料未确认包含彩色宝石作品，也未说明有独立专属时段或作品即将来京。",
+    "context_failure": "无",
+    "must_not_hit": "编造活动作品和场次安排。"
+   },
+   "scores": {
+    "personalization": 2,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 2
+   },
+   "sendability": "不可用",
+   "comment": "有日期选择和私密感，但彩宝与专属时段均无依据，且未说明提前一周确认。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "“我为您安排合适的时间段”作出了未经CA授权的场次安排承诺。",
+    "privacy_violation": "无",
+    "fabrication": "活动资料未确认展出数件彩宝作品，也未说明鉴赏均为独立安排。",
+    "context_failure": "无",
+    "must_not_hit": "编造活动作品和接待安排。"
+   },
+   "scores": {
+    "personalization": 2,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 2
+   },
+   "sendability": "不可用",
+   "comment": "活动名称、地点和日期较清楚，但缺少与客户兴趣的自然连接，并漏了提前一周确认。"
+  }
+ ],
+ "set": {
+  "diversity": 2,
+  "risk_judgement": "偏松",
+  "best_index": 1,
+  "must_coverage": "2/3",
+  "summary": "三条都体现了私密感并提供日期选择，但都未说明需提前一周确认，切入角度也较相近。候选1最贴合客户上次的需求，但三条均将未经确认的彩宝或接待安排写成事实，风险判断为“无”偏松。"
+ },
+ "_judge": "openai:gpt-6.1-terra"
+}

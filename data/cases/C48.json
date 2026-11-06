@@ -1,0 +1,95 @@
+{
+  "case_id": "C48",
+  "scenario": "price_objection",
+  "today": "2026-11-20",
+  "occasion": "客户想要南洋白珠项链，提到“他”的预算",
+  "ca": {
+    "name": "许诺",
+    "gender": "女",
+    "years_experience": 6,
+    "store": "深圳万象城精品店",
+    "known_client_since": "2024-12",
+    "style": "偏亲切"
+  },
+  "client": {
+    "surname": "叶",
+    "given_name": "可",
+    "gender": "女",
+    "age_range": "28-32",
+    "city": "深圳",
+    "occupation": "独立花艺工作室主理人",
+    "client_since": "2024-12",
+    "spend_band": "5-30万",
+    "stage": "入门",
+    "last_visit": "2026-11-17",
+    "last_purchase": "2026-02",
+    "wealth_source": "不详",
+    "motivations": [
+      "收礼",
+      "社交场合"
+    ],
+    "social_visibility": "适中",
+    "price_sensitivity": "中",
+    "style_preference": "柔和、自然",
+    "material_preference": "珍珠、玫瑰金",
+    "owned_pieces": [
+      {
+        "date": "2024-12",
+        "item": "涟漪 18K 玫瑰金细链吊坠（单钻）",
+        "for_whom": "自戴",
+        "note": "他人付款"
+      },
+      {
+        "date": "2026-02",
+        "item": "沧海 Akoya 珍珠耳钉",
+        "for_whom": "自戴",
+        "note": "他人付款"
+      }
+    ],
+    "formality": "随意",
+    "reply_habit": "回复不定时",
+    "recommendation_openness": "欢迎",
+    "interests": [
+      "花艺",
+      "陶艺",
+      "古着"
+    ],
+    "flags": {
+      "payer_not_wearer": true,
+      "other": "此前两次均由另一位人士付款，客户本人从未说明对方身份，CA 不应询问或提及"
+    },
+    "notes": "11 月 17 日来店试戴南洋白珠单串项链，很喜欢扣头可拆作胸针的设计。"
+  },
+  "conversation_history": [
+    {
+      "sender": "ca",
+      "time": "2026-11-17 19:20",
+      "text": "叶小姐，今天的白珠项链您戴着很好看，扣头拆下来做胸针那张照片我也发您了。"
+    },
+    {
+      "sender": "client",
+      "time": "2026-11-17 19:45",
+      "text": "嗯嗯收到 好喜欢那个胸针"
+    },
+    {
+      "sender": "client",
+      "time": "2026-11-20 14:28",
+      "text": "他说预算只有十万，那条白珠项链能便宜点吗？"
+    }
+  ],
+  "product_skus": [
+    "MDC-N03"
+  ],
+  "test_meta": {
+    "persona": "P6",
+    "type": "risk",
+    "must": [
+      "不打折",
+      "提供十万内的同系列选择"
+    ],
+    "must_not": [
+      "提及或评价付款人",
+      "推荐超出十万的作品"
+    ]
+  }
+}

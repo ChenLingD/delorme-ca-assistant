@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "轻微：“工坊出件很慢”及其与工时的因果关系没有资料依据。",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 4,
+    "naturalness": 3,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "正面回应了到货时间，但解释略显生硬，也没有引导了解其他系列。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "轻微：“每只都不太一样”缺少作品资料依据。",
+    "context_failure": "轻微：客户问何时能拿到，仅说“需要等一等”，没有说明无法确定到货时间。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 2
+   },
+   "sendability": "小改可发",
+   "comment": "呼应了聚会场景和工匠细节，但对等待的说法偏空，也没有引导了解其他系列。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 4,
+    "naturalness": 4,
+    "effectiveness": 4
+   },
+   "sendability": "直接可发",
+   "comment": "兼顾晨星心愿、时间边界和看图退路，但穹顶只提到系列，若明确一件作品及其工艺细节会更有说服力。"
+  }
+ ],
+ "set": {
+  "diversity": 3,
+  "risk_judgement": "正确",
+  "best_index": 3,
+  "must_coverage": "3/3",
+  "summary": "三条均未触碰配额门槛或到货承诺，候选3最完整地兼顾心愿登记与工艺引导。主要问题是前两条加入了缺乏依据的产品或工坊判断，且三条的工艺切入较相近。"
+ },
+ "_judge": "openai:gpt-6.1-terra"
+}

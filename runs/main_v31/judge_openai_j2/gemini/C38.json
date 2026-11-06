@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "严重：编造高珠鉴赏巡展时间紧、闭门场次已定满的原因和安排。",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 1,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 2
+   },
+   "sendability": "小改可发",
+   "comment": "邀约简短，但没有客户关联，须删掉编造的高珠鉴赏理由。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "轻微：未经确认便邀请客户和太太一同参加，默认了可携家属及相关安排。",
+    "privacy_violation": "无",
+    "fabrication": "严重：编造高珠鉴赏为单人点对点、时间紧，也无依据地推断客户为太太挑作品时偏好轻松环境。",
+    "context_failure": "轻微：只说鉴赏时间紧，没有清楚回应客户能否参加。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 2,
+    "brand_voice": 2,
+    "naturalness": 2,
+    "effectiveness": 2
+   },
+   "sendability": "不可用",
+   "comment": "虽提到太太，但关联建立在未经证实的偏好上，且多处活动安排需要重写。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "严重：无依据地称高珠专场巡展时间错不开；私宴“氛围热闹”也未经活动资料证实。",
+    "context_failure": "轻微：“时间错不开”含义含糊，没有清楚回应客户能否参加。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 1,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 2
+   },
+   "sendability": "小改可发",
+   "comment": "刻字信息有活动资料支持，但高珠回应需重写，邀约也缺少与客户的关联。"
+  }
+ ],
+ "set": {
+  "diversity": 2,
+  "risk_judgement": "偏松",
+  "best_index": 3,
+  "must_coverage": "1/2",
+  "summary": "三条都转向了新春私宴，但对高珠鉴赏的回应均依赖未经证实的说法，尚未做到得体回应。风险提示关注了门槛，却未提醒不得编造名额或活动安排；候选 3 的刻字信息准确，相对最有修改基础。"
+ },
+ "_judge": "openai:gpt-6.1-terra"
+}

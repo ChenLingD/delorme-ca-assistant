@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "轻微：没有依据表明 CA 今天翻看了工坊图册，备注也未点明这是社交说法。",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 4,
+    "naturalness": 4,
+    "effectiveness": 4
+   },
+   "sendability": "小改可发",
+   "comment": "问候简短且以客户本人为中心，删去未经确认的翻看图册情节即可。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "轻微：没有依据表明 CA 看到了翻印图稿，也不了解客户写生时的具体画风。",
+    "context_failure": "轻微：客户曾说想画海浪插画，但不能由此假定她近期正在画。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "切入了客户真实兴趣，但图稿描述和画风判断过于具体，追问进展也略显冒进。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "轻微：品牌固定服务包含免费清洗和检测，但没有确认提供“深度清洗”。",
+    "context_failure": "轻微：CA 只提出问候，消息却直接引向到店保养，略偏离本次唤醒意图。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "保养切入有依据，但一次提两件作品并邀约到店，不如简单问候自然。"
+  }
+ ],
+ "set": {
+  "diversity": 4,
+  "risk_judgement": "正确",
+  "best_index": 1,
+  "must_coverage": "2/2",
+  "summary": "三条均未触及付款人或打探关系现状，切入角度也有区分，候选 1 最接近中性问候的目标。主要问题是部分联系理由或细节缺乏依据，发送前应删改。"
+ },
+ "_judge": "openai:gpt-6.1-terra"
+}

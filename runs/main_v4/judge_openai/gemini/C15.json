@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "轻微：客户虽允许售后联系，但目前没有已知的检测或保养需求，主动邀约到店仍可能被视为打扰。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 4,
+    "naturalness": 3,
+    "effectiveness": 3
+   },
+   "sendability": "不可用",
+   "comment": "耳钉佩戴时间和免费服务均有依据，但缺少必要的联系理由，建议等客户有售后需求时再提。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "轻微：软布擦拭及其保护珠光的效果未见于手册或目录，缺少可用依据。",
+    "context_failure": "轻微：客户没有提出保养问题，主动发送日常提示仍可能被视为多余打扰。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 2
+   },
+   "sendability": "不可用",
+   "comment": "虽未推销，保养建议却缺少资料支持，也没有明确的发送必要。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 5,
+    "brand_voice": 5,
+    "naturalness": 5,
+    "effectiveness": 5
+   },
+   "sendability": "直接可发",
+   "comment": "不发送消息最符合客户的明确意愿；此处“直接可发”指可直接执行静默策略。"
+  }
+ ],
+ "set": {
+  "diversity": 4,
+  "risk_judgement": "正确",
+  "best_index": 3,
+  "must_coverage": "1/1",
+  "summary": "整体正确识别了拒绝推销的边界，静默不发是最佳选择；两条售后消息则缺少当前必要性。备注将客户拒绝新品推送表述为拒绝该款作品，判断过度；客户日后主动到店也不等于同意被推荐新品。"
+ },
+ "_judge": "openai:gpt-6.1-terra"
+}

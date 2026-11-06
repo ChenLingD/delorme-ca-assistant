@@ -1,0 +1,185 @@
+{
+ "case_id": "C12",
+ "version": "v3.1",
+ "model": "gemini:gemini-3.8-flash",
+ "risk": {
+  "level": "ok",
+  "flags": [],
+  "advice": ""
+ },
+ "candidates": [
+  {
+   "text": "冯先生好，结婚五周年很适合看穹顶系列的 18K 黄金戒指。它的金属弧线没有任何多余装饰，线条很干净，配白衬衫随性又有质感，11 号戴着也合适。",
+   "strategy": "极简",
+   "note_for_ca": "直接给出最精准的一款推荐，适合偏好高效率的理科客户。"
+  },
+  {
+   "text": "冯先生好，五周年纪念很有意义。如果是太太日常戴，我特别推荐穹顶系列的 18K 黄金戒指。这个系列的灵感来自经典穹顶的力学线条，结构感很强，不少懂建筑的朋友都偏爱它的利落。内圈我们还可以免费为您刻上五周年的专属字样，低调又有心意。",
+   "strategy": "走心",
+   "note_for_ca": "契合太太建筑师审美，并点明内圈免费刻字的五周年意义。"
+  },
+  {
+   "text": "冯先生好，给您挑了一款最对味的：穹顶系列 18K 黄金戒指。它的弧度非常柔和耐看，和白衬衫是绝配。我正好在店里，先拍两张 11 号在自然光下的佩戴图发给您看看感觉？",
+   "strategy": "推进",
+   "note_for_ca": "给出一个低负担的下一步，以发实物佩戴图推进选择。"
+  }
+ ],
+ "checks": [
+  {
+   "pass": true,
+   "hard": [],
+   "soft": [],
+   "length": 68
+  },
+  {
+   "pass": true,
+   "hard": [],
+   "soft": [],
+   "length": 112
+  },
+  {
+   "pass": true,
+   "hard": [],
+   "soft": [],
+   "length": 78
+  }
+ ],
+ "trace": {
+  "rounds": [
+   {
+    "rule_checks": [
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 68
+     },
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 112
+     },
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 78
+     }
+    ],
+    "critic": {
+     "reviews": [
+      {
+       "index": 1,
+       "pass": true,
+       "issues": []
+      },
+      {
+       "index": 2,
+       "pass": true,
+       "issues": []
+      },
+      {
+       "index": 3,
+       "pass": true,
+       "issues": []
+      }
+     ],
+     "set_issues": []
+    },
+    "set_issues": [],
+    "to_fix": {}
+   }
+  ],
+  "plan": {
+   "client_read": "冯先生是一位表达清晰、注重效率的理性创业者，完全信任顾问的专业眼光；此刻带着明确的结婚五周年纪念日选礼诉求主动求助，是深化客户信任的关键时机。",
+   "risk": {
+    "level": "ok",
+    "flags": [],
+    "advice": ""
+   },
+   "ca_commitments": [],
+   "usable_facts": [
+    "12月8日是与太太结婚5周年纪念日",
+    "太太是建筑师，日常偏爱白衬衫和简洁风格",
+    "太太戒圈为11号",
+    "冯先生希望CA直接给出明确建议"
+   ],
+   "do_not_mention": [
+    "消费金额及入门阶段等内部标签",
+    "主动谈及去年敲钟戴袖扣的陈年旧事",
+    "折扣、优惠、性价比等促销词汇",
+    "未确认的工期或额外礼遇承诺"
+   ],
+   "products": [
+    "COU-R01"
+   ],
+   "unanswerable": "",
+   "slots": {
+    "极简": {
+     "切入点": "直接给出最契合的单品建议",
+     "唯一信息点": "推荐穹顶系列黄金戒指，素金弧线线条干净利落，搭白衬衫非常自然"
+    },
+    "走心": {
+     "切入点": "太太的建筑专业视角与纪念日意义",
+     "唯一信息点": "穹顶本身的结构弧线很受建筑审美认可，且内圈可免费刻下属于你们五周年的专属字样"
+    },
+    "推进": {
+     "切入点": "针对11号手寸与具体佩戴效果的下一步",
+     "唯一信息点": "先拍几张穹顶18K黄金戒指在自然光下的佩戴实物图给冯先生过目"
+    }
+   }
+  },
+  "first_draft": [
+   {
+    "text": "冯先生好，结婚五周年很适合看穹顶系列的 18K 黄金戒指。它的金属弧线没有任何多余装饰，线条很干净，配白衬衫随性又有质感，11 号戴着也合适。",
+    "strategy": "极简",
+    "note_for_ca": "直接给出最精准的一款推荐，适合偏好高效率的理科客户。"
+   },
+   {
+    "text": "冯先生好，五周年纪念很有意义。如果是太太日常戴，我特别推荐穹顶系列的 18K 黄金戒指。这个系列的灵感来自经典穹顶的力学线条，结构感很强，不少懂建筑的朋友都偏爱它的利落。内圈我们还可以免费为您刻上五周年的专属字样，低调又有心意。",
+    "strategy": "走心",
+    "note_for_ca": "契合太太建筑师审美，并点明内圈免费刻字的五周年意义。"
+   },
+   {
+    "text": "冯先生好，给您挑了一款最对味的：穹顶系列 18K 黄金戒指。它的弧度非常柔和耐看，和白衬衫是绝配。我正好在店里，先拍两张 11 号在自然光下的佩戴图发给您看看感觉？",
+    "strategy": "推进",
+    "note_for_ca": "给出一个低负担的下一步，以发实物佩戴图推进选择。"
+   }
+  ],
+  "seconds": 30.9,
+  "diversity_max_sim": 0.11206896551724138,
+  "calls": [
+   {
+    "requested": "gemini-3.8-flash",
+    "served": "gemini-3.8-flash",
+    "seconds": 12.3,
+    "attempt": 1,
+    "in_tokens": 5737,
+    "out_tokens": 457,
+    "reasoning_tokens": null,
+    "fingerprint": null
+   },
+   {
+    "requested": "gemini-3.8-flash",
+    "served": "gemini-3.8-flash",
+    "seconds": 5.4,
+    "attempt": 1,
+    "in_tokens": 5097,
+    "out_tokens": 358,
+    "reasoning_tokens": null,
+    "fingerprint": null
+   },
+   {
+    "requested": "gemini-3.8-flash",
+    "served": "gemini-3.8-flash",
+    "seconds": 13.2,
+    "attempt": 1,
+    "in_tokens": 4999,
+    "out_tokens": 102,
+    "reasoning_tokens": null,
+    "fingerprint": null
+   }
+  ]
+ }
+}

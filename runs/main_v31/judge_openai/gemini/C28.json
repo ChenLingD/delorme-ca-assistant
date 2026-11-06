@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 4,
+    "naturalness": 4,
+    "effectiveness": 5
+   },
+   "sendability": "直接可发",
+   "comment": "简短说明接手并为上次怠慢致歉，“负责为您对接”稍显书面，但整体得体。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "轻微：先谈袖扣再为未解决的投诉致歉，削弱了对客户不愉快体验的重视。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 2,
+    "naturalness": 2,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "虽引用了真实藏品，但袖扣评价插入得生硬，建议删去并先处理投诉。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "轻微：“绝不再耽误您的时间”是未经 CA 要点支持、也难以保证的绝对服务承诺。",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 3,
+    "naturalness": 2,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "认错清楚，但提及查看记录和“正式致歉并重新建联”偏公文，应删去绝对保证并压缩措辞。"
+  }
+ ],
+ "set": {
+  "diversity": 2,
+  "risk_judgement": "正确",
+  "best_index": 1,
+  "must_coverage": "2/2",
+  "summary": "三条都介绍了新 CA 并提及投诉，风险判断也抓住了先处理不愉快的重点。候选整体切入方式相近，主要问题是第二条先谈藏品、第三条使用了过度承诺。"
+ },
+ "_judge": "openai:gpt-6.1-terra"
+}

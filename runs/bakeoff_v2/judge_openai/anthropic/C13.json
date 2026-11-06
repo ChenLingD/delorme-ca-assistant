@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "只表示看到了问题，没有回答克拉差别，也没有说明戒圈的解决办法。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 2,
+    "brand_voice": 2,
+    "naturalness": 3,
+    "effectiveness": 1
+   },
+   "sendability": "不可用",
+   "comment": "过于笼统，既没有实质解答，也没有给出后续确认的方向。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "回答了戒圈问题，但遗漏了客户关于1克拉和1.5克拉视觉差别的问题。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 4,
+    "naturalness": 4,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "回应了惊喜顾虑并准确说明改圈服务，补上克拉对比的答复会更完整。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "暗示有几张可发送的克拉对比图，但资料未确认图片是否存在或可用。",
+    "context_failure": "没有实质说明两种克拉的视觉差别，也遗漏了戒圈问题。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 2
+   },
+   "sendability": "小改可发",
+   "comment": "愿意确认具体情况，但需先核实对比图，并补答尺寸和戒圈问题。"
+  }
+ ],
+ "set": {
+  "diversity": 4,
+  "risk_judgement": "偏紧",
+  "best_index": 2,
+  "must_coverage": "1/2",
+  "summary": "三条都没有完整回应客户的两个问题；候选2准确提示了改圈服务，但无人实质回答克拉大小的视觉差别。风险判断对戒圈问题限定为只能提改圈服务过于严格，也可提供不破坏惊喜的戒圈获取思路。"
+ },
+ "_judge": "openai:gpt-6.1-terra"
+}

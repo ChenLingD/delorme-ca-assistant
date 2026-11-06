@@ -1,0 +1,28 @@
+{
+  "case_id": "SAMPLE-01",
+  "scenario": "birthday_festive",
+  "today": "2026-11-12",
+  "occasion": "客户今天生日",
+  "ca": {"name": "Vivian", "gender": "女", "years_experience": 6, "store": "上海恒隆广场精品店", "known_client_since": "2021-04", "style": "偏亲切"},
+  "client": {
+    "surname": "林", "given_name": "思远", "gender": "女", "age_range": "40-45", "city": "上海", "occupation": "家族企业董事",
+    "client_since": "2019-03", "spend_band": "100万以上", "stage": "晨星资格",
+    "last_visit": "2026-10-20", "last_purchase": "2025-12",
+    "wealth_source": "家族传承", "motivations": ["收藏"], "social_visibility": "低调", "price_sensitivity": "低",
+    "style_preference": "极简、偏冷色调", "material_preference": "白金、珍珠",
+    "owned_pieces": [
+      {"date": "2019-03", "item": "沧海 Akoya 珍珠耳钉"},
+      {"date": "2023-09", "item": "沧海 南洋白珠单串项链", "note": "2026-10 送修重新串线"},
+      {"date": "2025-12", "item": "晨星 18K 黄金镶钻手镯"}
+    ],
+    "formality": "适中", "reply_habit": "回复慢，但会认真回", "recommendation_openness": "一般",
+    "birthday": "11-12", "family_notes": "女儿 12 岁，学大提琴", "interests": ["古典音乐", "园艺"],
+    "flags": {"open_complaint": "10 月 20 日送修的南洋白珠项链重新串线，原定 3 周交付，目前已延误 1 周，客户 11 月 8 日询问过进度，尚未给出明确答复"}
+  },
+  "conversation_history": [
+    {"sender": "ca", "time": "2026-10-20 16:10", "text": "林女士，项链已经帮您登记送去工坊重新串线了，大概三周左右，好了第一时间告诉您。"},
+    {"sender": "client", "time": "2026-10-20 18:32", "text": "好的，辛苦。"},
+    {"sender": "client", "time": "2026-11-08 21:05", "text": "Vivian，项链怎么样了？下周末有个演出想戴。"},
+    {"sender": "ca", "time": "2026-11-09 10:02", "text": "林女士，我马上帮您问一下工坊那边，今天给您回复。"}
+  ]
+}

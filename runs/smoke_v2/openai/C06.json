@@ -1,0 +1,365 @@
+{
+ "case_id": "C06",
+ "version": "v2",
+ "model": "openai:gpt-6.1-terra",
+ "risk": {
+  "level": "hold",
+  "flags": [
+   "父亲于 2026 年 10 月下旬去世，属于近期丧亲",
+   "客户表示项链的事晚点再说"
+  ],
+  "advice": "不按常规生日祝福发送；如需联系，以不要求回复的简短关心为主，不提快乐、作品或搁置的事务。"
+ },
+ "candidates": [
+  {
+   "text": "陆女士，生日这天，我想跟您说声保重。",
+   "strategy": "极简",
+   "note_for_ca": "适合只发一句简短问候时使用"
+  },
+  {
+   "text": "陆女士，知道您最近经历了父亲离世，今天是您的生日，我想给您送一声问候，也请您多保重身体。",
+   "strategy": "走心",
+   "note_for_ca": "提及近期失去父亲，适合表达体谅"
+  },
+  {
+   "text": "陆女士，今天是您的生日，想给您留一句问候。我记得这个日子，也一直惦记着您，您不用特意回复我。",
+   "strategy": "推进",
+   "note_for_ca": "适合想表达惦记、又不增加回复负担时。"
+  }
+ ],
+ "checks": [
+  {
+   "pass": true,
+   "hard": [],
+   "soft": [],
+   "length": 18
+  },
+  {
+   "pass": true,
+   "hard": [],
+   "soft": [],
+   "length": 44
+  },
+  {
+   "pass": false,
+   "hard": [
+    "擅自承诺（预留）：“给您留”不在 CA 提供的信息中"
+   ],
+   "soft": [
+    "陈词：一直惦记着您"
+   ],
+   "length": 46
+  }
+ ],
+ "trace": {
+  "rounds": [
+   {
+    "rule_checks": [
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 18
+     },
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 44
+     },
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 42
+     }
+    ],
+    "critic": {
+     "reviews": [
+      {
+       "index": 1,
+       "pass": true,
+       "issues": []
+      },
+      {
+       "index": 2,
+       "pass": true,
+       "issues": []
+      },
+      {
+       "index": 3,
+       "pass": true,
+       "issues": []
+      }
+     ],
+     "set_issues": [
+      {
+       "indices": [
+        2,
+        3
+       ],
+       "issue": "两条都以生日问候开头，并以“多保重身体”收尾，整体意思较近。可让第 2 条侧重对客户近况的关心，第 3 条保留“不用回复”，调整结尾，避免重复。"
+      }
+     ]
+    },
+    "set_issues": [
+     "两条都以生日问候开头，并以“多保重身体”收尾，整体意思较近。可让第 2 条侧重对客户近况的关心，第 3 条保留“不用回复”，调整结尾，避免重复。",
+     "候选 2 和 3 结尾相同（“多保重身体”）"
+    ],
+    "to_fix": {
+     "3": [
+      "与其他候选雷同：两条都以生日问候开头，并以“多保重身体”收尾，整体意思较近。可让第 2 条侧重对客户近况的关心，第 3 条保留“不用回复”，调整结尾，避免重复。",
+      "候选 2 和 3 结尾相同（“多保重身体”）"
+     ]
+    }
+   },
+   {
+    "rule_checks": [
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 18
+     },
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 44
+     },
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 49
+     }
+    ],
+    "critic": {
+     "reviews": [
+      {
+       "index": 1,
+       "pass": true,
+       "issues": []
+      },
+      {
+       "index": 2,
+       "pass": true,
+       "issues": []
+      },
+      {
+       "index": 3,
+       "pass": true,
+       "issues": []
+      }
+     ],
+     "set_issues": [
+      {
+       "indices": [
+        2,
+        3
+       ],
+       "issue": "两条都用“今天是您的生日，我想……送……一声问候”，句式较相近。可让第 2 条侧重对近期经历的体贴，第 3 条保留生日问候和不必回复的关心，换一种表达。"
+      }
+     ]
+    },
+    "set_issues": [
+     "两条都用“今天是您的生日，我想……送……一声问候”，句式较相近。可让第 2 条侧重对近期经历的体贴，第 3 条保留生日问候和不必回复的关心，换一种表达。"
+    ],
+    "to_fix": {
+     "3": [
+      "与其他候选雷同：两条都用“今天是您的生日，我想……送……一声问候”，句式较相近。可让第 2 条侧重对近期经历的体贴，第 3 条保留生日问候和不必回复的关心，换一种表达。"
+     ]
+    }
+   },
+   {
+    "rule_checks": [
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 18
+     },
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 44
+     },
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 50
+     }
+    ],
+    "critic": {
+     "reviews": [
+      {
+       "index": 1,
+       "pass": true,
+       "issues": []
+      },
+      {
+       "index": 2,
+       "pass": true,
+       "issues": []
+      },
+      {
+       "index": 3,
+       "pass": true,
+       "issues": []
+      }
+     ],
+     "set_issues": [
+      {
+       "indices": [
+        1,
+        2,
+        3
+       ],
+       "issue": "三条都以保重或照顾自己收尾，意思较接近。可保留第1条的简短问候、第2条对客户经历的体恤，让第3条侧重“惦记您，不必回复”，减少重复。"
+      }
+     ]
+    },
+    "set_issues": [
+     "三条都以保重或照顾自己收尾，意思较接近。可保留第1条的简短问候、第2条对客户经历的体恤，让第3条侧重“惦记您，不必回复”，减少重复。"
+    ],
+    "to_fix": {
+     "3": [
+      "与其他候选雷同：三条都以保重或照顾自己收尾，意思较接近。可保留第1条的简短问候、第2条对客户经历的体恤，让第3条侧重“惦记您，不必回复”，减少重复。"
+     ]
+    }
+   }
+  ],
+  "plan": {
+   "client_read": "陆女士与 Yvonne 已相识多年，沟通适中，回复通常较慢。她近期失去父亲，上次收到慰问后表示了感谢，目前应以关心和尊重她的空间为主。",
+   "risk": {
+    "level": "hold",
+    "flags": [
+     "父亲于 2026 年 10 月下旬去世，属于近期丧亲",
+     "客户表示项链的事晚点再说"
+    ],
+    "advice": "不按常规生日祝福发送；如需联系，以不要求回复的简短关心为主，不提快乐、作品或搁置的事务。"
+   },
+   "ca_commitments": [],
+   "usable_facts": [
+    "今天是陆女士的生日",
+    "陆女士近期失去父亲",
+    "Yvonne 上次已向她表达慰问，她回复了感谢"
+   ],
+   "do_not_mention": [
+    "生日快乐或其他带“快乐”的祝词",
+    "兴趣爱好及其他闲聊话题",
+    "任何作品、活动或暂缓的项链事务",
+    "客户的消费金额、内部等级及财富来源"
+   ],
+   "products": [],
+   "slots": {
+    "极简": "在生日这天送上一句克制的关心，不说快乐。",
+    "走心": "体谅她近期经历了父亲离世，让她感到被惦记，不必重复提及丧事。",
+    "推进": "不推动任何事务，只表达一句不需要回复的关心。"
+   }
+  },
+  "first_draft": [
+   {
+    "text": "陆女士，生日这天，我想跟您说声保重。",
+    "strategy": "极简",
+    "note_for_ca": "适合只发一句简短问候时使用"
+   },
+   {
+    "text": "陆女士，知道您最近经历了父亲离世，今天是您的生日，我想给您送一声问候，也请您多保重身体。",
+    "strategy": "走心",
+    "note_for_ca": "提及近期失去父亲，适合表达体谅"
+   },
+   {
+    "text": "陆女士，记得今天是您的生日，我想给您发一句问候。您不用特意回复我，也请您多保重身体。",
+    "strategy": "推进",
+    "note_for_ca": "不推进事务，适合留出回复空间"
+   }
+  ],
+  "seconds": 69.1,
+  "diversity_max_sim": 0.10294117647058823,
+  "calls": [
+   {
+    "requested": "gpt-6.1-terra",
+    "served": "gpt-6.1-terra",
+    "seconds": 10.9,
+    "attempt": 1,
+    "in_tokens": 5795,
+    "out_tokens": 569,
+    "reasoning_tokens": 199,
+    "fingerprint": null
+   },
+   {
+    "requested": "gpt-6.1-terra",
+    "served": "gpt-6.1-terra",
+    "seconds": 6.1,
+    "attempt": 1,
+    "in_tokens": 4973,
+    "out_tokens": 409,
+    "reasoning_tokens": 237,
+    "fingerprint": null
+   },
+   {
+    "requested": "gpt-6.1-terra",
+    "served": "gpt-6.1-terra",
+    "seconds": 12.0,
+    "attempt": 1,
+    "in_tokens": 4810,
+    "out_tokens": 780,
+    "reasoning_tokens": 616,
+    "fingerprint": null
+   },
+   {
+    "requested": "gpt-6.1-terra",
+    "served": "gpt-6.1-terra",
+    "seconds": 7.5,
+    "attempt": 1,
+    "in_tokens": 5217,
+    "out_tokens": 295,
+    "reasoning_tokens": 206,
+    "fingerprint": null
+   },
+   {
+    "requested": "gpt-6.1-terra",
+    "served": "gpt-6.1-terra",
+    "seconds": 8.5,
+    "attempt": 1,
+    "in_tokens": 4817,
+    "out_tokens": 470,
+    "reasoning_tokens": 309,
+    "fingerprint": null
+   },
+   {
+    "requested": "gpt-6.1-terra",
+    "served": "gpt-6.1-terra",
+    "seconds": 6.3,
+    "attempt": 1,
+    "in_tokens": 5213,
+    "out_tokens": 287,
+    "reasoning_tokens": 195,
+    "fingerprint": null
+   },
+   {
+    "requested": "gpt-6.1-terra",
+    "served": "gpt-6.1-terra",
+    "seconds": 13.3,
+    "attempt": 1,
+    "in_tokens": 4819,
+    "out_tokens": 772,
+    "reasoning_tokens": 605,
+    "fingerprint": null
+   },
+   {
+    "requested": "gpt-6.1-terra",
+    "served": "gpt-6.1-terra",
+    "seconds": 4.5,
+    "attempt": 1,
+    "in_tokens": 5214,
+    "out_tokens": 293,
+    "reasoning_tokens": 207,
+    "fingerprint": null
+   }
+  ]
+ }
+}

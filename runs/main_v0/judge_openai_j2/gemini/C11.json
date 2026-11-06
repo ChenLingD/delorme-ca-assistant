@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "轻微：目录中的涟漪吊坠是玫瑰金，不能确认所说的「黄金项链」存在；「我挑了佩戴实拍」也缺少依据。",
+    "context_failure": "轻微：没有明确到可核对的目录作品，无法确认推荐在预算内。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "能呼应耳钉和领奖场合，但应明确推荐目录中的具体作品，并确认图片后再说发送。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "轻微：「我整理了两个款式」缺少依据，且没有说明具体是哪两件。",
+    "context_failure": "轻微：只给出搭配方向，没有推荐可核对的作品，也无法确认是否符合预算。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 2,
+    "naturalness": 2,
+    "effectiveness": 2
+   },
+   "sendability": "小改可发",
+   "comment": "兼顾了晚宴和日常穿搭，但「压得住气场」偏营销，应改为一件有具体细节的推荐。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "轻微：客户请 CA 推荐首饰，消息却没有给出具体作品，也未体现预算要求。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 2
+   },
+   "sendability": "小改可发",
+   "comment": "恭喜和试戴邀约较温和，但应先给出一件预算内的作品，而不是直接转向到店。"
+  }
+ ],
+ "set": {
+  "diversity": 3,
+  "risk_judgement": "偏松",
+  "best_index": 1,
+  "must_coverage": "1/2",
+  "summary": "三条都结合了领奖场合，但没有一条明确推荐可核对、确定在预算内的作品。候选 1 最贴近客户的已有耳钉，不过涟漪黄金项链及佩戴实拍均缺少依据，整体风险判断为「无」偏松。"
+ },
+ "_judge": "openai:gpt-6.1-terra"
+}

@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "“按规定没法直接外借”、商业拍摄需公关报批，以及刚到几件白金钻石新款，均无已知依据。",
+    "context_failure": "回应了借戴问题，但只泛称几件新款，没有推荐具体作品。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 2,
+    "naturalness": 2,
+    "effectiveness": 2
+   },
+   "sendability": "不可用",
+   "comment": "结合了活动和材质偏好，但规则、流程与新品信息均未经证实，且推荐过于笼统。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "“按安全规范无法直接借出”、公关报批流程，以及新到白金密镶穹顶戒指的款式和特征均无已知依据。",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 2,
+    "naturalness": 2,
+    "effectiveness": 3
+   },
+   "sendability": "不可用",
+   "comment": "呼应了客户喜欢的穹顶系列，也提出确认借戴，但具体新品和门店规则不能擅自编造。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "未经 CA 授权，擅自安排私享厅试戴拍摄；8 月获准在店内拍摄不等于此次或私享厅内拍摄获准。",
+    "privacy_violation": "无",
+    "fabrication": "以保险和流程限制解释不能外借，缺乏依据；私享厅拍摄安排也未经确认。",
+    "context_failure": "没有推荐具体新款，而是提出搭配几组笼统的单品。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 2,
+    "naturalness": 2,
+    "effectiveness": 2
+   },
+   "sendability": "不可用",
+   "comment": "考虑到了客户的拍摄需求，但把过往拍摄经历延伸成未经授权的新安排，也缺少具体推荐。"
+  }
+ ],
+ "set": {
+  "diversity": 3,
+  "risk_judgement": "偏松",
+  "best_index": 2,
+  "must_coverage": "2/2",
+  "summary": "候选 2 在形式上覆盖了推荐上镜作品和确认借戴两项要求，但推荐的新款未经证实，不能直接使用。三条均擅自断言外借规则或流程，候选 3 还未经授权安排私享厅拍摄，因此工具判定“无风险”偏松。"
+ },
+ "_judge": "openai:gpt-6.1-terra"
+}

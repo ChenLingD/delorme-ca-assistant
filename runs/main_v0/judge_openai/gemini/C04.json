@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "轻微：节日 emoji 仅适用于关系熟络的客户；双方认识约一年且已有八个月未联系，熟络程度不足以确认。",
+    "privacy_violation": "无",
+    "fabrication": "轻微：“平时工作忙碌”是根据职业作出的推测，档案和聊天记录没有明确说明。",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "吊坠周年切入有个人感，但“和家人好好放松”略替客户安排，建议去掉忙碌推测和 emoji。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "严重：自行承诺超声波清洗、几分钟完成及恢复原本光泽，超出品牌固定服务可确认的范围。",
+    "privacy_violation": "无",
+    "fabrication": "严重：清洗方式、耗时和效果均无依据；给 CA 的备注称保养服务“一年到期”，也与终身免费清洗的政策不符。",
+    "context_failure": "轻微：节日祝福被到店保养建议占据，偏离祝福本身的目的。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 2,
+    "naturalness": 2,
+    "effectiveness": 1
+   },
+   "sendability": "不可用",
+   "comment": "终身免费清洗确是固定服务，但具体方式和效果不能自行承诺，且不宜借节日祝福转向保养邀约。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "轻微：“给您挑吊坠”暗示 CA 曾参与挑选，记录只确认她帮客户调过链长，未确认挑选过程。",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 4,
+    "naturalness": 4,
+    "effectiveness": 4
+   },
+   "sendability": "小改可发",
+   "comment": "祝福简短自然，去年吊坠的细节也贴合客户；将挑选过程改为不涉及 CA 具体参与方式的说法即可。"
+  }
+ ],
+ "set": {
+  "diversity": 3,
+  "risk_judgement": "偏松",
+  "best_index": 3,
+  "must_coverage": "2/2",
+  "summary": "候选 3 最接近轻松得体、不推新的目标，但需修正未经确认的挑选细节；三条都从吊坠周年切入，角度差异有限。主要风险在候选 2：清洗方式、耗时和效果均属自行承诺，CA 备注还误称保养服务一年到期，工具判为无风险偏松。"
+ },
+ "_judge": "openai:gpt-6.1-terra"
+}

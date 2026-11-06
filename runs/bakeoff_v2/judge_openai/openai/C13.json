@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "两个问题都只说确认后回复，没有说明大小差异，也没有提供戒圈获取方法或改圈服务。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 2,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 1
+   },
+   "sendability": "不可用",
+   "comment": "虽简短克制，但几乎没有实质信息，需要重写。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "回应了保密需求和改圈问题，但对客户关心的大小差异仅表示核实，未作实际回答。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 4,
+    "naturalness": 4,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "理解惊喜需求并提供固定服务，是三条中最完整的一条；仍需补充可确认的大小差异说明。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "提出核实对比图和价格，但未实际回答大小差异，也遗漏戒圈问题。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 4,
+    "naturalness": 4,
+    "effectiveness": 2
+   },
+   "sendability": "小改可发",
+   "comment": "核实图片和价格较谨慎，但需补上大小差异的实际说明及戒圈解决办法。"
+  }
+ ],
+ "set": {
+  "diversity": 3,
+  "risk_judgement": "正确",
+  "best_index": 2,
+  "must_coverage": "1/2",
+  "summary": "三条都没有推超预算作品或制造焦虑，候选 2 也提示了改圈服务。主要问题是没有一条实际回答 1 克拉与 1.5 克拉的视觉差异，候选 1 和 3 还遗漏了戒圈解决办法。"
+ },
+ "_judge": "openai:gpt-6.1-terra"
+}

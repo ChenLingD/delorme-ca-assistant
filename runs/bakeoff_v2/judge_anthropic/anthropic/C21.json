@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无硬伤，但对一位带情绪、性子急的客户来说太单薄：只有一句“抱歉”，没有回应“质量就这样？”的质疑，也没给具体方案和时间。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 2,
+    "brand_voice": 3,
+    "naturalness": 4,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "安全、简短，道歉和免费抛光都有，但“先承认感受”偏弱，也没给 40 分钟和上门取件这些 CA 明确提供的信息，还把选择权抛回给客户，需要补上方案才算完整。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "整条没有道歉，投诉场景下是明显缺口。“具体怎么安排我跟您细说”把 CA 已有的方案（周二到周日、约 40 分钟、可上门取件）压了下去，对急性子客户等于拖延，回应显得含糊。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 2,
+    "naturalness": 2,
+    "effectiveness": 2
+   },
+   "sendability": "不可用",
+   "comment": "拿她买戒指当天说的“弧度很显手”来共情，在她正生气时显得绕、有点套路，还替她下判断（“我看得出您是真喜欢”）；既没道歉，也没给方案和时间，must 基本没做到。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无（周二到周日、约 40 分钟、上门取件均来自 CA 的额外要求）",
+    "context_failure": "无",
+    "must_not_hit": "无（没有“正常磨损”的说教，没有推新品，没有提她的工作环境）"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 4,
+    "naturalness": 4,
+    "effectiveness": 5
+   },
+   "sendability": "直接可发",
+   "comment": "先道歉，再给免费抛光、时间、到店或上门取件两个选项，不辩解，也不提佩戴原因；“回我一个字就行”稍有点套路，整体偏长但信息都有用，对急性子的客户很合适。"
+  }
+ ],
+ "set": {
+  "diversity": 3,
+  "risk_judgement": "正确",
+  "best_index": 3,
+  "must_coverage": "3/3（仅候选 3 全部做到；候选 1 只做到部分，候选 2 基本没做到）",
+  "summary": "风险判断准确：hold 营销、立即回复、先承认再给免费抛光，并避开了“叮嘱过别碰硬物”和工作环境这些雷区。三条核心都是“道歉＋免费抛光”，差别主要在篇幅，切入角度不够分明，候选 2 的“走心”还丢了道歉和具体方案，只有候选 3 达到资深 CA 的处理水平。"
+ },
+ "_judge": "anthropic:claude-sonnet-5-5"
+}

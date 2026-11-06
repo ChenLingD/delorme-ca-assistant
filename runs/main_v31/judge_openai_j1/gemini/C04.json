@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "祝福语有所叠加，缺少具体内容，偏群发口吻。",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无",
+    "must_not_hit": "有群发感：“轻松惬意”“平安顺遂”连续使用，缺少个人化表达。"
+   },
+   "scores": {
+    "personalization": 1,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "称呼和节日问候得体，但祝福堆叠，删去一句会更自然。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "“默默陪您走过整整一年”略显煽情，也替客户安排了今晚的状态。",
+    "privacy_violation": "无",
+    "fabrication": "购买记录只能确定在去年12月，不能确认吊坠已持续陪伴“整整一年”；也不知道客户年尾的工作是否忙完。",
+    "context_failure": "从吊坠自然切入是可行的，但对客户近况作了未经确认的推断。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 2,
+    "naturalness": 2,
+    "effectiveness": 2
+   },
+   "sendability": "小改可发",
+   "comment": "用了升职和吊坠这两个真实细节，但表达过满，去掉陪伴时长和工作状态的推断更稳妥。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "祝福后接连追问工作和出行计划，偏离了祝福本身就是目的的策略。",
+    "privacy_violation": "无",
+    "fabrication": "无；柯基和徒步均有档案依据，出行计划以疑问形式提出。",
+    "context_failure": "不确定客户年末是否能松口气，两个问题也给较久未联系的客户增加了回复负担。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 2,
+    "naturalness": 2,
+    "effectiveness": 2
+   },
+   "sendability": "小改可发",
+   "comment": "小柯基的细节有辨识度，但假定客户工作变轻松并追问出行计划，不如单纯祝福自然。"
+  }
+ ],
+ "set": {
+  "diversity": 4,
+  "risk_judgement": "偏松",
+  "best_index": 1,
+  "must_coverage": "2/2",
+  "summary": "三条均未借节日推新品或活动，候选1最轻松得体，但祝福较泛，有群发感。工具将风险判断为“无”偏松：候选2对佩戴时长和工作状态作了未经确认的推断，候选3则追问过多。"
+ },
+ "_judge": "openai:gpt-6.1-terra"
+}

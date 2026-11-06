@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "轻微：回应了晨星和到货问题，但没有引导客户认识其他系列的工艺语言。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "工艺信息准确，也没有承诺到货时间，但“正式登记心愿”略显公文化，可简化并自然补充其他系列的工艺切入。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "严重：用“产量极少”强调稀缺，触碰品牌禁止制造稀缺感的规定。",
+    "privacy_violation": "无",
+    "fabrication": "严重：目录未提供产量或现货排期信息，“产量极少、没有现货排期”缺乏依据。",
+    "context_failure": "轻微：没有引导客户认识其他系列工艺，量手寸也未解释与客户当前需求的关系。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 1,
+    "naturalness": 1,
+    "effectiveness": 2
+   },
+   "sendability": "不可用",
+   "comment": "借量手寸邀约有一定推进意图，但前半句不通顺，稀缺表述和未经核实的排期信息需要删除。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "轻微：“全程手工打磨”及“工坊一旦有进展”缺少明确依据，前者混淆了作品从起版到镶嵌的工序，后者暗示存在可追踪的工坊进度。",
+    "context_failure": "轻微：没有引导客户认识其他系列的工艺语言。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 2,
+    "brand_voice": 3,
+    "naturalness": 2,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "没有拒绝客户或承诺到货时间，但“值得多一点耐心”略带说教，工艺描述也不够准确具体。"
+  }
+ ],
+ "set": {
+  "diversity": 2,
+  "risk_judgement": "偏松",
+  "best_index": 1,
+  "must_coverage": "2/3",
+  "summary": "三条都接住了晨星需求，没有拒绝客户或承诺具体到货时间，但均未引导了解其他系列工艺。候选2还使用稀缺表述并编造产量和排期信息，因此整体标记为“无风险”偏松。"
+ },
+ "_judge": "openai:gpt-6.1-terra"
+}

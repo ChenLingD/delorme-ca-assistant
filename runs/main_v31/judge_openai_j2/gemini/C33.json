@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "轻微：“今天翻看工坊图册”是未经确认的 CA 当日经历。",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 4,
+    "naturalness": 4,
+    "effectiveness": 4
+   },
+   "sendability": "小改可发",
+   "comment": "问候简短，也自然关联绘画兴趣；去掉未经确认的翻看图册经历即可。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "轻微：没有依据表明 CA 看到了翻印图稿，也不能确定客户已经开始画海浪插画或其写生画风。",
+    "context_failure": "轻微：客户曾说想画海浪插画，不等于已开始创作，追问进展与已知情况有偏差。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 2
+   },
+   "sendability": "小改可发",
+   "comment": "切入兴趣的方向合适，但图稿和创作进展都需改成有依据的表述。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "轻微：“随时带过来，我帮您做”未经确认便承诺 CA 的服务安排。",
+    "privacy_violation": "无",
+    "fabrication": "轻微：品牌固定服务包含免费清洗和检测，但未说明提供“深度清洗”，也未确认 CA 随时可接待。",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "从已有作品的保养切入合理，但联系一年后直接提出带两件作品到店，略显目的性，应收敛安排承诺。"
+  }
+ ],
+ "set": {
+  "diversity": 4,
+  "risk_judgement": "正确",
+  "best_index": 1,
+  "must_coverage": "2/2",
+  "summary": "三条都以简女士本人为中心，没有提及付款人或打探关系，风险提醒总体恰当；但唤醒不必严格局限于已有作品和保养，也可以中性问候或谈真实兴趣。最主要的问题是未经确认的细节和服务安排，三条均需小改后发送，候选 1 最贴近本次简单问候的目标。"
+ },
+ "_judge": "openai:gpt-6.1-terra"
+}

@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "轻微：回应了价格问题，但没有针对十万元预算提供同系列选择。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 1,
+    "brand_voice": 4,
+    "naturalness": 4,
+    "effectiveness": 2
+   },
+   "sendability": "小改可发",
+   "comment": "简短、不施压，但偏泛，可结合客户喜欢的胸针设计并补充预算内选择。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "轻微：暗示见过客户将扣头当胸针佩戴的效果；记录只确认其试戴项链并收到胸针照片。",
+    "context_failure": "轻微：回应了价格问题，但没有针对十万元预算提供同系列选择。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 2,
+    "naturalness": 2,
+    "effectiveness": 2
+   },
+   "sendability": "小改可发",
+   "comment": "抓住了客户喜欢的扣头，但表述冗长、修饰偏多，应避免未经确认的佩戴细节。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "轻微：客户刚试戴过且提出预算，消息却只邀请再次搭配试戴，没有提供预算内的同系列选择。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 1,
+    "brand_voice": 2,
+    "naturalness": 2,
+    "effectiveness": 1
+   },
+   "sendability": "小改可发",
+   "comment": "再次邀约和“不可替代”的措辞有推进成交之感，未回应客户实际的预算顾虑。"
+  }
+ ],
+ "set": {
+  "diversity": 3,
+  "risk_judgement": "正确",
+  "best_index": 1,
+  "must_coverage": "1/2",
+  "summary": "三条都守住了统一价格，也没有提及付款人或推荐超预算作品。主要缺口是均未提供十万元内的同系列选择；候选 1 最简洁，但仍需补充具体选择。"
+ },
+ "_judge": "openai:gpt-6.1-terra"
+}

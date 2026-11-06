@@ -1,0 +1,42 @@
+{
+ "C01": {
+  "A": "gemini",
+  "B": "openai"
+ },
+ "C06": {
+  "A": "gemini",
+  "B": "openai"
+ },
+ "C10": {
+  "A": "openai",
+  "B": "gemini"
+ },
+ "C13": {
+  "A": "openai",
+  "B": "gemini"
+ },
+ "C21": {
+  "A": "gemini",
+  "B": "openai"
+ },
+ "C30": {
+  "A": "openai",
+  "B": "gemini"
+ },
+ "C34": {
+  "A": "openai",
+  "B": "gemini"
+ },
+ "C39": {
+  "A": "openai",
+  "B": "gemini"
+ },
+ "C43": {
+  "A": "gemini",
+  "B": "openai"
+ },
+ "C50": {
+  "A": "openai",
+  "B": "gemini"
+ }
+}

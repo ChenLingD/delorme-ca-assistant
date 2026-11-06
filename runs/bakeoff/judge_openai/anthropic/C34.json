@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 5,
+    "naturalness": 5,
+    "effectiveness": 4
+   },
+   "sendability": "小改可发",
+   "comment": "自然兑现了看图稿的旧约，但未关联她的珍珠收藏，可补一句与藏品有关的话。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "日期、地点和规模清楚，串线经历也间接关联了藏品，但消息偏长，且没有呼应她想看老图稿的心愿。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 4,
+    "naturalness": 4,
+    "effectiveness": 2
+   },
+   "sendability": "小改可发",
+   "comment": "简短且呼应了图稿兴趣，但“那类老图稿”过于含糊，也没有关联珍珠收藏或说明活动日期。"
+  }
+ ],
+ "set": {
+  "diversity": 3,
+  "risk_judgement": "正确",
+  "best_index": 1,
+  "must_coverage": "3/3（跨候选合计；候选2通过重新串线经历间接关联珍珠藏品）",
+  "summary": "三条均无红线问题，候选1最自然地兑现了与客户的约定；工具对场次、人数和携伴信息不足的提醒也恰当。主要问题是没有一条同时明确关联珍珠收藏并呼应看图稿的心愿，候选2的信息尤其偏满。"
+ },
+ "_judge": "openai:gpt-6.1-terra"
+}

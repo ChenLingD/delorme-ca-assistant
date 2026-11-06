@@ -1,0 +1,106 @@
+{
+  "case_id": "C26",
+  "scenario": "reactivation",
+  "today": "2026-11-07",
+  "occasion": "两年未到店；2021 年购入的南洋白珠项链早该重新串线",
+  "ca": {
+    "name": "Sophie",
+    "gender": "女",
+    "years_experience": 9,
+    "store": "上海外滩源旗舰店（含沙龙与私享厅）",
+    "known_client_since": "2016-09",
+    "style": "偏正式"
+  },
+  "client": {
+    "surname": "范",
+    "gender": "女",
+    "age_range": "60-65",
+    "city": "上海",
+    "occupation": "家族纺织企业前董事长（已退休）",
+    "client_since": "2016-09",
+    "spend_band": "30-100万",
+    "stage": "核心",
+    "last_visit": "2024-10",
+    "last_purchase": "2023-05",
+    "wealth_source": "家族传承",
+    "motivations": [
+      "收藏"
+    ],
+    "social_visibility": "低调",
+    "price_sensitivity": "低",
+    "style_preference": "经典、含蓄",
+    "material_preference": "珍珠、白金",
+    "owned_pieces": [
+      {
+        "date": "2016-09",
+        "item": "穹顶 18K 白金满钻戒指",
+        "for_whom": "自戴"
+      },
+      {
+        "date": "2019-04",
+        "item": "沧海 Akoya 珍珠耳钉",
+        "for_whom": "自戴"
+      },
+      {
+        "date": "2021-04",
+        "item": "沧海 南洋白珠单串项链",
+        "for_whom": "自戴",
+        "note": "购入后未做过重新串线"
+      },
+      {
+        "date": "2023-05",
+        "item": "穹顶 小号腕表款手镯",
+        "for_whom": "自戴"
+      }
+    ],
+    "formality": "正式",
+    "reply_habit": "回复少，但礼数周到",
+    "recommendation_openness": "反感",
+    "family_notes": "外孙女在读初中",
+    "interests": [
+      "评弹",
+      "书法",
+      "苏州园林"
+    ],
+    "notes": "2024 年 10 月来做过一次戒指清洗，之后没来过。常戴那条白珠项链出席家族活动。"
+  },
+  "conversation_history": [
+    {
+      "sender": "ca",
+      "time": "2024-10-15 15:20",
+      "text": "范女士，戒指清洗好了，您下次路过来取即可，不着急。"
+    },
+    {
+      "sender": "client",
+      "time": "2024-10-18 10:02",
+      "text": "谢谢 Sophie，已经取了，很亮。"
+    },
+    {
+      "sender": "ca",
+      "time": "2025-01-28 09:30",
+      "text": "范女士，新春快乐，祝您和家人安康顺遂。"
+    },
+    {
+      "sender": "client",
+      "time": "2025-01-28 19:44",
+      "text": "谢谢，也祝你新年好。"
+    }
+  ],
+  "product_skus": [
+    "MDC-N03"
+  ],
+  "ca_request": "想借珍珠项链重新串线的服务联系她。",
+  "test_meta": {
+    "persona": "P1",
+    "type": "core",
+    "must": [
+      "以服务为由",
+      "短"
+    ],
+    "must_not": [
+      "“您很久没来了”式提醒",
+      "推产品",
+      "暗示项链有断线风险以制造焦虑"
+    ]
+  }
+}

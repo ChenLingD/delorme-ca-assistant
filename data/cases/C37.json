@@ -1,0 +1,111 @@
+{
+  "case_id": "C37",
+  "scenario": "event_invitation",
+  "today": "2026-11-25",
+  "occasion": "邀请参加旺多姆之夜高级珠宝私人鉴赏（12-12 / 12-13）",
+  "ca": {
+    "name": "王思齐",
+    "gender": "女",
+    "years_experience": 12,
+    "store": "北京 SKP 精品店",
+    "known_client_since": "2015-06",
+    "style": "偏正式"
+  },
+  "client": {
+    "surname": "乔",
+    "given_name": "曼宁",
+    "gender": "女",
+    "age_range": "56-60",
+    "city": "北京",
+    "occupation": "家族投资控股公司董事长",
+    "client_since": "2014-11",
+    "spend_band": "100万以上",
+    "stage": "晨星资格",
+    "last_visit": "2026-10-11",
+    "last_purchase": "2025-05",
+    "wealth_source": "家族传承",
+    "motivations": [
+      "收藏",
+      "传承给下一代"
+    ],
+    "social_visibility": "低调",
+    "price_sensitivity": "低",
+    "style_preference": "庄重、彩色宝石",
+    "material_preference": "白金、蓝宝石、珍珠",
+    "owned_pieces": [
+      {
+        "date": "2014-11",
+        "item": "沧海 南洋白珠单串项链",
+        "for_whom": "自戴"
+      },
+      {
+        "date": "2018-09",
+        "item": "穹顶 18K 白金满钻戒指",
+        "for_whom": "自戴"
+      },
+      {
+        "date": "2021-03",
+        "item": "穹顶 18K 玫瑰金手镯",
+        "for_whom": "送给女儿",
+        "note": "女儿出嫁时"
+      },
+      {
+        "date": "2023-12",
+        "item": "晨星 18K 黄金镶钻手镯",
+        "for_whom": "自戴"
+      },
+      {
+        "date": "2025-05",
+        "item": "晨星 18K 白金镶钻项链",
+        "for_whom": "自戴"
+      }
+    ],
+    "formality": "正式",
+    "reply_habit": "回复简短，通常由本人回",
+    "recommendation_openness": "一般",
+    "preferred_contact_time": "下午 3 点后",
+    "important_dates": [
+      "01-08 结婚纪念日"
+    ],
+    "family_notes": "女儿已婚，外孙女 3 岁",
+    "interests": [
+      "书法",
+      "古琴",
+      "京剧"
+    ],
+    "notes": "多次提到喜欢斯里兰卡蓝宝石，但不喜欢在公开场合看珠宝，只接受私人预约。周末通常在郊区，周六下午偶尔进城。"
+  },
+  "conversation_history": [
+    {
+      "sender": "ca",
+      "time": "2026-10-11 17:40",
+      "text": "乔女士，今天您试戴的几件我都记下了，谢谢您抽时间过来。"
+    },
+    {
+      "sender": "client",
+      "time": "2026-10-11 20:15",
+      "text": "好。思齐，以后有像样的彩宝，先告诉我。"
+    },
+    {
+      "sender": "ca",
+      "time": "2026-10-12 10:20",
+      "text": "好的乔女士，一定。"
+    }
+  ],
+  "event_id": "EVT-2612-BJ",
+  "ca_request": "想邀请她来私人鉴赏，请她选 12 日或 13 日",
+  "test_meta": {
+    "persona": "P1",
+    "type": "core",
+    "must": [
+      "私密感",
+      "给出可选场次",
+      "说明会提前一周确认"
+    ],
+    "must_not": [
+      "报价",
+      "夸张措辞",
+      "具体透露独一件宝石参数以外的编造信息"
+    ]
+  }
+}

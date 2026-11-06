@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "轻微：CA 尚未询问店经理，“正跟店经理确认”不符合已知进度。",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 4,
+    "naturalness": 4,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "回应简短友好，将“正跟店经理确认”改为“我去跟店经理确认一下”即可。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "轻微：CA 尚未询问店经理，“正跟店经理确认携伴的席位”不符合已知进度。",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "用了两人上次同行的背景，但评价“默契特别好”略显刻意，且须改正确认进度。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 4,
+    "naturalness": 4,
+    "effectiveness": 4
+   },
+   "sendability": "直接可发",
+   "comment": "明确表示会先询问，未答应携伴；刻字建议并非当前所需，删去会更利落。"
+  }
+ ],
+ "set": {
+  "diversity": 3,
+  "risk_judgement": "偏松",
+  "best_index": 3,
+  "must_coverage": "2/2",
+  "summary": "候选均回应了携伴问题，整体语气也较轻松；候选 3 最准确地表达了尚待确认。风险等级用 caution 合适，但提醒中“正在协调席位”及候选 1、2 的“正在确认”均超出了 CA 已知进度。"
+ },
+ "_judge": "openai:gpt-6.1-terra"
+}

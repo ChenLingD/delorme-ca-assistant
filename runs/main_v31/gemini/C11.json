@@ -1,0 +1,184 @@
+{
+ "case_id": "C11",
+ "version": "v3.1",
+ "model": "gemini:gemini-3.8-flash",
+ "risk": {
+  "level": "ok",
+  "flags": [],
+  "advice": ""
+ },
+ "candidates": [
+  {
+   "text": "许女士好，恭喜您。黑色一字肩很衬颈部线条，我最推荐涟漪系列的 18K 黄金单钻吊坠，克制干练，在射灯下有一抹凝聚的光，台风会很稳。",
+   "strategy": "极简",
+   "note_for_ca": "直接给出最契合的单品建议，干练明确。"
+  },
+  {
+   "text": "许女士好，替您高兴。想到您平时常戴那对涟漪耳钉，这件同系列的黄金项链正好能和它呼应。黑色礼服配上这圈微弧的水波金光，利落又有分量，很适合上台领奖的时刻。",
+   "strategy": "走心",
+   "note_for_ca": "结合客户常戴的涟漪耳钉，强调成套搭配的从容气场。"
+  },
+  {
+   "text": "许女士好，黑色一字肩非常适合在锁骨间留一件提提气色的作品。同属涟漪系列的黄金单钻项链无论量感还是线条都很合适，我先发两张不同长度的佩戴效果图给您看看？",
+   "strategy": "推进",
+   "note_for_ca": "给出具体款式并提议发佩戴效果图，易于客户做决策。"
+  }
+ ],
+ "checks": [
+  {
+   "pass": true,
+   "hard": [],
+   "soft": [],
+   "length": 63
+  },
+  {
+   "pass": true,
+   "hard": [],
+   "soft": [],
+   "length": 76
+  },
+  {
+   "pass": true,
+   "hard": [],
+   "soft": [],
+   "length": 75
+  }
+ ],
+ "trace": {
+  "rounds": [
+   {
+    "rule_checks": [
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 63
+     },
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 76
+     },
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 75
+     }
+    ],
+    "critic": {
+     "reviews": [
+      {
+       "index": 1,
+       "pass": true,
+       "issues": []
+      },
+      {
+       "index": 2,
+       "pass": true,
+       "issues": []
+      },
+      {
+       "index": 3,
+       "pass": true,
+       "issues": []
+      }
+     ],
+     "set_issues": []
+    },
+    "set_issues": [],
+    "to_fix": {}
+   }
+  ],
+  "plan": {
+   "client_read": "许女士是一位干练专业、注重形象细节的青年律师，因重要领奖场合主动寻求搭配建议，对 CA 保持着低频但高度信任的关系。",
+   "risk": {
+    "level": "ok",
+    "flags": [],
+    "advice": ""
+   },
+   "ca_commitments": [],
+   "usable_facts": [
+    "下个月参加行业颁奖晚宴并上台领奖",
+    "着装为黑色一字肩礼服",
+    "预算在三万左右",
+    "日常佩戴涟漪系列耳钉"
+   ],
+   "do_not_mention": [
+    "累计消费金额与客户内部评级",
+    "主动提及执业考核等私密背景",
+    "折扣、优惠、性价比等营销词汇"
+   ],
+   "products": [
+    "OND-P01"
+   ],
+   "unanswerable": "",
+   "slots": {
+    "极简": {
+     "切入点": "直接呼应黑色一字肩与领奖台的颈部修饰需求",
+     "唯一信息点": "推荐同属涟漪系列的单钻吊坠，克制干练，贴合一字肩的颈部线条"
+    },
+    "走心": {
+     "切入点": "恭喜许女士上台领奖，联结她常戴的涟漪耳钉",
+     "唯一信息点": "吊坠的水波纹与单钻能与她耳畔的涟漪耳钉呼应，成套佩戴既有庄重感又不过度张扬"
+    },
+    "推进": {
+     "切入点": "针对一字肩领口的视觉平衡切入",
+     "唯一信息点": "先发两张实佩图供她参考颈链长度与领口的搭配效果"
+    }
+   }
+  },
+  "first_draft": [
+   {
+    "text": "许女士好，恭喜您。黑色一字肩很衬颈部线条，我最推荐涟漪系列的 18K 黄金单钻吊坠，克制干练，在射灯下有一抹凝聚的光，台风会很稳。",
+    "strategy": "极简",
+    "note_for_ca": "直接给出最契合的单品建议，干练明确。"
+   },
+   {
+    "text": "许女士好，替您高兴。想到您平时常戴那对涟漪耳钉，这件同系列的黄金项链正好能和它呼应。黑色礼服配上这圈微弧的水波金光，利落又有分量，很适合上台领奖的时刻。",
+    "strategy": "走心",
+    "note_for_ca": "结合客户常戴的涟漪耳钉，强调成套搭配的从容气场。"
+   },
+   {
+    "text": "许女士好，黑色一字肩非常适合在锁骨间留一件提提气色的作品。同属涟漪系列的黄金单钻项链无论量感还是线条都很合适，我先发两张不同长度的佩戴效果图给您看看？",
+    "strategy": "推进",
+    "note_for_ca": "给出具体款式并提议发佩戴效果图，易于客户做决策。"
+   }
+  ],
+  "seconds": 26.5,
+  "diversity_max_sim": 0.08849557522123894,
+  "calls": [
+   {
+    "requested": "gemini-3.8-flash",
+    "served": "gemini-3.8-flash",
+    "seconds": 17.9,
+    "attempt": 1,
+    "in_tokens": 5761,
+    "out_tokens": 440,
+    "reasoning_tokens": null,
+    "fingerprint": null
+   },
+   {
+    "requested": "gemini-3.8-flash",
+    "served": "gemini-3.8-flash",
+    "seconds": 4.5,
+    "attempt": 1,
+    "in_tokens": 5104,
+    "out_tokens": 304,
+    "reasoning_tokens": null,
+    "fingerprint": null
+   },
+   {
+    "requested": "gemini-3.8-flash",
+    "served": "gemini-3.8-flash",
+    "seconds": 4.0,
+    "attempt": 1,
+    "in_tokens": 4981,
+    "out_tokens": 74,
+    "reasoning_tokens": null,
+    "fingerprint": null
+   }
+  ]
+ }
+}

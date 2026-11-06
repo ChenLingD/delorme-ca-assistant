@@ -1,0 +1,63 @@
+{
+ "case_id": "C08",
+ "version": "v0",
+ "model": "gemini:gemini-3.8-flash",
+ "risk": {
+  "level": "ok",
+  "flags": [],
+  "advice": ""
+ },
+ "candidates": [
+  {
+   "text": "宋女士，生日快乐。愿新的一岁镜头内外都是好光景，今天过得开心愉快🎂",
+   "strategy": "纯粹温和的生日祝福，自然呼应她的审美与镜头日常，不带任何产品推销与沟通压力。",
+   "note_for_ca": "最轻盈、真诚的选择，契合微信真人生日问候的习惯，不给客户制造回复负担。"
+  },
+  {
+   "text": "宋女士，生日快乐。认识大半年了，那对涟漪耳钉平时要是常戴，路过杭州大厦随时进来做个免费清洗。祝您今天顺心尽兴✨",
+   "strategy": "生日祝福融入品牌固有的免费清洗保养服务，从日常佩戴切入，体现实用关怀与长期陪伴感。",
+   "note_for_ca": "借日常售后提供一个轻松的到店由头，完全不提选购新品，更符合老朋友般的分寸感。"
+  },
+  {
+   "text": "宋女士，祝您生日快乐。愿新的一岁继续遇到一眼就心动的美好事物，今天的咖啡和蛋糕都格外合心意。",
+   "strategy": "融入对她生活方式与好审美的理解，以懂行老朋友的口吻送上祝愿，留白自然。",
+   "note_for_ca": "适合她活泼、随意的沟通习惯，完全不给销售压力，专注维护好感度。"
+  }
+ ],
+ "checks": [
+  {
+   "pass": true,
+   "hard": [],
+   "soft": [],
+   "length": 33
+  },
+  {
+   "pass": true,
+   "hard": [],
+   "soft": [],
+   "length": 55
+  },
+  {
+   "pass": true,
+   "hard": [],
+   "soft": [],
+   "length": 46
+  }
+ ],
+ "trace": {
+  "seconds": 21.8,
+  "diversity_max_sim": 0.13333333333333333,
+  "calls": [
+   {
+    "requested": "gemini-3.8-flash",
+    "served": "gemini-3.8-flash",
+    "seconds": 21.8,
+    "attempt": 1,
+    "in_tokens": 2905,
+    "out_tokens": 354,
+    "reasoning_tokens": null,
+    "fingerprint": null
+   }
+  ]
+ }
+}

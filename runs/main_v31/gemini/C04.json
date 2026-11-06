@@ -1,0 +1,366 @@
+{
+ "case_id": "C04",
+ "version": "v3.1",
+ "model": "gemini:gemini-3.8-flash",
+ "risk": {
+  "level": "ok",
+  "flags": [],
+  "advice": ""
+ },
+ "candidates": [
+  {
+   "text": "何女士，平安夜快乐。临近年底，祝您今晚过得轻松惬意，岁末平安顺遂。",
+   "strategy": "极简",
+   "note_for_ca": "干净温和的平安夜问候，适合平实致意不给压力。"
+  },
+  {
+   "text": "何女士，不知不觉去年升职时选的那条涟漪吊坠，已经默默陪您走过整整一年了。年尾手头忙完，今晚好好犒劳一下自己，平安夜快乐。",
+   "strategy": "走心",
+   "note_for_ca": "以吊坠陪伴满一年切入，避开千篇一律的节日开头，真诚有温度。"
+  },
+  {
+   "text": "何女士，平安夜快乐。年末这一阵手头总算可以稍微松口气了吧？马上连着元旦，有打算带家里的小柯基去周边走走透透气吗？",
+   "strategy": "推进",
+   "note_for_ca": "结合柯基与元旦假期抛出轻松话题，适合想自然开启对话时使用。"
+  }
+ ],
+ "checks": [
+  {
+   "pass": true,
+   "hard": [],
+   "soft": [],
+   "length": 33
+  },
+  {
+   "pass": true,
+   "hard": [],
+   "soft": [],
+   "length": 60
+  },
+  {
+   "pass": true,
+   "hard": [],
+   "soft": [],
+   "length": 56
+  }
+ ],
+ "trace": {
+  "rounds": [
+   {
+    "rule_checks": [
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 33
+     },
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 58
+     },
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 42
+     }
+    ],
+    "critic": {
+     "reviews": [
+      {
+       "index": 1,
+       "pass": true,
+       "issues": []
+      },
+      {
+       "index": 2,
+       "pass": true,
+       "issues": []
+      },
+      {
+       "index": 3,
+       "pass": true,
+       "issues": []
+      }
+     ],
+     "set_issues": [
+      {
+       "indices": [
+        1,
+        2,
+        3
+       ],
+       "issue": "三条草稿开头第一句全部为完全相同的“何女士，平安夜快乐。”，切入方式单一雷同。建议拉开起笔角度：例如走心版可直接从时间节点切入（如“不知不觉那枚涟漪吊坠已经陪您满一年了”），推进版可从年底节奏或即将到来的元旦切入，避免三条模板化地使用同一句节日问候开头。"
+      }
+     ]
+    },
+    "set_issues": [
+     "三条草稿开头第一句全部为完全相同的“何女士，平安夜快乐。”，切入方式单一雷同。建议拉开起笔角度：例如走心版可直接从时间节点切入（如“不知不觉那枚涟漪吊坠已经陪您满一年了”），推进版可从年底节奏或即将到来的元旦切入，避免三条模板化地使用同一句节日问候开头。"
+    ],
+    "to_fix": {
+     "3": [
+      "与其他候选雷同：三条草稿开头第一句全部为完全相同的“何女士，平安夜快乐。”，切入方式单一雷同。建议拉开起笔角度：例如走心版可直接从时间节点切入（如“不知不觉那枚涟漪吊坠已经陪您满一年了”），推进版可从年底节奏或即将到来的元旦切入，避免三条模板化地使用同一句节日问候开头。"
+     ]
+    }
+   },
+   {
+    "rule_checks": [
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 33
+     },
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 58
+     },
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 60
+     }
+    ],
+    "critic": {
+     "reviews": [
+      {
+       "index": 1,
+       "pass": true,
+       "issues": []
+      },
+      {
+       "index": 2,
+       "pass": true,
+       "issues": []
+      },
+      {
+       "index": 3,
+       "pass": true,
+       "issues": []
+      }
+     ],
+     "set_issues": [
+      {
+       "indices": [
+        1,
+        2
+       ],
+       "issue": "第 1 条与第 2 条开头完全一致（均为“何女士，平安夜快乐”），建议第 2 条将切入点直接放在作品周年陪伴上（例如“何女士，算起来去年升职时挑的那枚涟漪吊坠…”），拉开开篇差异。"
+      },
+      {
+       "indices": [
+        1,
+        3
+       ],
+       "issue": "第 1 条结尾“祝您今晚过得轻松惬意”与第 3 条结尾“祝您过得轻松自在”用词雷同（“轻松惬意/轻松自在”），且都在祝今晚。建议第 3 条聚焦于假期安排与问候，避免重复的句式收尾。"
+      }
+     ]
+    },
+    "set_issues": [
+     "第 1 条与第 2 条开头完全一致（均为“何女士，平安夜快乐”），建议第 2 条将切入点直接放在作品周年陪伴上（例如“何女士，算起来去年升职时挑的那枚涟漪吊坠…”），拉开开篇差异。",
+     "第 1 条结尾“祝您今晚过得轻松惬意”与第 3 条结尾“祝您过得轻松自在”用词雷同（“轻松惬意/轻松自在”），且都在祝今晚。建议第 3 条聚焦于假期安排与问候，避免重复的句式收尾。"
+    ],
+    "to_fix": {
+     "2": [
+      "与其他候选雷同：第 1 条与第 2 条开头完全一致（均为“何女士，平安夜快乐”），建议第 2 条将切入点直接放在作品周年陪伴上（例如“何女士，算起来去年升职时挑的那枚涟漪吊坠…”），拉开开篇差异。"
+     ],
+     "3": [
+      "与其他候选雷同：第 1 条结尾“祝您今晚过得轻松惬意”与第 3 条结尾“祝您过得轻松自在”用词雷同（“轻松惬意/轻松自在”），且都在祝今晚。建议第 3 条聚焦于假期安排与问候，避免重复的句式收尾。"
+     ]
+    }
+   },
+   {
+    "rule_checks": [
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 33
+     },
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 60
+     },
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 60
+     }
+    ],
+    "critic": {
+     "reviews": [
+      {
+       "index": 1,
+       "pass": true,
+       "issues": []
+      },
+      {
+       "index": 2,
+       "pass": true,
+       "issues": []
+      },
+      {
+       "index": 3,
+       "pass": false,
+       "issues": [
+        "称呼客户为‘外企的工作节奏’生硬且有刻意调取档案标签之嫌，显得像在背诵客户档案，且‘常暖’有间接描述气温/天气的倾向。建议更自然地问候年末节奏，去掉‘外企’定语，并使用更得体日常的祝词。"
+       ]
+      }
+     ],
+     "set_issues": []
+    },
+    "set_issues": [],
+    "to_fix": {
+     "3": [
+      "称呼客户为‘外企的工作节奏’生硬且有刻意调取档案标签之嫌，显得像在背诵客户档案，且‘常暖’有间接描述气温/天气的倾向。建议更自然地问候年末节奏，去掉‘外企’定语，并使用更得体日常的祝词。"
+     ]
+    }
+   }
+  ],
+  "plan": {
+   "client_read": "何女士是一位务实、靠自己努力打拼的外企职场人，审美偏好简洁且对消费较为理性；两人目前属于低频但温和友善的弱连接状态，已有约八个月未联络。",
+   "risk": {
+    "level": "ok",
+    "flags": [],
+    "advice": ""
+   },
+   "ca_commitments": [],
+   "usable_facts": [
+    "去年12月为纪念升职购买了涟漪玫瑰金单钻吊坠，至今刚好佩戴满一年",
+    "平时工作日节奏较忙，曾反馈吊坠基本天天佩戴",
+    "家里养了一只柯基，平时喜欢徒步与火锅"
+   ],
+   "do_not_mention": [
+    "内部标签与消费金额（入门阶段、累计5万以下、价格敏感）",
+    "推销任何新作品或促销折扣",
+    "未获CA授权的到店礼遇或虚构天气",
+    "直接催促到店"
+   ],
+   "products": [],
+   "unanswerable": "",
+   "slots": {
+    "极简": {
+     "切入点": "平安夜与年末节庆",
+     "唯一信息点": "最纯粹简净的节日与岁末平安问候"
+    },
+    "走心": {
+     "切入点": "去年此时升职犒劳自己的吊坠刚好陪伴满一整年",
+     "唯一信息点": "提及那枚常常陪伴她通勤的单钻吊坠已静静陪她走过一整年职场时光"
+    },
+    "推进": {
+     "切入点": "即将到来的元旦假期与轻松的生活日常",
+     "唯一信息点": "抛出一个轻松具体的生活小提问，关照她节日是否会带家里的小柯基出门透透气"
+    }
+   }
+  },
+  "first_draft": [
+   {
+    "text": "何女士，平安夜快乐。临近年底，祝您今晚过得轻松惬意，岁末平安顺遂。",
+    "strategy": "极简",
+    "note_for_ca": "干净温和的平安夜问候，适合平实致意不给压力。"
+   },
+   {
+    "text": "何女士，平安夜快乐。算起来去年升职时选的那枚涟漪吊坠，已经默默陪您走过一整年了。年尾忙碌，今晚记得好好犒劳一下自己。",
+    "strategy": "走心",
+    "note_for_ca": "结合满一周年的升职纪念吊坠，肯定她的付出与陪伴。"
+   },
+   {
+    "text": "何女士，平安夜快乐。年底难得能稍稍慢下来，元旦假期有打算带家里的小柯基出去透透气吗？",
+    "strategy": "推进",
+    "note_for_ca": "切入养宠生活细节，抛出轻松的节日提问便于开启互动。"
+   }
+  ],
+  "seconds": 85.8,
+  "diversity_max_sim": 0.08695652173913043,
+  "calls": [
+   {
+    "requested": "gemini-3.8-flash",
+    "served": "gemini-3.8-flash",
+    "seconds": 15.7,
+    "attempt": 1,
+    "in_tokens": 5874,
+    "out_tokens": 447,
+    "reasoning_tokens": null,
+    "fingerprint": null
+   },
+   {
+    "requested": "gemini-3.8-flash",
+    "served": "gemini-3.8-flash",
+    "seconds": 9.9,
+    "attempt": 1,
+    "in_tokens": 5225,
+    "out_tokens": 262,
+    "reasoning_tokens": null,
+    "fingerprint": null
+   },
+   {
+    "requested": "gemini-3.8-flash",
+    "served": "gemini-3.8-flash",
+    "seconds": 14.9,
+    "attempt": 1,
+    "in_tokens": 5044,
+    "out_tokens": 224,
+    "reasoning_tokens": null,
+    "fingerprint": null
+   },
+   {
+    "requested": "gemini-3.8-flash",
+    "served": "gemini-3.8-flash",
+    "seconds": 8.4,
+    "attempt": 1,
+    "in_tokens": 5481,
+    "out_tokens": 111,
+    "reasoning_tokens": null,
+    "fingerprint": null
+   },
+   {
+    "requested": "gemini-3.8-flash",
+    "served": "gemini-3.8-flash",
+    "seconds": 18.8,
+    "attempt": 1,
+    "in_tokens": 5057,
+    "out_tokens": 286,
+    "reasoning_tokens": null,
+    "fingerprint": null
+   },
+   {
+    "requested": "gemini-3.8-flash",
+    "served": "gemini-3.8-flash",
+    "seconds": 5.5,
+    "attempt": 1,
+    "in_tokens": 5637,
+    "out_tokens": 225,
+    "reasoning_tokens": null,
+    "fingerprint": null
+   },
+   {
+    "requested": "gemini-3.8-flash",
+    "served": "gemini-3.8-flash",
+    "seconds": 3.3,
+    "attempt": 1,
+    "in_tokens": 5060,
+    "out_tokens": 181,
+    "reasoning_tokens": null,
+    "fingerprint": null
+   },
+   {
+    "requested": "gemini-3.8-flash",
+    "served": "gemini-3.8-flash",
+    "seconds": 9.2,
+    "attempt": 1,
+    "in_tokens": 5486,
+    "out_tokens": 113,
+    "reasoning_tokens": null,
+    "fingerprint": null
+   }
+  ]
+ }
+}

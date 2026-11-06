@@ -1,0 +1,347 @@
+{
+ "case_id": "C31",
+ "version": "v3.1",
+ "model": "gemini:gemini-3.8-flash",
+ "risk": {
+  "level": "caution",
+  "flags": [
+   "求婚及后续婚姻状况未知，直接询问感情状态存在尴尬与冒犯风险",
+   "购入已满两年，30天免费刻字期已过，不可承诺免费刻字"
+  ],
+  "advice": "绝不打听求婚结果或提及另一半，以常规售后养护为由自然切入，若提刻字不可承诺免费。"
+ },
+ "candidates": [
+  {
+   "text": "钱先生您好，我是德洛姆杭州大厦店的陆安然。不知不觉那枚誓约戒指已经陪伴您两年了，品牌提供终身免费清洗与爪位检查，您近期若顺路过来，可以带它来店里做个基础养护。",
+   "strategy": "极简",
+   "note_for_ca": "以两周年常规养护破冰，不触及私人情感，低门槛无压力。"
+  },
+  {
+   "text": "钱先生，我是杭州大厦店的安然。铂金戴过两年会慢慢沉淀出很温和的质感，不过悬浮镶的主石底下难免积些日常微尘。如果想让它恢复最初通透干净的火彩，随时带过来，我帮您安排一次细致清洗。",
+   "strategy": "走心",
+   "note_for_ca": "切中其对铂金与悬浮镶结构的偏好，谈工艺与光泽感，不涉及对方私事。"
+  },
+  {
+   "text": "钱先生您好，我是德洛姆的陆安然。两年前选誓约戒指时内圈特意留了白，不知后来是否有补刻纪念日期的想法？工坊随时可以办理字记雕刻与深度养护，您若有需要，我随时把流程和周期发给您参考。",
+   "strategy": "推进",
+   "note_for_ca": "以补刻字服务切入唤醒，提供明确下一步，适合想借具体诉求重启沟通。"
+  }
+ ],
+ "checks": [
+  {
+   "pass": true,
+   "hard": [],
+   "soft": [],
+   "length": 79
+  },
+  {
+   "pass": true,
+   "hard": [],
+   "soft": [],
+   "length": 88
+  },
+  {
+   "pass": true,
+   "hard": [],
+   "soft": [],
+   "length": 89
+  }
+ ],
+ "trace": {
+  "rounds": [
+   {
+    "rule_checks": [
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 79
+     },
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 88
+     },
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 91
+     }
+    ],
+    "critic": {
+     "reviews": [
+      {
+       "index": 1,
+       "pass": true,
+       "issues": []
+      },
+      {
+       "index": 2,
+       "pass": true,
+       "issues": []
+      },
+      {
+       "index": 3,
+       "pass": false,
+       "issues": [
+        "违规描述气温：草稿中使用了“立冬之后气温渐凉”，触犯了手册关于“节气不代表天气，不描述具体天气或气温”的硬性规则。建议删去气温描写，直接以问候或服务切入。"
+       ]
+      }
+     ],
+     "set_issues": []
+    },
+    "set_issues": [],
+    "to_fix": {
+     "3": [
+      "违规描述气温：草稿中使用了“立冬之后气温渐凉”，触犯了手册关于“节气不代表天气，不描述具体天气或气温”的硬性规则。建议删去气温描写，直接以问候或服务切入。"
+     ]
+    }
+   },
+   {
+    "rule_checks": [
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 79
+     },
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 88
+     },
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 92
+     }
+    ],
+    "critic": {
+     "reviews": [
+      {
+       "index": 1,
+       "pass": true,
+       "issues": [
+        "“那枚誓约戒指已经陪伴您两年了”略带对方顺利佩戴两年的预设。鉴于档案明确记录不清楚求婚结果，建议表述为更中性的“距离您选定那枚誓约戒指不知不觉过去两年了”，避免客户在求婚未果时产生尴尬。"
+       ]
+      },
+      {
+       "index": 2,
+       "pass": true,
+       "issues": []
+      },
+      {
+       "index": 3,
+       "pass": true,
+       "issues": [
+        "“那枚誓约戒指算来刚好戴满两年了”断定了戒指已被佩戴两年，触碰了未知求婚结果的敏感边界。建议调整为“距离当时选定那枚誓约戒指刚好满两年”。"
+       ]
+      }
+     ],
+     "set_issues": [
+      {
+       "indices": [
+        1,
+        3
+       ],
+       "issue": "草稿 1 与草稿 3 前半段结构与切入点高度雷同，皆为“戒指陪伴/戴满两年”衔接“路过门店做免费清洗与检查”。建议草稿 3 弱化通用的到店清洗话术，直接将重心落脚在两年纪念期的补刻字及工坊深度养护咨询上，与草稿 1 形成明确分工。"
+      }
+     ]
+    },
+    "set_issues": [
+     "草稿 1 与草稿 3 前半段结构与切入点高度雷同，皆为“戒指陪伴/戴满两年”衔接“路过门店做免费清洗与检查”。建议草稿 3 弱化通用的到店清洗话术，直接将重心落脚在两年纪念期的补刻字及工坊深度养护咨询上，与草稿 1 形成明确分工。"
+    ],
+    "to_fix": {
+     "3": [
+      "与其他候选雷同：草稿 1 与草稿 3 前半段结构与切入点高度雷同，皆为“戒指陪伴/戴满两年”衔接“路过门店做免费清洗与检查”。建议草稿 3 弱化通用的到店清洗话术，直接将重心落脚在两年纪念期的补刻字及工坊深度养护咨询上，与草稿 1 形成明确分工。"
+     ]
+    }
+   },
+   {
+    "rule_checks": [
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 79
+     },
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 88
+     },
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 89
+     }
+    ],
+    "critic": {
+     "reviews": [
+      {
+       "index": 1,
+       "pass": true,
+       "issues": []
+      },
+      {
+       "index": 2,
+       "pass": true,
+       "issues": [
+        "CA 陆安然风格偏正式且与客户已两年未联系，自称‘安然’略显随意亲近，建议与第 1、3 条保持一致，使用全名‘陆安然’。"
+       ]
+      },
+      {
+       "index": 3,
+       "pass": true,
+       "issues": [
+        "鉴于客户两年前购买戒指用于求婚且后续结果未知，直接提及‘纪念日期’略带情感预设。建议将‘补刻纪念日期’微调为更中性的‘补刻字记或印记’，分寸感会更稳妥。"
+       ]
+      }
+     ],
+     "set_issues": []
+    },
+    "set_issues": [],
+    "to_fix": {}
+   }
+  ],
+  "plan": {
+   "client_read": "钱先生是一位行事低调、回复克制的建筑设计师，两年前为求婚选购了誓约戒指；双方已两年未联系且感情进展未知，目前处于需要谨慎维护的沉睡状态。",
+   "risk": {
+    "level": "caution",
+    "flags": [
+     "求婚及后续婚姻状况未知，直接询问感情状态存在尴尬与冒犯风险",
+     "购入已满两年，30天免费刻字期已过，不可承诺免费刻字"
+    ],
+    "advice": "绝不打听求婚结果或提及另一半，以常规售后养护为由自然切入，若提刻字不可承诺免费。"
+   },
+   "ca_commitments": [],
+   "usable_facts": [
+    "2024年10月在杭州大厦店选购誓约铂金单钻戒指",
+    "戒指为悬浮镶工艺、铂金材质",
+    "距购入已满两年，到了常规检查与清洗周期"
+   ],
+   "do_not_mention": [
+    "打听求婚结果、结婚与否或询问妻子/另一半",
+    "承诺免费刻字",
+    "两年前莫干山的求婚计划",
+    "消费金额与内部等级",
+    "催促到店或提及很久没联系"
+   ],
+   "products": [
+    "SER-R01"
+   ],
+   "unanswerable": "",
+   "slots": {
+    "极简": {
+     "切入点": "自我介绍与两周年常规养护提醒",
+     "唯一信息点": "提醒誓约戒指已陪伴两年，门店提供终身免费清洗与爪位检查"
+    },
+    "走心": {
+     "切入点": "铂金材质佩戴两年的质感与悬浮镶工艺",
+     "唯一信息点": "谈及铂金随佩戴会沉淀出温和光泽，工坊可做轻柔养护以恢复主石悬浮镶的透光度"
+    },
+    "推进": {
+     "切入点": "结合入冬保养与刻字服务",
+     "唯一信息点": "给出具体回访建议，若路过杭州大厦可带戒指来店清洗，如需工坊补刻字记号也可一并协助办理"
+    }
+   }
+  },
+  "first_draft": [
+   {
+    "text": "钱先生您好，我是德洛姆杭州大厦店的陆安然。不知不觉那枚誓约戒指已经陪伴您两年了，品牌提供终身免费清洗与爪位检查，您近期若顺路过来，可以带它来店里做个基础养护。",
+    "strategy": "极简",
+    "note_for_ca": "以两周年常规养护破冰，不触及私人情感，低门槛无压力。"
+   },
+   {
+    "text": "钱先生，我是杭州大厦店的安然。铂金戴过两年会慢慢沉淀出很温和的质感，不过悬浮镶的主石底下难免积些日常微尘。如果想让它恢复最初通透干净的火彩，随时带过来，我帮您安排一次细致清洗。",
+    "strategy": "走心",
+    "note_for_ca": "切中其对铂金与悬浮镶结构的偏好，谈工艺与光泽感，不涉及对方私事。"
+   },
+   {
+    "text": "钱先生您好，我是德洛姆的陆安然。立冬之后气温渐凉，若您路过杭州大厦，欢迎带戒指来店里做个免费清洗与固石检查。另外如果这枚戒指后续有补刻纪念日期或字记的想法，我也随时帮您对接工坊安排。",
+    "strategy": "推进",
+    "note_for_ca": "给出到店清洗与补刻字选项，不承诺免费刻字，给客户明确下一步。"
+   }
+  ],
+  "seconds": 99.5,
+  "diversity_max_sim": 0.08633093525179857,
+  "calls": [
+   {
+    "requested": "gemini-3.8-flash",
+    "served": "gemini-3.8-flash",
+    "seconds": 15.8,
+    "attempt": 1,
+    "in_tokens": 5812,
+    "out_tokens": 552,
+    "reasoning_tokens": null,
+    "fingerprint": null
+   },
+   {
+    "requested": "gemini-3.8-flash",
+    "served": "gemini-3.8-flash",
+    "seconds": 5.1,
+    "attempt": 1,
+    "in_tokens": 5267,
+    "out_tokens": 346,
+    "reasoning_tokens": null,
+    "fingerprint": null
+   },
+   {
+    "requested": "gemini-3.8-flash",
+    "served": "gemini-3.8-flash",
+    "seconds": 17.3,
+    "attempt": 1,
+    "in_tokens": 5077,
+    "out_tokens": 167,
+    "reasoning_tokens": null,
+    "fingerprint": null
+   },
+   {
+    "requested": "gemini-3.8-flash",
+    "served": "gemini-3.8-flash",
+    "seconds": 3.3,
+    "attempt": 1,
+    "in_tokens": 5616,
+    "out_tokens": 142,
+    "reasoning_tokens": null,
+    "fingerprint": null
+   },
+   {
+    "requested": "gemini-3.8-flash",
+    "served": "gemini-3.8-flash",
+    "seconds": 27.5,
+    "attempt": 1,
+    "in_tokens": 5078,
+    "out_tokens": 350,
+    "reasoning_tokens": null,
+    "fingerprint": null
+   },
+   {
+    "requested": "gemini-3.8-flash",
+    "served": "gemini-3.8-flash",
+    "seconds": 10.5,
+    "attempt": 1,
+    "in_tokens": 5654,
+    "out_tokens": 142,
+    "reasoning_tokens": null,
+    "fingerprint": null
+   },
+   {
+    "requested": "gemini-3.8-flash",
+    "served": "gemini-3.8-flash",
+    "seconds": 20.1,
+    "attempt": 1,
+    "in_tokens": 5077,
+    "out_tokens": 220,
+    "reasoning_tokens": null,
+    "fingerprint": null
+   }
+  ]
+ }
+}

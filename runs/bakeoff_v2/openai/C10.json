@@ -1,0 +1,360 @@
+{
+ "case_id": "C10",
+ "version": "v2",
+ "model": "openai:gpt-6.1-terra",
+ "risk": {
+  "level": "caution",
+  "flags": [
+   "客户想购买配额作品，并询问何时能拿到；无法承诺到货时间或名额。"
+  ],
+  "advice": "先回应价格及无法确定到货时间，征求登记心愿的意愿；可另外介绍一件符合她黄金偏好的作品，不暗示两者有关联条件。"
+ },
+ "candidates": [
+  {
+   "text": "黄女士，晨星手镯的到货目前还无法确定。",
+   "strategy": "极简",
+   "note_for_ca": "先简短回应到货情况；客户问价建议选走心版。"
+  },
+  {
+   "text": "黄女士，您说在聚会上看到朋友戴晨星手镯，觉得真的好看，我记得。到货时间目前无法确定，您问的这只黄金镶钻款是328,000元。",
+   "strategy": "走心",
+   "note_for_ca": "从聚会见闻切入，同时回应价格与到货。"
+  },
+  {
+   "text": "黄女士，晨星黄金镶钻手镯是328,000元，到货时间目前无法确定，我可以先帮您登记心愿吗？另外，想到您喜欢黄金，也可以先看看穹顶黄金戒指的弧线戒身，要我发图给您吗？",
+   "strategy": "推进",
+   "note_for_ca": "回应晨星询问，并按黄金偏好推荐穹顶戒指。"
+  }
+ ],
+ "checks": [
+  {
+   "pass": true,
+   "hard": [],
+   "soft": [],
+   "length": 19
+  },
+  {
+   "pass": true,
+   "hard": [],
+   "soft": [],
+   "length": 62
+  },
+  {
+   "pass": true,
+   "hard": [],
+   "soft": [],
+   "length": 82
+  }
+ ],
+ "trace": {
+  "rounds": [
+   {
+    "rule_checks": [
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 21
+     },
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 58
+     },
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 83
+     }
+    ],
+    "critic": {
+     "reviews": [
+      {
+       "index": 1,
+       "pass": false,
+       "issues": [
+        "只回应了到货时间，遗漏客户明确询问的价格。极简版不放数字，建议另行补充报价，或选用同时回应两个问题的版本。"
+       ]
+      },
+      {
+       "index": 2,
+       "pass": true,
+       "issues": []
+      },
+      {
+       "index": 3,
+       "pass": false,
+       "issues": [
+        "推进版只提到穹顶系列，没有推荐一件具体作品。现有资料未提供可推荐的穹顶作品，建议先登记晨星心愿，待确认其他作品资料后再推荐。"
+       ]
+      }
+     ],
+     "set_issues": [
+      {
+       "indices": [
+        1,
+        2
+       ],
+       "issue": "两条都以“到货时间目前还不能确定”结尾。可调整其中一条的结尾，但仍需如实说明时间未确定。"
+      }
+     ]
+    },
+    "set_issues": [
+     "两条都以“到货时间目前还不能确定”结尾。可调整其中一条的结尾，但仍需如实说明时间未确定。",
+     "候选 1 和 2 结尾相同（“还不能确定”）"
+    ],
+    "to_fix": {
+     "1": [
+      "只回应了到货时间，遗漏客户明确询问的价格。极简版不放数字，建议另行补充报价，或选用同时回应两个问题的版本。"
+     ],
+     "3": [
+      "推进版只提到穹顶系列，没有推荐一件具体作品。现有资料未提供可推荐的穹顶作品，建议先登记晨星心愿，待确认其他作品资料后再推荐。"
+     ],
+     "2": [
+      "与其他候选雷同：两条都以“到货时间目前还不能确定”结尾。可调整其中一条的结尾，但仍需如实说明时间未确定。",
+      "候选 1 和 2 结尾相同（“还不能确定”）"
+     ]
+    }
+   },
+   {
+    "rule_checks": [
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 19
+     },
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 62
+     },
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 64
+     }
+    ],
+    "critic": {
+     "reviews": [
+      {
+       "index": 1,
+       "pass": false,
+       "issues": [
+        "回应了到货时间，但没有回答客户询问的价格。极简版不能放数字，无法同时完整回答；建议先用已回答两项问题的版本，或请 CA 确认放宽极简限制后补充报价。"
+       ]
+      },
+      {
+       "index": 2,
+       "pass": true,
+       "issues": []
+      },
+      {
+       "index": 3,
+       "pass": false,
+       "issues": [
+        "给出了登记心愿的下一步，但未推荐一件可先了解的其他系列作品，不完全符合配额作品的推进版分工。目前资料中除客户已购手链外没有其他系列作品，建议请 CA 补充合适作品，不要自行编造，也不要暗示购买其他作品有助于获得晨星。"
+       ]
+      }
+     ],
+     "set_issues": []
+    },
+    "set_issues": [],
+    "to_fix": {
+     "1": [
+      "回应了到货时间，但没有回答客户询问的价格。极简版不能放数字，无法同时完整回答；建议先用已回答两项问题的版本，或请 CA 确认放宽极简限制后补充报价。"
+     ],
+     "3": [
+      "给出了登记心愿的下一步，但未推荐一件可先了解的其他系列作品，不完全符合配额作品的推进版分工。目前资料中除客户已购手链外没有其他系列作品，建议请 CA 补充合适作品，不要自行编造，也不要暗示购买其他作品有助于获得晨星。"
+     ]
+    }
+   },
+   {
+    "rule_checks": [
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 19
+     },
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 62
+     },
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 71
+     }
+    ],
+    "critic": {
+     "reviews": [
+      {
+       "index": 1,
+       "pass": true,
+       "issues": []
+      },
+      {
+       "index": 2,
+       "pass": true,
+       "issues": []
+      },
+      {
+       "index": 3,
+       "pass": false,
+       "issues": [
+        "推进版提出了登记心愿，但只说从客户已有的涟漪手链聊起，没有推荐另一件可先了解的作品。可先确认产品目录，再选一件其他系列作品推荐；不要暗示购买其他作品有助于获得晨星。"
+       ]
+      }
+     ],
+     "set_issues": []
+    },
+    "set_issues": [],
+    "to_fix": {
+     "3": [
+      "推进版提出了登记心愿，但只说从客户已有的涟漪手链聊起，没有推荐另一件可先了解的作品。可先确认产品目录，再选一件其他系列作品推荐；不要暗示购买其他作品有助于获得晨星。"
+     ]
+    }
+   }
+  ],
+  "plan": {
+   "client_read": "黄女士偏爱醒目、有辨识度的黄金与钻石作品，常参加聚会，也愿意接受推荐。她与Jason认识不久，已明确表达购买晨星手镯的意愿，并询问价格和到货时间。",
+   "risk": {
+    "level": "caution",
+    "flags": [
+     "客户想购买配额作品，并询问何时能拿到；无法承诺到货时间或名额。"
+    ],
+    "advice": "先回应价格及无法确定到货时间，征求登记心愿的意愿；可另外介绍一件符合她黄金偏好的作品，不暗示两者有关联条件。"
+   },
+   "ca_commitments": [],
+   "usable_facts": [
+    "最近在聚会上看到朋友佩戴晨星手镯，觉得好看。",
+    "明确表示想购买晨星手镯，询问价格和到货时间。",
+    "偏好黄金、钻石，以及醒目、有辨识度的设计。",
+    "已有涟漪白金三钻手链，平时自戴。"
+   ],
+   "do_not_mention": [
+    "客户的消费金额、内部进阶阶段及财富来源。",
+    "任何消费门槛、配货条件、排位或名额承诺。",
+    "未经确认的到货时间，或购买其他作品有助于获得晨星的暗示。"
+   ],
+   "products": [
+    "ETO-B01",
+    "COU-R01"
+   ],
+   "slots": {
+    "极简": "先回应对晨星的询问，说明到货时间无法确定。",
+    "走心": "从她在聚会上看到晨星手镯、觉得好看切入，让她感到自己的喜好被听见；回应她问及的价格和到货情况。",
+    "推进": "告知晨星手镯价格为¥328,000、到货时间无法确定，询问是否为她登记心愿；另结合她的黄金偏好，介绍穹顶黄金戒指的弧线戒身，询问是否先发照片。"
+   }
+  },
+  "first_draft": [
+   {
+    "text": "黄女士，晨星手镯的到货时间目前还不能确定。",
+    "strategy": "极简",
+    "note_for_ca": "适合先简短回应到货问题"
+   },
+   {
+    "text": "黄女士，您说在聚会上看到晨星手镯，一眼就觉得好看。我查到这只黄金镶钻手镯是328,000元，到货时间目前还不能确定。",
+    "strategy": "走心",
+    "note_for_ca": "用聚会上看到晨星的细节接住她的喜欢"
+   },
+   {
+    "text": "黄女士，您喜欢黄金和钻石，晨星这只手镯是328,000元，到货时间目前还不能确定。我先帮您登记这个心愿，好吗？您也可以先了解穹顶系列的工艺，要不要我找些图片给您看看？",
+    "strategy": "推进",
+    "note_for_ca": "回应价格和到货，征询登记心愿并介绍穹顶"
+   }
+  ],
+  "seconds": 94.2,
+  "diversity_max_sim": 0.16037735849056603,
+  "calls": [
+   {
+    "requested": "gpt-6.1-terra",
+    "served": "gpt-6.1-terra",
+    "seconds": 12.2,
+    "attempt": 1,
+    "in_tokens": 5665,
+    "out_tokens": 694,
+    "reasoning_tokens": 202,
+    "fingerprint": null
+   },
+   {
+    "requested": "gpt-6.1-terra",
+    "served": "gpt-6.1-terra",
+    "seconds": 11.3,
+    "attempt": 1,
+    "in_tokens": 4964,
+    "out_tokens": 616,
+    "reasoning_tokens": 397,
+    "fingerprint": null
+   },
+   {
+    "requested": "gpt-6.1-terra",
+    "served": "gpt-6.1-terra",
+    "seconds": 15.9,
+    "attempt": 1,
+    "in_tokens": 4733,
+    "out_tokens": 970,
+    "reasoning_tokens": 718,
+    "fingerprint": null
+   },
+   {
+    "requested": "gpt-6.1-terra",
+    "served": "gpt-6.1-terra",
+    "seconds": 9.3,
+    "attempt": 1,
+    "in_tokens": 5500,
+    "out_tokens": 610,
+    "reasoning_tokens": 382,
+    "fingerprint": null
+   },
+   {
+    "requested": "gpt-6.1-terra",
+    "served": "gpt-6.1-terra",
+    "seconds": 18.8,
+    "attempt": 1,
+    "in_tokens": 4726,
+    "out_tokens": 1150,
+    "reasoning_tokens": 912,
+    "fingerprint": null
+   },
+   {
+    "requested": "gpt-6.1-terra",
+    "served": "gpt-6.1-terra",
+    "seconds": 10.3,
+    "attempt": 1,
+    "in_tokens": 5374,
+    "out_tokens": 559,
+    "reasoning_tokens": 401,
+    "fingerprint": null
+   },
+   {
+    "requested": "gpt-6.1-terra",
+    "served": "gpt-6.1-terra",
+    "seconds": 11.6,
+    "attempt": 1,
+    "in_tokens": 4731,
+    "out_tokens": 627,
+    "reasoning_tokens": 512,
+    "fingerprint": null
+   },
+   {
+    "requested": "gpt-6.1-terra",
+    "served": "gpt-6.1-terra",
+    "seconds": 4.9,
+    "attempt": 1,
+    "in_tokens": 5249,
+    "out_tokens": 242,
+    "reasoning_tokens": 128,
+    "fingerprint": null
+   }
+  ]
+ }
+}

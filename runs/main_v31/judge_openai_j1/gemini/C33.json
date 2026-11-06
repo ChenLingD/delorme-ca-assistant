@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "“今天翻看工坊图册”是输入中未确认的 CA 行为，不能自行编造联系理由。",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 4,
+    "naturalness": 4,
+    "effectiveness": 4
+   },
+   "sendability": "小改可发",
+   "comment": "问候温和、聚焦客户本人，去掉未经确认的翻看图册情节即可。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "“工坊翻印的采珠手绘水纹图稿”及 CA 看到它均未获确认；客户的写生画风也没有依据。",
+    "context_failure": "客户只说过想画海浪纹插画，追问“画得顺利吗”暗含她已经开始创作。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 2,
+    "naturalness": 2,
+    "effectiveness": 2
+   },
+   "sendability": "小改可发",
+   "comment": "兴趣切入有针对性，但图稿细节和对创作进度的假设都需要删改。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "品牌固定服务包含免费清洗和检测，但未说明有“深度清洗”；也无法确认两件作品已佩戴一阵子。",
+    "context_failure": "一年未联系后直接提出携作品到店保养，与 CA 想先问候的要求有些偏离。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "保养切入有依据，但应避免假设佩戴情况和承诺未经确认的清洗方式，也不宜急于引导到店。"
+  }
+ ],
+ "set": {
+  "diversity": 4,
+  "risk_judgement": "正确",
+  "best_index": 1,
+  "must_coverage": "2/2",
+  "summary": "三条均以简女士本人为中心，没有提及付款人、使用“你们”或打探关系现状，切入角度也有区别。最主要的问题是加入了未经确认的联系理由、图稿细节或服务表述，候选 1 删改后最适合作为简短问候。"
+ },
+ "_judge": "openai:gpt-6.1-terra"
+}

@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "回应了借戴问题，但没有推荐具体作品；提出发几款新款，与一次聚焦一件的策略不符。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 3,
+    "naturalness": 4,
+    "effectiveness": 2
+   },
+   "sendability": "小改可发",
+   "comment": "语气自然且没有承诺外借，但应核实后聚焦推荐一件作品，“报备”也略显生硬。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "资料未确认穹顶系列有白金戒指，也未提供该戒指的柱式折角或反光细节；不能把已知的手镯纹理套用到戒指上。",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 2,
+    "naturalness": 3,
+    "effectiveness": 2
+   },
+   "sendability": "小改可发",
+   "comment": "借戴处理和黑白造型切入都较贴合，但必须核实并替换未经证实的作品及细节，也未确认它是否为新款。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "回应了借戴问题并提出试戴，但没有推荐上镜作品，也未回应客户对新款的询问。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 3,
+    "naturalness": 4,
+    "effectiveness": 2
+   },
+   "sendability": "小改可发",
+   "comment": "试戴建议贴合活动场景，但让客户带两套衣服略有负担，且缺少具体推荐。"
+  }
+ ],
+ "set": {
+  "diversity": 3,
+  "risk_judgement": "正确",
+  "best_index": 1,
+  "must_coverage": "2/2",
+  "summary": "三条均表示会确认借戴，候选2也尝试推荐上镜作品，但其具体款式和细节未经证实，因此覆盖不等于可直接发送。候选1风险较低，需补充一件已核实、适合客户的新款；候选3则缺少作品推荐。"
+ },
+ "_judge": "openai:gpt-6.1-terra"
+}

@@ -1,0 +1,85 @@
+{
+  "case_id": "C14",
+  "scenario": "product_recommendation",
+  "today": "2026-11-20",
+  "ca": {
+    "name": "Leo",
+    "gender": "男",
+    "years_experience": 5,
+    "store": "上海外滩源旗舰店（含沙龙与私享厅）",
+    "known_client_since": "2026-05",
+    "style": "适中"
+  },
+  "client": {
+    "surname": "曹",
+    "given_name": "子轩",
+    "gender": "男",
+    "age_range": "20-25",
+    "city": "上海",
+    "occupation": "家族物流企业二代，在家族公司做投资助理",
+    "client_since": "2026-05",
+    "spend_band": "5-30万",
+    "stage": "入门",
+    "last_visit": "2026-10-11",
+    "last_purchase": "2026-05",
+    "wealth_source": "家族传承",
+    "motivations": [
+      "犒赏自己",
+      "社交场合"
+    ],
+    "social_visibility": "会公开分享",
+    "price_sensitivity": "低",
+    "style_preference": "醒目、街头感，喜欢有分量的单品",
+    "material_preference": "白金、玫瑰金",
+    "owned_pieces": [
+      {
+        "date": "2026-05",
+        "item": "穹顶 18K 黄金戒指",
+        "for_whom": "自戴"
+      }
+    ],
+    "sizes": "戒圈 21 号，手腕 17.5cm",
+    "formality": "随意",
+    "reply_habit": "回复快，打字短",
+    "recommendation_openness": "欢迎",
+    "birthday": "03-02",
+    "interests": [
+      "滑板",
+      "球鞋收藏",
+      "电子音乐"
+    ],
+    "notes": "24 岁。说过黄金戒指“有点乖”，想要更酷一点、能和手表叠戴的。"
+  },
+  "conversation_history": [
+    {
+      "sender": "client",
+      "time": "2026-10-11 16:02",
+      "text": "Leo 那个黄金戒指我戴着还行 就是有点乖"
+    },
+    {
+      "sender": "client",
+      "time": "2026-10-11 16:03",
+      "text": "有没有酷一点的 男生戴的 有新的发我看看"
+    },
+    {
+      "sender": "ca",
+      "time": "2026-10-11 16:20",
+      "text": "好的曹先生，我留意一下，有合适的发给您。"
+    }
+  ],
+  "product_skus": [
+    "ATE-R02",
+    "COU-B03"
+  ],
+  "ca_request": "想推荐工坊男士戒指或穹顶手镯给他自己戴",
+  "test_meta": {
+    "persona": "P7",
+    "type": "core",
+    "must": [
+      "语气匹配年轻客户"
+    ],
+    "must_not": [
+      "吹捧身份/财富"
+    ]
+  }
+}

@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "轻微：目录只说明戒身有穹顶弧线，未说明轮廓源自建筑穹顶的抛物线。",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 5,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 4
+   },
+   "sendability": "小改可发",
+   "comment": "直接推荐一款并结合白衬衫和圈口，方向合适；删去未经证实的抛物线描述，语气也可再简短些。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "轻微：目录支持耳钉光泽偏冷白，但“这批珠子”暗示已确认具体批次，输入没有相关依据。",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 4
+   },
+   "sendability": "小改可发",
+   "comment": "单款推荐贴合简洁喜好，但“最不易出错”和备注里的“零容错率”过于绝对，也尚未确认太太是否有耳洞。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "轻微：目录未说明戒指的灵感来自建筑弧线；“对准11号戒圈”也容易让人误以为已确认该尺寸。",
+    "context_failure": "轻微：客户曾表示希望顾问直接告诉他选哪个，二选一没有明确给出首推。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "两款都贴合太太的喜好，但建议明确首推一件，并避免未经确认的设计来源和尺寸表述。"
+  }
+ ],
+ "set": {
+  "diversity": 3,
+  "risk_judgement": "偏松",
+  "best_index": 2,
+  "must_coverage": "2/2",
+  "summary": "三条均结合了太太的喜好，推荐数量也符合要求，候选2修改后较适合发送。工具未提示未经证实的设计或批次细节，且候选3没有充分回应客户希望直接获得建议的偏好。"
+ },
+ "_judge": "openai:gpt-6.1-terra"
+}

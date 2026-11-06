@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 4,
+    "naturalness": 4,
+    "effectiveness": 4
+   },
+   "sendability": "直接可发",
+   "comment": "先为此前沟通致歉，不推销、不施压；措辞略笼统，但适合重新开启联系。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "轻微：客户确实购买过单钻细链，但没有信息证实 Tina 当时陪她挑选。",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "有致歉诚意，但回溯购买经历和“正式的抱歉”略显刻意，应删去未经证实的陪选经历并精简。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "轻微：资料只确认手镯购于一年多前，未确认佩戴时长；目录也未说明该开口式手镯有卡扣。",
+    "context_failure": "轻微：承认处理不周后未明确致歉，便转入保养邀约，容易让未解决的投诉显得被带过。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 2
+   },
+   "sendability": "小改可发",
+   "comment": "保养服务本身有依据，但首次恢复联系宜先专注致歉，暂不转入作品保养。"
+  }
+ ],
+ "set": {
+  "diversity": 3,
+  "risk_judgement": "正确",
+  "best_index": 1,
+  "must_coverage": "3/3",
+  "summary": "整体识别了未解决投诉的风险，没有承诺晨星到货或透露门槛；候选 1 最克制，也最符合先处理不愉快的目标。候选 2 和 3 加入了未经确认的细节，候选 3 还过早转向保养邀约。"
+ },
+ "_judge": "openai:gpt-6.1-terra"
+}

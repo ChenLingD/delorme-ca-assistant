@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 4,
+    "naturalness": 3,
+    "effectiveness": 4
+   },
+   "sendability": "直接可发",
+   "comment": "时机和长度合适，但“开合与贴合度……舒适合手”略显生硬，问戴得是否习惯会更自然。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "严重：“手工锻打修形”和“弧度很贴手腕”均无资料依据；同一工匠完成作品有依据，但不能由此推定具体工序或贴合效果。",
+    "context_failure": "无",
+    "must_not_hit": "严重：编造了未记录的工艺和佩戴效果。"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 2,
+    "naturalness": 2,
+    "effectiveness": 2
+   },
+   "sendability": "不可用",
+   "comment": "虽然呼应了客户对工匠记号的兴趣，但工艺描述失实，“配重还顺手吗”也不自然。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "严重：目录未说明这款手镯有暗扣或镶爪，不能将其作为确定的作品细节。",
+    "context_failure": "无",
+    "must_not_hit": "严重：编造了未记录的作品结构细节。"
+   },
+   "scores": {
+    "personalization": 2,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 2
+   },
+   "sendability": "小改可发",
+   "comment": "免费清洁和检测有品牌服务依据，删除暗扣、镶爪等未经证实的细节后可使用。"
+  }
+ ],
+ "set": {
+  "diversity": 4,
+  "risk_judgement": "正确",
+  "best_index": 1,
+  "must_coverage": "1/1",
+  "summary": "风险判断恰当，三条分别从佩戴感受、工艺和服务切入，候选 1 最适合直接发送。主要问题是候选 2 和 3 编造了作品细节，不能因表达克制或服务本身有依据而忽略。"
+ },
+ "_judge": "openai:gpt-6.1-terra"
+}

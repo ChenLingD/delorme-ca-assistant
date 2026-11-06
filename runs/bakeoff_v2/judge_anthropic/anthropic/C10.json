@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无。没有直接说“到货时间给不了准话”，但“具体情况我去确认”间接回应了“什么时候能拿到”，没有给任何时间承诺。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 2,
+    "brand_voice": 4,
+    "naturalness": 5,
+    "effectiveness": 3
+   },
+   "sendability": "直接可发",
+   "comment": "短、稳、像真人。不承诺，也不拒绝，用了“登记心愿”和“我去确认”这两个手册允许的说法，适合对“回复快、说话直接”的黄女士。缺点是没接住她“真的好看”的心情，也没带她去认识其他系列的工艺，推进力弱。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无。约 120 工时、同一位工匠、内圈工匠记号都来自产品资料。",
+    "context_failure": "无明显失败，但只说“给不了准话”，没有告诉她下一步能做什么（登记心愿），话停在半空。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 4,
+    "naturalness": 3,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "引用了她昨晚说的聚会，坦诚不乱承诺，工艺细节也具体。但没有登记心愿，也没有引向其他系列，客户读完可能觉得“所以我该怎么办”。“不想随口说个数”略书面，建议补上“我先帮您登记心愿”。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "无。没有出现配额门槛或排位暗示，但“我想先请您看看沧海”里的“先”有一点被读成前置条件的风险。",
+    "privacy_violation": "无",
+    "fabrication": "无。“金珠偏香槟色”出自手册的示例表述；沧海金珠不在本次相关作品里，属于边缘引用。",
+    "context_failure": "她直接问了“什么时候能拿到”，这条没有回应时间，开口就转去推沧海，容易让人觉得被绕开。“登记着”也说得像已经登记好了，措辞略急。",
+    "must_not_hit": "无。没有门槛，没有承诺，也没有轻视。"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "三条 must 都碰到了，有黄金偏好、具体细节和“发照片”的退路。但对一位明确说“我要这个”的客户，第一句就换成别的系列，转折太硬。应该先接住晨星和时间的问题，再带出沧海。"
+  }
+ ],
+ "set": {
+  "diversity": 3,
+  "risk_judgement": "正确",
+  "best_index": 1,
+  "must_coverage": "3/3（分散在不同候选里：不拒绝也不承诺 → 1、2、3；登记心愿 → 1、3；引导了解其他系列 → 仅 3，且转折生硬）",
+  "summary": "三条都守住了红线：没有门槛，没有到货承诺，没有轻视客户。但没有一条同时做到“先接住心情、回应时间问题、登记心愿、再轻带其他系列”。候选 2 没给下一步，候选 3 转折太硬，最稳的是候选 1，但略显干。风险判断 caution 与提醒“尽快回复、不报时间、不提门槛”都恰当。"
+ },
+ "_judge": "anthropic:claude-sonnet-5-5"
+}

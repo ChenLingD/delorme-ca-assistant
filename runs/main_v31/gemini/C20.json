@@ -1,0 +1,191 @@
+{
+ "case_id": "C20",
+ "version": "v3.1",
+ "model": "gemini:gemini-3.8-flash",
+ "risk": {
+  "level": "caution",
+  "flags": [
+   "对推荐反感",
+   "回复习惯极简、不喜欢被打扰"
+  ],
+  "advice": "字句必须克制干练，不推任何新品，不做过度情感套近乎，提供安心感即可。"
+ },
+ "candidates": [
+  {
+   "text": "宋女士，晨星手镯取走刚好一周，日常佩戴的开合与贴合度，不知是否舒适合手。",
+   "strategy": "极简",
+   "note_for_ca": "极简利落，适合对方不喜欢长消息、只求确认体验的习惯。"
+  },
+  {
+   "text": "宋女士，那天您细看内圈记号时问起工匠。这件手镯是由同一位工匠手工锻打修形，弧度很贴手腕，这一周戴下来配重还顺手吗？",
+   "strategy": "走心",
+   "note_for_ca": "呼应取件时用放大镜看工匠记号的细节，以工艺触感自然关怀。"
+  },
+  {
+   "text": "宋女士，晨星手镯的暗扣与镶爪，门店常年提供免费稳固检测与清洁保养。日后您来 SKP 时，随时交给我打理就好。",
+   "strategy": "推进",
+   "note_for_ca": "提供门店终身保养与检测服务，不施加任何到店压力。"
+  }
+ ],
+ "checks": [
+  {
+   "pass": true,
+   "hard": [],
+   "soft": [],
+   "length": 36
+  },
+  {
+   "pass": true,
+   "hard": [],
+   "soft": [],
+   "length": 57
+  },
+  {
+   "pass": true,
+   "hard": [],
+   "soft": [],
+   "length": 52
+  }
+ ],
+ "trace": {
+  "rounds": [
+   {
+    "rule_checks": [
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 36
+     },
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 57
+     },
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 52
+     }
+    ],
+    "critic": {
+     "reviews": [
+      {
+       "index": 1,
+       "pass": true,
+       "issues": []
+      },
+      {
+       "index": 2,
+       "pass": true,
+       "issues": []
+      },
+      {
+       "index": 3,
+       "pass": true,
+       "issues": []
+      }
+     ],
+     "set_issues": []
+    },
+    "set_issues": [],
+    "to_fix": {}
+   }
+  ],
+  "plan": {
+   "client_read": "宋女士是极其克制、看重工艺底蕴且极度反感推销与打扰的资深藏家。刚取走等待两年的晨星手镯一周，目前处于安静佩戴体验的售后阶段，沟通需极度精炼。",
+   "risk": {
+    "level": "caution",
+    "flags": [
+     "对推荐反感",
+     "回复习惯极简、不喜欢被打扰"
+    ],
+    "advice": "字句必须克制干练，不推任何新品，不做过度情感套近乎，提供安心感即可。"
+   },
+   "ca_commitments": [],
+   "usable_facts": [
+    "上周到店取走晨星手镯",
+    "到店时用放大镜细看内圈工匠记号并问及独立制作",
+    "已拥有沧海白珠项链、穹顶手镯、晨星白金项链等多件作品",
+    "习惯极简回复"
+   ],
+   "do_not_mention": [
+    "推销任何新品或活动",
+    "累计消费金额与晨星资格标签",
+    "家事（瑞士读研的儿子）",
+    "催促回复或空话（如'不打扰您'）"
+   ],
+   "products": [
+    "ETO-B01"
+   ],
+   "unanswerable": "",
+   "slots": {
+    "极简": {
+     "切入点": "日常佩戴贴合度",
+     "唯一信息点": "询问晨星手镯这一周佩戴是否舒适合手"
+    },
+    "走心": {
+     "切入点": "取件时对手镯单一工匠记号的专注关注",
+     "唯一信息点": "回应当时提到的单一工匠手工成型工艺与佩戴贴合感"
+    },
+    "推进": {
+     "切入点": "品牌固定售后服务保障",
+     "唯一信息点": "提醒手镯搭扣与钻石位日后随时可享到店免费检测与微调保养"
+    }
+   }
+  },
+  "first_draft": [
+   {
+    "text": "宋女士，晨星手镯取走刚好一周，日常佩戴的开合与贴合度，不知是否舒适合手。",
+    "strategy": "极简",
+    "note_for_ca": "极简利落，适合对方不喜欢长消息、只求确认体验的习惯。"
+   },
+   {
+    "text": "宋女士，那天您细看内圈记号时问起工匠。这件手镯是由同一位工匠手工锻打修形，弧度很贴手腕，这一周戴下来配重还顺手吗？",
+    "strategy": "走心",
+    "note_for_ca": "呼应取件时用放大镜看工匠记号的细节，以工艺触感自然关怀。"
+   },
+   {
+    "text": "宋女士，晨星手镯的暗扣与镶爪，门店常年提供免费稳固检测与清洁保养。日后您来 SKP 时，随时交给我打理就好。",
+    "strategy": "推进",
+    "note_for_ca": "提供门店终身保养与检测服务，不施加任何到店压力。"
+   }
+  ],
+  "seconds": 30.5,
+  "diversity_max_sim": 0.07142857142857142,
+  "calls": [
+   {
+    "requested": "gemini-3.8-flash",
+    "served": "gemini-3.8-flash",
+    "seconds": 6.1,
+    "attempt": 1,
+    "in_tokens": 6308,
+    "out_tokens": 482,
+    "reasoning_tokens": null,
+    "fingerprint": null
+   },
+   {
+    "requested": "gemini-3.8-flash",
+    "served": "gemini-3.8-flash",
+    "seconds": 11.2,
+    "attempt": 1,
+    "in_tokens": 5496,
+    "out_tokens": 284,
+    "reasoning_tokens": null,
+    "fingerprint": null
+   },
+   {
+    "requested": "gemini-3.8-flash",
+    "served": "gemini-3.8-flash",
+    "seconds": 13.2,
+    "attempt": 1,
+    "in_tokens": 5277,
+    "out_tokens": 102,
+    "reasoning_tokens": null,
+    "fingerprint": null
+   }
+  ]
+ }
+}

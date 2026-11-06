@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 5,
+    "naturalness": 5,
+    "effectiveness": 5
+   },
+   "sendability": "直接可发",
+   "comment": "简短自然，先问佩戴感受，再清楚提示免费刻字期限，没有施压。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "“随时拿来工坊”暗示可以将作品送到工坊刻字，服务地点和办理方式未获确认。",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 5,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "贴合客户担心下坠的具体情况，但“重心还合适吗”略生硬，刻字地点也需改为确认后告知。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "建议在耳托上刻名字缩写，但现有资料没有确认这副耳钉的耳托适合刻字。",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "引用了演出和冷白珠光，但演出与佩戴舒适度的联系略牵强，耳托刻字建议需先确认可行性。"
+  }
+ ],
+ "set": {
+  "diversity": 3,
+  "risk_judgement": "正确",
+  "best_index": 1,
+  "must_coverage": "2/2",
+  "summary": "三条都只与佩戴者讨论作品，并提到了免费刻字期限，没有泄露礼赠关系。主要问题是候选2和3分别对刻字地点及耳托刻字可行性作了未经确认的暗示。"
+ },
+ "_judge": "openai:gpt-6.1-terra"
+}

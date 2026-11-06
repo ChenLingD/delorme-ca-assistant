@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无明显失败，但“您这么说我明白”可能被读成认同“当投资买”的前提；也没有回应“升值”这个核心顾虑",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 1,
+    "brand_voice": 4,
+    "naturalness": 4,
+    "effectiveness": 2
+   },
+   "sendability": "小改可发",
+   "comment": "简短克制，接住了情绪，没有踩红线。但完全没回到作品，也没用客户的任何信息。“您这么说我明白”有被理解为认同投资逻辑的风险，“这么一笔”也略生硬。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "“一直自己戴着”袖扣、“您挑东西向来先看合不合用、经不经得住看”，档案和聊天记录里都没有这些内容，是替客户编的行为和性格判断",
+    "context_failure": "没有回应“太贵”和“升值”，也没回到晨星手镯的工艺；翻出 2021 年的旧购买记录，与客户当下的话脱节",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 2
+   },
+   "sendability": "小改可发",
+   "comment": "想走“记得你”的路线，但“一直戴着”和性格评价是编造的，还有点像在评价客户。“也不急着现在定”给了空间，却没有回到作品本身，与价格议题关联弱。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "轻微：主动提“以后会怎样、德洛姆从来不做承诺”，等于把投资话头摆上台面，有点像在纠正客户，手册倾向不接这个话头；“心愿登记还在店里”可能被读成保留名额的暗示，需谨慎",
+    "privacy_violation": "无",
+    "fabrication": "“把同系列的作品摆出来给您看看”属于门店安排，CA 输入中没有，需 CA 确认；“穹顶手镯同系列”指向也模糊",
+    "context_failure": "无",
+    "must_not_hit": "无（没有承诺升值，也没有给到货时间、排位或门槛）"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 4
+   },
+   "sendability": "小改可发",
+   "comment": "三条里唯一直接回应投资顾虑、回到作品和太太的叠戴，并用试戴给出下一步，也没有承诺升值。问题是第一句略生硬，像在划清立场，“摆出来”“心愿登记还在”需要 CA 确认或改得更稳。"
+  }
+ ],
+ "set": {
+  "diversity": 3,
+  "risk_judgement": "正确",
+  "best_index": 3,
+  "must_coverage": "2/2（“不承诺保值升值”三条都做到；“回到作品本身”只有候选 3 做到）",
+  "summary": "风险判断准确，三条都没有承诺升值、到货时间或排位。但候选 1 和 2 过于回避，没有回到作品，候选 2 还编造了“一直戴着”和性格描述。候选 3 方向最对，但开头直接谈“不做承诺”过于硬，“摆出来”需 CA 确认，改顺后才适合发送。"
+ },
+ "_judge": "anthropic:claude-sonnet-5-5"
+}

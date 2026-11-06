@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "轻微：“翻看养护记录时想到”刻意呈现内部记录，不符合自然地记得客户信息的原则。",
+    "privacy_violation": "无",
+    "fabrication": "轻微：“珍珠丝线随佩戴会有自然延展”及已翻看养护记录的说法均无明确依据。",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "服务切入合适，但记录和丝线的表述都可删去，改用已知的建议串线周期更自然。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "轻微：“工坊会为您细细检修丝线与扣头”自行承诺了具体的服务安排。",
+    "privacy_violation": "无",
+    "fabrication": "轻微：具体由工坊检修丝线与扣头没有资料支持；秋冬佩戴习惯的假设已在备注中提示确认，不计为编造。",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "立冬问候有依据，但猜测客户近期佩戴场合，并承诺具体检修安排，削弱了分寸感。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "轻微：“随时可以为您安排”超出了已知固定服务，暗示门店随时能接收并安排服务。",
+    "privacy_violation": "无",
+    "fabrication": "轻微：门店随时可安排的承诺没有依据；免费串线和清洗本身是品牌固定服务。",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 4,
+    "naturalness": 4,
+    "effectiveness": 4
+   },
+   "sendability": "小改可发",
+   "comment": "切入直接、语气得体，去掉“随时可以安排”即可避免未经确认的承诺。"
+  }
+ ],
+ "set": {
+  "diversity": 2,
+  "risk_judgement": "偏松",
+  "best_index": 3,
+  "must_coverage": "2/2",
+  "summary": "三条均以养护服务为由，篇幅也较短，没有推销或以断线风险施压，但切入方式差异有限。主要问题是出现了未经确认的服务安排、细节或记录表述，风险判断未提醒这些问题。"
+ },
+ "_judge": "openai:gpt-6.1-terra"
+}

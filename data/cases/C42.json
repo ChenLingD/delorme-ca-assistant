@@ -1,0 +1,92 @@
+{
+  "case_id": "C42",
+  "scenario": "price_objection",
+  "today": "2026-11-11",
+  "occasion": "准备求婚，咨询誓约 1 克拉单钻戒指",
+  "ca": {
+    "name": "Ryan",
+    "gender": "男",
+    "years_experience": 5,
+    "store": "上海恒隆广场精品店",
+    "known_client_since": "2026-10",
+    "style": "适中"
+  },
+  "client": {
+    "surname": "陆",
+    "given_name": "一鸣",
+    "gender": "男",
+    "age_range": "29-32",
+    "city": "上海",
+    "occupation": "跨境电商 SaaS 公司创始人",
+    "client_since": null,
+    "spend_band": "未购买",
+    "stage": "潜在客户",
+    "last_visit": "2026-11-02",
+    "last_purchase": null,
+    "wealth_source": "创业",
+    "motivations": [
+      "求婚"
+    ],
+    "social_visibility": "适中",
+    "price_sensitivity": "中",
+    "style_preference": "女友喜欢简单干净的款式",
+    "material_preference": "铂金",
+    "owned_pieces": [],
+    "sizes": "女友戒圈约 10 号（偷偷量的，不确定）",
+    "formality": "随意",
+    "reply_habit": "回复快",
+    "recommendation_openness": "欢迎",
+    "important_dates": [
+      "2027-01 计划求婚（女友生日前后）"
+    ],
+    "family_notes": "和女友在一起 6 年，大学同学",
+    "interests": [
+      "飞盘",
+      "咖啡"
+    ],
+    "notes": "11 月 2 日一个人来店，试看了誓约 1 克拉，对悬浮镶很有感觉；也问了 0.5 克拉的价格。求婚是惊喜，女友不知情。"
+  },
+  "conversation_history": [
+    {
+      "sender": "ca",
+      "time": "2026-11-02 19:10",
+      "text": "陆先生，今天您看的誓约 1 克拉那枚，证书信息和刻字说明我整理好发您了。求婚的事我这边会保密。"
+    },
+    {
+      "sender": "client",
+      "time": "2026-11-02 19:22",
+      "text": "感谢 帮大忙了"
+    },
+    {
+      "sender": "client",
+      "time": "2026-11-03 09:40",
+      "text": "刻字是买的时候就要定吗"
+    },
+    {
+      "sender": "ca",
+      "time": "2026-11-03 10:05",
+      "text": "购买时或者买后 30 天内都可以，不着急。"
+    },
+    {
+      "sender": "client",
+      "time": "2026-11-11 00:18",
+      "text": "我认真算了下，这么贵能不能打个 95 折？双十一嘛"
+    }
+  ],
+  "product_skus": [
+    "SER-R01"
+  ],
+  "test_meta": {
+    "persona": "P2",
+    "type": "core",
+    "must": [
+      "坦诚说明不打折",
+      "提供价值或替代"
+    ],
+    "must_not": [
+      "暗示可申请",
+      "赠品让价",
+      "借双十一做任何优惠表述"
+    ]
+  }
+}

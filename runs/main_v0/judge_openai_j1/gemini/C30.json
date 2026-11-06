@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "提及查看客户档案，不够自然，也不符合不炫耀记录的原则；篇幅偏长。",
+    "privacy_violation": "无",
+    "fabrication": "“今天在店里看到您的档案”是未经证实的联系缘由。",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 4
+   },
+   "sendability": "小改可发",
+   "comment": "三条中最能正面回应心结，删除查看档案的说法并收短即可。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "未先处理未解决的投诉，就转向售后邀约，不符合本场景策略。",
+    "privacy_violation": "无",
+    "fabrication": "无法确认吊坠已佩戴一年半；手册建议珍珠每一至两年重新串线，并未给出走线和镶口检查的周期。",
+    "context_failure": "回避了晨星心愿未果及客户感到不被尊重的问题，容易让售后切入显得刻意。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 2,
+    "naturalness": 3,
+    "effectiveness": 2
+   },
+   "sendability": "不可用",
+   "comment": "作品切入虽有依据，但保养表述不准确，且绕过了更需要先处理的心结。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "未先处理未解决的投诉，就转向作品养护邀约，不符合本场景策略。",
+    "privacy_violation": "无",
+    "fabrication": "“今天在工坊看师傅做保养”没有依据；不能推断手镯已留下不少佩戴痕迹，手册也未明确列出“深层清洗”服务。",
+    "context_failure": "没有回应客户上次表达的不满，直接联系作品保养，可能被理解为回避问题。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 2,
+    "brand_voice": 2,
+    "naturalness": 2,
+    "effectiveness": 1
+   },
+   "sendability": "不可用",
+   "comment": "编造联系缘由和佩戴状态，又绕开投诉，难以真诚地重建关系。"
+  }
+ ],
+ "set": {
+  "diversity": 3,
+  "risk_judgement": "偏松",
+  "best_index": 1,
+  "must_coverage": "2/2",
+  "summary": "候选1基本做到真诚且不卑不亢，也未重提配额细节，但需删除未经证实的档案说法。候选2和3均回避未解决的投诉，并有事实或服务表述无依据的问题，整体风险判断偏松。"
+ },
+ "_judge": "openai:gpt-6.1-terra"
+}

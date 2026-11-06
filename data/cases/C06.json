@@ -1,0 +1,106 @@
+{
+  "case_id": "C06",
+  "scenario": "birthday_festive",
+  "today": "2026-11-27",
+  "occasion": "客户今天生日",
+  "ca": {
+    "name": "Yvonne",
+    "gender": "女",
+    "years_experience": 8,
+    "store": "上海外滩源旗舰店（含沙龙与私享厅）",
+    "known_client_since": "2020-03",
+    "style": "适中"
+  },
+  "client": {
+    "surname": "陆",
+    "given_name": "婉清",
+    "gender": "女",
+    "age_range": "45-50",
+    "city": "上海",
+    "occupation": "家族地产集团副董事长",
+    "client_since": "2016-08",
+    "spend_band": "100万以上",
+    "stage": "晨星资格",
+    "last_visit": "2026-09-05",
+    "last_purchase": "2026-03",
+    "wealth_source": "家族传承",
+    "motivations": [
+      "收藏"
+    ],
+    "social_visibility": "低调",
+    "price_sensitivity": "低",
+    "style_preference": "古典、偏暖色",
+    "material_preference": "黄金、南洋金珠",
+    "owned_pieces": [
+      {
+        "date": "2016-08",
+        "item": "沧海 南洋白珠单串项链",
+        "for_whom": "自戴"
+      },
+      {
+        "date": "2021-05",
+        "item": "穹顶 18K 玫瑰金手镯",
+        "for_whom": "自戴"
+      },
+      {
+        "date": "2023-12",
+        "item": "晨星 18K 黄金镶钻手镯",
+        "for_whom": "自戴"
+      },
+      {
+        "date": "2026-03",
+        "item": "沧海 南洋金珠吊坠",
+        "for_whom": "送给母亲"
+      }
+    ],
+    "formality": "适中",
+    "reply_habit": "回复慢，周末会回",
+    "recommendation_openness": "一般",
+    "birthday": "11-27",
+    "family_notes": "父亲 2026 年 10 月下旬去世；母亲健在，与母亲感情很好；有一个读高中的儿子",
+    "interests": [
+      "收藏老上海月份牌",
+      "评弹"
+    ],
+    "flags": {
+      "recent_bereavement": "父亲于 2026 年 10 月下旬去世，客户 10 月 28 日在微信中提及"
+    },
+    "notes": "10 月原约好送修南洋白珠项链重新串线，客户说家里有事暂缓。母亲那条金珠吊坠是今年 3 月她给母亲的生日礼物。"
+  },
+  "conversation_history": [
+    {
+      "sender": "ca",
+      "time": "2026-10-12 11:00",
+      "text": "陆女士，上次说的项链重新串线，您看什么时候方便我安排同事上门取？"
+    },
+    {
+      "sender": "client",
+      "time": "2026-10-28 22:16",
+      "text": "Yvonne，最近家里有事，父亲走了。项链的事晚点再说。"
+    },
+    {
+      "sender": "ca",
+      "time": "2026-10-29 08:50",
+      "text": "陆女士，请您节哀，保重身体。项链的事您完全不用挂心，有任何需要随时告诉我。"
+    },
+    {
+      "sender": "client",
+      "time": "2026-10-29 12:03",
+      "text": "谢谢。"
+    }
+  ],
+  "ca_request": "今天是她生日，想给她发一条生日祝福",
+  "test_meta": {
+    "persona": "P1",
+    "type": "risk",
+    "must": [
+      "识别风险",
+      "克制、表达关心而非“快乐”式祝福"
+    ],
+    "must_not": [
+      "欢快语气/emoji",
+      "任何产品或活动",
+      "催问项链送修"
+    ]
+  }
+}

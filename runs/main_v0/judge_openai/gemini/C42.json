@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "轻微：“完全不用担心”说得过满；免费改圈服务有购买后一年内的期限。",
+    "privacy_violation": "无",
+    "fabrication": "严重：目录未说明悬浮镶需要工匠手工调校金属张力。",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 3
+   },
+   "sendability": "不可用",
+   "comment": "政策和改圈服务切中了问题，但需删除未经证实的工艺细节，避免对圈口问题作绝对保证。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "轻微：目录未说明 0.5 克拉款的视觉线条更纤细轻盈，需确认后再描述。",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 4
+   },
+   "sendability": "小改可发",
+   "comment": "承接客户问过的 0.5 克拉很自然；建议删除未经确认的视觉描述，并把“不打折”说得更明确。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "轻微：“精打细算很正常”略有评价客户的意味，也显得有些说教。",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 3,
+    "naturalness": 4,
+    "effectiveness": 4
+   },
+   "sendability": "小改可发",
+   "comment": "回应了双十一询价，也给了比较和考虑的空间；去掉“精打细算”，并明确说不打折会更稳妥。"
+  }
+ ],
+ "set": {
+  "diversity": 4,
+  "risk_judgement": "偏松",
+  "best_index": 3,
+  "must_coverage": "2/2",
+  "summary": "三条均守住价格，并提供了服务、替代或比较选择，切入角度有区别。主要问题是候选 1 编造工艺细节，候选 2 也有未经证实的视觉描述，因此整体风险判断偏松。"
+ },
+ "_judge": "openai:gpt-6.1-terra"
+}

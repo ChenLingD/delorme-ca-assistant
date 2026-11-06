@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "轻微：主动提及整理养护档案及购入后未串线，显得在展示对客户记录的掌握。",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 4
+   },
+   "sendability": "小改可发",
+   "comment": "服务理由明确，但删去查档和未串线的表述会更自然。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "轻微：提及客户出席家族聚会时的佩戴习惯，容易让客户觉得私人行为被记录。",
+    "privacy_violation": "轻微：主动提及客户的家族活动及佩戴习惯，分寸欠妥。",
+    "fabrication": "无",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 2,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "立冬切入自然，但家族聚会细节不宜主动提起，岁末场合也不是必要的联系理由。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "轻微：要求客户在下周平时和周末之间选择，与留白、不催促的沟通原则不符。",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "轻微：客户回复少且已久未联络，限定下周并追问时间容易造成回复压力。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 2,
+    "naturalness": 3,
+    "effectiveness": 2
+   },
+   "sendability": "小改可发",
+   "comment": "免费串线的服务切入合适，但应去掉下周二选一的追问。"
+  }
+ ],
+ "set": {
+  "diversity": 3,
+  "risk_judgement": "正确",
+  "best_index": 1,
+  "must_coverage": "2/2",
+  "summary": "三条都以串线服务为由，篇幅也较短，未推销或制造断线焦虑。主要问题是候选1、2暴露记录细节，候选3则给客户带来时间和回复压力。"
+ },
+ "_judge": "openai:gpt-6.1-terra"
+}

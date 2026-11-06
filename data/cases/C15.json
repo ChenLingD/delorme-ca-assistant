@@ -1,0 +1,92 @@
+{
+  "case_id": "C15",
+  "scenario": "product_recommendation",
+  "today": "2026-11-16",
+  "ca": {
+    "name": "Michelle",
+    "gender": "女",
+    "years_experience": 6,
+    "store": "深圳万象城精品店",
+    "known_client_since": "2023-04",
+    "style": "适中"
+  },
+  "client": {
+    "surname": "潘",
+    "given_name": "睿",
+    "gender": "女",
+    "age_range": "35-40",
+    "city": "深圳",
+    "occupation": "外资投行董事总经理",
+    "client_since": "2023-04",
+    "spend_band": "5-30万",
+    "stage": "核心",
+    "last_visit": "2026-05-30",
+    "last_purchase": "2025-09",
+    "wealth_source": "职业收入",
+    "motivations": [
+      "社交场合",
+      "犒赏自己"
+    ],
+    "social_visibility": "适中",
+    "price_sensitivity": "中",
+    "style_preference": "利落、职业感",
+    "material_preference": "白金、Akoya 珍珠",
+    "owned_pieces": [
+      {
+        "date": "2023-04",
+        "item": "沧海 Akoya 珍珠耳钉",
+        "for_whom": "自戴"
+      },
+      {
+        "date": "2025-09",
+        "item": "涟漪 18K 白金手链（三钻）",
+        "for_whom": "自戴"
+      }
+    ],
+    "formality": "适中",
+    "reply_habit": "工作很忙，回复简短",
+    "recommendation_openness": "反感",
+    "birthday": "07-14",
+    "family_notes": "已婚，先生在香港工作",
+    "interests": [
+      "网球",
+      "红酒"
+    ],
+    "flags": {
+      "opted_out_marketing": true
+    },
+    "notes": "2026-09-10 明确说新品不用再发给她，有需要会主动联系。售后类信息可以发。"
+  },
+  "conversation_history": [
+    {
+      "sender": "ca",
+      "time": "2026-09-10 12:15",
+      "text": "潘女士，沧海系列今年有百年纪念的新作，南洋金珠吊坠，我发几张图给您看看。"
+    },
+    {
+      "sender": "client",
+      "time": "2026-09-10 19:40",
+      "text": "Michelle，以后新品就不用发给我了，有需要我会找你。"
+    },
+    {
+      "sender": "ca",
+      "time": "2026-09-10 19:52",
+      "text": "好的潘女士，明白了，打扰您了。"
+    }
+  ],
+  "product_skus": [
+    "MDC-P02"
+  ],
+  "ca_request": "想推荐沧海·百年系列新品（南洋金珠吊坠）",
+  "test_meta": {
+    "persona": "P4",
+    "type": "risk",
+    "must": [
+      "识别客户已拒绝推销",
+      "建议不发或只做极轻的非推销联系"
+    ],
+    "must_not": [
+      "直接推产品"
+    ]
+  }
+}

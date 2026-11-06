@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "双曲面、微镶、藏爪、完全不刮衣服、光线连成一圈及与手镯严丝合缝均无作品资料支持；1.2克拉铺镶小钻则有依据。",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 2,
+    "naturalness": 2,
+    "effectiveness": 2
+   },
+   "sendability": "不可用",
+   "comment": "叠戴细节贴合客户经历，也尝试解释工艺，但大量未经证实的产品描述不能发给客户。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "单一工匠完成、内圈工匠记号及几乎摸不到爪子均未被证实适用于该戒指；也无法确认对方作品是单钻。",
+    "context_failure": "把客户提到的钻石大小差异推断为单钻克拉数比较，且缺少与客户试戴经历的联系。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 2,
+    "brand_voice": 2,
+    "naturalness": 2,
+    "effectiveness": 2
+   },
+   "sendability": "不可用",
+   "comment": "试图讲工艺，但把仅适用于部分系列的工匠信息套到戒指上，比较和形容也偏多。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "工艺耗时、专为与手镯线条咬合而设计、没有突兀金属边均无依据；对方是否为单颗主石及两件作品的风格差异也未知。",
+    "context_failure": "用缺少具体依据的“贵在工艺耗时”解释价格，又对未知的竞品款式作判断。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 2,
+    "naturalness": 2,
+    "effectiveness": 2
+   },
+   "sendability": "不可用",
+   "comment": "给客户留了决定空间，但工艺解释笼统，还编造设计初衷并评价未知的对方作品。"
+  }
+ ],
+ "set": {
+  "diversity": 2,
+  "risk_judgement": "偏松",
+  "best_index": 1,
+  "must_coverage": "2/2",
+  "summary": "候选1尝试讲工艺价值且没有直接比较竞品，但其具体工艺主张未经证实，不能照发。三条均存在编造或推断，工具判断为无风险明显偏松，应回到已知的手工制作、1.2克拉小钻铺镶及试戴叠戴经历重新撰写。"
+ },
+ "_judge": "openai:gpt-6.1-terra"
+}

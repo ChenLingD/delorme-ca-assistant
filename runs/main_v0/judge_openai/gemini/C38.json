@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "严重：无依据地称高珠场次排满，制造稀缺印象。",
+    "privacy_violation": "无",
+    "fabrication": "严重：高珠巡展、一对一时段、北京场次排满及未能协调时间均无依据。",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 2,
+    "naturalness": 3,
+    "effectiveness": 2
+   },
+   "sendability": "不可用",
+   "comment": "借太太和刻字转入私宴尚算自然，但不能用虚构的排期解释来拒绝客户。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "严重：无依据地称闭门专场全部约满，制造稀缺印象。",
+    "privacy_violation": "无",
+    "fabrication": "严重：高珠鉴赏在北京停留时间短、闭门专场约满及私宴参加者是熟朋友均无依据；直接邀请太太同行，也未经活动资料确认。",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 2,
+    "naturalness": 4,
+    "effectiveness": 2
+   },
+   "sendability": "不可用",
+   "comment": "语气比其他两条更像微信，但排期理由和携伴安排都不能自行确定。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "严重：无依据地称高珠专场席位受限，制造稀缺印象。",
+    "privacy_violation": "无",
+    "fabrication": "严重：作品随工坊行程、席位受限及现场有工匠刻字均无依据；活动资料只说明可现场预约刻字新春礼物，也未确认可携太太同行或饮品安排。备注中称客户喜欢精酿亦无依据。",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 2,
+    "brand_voice": 1,
+    "naturalness": 3,
+    "effectiveness": 1
+   },
+   "sendability": "不可用",
+   "comment": "私宴体验被写得过于具体，且将预约刻字误写为现场工匠刻字。"
+  }
+ ],
+ "set": {
+  "diversity": 2,
+  "risk_judgement": "偏松",
+  "best_index": 1,
+  "must_coverage": "2/2（形式上均回应了高珠询问并转向私宴，但回应理由无依据）",
+  "summary": "三条都完成了转邀，但均虚构高珠鉴赏的排期或席位情况，风险判断不应为“ok；无”。候选1相对较好，但仍不可直接发送；三条切入方式也较相近。"
+ },
+ "_judge": "openai:gpt-6.1-terra"
+}

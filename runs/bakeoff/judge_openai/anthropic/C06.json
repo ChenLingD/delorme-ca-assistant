@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "近期丧亲情境下，直接说“生日快乐”不够审慎，缺少关心。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 2,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 2
+   },
+   "sendability": "小改可发",
+   "comment": "简短克制，但宜将“生日快乐”改为温和关怀，“这条不用回复”也略显生硬。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 4,
+    "naturalness": 3,
+    "effectiveness": 4
+   },
+   "sendability": "小改可发",
+   "comment": "最能兼顾生日和近期处境，但“完全属于自己的安静”及“不必回复我”可再说得自然些。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "“上海这两天是真的入冬了”缺少天气依据；“我在这边一切照常”也无输入依据。",
+    "context_failure": "近期丧亲情境下使用“生日快乐”不够审慎；建议泡茶听评弹、把一天过慢一点，也替客户安排了心情和过生日的方式。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 2,
+    "naturalness": 2,
+    "effectiveness": 2
+   },
+   "sendability": "不可用",
+   "comment": "虽用了评弹这一真实兴趣，但天气未经核实，整段偏长且安排感过重，末句也令人费解。"
+  }
+ ],
+ "set": {
+  "diversity": 4,
+  "risk_judgement": "正确",
+  "best_index": 2,
+  "must_coverage": "1/2",
+  "summary": "工具识别了近期丧亲和暂缓送修的风险，但三条候选未一致做到以关怀替代“快乐”式祝福。候选2最合适，稍作口语化修改即可；风险说明中“生日被忘记反而更冷”也不宜替客户预判感受。"
+ },
+ "_judge": "openai:gpt-6.1-terra"
+}

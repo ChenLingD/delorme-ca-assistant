@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "轻微：根据原定拍摄时长推测片子早已完成，实际进展未知，追问可能给久未联系的客户带来压力。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 4,
+    "naturalness": 3,
+    "effectiveness": 4
+   },
+   "sendability": "小改可发",
+   "comment": "清洗切入有真实依据，建议删去对纪录片是否完成的推测和追问。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "轻微：当日正在给珍珠做养护，以及耳钉陪客户进山，均无确切依据；备注也未提示这些是未经确认的社交说法。",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 2
+   },
+   "sendability": "小改可发",
+   "comment": "清洗是合适的联系理由，但应去掉未经确认的工作场景和佩戴经历。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "轻微：前阵子看到云南美食纪录片、想到客户出发时的样子均无依据；备注未提示这是未经确认的社交说法。",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 2
+   },
+   "sendability": "小改可发",
+   "comment": "兴趣切入方向合适，但联系理由需要真实，也可减少对客户所在地的追问。"
+  }
+ ],
+ "set": {
+  "diversity": 3,
+  "risk_judgement": "偏松",
+  "best_index": 1,
+  "must_coverage": "2/2",
+  "summary": "候选 1 以双方先前约定的清洗服务为由，基本做到自然联系，但应删去对拍摄进度的推测。候选 2 和 3 均加入了未经确认的场景，工具判断“无风险”偏松；三条篇幅和邀约方式也较相似。"
+ },
+ "_judge": "openai:gpt-6.1-terra"
+}

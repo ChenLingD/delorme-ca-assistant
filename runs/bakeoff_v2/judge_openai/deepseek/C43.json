@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 2,
+    "brand_voice": 4,
+    "naturalness": 4,
+    "effectiveness": 2
+   },
+   "sendability": "小改可发",
+   "comment": "尊重预算并留有空间，但没有提供同一设计语言的其他选择。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "资料未明确客户亲口说过冷白光好看；主持客户答谢活动也不能等同于年会上台讲话。",
+    "context_failure": "没有回应客户刚提出的预算顾虑，转而强调佩戴效果和场合。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 2,
+    "brand_voice": 2,
+    "naturalness": 2,
+    "effectiveness": 1
+   },
+   "sendability": "不可用",
+   "comment": "借客户场景推进购买，却忽略预算异议，还把未确认的细节说成事实。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无；较小尺寸以待确认的方式提出，并未断言存在。",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 4
+   },
+   "sendability": "小改可发",
+   "comment": "提出待确认的同系列选择，也没有让价暗示；但客户并未要求折扣，先讲无法调价略显生硬，宜先接住预算顾虑。"
+  }
+ ],
+ "set": {
+  "diversity": 4,
+  "risk_judgement": "正确",
+  "best_index": 3,
+  "must_coverage": "2/2",
+  "summary": "候选 3 最接近目标：尊重价格边界，并提出待确认的同系列较小尺寸；候选 1 则更自然地接住了预算顾虑。主要问题是候选 2 回避预算并加入未证实细节，而整体风险说明将超预算过早解读为调价诉求。"
+ },
+ "_judge": "openai:gpt-6.1-terra"
+}

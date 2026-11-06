@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "“佩戴已有两年”将购买时间等同于佩戴时长，实际佩戴情况未知。",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "清洗切入合适，但应改掉未经确认的佩戴时长，并可再精简。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "手册未提供巴黎工坊对铂金单钻作品“一至两年深层清洁与金属检测”的建议；一至两年的建议适用于珍珠重新串线。",
+    "context_failure": "询问戒指佩戴手感默认钱先生能了解佩戴情况，可能与实际佩戴人不符。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 2,
+    "brand_voice": 2,
+    "naturalness": 2,
+    "effectiveness": 2
+   },
+   "sendability": "小改可发",
+   "comment": "保养切入合理，但须删除虚构的工坊建议和未经确认的佩戴手感询问。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "“整理档案时想到”显露内部工作过程，不够自然，也不符合不炫耀记得的原则。",
+    "privacy_violation": "无",
+    "fabrication": "戒指购于2024年10月，截至2026年11月18日已超过两年，并非“快满两年”。",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 2,
+    "naturalness": 2,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "服务方向合适，但时间有误，“整理档案”的说法也应删除。"
+  }
+ ],
+ "set": {
+  "diversity": 2,
+  "risk_judgement": "偏松",
+  "best_index": 1,
+  "must_coverage": "1/1",
+  "summary": "三条均未假设婚姻状况，也未追问求婚结果或声称刻字仍免费，但切入角度较为相似。工具判为无风险偏松：候选1和3存在时间或佩戴事实问题，候选2则编造了工坊保养建议。"
+ },
+ "_judge": "openai:gpt-6.1-terra"
+}

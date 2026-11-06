@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "轻微：“恢复如新”作了无依据的效果保证；CA只提出可以去公司取件，未授权承诺随时取件及处理后送回。",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 4
+   },
+   "sendability": "小改可发",
+   "comment": "先接住投诉并给出免费抛光和取件方案，但承诺过满，删去效果保证和未经授权的送回安排即可。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "轻微：“恢复如新”是无依据的效果保证，目录只说明可免费抛光恢复。",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 4,
+    "naturalness": 4,
+    "effectiveness": 4
+   },
+   "sendability": "小改可发",
+   "comment": "关怀和处理时间都清楚，到店询问也较自然；将“恢复如新”改为免费抛光处理即可。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "严重：“整面手工镜面抛光”“受光面积大”及由此产生印记的解释缺乏依据，“完全复原”也作了无依据的效果保证。",
+    "context_failure": "严重：客户正在质疑质量，消息以未经证实的工艺解释回应，容易被理解为辩解而非处理投诉。",
+    "must_not_hit": "严重：用日常佩戴容易留下印记解释划痕，触犯避免“正常磨损”式说教的要求。"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 2,
+    "naturalness": 3,
+    "effectiveness": 2
+   },
+   "sendability": "不可用",
+   "comment": "虽有道歉、免费抛光和取件方案，但臆造工艺解释并保证完全复原，可能加剧投诉。"
+  }
+ ],
+ "set": {
+  "diversity": 3,
+  "risk_judgement": "正确",
+  "best_index": 2,
+  "must_coverage": "3/3",
+  "summary": "候选1、2均接住情绪并给出免费抛光和时间，整体覆盖三项必做要求；风险提醒也抓住了不要推责的重点。主要问题是三条都过度保证抛光效果，候选3还用无依据的工艺解释辩解。"
+ },
+ "_judge": "openai:gpt-6.1-terra"
+}

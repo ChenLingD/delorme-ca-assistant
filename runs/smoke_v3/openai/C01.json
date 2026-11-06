@@ -1,0 +1,181 @@
+{
+ "case_id": "C01",
+ "version": "v3",
+ "model": "openai:gpt-6.1-terra",
+ "risk": {
+  "level": "caution",
+  "flags": [
+   "客户不喜欢频繁联系",
+   "节日问候多数不回复"
+  ],
+  "advice": "可在上午发送简短生日祝福，不推作品，也不因未回复而追问。"
+ },
+ "candidates": [
+  {
+   "text": "沈女士，我祝您生日快乐。",
+   "strategy": "极简",
+   "note_for_ca": "适合只送一句简短祝福"
+  },
+  {
+   "text": "沈女士，生日快乐。愿新的一岁里，您常有喝茶的闲暇，我也送上我的祝福。",
+   "strategy": "走心",
+   "note_for_ca": "用了她喜欢茶的细节"
+  },
+  {
+   "text": "沈女士，今天是您的生日，我祝您生日快乐。您有没有特别喜欢的昆曲曲目？我也想听听。",
+   "strategy": "推进",
+   "note_for_ca": "适合以昆曲为话题轻轻开启交流"
+  }
+ ],
+ "checks": [
+  {
+   "pass": true,
+   "hard": [],
+   "soft": [],
+   "length": 12
+  },
+  {
+   "pass": true,
+   "hard": [],
+   "soft": [],
+   "length": 34
+  },
+  {
+   "pass": true,
+   "hard": [],
+   "soft": [],
+   "length": 40
+  }
+ ],
+ "trace": {
+  "rounds": [
+   {
+    "rule_checks": [
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 12
+     },
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 34
+     },
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 40
+     }
+    ],
+    "critic": {
+     "reviews": [
+      {
+       "index": 1,
+       "pass": true,
+       "issues": []
+      },
+      {
+       "index": 2,
+       "pass": true,
+       "issues": [
+        "“我也送上我的祝福”与前面的生日祝福重复，可删去，让语句更自然。"
+       ]
+      },
+      {
+       "index": 3,
+       "pass": true,
+       "issues": []
+      }
+     ],
+     "set_issues": []
+    },
+    "set_issues": [],
+    "to_fix": {}
+   }
+  ],
+  "plan": {
+   "client_read": "沈女士偏好素净的设计，沟通风格正式，也喜欢昆曲和茶。她与周敏相识多年，但平时联系不频繁，节日问候也很少回复。",
+   "risk": {
+    "level": "caution",
+    "flags": [
+     "客户不喜欢频繁联系",
+     "节日问候多数不回复"
+    ],
+    "advice": "可在上午发送简短生日祝福，不推作品，也不因未回复而追问。"
+   },
+   "ca_commitments": [],
+   "usable_facts": [
+    "今天是沈女士的生日",
+    "她喜欢茶",
+    "她喜欢昆曲",
+    "她偏好素净、线条少的设计"
+   ],
+   "do_not_mention": [
+    "消费金额、客户等级及内部标签",
+    "财富来源、家庭成员的私人信息",
+    "客户很少回复或不喜欢频繁联系的内部手记",
+    "作品推荐、活动和未经确认的礼物或礼遇"
+   ],
+   "products": [],
+   "slots": {
+    "极简": "向沈女士送上一句简短、得体的生日祝福。",
+    "走心": "结合她喜欢茶这一细节送上祝福，让她感到这份问候是为她而写。",
+    "推进": "在生日祝福后，轻问她有没有喜欢的昆曲曲目愿意分享；不追问。"
+   }
+  },
+  "first_draft": [
+   {
+    "text": "沈女士，我祝您生日快乐。",
+    "strategy": "极简",
+    "note_for_ca": "适合只送一句简短祝福"
+   },
+   {
+    "text": "沈女士，生日快乐。愿新的一岁里，您常有喝茶的闲暇，我也送上我的祝福。",
+    "strategy": "走心",
+    "note_for_ca": "用了她喜欢茶的细节"
+   },
+   {
+    "text": "沈女士，今天是您的生日，我祝您生日快乐。您有没有特别喜欢的昆曲曲目？我也想听听。",
+    "strategy": "推进",
+    "note_for_ca": "适合以昆曲为话题轻轻开启交流"
+   }
+  ],
+  "seconds": 34.6,
+  "diversity_max_sim": 0.17142857142857143,
+  "calls": [
+   {
+    "requested": "gpt-6.1-terra",
+    "served": "gpt-6.1-terra",
+    "seconds": 19.5,
+    "attempt": 1,
+    "in_tokens": 5514,
+    "out_tokens": 997,
+    "reasoning_tokens": 645,
+    "fingerprint": null
+   },
+   {
+    "requested": "gpt-6.1-terra",
+    "served": "gpt-6.1-terra",
+    "seconds": 6.3,
+    "attempt": 1,
+    "in_tokens": 4861,
+    "out_tokens": 273,
+    "reasoning_tokens": 124,
+    "fingerprint": null
+   },
+   {
+    "requested": "gpt-6.1-terra",
+    "served": "gpt-6.1-terra",
+    "seconds": 8.8,
+    "attempt": 1,
+    "in_tokens": 4756,
+    "out_tokens": 477,
+    "reasoning_tokens": 396,
+    "fingerprint": null
+   }
+  ]
+ }
+}

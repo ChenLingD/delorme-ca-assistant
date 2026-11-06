@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "轻微：“不是推销任何东西”评论了消息本身，反而可能强化客户的戒备。",
+    "privacy_violation": "无",
+    "fabrication": "轻微：“这一年多里好几次想给您发消息”没有依据，备注也未提示 CA 核实。",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 4
+   },
+   "sendability": "小改可发",
+   "comment": "先为上次沟通致歉，方向最合适；删去未经确认的心理活动和“不是推销”，再简短一些会更自然。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "轻微：“未曾打扰”评论了联系行为，不符合手册要求。",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "严重：对客户最后表达的被区别对待的不满只字不提，像是无事发生，可能损害关系。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 2,
+    "brand_voice": 2,
+    "naturalness": 2,
+    "effectiveness": 1
+   },
+   "sendability": "不可用",
+   "comment": "问候克制，但绕过未解决的投诉，且“未曾打扰”“诚恳地向您问候”偏书面。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "轻微：“随时送过来我帮您处理”未经 CA 授权即对接待和处理作出开放式承诺。",
+    "privacy_violation": "无",
+    "fabrication": "严重：目录中的穹顶手镯为开口式，并无已知扣位；针对吊坠和手镯提出例行检测周期也缺少依据。",
+    "context_failure": "严重：未处理客户此前的投诉，直接以两件藏品的售后联系，容易被视为借服务试探。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 2,
+    "naturalness": 2,
+    "effectiveness": 1
+   },
+   "sendability": "不可用",
+   "comment": "虽然使用了真实藏品信息，但手镯细节有误，服务切入也不适合当前尚未修复的关系。"
+  }
+ ],
+ "set": {
+  "diversity": 4,
+  "risk_judgement": "正确",
+  "best_index": 1,
+  "must_coverage": "2/2",
+  "summary": "风险等级和先处理投诉的提醒基本恰当，但将客户概括为“要强”缺乏依据。候选 1 最接近目标，需删除未经确认的心理活动；另外两条都回避了未解决的投诉。"
+ },
+ "_judge": "openai:gpt-6.1-terra"
+}

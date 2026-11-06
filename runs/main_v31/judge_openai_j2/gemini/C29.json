@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "轻微：Bella 是10月调任，今天是12月1日，不能说“上个月”。",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 4,
+    "naturalness": 3,
+    "effectiveness": 4
+   },
+   "sendability": "小改可发",
+   "comment": "交接交代清楚，语气尚自然；删去错误的时间表述，后半句也可再精简。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "轻微：提及交接时看到客户照片，容易让客户对照片被交接产生疑虑。",
+    "fabrication": "严重：输入没有客户叠戴照片或交接时看过照片的记录，不能自行声称看过。",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 2,
+    "naturalness": 2,
+    "effectiveness": 2
+   },
+   "sendability": "小改可发",
+   "comment": "叠戴是合适的个性化切入，但虚构照片损害可信度，且“有我照应，常联络”略显刻意。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "严重：擅自承诺清洗检测“几分钟就能打理好”，超出固定服务范围。",
+    "privacy_violation": "无",
+    "fabrication": "严重：自行添加几分钟完成的时间承诺；也无法确认客户一年多来一直日常叠戴。",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 2
+   },
+   "sendability": "小改可发",
+   "comment": "服务切入与客户藏品相关，但应删除未经确认的佩戴频率和完成时间承诺。"
+  }
+ ],
+ "set": {
+  "diversity": 4,
+  "risk_judgement": "偏松",
+  "best_index": 1,
+  "must_coverage": "2/2",
+  "summary": "三条都交代了交接，未使用网络流行语，候选1最接近自然打招呼。主要问题是风险提醒未覆盖虚构交接照片和擅自承诺服务完成时间，候选1的调任时间也需修正。"
+ },
+ "_judge": "openai:gpt-6.1-terra"
+}

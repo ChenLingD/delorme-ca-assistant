@@ -1,0 +1,364 @@
+{
+ "case_id": "C50",
+ "version": "v3",
+ "model": "gemini:gemini-3.8-flash",
+ "risk": {
+  "level": "caution",
+  "flags": [
+   "客户提出投资与升值预期，触及品牌严禁承诺保值、升值、投资回报的红线"
+  ],
+  "advice": "坦诚说明品牌不作保值与升值承诺，不以金融资产逻辑辩解，将关注点拉回单一工匠的手工价值与赠予太太的心意。"
+ },
+ "candidates": [
+  {
+   "text": "袁先生，理解您的考虑。跟您说句实在话，珠宝确实不能当成理财工具来看，它的价值都在手艺与佩戴本身。如果从资产配置的角度出发，确实不建议勉强。",
+   "strategy": "极简",
+   "note_for_ca": "坦诚澄清非投资品属性，不辩解、不迎合，适合直接利落的沟通。"
+  },
+  {
+   "text": "袁先生，您看做工看得很准。晨星这只手镯由一位工匠独立打磨了约120个工时，内圈刻着他个人的记号。它的份量在手艺的不可替代，确实很难用金融逻辑去衡量。",
+   "strategy": "走心",
+   "note_for_ca": "呼应其对工艺的认可并点出独立工匠价值，化解比价与投资顾虑。"
+  },
+  {
+   "text": "袁先生，买珠宝如果带着资产压力，就少了佩戴的乐趣。您哪天方便不妨带太太来店里，先拿她的穹顶手镯搭着戴戴看，上手感觉对、戴着舒服再考虑也不迟。",
+   "strategy": "推进",
+   "note_for_ca": "卸下投资心理负担，以穹顶手镯叠戴为由邀约到店试戴体验。"
+  }
+ ],
+ "checks": [
+  {
+   "pass": false,
+   "hard": [
+    "禁用词[invest]：理财"
+   ],
+   "soft": [],
+   "length": 69
+  },
+  {
+   "pass": true,
+   "hard": [],
+   "soft": [],
+   "length": 74
+  },
+  {
+   "pass": true,
+   "hard": [],
+   "soft": [],
+   "length": 70
+  }
+ ],
+ "trace": {
+  "rounds": [
+   {
+    "rule_checks": [
+     {
+      "pass": false,
+      "hard": [
+       "禁用词[invest]：升值、投资"
+      ],
+      "soft": [],
+      "length": 66
+     },
+     {
+      "pass": false,
+      "hard": [
+       "禁用词[invest]：升值、投资"
+      ],
+      "soft": [],
+      "length": 109
+     },
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 85
+     }
+    ],
+    "critic": {
+     "reviews": [
+      {
+       "index": 1,
+       "pass": true,
+       "issues": []
+      },
+      {
+       "index": 2,
+       "pass": true,
+       "issues": []
+      },
+      {
+       "index": 3,
+       "pass": true,
+       "issues": []
+      }
+     ],
+     "set_issues": []
+    },
+    "set_issues": [],
+    "to_fix": {
+     "1": [
+      "禁用词[invest]：升值、投资"
+     ],
+     "2": [
+      "禁用词[invest]：升值、投资"
+     ]
+    }
+   },
+   {
+    "rule_checks": [
+     {
+      "pass": false,
+      "hard": [
+       "禁用词[invest]：理财"
+      ],
+      "soft": [],
+      "length": 68
+     },
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 104
+     },
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 85
+     }
+    ],
+    "critic": {
+     "reviews": [
+      {
+       "index": 1,
+       "pass": true,
+       "issues": []
+      },
+      {
+       "index": 2,
+       "pass": true,
+       "issues": []
+      },
+      {
+       "index": 3,
+       "pass": true,
+       "issues": []
+      }
+     ],
+     "set_issues": []
+    },
+    "set_issues": [],
+    "to_fix": {
+     "1": [
+      "禁用词[invest]：理财"
+     ]
+    }
+   },
+   {
+    "rule_checks": [
+     {
+      "pass": false,
+      "hard": [
+       "禁用词[invest]：升值"
+      ],
+      "soft": [],
+      "length": 67
+     },
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 104
+     },
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 85
+     }
+    ],
+    "critic": {
+     "reviews": [
+      {
+       "index": 1,
+       "pass": true,
+       "issues": []
+      },
+      {
+       "index": 2,
+       "pass": false,
+       "issues": [
+        "称呼规范：手册规定默认称呼为‘姓 + 先生/女士’，应使用‘袁先生’而非‘袁总’。",
+        "语气存在说教与空话倾向：‘珠宝很难拿来算账’以及‘戴在手上的心意和陪伴，往往比外在的行情变动来得实在’，试图向企业管理层客户讲人生哲理，容易显得居高临下和空洞说教。建议把重心放在工匠工艺与具体佩戴体验上，平静接住客户的投资考量即可。"
+       ]
+      },
+      {
+       "index": 3,
+       "pass": true,
+       "issues": [
+        "称呼建议规范：手册规定品牌统一称呼为‘姓 + 先生/女士’，建议将‘袁总’调整为‘袁先生’。"
+       ]
+      }
+     ],
+     "set_issues": [
+      {
+       "indices": [
+        2,
+        3
+       ],
+       "issue": "细节素材重合：第 2 条（走心）与第 3 条（推进）的核心切入点均使用了‘与太太现有的穹顶手镯叠戴’这一相同事实。建议拉开侧重：第 2 条可聚焦袁先生认可的‘做工’（如 120 工时与工匠独立记号），让走心落在工艺与独特性上；将‘带太太到店与穹顶手镯试戴’专门留给第 3 条作为推进的下一步动作。"
+      }
+     ]
+    },
+    "set_issues": [
+     "细节素材重合：第 2 条（走心）与第 3 条（推进）的核心切入点均使用了‘与太太现有的穹顶手镯叠戴’这一相同事实。建议拉开侧重：第 2 条可聚焦袁先生认可的‘做工’（如 120 工时与工匠独立记号），让走心落在工艺与独特性上；将‘带太太到店与穹顶手镯试戴’专门留给第 3 条作为推进的下一步动作。"
+    ],
+    "to_fix": {
+     "1": [
+      "禁用词[invest]：升值"
+     ],
+     "2": [
+      "称呼规范：手册规定默认称呼为‘姓 + 先生/女士’，应使用‘袁先生’而非‘袁总’。",
+      "语气存在说教与空话倾向：‘珠宝很难拿来算账’以及‘戴在手上的心意和陪伴，往往比外在的行情变动来得实在’，试图向企业管理层客户讲人生哲理，容易显得居高临下和空洞说教。建议把重心放在工匠工艺与具体佩戴体验上，平静接住客户的投资考量即可。"
+     ],
+     "3": [
+      "与其他候选雷同：细节素材重合：第 2 条（走心）与第 3 条（推进）的核心切入点均使用了‘与太太现有的穹顶手镯叠戴’这一相同事实。建议拉开侧重：第 2 条可聚焦袁先生认可的‘做工’（如 120 工时与工匠独立记号），让走心落在工艺与独特性上；将‘带太太到店与穹顶手镯试戴’专门留给第 3 条作为推进的下一步动作。"
+     ]
+    }
+   }
+  ],
+  "plan": {
+   "client_read": "袁先生是务实且直接的实业企业家，习惯以名表的保值逻辑审视高额消费；目前他是合作五年的核心熟客，认可晨星手镯的做工，但正以投资升值心理权衡其价格。",
+   "risk": {
+    "level": "caution",
+    "flags": [
+     "客户提出投资与升值预期，触及品牌严禁承诺保值、升值、投资回报的红线"
+    ],
+    "advice": "坦诚说明品牌不作保值与升值承诺，不以金融资产逻辑辩解，将关注点拉回单一工匠的手工价值与赠予太太的心意。"
+   },
+   "ca_commitments": [],
+   "usable_facts": [
+    "袁先生认可晨星手镯的做工（聊天中提到“做工是没话说”）",
+    "选购初衷是送给太太，与太太已有的穹顶手镯叠戴",
+    "晨星手镯由同一位工匠耗费约 120 工时独立完成，内圈有工匠记号",
+    "与 CA 相识五年，沟通风格直接爽快"
+   ],
+   "do_not_mention": [
+    "承诺、预测或暗示保值、升值及投资回报",
+    "客户累计消费金额、内部晨星资格与标签",
+    "贬低名表投资或二级市场行情",
+    "制造稀缺紧迫感催促决定"
+   ],
+   "products": [
+    "ETO-B01"
+   ],
+   "slots": {
+    "极简": "坦诚说明珠宝无法承诺升值与投资回报，其价值在于工匠独立倾注的手艺与佩戴意义。",
+    "走心": "呼应袁先生对做工的认可，提及 120 工时单一工匠手工的心意，以及送给太太与穹顶手镯日常叠戴的陪伴感，淡化金融属性。",
+    "推进": "建议不急于作为投资买下，邀请袁先生有空时带太太来店试戴与穹顶手镯的叠戴效果，看是否真正喜欢再做决定。"
+   }
+  },
+  "first_draft": [
+   {
+    "text": "袁总，理解您的考虑。德洛姆的作品我们从不承诺升值或投资回报，它的价值在单一工匠倾注的手艺和佩戴本身。如果从投资角度看，确实不必勉强。",
+    "strategy": "极简",
+    "note_for_ca": "守住不承诺保值的红线，态度坦诚克制，适合直接务实的沟通。"
+   },
+   {
+    "text": "袁总，懂您看重做工，但也跟您说句实在话，珠宝很难像名表那样去算投资账。晨星这件手镯由一位工匠花了约120个工时手作，当初看它主要是觉得配您太太那只穹顶手镯叠戴特别合适。送太太的心意和戴在手上的踏实感，可能比升值更实在。",
+    "strategy": "走心",
+    "note_for_ca": "结合送太太与叠戴穹顶的初衷，以老友口吻淡化投资预期。"
+   },
+   {
+    "text": "袁总，如果当成资产来买，确实不建议仓促决定。这件作品好在工艺和佩戴手感，您哪天方便不妨带太太来店里，先拿她的穹顶手镯搭着戴戴看。喜欢且戴得舒服再考虑，不合适咱们随时放下。",
+    "strategy": "推进",
+    "note_for_ca": "给空间不催买，建议带太太到店试戴叠戴效果再做决定。"
+   }
+  ],
+  "seconds": 101.4,
+  "diversity_max_sim": 0.016260162601626018,
+  "calls": [
+   {
+    "requested": "gemini-3.8-flash",
+    "served": "gemini-3.8-flash",
+    "seconds": 12.8,
+    "attempt": 1,
+    "in_tokens": 6002,
+    "out_tokens": 509,
+    "reasoning_tokens": null,
+    "fingerprint": null
+   },
+   {
+    "requested": "gemini-3.8-flash",
+    "served": "gemini-3.8-flash",
+    "seconds": 7.8,
+    "attempt": 1,
+    "in_tokens": 5273,
+    "out_tokens": 367,
+    "reasoning_tokens": null,
+    "fingerprint": null
+   },
+   {
+    "requested": "gemini-3.8-flash",
+    "served": "gemini-3.8-flash",
+    "seconds": 9.6,
+    "attempt": 1,
+    "in_tokens": 5101,
+    "out_tokens": 74,
+    "reasoning_tokens": null,
+    "fingerprint": null
+   },
+   {
+    "requested": "gemini-3.8-flash",
+    "served": "gemini-3.8-flash",
+    "seconds": 4.7,
+    "attempt": 1,
+    "in_tokens": 5714,
+    "out_tokens": 256,
+    "reasoning_tokens": null,
+    "fingerprint": null
+   },
+   {
+    "requested": "gemini-3.8-flash",
+    "served": "gemini-3.8-flash",
+    "seconds": 3.2,
+    "attempt": 1,
+    "in_tokens": 5097,
+    "out_tokens": 74,
+    "reasoning_tokens": null,
+    "fingerprint": null
+   },
+   {
+    "requested": "gemini-3.8-flash",
+    "served": "gemini-3.8-flash",
+    "seconds": 10.6,
+    "attempt": 1,
+    "in_tokens": 5574,
+    "out_tokens": 124,
+    "reasoning_tokens": null,
+    "fingerprint": null
+   },
+   {
+    "requested": "gemini-3.8-flash",
+    "served": "gemini-3.8-flash",
+    "seconds": 41.2,
+    "attempt": 1,
+    "in_tokens": 5097,
+    "out_tokens": 411,
+    "reasoning_tokens": null,
+    "fingerprint": null
+   },
+   {
+    "requested": "gemini-3.8-flash",
+    "served": "gemini-3.8-flash",
+    "seconds": 11.5,
+    "attempt": 1,
+    "in_tokens": 6033,
+    "out_tokens": 357,
+    "reasoning_tokens": null,
+    "fingerprint": null
+   }
+  ]
+ }
+}

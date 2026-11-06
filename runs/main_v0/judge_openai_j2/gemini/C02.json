@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "轻微：生日 emoji 仅限关系熟络时使用，现有互动不足以确认熟络，建议去掉 🎂。",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 4,
+    "naturalness": 4,
+    "effectiveness": 4
+   },
+   "sendability": "小改可发",
+   "comment": "祝福直接，也自然呼应了新产品发布；去掉蛋糕 emoji 后更稳妥。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "用到了真实生日和发布计划，但特意写出年龄略显生硬，“期待您的大作”也有些客套。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 4,
+    "naturalness": 3,
+    "effectiveness": 4
+   },
+   "sendability": "小改可发",
+   "comment": "结合了忙碌近况和咖啡喜好，但“忙完早点喝杯好咖啡放松”稍显刻意，放在晚上发送也不够顺口。"
+  }
+ ],
+ "set": {
+  "diversity": 2,
+  "risk_judgement": "偏松",
+  "best_index": 1,
+  "must_coverage": "2/2",
+  "summary": "三条都以生日祝福为主，没有推产品，也呼应了客户提过的工作近况；候选 1 去掉 emoji 后最自然。整体切入角度较接近，且风险判断未提示生日 emoji 的熟络关系条件。"
+ },
+ "_judge": "openai:gpt-6.1-terra"
+}

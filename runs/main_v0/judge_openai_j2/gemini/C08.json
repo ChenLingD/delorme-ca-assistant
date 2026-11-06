@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 4,
+    "naturalness": 4,
+    "effectiveness": 5
+   },
+   "sendability": "直接可发",
+   "comment": "以镜头呼应客户的摄影兴趣，祝福简短，稍有文艺感但没有营销意图。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "轻微：生日祝福中加入到店清洗建议，冲淡了祝福本身，也增加了行动指向。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "免费清洗是确有的固定服务，但本次生日问候不必带到店建议，删除服务段落会更自然。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "轻微：祝福暗含客户今天会有咖啡和蛋糕，现有信息未证实其生日安排。",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "咖啡呼应了客户兴趣，但对当天安排的假设略显刻意，后半句改成不预设行程的祝福即可。"
+  }
+ ],
+ "set": {
+  "diversity": 4,
+  "risk_judgement": "偏松",
+  "best_index": 1,
+  "must_coverage": "1/1",
+  "summary": "三条均未利用客户的公开影响力营销，整体保持了对普通客户的尊重。工具的无风险判断偏松：候选 2 借生日引导到店，候选 3 则暗含未经确认的生日安排。"
+ },
+ "_judge": "openai:gpt-6.1-terra"
+}

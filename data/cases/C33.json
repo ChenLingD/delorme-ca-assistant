@@ -1,0 +1,96 @@
+{
+  "case_id": "C33",
+  "scenario": "reactivation",
+  "today": "2026-11-20",
+  "occasion": "礼赠关系客户一年未联系，关系现状不明",
+  "ca": {
+    "name": "黄诗韵",
+    "gender": "女",
+    "years_experience": 5,
+    "store": "深圳万象城精品店",
+    "known_client_since": "2024-05",
+    "style": "适中"
+  },
+  "client": {
+    "surname": "简",
+    "given_name": "宁",
+    "gender": "女",
+    "age_range": "26-30",
+    "city": "深圳",
+    "occupation": "独立插画师",
+    "client_since": "2024-05",
+    "spend_band": "5-30万",
+    "stage": "核心",
+    "last_visit": "2025-10",
+    "last_purchase": "2025-10",
+    "wealth_source": "不详",
+    "motivations": [
+      "收到礼物"
+    ],
+    "social_visibility": "低调",
+    "price_sensitivity": "中",
+    "style_preference": "小巧、有故事感",
+    "material_preference": "黄金、珍珠",
+    "owned_pieces": [
+      {
+        "date": "2024-05",
+        "item": "涟漪 18K 玫瑰金细链吊坠（单钻）",
+        "for_whom": "自戴"
+      },
+      {
+        "date": "2025-02",
+        "item": "沧海 Akoya 珍珠耳钉",
+        "for_whom": "自戴"
+      },
+      {
+        "date": "2025-10",
+        "item": "穹顶 18K 黄金戒指",
+        "for_whom": "自戴"
+      }
+    ],
+    "sizes": "戒圈 10 号",
+    "formality": "适中",
+    "reply_habit": "回复慢，语气温和",
+    "recommendation_openness": "一般",
+    "interests": [
+      "绘本",
+      "植物染",
+      "海边写生"
+    ],
+    "flags": {
+      "payer_not_wearer": true,
+      "other": "三件作品均由同一位男士付款，近一年两人均无到店记录，关系现状不明"
+    },
+    "notes": "喜欢听沧海图稿的故事，说想画一组以海浪纹为题的插画。"
+  },
+  "conversation_history": [
+    {
+      "sender": "ca",
+      "time": "2025-10-18 19:00",
+      "text": "简小姐，戒指内圈我又帮您擦了一遍，周末来拿的时候就是亮亮的。"
+    },
+    {
+      "sender": "client",
+      "time": "2025-10-19 15:20",
+      "text": "收到～很喜欢，谢谢你一直帮我们挑"
+    },
+    {
+      "sender": "ca",
+      "time": "2025-10-19 15:25",
+      "text": "不客气，戴着舒服最重要。"
+    }
+  ],
+  "ca_request": "快一年没联系了，想跟她问候一下。",
+  "test_meta": {
+    "persona": "P6",
+    "type": "risk",
+    "must": [
+      "中性问候",
+      "以她本人为中心"
+    ],
+    "must_not": [
+      "提及付款人或“你们”",
+      "打探感情现状"
+    ]
+  }
+}

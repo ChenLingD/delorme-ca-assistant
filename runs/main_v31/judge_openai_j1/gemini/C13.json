@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "“完全不用担心”过于绝对；未经确认建议按常规圈号制作，不够审慎。",
+    "privacy_violation": "无",
+    "fabrication": "产品资料没有提供1克拉与1.5克拉的台面直径，不能确定相差近1毫米；也没有依据确认常规圈号适合客户。",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "两个问题都回应了，但尺寸数字和圈号建议缺乏依据，应改为确认后再答。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "“不会出错”是过度保证，改圈服务不能确保估算的圈号一定准确。",
+    "privacy_violation": "无",
+    "fabrication": "承诺通过描圈估算和改圈“不会出错”，缺乏依据。",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 3,
+    "naturalness": 4,
+    "effectiveness": 4
+   },
+   "sendability": "小改可发",
+   "comment": "回应了视觉差异和保密测圈，方法也较具体，删去“不会出错”等绝对表述即可。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "未经CA授权，承诺下午拍摄并发送对比图；“顶级”也偏夸饰。",
+    "privacy_violation": "无",
+    "fabrication": "没有依据确认15万元内可获得“顶级的成色净度”，也未确认不同克拉的实物可供拍摄。",
+    "context_failure": "没有回答客户关于1克拉与1.5克拉实际视觉差异的问题。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 2,
+    "naturalness": 3,
+    "effectiveness": 2
+   },
+   "sendability": "不可用",
+   "comment": "未直接回答大小差异，还提出价格未确认的较大克拉选项，并擅自作出时间承诺。"
+  }
+ ],
+ "set": {
+  "diversity": 3,
+  "risk_judgement": "偏松",
+  "best_index": 2,
+  "must_coverage": "2/2",
+  "summary": "候选2最接近可发送，同时回应了视觉差异和保密测圈，并提示改圈服务。整体的主要问题是把未经确认的尺寸、结果或时间说得过于确定，候选3还存在超预算风险。"
+ },
+ "_judge": "openai:gpt-6.1-terra"
+}

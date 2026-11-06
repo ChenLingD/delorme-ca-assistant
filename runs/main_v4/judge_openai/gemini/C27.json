@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "轻微：“几分钟就好”是未经确认的服务时长承诺。",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 3,
+    "naturalness": 2,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "售后切入有依据，但消息偏长，建议删去耳堵和油脂的推测及时间承诺。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "轻微：“陪您通勤都满三年了”暗示客户三年来一直通勤佩戴，现有记录只能证明她当时每天上班戴。",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 4,
+    "naturalness": 4,
+    "effectiveness": 4
+   },
+   "sendability": "小改可发",
+   "comment": "短而温和，适合重新联系；将持续佩戴三年的说法改为不作推断的表述即可。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "轻微：“天天陪您上班的”容易让人理解为客户现在仍每天佩戴，记录只能证明三年前的佩戴习惯。",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "顺路清洗的邀请不强迫，但问候、作品评价和到店服务堆在一起，略长且与候选 1 重叠。"
+  }
+ ],
+ "set": {
+  "diversity": 2,
+  "risk_judgement": "偏紧",
+  "best_index": 2,
+  "must_coverage": "2/2",
+  "summary": "三条都避开了推销和价格，候选 2 最轻量，但需要改掉对持续佩戴的推断；候选 1 还需删除未经确认的服务时长。整体角度区分不足，且风险判断把客户对推销描述为“极度敏感”，超出了现有证据。"
+ },
+ "_judge": "openai:gpt-6.1-terra"
+}

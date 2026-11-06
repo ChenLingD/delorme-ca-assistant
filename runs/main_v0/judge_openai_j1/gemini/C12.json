@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "未提供产品目录，无法确认穹顶无钻金戒、拱形结构的设计来源及11号是标准尺寸。",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 4
+   },
+   "sendability": "小改可发",
+   "comment": "单款推荐切合太太的喜好，也替客户做了选择，但须核实款式并删改未经证实的细节。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "未提供产品目录，无法确认穹顶纯金素圈和沧海单颗珍珠吊坠；吊坠恰好落在领口的位置也无依据。",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 3,
+    "naturalness": 4,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "两款均围绕简洁和白衬衫展开，但应核实产品，并考虑客户希望CA直接给出选择。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "未提供产品目录或库存信息，无法确认戒指的手工肌理、无装饰设计、佩戴舒适度及11号现货。",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 3,
+    "naturalness": 4,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "单款推荐简短直接，但必须先核实款式和库存，不能自行断言现货或佩戴感受。"
+  }
+ ],
+ "set": {
+  "diversity": 3,
+  "risk_judgement": "偏松",
+  "best_index": 1,
+  "must_coverage": "2/2",
+  "summary": "三条都结合了太太的喜好，推荐数量也符合要求；候选1最直接回应了客户希望顾问帮忙选定的需求。主要问题是三条都加入了未经证实的产品细节，候选3还断言有现货，工具判定“无风险”偏松。"
+ },
+ "_judge": "openai:gpt-6.1-terra"
+}

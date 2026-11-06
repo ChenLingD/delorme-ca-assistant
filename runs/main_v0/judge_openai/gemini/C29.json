@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "轻微：描述“天冷衣服穿得厚”，违反不描述天气、气温的要求。",
+    "privacy_violation": "无",
+    "fabrication": "轻微：Bella 于 10 月调任，今天是 12 月 1 日，不能说“上个月”；天气和客户穿衣情况也没有依据。",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 2,
+    "naturalness": 2,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "交接清楚，但问佩戴习惯又提保养，内容偏满；天气与穿衣的转折也不自然。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "轻微：没有依据表明 Bella 向新 CA 提起过客户的叠戴，备注也未提示这是未经证实的社交说法。",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "叠戴切入贴合客户，但不应虚构 Bella 的转述，“深度清洗或养护”也略显生硬。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "轻微：客户曾表示会叠戴两枚戒指，但没有依据说明他日常经常佩戴。",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 4,
+    "naturalness": 4,
+    "effectiveness": 4
+   },
+   "sendability": "小改可发",
+   "comment": "交接直接、没有回复压力；删去未经证实的日常佩戴频率会更稳妥。"
+  }
+ ],
+ "set": {
+  "diversity": 2,
+  "risk_judgement": "偏松",
+  "best_index": 3,
+  "must_coverage": "2/2",
+  "summary": "三条都交代了顾问交接，语气也较轻松，但均以交接加保养为主，差异有限。主要问题是各有未经证实的表述，候选 1 还描述了天气，因此不能笼统判断为无风险。"
+ },
+ "_judge": "openai:gpt-6.1-terra"
+}

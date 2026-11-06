@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 5,
+    "brand_voice": 5,
+    "naturalness": 5,
+    "effectiveness": 5
+   },
+   "sendability": "直接可发",
+   "comment": "借之前约好的耳钉清洗重新联系，理由真实，语气自然且没有催促。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "轻微：“前阵子看到云南菌子的短片”没有依据，备注也未点明这是社交说法；“在山里奔波了那么大半年”将未确认的经历当作事实。",
+    "context_failure": "轻微：不确定纪录片是否顺利收工或客户是否回成都，却围绕这些假设连续发问。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 3,
+    "naturalness": 2,
+    "effectiveness": 2
+   },
+   "sendability": "不可用",
+   "comment": "兴趣切入方向不错，但联系理由和后续问候依赖多处未经确认的信息，需重写。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "轻微：“这周还是下周”要求客户在两个时间中选择，给沉睡客户带来回复和到店压力。",
+    "privacy_violation": "无",
+    "fabrication": "轻微：聊天记录未确认客户实际把 Akoya 耳钉带进山。",
+    "context_failure": "轻微：一年半未联系后直接询问佩戴状态并安排近期到店，推进过急。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 2,
+    "naturalness": 2,
+    "effectiveness": 2
+   },
+   "sendability": "小改可发",
+   "comment": "清洁检测有真实服务依据，但应删去带进山的假设和二选一邀约，改成轻量提醒。"
+  }
+ ],
+ "set": {
+  "diversity": 3,
+  "risk_judgement": "偏松",
+  "best_index": 1,
+  "must_coverage": "2/2",
+  "summary": "候选1同时做到自然和有真实联系理由，是最适合发送的一条；三条中有兴趣与服务两种切入，但两条都围绕清洁服务。工具标注无风险偏松，候选2有未经确认的事实，候选3则有事实假设和到店压力。"
+ },
+ "_judge": "openai:gpt-6.1-terra"
+}

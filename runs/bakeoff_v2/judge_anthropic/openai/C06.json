@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 2,
+    "brand_voice": 4,
+    "naturalness": 3,
+    "effectiveness": 4
+   },
+   "sendability": "直接可发",
+   "comment": "足够克制，没有欢快语气、产品或送修话题，丧亲时期很稳妥；但“我想对您说一声，祝您平安”有点书面，也没有任何个人细节，像一句通用祝福，略显空。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 4,
+    "naturalness": 4,
+    "effectiveness": 4
+   },
+   "sendability": "小改可发",
+   "comment": "直接接住父亲去世的事，“我记着”有真人的温度，也没写“快乐”；但在生日当天重提丧父可能让她再难受一次，“上次”也有点含糊，“身体康健”略套话，建议改成更轻的表达。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 4,
+    "naturalness": 4,
+    "effectiveness": 5
+   },
+   "sendability": "直接可发",
+   "comment": "既有关心（“惦记”“安宁”），又不直接点破伤口；“不用特意回复”照顾了她回复慢又在服丧的状态，是三条里最稳妥的。“近来我一直惦记着您”稍重，但仍是 CA 本人的口吻，可以接受；“推进”这个策略标签名不副实，实际没有推进任何事。"
+  }
+ ],
+ "set": {
+  "diversity": 3,
+  "risk_judgement": "正确",
+  "best_index": 3,
+  "must_coverage": "2/2",
+  "summary": "工具识别出丧亲风险，三条都克制，没有欢快语气、产品或送修话题，风险判断到位。主要问题是三条都是同一种低调祝愿，角度和语气差别不大，且“平安”“康健”“安宁”略偏套话，缺少能显出 CA 与客户相识多年的具体细节。"
+ },
+ "_judge": "anthropic:claude-sonnet-5-5"
+}

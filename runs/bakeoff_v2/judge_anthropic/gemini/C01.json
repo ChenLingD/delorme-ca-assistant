@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 2,
+    "brand_voice": 4,
+    "naturalness": 4,
+    "effectiveness": 4
+   },
+   "sendability": "直接可发",
+   "comment": "极简、不带产品、不邀约，契合这位很少回复、不喜频繁联系的客户；“顺心从容”略带书面腔，但不影响发送，只是个性化不足。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "借“茶”这一真实兴趣切入，用心且无推销；但“生辰常安”“愿您烹一壶好茶，静享清雅时光”偏文艺腔、有点像写好的文案，且第二句略长，微信里真人 CA 不太这么说。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "客户习惯很少回复、回也只一两个字，CA 手记明确不喜频繁联系；这里抛出“近来昆曲可有常听？”的问题，等于要求对方作答，违背“祝福本身就是目的”，也给客户制造回复压力。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 2,
+    "naturalness": 2,
+    "effectiveness": 2
+   },
+   "sendability": "小改可发",
+   "comment": "昆曲兴趣是真实的，但先提“小雪节气在即”“日常操持之余”显得生硬，“不着急回复”的退路与祝福场景不搭，整体偏长且带互动压力，删掉提问后才适合发。"
+  }
+ ],
+ "set": {
+  "diversity": 3,
+  "risk_judgement": "正确",
+  "best_index": 1,
+  "must_coverage": "2/2",
+  "summary": "三条都没有推销、邀约或提及礼物，满足核心 must；候选1最贴合“极简克制、不打扰”的客户习惯，可直接发送。主要问题是候选2、3语言偏文艺，候选3还向低回复客户抛出问题，推进意味与场景目标（祝福即目的）不符，三条风格虽有差异但整体偏书面化。"
+ },
+ "_judge": "anthropic:claude-sonnet-5-5"
+}

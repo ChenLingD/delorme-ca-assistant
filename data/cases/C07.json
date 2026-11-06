@@ -1,0 +1,105 @@
+{
+  "case_id": "C07",
+  "scenario": "birthday_festive",
+  "today": "2026-12-09",
+  "occasion": "客户今天生日",
+  "ca": {
+    "name": "Ethan",
+    "gender": "男",
+    "years_experience": 4,
+    "store": "深圳万象城精品店",
+    "known_client_since": "2025-12",
+    "style": "偏亲切"
+  },
+  "client": {
+    "surname": "郑",
+    "given_name": "可欣",
+    "gender": "女",
+    "age_range": "20-25",
+    "city": "深圳",
+    "occupation": "家族电子制造企业·品牌部实习，刚从伦敦读完硕士",
+    "client_since": "2025-12",
+    "spend_band": "5-30万",
+    "stage": "入门",
+    "last_visit": "2026-10-03",
+    "last_purchase": "2026-07",
+    "wealth_source": "家族传承",
+    "motivations": [
+      "犒赏自己",
+      "社交场合"
+    ],
+    "social_visibility": "会公开分享",
+    "price_sensitivity": "低",
+    "style_preference": "潮流、喜欢叠戴，爱混搭",
+    "material_preference": "黄金",
+    "owned_pieces": [
+      {
+        "date": "2025-12",
+        "item": "涟漪 18K 黄金耳钉",
+        "for_whom": "自戴",
+        "note": "22 岁生日时自己挑的"
+      },
+      {
+        "date": "2026-07",
+        "item": "穹顶 小号腕表款手镯",
+        "for_whom": "自戴"
+      }
+    ],
+    "formality": "随意",
+    "reply_habit": "秒回，常连发好几条，爱用表情",
+    "recommendation_openness": "欢迎",
+    "preferred_contact_time": "下午或晚上",
+    "birthday": "12-09",
+    "family_notes": "父母经营家族企业；有一个在读高中的弟弟",
+    "interests": [
+      "潮牌",
+      "说唱音乐",
+      "滑雪",
+      "猫"
+    ],
+    "notes": "23 岁。手镯和耳钉经常叠着戴，拍照发朋友圈。说过今年生日要和朋友去北海道滑雪。"
+  },
+  "conversation_history": [
+    {
+      "sender": "client",
+      "time": "2026-07-18 16:20",
+      "text": "Ethan！！手镯到了没呀 我等不及了😭"
+    },
+    {
+      "sender": "ca",
+      "time": "2026-07-18 16:28",
+      "text": "郑小姐，到了，今天下午随时可以来取。"
+    },
+    {
+      "sender": "client",
+      "time": "2026-07-18 16:29",
+      "text": "冲了冲了🏃‍♀️"
+    },
+    {
+      "sender": "client",
+      "time": "2026-10-03 21:40",
+      "text": "今天和耳钉叠着戴 被朋友夸疯了 绝绝子"
+    },
+    {
+      "sender": "ca",
+      "time": "2026-10-03 21:55",
+      "text": "叠在一起确实好看，金色很衬您。"
+    },
+    {
+      "sender": "client",
+      "time": "2026-10-03 21:56",
+      "text": "嘿嘿 生日要去北海道滑雪啦⛷️ 冲"
+    }
+  ],
+  "test_meta": {
+    "persona": "P7",
+    "type": "core",
+    "must": [
+      "年轻但不失格"
+    ],
+    "must_not": [
+      "跟着用网络流行语",
+      "营销 emoji"
+    ]
+  }
+}

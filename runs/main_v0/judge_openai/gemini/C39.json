@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 4,
+    "naturalness": 4,
+    "effectiveness": 5
+   },
+   "sendability": "直接可发",
+   "comment": "接住了客户想分享的热情，也清楚说明需向公关确认，语气稍显正式但可以直接发送。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "严重：未经授权承诺今天稍晚答复。",
+    "privacy_violation": "无",
+    "fabrication": "严重：“老洋房光线特别适合出片”没有依据；“今天稍晚给您答复”是自行添加的时间承诺。",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 2,
+    "naturalness": 3,
+    "effectiveness": 2
+   },
+   "sendability": "不可用",
+   "comment": "虽呼应了客户的创作意向，但编造场地观感并擅自承诺答复时间，不能直接发送。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "严重：尚未确认能否带摄影师，就提出协调拍摄时间段，容易让客户误以为原则上已经获准。",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "严重：客户问的是能否带摄影师拍摄，话术却跳到了协调具体时间段，未清楚说明许可本身需要确认。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 2
+   },
+   "sendability": "小改可发",
+   "comment": "语气积极，但应把“协调具体时间段”改为先向公关确认能否带摄影师拍摄。"
+  }
+ ],
+ "set": {
+  "diversity": 2,
+  "risk_judgement": "偏松",
+  "best_index": 1,
+  "must_coverage": "3/3",
+  "summary": "候选1完整做到接住热情、说明需确认且不擅自答应，是最佳选择；三条整体结构相近，差异有限。工具将整体风险判断为无，漏掉了候选2的无依据场地描述和时间承诺，以及候选3可能暗示拍摄已获准的问题。"
+ },
+ "_judge": "openai:gpt-6.1-terra"
+}

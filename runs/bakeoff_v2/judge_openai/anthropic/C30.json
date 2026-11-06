@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 4,
+    "naturalness": 3,
+    "effectiveness": 4
+   },
+   "sendability": "小改可发",
+   "comment": "直接为上次没接住客户的话道歉，不推销；但“不用回复”略显生硬，可改为“不着急回复”。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "档案列出涟漪吊坠是最早的已有作品，但未明确确认它是客户在品牌的第一件作品。",
+    "context_failure": "提及旧购买经历，容易让客户觉得仍在围绕销售展开；对上次的不愉快也没有明确道歉。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 2,
+    "brand_voice": 2,
+    "naturalness": 2,
+    "effectiveness": 2
+   },
+   "sendability": "不可用",
+   "comment": "从投诉转到旧藏品过于突兀，像在展示客户档案，不利于修复关系。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "虽然承认了当时没有顾及客户心情，却主动重提心愿登记并引导客户回复查询，容易让问候变成晨星进展沟通。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 2
+   },
+   "sendability": "小改可发",
+   "comment": "前半段具体承认不足，但应删去后半段的心愿登记和回复引导，避免给客户压力。"
+  }
+ ],
+ "set": {
+  "diversity": 3,
+  "risk_judgement": "正确",
+  "best_index": 1,
+  "must_coverage": "2/2",
+  "summary": "风险判断抓住了先处理未解决投诉、不推销也不作承诺的重点，候选1最接近这一策略。主要问题是候选2转向购买经历，候选3又引回晨星查询，均削弱了单纯修复关系的目的。"
+ },
+ "_judge": "openai:gpt-6.1-terra"
+}

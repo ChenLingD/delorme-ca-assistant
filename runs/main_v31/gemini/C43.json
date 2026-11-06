@@ -1,0 +1,264 @@
+{
+ "case_id": "C43",
+ "version": "v3.1",
+ "model": "gemini:gemini-3.8-flash",
+ "risk": {
+  "level": "ok",
+  "flags": [],
+  "advice": ""
+ },
+ "candidates": [
+  {
+   "text": "冯女士，完全理解。第一件珍珠首饰确实值得多权衡一下，不用着急定下来，您慢慢考虑就好。",
+   "strategy": "极简",
+   "note_for_ca": "适合给客户留足心理空间，不施加任何挽回压力的克制回复。"
+  },
+  {
+   "text": "冯女士，理解您的顾虑。当时看您试戴，冷白色确实很提气色，既能撑住 12 月年会和答谢主持的场合，平时配西装也不会显夸张。一件能长久高频戴的作品，确实越戴越显出分寸感。您先放轻松多想想，不着急做决定。",
+   "strategy": "走心",
+   "note_for_ca": "结合12月年会与日常通勤的高频实用场景，化解单次投入顾虑。"
+  },
+  {
+   "text": "冯女士，两万多的支出确实需要认真衡量。沧海选的是厚珠层的 Akoya 白珠，加上店里终身免费清洗与检测，也是希望它能实实在在戴很多年。下周如果您路过 SKP，不妨穿常穿的衣服再戴上镜前看一眼，顺便感受下自然光，哪怕最后不选也完全没关系。",
+   "strategy": "推进",
+   "note_for_ca": "讲清工艺与保养价值，邀约穿常服再试戴，无压力推进。"
+  }
+ ],
+ "checks": [
+  {
+   "pass": true,
+   "hard": [],
+   "soft": [],
+   "length": 42
+  },
+  {
+   "pass": true,
+   "hard": [],
+   "soft": [],
+   "length": 97
+  },
+  {
+   "pass": true,
+   "hard": [],
+   "soft": [],
+   "length": 115
+  }
+ ],
+ "trace": {
+  "rounds": [
+   {
+    "rule_checks": [
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 42
+     },
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 97
+     },
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 96
+     }
+    ],
+    "critic": {
+     "reviews": [
+      {
+       "index": 1,
+       "pass": true,
+       "issues": []
+      },
+      {
+       "index": 2,
+       "pass": true,
+       "issues": []
+      },
+      {
+       "index": 3,
+       "pass": true,
+       "issues": []
+      }
+     ],
+     "set_issues": [
+      {
+       "indices": [
+        1,
+        3
+       ],
+       "issue": "草稿 1 与草稿 3 开头第一句话完全一致（“冯女士，完全理解。”），且草稿 1 与草稿 2 结尾都落在“不用着急定下来/不着急做决定”。建议草稿 3 换一种开头切入方式（如“冯女士，这个预算确实需要认真衡量”），使三条的语气开头与结构层次拉开更清晰的辨识度。"
+      }
+     ]
+    },
+    "set_issues": [
+     "草稿 1 与草稿 3 开头第一句话完全一致（“冯女士，完全理解。”），且草稿 1 与草稿 2 结尾都落在“不用着急定下来/不着急做决定”。建议草稿 3 换一种开头切入方式（如“冯女士，这个预算确实需要认真衡量”），使三条的语气开头与结构层次拉开更清晰的辨识度。"
+    ],
+    "to_fix": {
+     "3": [
+      "与其他候选雷同：草稿 1 与草稿 3 开头第一句话完全一致（“冯女士，完全理解。”），且草稿 1 与草稿 2 结尾都落在“不用着急定下来/不着急做决定”。建议草稿 3 换一种开头切入方式（如“冯女士，这个预算确实需要认真衡量”），使三条的语气开头与结构层次拉开更清晰的辨识度。"
+     ]
+    }
+   },
+   {
+    "rule_checks": [
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 42
+     },
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 97
+     },
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 115
+     }
+    ],
+    "critic": {
+     "reviews": [
+      {
+       "index": 1,
+       "pass": true,
+       "issues": []
+      },
+      {
+       "index": 2,
+       "pass": true,
+       "issues": []
+      },
+      {
+       "index": 3,
+       "pass": true,
+       "issues": []
+      }
+     ],
+     "set_issues": []
+    },
+    "set_issues": [],
+    "to_fix": {}
+   }
+  ],
+  "plan": {
+   "client_read": "冯女士是行事严谨、自我要求高的职场精英，对自我犒赏的珠宝讲求得体与高频实用性；此刻她对作品心动但受限于预算，正在理性权衡是否值得投入。",
+   "risk": {
+    "level": "ok",
+    "flags": [],
+    "advice": ""
+   },
+   "ca_commitments": [],
+   "usable_facts": [
+    "12月中旬有公司年会并要主持客户答谢活动",
+    "想挑选第一副能兼顾撑场面与日常通勤的珍珠耳钉",
+    "5天前试戴时很喜欢冷白光泽，与灰色西装很相衬",
+    "半年前升职时购入过涟漪单钻吊坠"
+   ],
+   "do_not_mention": [
+    "打折、优惠、性价比、申请特价或送礼品抵扣",
+    "客户的累计消费、内部标签与价格敏感度",
+    "催促下单或制造限时紧迫感",
+    "贬低其他品牌或渠道",
+    "宣布“我记得/我一直放在心上”"
+   ],
+   "products": [
+    "MDC-E01"
+   ],
+   "unanswerable": "",
+   "slots": {
+    "极简": {
+     "切入点": "坦诚接住预算顾虑并充分留白",
+     "唯一信息点": "坦言选第一副珍珠值得多考虑，完全不着急做决定，不必有任何压力"
+    },
+    "走心": {
+     "切入点": "呼应她对年会答谢与日常多场合切换的需求",
+     "唯一信息点": "从使用频次与实穿度切入，分享这副珍珠在年会正装与日常工作间无缝切换的长久陪伴感"
+    },
+    "推进": {
+     "切入点": "从工艺细节与官方固定保养保障切入",
+     "唯一信息点": "说明厚珠层与终身免费清洗保养，并提议下次路过时戴着常穿的衣服再镜前看一眼，不买也没关系"
+    }
+   }
+  },
+  "first_draft": [
+   {
+    "text": "冯女士，完全理解。第一件珍珠首饰确实值得多权衡一下，不用着急定下来，您慢慢考虑就好。",
+    "strategy": "极简",
+    "note_for_ca": "适合给客户留足心理空间，不施加任何挽回压力的克制回复。"
+   },
+   {
+    "text": "冯女士，理解您的顾虑。当时看您试戴，冷白色确实很提气色，既能撑住 12 月年会和答谢主持的场合，平时配西装也不会显夸张。一件能长久高频戴的作品，确实越戴越显出分寸感。您先放轻松多想想，不着急做决定。",
+    "strategy": "走心",
+    "note_for_ca": "结合12月年会与日常通勤的高频实用场景，化解单次投入顾虑。"
+   },
+   {
+    "text": "冯女士，完全理解。这副耳钉用的是特选的厚珠层白珠，门店也一直提供终身免费清洗保养，就是希望它能踏实陪伴很多年。如果还在犹豫，下次路过 SKP 时戴着常穿的衣服再照照镜子感受一下，不买完全没关系的。",
+    "strategy": "推进",
+    "note_for_ca": "以工艺品质与终身保养为支撑，低门槛邀约再次常服试戴对比。"
+   }
+  ],
+  "seconds": 55.7,
+  "diversity_max_sim": 0.008403361344537815,
+  "calls": [
+   {
+    "requested": "gemini-3.8-flash",
+    "served": "gemini-3.8-flash",
+    "seconds": 12.8,
+    "attempt": 1,
+    "in_tokens": 5923,
+    "out_tokens": 515,
+    "reasoning_tokens": null,
+    "fingerprint": null
+   },
+   {
+    "requested": "gemini-3.8-flash",
+    "served": "gemini-3.8-flash",
+    "seconds": 9.5,
+    "attempt": 1,
+    "in_tokens": 5341,
+    "out_tokens": 344,
+    "reasoning_tokens": null,
+    "fingerprint": null
+   },
+   {
+    "requested": "gemini-3.8-flash",
+    "served": "gemini-3.8-flash",
+    "seconds": 15.8,
+    "attempt": 1,
+    "in_tokens": 5178,
+    "out_tokens": 220,
+    "reasoning_tokens": null,
+    "fingerprint": null
+   },
+   {
+    "requested": "gemini-3.8-flash",
+    "served": "gemini-3.8-flash",
+    "seconds": 9.7,
+    "attempt": 1,
+    "in_tokens": 5707,
+    "out_tokens": 151,
+    "reasoning_tokens": null,
+    "fingerprint": null
+   },
+   {
+    "requested": "gemini-3.8-flash",
+    "served": "gemini-3.8-flash",
+    "seconds": 8.0,
+    "attempt": 1,
+    "in_tokens": 5190,
+    "out_tokens": 102,
+    "reasoning_tokens": null,
+    "fingerprint": null
+   }
+  ]
+ }
+}

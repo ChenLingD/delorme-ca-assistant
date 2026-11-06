@@ -1,0 +1,25 @@
+{
+  "gflags": {
+    "A": [
+      "similar"
+    ],
+    "B": [
+      "similar"
+    ]
+  },
+  "note": "两组三个选项其实都有同质化的问题，A组的2选项稍微stand out一些",
+  "ranks": {
+    "A": 1,
+    "B": 1
+  },
+  "send": {
+    "A1": "send",
+    "A2": "send",
+    "A3": "send",
+    "B1": "send",
+    "B2": "send",
+    "B3": "send"
+  },
+  "tags": {},
+  "updatedAt": "2026-11-05T13:44:58.354Z"
+}

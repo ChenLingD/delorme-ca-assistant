@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 2,
+    "brand_voice": 4,
+    "naturalness": 4,
+    "effectiveness": 4
+   },
+   "sendability": "直接可发",
+   "comment": "简短得体，适合正式关系，但除称呼外缺少客户专属细节。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "轻微：客户曾说孙子盼着放鞭炮，但不能据此断定今天他们围在家里盼放鞭炮。",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 3,
+    "naturalness": 2,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "选用了客户提过的细节，但补写了当天情景，“天伦尽享”也略显书面。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "轻微：团圆饭由谁掌勺的提问，预设了今晚的用餐和做饭安排，聊天记录并未确认。",
+    "context_failure": "轻微：祝福中追问家庭安排，增加了客户的回复负担。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 2
+   },
+   "sendability": "小改可发",
+   "comment": "立春和十年相识均有依据，但掌勺的二选一追问显得刻意，削弱了单纯祝福的温度。"
+  }
+ ],
+ "set": {
+  "diversity": 4,
+  "risk_judgement": "偏松",
+  "best_index": 1,
+  "must_coverage": "2/2",
+  "summary": "三条都保持了较正式、适合长辈的语气，候选1最简洁稳妥。主要问题是候选2和3对当天家庭情景作了无依据的推断，工具未作提醒。"
+ },
+ "_judge": "openai:gpt-6.1-terra"
+}

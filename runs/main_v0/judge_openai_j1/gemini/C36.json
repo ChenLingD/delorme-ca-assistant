@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 5,
+    "brand_voice": 5,
+    "naturalness": 5,
+    "effectiveness": 5
+   },
+   "sendability": "直接可发",
+   "comment": "自然接住朵朵对放大镜的兴趣，清楚说明活动体验，并邀请母女一同参加。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 4,
+    "naturalness": 4,
+    "effectiveness": 4
+   },
+   "sendability": "直接可发",
+   "comment": "结合朵朵喜欢手工的真实兴趣，邀约温和，但相比放大镜的聊天承接，活动体验描述略平淡。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "活动资料未说明工匠会带全套工具；“看真正的珠宝工坊是怎么工作的”也容易让人误以为能看到工坊整体运作，而非门店内的镶嵌演示。",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 5,
+    "brand_voice": 3,
+    "naturalness": 4,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "放大镜的承接自然，但需删去全套工具及工坊整体运作的说法，改为准确描述现场镶嵌演示。"
+  }
+ ],
+ "set": {
+  "diversity": 2,
+  "risk_judgement": "偏松",
+  "best_index": 1,
+  "must_coverage": "1/1",
+  "summary": "三条都邀请了唐女士带朵朵参加，候选 1 对上次互动的承接最自然。候选 3 添加了未经证实的活动细节，工具未作风险提醒；三条的切入和篇幅也较为相近。"
+ },
+ "_judge": "openai:gpt-6.1-terra"
+}

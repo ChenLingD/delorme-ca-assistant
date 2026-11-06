@@ -1,0 +1,264 @@
+{
+ "case_id": "C34",
+ "version": "v2",
+ "model": "openai:gpt-6.1-terra",
+ "risk": {
+  "level": "ok",
+  "flags": [
+   "不喜欢人多的场合，各时段的实际人数尚未提供"
+  ],
+  "advice": ""
+ },
+ "candidates": [
+  {
+   "text": "沈女士，想请您来看沧海百年私享预览，我先确认人少些的时段。",
+   "strategy": "极简",
+   "note_for_ca": "适合先简短告知，后续再补充详情。"
+  },
+  {
+   "text": "沈女士，您上次说想亲眼看看老图稿，我记着呢。这次沧海·百年私享预览会展出1920年代上海珍珠手绘图稿原件，我想请您来看看，也会先确认哪个时段人相对少一些。",
+   "strategy": "走心",
+   "note_for_ca": "回应她看老图稿的心愿，适合延续上次的交谈。"
+  },
+  {
+   "text": "沈女士，沧海·百年珍珠特展私享预览在外滩源旗舰店三楼沙龙举行，我想邀请您参加。11月20日、21日或22日，您哪天方便？我可以根据您的选择，确认一下相对清静的时段。",
+   "strategy": "推进",
+   "note_for_ca": "提供三个日期供选择，适合确认到访意向。"
+  }
+ ],
+ "checks": [
+  {
+   "pass": true,
+   "hard": [],
+   "soft": [],
+   "length": 29
+  },
+  {
+   "pass": true,
+   "hard": [],
+   "soft": [],
+   "length": 77
+  },
+  {
+   "pass": true,
+   "hard": [],
+   "soft": [],
+   "length": 82
+  }
+ ],
+ "trace": {
+  "rounds": [
+   {
+    "rule_checks": [
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 29
+     },
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 75
+     },
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 72
+     }
+    ],
+    "critic": {
+     "reviews": [
+      {
+       "index": 1,
+       "pass": true,
+       "issues": []
+      },
+      {
+       "index": 2,
+       "pass": true,
+       "issues": []
+      },
+      {
+       "index": 3,
+       "pass": true,
+       "issues": []
+      }
+     ],
+     "set_issues": [
+      {
+       "indices": [
+        2,
+        3
+       ],
+       "issue": "两条结尾都以“帮您确认人少些的时段”收尾，仅“先”“再”不同。可调整其中一条的表述，同时保留确认较少人时段的要点。"
+      }
+     ]
+    },
+    "set_issues": [
+     "两条结尾都以“帮您确认人少些的时段”收尾，仅“先”“再”不同。可调整其中一条的表述，同时保留确认较少人时段的要点。",
+     "候选 1 和 2 结尾相同（“少些的时段”）",
+     "候选 1 和 3 结尾相同（“少些的时段”）",
+     "候选 2 和 3 结尾相同（“少些的时段”）"
+    ],
+    "to_fix": {
+     "3": [
+      "与其他候选雷同：两条结尾都以“帮您确认人少些的时段”收尾，仅“先”“再”不同。可调整其中一条的表述，同时保留确认较少人时段的要点。",
+      "候选 1 和 3 结尾相同（“少些的时段”）",
+      "候选 2 和 3 结尾相同（“少些的时段”）"
+     ],
+     "2": [
+      "候选 1 和 2 结尾相同（“少些的时段”）"
+     ]
+    }
+   },
+   {
+    "rule_checks": [
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 29
+     },
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 77
+     },
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 82
+     }
+    ],
+    "critic": {
+     "reviews": [
+      {
+       "index": 1,
+       "pass": true,
+       "issues": []
+      },
+      {
+       "index": 2,
+       "pass": true,
+       "issues": []
+      },
+      {
+       "index": 3,
+       "pass": true,
+       "issues": []
+      }
+     ],
+     "set_issues": []
+    },
+    "set_issues": [],
+    "to_fix": {}
+   }
+  ],
+  "plan": {
+   "client_read": "沈女士偏爱珍珠与有年代感的设计，也关注近代上海的手稿。她曾主动请 Grace 在老图稿展出时告知，目前保持着礼貌、稳定的联系。",
+   "risk": {
+    "level": "ok",
+    "flags": [
+     "不喜欢人多的场合，各时段的实际人数尚未提供"
+    ],
+    "advice": ""
+   },
+   "ca_commitments": [
+    "想邀请她参加私享预览，最好帮她约人少一点的时段"
+   ],
+   "usable_facts": [
+    "曾说如果有 1920 年代上海珠宝行的图稿，很想亲眼看看",
+    "曾主动请 Grace 在老图稿有机会展出时告知",
+    "喜欢沧海金珠吊坠的海浪纹，并问过纹样的来历",
+    "不喜欢人多的场合"
+   ],
+   "do_not_mention": [
+    "消费金额、客户等级、财富来源及其他内部标签",
+    "未经确认的具体场次、时段人数或预约结果",
+    "赠品、优惠或活动资料中没有的安排"
+   ],
+   "products": [],
+   "slots": {
+    "极简": "邀请参加私享预览，表示会协助确认人少一些的时段。",
+    "走心": "提起她曾希望亲眼看老图稿，让她感到自己的兴趣被记得；邀请预览并提出确认较清静的时段。",
+    "推进": "请她在 11 月 20 日、21 日或 22 日中选择方便的日期，再由 Grace 确认人数相对少的时段。"
+   }
+  },
+  "first_draft": [
+   {
+    "text": "沈女士，想请您来看沧海百年私享预览，我先确认人少些的时段。",
+    "strategy": "极简",
+    "note_for_ca": "适合先简短告知，后续再补充详情。"
+   },
+   {
+    "text": "沈女士，您上次说想亲眼看看老图稿，我一直记着。这次沧海·百年私享预览会展出1920年代上海珍珠手绘图稿原件，想邀请您来看看，我先帮您确认人少些的时段。",
+    "strategy": "走心",
+    "note_for_ca": "呼应她曾主动请我告知老图稿展出的消息。"
+   },
+   {
+    "text": "沈女士，沧海·百年珍珠特展私享预览将在外滩源旗舰店三楼沙龙举行。想邀请您来，11月20日、21日或22日，您哪天方便？我再帮您确认人少些的时段。",
+    "strategy": "推进",
+    "note_for_ca": "适合请客户选择日期，再核实各时段人数。"
+   }
+  ],
+  "seconds": 38.3,
+  "diversity_max_sim": 0.10714285714285714,
+  "calls": [
+   {
+    "requested": "gpt-6.1-terra",
+    "served": "gpt-6.1-terra",
+    "seconds": 14.8,
+    "attempt": 1,
+    "in_tokens": 5637,
+    "out_tokens": 811,
+    "reasoning_tokens": 410,
+    "fingerprint": null
+   },
+   {
+    "requested": "gpt-6.1-terra",
+    "served": "gpt-6.1-terra",
+    "seconds": 7.5,
+    "attempt": 1,
+    "in_tokens": 5038,
+    "out_tokens": 381,
+    "reasoning_tokens": 88,
+    "fingerprint": null
+   },
+   {
+    "requested": "gpt-6.1-terra",
+    "served": "gpt-6.1-terra",
+    "seconds": 7.1,
+    "attempt": 1,
+    "in_tokens": 4930,
+    "out_tokens": 486,
+    "reasoning_tokens": 373,
+    "fingerprint": null
+   },
+   {
+    "requested": "gpt-6.1-terra",
+    "served": "gpt-6.1-terra",
+    "seconds": 3.7,
+    "attempt": 1,
+    "in_tokens": 5527,
+    "out_tokens": 210,
+    "reasoning_tokens": 0,
+    "fingerprint": null
+   },
+   {
+    "requested": "gpt-6.1-terra",
+    "served": "gpt-6.1-terra",
+    "seconds": 5.2,
+    "attempt": 1,
+    "in_tokens": 4935,
+    "out_tokens": 374,
+    "reasoning_tokens": 295,
+    "fingerprint": null
+   }
+  ]
+ }
+}

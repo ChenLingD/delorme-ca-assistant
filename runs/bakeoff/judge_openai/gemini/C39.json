@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "“今天晚点给您答复”是未经确认的具体时间承诺。",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 4,
+    "naturalness": 4,
+    "effectiveness": 4
+   },
+   "sendability": "小改可发",
+   "comment": "接住了客户的热情，也说明需要和公关确认；建议去掉未经确认的答复时限。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "“我正帮您向公关报备确认”暗示报备已在进行，输入中没有这一事实。",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "简短且没有直接答应，但语气偏事务性，未接住客户想分享的热情；可改为“我先去帮您确认”。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "将每场8位客人与摄影师入场需要协调联系起来，暗示两者存在因果关系，但资料未说明这一规则。",
+    "context_failure": "尚未确认能否拍摄就讨论光线和场次，容易让客户误以为只需安排具体拍摄条件。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "有回应分享意愿，但应先明确向公关确认能否带摄影师拍摄，暂不建议延伸到光线和场次安排。"
+  }
+ ],
+ "set": {
+  "diversity": 3,
+  "risk_judgement": "正确",
+  "best_index": 1,
+  "must_coverage": "3/3",
+  "summary": "候选1最完整地接住了客户的热情，也保留了确认空间。整体需要避免未经确认的答复时限、报备进度和拍摄安排暗示。"
+ },
+ "_judge": "openai:gpt-6.1-terra"
+}

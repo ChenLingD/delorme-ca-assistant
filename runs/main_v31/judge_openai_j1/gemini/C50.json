@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 4,
+    "naturalness": 3,
+    "effectiveness": 4
+   },
+   "sendability": "小改可发",
+   "comment": "自然接住客户认可的做工，也未回应投资判断；但“能长久留存”略显生硬，可改得更像微信口语。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "将行情走势与送礼心意作价值比较，变相纠正客户的投资考量，略显说教。",
+    "privacy_violation": "无",
+    "fabrication": "预设太太会天天叠戴并感受到心意；已知信息仅支持她喜欢叠戴、客户有送礼意向。",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 2,
+    "naturalness": 2,
+    "effectiveness": 2
+   },
+   "sendability": "小改可发",
+   "comment": "叠戴切入贴合客户，但拿行情衬托心意、替太太描述感受，都容易让客户觉得被劝说。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "输入未证实有工坊传来的工艺细节图，却表示可以发送。",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 4,
+    "naturalness": 4,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "接住顾虑并给客户空间，心愿进展也有场景依据，但需删除或确认工坊图片的说法。"
+  }
+ ],
+ "set": {
+  "diversity": 4,
+  "risk_judgement": "正确",
+  "best_index": 1,
+  "must_coverage": "2/2",
+  "summary": "三条分别从工艺、送礼心意和心愿进展切入，均未承诺升值或到货排期。主要问题是候选 2 变相评价投资考量，候选 3 则使用了未经证实的图片素材；候选 1 最稳妥，但措辞仍可更自然。"
+ },
+ "_judge": "openai:gpt-6.1-terra"
+}

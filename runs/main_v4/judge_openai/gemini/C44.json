@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "严重：以“大克拉单钻上看不到”突出自家优势，贬低其他作品；价格解释也偏说教。",
+    "privacy_violation": "无",
+    "fabrication": "严重：目录只说铺镶、整枚戒指约40工时，未说明采用手工推镶或仅镶嵌就需近40工时；客户也未说对方是单钻。",
+    "context_failure": "轻微：接住了质疑，但转而与大克拉单钻比较，容易陷入辩价。",
+    "must_not_hit": "严重：涉及贬低竞品和说教。"
+   },
+   "scores": {
+    "personalization": 2,
+    "brand_voice": 1,
+    "naturalness": 2,
+    "effectiveness": 1
+   },
+   "sendability": "不可用",
+   "comment": "试图用工艺回答价格问题，但关键工艺细节失实，后半段又陷入比较。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "轻微：“独一份”“其他作品很难给到”带有排他式比较，偏离不比较的要求。",
+    "privacy_violation": "无",
+    "fabrication": "严重：两件作品“完全贴合”及“独一份”等说法没有依据。",
+    "context_failure": "轻微：联系了客户认可的叠戴效果，但缺少具体工艺价值，未充分回答价格质疑。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 2,
+    "naturalness": 2,
+    "effectiveness": 2
+   },
+   "sendability": "小改可发",
+   "comment": "叠戴切入贴合客户，但应删去绝对化和比较措辞，补入一个有据可查的工艺细节。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "轻微：“赢在细节”仍是在比较优劣，偏离不比较的要求。",
+    "privacy_violation": "无",
+    "fabrication": "轻微：客户只说对方钻石大一圈，并未说是单颗大钻。",
+    "context_failure": "轻微：给了客户选择空间，但没有提供具体工艺价值，也与客户想叠戴的诉求联系不足。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 2,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 2
+   },
+   "sendability": "小改可发",
+   "comment": "语气尊重、留有空间，但“工坊满钻工艺”过于笼统，还需删去对竞品形态的猜测。"
+  }
+ ],
+ "set": {
+  "diversity": 4,
+  "risk_judgement": "偏松",
+  "best_index": 2,
+  "must_coverage": "1/2",
+  "summary": "三条分别尝试工艺、叠戴和关系切入；候选1讲到了工艺价值，但部分细节失实，三条都未完全避开比较。工具的风险提醒方向基本正确，却没有识别候选中的工艺编造、绝对化断言和比较问题，候选2最适合修改后使用。"
+ },
+ "_judge": "openai:gpt-6.1-terra"
+}

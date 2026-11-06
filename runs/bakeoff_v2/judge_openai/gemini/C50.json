@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "没有回到作品本身，且直接建议不要入手，替客户作了较绝对的判断。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 2,
+    "brand_voice": 3,
+    "naturalness": 4,
+    "effectiveness": 2
+   },
+   "sendability": "小改可发",
+   "comment": "守住了投资红线，也给了客户空间，但建议过于直接，缺少对作品的回应。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 5,
+    "brand_voice": 4,
+    "naturalness": 4,
+    "effectiveness": 5
+   },
+   "sendability": "直接可发",
+   "comment": "接住客户的顾虑，自然承接此前对工艺的认可；末句稍显书面，但没有投资暗示。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "直接邀约叠戴试晨星手镯，暗含门店有可供试戴的作品；心愿有进展不等于已确认可以试戴。",
+    "context_failure": "只用珠宝与名表“不太一样”含糊带过投资顾虑，随后便转向到店试戴。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 3,
+    "naturalness": 4,
+    "effectiveness": 2
+   },
+   "sendability": "小改可发",
+   "comment": "叠戴切入点贴合客户需求，但应先确认试戴条件，并更清楚地回应投资顾虑。"
+  }
+ ],
+ "set": {
+  "diversity": 4,
+  "risk_judgement": "正确",
+  "best_index": 2,
+  "must_coverage": "2/2",
+  "summary": "三条均未承诺或暗示保值升值，候选2也有效回到了作品本身。主要问题是候选1直接建议不买，而候选3未经确认便提出试戴，且对投资顾虑回应含糊。"
+ },
+ "_judge": "openai:gpt-6.1-terra"
+}

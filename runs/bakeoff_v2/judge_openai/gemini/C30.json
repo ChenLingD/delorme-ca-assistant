@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 4,
+    "naturalness": 4,
+    "effectiveness": 4
+   },
+   "sendability": "直接可发",
+   "comment": "简短承认上次处理欠妥，只作问候，虽然道歉较笼统，但分寸合适。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "“这一年里我常觉自责”情绪偏重，整条略显冗长，不够克制。",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 2,
+    "naturalness": 2,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "有正面回应上次的不快，但自责和感谢堆叠，容易让客户觉得用力过度。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "“随时可以做”和“随时拿来我帮您打理”暗示未确认的门店接待及服务安排。",
+    "privacy_violation": "无",
+    "fabrication": "“深度清洗”并非已列明的固定服务；购买时间也不能证明客户已佩戴手镯一年多。",
+    "context_failure": "投诉尚未处理妥当便转向手镯保养和到店，偏离了纯问候的意图。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 2,
+    "naturalness": 3,
+    "effectiveness": 2
+   },
+   "sendability": "小改可发",
+   "comment": "虽用了真实藏品信息，但过早引导到店，还加入了未确认的服务细节。"
+  }
+ ],
+ "set": {
+  "diversity": 4,
+  "risk_judgement": "正确",
+  "best_index": 1,
+  "must_coverage": "3/3",
+  "summary": "风险判断恰当，候选 1 以简短道歉和问候覆盖了真诚、不卑不亢及不重提配额细节三项要求。主要问题是候选 2 情绪过重，候选 3 则过早引入保养，并作出未确认的服务安排。"
+ },
+ "_judge": "openai:gpt-6.1-terra"
+}

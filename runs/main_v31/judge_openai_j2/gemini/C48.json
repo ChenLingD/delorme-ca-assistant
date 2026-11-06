@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 2,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "价格口径稳妥，但较为泛泛，应补充十万元内的同系列选择。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "轻微：说客户试戴时把扣头拆作胸针的样子很相衬，但记录只确认她喜欢这一设计，并未确认她戴过胸针。",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 3,
+    "naturalness": 2,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "抓住了客户喜欢的扣头和串制细节，但表达偏满，且缺少预算内选择。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "严重：客户已提出十万元预算，却继续邀请试戴超预算项链，没有给出预算内选择。",
+    "must_not_hit": "严重：继续推荐十万元以上的南洋白珠单串项链。"
+   },
+   "scores": {
+    "personalization": 2,
+    "brand_voice": 2,
+    "naturalness": 2,
+    "effectiveness": 1
+   },
+   "sendability": "不可用",
+   "comment": "反复引导客户考虑超预算作品，“不可替代的选择”也显得用力过度。"
+  }
+ ],
+ "set": {
+  "diversity": 3,
+  "risk_judgement": "偏松",
+  "best_index": 1,
+  "must_coverage": "1/2",
+  "summary": "三条均守住了不打折的底线，也没有提及付款人，但都缺少十万元内的同系列选择。风险提醒未覆盖超预算推荐，候选 3 还继续推动客户试戴超预算项链。"
+ },
+ "_judge": "openai:gpt-6.1-terra"
+}

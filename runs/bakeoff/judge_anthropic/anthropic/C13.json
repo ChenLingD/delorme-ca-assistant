@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "轻微：“我把两种都拿出来对比”默认店里有 1.5 克拉实物，但输入里 1.5 克拉只是可定制规格，也没有价格信息。“看起来往往没有数字那么悬殊”是常识性说法，可以接受。",
+    "context_failure": "部分：只答了第一个问题（大小差别），完全没碰戒圈保密这个更具体的问题。",
+    "must_not_hit": "无硬性触犯。但主动邀请对比 1.5 克拉，和工具自己写的“不要顺势往上推”相冲突，而 1.5 克拉很可能超出 15 万预算，有轻微往上带的风险。"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 4,
+    "naturalness": 4,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "回答实在、语气克制，悬浮镶的细节也具体；但漏了戒圈问题，“两种都拿出来”不够稳妥，应改成“我先发图，或您来了我们一起看”，并补一句改圈服务。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "轻微：“之后还能再调”容易被理解成可以多次免费调整，而手册只承诺一年内免费改圈一次。",
+    "context_failure": "部分：没有回答 1 克拉和 1.5 克拉的差别，也没给“如何大致知道戒圈”的可行办法（例如借她常戴的戒指比对）。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 4,
+    "naturalness": 3,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "准确提到一年内免费改圈一次，既安抚了客户，也没有制造焦虑；但开头没有称呼，像脱离上下文的一段话，没答第一个问题，“再调”也要改成“免费改圈一次”。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "两个问题都没回答。客户昨晚就问了，CA 此时只发“我整理清楚再回复”，信息量为零，还会让客户觉得被拖延。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 2,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 1
+   },
+   "sendability": "不可用",
+   "comment": "只是占位回复，两项 must 都没做到；“问得很准”也略带讨好。这两个问题 CA 手里已有现成答案，没必要拖。"
+  }
+ ],
+ "set": {
+  "diversity": 3,
+  "risk_judgement": "正确",
+  "best_index": 2,
+  "must_coverage": "单条最多 1/2（候选 1 答了大小问题，候选 2 提了改圈服务）；3 条合起来才是 2/2",
+  "summary": "风险判断准确（求婚需保密、不报价、不催促、不编造 1.5 克拉价格），不过候选 1 邀请对比 1.5 克拉，和工具自己的提醒有点冲突。主要问题是没有一条同时回答两个问题：候选 1 缺戒圈，候选 2 缺大小，候选 3 是无效占位。最好把 1 的大小回答和 2 的改圈服务合成一条，再补一个可行的戒圈获取办法。"
+ },
+ "_judge": "anthropic:claude-sonnet-5-5"
+}

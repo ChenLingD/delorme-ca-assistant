@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "轻微：直接评价珠宝与腕表的投资差异及投资顾虑，未按手册绕开无解问题。",
+    "privacy_violation": "无",
+    "fabrication": "轻微：目录只说明约120工时、由一位工匠完成，未说明百余小时均用于打磨，也未说明工坊以长久日常佩戴为设计意图。",
+    "context_failure": "轻微：接住了价格顾虑并回到作品，但仍对投资问题作了判断。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "三条中最稳妥，但应删去投资比较及未经证实的工坊意图，用准确工时和叠戴信息收短。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "严重：以“带着升值压力买”会影响太太佩戴从容来纠正客户，有说教和替他人判断感受之嫌。",
+    "privacy_violation": "无",
+    "fabrication": "轻微：工匠记号是目录事实，但不能据此认定作品“只是专属于佩戴者”。",
+    "context_failure": "严重：没有接住客户对价格的犹豫，反而评价其购买心态，容易伤害关系。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 2,
+    "brand_voice": 1,
+    "naturalness": 1,
+    "effectiveness": 1
+   },
+   "sendability": "不可用",
+   "comment": "借客户的腕表和实业背景推断其心态，又替太太设想佩戴感受，措辞生硬且带有说教意味。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "严重：直接比较晨星与名表的金融属性，并暗示二者投资表现有高下，不符合绕开投资问题的要求。",
+    "privacy_violation": "无",
+    "fabrication": "轻微：客户认可做工、曾讨论叠戴，但没有说自己留意晨星主要是因为两款手镯的线条相衬。",
+    "context_failure": "严重：将客户的投资预期拿来作判断，且主动建议先放一放，未充分接住价格顾虑。",
+    "must_not_hit": "严重：金融属性“很难和名表去比”暗示投资属性的比较，触及不得作投资暗示的要求。"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 2,
+    "naturalness": 2,
+    "effectiveness": 1
+   },
+   "sendability": "不可用",
+   "comment": "虽用到了太太的穹顶手镯，但投资比较和替客户归纳选购动机都不妥。"
+  }
+ ],
+ "set": {
+  "diversity": 2,
+  "risk_judgement": "偏松",
+  "best_index": 1,
+  "must_coverage": "2/2",
+  "summary": "候选1最接近期望：没有承诺保值升值，也回到了作品本身，但仍需修改投资判断和未经证实的细节。三条都没有真正绕开投资话题，候选3还暗示金融属性高下，因此“ok；无”的风险判断偏松。"
+ },
+ "_judge": "openai:gpt-6.1-terra"
+}

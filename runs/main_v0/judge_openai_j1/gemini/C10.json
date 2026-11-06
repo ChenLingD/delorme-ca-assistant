@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "“有新的消息我第一时间告诉您”作出了未经CA要点授权的即时反馈承诺。",
+    "context_failure": "客户问了价格，但未回答；也未引导了解其他系列的工艺。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "工艺细节准确，也接住了心愿，但应补充价格、弱化反馈承诺，并让表达更简短。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "以“产量极少”强调未经证实的稀缺性。",
+    "privacy_violation": "无",
+    "fabrication": "“朋友戴着很衬”“产量极少、没有现货排期”均缺乏输入依据。",
+    "context_failure": "未回答价格，也未引导了解其他系列工艺；邀约量手寸与客户当前问题衔接较弱。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 2,
+    "brand_voice": 2,
+    "naturalness": 2,
+    "effectiveness": 2
+   },
+   "sendability": "不可用",
+   "comment": "虽然提到了朋友戴晨星的经历，但编造佩戴评价和稀缺信息，邀约也显得过早。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "“全程手工打磨”没有明确依据；“一旦有进展我立即和您说”作出了未经授权的即时反馈承诺。",
+    "context_failure": "未回答价格，也未引导了解其他系列的工艺。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 2,
+    "brand_voice": 3,
+    "naturalness": 2,
+    "effectiveness": 2
+   },
+   "sendability": "小改可发",
+   "comment": "态度温和，但工艺描述空泛，“值得多一点耐心”略像劝客户等待，且漏答价格。"
+  }
+ ],
+ "set": {
+  "diversity": 2,
+  "risk_judgement": "偏松",
+  "best_index": 1,
+  "must_coverage": "2/3",
+  "summary": "三条都没有设置配额门槛或承诺到货时间，也都登记了心愿，但均未引导了解其他系列工艺，且漏答客户明确问到的价格。候选2编造稀缺信息，候选1和3的即时反馈承诺也需调整，因此整体风险判断为“ok”偏松。"
+ },
+ "_judge": "openai:gpt-6.1-terra"
+}

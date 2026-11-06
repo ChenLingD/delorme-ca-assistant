@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无。「终身免费抛光」符合手册服务承诺；「明天周二在店」经核对 2026-11-09 为周一，属实；今天或明天上门取送是 CA 自己提出的方案。",
+    "context_failure": "无。没有直接回应「质量就这样？」，但先接情绪再给方案，没有辩解，处理方式正确。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 4,
+    "naturalness": 4,
+    "effectiveness": 5
+   },
+   "sendability": "直接可发",
+   "comment": "先共情，再给终身免费抛光、明确的时间点和上门取送。对性子急、爱面子的客户最省心；不足是没有明说「抱歉」，也没提现场约 40 分钟，「完全恢复光泽」略满。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无。「提前帮您安排好师傅的时间」属于合理的服务动作；「恢复如新」略有夸大，但不算编造。",
+    "context_failure": "无。道歉并给出了方案，没有辩解。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 4,
+    "naturalness": 3,
+    "effectiveness": 4
+   },
+   "sendability": "小改可发",
+   "comment": "道歉明确，40 分钟现场做完的信息清楚。但只给到店方案，漏了 CA 想提供的上门取件，对忙碌的创始人客户少了一个选项；「您放心」「恢复如新」略有模板感。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "轻微：「来店里喝杯咖啡现场等」是输入中没有的接待细节；「工坊师傅」的说法也略不准确。",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 4
+   },
+   "sendability": "小改可发",
+   "comment": "同时给出到店等候和上门取件两个选项，覆盖了 CA 的全部要求。但「明天之后抽空」表述别扭，「喝杯咖啡」在投诉场景里有点轻飘，需要删改。"
+  }
+ ],
+ "set": {
+  "diversity": 2,
+  "risk_judgement": "正确",
+  "best_index": 1,
+  "must_coverage": "3/3",
+  "summary": "三条都先接住情绪，给出终身免费抛光和明确时间，没有辩解，也没有提她的工作环境或推新品，红线和 must 项都守住了。主要问题是三条几乎是同一套内容的改写（道歉、免费抛光、40 分钟、取件），缺少真正不同的切入角度，语气也偏正式，与客户随意的风格有距离；其中候选 1 的取送方案最贴合这位性子急的客户。"
+ },
+ "_judge": "anthropic:claude-sonnet-5-5"
+}

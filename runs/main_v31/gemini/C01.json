@@ -1,0 +1,253 @@
+{
+ "case_id": "C01",
+ "version": "v3.1",
+ "model": "gemini:gemini-3.8-flash",
+ "risk": {
+  "level": "ok",
+  "flags": [],
+  "advice": ""
+ },
+ "candidates": [
+  {
+   "text": "沈女士，今天是您的生日，祝您生辰吉乐，诸事顺遂。",
+   "strategy": "极简",
+   "note_for_ca": "适合习惯极简交流的客户，安静得体不打扰。"
+  },
+  {
+   "text": "沈女士，祝您生辰快乐。愿您常有清茶一盏，四季心境温润安然。",
+   "strategy": "走心",
+   "note_for_ca": "结合客户爱茶与素雅心境，表达温和祝福。"
+  },
+  {
+   "text": "沈女士，祝您生辰吉乐。近来得闲时，不知您可有去听听合心意的昆曲折子？",
+   "strategy": "推进",
+   "note_for_ca": "以昆曲雅趣切入轻巧提问，守住分寸感，便于客户轻松简短回应。"
+  }
+ ],
+ "checks": [
+  {
+   "pass": true,
+   "hard": [],
+   "soft": [],
+   "length": 24
+  },
+  {
+   "pass": true,
+   "hard": [],
+   "soft": [],
+   "length": 29
+  },
+  {
+   "pass": true,
+   "hard": [],
+   "soft": [],
+   "length": 34
+  }
+ ],
+ "trace": {
+  "rounds": [
+   {
+    "rule_checks": [
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 24
+     },
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 29
+     },
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 33
+     }
+    ],
+    "critic": {
+     "reviews": [
+      {
+       "index": 1,
+       "pass": true,
+       "issues": []
+      },
+      {
+       "index": 2,
+       "pass": true,
+       "issues": []
+      },
+      {
+       "index": 3,
+       "pass": false,
+       "issues": [
+        "隐私与分寸越界：询问‘今天儿子在英国那边，应当也给您打来视频了吧？’窥探并假设了客户极其私密的家庭互动细节，对于性格低调、少言且沟通偏正式的高净值客户而言显得冒昧与窥探感过重，缺乏安全距离。建议将推进版改为与客户兴趣（如茶道或昆曲闲暇）相关、更得体且尊重私人边界的轻量交流，或仅作适度关怀。"
+       ]
+      }
+     ],
+     "set_issues": []
+    },
+    "set_issues": [],
+    "to_fix": {
+     "3": [
+      "隐私与分寸越界：询问‘今天儿子在英国那边，应当也给您打来视频了吧？’窥探并假设了客户极其私密的家庭互动细节，对于性格低调、少言且沟通偏正式的高净值客户而言显得冒昧与窥探感过重，缺乏安全距离。建议将推进版改为与客户兴趣（如茶道或昆曲闲暇）相关、更得体且尊重私人边界的轻量交流，或仅作适度关怀。"
+     ]
+    }
+   },
+   {
+    "rule_checks": [
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 24
+     },
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 29
+     },
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 34
+     }
+    ],
+    "critic": {
+     "reviews": [
+      {
+       "index": 1,
+       "pass": true,
+       "issues": []
+      },
+      {
+       "index": 2,
+       "pass": true,
+       "issues": []
+      },
+      {
+       "index": 3,
+       "pass": true,
+       "issues": []
+      }
+     ],
+     "set_issues": []
+    },
+    "set_issues": [],
+    "to_fix": {}
+   }
+  ],
+  "plan": {
+   "client_read": "沈女士是一位审美素雅、行事低调且注重分寸的家族企业客户；目前与品牌保持着互信但极具距离感的稳定关系，回复向来言简意赅，适合安静得体的问候。",
+   "risk": {
+    "level": "ok",
+    "flags": [],
+    "advice": ""
+   },
+   "ca_commitments": [],
+   "usable_facts": [
+    "今天是沈女士的生日（11月18日）",
+    "平日喜爱茶道与宋瓷的素雅意境",
+    "儿子在英国读研",
+    "习惯极简沟通，回复通常仅有一两个字"
+   ],
+   "do_not_mention": [
+    "消费金额、VIP标签与内部等级",
+    "推销任何珠宝作品或催促到店",
+    "追问5个月前珍珠项链的串线佩戴感受",
+    "虚构当日天气或气温"
+   ],
+   "products": [],
+   "unanswerable": "",
+   "slots": {
+    "极简": {
+     "切入点": "直入生辰问候",
+     "唯一信息点": "克制纯净的生辰祝福"
+    },
+    "走心": {
+     "切入点": "结合其对茶事与清雅生活的气质理解",
+     "唯一信息点": "祝愿日常茶香常伴、心境从容温润"
+    },
+    "推进": {
+     "切入点": "生辰之日对家人的温和关怀",
+     "唯一信息点": "轻声问及远在英国读研的儿子今天是否通了视频"
+    }
+   }
+  },
+  "first_draft": [
+   {
+    "text": "沈女士，今天是您的生日，祝您生辰吉乐，诸事顺遂。",
+    "strategy": "极简",
+    "note_for_ca": "适合习惯极简交流的客户，安静得体不打扰。"
+   },
+   {
+    "text": "沈女士，祝您生辰快乐。愿您常有清茶一盏，四季心境温润安然。",
+    "strategy": "走心",
+    "note_for_ca": "结合客户爱茶与素雅心境，表达温和祝福。"
+   },
+   {
+    "text": "沈女士，祝您生辰愉快。今天儿子在英国那边，应当也给您打来视频了吧？",
+    "strategy": "推进",
+    "note_for_ca": "关怀英国读研的儿子，留出一个轻盈好答的话题。"
+   }
+  ],
+  "seconds": 37.1,
+  "diversity_max_sim": 0.12195121951219512,
+  "calls": [
+   {
+    "requested": "gemini-3.8-flash",
+    "served": "gemini-3.8-flash",
+    "seconds": 11.6,
+    "attempt": 1,
+    "in_tokens": 5930,
+    "out_tokens": 408,
+    "reasoning_tokens": null,
+    "fingerprint": null
+   },
+   {
+    "requested": "gemini-3.8-flash",
+    "served": "gemini-3.8-flash",
+    "seconds": 7.9,
+    "attempt": 1,
+    "in_tokens": 5242,
+    "out_tokens": 219,
+    "reasoning_tokens": null,
+    "fingerprint": null
+   },
+   {
+    "requested": "gemini-3.8-flash",
+    "served": "gemini-3.8-flash",
+    "seconds": 3.7,
+    "attempt": 1,
+    "in_tokens": 5060,
+    "out_tokens": 215,
+    "reasoning_tokens": null,
+    "fingerprint": null
+   },
+   {
+    "requested": "gemini-3.8-flash",
+    "served": "gemini-3.8-flash",
+    "seconds": 11.8,
+    "attempt": 1,
+    "in_tokens": 5463,
+    "out_tokens": 106,
+    "reasoning_tokens": null,
+    "fingerprint": null
+   },
+   {
+    "requested": "gemini-3.8-flash",
+    "served": "gemini-3.8-flash",
+    "seconds": 2.2,
+    "attempt": 1,
+    "in_tokens": 5067,
+    "out_tokens": 74,
+    "reasoning_tokens": null,
+    "fingerprint": null
+   }
+  ]
+ }
+}

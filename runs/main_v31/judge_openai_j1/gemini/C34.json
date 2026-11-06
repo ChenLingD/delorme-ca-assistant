@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "“老手稿到了”暗示图稿已经到店，活动资料未确认；“在上海的手绘图稿”也可能被理解为图稿是在上海绘制，资料未说明。",
+    "context_failure": "无",
+    "must_not_hit": "编造活动资料未确认的图稿状态。"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 4,
+    "naturalness": 4,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "呼应了她想看老图稿的心愿，但应去掉图稿已到店的表述，并补上与珍珠收藏的联系。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "资料未说明图稿是金珠吊坠海浪纹的出处，也未确认预览环境清静。",
+    "context_failure": "把客户此前询问海浪纹的渊源与图稿展览作了未经证实的连接。",
+    "must_not_hit": "编造图稿与海浪纹的关系及活动环境。"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 2,
+    "naturalness": 3,
+    "effectiveness": 1
+   },
+   "sendability": "不可用",
+   "comment": "虽然用到了金珠吊坠的真实信息，但邀约的核心理由建立在虚构的纹样出处上。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "未呼应客户主动提出的想看老图稿的心愿，也没有提及与其珍珠收藏的联系。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 2,
+    "brand_voice": 4,
+    "naturalness": 4,
+    "effectiveness": 2
+   },
+   "sendability": "小改可发",
+   "comment": "照顾到了她偏好人少的需求，但缺少最能体现专门为她发出邀请的图稿信息。"
+  }
+ ],
+ "set": {
+  "diversity": 3,
+  "risk_judgement": "偏松",
+  "best_index": 1,
+  "must_coverage": "2/3",
+  "summary": "候选 1 呼应了看老图稿的心愿，候选 3 的日期表述准确，但没有一条同时可靠地完成全部必做项。最主要的问题是候选 2 将海浪纹与图稿的关系凭空说成事实，因此工具标记“无风险”偏松。"
+ },
+ "_judge": "openai:gpt-6.1-terra"
+}

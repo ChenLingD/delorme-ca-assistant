@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "“生日快乐”在父亲去世仅一个月的丧期里偏欢快、偏轻，没有任何克制或关心的痕迹，只有一句干净的祝福，与聊天记录里的丧亲情境不够贴合。风险较轻，但与 must“表达关心而非快乐式祝福”有出入。",
+    "must_not_hit": "无（没有 emoji、产品、活动，也没有催送修；但“生日快乐”算不算欢快语气有争议，倾向于不算触犯）"
+   },
+   "scores": {
+    "personalization": 2,
+    "brand_voice": 4,
+    "naturalness": 4,
+    "effectiveness": 2
+   },
+   "sendability": "小改可发",
+   "comment": "干净、不越界，但对一位刚丧父的客户只说“生日快乐”显得没有看见她的处境；建议加一句克制的惦记，如“这段时间您辛苦了”之类，不要只用常规祝福。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "“今天心里一直记着”是 CA 的主观陈述，不算事实编造；“没多打扰您”与聊天记录相符（10 月 29 日后确实未再联系）。",
+    "context_failure": "无。不提丧事字眼，没有说“生日快乐”，也不催办，结尾留退路“不用回复我”。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 4,
+    "naturalness": 4,
+    "effectiveness": 5
+   },
+   "sendability": "直接可发",
+   "comment": "三条里最贴合情境：不用欢快语气，既让她知道被记得，又不要求回应；“愿您这一天过得安稳些”克制得体。唯一可打磨的是整条没有出现“生日”二字，客户可能要稍加会意；“心里一直记着”略偏文，但仍在可接受范围。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "“生日月店里给您留着一份小礼物”虽然是手册允许的轻提一句，但在丧期里把礼物与到店联系起来，且附带“您什么时候方便，跟我说一声”，实质上是在引导对方采取下一步行动，与“留白、不催到店”相悖。",
+    "privacy_violation": "无",
+    "fabrication": "“留着一份小礼物”依赖门店有生日月礼物这一政策，输入中未出现该政策的具体细节；“给您留着”暗示专门保留，也略有编造成分。",
+    "context_failure": "丧亲一个月内以“生日快乐”加礼物邀约收尾，语气偏轻快，忽略了客户的处境，类似借生日做一次触达。",
+    "must_not_hit": "触及“任何产品或活动”：生日月礼物属于门店活动/赠品，命中 must_not；“生日快乐”也偏欢快。"
+   },
+   "scores": {
+    "personalization": 1,
+    "brand_voice": 2,
+    "naturalness": 3,
+    "effectiveness": 1
+   },
+   "sendability": "不可用",
+   "comment": "在丧期里提礼物并让客户“方便时说一声”，等于变相邀约，命中 must_not 且违背工具自己的风险提示（“不提活动”），不应发出。"
+  }
+ ],
+ "set": {
+  "diversity": 3,
+  "risk_judgement": "正确",
+  "best_index": 2,
+  "must_coverage": "2/3",
+  "summary": "风险识别准确，并明确写出“不提作品、不提活动、不提待办、不再说节哀、结尾不用回复”，但候选 3 却违反了自己的提醒（带了礼物和邀约），说明生成与风险策略不一致；候选 1 过于普通，只有候选 2 真正做到了克制关心。三条里有一条不可用、一条偏平，实际可选的只有一条，多样性也有限。"
+ },
+ "_judge": "anthropic:claude-sonnet-5-5"
+}

@@ -1,0 +1,101 @@
+{
+  "case_id": "C01",
+  "scenario": "birthday_festive",
+  "today": "2026-11-18",
+  "occasion": "客户今天生日",
+  "ca": {
+    "name": "周敏",
+    "gender": "女",
+    "years_experience": 9,
+    "store": "杭州大厦精品店",
+    "known_client_since": "2021-10",
+    "style": "偏正式"
+  },
+  "client": {
+    "surname": "沈",
+    "given_name": "清禾",
+    "gender": "女",
+    "age_range": "50-55",
+    "city": "杭州",
+    "occupation": "家族丝绸企业股东",
+    "client_since": "2018-04",
+    "spend_band": "30-100万",
+    "stage": "核心",
+    "last_visit": "2026-06-14",
+    "last_purchase": "2024-11",
+    "wealth_source": "家族传承",
+    "motivations": [
+      "收藏"
+    ],
+    "social_visibility": "低调",
+    "price_sensitivity": "低",
+    "style_preference": "素净、线条少，不喜欢大面积镶钻",
+    "material_preference": "白金、南洋白珠",
+    "owned_pieces": [
+      {
+        "date": "2018-04",
+        "item": "沧海 Akoya 珍珠耳钉",
+        "for_whom": "自戴"
+      },
+      {
+        "date": "2020-09",
+        "item": "沧海 南洋白珠单串项链",
+        "for_whom": "自戴",
+        "note": "2026-06 到店清洗并重新串线"
+      },
+      {
+        "date": "2024-11",
+        "item": "穹顶 18K 玫瑰金手镯",
+        "for_whom": "自戴"
+      }
+    ],
+    "sizes": "手腕偏细，手镯选小号",
+    "formality": "正式",
+    "reply_habit": "很少回复，回也只一两个字",
+    "recommendation_openness": "一般",
+    "preferred_contact_time": "上午",
+    "birthday": "11-18",
+    "family_notes": "先生在家族企业主事；儿子在英国读研",
+    "interests": [
+      "昆曲",
+      "宋瓷",
+      "茶"
+    ],
+    "notes": "不喜欢频繁联系；节日问候她多数不回。2026-09 中秋问候她回了“谢谢”，之后无互动。"
+  },
+  "conversation_history": [
+    {
+      "sender": "ca",
+      "time": "2026-06-14 17:20",
+      "text": "沈女士，项链已经串好了，下午您取走时说扣头有点紧，我又让师傅调了一下，下次来可以再试试。"
+    },
+    {
+      "sender": "client",
+      "time": "2026-06-15 09:41",
+      "text": "好。"
+    },
+    {
+      "sender": "ca",
+      "time": "2026-09-25 10:05",
+      "text": "沈女士，中秋快乐，祝您和家人团圆安康。"
+    },
+    {
+      "sender": "client",
+      "time": "2026-09-25 21:30",
+      "text": "谢谢"
+    }
+  ],
+  "test_meta": {
+    "persona": "P1",
+    "type": "core",
+    "must": [
+      "极简、克制",
+      "不带产品"
+    ],
+    "must_not": [
+      "长篇",
+      "推销或邀约到店",
+      "提及生日月到店礼物"
+    ]
+  }
+}

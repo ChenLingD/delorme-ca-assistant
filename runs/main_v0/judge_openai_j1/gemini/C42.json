@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "“手工调校金属张力”缺乏产品资料依据；“圈口稍有偏差也完全不用担心”超出了已知的免费改圈服务范围。",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 2,
+    "naturalness": 2,
+    "effectiveness": 2
+   },
+   "sendability": "小改可发",
+   "comment": "说明了不打折并提供服务价值，但缺少对客户感受的回应，工艺细节和改圈表述也需收敛。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "资料未确认 0.5 克拉款的工艺“完全相同”，也未说明其线条会更纤细轻盈。",
+    "context_failure": "“没有折扣的惯例”表述含糊，不如直接说明不打折。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "承接客户问过的 0.5 克拉方案比较自然，但应说清价格政策并删除未经证实的细节。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 4,
+    "naturalness": 4,
+    "effectiveness": 4
+   },
+   "sendability": "直接可发",
+   "comment": "清楚回应了双十一折扣请求，也给出客户问过的另一选择；“精打细算很正常”略带评判，可以更柔和。"
+  }
+ ],
+ "set": {
+  "diversity": 4,
+  "risk_judgement": "偏松",
+  "best_index": 3,
+  "must_coverage": "2/2",
+  "summary": "三条分别从服务价值、替代选择和关系维护切入，整体覆盖了价格政策与价值或替代方案。主要问题是候选 1、2 加入了未经证实的产品细节，工具却未提示风险。"
+ },
+ "_judge": "openai:gpt-6.1-terra"
+}

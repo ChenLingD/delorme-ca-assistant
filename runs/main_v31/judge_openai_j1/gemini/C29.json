@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "Bella 于 2026 年 10 月调任，12 月 1 日不能称为“上个月”。",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 4,
+    "naturalness": 3,
+    "effectiveness": 4
+   },
+   "sendability": "小改可发",
+   "comment": "交接清楚、没有催促，删去错误的“上个月”并精简后半句即可。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "“交接时看到”刻意展示掌握的客户信息，不够自然。",
+    "privacy_violation": "无",
+    "fabrication": "输入中没有客户发送叠戴照片或新 CA 看到照片的记录。",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 2,
+    "naturalness": 2,
+    "effectiveness": 2
+   },
+   "sendability": "不可用",
+   "comment": "叠戴切入有针对性，但编造照片且话偏长，“有我照应、常联络”也显得用力。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "未经 CA 授权，承诺清洗检测“几分钟就能打理好”。",
+    "privacy_violation": "无",
+    "fabrication": "没有依据表明客户一年多来日常叠戴，也没有清洗检测只需几分钟的依据。",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 2,
+    "naturalness": 3,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "交接后以固定服务切入可行，但须删去日常佩戴的推断和未经授权的时间承诺。"
+  }
+ ],
+ "set": {
+  "diversity": 4,
+  "risk_judgement": "正确",
+  "best_index": 1,
+  "must_coverage": "2/2",
+  "summary": "三条均交代了交接，也尝试保持轻松；候选 1 最贴近简短打招呼的目标。主要问题是三条都有未经证实或错误的细节，候选 3 还擅自承诺了服务时间。"
+ },
+ "_judge": "openai:gpt-6.1-terra"
+}

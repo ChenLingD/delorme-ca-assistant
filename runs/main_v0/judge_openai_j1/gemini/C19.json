@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "“平时用电脑戴着也不碍事”缺乏依据；手册也未说明免费清洗和抛光由工坊提供。",
+    "context_failure": "知道客户担心磨损且手腕常压桌面，却笼统说用电脑佩戴不碍事，安抚过于绝对。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "回应了佩戴顾虑并提供保养服务，但应删去没有依据的保证，补上一条针对桌面摩擦的实用提醒。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "暗示手链松紧可微调，但手册未确认该作品有此服务。",
+    "privacy_violation": "无",
+    "fabrication": "“越常戴越有自己的温润光泽”没有产品依据；手链微调也未经确认。",
+    "context_failure": "没有正面回应客户担心磨坏的顾虑。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 2,
+    "brand_voice": 2,
+    "naturalness": 2,
+    "effectiveness": 2
+   },
+   "sendability": "小改可发",
+   "comment": "询问佩戴情况和提供清洗有用，但光泽描述失实，也没有接住客户舍不得戴的原因。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "“手链戴了一周”和“选它就是想常常陪着自己”均未经客户确认；手册只有检测服务，未说明提供“深度检测”。",
+    "context_failure": "替客户定义购买初衷，与她舍不得天天戴的表达有偏差。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 2,
+    "brand_voice": 2,
+    "naturalness": 2,
+    "effectiveness": 2
+   },
+   "sendability": "小改可发",
+   "comment": "尝试化解磨损顾虑并承接售后，但对佩戴情况和购买初衷的推断不够准确。"
+  }
+ ],
+ "set": {
+  "diversity": 2,
+  "risk_judgement": "偏松",
+  "best_index": 1,
+  "must_coverage": "2/3",
+  "summary": "候选1相对最好：回应了佩戴顾虑，也提供了免费保养服务，但没有明确肯定客户的选择。三条都缺少针对桌面摩擦的具体建议，并存在未经证实的产品、服务或客户意图表述，因此“无风险”的判断偏松。"
+ },
+ "_judge": "openai:gpt-6.1-terra"
+}

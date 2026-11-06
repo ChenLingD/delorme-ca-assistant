@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "轻微：称耳钉陪客户通勤快三年，暗示这期间一直佩戴，现有记录只能确认客户当时上班常戴。",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 4,
+    "naturalness": 4,
+    "effectiveness": 4
+   },
+   "sendability": "小改可发",
+   "comment": "以已有耳钉和养护切入较自然，但可删去持续通勤的推断，再精简一些。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "轻微：“今天店里刚好在做黄金工件的养护”没有依据，“常戴”也暗示客户至今仍经常佩戴。",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "清洗检测切入无销售压力，但联系理由不实，且对光泽变暗的假设略显刻意。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "严重：未经确认便承诺为耳钉做超声波清洗，超出了手册明确列出的固定服务。",
+    "privacy_violation": "无",
+    "fabrication": "严重：“整理养护手册”没有依据，超声波清洗的具体方式也未经确认。",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 3
+   },
+   "sendability": "不可用",
+   "comment": "问候和佩戴话题贴合客户，但应删除编造的联系理由，并将清洗方式改为已知的清洗服务。"
+  }
+ ],
+ "set": {
+  "diversity": 1,
+  "risk_judgement": "偏松",
+  "best_index": 1,
+  "must_coverage": "2/2",
+  "summary": "三条都保持了轻量、无销售压力的唤醒方向，但均以耳钉养护切入，差异很小。工具未提示编造联系理由和未经确认的超声波清洗承诺，风险判断偏松。"
+ },
+ "_judge": "openai:gpt-6.1-terra"
+}

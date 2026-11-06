@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "未回应客户此前希望看到老图稿展出的明确心愿。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 2,
+    "brand_voice": 3,
+    "naturalness": 4,
+    "effectiveness": 2
+   },
+   "sendability": "小改可发",
+   "comment": "虽照顾到人少的偏好，但过于简略，缺少图稿、珍珠收藏及活动时间地点。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 4,
+    "naturalness": 4,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "自然回应了看图稿的心愿，也考虑了人数，但未关联她的珍珠收藏，且缺少活动时间和地点。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "未回应客户此前希望看到老图稿展出的明确心愿。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 4,
+    "naturalness": 4,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "日期、地点和时段选择清楚，也顾及人少的偏好，但缺少图稿心愿和珍珠收藏的关联。"
+  }
+ ],
+ "set": {
+  "diversity": 4,
+  "risk_judgement": "正确",
+  "best_index": 2,
+  "must_coverage": "2/3",
+  "summary": "候选2最能体现专属感，候选3的日期和地点准确，但均未说明每场8位客人的规模。三条都没有关联客户已有的珍珠收藏；候选2还需补充时间地点，才能成为更完整的邀约。"
+ },
+ "_judge": "openai:gpt-6.1-terra"
+}

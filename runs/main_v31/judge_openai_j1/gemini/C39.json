@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "“正在帮您确认”未经 CA 确认；“第一时间告诉您”也作出了未经授权的回复时效承诺。",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 2,
+    "brand_voice": 4,
+    "naturalness": 4,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "回应简洁且没有直接答应，但应改为“我去问一下公关”，再稍微接住客户的热情。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "“肯定也很合您的镜头”判断过满，略显刻意。",
+    "privacy_violation": "无",
+    "fabrication": "擅称“已经在跟他们沟通”，并承诺“稍后”给准信；对沙龙光线是否适合拍摄也缺乏依据。",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 2,
+    "naturalness": 2,
+    "effectiveness": 2
+   },
+   "sendability": "小改可发",
+   "comment": "珍珠叠戴的关联真实，也有回应热情的意图，但光线判断、沟通进度和回复时效都需删改。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 2,
+    "brand_voice": 4,
+    "naturalness": 4,
+    "effectiveness": 3
+   },
+   "sendability": "直接可发",
+   "comment": "明确先向公关确认，没有擅自许可；但连续询问日期、人数和设备略显流程化，也未接住客户的兴奋。"
+  }
+ ],
+ "set": {
+  "diversity": 4,
+  "risk_judgement": "正确",
+  "best_index": 3,
+  "must_coverage": "3/3",
+  "summary": "三条均未直接答应拍摄，也说明了需要向公关确认；候选 2 尝试回应客户的热情，但表达较刻意。最主要的问题是候选 1、2 虚构了确认进度并作出回复时效承诺，候选 3 虽可直接发，却略显流程化。"
+ },
+ "_judge": "openai:gpt-6.1-terra"
+}

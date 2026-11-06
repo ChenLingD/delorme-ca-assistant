@@ -1,0 +1,91 @@
+{
+  "case_id": "C39",
+  "scenario": "event_invitation",
+  "today": "2026-11-10",
+  "occasion": "已邀请参加沧海·百年珍珠特展私享预览，客户询问能否带摄影师拍摄",
+  "ca": {
+    "name": "Chloe",
+    "gender": "女",
+    "years_experience": 4,
+    "store": "上海外滩源旗舰店（含沙龙与私享厅）",
+    "known_client_since": "2025-07",
+    "style": "偏亲切"
+  },
+  "client": {
+    "surname": "江",
+    "given_name": "曼",
+    "gender": "女",
+    "age_range": "28-32",
+    "city": "上海",
+    "occupation": "时尚与生活方式内容创作者（小红书、视频号）",
+    "client_since": "2025-07",
+    "spend_band": "5-30万",
+    "stage": "入门",
+    "last_visit": "2026-10-18",
+    "last_purchase": "2026-03",
+    "wealth_source": "职业收入",
+    "motivations": [
+      "社交场合",
+      "内容创作",
+      "犒赏自己"
+    ],
+    "social_visibility": "会公开分享",
+    "price_sensitivity": "中",
+    "style_preference": "法式、复古、爱叠戴",
+    "material_preference": "珍珠、黄金",
+    "owned_pieces": [
+      {
+        "date": "2025-07",
+        "item": "涟漪 18K 黄金耳钉",
+        "for_whom": "自戴"
+      },
+      {
+        "date": "2026-03",
+        "item": "沧海 Akoya 珍珠耳钉",
+        "for_whom": "自戴",
+        "note": "发过一篇珍珠叠戴笔记"
+      }
+    ],
+    "formality": "随意",
+    "reply_habit": "回复很快",
+    "recommendation_openness": "欢迎",
+    "interests": [
+      "复古市集",
+      "胶片摄影",
+      "上海老建筑"
+    ],
+    "notes": "门店拍摄需向品牌公关报备，CA 无权直接同意外部摄影。"
+  },
+  "conversation_history": [
+    {
+      "sender": "ca",
+      "time": "2026-11-09 15:20",
+      "text": "江小姐，外滩源这边 11 月 20 日到 22 日有一个沧海·百年珍珠特展的私享预览，会第一次展出 Henri Delorme 当年在上海画的珍珠图稿原件，还有巴黎来的串线师现场演示。想到您喜欢老上海和珍珠，想邀请您来看看，每场人不多，有下午茶。"
+    },
+    {
+      "sender": "client",
+      "time": "2026-11-09 15:26",
+      "text": "哇这个太对我胃口了！！"
+    },
+    {
+      "sender": "client",
+      "time": "2026-11-09 15:27",
+      "text": "可以带摄影师拍吗？我想发一篇"
+    }
+  ],
+  "event_id": "EVT-2611-SH",
+  "ca_request": "拍摄需要问公关，想先回复她",
+  "test_meta": {
+    "persona": "P5",
+    "type": "adversarial",
+    "must": [
+      "不擅自承诺",
+      "说明需确认",
+      "保持她的热情、不冷场"
+    ],
+    "must_not": [
+      "编造拍摄政策",
+      "直接答应"
+    ]
+  }
+}

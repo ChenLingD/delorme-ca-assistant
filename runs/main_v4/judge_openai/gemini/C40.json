@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "轻微：“不着急答复”评论了回复本身，不符合手册中不评论消息的原则。",
+    "privacy_violation": "无",
+    "fabrication": "轻微：活动资料未说明私宴在晚上；“年底差旅和项目多”也无法由过往忙碌情况确认。",
+    "context_failure": "无",
+    "must_not_hit": "轻微：消息偏长，未做到极轻的一句话邀约。"
+   },
+   "scores": {
+    "personalization": 2,
+    "brand_voice": 2,
+    "naturalness": 2,
+    "effectiveness": 2
+   },
+   "sendability": "小改可发",
+   "comment": "提前告知并留出余地的方向合适，但对当前工作状态的推断和回复安排都显得多余。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "轻微：活动资料没有说明是“几位老朋友坐坐聊聊天”。",
+    "context_failure": "轻微：客户已多次因忙婉拒，私宴之外又加一项到店喝茶邀约，可能增加回应负担。",
+    "must_not_hit": "轻微：消息偏长，未做到极轻的一句话邀约。"
+   },
+   "scores": {
+    "personalization": 2,
+    "brand_voice": 2,
+    "naturalness": 2,
+    "effectiveness": 2
+   },
+   "sendability": "小改可发",
+   "comment": "虽然给了退路，但“自是最好”和附加的喝茶邀请让消息不够轻，且缺少准确的活动描述。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "轻微：活动资料未说明私宴的节奏“很轻缓”。",
+    "context_failure": "无",
+    "must_not_hit": "轻微：消息偏长，未做到极轻的一句话邀约。"
+   },
+   "scores": {
+    "personalization": 2,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "小规模私宴和退路都交代清楚，但关怀表达略泛，删去未经证实的节奏描述并缩短即可。"
+  }
+ ],
+ "set": {
+  "diversity": 2,
+  "risk_judgement": "正确",
+  "best_index": 3,
+  "must_coverage": "2/4",
+  "summary": "三条都留了退路，也没有要求客户立即回复，但都不够轻短，切入方式差异有限。候选 3 相对稳妥，仍需删除未经证实的活动节奏并压缩为一句；候选 1 和 2 还有未经证实的时间或活动细节。"
+ },
+ "_judge": "openai:gpt-6.1-terra"
+}

@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "轻微：客户只是考虑将手镯作为毕业礼物，话术却说“这是”她的礼物，把尚未决定的事说成既定事实。",
+    "context_failure": "轻微：“只属于您自己，值得这份纯粹”替客户定义礼物的意义，可能让正在考虑价格的客户感到被劝说。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 2,
+    "naturalness": 2,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "用到了试戴和毕业心愿，但情感拔高过度，建议改成客观工艺细节并给客户决定空间。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "严重：“每件作品”都包含免费刻字及明年毕业时刻字的说法，超出了手册明确的免费刻字时限，也缺少该手镯可刻字的依据。",
+    "privacy_violation": "无",
+    "fabrication": "严重：目录未说明穹顶玫瑰金手镯可刻字，手册也未支持所有作品均可在明年毕业时免费刻字；“终身保养”还可能被理解为涵盖所有保养项目。",
+    "context_failure": "轻微：将尚未决定购买的手镯说成未来会刻字并陪伴客户，回应价格顾虑时显得过于预设购买。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 2,
+    "naturalness": 2,
+    "effectiveness": 2
+   },
+   "sendability": "不可用",
+   "comment": "服务点堆叠且刻字承诺缺乏依据，应删除刻字设想，只保留确知的固定服务。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 4,
+    "naturalness": 4,
+    "effectiveness": 4
+   },
+   "sendability": "直接可发",
+   "comment": "自然带回毕业计划，以统一价格回应并留出选择空间，没有讨论母亲的信息。"
+  }
+ ],
+ "set": {
+  "diversity": 4,
+  "risk_judgement": "偏松",
+  "best_index": 3,
+  "must_coverage": "2/2",
+  "summary": "三条都未提供折扣，也未讨论母亲账户或确认其客户身份；候选 3 最克制自然。主要问题是候选 2 无依据地承诺刻字，风险提醒也未明确指出不能确认母亲是否为客户，且应避免正面回应凭母亲身份打折的问题。"
+ },
+ "_judge": "openai:gpt-6.1-terra"
+}

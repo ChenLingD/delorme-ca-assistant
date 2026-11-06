@@ -1,0 +1,334 @@
+{
+ "case_id": "C34",
+ "version": "v2",
+ "model": "anthropic:claude-sonnet-5-5",
+ "risk": {
+  "level": "ok",
+  "flags": [],
+  "advice": ""
+ },
+ "candidates": [
+  {
+   "text": "沈女士，您说想看的老图稿，这次可以看到了，想邀请您来看看。",
+   "strategy": "极简",
+   "note_for_ca": "先轻轻告知，让她知道承诺兑现了，详情等她回应再发。"
+  },
+  {
+   "text": "沈女士，九月您在店里聊起1920年代上海的珠宝行，说若有当年的图稿，想亲眼见见。Henri Delorme 的原稿这次首次公开，想请您来私享预览。哪个时段人少些，我先去确认。",
+   "strategy": "走心",
+   "note_for_ca": "以九月聊过的上海珠宝行往事切入，兑现承诺并带出人少时段，适合想让她感到被记着时选。"
+  },
+  {
+   "text": "沈女士，沧海·百年的私享预览，11 月 20、21、22 日这三天可以选，在外滩源旗舰店三楼沙龙，每场 8 位客人，含下午茶，巴黎工坊的串线师也会现场演示。人少些的时段我先去问清楚，再告诉您具体几点。您想选哪一天，回我日期就好。",
+   "strategy": "推进",
+   "note_for_ca": "给三个日期让她选，时段由您确认后再回复她"
+  }
+ ],
+ "checks": [
+  {
+   "pass": true,
+   "hard": [],
+   "soft": [],
+   "length": 29
+  },
+  {
+   "pass": true,
+   "hard": [],
+   "soft": [],
+   "length": 85
+  },
+  {
+   "pass": true,
+   "hard": [],
+   "soft": [],
+   "length": 109
+  }
+ ],
+ "trace": {
+  "rounds": [
+   {
+    "rule_checks": [
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 29
+     },
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 87
+     },
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 103
+     }
+    ],
+    "critic": {
+     "reviews": [
+      {
+       "index": 1,
+       "pass": true,
+       "issues": []
+      },
+      {
+       "index": 2,
+       "pass": true,
+       "issues": []
+      },
+      {
+       "index": 3,
+       "pass": true,
+       "issues": []
+      }
+     ],
+     "set_issues": [
+      {
+       "indices": [
+        1,
+        2
+       ],
+       "issue": "两条几乎是同一句话的短版和长版。核心都是“您想看的老图稿这次能看到了，想邀请您来看看”，结尾也都落在“看看”上（“来看看”“亲眼看看”）。建议拉开：极简只做轻量邀请，例如“沈女士，上次说的老图稿，这次有机会展出了，想先告诉您一声。”，不再重复“邀请来看”；走心保留九月聊天的细节，结尾换成与“看看”无关的说法，例如落在“您当时提到的那段上海珠宝行往事”上。"
+      }
+     ]
+    },
+    "set_issues": [
+     "两条几乎是同一句话的短版和长版。核心都是“您想看的老图稿这次能看到了，想邀请您来看看”，结尾也都落在“看看”上（“来看看”“亲眼看看”）。建议拉开：极简只做轻量邀请，例如“沈女士，上次说的老图稿，这次有机会展出了，想先告诉您一声。”，不再重复“邀请来看”；走心保留九月聊天的细节，结尾换成与“看看”无关的说法，例如落在“您当时提到的那段上海珠宝行往事”上。"
+    ],
+    "to_fix": {
+     "2": [
+      "与其他候选雷同：两条几乎是同一句话的短版和长版。核心都是“您想看的老图稿这次能看到了，想邀请您来看看”，结尾也都落在“看看”上（“来看看”“亲眼看看”）。建议拉开：极简只做轻量邀请，例如“沈女士，上次说的老图稿，这次有机会展出了，想先告诉您一声。”，不再重复“邀请来看”；走心保留九月聊天的细节，结尾换成与“看看”无关的说法，例如落在“您当时提到的那段上海珠宝行往事”上。"
+     ]
+    }
+   },
+   {
+    "rule_checks": [
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 29
+     },
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 85
+     },
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 103
+     }
+    ],
+    "critic": {
+     "reviews": [
+      {
+       "index": 1,
+       "pass": true,
+       "issues": []
+      },
+      {
+       "index": 2,
+       "pass": true,
+       "issues": []
+      },
+      {
+       "index": 3,
+       "pass": true,
+       "issues": []
+      }
+     ],
+     "set_issues": [
+      {
+       "indices": [
+        2,
+        3
+       ],
+       "issue": "两条都以“我去确认哪个时段人少些”收尾。句式几乎相同，只是语序和“先”“再告诉您”略有不同，违反“结尾不能用同一句话”。建议只在“推进”里保留“确认时段再告诉您”，因为这是它的具体下一步。“走心”则收在图稿本身，例如“Henri Delorme 当年的手绘原稿这次首次公开，想请您来看看。”，不再提时段。"
+      }
+     ]
+    },
+    "set_issues": [
+     "两条都以“我去确认哪个时段人少些”收尾。句式几乎相同，只是语序和“先”“再告诉您”略有不同，违反“结尾不能用同一句话”。建议只在“推进”里保留“确认时段再告诉您”，因为这是它的具体下一步。“走心”则收在图稿本身，例如“Henri Delorme 当年的手绘原稿这次首次公开，想请您来看看。”，不再提时段。"
+    ],
+    "to_fix": {
+     "3": [
+      "与其他候选雷同：两条都以“我去确认哪个时段人少些”收尾。句式几乎相同，只是语序和“先”“再告诉您”略有不同，违反“结尾不能用同一句话”。建议只在“推进”里保留“确认时段再告诉您”，因为这是它的具体下一步。“走心”则收在图稿本身，例如“Henri Delorme 当年的手绘原稿这次首次公开，想请您来看看。”，不再提时段。"
+     ]
+    }
+   },
+   {
+    "rule_checks": [
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 29
+     },
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 85
+     },
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 109
+     }
+    ],
+    "critic": {
+     "reviews": [
+      {
+       "index": 1,
+       "pass": true,
+       "issues": []
+      },
+      {
+       "index": 2,
+       "pass": true,
+       "issues": []
+      },
+      {
+       "index": 3,
+       "pass": true,
+       "issues": []
+      }
+     ],
+     "set_issues": []
+    },
+    "set_issues": [],
+    "to_fix": {}
+   }
+  ],
+  "plan": {
+   "client_read": "沈女士是低调、正式、字斟句酌的资深收藏型客户，偏爱古典素净的珍珠，对近代海派文化和老图稿有真实兴趣，回复慢但认真。九月到店时她主动提过想看 1920 年代的老图稿，Grace 也答应有消息第一时间告知，这次邀请正是兑现承诺，关系温和、信任，没有未处理的事。",
+   "risk": {
+    "level": "ok",
+    "flags": [],
+    "advice": ""
+   },
+   "ca_commitments": [
+    "想邀请她参加私享预览，最好帮她约人少一点的时段"
+   ],
+   "usable_facts": [
+    "9 月 14 日她说过：若有老图稿展出请告诉她；Grace 9 月 15 日回复“有消息一定第一时间告诉您”",
+    "她很喜欢金珠吊坠吊扣的海浪纹，还问过这个纹样的来历",
+    "她对近代海派文化、老照片与手稿收藏感兴趣",
+    "她方便联系的时段是上午，回复习惯是隔天回"
+   ],
+   "do_not_mention": [
+    "累计消费、客户等级、进阶阶段、财富来源等内部信息",
+    "档案里“不喜欢人多的场合”这条记录，只轻描淡写说“人少的时段”，不要说“知道您不喜欢人多”",
+    "没有具体到几点几分的时段安排：资料没给场次时间，不能编造，更不能保证某一场人少，只能说“我去确认后告诉您”",
+    "“名额有限”“先到先得”等紧迫感说法，以及编号款的价格、稀缺或保值暗示",
+    "资料没写的内容：赠品、礼遇、预留座位、能否携伴同行、拍摄许可，都不要承诺",
+    "不要说图稿里一定包含吊坠海浪纹的原稿，资料只写了“首次公开 Henri Delorme 1920 年代上海珍珠手绘图稿原件”",
+    "不说“我和同事都记着”等替团队表态的话；不用“诚邀莅临”等群发腔"
+   ],
+   "products": [],
+   "slots": {
+    "极简": "只告诉她：当年提过的老图稿，这次有机会亲眼看到，想邀请她来私享预览。不放日期和细节。",
+    "走心": "引用 9 月 14 日她说“若有老图稿展出请告诉我”和 Grace 当时答应第一时间告知，让她感到这件事一直被记着、承诺兑现。语气克制，不堆形容词，不用海浪纹话题。",
+    "推进": "给出 11-20、11-21、11-22 三天（上海外滩源旗舰店三楼沙龙，每场 8 位客人，含下午茶）请她挑一天；补充一句有巴黎工坊珍珠串线师现场演示，并说明 Grace 会去确认哪个时段人较少，再告知她具体时间。不方便也没关系，可以直接回复日期。"
+   }
+  },
+  "first_draft": [
+   {
+    "text": "沈女士，您说想看的老图稿，这次可以看到了，想邀请您来看看。",
+    "strategy": "极简",
+    "note_for_ca": "先轻轻告知，让她知道承诺兑现了，详情等她回应再发。"
+   },
+   {
+    "text": "沈女士，九月您在店里说，若有老图稿展出要告诉您，我一直记着这句话。Henri Delorme 1920 年代在上海留下的珍珠手绘图稿，这次首次公开原件，想请您来私享预览，亲眼看看。",
+    "strategy": "走心",
+    "note_for_ca": "用 9/14 她想看老图稿、你答应告知的细节，兑现承诺。"
+   },
+   {
+    "text": "沈女士，沧海·百年珍珠特展的私享预览，11 月 20、21、22 日三天都有，在外滩源旗舰店三楼沙龙，每场 8 位客人，含下午茶，还有巴黎工坊的串线师现场演示。您看哪天方便？我去确认哪个时段人少些，再告诉您具体时间。",
+    "strategy": "推进",
+    "note_for_ca": "给三个日期请她选；时段人数需你先去确认，勿提前承诺。"
+   }
+  ],
+  "seconds": 128.3,
+  "diversity_max_sim": 0.031578947368421054,
+  "calls": [
+   {
+    "requested": "claude-sonnet-5-5",
+    "served": "claude-sonnet-5-5",
+    "seconds": 25.2,
+    "attempt": 1,
+    "in_tokens": 7952,
+    "out_tokens": 2526,
+    "reasoning_tokens": null,
+    "fingerprint": null
+   },
+   {
+    "requested": "claude-sonnet-5-5",
+    "served": "claude-sonnet-5-5",
+    "seconds": 13.8,
+    "attempt": 1,
+    "in_tokens": 7596,
+    "out_tokens": 1630,
+    "reasoning_tokens": null,
+    "fingerprint": null
+   },
+   {
+    "requested": "claude-sonnet-5-5",
+    "served": "claude-sonnet-5-5",
+    "seconds": 24.9,
+    "attempt": 1,
+    "in_tokens": 7207,
+    "out_tokens": 2977,
+    "reasoning_tokens": null,
+    "fingerprint": null
+   },
+   {
+    "requested": "claude-sonnet-5-5",
+    "served": "claude-sonnet-5-5",
+    "seconds": 16.5,
+    "attempt": 1,
+    "in_tokens": 8193,
+    "out_tokens": 946,
+    "reasoning_tokens": null,
+    "fingerprint": null
+   },
+   {
+    "requested": "claude-sonnet-5-5",
+    "served": "claude-sonnet-5-5",
+    "seconds": 20.0,
+    "attempt": 1,
+    "in_tokens": 7204,
+    "out_tokens": 2552,
+    "reasoning_tokens": null,
+    "fingerprint": null
+   },
+   {
+    "requested": "claude-sonnet-5-5",
+    "served": "claude-sonnet-5-5",
+    "seconds": 8.1,
+    "attempt": 1,
+    "in_tokens": 8168,
+    "out_tokens": 794,
+    "reasoning_tokens": null,
+    "fingerprint": null
+   },
+   {
+    "requested": "claude-sonnet-5-5",
+    "served": "claude-sonnet-5-5",
+    "seconds": 19.7,
+    "attempt": 1,
+    "in_tokens": 7208,
+    "out_tokens": 2533,
+    "reasoning_tokens": null,
+    "fingerprint": null
+   }
+  ]
+ }
+}

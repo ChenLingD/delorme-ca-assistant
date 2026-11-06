@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 4,
+    "naturalness": 3,
+    "effectiveness": 4
+   },
+   "sendability": "小改可发",
+   "comment": "围绕已有耳钉提供售后信息，没有推销；但“固件检测”不够自然，改为“检查一下”更像微信沟通。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "未经 CA 授权承诺清洗或检测十几分钟就能处理好。",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 2,
+    "naturalness": 2,
+    "effectiveness": 2
+   },
+   "sendability": "不可用",
+   "comment": "虽然只谈已有作品的护理，但未经确认承诺处理时长，年底差旅的切入也略显揣测。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 4,
+    "naturalness": 4,
+    "effectiveness": 4
+   },
+   "sendability": "直接可发",
+   "comment": "针对已有手链给出轻量护理提醒，没有推销，也未假定作品已有问题。"
+  }
+ ],
+ "set": {
+  "diversity": 2,
+  "risk_judgement": "偏松",
+  "best_index": 3,
+  "must_coverage": "1/1",
+  "summary": "三条都避开了新品推销，候选 1 的策略说明也识别了客户只接受售后信息的边界，但切入方式较为相近。整体风险判断标为“ok；无”偏松，因为候选 2 作出了未经授权的处理时长承诺。"
+ },
+ "_judge": "openai:gpt-6.1-terra"
+}

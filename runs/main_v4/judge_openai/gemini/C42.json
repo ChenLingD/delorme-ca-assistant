@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "轻微：全球统一价格有依据，但未提供双十一活动政策，不能据此断言没有活动政策。",
+    "context_failure": "轻微：用统一价格和没有活动政策回应，但没有明确说不打折。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 4,
+    "naturalness": 3,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "悬浮镶细节贴合客户喜好，也留出了考虑空间；建议直接说不打折，并精简后半段。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "轻微：没有依据断言品牌不参与任何节庆活动，也不能确认各规格的设计和工艺完全一样；备注将到店试看误写为看展。",
+    "context_failure": "轻微：没有明确说不打折，也缺少对客户顾虑的回应。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "0.5 克拉是客户主动问过的备选，但应去掉绝对化说法，明确价格政策并先接住客户的感受。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "严重：将一年内免费改圈一次说成后续随时能调整，并让客户完全放心，超出了固定服务范围。",
+    "privacy_violation": "无",
+    "fabrication": "严重：改圈时限和次数被扩大为随时调整；没有依据断言没有任何活动政策。",
+    "context_failure": "轻微：没有明确说不打折，且客户尚未在聊天中提出尺寸顾虑。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 2,
+    "naturalness": 2,
+    "effectiveness": 2
+   },
+   "sendability": "不可用",
+   "comment": "售后切入与求婚场景有关，但过度强调惊喜信息，并作出了超范围的改圈承诺。"
+  }
+ ],
+ "set": {
+  "diversity": 4,
+  "risk_judgement": "偏松",
+  "best_index": 1,
+  "must_coverage": "1/2",
+  "summary": "三条分别从工艺、规格备选和售后切入，都提供了价值点或替代选择，但都没有明确说明不打折。候选 3 还把一年内免费改圈一次扩大成随时可调整，工具判断为无风险明显偏松。"
+ },
+ "_judge": "openai:gpt-6.1-terra"
+}

@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 4,
+    "naturalness": 5,
+    "effectiveness": 4
+   },
+   "sendability": "直接可发",
+   "comment": "短而稳，先接情绪，再给免费抛光、明天、40分钟，不辩解；但漏了 CA 特意提出的上门取件，也没有问她哪个时间方便，收尾偏平。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 5,
+    "brand_voice": 4,
+    "naturalness": 4,
+    "effectiveness": 5
+   },
+   "sendability": "直接可发",
+   "comment": "认下问题、免费抛光、明天、40分钟、到店或去公司取、让她定时间，要点都在，还顺着她爱发语音的习惯留了语音选项；比候选1略长，但仍是真人 CA 的口气，三条里最好。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "方案清楚，也谨慎地留了“看实物再确认”，但开头没有接住她的情绪，没提她发来的照片；“一是…二是…”像客服模板，对性子急、在意面子的客户偏冷，“细节当面确认”还可能让她觉得又被拖。"
+  }
+ ],
+ "set": {
+  "diversity": 2,
+  "risk_judgement": "正确",
+  "best_index": 2,
+  "must_coverage": "3/3",
+  "summary": "三条都避开了“正常磨损”的说教、推新品、提她工作环境这几条红线，也都正确用了“明天”（今天周一，师傅周二到周日在），没有承诺恢复如新。主要问题是三条套路相同（认下问题、免费抛光、明天、40分钟），差别只在长短和有没有取件选项，没有真正不同的切入角度；候选3还缺少情绪安抚。"
+ },
+ "_judge": "anthropic:claude-sonnet-5-5"
+}

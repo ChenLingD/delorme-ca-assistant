@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "固定服务包含免费清洗和检测，但没有确认使用超声波清洗。",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 4,
+    "naturalness": 4,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "自我介绍和售后切入适合久未联系的客户，去掉未经确认的“超声波”即可更稳妥。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "未确认客户近三年一直戴耳钉通勤；“18K金随时间养出来的光泽更温润”也缺乏依据。",
+    "context_failure": "把三年前的通勤佩戴习惯延续到现在，容易让客户觉得被预设。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 2,
+    "naturalness": 2,
+    "effectiveness": 2
+   },
+   "sendability": "不可用",
+   "comment": "工作周年的细节有温度，但佩戴经历和金属光泽的推断让话术失真，结尾也不自然。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "“常戴的”将三年前的习惯当作现状；“随时能帮您做调校和紧固”是未经确认的门店安排。",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 3,
+    "naturalness": 4,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "耳堵话题承接了旧聊天，但久未联系就询问松紧略显突兀，也应先确认调校安排。"
+  }
+ ],
+ "set": {
+  "diversity": 3,
+  "risk_judgement": "正确",
+  "best_index": 1,
+  "must_coverage": "1/2",
+  "summary": "三条均未推新品或提价格，也没有暗示客户应再消费，整体没有明显催促压力；但都缺少自然的轻量问候。主要问题是把三年前的佩戴情况当作现状，并加入了未经确认的清洗方式或门店安排。"
+ },
+ "_judge": "openai:gpt-6.1-terra"
+}

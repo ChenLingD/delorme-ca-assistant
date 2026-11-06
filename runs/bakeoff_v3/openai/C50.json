@@ -1,0 +1,367 @@
+{
+ "case_id": "C50",
+ "version": "v3",
+ "model": "openai:gpt-6.1-terra",
+ "risk": {
+  "level": "caution",
+  "flags": [
+   "客户以投资为购买目的，期待未来升值",
+   "晨星是配额作品，不能承诺到货时间或名额",
+   "心愿有进展，但未提供具体进展内容"
+  ],
+  "advice": "先理解他的投资顾虑，坦诚无法承诺未来价值，再回到工艺和叠戴心意；涉及试戴或心愿进展的具体安排先确认。"
+ },
+ "candidates": [
+  {
+   "text": "袁先生，理解您的顾虑。晨星手镯未来的价值，我无法承诺，您可以再考虑考虑。",
+   "strategy": "极简",
+   "note_for_ca": "直接回应未来价值顾虑，适合简短回复。"
+  },
+  {
+   "text": "袁先生，您提到的未来价值，我没法保证。您想送太太、和穹顶叠戴的这只晨星，由一位工匠完成，约需120工时。",
+   "strategy": "走心",
+   "note_for_ca": "用送太太的心意和工艺细节回应顾虑"
+  },
+  {
+   "text": "袁先生，这个价格确实需要慎重，未来价值也有不确定性。要不要我先确认能否试戴晨星，您再看看和穹顶叠戴的效果？",
+   "strategy": "推进",
+   "note_for_ca": "客户愿意看叠戴效果时，先确认能否试戴"
+  }
+ ],
+ "checks": [
+  {
+   "pass": true,
+   "hard": [],
+   "soft": [],
+   "length": 36
+  },
+  {
+   "pass": true,
+   "hard": [],
+   "soft": [],
+   "length": 52
+  },
+  {
+   "pass": true,
+   "hard": [],
+   "soft": [],
+   "length": 53
+  }
+ ],
+ "trace": {
+  "rounds": [
+   {
+    "rule_checks": [
+     {
+      "pass": false,
+      "hard": [
+       "禁用词[invest]：投资"
+      ],
+      "soft": [],
+      "length": 46
+     },
+     {
+      "pass": false,
+      "hard": [
+       "禁用词[invest]：投资"
+      ],
+      "soft": [],
+      "length": 75
+     },
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 72
+     }
+    ],
+    "critic": {
+     "reviews": [
+      {
+       "index": 1,
+       "pass": true,
+       "issues": []
+      },
+      {
+       "index": 2,
+       "pass": true,
+       "issues": []
+      },
+      {
+       "index": 3,
+       "pass": true,
+       "issues": []
+      }
+     ],
+     "set_issues": []
+    },
+    "set_issues": [],
+    "to_fix": {
+     "1": [
+      "禁用词[invest]：投资"
+     ],
+     "2": [
+      "禁用词[invest]：投资"
+     ]
+    }
+   },
+   {
+    "rule_checks": [
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 36
+     },
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 69
+     },
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 72
+     }
+    ],
+    "critic": {
+     "reviews": [
+      {
+       "index": 1,
+       "pass": true,
+       "issues": []
+      },
+      {
+       "index": 2,
+       "pass": true,
+       "issues": []
+      },
+      {
+       "index": 3,
+       "pass": true,
+       "issues": []
+      }
+     ],
+     "set_issues": [
+      {
+       "indices": [
+        1,
+        2,
+        3
+       ],
+       "issue": "三条都以“无法承诺／保证未来价值”作核心表述，措辞较为雷同。可分别侧重坦诚回应、工艺与叠戴细节、确认试戴的下一步，同时都避免暗示投资回报。"
+      }
+     ]
+    },
+    "set_issues": [
+     "三条都以“无法承诺／保证未来价值”作核心表述，措辞较为雷同。可分别侧重坦诚回应、工艺与叠戴细节、确认试戴的下一步，同时都避免暗示投资回报。"
+    ],
+    "to_fix": {
+     "3": [
+      "与其他候选雷同：三条都以“无法承诺／保证未来价值”作核心表述，措辞较为雷同。可分别侧重坦诚回应、工艺与叠戴细节、确认试戴的下一步，同时都避免暗示投资回报。"
+     ]
+    }
+   },
+   {
+    "rule_checks": [
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 36
+     },
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 69
+     },
+     {
+      "pass": false,
+      "hard": [
+       "禁用词[invest]：升值、投资"
+      ],
+      "soft": [],
+      "length": 62
+     }
+    ],
+    "critic": {
+     "reviews": [
+      {
+       "index": 1,
+       "pass": true,
+       "issues": []
+      },
+      {
+       "index": 2,
+       "pass": true,
+       "issues": []
+      },
+      {
+       "index": 3,
+       "pass": true,
+       "issues": []
+      }
+     ],
+     "set_issues": [
+      {
+       "indices": [
+        1,
+        2
+       ],
+       "issue": "两条都以“无法承诺或保证未来价值，您可以考虑”收尾，意思和结构较接近。极简版可保留直接回应；走心版可在说明无法保证后，侧重叠戴心愿和工艺细节，避免重复劝客户考虑。"
+      }
+     ]
+    },
+    "set_issues": [
+     "两条都以“无法承诺或保证未来价值，您可以考虑”收尾，意思和结构较接近。极简版可保留直接回应；走心版可在说明无法保证后，侧重叠戴心愿和工艺细节，避免重复劝客户考虑。"
+    ],
+    "to_fix": {
+     "3": [
+      "禁用词[invest]：升值、投资"
+     ],
+     "2": [
+      "与其他候选雷同：两条都以“无法承诺或保证未来价值，您可以考虑”收尾，意思和结构较接近。极简版可保留直接回应；走心版可在说明无法保证后，侧重叠戴心愿和工艺细节，避免重复劝客户考虑。"
+     ]
+    }
+   }
+  ],
+  "plan": {
+   "client_read": "袁先生认可晨星的工艺，想送给太太与穹顶手镯叠戴，同时会从投资角度衡量珠宝。双方已认识多年、沟通直接；眼下他因价格和未来价值犹豫，需要先回应这一顾虑。",
+   "risk": {
+    "level": "caution",
+    "flags": [
+     "客户以投资为购买目的，期待未来升值",
+     "晨星是配额作品，不能承诺到货时间或名额",
+     "心愿有进展，但未提供具体进展内容"
+    ],
+    "advice": "先理解他的投资顾虑，坦诚无法承诺未来价值，再回到工艺和叠戴心意；涉及试戴或心愿进展的具体安排先确认。"
+   },
+   "ca_commitments": [],
+   "usable_facts": [
+    "客户认可晨星手镯的做工",
+    "客户想将晨星手镯送给太太，与她的穹顶手镯叠戴",
+    "客户常将珠宝与名表的保值表现放在一起比较",
+    "门店总监已为客户登记晨星手镯心愿"
+   ],
+   "do_not_mention": [
+    "客户累计消费、内部等级、财富来源及身份判断",
+    "消费门槛、配货条件或任何名额、排位和到货时间承诺",
+    "保值、升值或投资回报的承诺或暗示",
+    "未经确认的心愿进展、到货或试戴安排"
+   ],
+   "products": [
+    "ETO-B01",
+    "COU-B03"
+   ],
+   "slots": {
+    "极简": "接住客户的投资顾虑，坦诚无法承诺晨星未来的价值。",
+    "走心": "结合他想送太太、与穹顶手镯叠戴的心意，回应他认可的工艺，让他感到自己的购买考量被理解。",
+    "推进": "询问他是否愿意在确认可试戴后，看看晨星与穹顶手镯的叠戴效果，再决定是否继续考虑。"
+   }
+  },
+  "first_draft": [
+   {
+    "text": "袁先生，理解您从投资角度考虑，这笔决定确实不小。我不能承诺晨星手镯未来的价值，您可以再想想。",
+    "strategy": "极简",
+    "note_for_ca": "适合先直接回应投资顾虑"
+   },
+   {
+    "text": "袁先生，送太太的晨星，您还考虑到和她的穹顶手镯叠戴。它由一位工匠完成，约需120工时；不过从投资角度看，我无法保证它未来的价值，还是看您是否真心喜欢。",
+    "strategy": "走心",
+    "note_for_ca": "用了送太太及与穹顶叠戴的心意"
+   },
+   {
+    "text": "袁先生，您对未来价值有顾虑，我理解，也没法向您保证。您看要不要我先确认一下能否试戴晨星，再看看它和穹顶手镯的叠戴效果？之后您再决定是否继续考虑。",
+    "strategy": "推进",
+    "note_for_ca": "适合客户愿意进一步了解叠戴效果时"
+   }
+  ],
+  "seconds": 55.6,
+  "diversity_max_sim": 0.08536585365853659,
+  "calls": [
+   {
+    "requested": "gpt-6.1-terra",
+    "served": "gpt-6.1-terra",
+    "seconds": 11.8,
+    "attempt": 1,
+    "in_tokens": 6171,
+    "out_tokens": 734,
+    "reasoning_tokens": 220,
+    "fingerprint": null
+   },
+   {
+    "requested": "gpt-6.1-terra",
+    "served": "gpt-6.1-terra",
+    "seconds": 6.7,
+    "attempt": 1,
+    "in_tokens": 5492,
+    "out_tokens": 301,
+    "reasoning_tokens": 50,
+    "fingerprint": null
+   },
+   {
+    "requested": "gpt-6.1-terra",
+    "served": "gpt-6.1-terra",
+    "seconds": 7.4,
+    "attempt": 1,
+    "in_tokens": 5334,
+    "out_tokens": 471,
+    "reasoning_tokens": 392,
+    "fingerprint": null
+   },
+   {
+    "requested": "gpt-6.1-terra",
+    "served": "gpt-6.1-terra",
+    "seconds": 6.5,
+    "attempt": 1,
+    "in_tokens": 5873,
+    "out_tokens": 296,
+    "reasoning_tokens": 127,
+    "fingerprint": null
+   },
+   {
+    "requested": "gpt-6.1-terra",
+    "served": "gpt-6.1-terra",
+    "seconds": 7.9,
+    "attempt": 1,
+    "in_tokens": 5320,
+    "out_tokens": 454,
+    "reasoning_tokens": 293,
+    "fingerprint": null
+   },
+   {
+    "requested": "gpt-6.1-terra",
+    "served": "gpt-6.1-terra",
+    "seconds": 4.5,
+    "attempt": 1,
+    "in_tokens": 5808,
+    "out_tokens": 221,
+    "reasoning_tokens": 123,
+    "fingerprint": null
+   },
+   {
+    "requested": "gpt-6.1-terra",
+    "served": "gpt-6.1-terra",
+    "seconds": 5.3,
+    "attempt": 1,
+    "in_tokens": 5314,
+    "out_tokens": 366,
+    "reasoning_tokens": 199,
+    "fingerprint": null
+   },
+   {
+    "requested": "gpt-6.1-terra",
+    "served": "gpt-6.1-terra",
+    "seconds": 5.7,
+    "attempt": 1,
+    "in_tokens": 5918,
+    "out_tokens": 356,
+    "reasoning_tokens": 182,
+    "fingerprint": null
+   }
+  ]
+ }
+}

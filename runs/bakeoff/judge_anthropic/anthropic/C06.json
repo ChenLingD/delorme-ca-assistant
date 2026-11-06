@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 2,
+    "brand_voice": 5,
+    "naturalness": 4,
+    "effectiveness": 4
+   },
+   "sendability": "直接可发",
+   "comment": "极短、安静、没有喜庆腔，也没有提产品和送修，作为守底线的版本很稳；缺点是没有一个只属于她的细节，略像通用模板，“这条不用回复”也稍显刻意。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 5,
+    "naturalness": 4,
+    "effectiveness": 5
+   },
+   "sendability": "直接可发",
+   "comment": "“我一直记着”加“这段日子您辛苦了”，在不直接提父亲的前提下接住了她的处境，让她感到被记得而不被打扰；语气克制，留了退路，是资深 CA 会写的版本。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "轻微：“上海这两天是真的入冬了，早晚都有些凉”是输入里没有的天气断言，虽属常见寒暄，但未经核实。",
+    "context_failure": "有：父亲刚去世约一个月，建议她“听一段评弹”有轻松消遣的意味，丧期里可能显得不合时宜；“我在这边一切照常”语义含糊，在这个语境里容易读出疏离或轻飘。",
+    "must_not_hit": "无（没有产品或活动，也没有催问项链，不算硬性违规，但生活化的轻松调性贴近“欢快”的边缘）"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 2
+   },
+   "sendability": "小改可发",
+   "comment": "用评弹这个细节的想法不错，但选错了时机，加上篇幅偏长和“一切照常”这句怪话，在丧亲一个月内的生日里显得失准；去掉评弹和最后一句后才可发。"
+  }
+ ],
+ "set": {
+  "diversity": 3,
+  "risk_judgement": "正确",
+  "best_index": 2,
+  "must_coverage": "2/2",
+  "summary": "风险判断准确：识别出丧亲和送修未结两个雷区，并要求不推销、不催问、不要求回复，三条也都守住了红线。主要问题是候选 1 和 2 的角度和篇幅接近，差异不大；候选 3 想用评弹增加个人色彩，却忽略了丧期的分寸，还带入了未经核实的天气信息。"
+ },
+ "_judge": "anthropic:claude-sonnet-5-5"
+}

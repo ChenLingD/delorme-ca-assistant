@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 5,
+    "naturalness": 5,
+    "effectiveness": 5
+   },
+   "sendability": "直接可发",
+   "comment": "关心佩戴感受并简洁提示刻字服务，自然得体；若提及客户担心的下坠问题会更贴心。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "轻微：说“随时拿来工坊”暗示可直接到工坊办理刻字，但服务地点和办理方式未获确认。",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 5,
+    "brand_voice": 4,
+    "naturalness": 3,
+    "effectiveness": 4
+   },
+   "sendability": "小改可发",
+   "comment": "针对客户担心的下坠问题很贴切，但“重心还合适吗”略生硬，刻字办理方式也需改为先确认。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "轻微：建议在耳托上刻名字缩写，暗示该部位可以刻字，但目录和服务资料未确认。",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "提及演出和珠光有个人化信息，但没有直接问佩戴舒适度，刻字建议也显得偏推进，应先确认耳钉可刻的位置。"
+  }
+ ],
+ "set": {
+  "diversity": 3,
+  "risk_judgement": "正确",
+  "best_index": 1,
+  "must_coverage": "2/2",
+  "summary": "三条都只与佩戴者讨论作品和售后服务，也都提示了免费刻字，未触及付款信息。主要问题是候选 2 和 3 分别暗示了未经确认的刻字办理地点和部位，且三条的服务切入角度较相近。"
+ },
+ "_judge": "openai:gpt-6.1-terra"
+}

@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "轻微：“珍珠需要透气”是不准确的保养解释，不能作为珍珠存放的依据。",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "条目方便摘抄，但应删去“需要透气”，并将“皮光”改为“珠面”。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "轻微：“重新串一次线，珠光一直都会很亮”错误地把串线与持久珠光直接关联；“怕闷”也缺少准确解释。",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 2
+   },
+   "sendability": "小改可发",
+   "comment": "结合了客户的串珠项链，但文字偏长，应删去珠光保证并精简保养要点。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 4,
+    "naturalness": 4,
+    "effectiveness": 4
+   },
+   "sendability": "直接可发",
+   "comment": "保养提示简洁，并结合客户的项链说明了品牌固定服务；提及服务时明确适用于品牌作品会更清楚。"
+  }
+ ],
+ "set": {
+  "diversity": 3,
+  "risk_judgement": "偏松",
+  "best_index": 3,
+  "must_coverage": "2/2",
+  "summary": "候选 3 最贴合客户需求，兼顾简洁保养提示与售后服务；三条都没有要求客户宣传、@品牌或注明出处。主要问题是候选 1 的“珍珠需要透气”和候选 2 的串线保珠光说法不准确，工具标记为无风险偏松。"
+ },
+ "_judge": "openai:gpt-6.1-terra"
+}

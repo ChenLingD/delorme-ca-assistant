@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "CA 尚未向店经理询问，“正跟店经理确认”与已知情况不符。",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 4,
+    "naturalness": 4,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "简短亲切，也回应了携伴问题，但应将“正跟”改为“我去跟店经理确认一下”。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "“正跟店经理确认”与 CA 尚未询问的情况不符；“默契特别好”也缺少聊天记录或手记支持。",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 2,
+    "naturalness": 2,
+    "effectiveness": 2
+   },
+   "sendability": "小改可发",
+   "comment": "引用了共同到店的真实经历，但额外评价两人的默契显得刻意，且误称确认已在进行。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 4,
+    "naturalness": 3,
+    "effectiveness": 4
+   },
+   "sendability": "直接可发",
+   "comment": "准确表示会去确认，未承诺携伴；但刻字话题略分散对客户问题的回应。"
+  }
+ ],
+ "set": {
+  "diversity": 3,
+  "risk_judgement": "偏松",
+  "best_index": 3,
+  "must_coverage": "2/2",
+  "summary": "三条都回应了携伴问题，候选 3 最准确，也没有提前答应。主要问题是风险提示和前两条均暗示已在协调或确认，实际 CA 尚未询问店经理。"
+ },
+ "_judge": "openai:gpt-6.1-terra"
+}

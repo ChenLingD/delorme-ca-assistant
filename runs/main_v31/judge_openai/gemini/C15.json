@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "轻微：“戴了有三年多”将购入时间等同于实际佩戴时间，档案未确认佩戴情况。",
+    "context_failure": "严重：客户明确拒绝新品推荐，手册要求此后仅发送与本人相关的必要信息；没有证据表明耳钉目前需要清洁检测，不宜主动邀约到店。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 2
+   },
+   "sendability": "不可用",
+   "comment": "已有藏品切入较自然，但不能把常规保养邀约当作当前必要联系。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "轻微：“一直保持温润的珠光”缺乏依据；备注称客户常戴耳钉，档案也未确认。",
+    "context_failure": "严重：养护建议虽不推销，但客户未提出养护需求，不能确定这是允许主动发送的必要信息。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 2
+   },
+   "sendability": "不可用",
+   "comment": "比到店邀约更轻，但养护效果说得过满，且仍缺少主动联系的必要性。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "严重：未经 CA 授权，承诺现场处理搭扣调试及清洁，超出已知固定服务。",
+    "privacy_violation": "无",
+    "fabrication": "严重：没有依据表明门店可为该手链做超声波清洁、搭扣微调，或能现场完成；“戴了一年多”也将购入时间等同于实际佩戴时间。",
+    "context_failure": "严重：客户未提出手链维护需求，主动提供处理方案和邀约到店不属于已确认的必要联系。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 2,
+    "naturalness": 2,
+    "effectiveness": 1
+   },
+   "sendability": "不可用",
+   "comment": "手链切入有客户依据，但自行承诺具体处理方式和现场完成，风险最高。"
+  }
+ ],
+ "set": {
+  "diversity": 3,
+  "risk_judgement": "正确",
+  "best_index": 2,
+  "must_coverage": "1/1",
+  "summary": "风险判断正确识别了客户拒绝推销，三条也都没有直接推荐产品；候选 2 相对最轻。主要问题是三条均未证明属于必要售后信息，因此都不宜主动发送，候选 3 还擅自承诺现场处理。"
+ },
+ "_judge": "openai:gpt-6.1-terra"
+}

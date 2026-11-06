@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 4,
+    "naturalness": 4,
+    "effectiveness": 3
+   },
+   "sendability": "直接可发",
+   "comment": "直答到货问题并登记心愿，简短稳妥，但缺少工艺细节，延续客户兴趣的力度较弱。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 4,
+    "naturalness": 4,
+    "effectiveness": 4
+   },
+   "sendability": "直接可发",
+   "comment": "接住客户周末看到的作品，用工匠细节回应喜欢，也明确说明无法给出到货时间；若先答时间会更贴合客户的直接风格。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 3
+   },
+   "sendability": "直接可发",
+   "comment": "结合了已有手链和材质偏好，但“合您对黄金、钻石的偏好”略像念档案，邀约也使对到货问题的回答靠后。"
+  }
+ ],
+ "set": {
+  "diversity": 4,
+  "risk_judgement": "正确",
+  "best_index": 2,
+  "must_coverage": "2/3",
+  "summary": "三条均未拒绝客户或承诺到货，并提出登记心愿；候选2用具体工艺细节延续了客户的兴趣。主要不足是三条都没有引导客户了解其他系列的工艺语言，候选3虽提到涟漪，但只是作搭配比较。"
+ },
+ "_judge": "openai:gpt-6.1-terra"
+}

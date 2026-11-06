@@ -1,0 +1,189 @@
+{
+ "case_id": "C03",
+ "version": "v3.1",
+ "model": "gemini:gemini-3.8-flash",
+ "risk": {
+  "level": "caution",
+  "flags": [
+   "付款人与佩戴者不是同一人（礼赠关系，严格保密）",
+   "客户未主动明确与该男士的关系，聊天中仅提过‘他说’"
+  ],
+  "advice": "绝不主动提及付款人或‘那位男士’，聚焦于唐女士本人的生日、花艺兴趣及巴黎旅行。"
+ },
+ "candidates": [
+  {
+   "text": "唐女士，生日快乐！愿您新的一岁轻盈自在，每一天都过得舒心明朗。",
+   "strategy": "极简",
+   "note_for_ca": "纯粹简短的生日问候，分寸感好且不打扰。"
+  },
+  {
+   "text": "唐女士，生日快乐！做自己喜欢的事本身就很美，愿新的一岁常有灵感与美好花事相伴，日子始终浪漫惬意。",
+   "strategy": "走心",
+   "note_for_ca": "结合花艺热爱切入，赞美其生活状态，温暖真诚。"
+  },
+  {
+   "text": "唐女士，祝您生日快乐！前阵子听您聊起巴黎的花店，不知道这会儿是不是已经出发了？要是到了旺多姆广场老店那边，有什么想了解的随时跟我说。",
+   "strategy": "推进",
+   "note_for_ca": "承接上次聊的巴黎之行，给出一个自然轻松的互动话题。"
+  }
+ ],
+ "checks": [
+  {
+   "pass": true,
+   "hard": [],
+   "soft": [],
+   "length": 31
+  },
+  {
+   "pass": true,
+   "hard": [],
+   "soft": [],
+   "length": 48
+  },
+  {
+   "pass": true,
+   "hard": [],
+   "soft": [],
+   "length": 66
+  }
+ ],
+ "trace": {
+  "rounds": [
+   {
+    "rule_checks": [
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 31
+     },
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 48
+     },
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 66
+     }
+    ],
+    "critic": {
+     "reviews": [
+      {
+       "index": 1,
+       "pass": true,
+       "issues": []
+      },
+      {
+       "index": 2,
+       "pass": true,
+       "issues": []
+      },
+      {
+       "index": 3,
+       "pass": true,
+       "issues": []
+      }
+     ],
+     "set_issues": []
+    },
+    "set_issues": [],
+    "to_fix": {}
+   }
+  ],
+  "plan": {
+   "client_read": "唐女士是一位热爱花艺与法式美学、性格轻盈开朗的年轻主理人，与 CA 关系融洽且乐于分享日常。目前正值其 28 岁生日，且半个月前曾提到生日有去巴黎看花店与旺多姆老店的旅行计划。",
+   "risk": {
+    "level": "caution",
+    "flags": [
+     "付款人与佩戴者不是同一人（礼赠关系，严格保密）",
+     "客户未主动明确与该男士的关系，聊天中仅提过‘他说’"
+    ],
+    "advice": "绝不主动提及付款人或‘那位男士’，聚焦于唐女士本人的生日、花艺兴趣及巴黎旅行。"
+   },
+   "ca_commitments": [],
+   "usable_facts": [
+    "今天（12月3日）是唐女士的生日",
+    "前阵子在研究巴黎的花店，聊到生日期间可能去巴黎旅行",
+    "喜欢花艺，工作室在武康路附近",
+    "对德洛姆巴黎旺多姆广场老店很感兴趣"
+   ],
+   "do_not_mention": [
+    "付款人及任何关于该男士的身份、代付款信息",
+    "消费金额、客户内部进阶阶段",
+    "未经 CA 承诺的生日礼物、折扣或到店礼遇",
+    "推销任何新珠宝作品"
+   ],
+   "products": [],
+   "unanswerable": "",
+   "slots": {
+    "极简": {
+     "切入点": "纯粹而真诚的生日祝福",
+     "唯一信息点": "祝唐女士28岁生日快乐，开启明朗舒心的新一岁"
+    },
+    "走心": {
+     "切入点": "结合她对花艺的热爱与审美世界",
+     "唯一信息点": "愿新的一岁常有灵感与美好花事相伴，在法式浪漫里自在惬意"
+    },
+    "推进": {
+     "切入点": "从她之前提到的巴黎旅行与老店愿望切入",
+     "唯一信息点": "询问是否已经启程去巴黎看花店，并贴心提供老店相关信息的交流可能"
+    }
+   }
+  },
+  "first_draft": [
+   {
+    "text": "唐女士，生日快乐！愿您新的一岁轻盈自在，每一天都过得舒心明朗。",
+    "strategy": "极简",
+    "note_for_ca": "纯粹简短的生日问候，分寸感好且不打扰。"
+   },
+   {
+    "text": "唐女士，生日快乐！做自己喜欢的事本身就很美，愿新的一岁常有灵感与美好花事相伴，日子始终浪漫惬意。",
+    "strategy": "走心",
+    "note_for_ca": "结合花艺热爱切入，赞美其生活状态，温暖真诚。"
+   },
+   {
+    "text": "唐女士，祝您生日快乐！前阵子听您聊起巴黎的花店，不知道这会儿是不是已经出发了？要是到了旺多姆广场老店那边，有什么想了解的随时跟我说。",
+    "strategy": "推进",
+    "note_for_ca": "承接上次聊的巴黎之行，给出一个自然轻松的互动话题。"
+   }
+  ],
+  "seconds": 24.1,
+  "diversity_max_sim": 0.11864406779661017,
+  "calls": [
+   {
+    "requested": "gemini-3.8-flash",
+    "served": "gemini-3.8-flash",
+    "seconds": 8.3,
+    "attempt": 1,
+    "in_tokens": 5982,
+    "out_tokens": 542,
+    "reasoning_tokens": null,
+    "fingerprint": null
+   },
+   {
+    "requested": "gemini-3.8-flash",
+    "served": "gemini-3.8-flash",
+    "seconds": 5.2,
+    "attempt": 1,
+    "in_tokens": 5428,
+    "out_tokens": 234,
+    "reasoning_tokens": null,
+    "fingerprint": null
+   },
+   {
+    "requested": "gemini-3.8-flash",
+    "served": "gemini-3.8-flash",
+    "seconds": 10.6,
+    "attempt": 1,
+    "in_tokens": 5151,
+    "out_tokens": 102,
+    "reasoning_tokens": null,
+    "fingerprint": null
+   }
+  ]
+ }
+}

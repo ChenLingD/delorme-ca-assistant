@@ -1,0 +1,329 @@
+{
+ "case_id": "C13",
+ "version": "v2",
+ "model": "gemini:gemini-3.8-flash",
+ "risk": {
+  "level": "ok",
+  "flags": [],
+  "advice": ""
+ },
+ "candidates": [
+  {
+   "text": "罗先生，上手对比我整理好发您，手寸保密也有稳妥办法的。",
+   "strategy": "极简",
+   "note_for_ca": "先快速接住昨晚的疑问，字数极简，不堆砌服务细则。"
+  },
+  {
+   "text": "罗先生，能感受到您为求婚准备这份惊喜的细心。戒圈完全不用担心，我们有一年内免费改圈一次的服务，到时候按她的指围调整就好。",
+   "strategy": "走心",
+   "note_for_ca": "切中“想给惊喜需保密戒圈”，化解其顾虑。"
+  },
+  {
+   "text": "罗先生，誓约采用悬浮镶嵌，通透度很高，其实1克拉台面就很有存在感；1.5克拉会更饱满一些。我拍一段自然光下的实戴对比发您看看，方便您直观感受？",
+   "strategy": "推进",
+   "note_for_ca": "解答视觉差异并给到下一步，适合想先看实戴效果时使用。"
+  }
+ ],
+ "checks": [
+  {
+   "pass": true,
+   "hard": [],
+   "soft": [],
+   "length": 27
+  },
+  {
+   "pass": true,
+   "hard": [],
+   "soft": [],
+   "length": 60
+  },
+  {
+   "pass": true,
+   "hard": [],
+   "soft": [],
+   "length": 71
+  }
+ ],
+ "trace": {
+  "rounds": [
+   {
+    "rule_checks": [
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 31
+     },
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 60
+     },
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 71
+     }
+    ],
+    "critic": {
+     "reviews": [
+      {
+       "index": 1,
+       "pass": false,
+       "issues": [
+        "不符合‘极简’分工规范：极简要求 ≤30 字且不放数字、时间或具体服务细节。草稿共 32 字，塞入了‘一年内’的时间数字与‘免费改圈’的具体服务说明，并同时回应了发图，挤成了电报体。建议极简只做最核心的快速回应，例如：‘罗先生，大小对比的上手效果我整理一下发您，戒圈保密也有办法的。’"
+       ]
+      },
+      {
+       "index": 2,
+       "pass": true,
+       "issues": []
+      },
+      {
+       "index": 3,
+       "pass": true,
+       "issues": []
+      }
+     ],
+     "set_issues": [
+      {
+       "indices": [
+        1,
+        2,
+        3
+       ],
+       "issue": "三条草稿全部重复出现了‘一年内免费改圈一次’的品牌服务细则，导致三条核心信息高度同质化。建议拉开分工：极简只先接住问题告知在整理对比资料；走心聚焦于理解客户为女友保留惊喜的心意与安抚担忧；推进则重点回答 1 克拉与 1.5 克拉的视觉细节，并以发送上手对比视频作为具体下一步。"
+      }
+     ]
+    },
+    "set_issues": [
+     "三条草稿全部重复出现了‘一年内免费改圈一次’的品牌服务细则，导致三条核心信息高度同质化。建议拉开分工：极简只先接住问题告知在整理对比资料；走心聚焦于理解客户为女友保留惊喜的心意与安抚担忧；推进则重点回答 1 克拉与 1.5 克拉的视觉细节，并以发送上手对比视频作为具体下一步。"
+    ],
+    "to_fix": {
+     "1": [
+      "不符合‘极简’分工规范：极简要求 ≤30 字且不放数字、时间或具体服务细节。草稿共 32 字，塞入了‘一年内’的时间数字与‘免费改圈’的具体服务说明，并同时回应了发图，挤成了电报体。建议极简只做最核心的快速回应，例如：‘罗先生，大小对比的上手效果我整理一下发您，戒圈保密也有办法的。’"
+     ],
+     "3": [
+      "与其他候选雷同：三条草稿全部重复出现了‘一年内免费改圈一次’的品牌服务细则，导致三条核心信息高度同质化。建议拉开分工：极简只先接住问题告知在整理对比资料；走心聚焦于理解客户为女友保留惊喜的心意与安抚担忧；推进则重点回答 1 克拉与 1.5 克拉的视觉细节，并以发送上手对比视频作为具体下一步。"
+     ]
+    }
+   },
+   {
+    "rule_checks": [
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 27
+     },
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 60
+     },
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 83
+     }
+    ],
+    "critic": {
+     "reviews": [
+      {
+       "index": 1,
+       "pass": true,
+       "issues": []
+      },
+      {
+       "index": 2,
+       "pass": true,
+       "issues": []
+      },
+      {
+       "index": 3,
+       "pass": false,
+       "issues": [
+        "承诺了“下午”拍摄并发送，属于未经 CA 授权的具体时间承诺（手册硬性规则明确规定具体时间承诺只能来自 CA 提供的内容）。建议删去“下午”，改为“我拍段上手对比视频发您看看，方便您直观比对？”。"
+       ]
+      }
+     ],
+     "set_issues": []
+    },
+    "set_issues": [],
+    "to_fix": {
+     "3": [
+      "承诺了“下午”拍摄并发送，属于未经 CA 授权的具体时间承诺（手册硬性规则明确规定具体时间承诺只能来自 CA 提供的内容）。建议删去“下午”，改为“我拍段上手对比视频发您看看，方便您直观比对？”。"
+     ]
+    }
+   },
+   {
+    "rule_checks": [
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 27
+     },
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 60
+     },
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 71
+     }
+    ],
+    "critic": {
+     "reviews": [
+      {
+       "index": 1,
+       "pass": true,
+       "issues": []
+      },
+      {
+       "index": 2,
+       "pass": true,
+       "issues": []
+      },
+      {
+       "index": 3,
+       "pass": true,
+       "issues": []
+      }
+     ],
+     "set_issues": []
+    },
+    "set_issues": [],
+    "to_fix": {}
+   }
+  ],
+  "plan": {
+   "client_read": "罗先生是一位心思缜密、重视惊喜与细节的准新郎，思考严谨且关注实际参数与佩戴效果。目前正处于为求婚认真比选钻戒规格、寻求专业建议的深度咨询阶段。",
+   "risk": {
+    "level": "ok",
+    "flags": [],
+    "advice": ""
+   },
+   "ca_commitments": [],
+   "usable_facts": [
+    "正在对比誓约系列1克拉与1.5克拉的实际上手视觉差异",
+    "预算在15万左右，打算给女友准备求婚惊喜且戒圈需要保密",
+    "品牌提供购买后一年内免费改圈一次的固定服务",
+    "誓约单钻戒指采用悬浮镶嵌工艺"
+   ],
+   "do_not_mention": [
+    "客户与女友的职业、交往年限等内部背景标签",
+    "编造1.5克拉的具体报价（目录仅标明1克拉起¥128,000及定制区间）",
+    "折扣、优惠、性价比等词汇",
+    "催促到店或催促下单"
+   ],
+   "products": [
+    "SER-R01"
+   ],
+   "slots": {
+    "极简": "告知品牌有一年内免费改圈服务，并表示稍后发上手对比图供参考。",
+    "走心": "理解并肯定罗先生守护求婚惊喜的用心，用品牌一年内免费改圈服务消除其戒圈保密的顾虑。",
+    "推进": "客观说明悬浮镶对视觉张力的放大效果，提供常规圈号先行制作方案，并询问是否先发实戴对比图/视频。"
+   }
+  },
+  "first_draft": [
+   {
+    "text": "罗先生，我们有一年内免费改圈一次的服务，大小对比图我发您看看。",
+    "strategy": "极简",
+    "note_for_ca": "直接解答最急切的戒圈顾虑，干净迅速。"
+   },
+   {
+    "text": "罗先生，能感受到您为求婚准备这份惊喜的细心。戒圈完全不用担心，我们有一年内免费改圈一次的服务，到时候按她的指围调整就好。",
+    "strategy": "走心",
+    "note_for_ca": "切中“想给惊喜需保密戒圈”，化解其顾虑。"
+   },
+   {
+    "text": "罗先生，誓约是悬浮镶嵌，光线通透，1克拉台面就很显大。建议先按常规手寸制作以保留惊喜，购买后一年内可免费改圈一次。我拍个上手对比视频发您看看？",
+    "strategy": "推进",
+    "note_for_ca": "解答视觉差异并给出实拍视频的轻量推进。"
+   }
+  ],
+  "seconds": 79.5,
+  "diversity_max_sim": 0.013513513513513514,
+  "calls": [
+   {
+    "requested": "gemini-3.8-flash",
+    "served": "gemini-3.8-flash",
+    "seconds": 12.4,
+    "attempt": 1,
+    "in_tokens": 5261,
+    "out_tokens": 405,
+    "reasoning_tokens": null,
+    "fingerprint": null
+   },
+   {
+    "requested": "gemini-3.8-flash",
+    "served": "gemini-3.8-flash",
+    "seconds": 4.4,
+    "attempt": 1,
+    "in_tokens": 4639,
+    "out_tokens": 265,
+    "reasoning_tokens": null,
+    "fingerprint": null
+   },
+   {
+    "requested": "gemini-3.8-flash",
+    "served": "gemini-3.8-flash",
+    "seconds": 16.2,
+    "attempt": 1,
+    "in_tokens": 4467,
+    "out_tokens": 337,
+    "reasoning_tokens": null,
+    "fingerprint": null
+   },
+   {
+    "requested": "gemini-3.8-flash",
+    "served": "gemini-3.8-flash",
+    "seconds": 4.1,
+    "attempt": 1,
+    "in_tokens": 5117,
+    "out_tokens": 215,
+    "reasoning_tokens": null,
+    "fingerprint": null
+   },
+   {
+    "requested": "gemini-3.8-flash",
+    "served": "gemini-3.8-flash",
+    "seconds": 17.9,
+    "attempt": 1,
+    "in_tokens": 4479,
+    "out_tokens": 166,
+    "reasoning_tokens": null,
+    "fingerprint": null
+   },
+   {
+    "requested": "gemini-3.8-flash",
+    "served": "gemini-3.8-flash",
+    "seconds": 10.1,
+    "attempt": 1,
+    "in_tokens": 4930,
+    "out_tokens": 126,
+    "reasoning_tokens": null,
+    "fingerprint": null
+   },
+   {
+    "requested": "gemini-3.8-flash",
+    "served": "gemini-3.8-flash",
+    "seconds": 14.4,
+    "attempt": 1,
+    "in_tokens": 4468,
+    "out_tokens": 102,
+    "reasoning_tokens": null,
+    "fingerprint": null
+   }
+  ]
+ }
+}

@@ -1,0 +1,141 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900" font-family="Times New Roman, Times, serif" font-size="19" fill="#1a1a1a">
+  <defs>
+    <marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#1a1a1a"/>
+    </marker>
+    <marker id="arg" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#888"/>
+    </marker>
+  </defs>
+  <rect width="1600" height="900" fill="#fff"/>
+
+  <!-- ============ (a) generation ============ -->
+  <text x="30" y="38" font-size="21" font-weight="bold">(a) How one request is answered</text>
+
+  <!-- knowledge -->
+  <path d="M520,72 a300,14 0 0,0 600,0 v62 a300,14 0 0,1 -600,0 z" fill="#f4f4f4" stroke="#1a1a1a" stroke-width="1.3"/>
+  <ellipse cx="820" cy="72" rx="300" ry="14" fill="#fbfbfb" stroke="#1a1a1a" stroke-width="1.3"/>
+  <text x="820" y="104" text-anchor="middle" font-weight="bold">Brand knowledge</text>
+  <text x="820" y="126" text-anchor="middle" font-size="16">brand book · scenario guides · product catalogue · rules</text>
+  <path d="M640,160 V228" stroke="#888" stroke-width="1.3" stroke-dasharray="6 4" marker-end="url(#arg)"/>
+  <path d="M880,160 V228" stroke="#888" stroke-width="1.3" stroke-dasharray="6 4" marker-end="url(#arg)"/>
+  <path d="M1110,160 V218" stroke="#888" stroke-width="1.3" stroke-dasharray="6 4" marker-end="url(#arg)"/>
+
+  <!-- input -->
+  <rect x="30" y="220" width="200" height="170" fill="#fff" stroke="#1a1a1a" stroke-width="1.3"/>
+  <text x="130" y="250" text-anchor="middle" font-weight="bold">Input</text>
+  <text x="46" y="282" font-size="17">client profile</text>
+  <text x="46" y="306" font-size="17">scenario</text>
+  <text x="46" y="330" font-size="17">chat history</text>
+  <text x="46" y="354" font-size="17">products / event</text>
+  <text x="46" y="378" font-size="17">CA's own points</text>
+  <path d="M230,305 H278" stroke="#1a1a1a" stroke-width="1.5" marker-end="url(#ar)"/>
+
+  <!-- fact tools -->
+  <rect x="280" y="230" width="200" height="150" fill="#ebebeb" stroke="#1a1a1a" stroke-width="1.3"/>
+  <text x="380" y="260" text-anchor="middle" font-weight="bold">Fact tools</text>
+  <text x="296" y="292" font-size="17">dates &amp; festivals</text>
+  <text x="296" y="316" font-size="17">"how long ago"</text>
+  <text x="296" y="340" font-size="17">product facts</text>
+  <path d="M480,305 H538" stroke="#1a1a1a" stroke-width="1.5" marker-end="url(#ar)"/>
+
+  <!-- plan -->
+  <rect x="540" y="230" width="200" height="150" rx="16" fill="#fff" stroke="#1a1a1a" stroke-width="2"/>
+  <text x="640" y="260" text-anchor="middle" font-weight="bold">1  Plan</text>
+  <text x="556" y="292" font-size="17">read the situation</text>
+  <text x="556" y="316" font-size="17">set a risk level</text>
+  <text x="556" y="340" font-size="17">pick 3 different angles</text>
+  <path d="M740,305 H778" stroke="#1a1a1a" stroke-width="1.5" marker-end="url(#ar)"/>
+
+  <!-- write -->
+  <rect x="780" y="230" width="200" height="150" rx="16" fill="#fff" stroke="#1a1a1a" stroke-width="2"/>
+  <text x="880" y="260" text-anchor="middle" font-weight="bold">2  Write</text>
+  <text x="796" y="292" font-size="17">3 messages</text>
+  <text x="796" y="316" font-size="17">each with a note</text>
+  <text x="796" y="340" font-size="17">for the CA</text>
+  <path d="M980,305 H1008" stroke="#1a1a1a" stroke-width="1.5" marker-end="url(#ar)"/>
+
+  <!-- check -->
+  <rect x="1010" y="220" width="200" height="170" fill="none" stroke="#1a1a1a" stroke-width="1.3" stroke-dasharray="6 4"/>
+  <text x="1110" y="246" text-anchor="middle" font-weight="bold">3  Check</text>
+  <rect x="1025" y="260" width="170" height="52" fill="#ebebeb" stroke="#1a1a1a" stroke-width="1.2"/>
+  <text x="1110" y="292" text-anchor="middle" font-size="17">rule check</text>
+  <rect x="1025" y="322" width="170" height="52" rx="12" fill="#fff" stroke="#1a1a1a" stroke-width="2"/>
+  <text x="1110" y="354" text-anchor="middle" font-size="17">AI review</text>
+
+  <!-- pass? -->
+  <path d="M1210,305 H1238" stroke="#1a1a1a" stroke-width="1.5" marker-end="url(#ar)"/>
+  <polygon points="1280,265 1320,305 1280,345 1240,305" fill="#fff" stroke="#1a1a1a" stroke-width="1.3"/>
+  <text x="1280" y="311" text-anchor="middle" font-size="16">pass?</text>
+  <path d="M1320,305 H1368" stroke="#1a1a1a" stroke-width="1.5" marker-end="url(#ar)"/>
+  <text x="1343" y="295" text-anchor="middle" font-size="16" font-style="italic">yes</text>
+
+  <!-- rewrite loop -->
+  <rect x="1025" y="450" width="170" height="70" rx="12" fill="#fff" stroke="#1a1a1a" stroke-width="2"/>
+  <text x="1110" y="478" text-anchor="middle" font-weight="bold">4  Rewrite</text>
+  <text x="1110" y="502" text-anchor="middle" font-size="16">only the failed ones</text>
+  <path d="M1280,345 V485 H1197" stroke="#1a1a1a" stroke-width="1.5" fill="none" marker-end="url(#ar)"/>
+  <text x="1292" y="420" font-size="16" font-style="italic">no</text>
+  <path d="M1110,450 V392" stroke="#1a1a1a" stroke-width="1.5" marker-end="url(#ar)"/>
+  <text x="1110" y="545" text-anchor="middle" font-size="15" fill="#555" font-style="italic">up to 3 rounds</text>
+
+  <!-- output -->
+  <rect x="1370" y="220" width="200" height="170" fill="#fff" stroke="#1a1a1a" stroke-width="1.3"/>
+  <text x="1470" y="250" text-anchor="middle" font-weight="bold">Output</text>
+  <text x="1386" y="282" font-size="17">risk tip for the CA</text>
+  <text x="1386" y="306" font-size="17">3 WeChat messages</text>
+  <text x="1386" y="330" font-size="17">(in Chinese)</text>
+  <text x="1386" y="354" font-size="17">a note on each</text>
+
+  <!-- the one hard rule -->
+  <rect x="540" y="440" width="440" height="60" fill="#fff" stroke="#0F5B5C" stroke-width="1.5"/>
+  <text x="760" y="468" text-anchor="middle" fill="#0F5B5C" font-weight="bold">The one hard rule</text>
+  <text x="760" y="490" text-anchor="middle" fill="#0F5B5C" font-size="17" font-style="italic">never promise anything the CA has not promised</text>
+
+  <!-- separator -->
+  <line x1="30" y1="590" x2="1570" y2="590" stroke="#aaa" stroke-dasharray="8 6"/>
+
+  <!-- ============ (b) evaluation ============ -->
+  <text x="30" y="630" font-size="21" font-weight="bold">(b) How the tool was tested and improved (v0 → v4)</text>
+
+  <rect x="30" y="680" width="200" height="90" fill="#fff" stroke="#1a1a1a" stroke-width="1.3"/>
+  <text x="130" y="716" text-anchor="middle" font-weight="bold">50 test cases</text>
+  <text x="130" y="742" text-anchor="middle" font-size="16">6 scenarios, incl.</text>
+  <text x="130" y="762" text-anchor="middle" font-size="16">risky and tricky ones</text>
+  <path d="M230,725 H298" stroke="#1a1a1a" stroke-width="1.5" marker-end="url(#ar)"/>
+
+  <rect x="300" y="685" width="160" height="80" rx="16" fill="#fff" stroke="#1a1a1a" stroke-width="2"/>
+  <text x="380" y="731" text-anchor="middle" font-weight="bold">Tool</text>
+  <path d="M460,725 H528" stroke="#1a1a1a" stroke-width="1.5" marker-end="url(#ar)"/>
+
+  <rect x="530" y="660" width="380" height="130" fill="#fff" stroke="#1a1a1a" stroke-width="1.3"/>
+  <text x="720" y="690" text-anchor="middle" font-weight="bold">Three kinds of review</text>
+  <text x="550" y="722" font-size="17">rule check — every message</text>
+  <text x="550" y="748" font-size="17">AI judge — scores all 150 messages</text>
+  <text x="550" y="774" font-size="17">human blind review — makes the decisions</text>
+  <path d="M910,725 H978" stroke="#1a1a1a" stroke-width="1.5" marker-end="url(#ar)"/>
+
+  <rect x="980" y="685" width="200" height="80" fill="#fff" stroke="#1a1a1a" stroke-width="1.3"/>
+  <text x="1080" y="719" text-anchor="middle" font-weight="bold">Defects found</text>
+  <text x="1080" y="745" text-anchor="middle" font-size="16">and their causes</text>
+  <path d="M1180,725 H1248" stroke="#1a1a1a" stroke-width="1.5" marker-end="url(#ar)"/>
+
+  <rect x="1250" y="685" width="200" height="80" rx="16" fill="#fff" stroke="#1a1a1a" stroke-width="1.3"/>
+  <text x="1350" y="719" text-anchor="middle" font-weight="bold">Fix</text>
+  <text x="1350" y="745" text-anchor="middle" font-size="16">prompts, tools, knowledge</text>
+
+  <path d="M1350,765 V830 H380 V767" stroke="#1a1a1a" stroke-width="1.5" fill="none" marker-end="url(#ar)"/>
+  <text x="865" y="850" text-anchor="middle" font-size="16" font-style="italic">next version</text>
+
+  <!-- legend -->
+  <rect x="1470" y="660" width="110" height="110" fill="#fff" stroke="#bbb"/>
+  <rect x="1482" y="676" width="34" height="20" rx="7" fill="#fff" stroke="#1a1a1a" stroke-width="2"/>
+  <text x="1522" y="691" font-size="14">AI step</text>
+  <rect x="1482" y="708" width="34" height="20" fill="#ebebeb" stroke="#1a1a1a" stroke-width="1.2"/>
+  <text x="1522" y="723" font-size="14">code</text>
+  <rect x="1482" y="740" width="34" height="20" fill="#fff" stroke="#1a1a1a" stroke-width="1.3"/>
+  <text x="1522" y="755" font-size="14">data</text>
+
+  <!-- caption -->
+  <text x="30" y="888" font-size="17"><tspan font-weight="bold">Figure 1.</tspan> Architecture of the Maison Delorme CA message assistant (frozen version v4).</text>
+</svg>

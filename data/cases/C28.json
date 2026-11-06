@@ -1,0 +1,87 @@
+{
+  "case_id": "C28",
+  "scenario": "reactivation",
+  "today": "2026-11-28",
+  "occasion": "新 CA 接手；客户 2024 年圣诞前到店被冷落后再未来过",
+  "ca": {
+    "name": "Leo",
+    "gender": "男",
+    "years_experience": 6,
+    "store": "深圳万象城精品店",
+    "known_client_since": null,
+    "style": "适中"
+  },
+  "client": {
+    "surname": "温",
+    "given_name": "启航",
+    "gender": "男",
+    "age_range": "35-40",
+    "city": "深圳",
+    "occupation": "自动驾驶公司联合创始人",
+    "client_since": "2024-02",
+    "spend_band": "5万以下",
+    "stage": "入门",
+    "last_visit": "2024-12-21",
+    "last_purchase": "2024-02",
+    "wealth_source": "创业",
+    "motivations": [
+      "送礼",
+      "社交场合"
+    ],
+    "social_visibility": "适中",
+    "price_sensitivity": "低",
+    "style_preference": "利落、功能感",
+    "material_preference": "黄金",
+    "owned_pieces": [
+      {
+        "date": "2024-02",
+        "item": "工坊 18K 黄金袖扣",
+        "for_whom": "自戴",
+        "note": "公司融资路演时戴"
+      }
+    ],
+    "formality": "随意",
+    "reply_habit": "回复快、直接",
+    "recommendation_openness": "一般",
+    "family_notes": "太太姓郑",
+    "interests": [
+      "帆船",
+      "科幻小说"
+    ],
+    "flags": {
+      "open_complaint": "2024-12-21 圣诞前到店想给太太挑礼物，因店内忙无人接待约 20 分钟，当晚微信抱怨；原 CA 道歉后未再跟进，客户此后未到店。原 CA 已离职，现由 Leo 接手。"
+    },
+    "notes": "以下聊天记录为原 CA（Amy，已离职）与客户的对话，账号已移交。"
+  },
+  "conversation_history": [
+    {
+      "sender": "client",
+      "time": "2024-12-21 21:18",
+      "text": "今天下午在你们店里站了二十分钟，没一个人过来问一句。我是来买东西的，不是来罚站的。"
+    },
+    {
+      "sender": "ca",
+      "time": "2024-12-21 21:40",
+      "text": "温先生实在抱歉，今天下午店里客人太多，是我们没照顾好。您想看哪件我先帮您留着？"
+    },
+    {
+      "sender": "client",
+      "time": "2024-12-21 21:52",
+      "text": "算了，已经在别家买了。"
+    }
+  ],
+  "ca_request": "我刚接手温先生，想自我介绍，也想就上次的事表个态，重新建立联系。",
+  "test_meta": {
+    "persona": "P2",
+    "type": "risk",
+    "must": [
+      "自我介绍",
+      "先承认那次体验"
+    ],
+    "must_not": [
+      "装作什么都没发生",
+      "直接推销",
+      "把责任推给已离职的原 CA"
+    ]
+  }
+}

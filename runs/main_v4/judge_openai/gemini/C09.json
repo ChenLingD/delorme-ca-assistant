@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "严重：“1926 年赴沪采购”缺少确切年份依据；“刚抵京”也无到货信息支持。",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 2,
+    "naturalness": 2,
+    "effectiveness": 2
+   },
+   "sendability": "不可用",
+   "comment": "切中了客户对上海往事的兴趣，也留了退路，但未关联已有藏品，且“挂心”“掌眼”显得刻意。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "严重：将上海渊源明确系于 1926 年、称编号款已抵京，均无依据；目录也未明确该款使用南洋金珠。",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 2,
+    "brand_voice": 2,
+    "naturalness": 2,
+    "effectiveness": 2
+   },
+   "sendability": "不可用",
+   "comment": "有编号和渐变的具体细节，也给了退路，但没有关联已有藏品；“最为了解”缺乏依据，整体也并不极简。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "严重：将上海渊源明确系于 1926 年、称编号款已到店，均无依据。",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 3
+   },
+   "sendability": "不可用",
+   "comment": "关联了已有白珠和金珠作品，给出了编号细节及到店退路，但“更具分量”等表达偏修饰，且到店事实须核实。"
+  }
+ ],
+ "set": {
+  "diversity": 2,
+  "risk_judgement": "偏松",
+  "best_index": 3,
+  "must_coverage": "3/3",
+  "summary": "候选 3 最贴近推荐目标，三项 must 均有覆盖，但三条整体切入和语气相似。最主要的问题是都未经证实地写出到货，并将上海采购渊源精确归于 1926 年；风险判断未指出这些事实问题。"
+ },
+ "_judge": "openai:gpt-6.1-terra"
+}

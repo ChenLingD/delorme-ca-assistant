@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "轻微：“最近整理展柜时看到沧海的珍珠”没有依据，备注也未提示这是虚构的联系由头。",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 4
+   },
+   "sendability": "小改可发",
+   "comment": "海浪图稿与插画话题贴合客户，删去虚构的展柜情节，并精简到店和清洁邀约会更自然。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "轻微：档案只说明作品供客户自戴，不能确定她“随身常戴”。",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "售后切入得体，但不宜假定佩戴频率，且同时询问佩戴、提出珍珠护理和改圈，略显密集。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "严重：“几分钟就能打理好”自行承诺具体服务时长，未获 CA 授权。",
+    "privacy_violation": "无",
+    "fabrication": "严重：天气变化、“翻看客人的护理记录”及客户常戴首饰均无依据；“几分钟”服务时长也无依据。",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 2,
+    "brand_voice": 2,
+    "naturalness": 2,
+    "effectiveness": 2
+   },
+   "sendability": "不可用",
+   "comment": "虽以本人和保养为中心，但虚构联系由头并承诺处理时长，需要重写。"
+  }
+ ],
+ "set": {
+  "diversity": 3,
+  "risk_judgement": "偏松",
+  "best_index": 1,
+  "must_coverage": "2/2",
+  "summary": "三条都以客户本人为中心，未触及付款人或感情现状，但均未达到直接可发的标准。主要问题是虚构联系由头或佩戴习惯，候选 3 还自行承诺了服务时长，工具判为无风险偏松。"
+ },
+ "_judge": "openai:gpt-6.1-terra"
+}

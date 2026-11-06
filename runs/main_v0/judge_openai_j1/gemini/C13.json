@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "未经确认即建议按常规手寸制作，并保证后续能兼顾佩戴贴合度，承诺过满。",
+    "privacy_violation": "无",
+    "fabrication": "目录未提供两种克拉的直径或台面尺寸；“没有传统金属爪遮挡”也不能由悬浮镶信息直接推出。",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 2,
+    "naturalness": 2,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "回应了尺寸和戒圈问题，但尺寸数据及制作建议需核实，整段也偏长。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "未经确认即表示可以按常用号制作，且暗示改圈后一定更贴合。",
+    "privacy_violation": "无",
+    "fabrication": "目录未提供两种克拉的直径差，也未说明光线可从侧面完整穿透；按常用号制作是否可行未获确认。",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 4
+   },
+   "sendability": "小改可发",
+   "comment": "回答了两个问题，并提供取戒圈的思路，但应删改未经证实的尺寸、光学描述和制作建议。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "将标准手寸求婚和改圈后的舒适度说得过于确定，超出已知服务范围。",
+    "privacy_violation": "无",
+    "fabrication": "1.5 克拉会超预算较多、1 克拉可选到顶级成色、悬浮镶比一般爪镶更显大，以及通常建议先用标准手寸，均缺少依据。",
+    "context_failure": "没有直接说明誓约 1 克拉与 1.5 克拉实际看起来的大小差异。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 2,
+    "naturalness": 2,
+    "effectiveness": 2
+   },
+   "sendability": "不可用",
+   "comment": "虽然提到预算和改圈，但核心尺寸问题未答清，且价格、工艺和手寸判断都需要重写。"
+  }
+ ],
+ "set": {
+  "diversity": 2,
+  "risk_judgement": "偏松",
+  "best_index": 2,
+  "must_coverage": "2/2",
+  "summary": "候选 2 相对最好，既回应大小差异，也提供了保密获取戒圈的方法和改圈服务。三条都加入了未经证实的产品或制作细节，工具判断为无风险偏松。"
+ },
+ "_judge": "openai:gpt-6.1-terra"
+}

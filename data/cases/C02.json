@@ -1,0 +1,106 @@
+{
+  "case_id": "C02",
+  "scenario": "birthday_festive",
+  "today": "2026-11-22",
+  "occasion": "客户今天生日",
+  "ca": {
+    "name": "Iris",
+    "gender": "女",
+    "years_experience": 4,
+    "store": "北京 SKP 精品店",
+    "known_client_since": "2026-06",
+    "style": "偏亲切"
+  },
+  "client": {
+    "surname": "韩",
+    "given_name": "一鸣",
+    "gender": "男",
+    "age_range": "30-35",
+    "city": "北京",
+    "occupation": "AI 创业公司创始人兼 CEO",
+    "client_since": "2026-06",
+    "spend_band": "5-30万",
+    "stage": "入门",
+    "last_visit": "2026-09-19",
+    "last_purchase": "2026-09",
+    "wealth_source": "创业",
+    "motivations": [
+      "犒赏自己",
+      "社交场合"
+    ],
+    "social_visibility": "适中",
+    "price_sensitivity": "中",
+    "style_preference": "简单、有点设计感，不要太闪",
+    "material_preference": "白金",
+    "owned_pieces": [
+      {
+        "date": "2026-06",
+        "item": "工坊 18K 黄金袖扣",
+        "for_whom": "自戴",
+        "note": "公司融资路演前买的"
+      },
+      {
+        "date": "2026-09",
+        "item": "工坊 18K 白金男士戒指",
+        "for_whom": "自戴"
+      }
+    ],
+    "sizes": "戒圈 20 号",
+    "formality": "随意",
+    "reply_habit": "回复快但很短，常常深夜回",
+    "recommendation_openness": "一般",
+    "preferred_contact_time": "晚上",
+    "birthday": "11-22",
+    "family_notes": "单身，父母在青岛",
+    "interests": [
+      "跑步",
+      "科幻小说",
+      "咖啡"
+    ],
+    "notes": "32 岁。公司 12 月要发布新产品，最近基本住在公司。说话很直接，不喜欢客套。"
+  },
+  "conversation_history": [
+    {
+      "sender": "ca",
+      "time": "2026-09-19 18:40",
+      "text": "韩先生，戒指的磨砂面平时用软布擦一下就行，别和钥匙放一个口袋哈。"
+    },
+    {
+      "sender": "client",
+      "time": "2026-09-19 23:12",
+      "text": "ok 收到"
+    },
+    {
+      "sender": "ca",
+      "time": "2026-10-30 15:02",
+      "text": "韩先生，最近还好吗？上次说想再看看领针，有空可以过来坐坐。"
+    },
+    {
+      "sender": "client",
+      "time": "2026-10-31 01:47",
+      "text": "最近忙疯了 下个月我们发新产品 天天在公司熬"
+    },
+    {
+      "sender": "client",
+      "time": "2026-10-31 01:48",
+      "text": "等发完再说哈"
+    },
+    {
+      "sender": "ca",
+      "time": "2026-10-31 09:30",
+      "text": "理解理解，您先忙，注意休息。"
+    }
+  ],
+  "test_meta": {
+    "persona": "P2",
+    "type": "core",
+    "must": [
+      "可轻松一些",
+      "可呼应他提过的事"
+    ],
+    "must_not": [
+      "过度正式的公文腔",
+      "推产品"
+    ]
+  }
+}

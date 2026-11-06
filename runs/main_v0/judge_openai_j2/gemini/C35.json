@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "轻微：活动资料只说使用放大镜，未注明高倍；也未确认可直接与镶嵌师交流。",
+    "context_failure": "无",
+    "must_not_hit": "轻微：加入了未经确认的放大镜规格和交流安排，触犯不编造活动内容的要求。"
+   },
+   "scores": {
+    "personalization": 5,
+    "brand_voice": 4,
+    "naturalness": 4,
+    "effectiveness": 4
+   },
+   "sendability": "小改可发",
+   "comment": "与上次对话衔接最好，删去“高倍”并确认交流安排后即可发送。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "轻微：11月20日的下周六是11月28日，而活动日期是12月5日。",
+    "context_failure": "无",
+    "must_not_hit": "轻微：“下周六”与活动日期不符，触犯活动信息须准确的要求。"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 4,
+    "naturalness": 4,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "同行选择自然，但应改正日期，并更明确地联系他想看现场操作的兴趣。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "轻微：12月5日并非11月20日的下周六；活动资料只提到用放大镜观看，没有专门的显微观察环节。",
+    "context_failure": "无",
+    "must_not_hit": "轻微：日期表述有误，并编造了专门的显微观察环节，触犯不编造活动内容的要求。"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 4,
+    "naturalness": 4,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "兴趣连接直接，但须改正日期，并将显微观察环节改为放大镜下观看。"
+  }
+ ],
+ "set": {
+  "diversity": 3,
+  "risk_judgement": "偏松",
+  "best_index": 1,
+  "must_coverage": "2/2",
+  "summary": "三条都尝试连接客户的工艺兴趣，整体也较简洁，其中候选1最贴合此前对话。主要问题是活动细节未经核实，以及候选2、3把12月5日误称为下周六，因此整体风险判断偏松。"
+ },
+ "_judge": "openai:gpt-6.1-terra"
+}

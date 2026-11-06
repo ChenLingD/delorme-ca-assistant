@@ -1,0 +1,190 @@
+{
+ "case_id": "C23",
+ "version": "v3.1",
+ "model": "gemini:gemini-3.8-flash",
+ "risk": {
+  "level": "caution",
+  "flags": [
+   "付款人与佩戴者非同一人（礼赠关系严格保密）"
+  ],
+  "advice": "只与叶女士交流作品本身的佩戴感受与品牌售后服务，绝不提及付款人及任何与购买付款相关的信息。"
+ },
+ "candidates": [
+  {
+   "text": "叶女士，这几天耳钉戴着还舒服吗？顺便提醒您一下，12月16日前（购买30天内）是可以免费刻字的，要是想加个记号随时同我说。",
+   "strategy": "极简",
+   "note_for_ca": "篇幅短且信息完整，适合排练期不便长聊时发送"
+  },
+  {
+   "text": "叶女士，那天您提到耳垂偏薄，担心耳钉戴着会不会往下坠。这几天日常戴着感觉重心还合适吗？另外12月16日之前支持30天免费刻字，有需要随时拿来工坊。",
+   "strategy": "走心",
+   "note_for_ca": "切入耳垂偏薄的试戴细节，体现对佩戴体验的细致关注"
+  },
+  {
+   "text": "叶女士，之前听您说12月有场演出，不知道这副冷白珠光的耳钉戴着合不合心意。到12月16日刚好满一个月，期间都可以免费刻字，您看要不要给耳托刻个名字缩写？",
+   "strategy": "推进",
+   "note_for_ca": "结合12月演出场景，给出刻名字缩写的具体下一步建议"
+  }
+ ],
+ "checks": [
+  {
+   "pass": true,
+   "hard": [],
+   "soft": [],
+   "length": 61
+  },
+  {
+   "pass": true,
+   "hard": [],
+   "soft": [],
+   "length": 73
+  },
+  {
+   "pass": true,
+   "hard": [],
+   "soft": [],
+   "length": 76
+  }
+ ],
+ "trace": {
+  "rounds": [
+   {
+    "rule_checks": [
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 61
+     },
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 73
+     },
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 76
+     }
+    ],
+    "critic": {
+     "reviews": [
+      {
+       "index": 1,
+       "pass": true,
+       "issues": []
+      },
+      {
+       "index": 2,
+       "pass": true,
+       "issues": []
+      },
+      {
+       "index": 3,
+       "pass": true,
+       "issues": []
+      }
+     ],
+     "set_issues": []
+    },
+    "set_issues": [],
+    "to_fix": {}
+   }
+  ],
+  "plan": {
+   "client_read": "叶女士是一位注重审美与佩戴感受的现代舞演员，性格随和灵动。目前刚收到耳钉 5 天，与 CA 互动轻松自然，正处于感受关怀与建立信任的售后阶段。",
+   "risk": {
+    "level": "caution",
+    "flags": [
+     "付款人与佩戴者非同一人（礼赠关系严格保密）"
+    ],
+    "advice": "只与叶女士交流作品本身的佩戴感受与品牌售后服务，绝不提及付款人及任何与购买付款相关的信息。"
+   },
+   "ca_commitments": [
+    "购买后 30 天内（12 月 16 日前）可以免费刻字"
+   ],
+   "usable_facts": [
+    "取耳钉时担心耳垂比较薄戴着会不会往下坠",
+    "12 月有一场现代舞演出",
+    "试戴时很喜欢冷白光泽与妆容的搭配",
+    "家里养猫，上次提到回家给猫看"
+   ],
+   "do_not_mention": [
+    "付款人（男士）及其相关信息",
+    "购买价格、消费金额或内部入门标签",
+    "推销其他新作品"
+   ],
+   "products": [
+    "MDC-E01"
+   ],
+   "unanswerable": "",
+   "slots": {
+    "极简": {
+     "切入点": "日常佩戴感受与耳堵贴合度",
+     "唯一信息点": "询问这几天佩戴是否舒服，并提醒 12 月 16 日前享有 30 天内免费刻字服务"
+    },
+    "走心": {
+     "切入点": "试戴时提到的耳垂偏薄这一具体细节",
+     "唯一信息点": "关心耳钉重心与耳托贴合度，确认日常佩戴是否会有下坠感"
+    },
+    "推进": {
+     "切入点": "结合 12 月即将到来的演出与日常搭配",
+     "唯一信息点": "给出明确时间节点（12 月 16 日前免费刻字），询问是否想刻上名字缩写或特殊记号"
+    }
+   }
+  },
+  "first_draft": [
+   {
+    "text": "叶女士，这几天耳钉戴着还舒服吗？顺便提醒您一下，12月16日前（购买30天内）是可以免费刻字的，要是想加个记号随时同我说。",
+    "strategy": "极简",
+    "note_for_ca": "篇幅短且信息完整，适合排练期不便长聊时发送"
+   },
+   {
+    "text": "叶女士，那天您提到耳垂偏薄，担心耳钉戴着会不会往下坠。这几天日常戴着感觉重心还合适吗？另外12月16日之前支持30天免费刻字，有需要随时拿来工坊。",
+    "strategy": "走心",
+    "note_for_ca": "切入耳垂偏薄的试戴细节，体现对佩戴体验的细致关注"
+   },
+   {
+    "text": "叶女士，之前听您说12月有场演出，不知道这副冷白珠光的耳钉戴着合不合心意。到12月16日刚好满一个月，期间都可以免费刻字，您看要不要给耳托刻个名字缩写？",
+    "strategy": "推进",
+    "note_for_ca": "结合12月演出场景，给出刻名字缩写的具体下一步建议"
+   }
+  ],
+  "seconds": 20.7,
+  "diversity_max_sim": 0.10377358490566038,
+  "calls": [
+   {
+    "requested": "gemini-3.8-flash",
+    "served": "gemini-3.8-flash",
+    "seconds": 13.1,
+    "attempt": 1,
+    "in_tokens": 5979,
+    "out_tokens": 528,
+    "reasoning_tokens": null,
+    "fingerprint": null
+   },
+   {
+    "requested": "gemini-3.8-flash",
+    "served": "gemini-3.8-flash",
+    "seconds": 4.8,
+    "attempt": 1,
+    "in_tokens": 5409,
+    "out_tokens": 323,
+    "reasoning_tokens": null,
+    "fingerprint": null
+   },
+   {
+    "requested": "gemini-3.8-flash",
+    "served": "gemini-3.8-flash",
+    "seconds": 2.7,
+    "attempt": 1,
+    "in_tokens": 5207,
+    "out_tokens": 102,
+    "reasoning_tokens": null,
+    "fingerprint": null
+   }
+  ]
+ }
+}

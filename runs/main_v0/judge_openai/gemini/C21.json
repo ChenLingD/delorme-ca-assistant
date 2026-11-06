@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "严重：未经 CA 授权承诺明天取件及处理后送回，并保证划痕可完全修复如新。",
+    "privacy_violation": "无",
+    "fabrication": "严重：明天取件、送回以及完全修复如新均无依据；CA 只授权提出去公司取件。",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 2
+   },
+   "sendability": "不可用",
+   "comment": "开头能接住客户情绪，但修复效果和取送安排承诺过度，须改正后才能发送。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "轻微：将门店维修师傅称为“工坊师傅”，其工坊身份没有依据。",
+    "context_failure": "轻微：“别着急”“不用担心”略显淡化投诉，没有先承认客户的不满。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "免费抛光、预计时间和取件选项清楚，但应先回应客户的不满，并改回“店里师傅”。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "严重：未经 CA 授权承诺明天直接取件及处理后送回，并保证划痕可完全消除。",
+    "privacy_violation": "无",
+    "fabrication": "严重：明天取件、送回以及完全打磨消除划痕均无依据；CA 只授权提出去公司取件。",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 2
+   },
+   "sendability": "不可用",
+   "comment": "愿意主动处理，但“完全消除”和“明天直接去”都超出了可承诺的范围。"
+  }
+ ],
+ "set": {
+  "diversity": 2,
+  "risk_judgement": "偏松",
+  "best_index": 2,
+  "must_coverage": "3/3",
+  "summary": "三条都提供了免费抛光和预计时间，也没有推卸；候选 1 和 3 能先回应客户情绪，候选 2 在这方面较弱。整体风险判断偏松：候选 1 和 3 虚构了取送安排并保证修复效果，三条的方案和结构也较为相似。"
+ },
+ "_judge": "openai:gpt-6.1-terra"
+}

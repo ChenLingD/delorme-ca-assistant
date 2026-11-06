@@ -1,0 +1,185 @@
+{
+ "case_id": "C19",
+ "version": "v3.1",
+ "model": "gemini:gemini-3.8-flash",
+ "risk": {
+  "level": "ok",
+  "flags": [],
+  "advice": ""
+ },
+ "candidates": [
+  {
+   "text": "孟女士，手链戴了一周，习惯它的重量了吗？其实 18K 金很结实，平时多戴戴，反而会养出属于您自己的那种温润光泽，安心戴着就好。",
+   "strategy": "极简",
+   "note_for_ca": "篇幅极简，针对上次“怕磨坏”的顾虑做轻巧安抚。"
+  },
+  {
+   "text": "孟女士，周末好。涟漪这条手链的链身做得特别软，您平时用电脑打字、手腕压在桌面上也不会觉得硌。常常戴着它，它才真正是属于您的物件。",
+   "strategy": "走心",
+   "note_for_ca": "结合客户用电脑多、手腕压桌面的办公细节，打消佩戴顾虑。"
+  },
+  {
+   "text": "孟女士，周末好。德洛姆这边一直提供终身免费清洗和检测，平时戴着不用太小心翼翼，哪怕有一点轻微痕迹，或者哪天路过杭州大厦，都可以随时拿来我帮您打理。",
+   "strategy": "推进",
+   "note_for_ca": "提出终身免费清洗保养，给出低门槛的服务邀约。"
+  }
+ ],
+ "checks": [
+  {
+   "pass": true,
+   "hard": [],
+   "soft": [],
+   "length": 61
+  },
+  {
+   "pass": true,
+   "hard": [],
+   "soft": [],
+   "length": 64
+  },
+  {
+   "pass": true,
+   "hard": [],
+   "soft": [],
+   "length": 73
+  }
+ ],
+ "trace": {
+  "rounds": [
+   {
+    "rule_checks": [
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 61
+     },
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 64
+     },
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 73
+     }
+    ],
+    "critic": {
+     "reviews": [
+      {
+       "index": 1,
+       "pass": true,
+       "issues": []
+      },
+      {
+       "index": 2,
+       "pass": true,
+       "issues": []
+      },
+      {
+       "index": 3,
+       "pass": true,
+       "issues": []
+      }
+     ],
+     "set_issues": []
+    },
+    "set_issues": [],
+    "to_fix": {}
+   }
+  ],
+  "plan": {
+   "client_read": "孟女士是一位专业严谨、靠自身努力犒赏自己的审计经理，对自己的第一件贵重珠宝非常珍视。目前处于购后 7 天的关键关怀期，她对手链非常喜爱但心存“怕磨坏舍不得戴”的顾虑，需要温和的安心感而非推销。",
+   "risk": {
+    "level": "ok",
+    "flags": [],
+    "advice": ""
+   },
+   "ca_commitments": [],
+   "usable_facts": [
+    "7 天前购入涟漪 18K 白金手链（三钻）",
+    "上次聊天提到“有点舍不得天天戴，怕磨坏”",
+    "平时用电脑办公较多",
+    "今天是周末（客户平时工作日回复慢，周末联系更合适）"
+   ],
+   "do_not_mention": [
+    "客户进店三次、反复算预算的过程",
+    "客户说过“这是我给自己买过最贵的东西”",
+    "客户的升职经历与审计职业内部标签",
+    "任何推销或新产品推荐"
+   ],
+   "products": [
+    "OND-B03"
+   ],
+   "unanswerable": "",
+   "slots": {
+    "极简": {
+     "切入点": "手链到手满一周的佩戴关怀",
+     "唯一信息点": "打消磨损顾虑：珠宝越常戴越有属于自己的温润光泽，放心戴着它就好"
+    },
+    "走心": {
+     "切入点": "日常打字办公的佩戴习惯",
+     "唯一信息点": "结合涟漪手链链身柔软贴腕的特点，说明手腕贴在桌面上也不会硌手"
+    },
+    "推进": {
+     "切入点": "门店的固定售后保养支持",
+     "唯一信息点": "告知德洛姆提供终身免费清洗与检查保养，任何时候路过杭州大厦都可以随时送来店里打理"
+    }
+   }
+  },
+  "first_draft": [
+   {
+    "text": "孟女士，手链戴了一周，习惯它的重量了吗？其实 18K 金很结实，平时多戴戴，反而会养出属于您自己的那种温润光泽，安心戴着就好。",
+    "strategy": "极简",
+    "note_for_ca": "篇幅极简，针对上次“怕磨坏”的顾虑做轻巧安抚。"
+   },
+   {
+    "text": "孟女士，周末好。涟漪这条手链的链身做得特别软，您平时用电脑打字、手腕压在桌面上也不会觉得硌。常常戴着它，它才真正是属于您的物件。",
+    "strategy": "走心",
+    "note_for_ca": "结合客户用电脑多、手腕压桌面的办公细节，打消佩戴顾虑。"
+   },
+   {
+    "text": "孟女士，周末好。德洛姆这边一直提供终身免费清洗和检测，平时戴着不用太小心翼翼，哪怕有一点轻微痕迹，或者哪天路过杭州大厦，都可以随时拿来我帮您打理。",
+    "strategy": "推进",
+    "note_for_ca": "提出终身免费清洗保养，给出低门槛的服务邀约。"
+   }
+  ],
+  "seconds": 26.0,
+  "diversity_max_sim": 0.034782608695652174,
+  "calls": [
+   {
+    "requested": "gemini-3.8-flash",
+    "served": "gemini-3.8-flash",
+    "seconds": 8.4,
+    "attempt": 1,
+    "in_tokens": 5823,
+    "out_tokens": 484,
+    "reasoning_tokens": null,
+    "fingerprint": null
+   },
+   {
+    "requested": "gemini-3.8-flash",
+    "served": "gemini-3.8-flash",
+    "seconds": 4.7,
+    "attempt": 1,
+    "in_tokens": 5210,
+    "out_tokens": 311,
+    "reasoning_tokens": null,
+    "fingerprint": null
+   },
+   {
+    "requested": "gemini-3.8-flash",
+    "served": "gemini-3.8-flash",
+    "seconds": 12.9,
+    "attempt": 1,
+    "in_tokens": 5033,
+    "out_tokens": 102,
+    "reasoning_tokens": null,
+    "fingerprint": null
+   }
+  ]
+ }
+}

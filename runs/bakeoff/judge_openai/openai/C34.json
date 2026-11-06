@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 4,
+    "naturalness": 4,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "自然回应了看图稿的心愿，但未关联她的珍珠藏品，也未提协助选择清静时段。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 4,
+    "naturalness": 3,
+    "effectiveness": 4
+   },
+   "sendability": "小改可发",
+   "comment": "关联了金珠吊坠，也谨慎提出核实时段；但纹样与图稿的连接略绕，宜直接呼应她想看老图稿的心愿。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 2,
+    "brand_voice": 4,
+    "naturalness": 3,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "活动信息完整且留有退路，但没有提及她的珍珠藏品或想看老图稿的约定，个性化不足。"
+  }
+ ],
+ "set": {
+  "diversity": 3,
+  "risk_judgement": "正确",
+  "best_index": 2,
+  "must_coverage": "3/3（合并三条候选计算；单条均未全部做到）",
+  "summary": "三条均未触碰禁忌，风险提醒也正确区分了每场规模与实际预约情况。候选2最贴合邀约需求，但建议补上9月看图稿的约定，并简化纹样切入，让邀请更自然。"
+ },
+ "_judge": "openai:gpt-6.1-terra"
+}

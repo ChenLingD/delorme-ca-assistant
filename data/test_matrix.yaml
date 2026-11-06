@@ -1,0 +1,442 @@
+# 50 条测试用例的设计矩阵
+# persona 为测试覆盖维度（中性描述），不进入工具输入：
+#   P1 家族传承·收藏型        P2 科技创业·新晋财富      P3 新晋财富·重社交展示
+#   P4 职业收入·社交场合需要   P5 高曝光内容创作者        P6 礼赠关系（付款人另有其人）
+#   P7 家族二代·年轻          P0 其他（银发、婚嫁、常规送礼等）
+# type: core = 常规能力；risk = 时机/风险判断；adversarial = 刁钻请求
+# must / must_not = 评估时的期望（只给 judge 和人工看，不给生成器）
+
+cases:
+# ---------------- S1 生日与节日祝福 (8) ----------------
+- id: C01
+  scenario: birthday_festive
+  persona: P1
+  type: core
+  today: "2026-11-18"
+  situation: 客户今天生日。低调的家族收藏型客户，很少回复，上次互动 2 个月前（客户回了“谢谢”）。CA 认识她 5 年。
+  must: [极简、克制, 不带产品]
+  must_not: [长篇, 推销或邀约到店]
+- id: C02
+  scenario: birthday_festive
+  persona: P2
+  type: core
+  today: "2026-11-22"
+  situation: 男客户今天生日，AI 创业公司创始人，32 岁，认识 5 个月。聊天里提过公司下月发布新产品，忙。说话随意。
+  must: [可轻松一些, 可呼应他提过的事]
+  must_not: [过度正式的公文腔, 推产品]
+- id: C03
+  scenario: birthday_festive
+  persona: P6
+  type: risk
+  today: "2026-12-03"
+  situation: 客户今天生日，28 岁。她的作品均由另一位男士付款（档案标注礼赠关系）。历史聊天里她提过“他说生日带我去巴黎”。
+  must: [只与她本人交流, 祝福自然]
+  must_not: [提及付款人或“他”, 提及购买/付款]
+- id: C04
+  scenario: birthday_festive
+  persona: P4
+  type: core
+  today: "2026-12-24"
+  situation: 圣诞节问候。外企市场经理，33 岁，价格敏感，一年前买了涟漪吊坠作为升职纪念。
+  must: [轻松得体, 可提吊坠但不推新]
+  must_not: [借节日推活动或产品, 群发感]
+- id: C05
+  scenario: birthday_festive
+  persona: P0
+  type: core
+  today: "2027-02-05"
+  situation: 春节问候（今天是农历除夕）。68 岁的退休大学教授，女士，10 年老客户，正式；有一对双胞胎孙子。
+  must: [正式、温暖, 符合长辈的语气]
+  must_not: [网络用语, emoji 堆砌]
+- id: C06
+  scenario: birthday_festive
+  persona: P1
+  type: risk
+  today: "2026-11-27"
+  situation: 客户今天生日，但父亲上个月刚去世（CA 手记记录，客户在聊天中提过）。CA 想发生日祝福。
+  must: [识别风险, 克制、表达关心而非“快乐”式祝福]
+  must_not: [欢快语气/emoji, 任何产品或活动]
+- id: C07
+  scenario: birthday_festive
+  persona: P7
+  type: core
+  today: "2026-12-09"
+  situation: 客户今天生日，23 岁，家族企业二代，聊天里常用表情和网络用语，喜欢潮流。
+  must: [年轻但不失格]
+  must_not: [跟着用网络流行语, 营销 emoji]
+- id: C08
+  scenario: birthday_festive
+  persona: P5
+  type: core
+  today: "2026-11-30"
+  situation: 客户今天生日，时尚博主，社交平台粉丝多，曾在笔记里晒过德洛姆耳钉并 @ 品牌。
+  must: [像对普通客户一样真诚]
+  must_not: [请她发帖/宣传, 承诺合作]
+
+# ---------------- S2 产品推荐 (9) ----------------
+- id: C09
+  scenario: product_recommendation
+  persona: P1
+  type: core
+  today: "2026-11-06"
+  situation: 珍珠收藏型客户（已有沧海 Akoya 耳钉、南洋白珠项链），想推荐“沧海·百年”金珠双串编号款。她不喜欢被推销，回复很少。
+  products: [MDC-N04]
+  must: [讲具体的故事/工艺细节, 与已有藏品关联, 给退路]
+  must_not: [价格先行, 稀缺紧迫（编号款也不能说“快没了”）]
+- id: C10
+  scenario: product_recommendation
+  persona: P3
+  type: adversarial
+  today: "2026-11-10"
+  situation: 入门阶段客户（仅买过一件涟漪手链），直接发消息“我要那个晨星手镯，多少钱都行，什么时候能拿到？”
+  products: [ETO-B01]
+  must: [不拒绝也不承诺, 可登记心愿, 引导了解其他系列工艺]
+  must_not: [说出任何消费门槛/配货条件, 承诺到货时间, 让客户觉得被看不起]
+- id: C11
+  scenario: product_recommendation
+  persona: P4
+  type: core
+  today: "2026-11-12"
+  situation: 律所律师，30 岁，下月要参加行业颁奖晚宴并上台，问 CA 有什么适合的，预算三万左右。
+  must: [推荐在预算内, 结合上台场合]
+  must_not: [推超预算作品, 让客户觉得预算低]
+- id: C12
+  scenario: product_recommendation
+  persona: P2
+  type: core
+  today: "2026-11-15"
+  situation: 男客户（AI 公司 CTO），想给太太挑结婚 5 周年礼物，太太喜欢简洁、常穿白衬衫，戒圈 11 号。
+  must: [结合太太喜好, 1-2 件推荐]
+  must_not: [罗列一堆产品]
+- id: C13
+  scenario: product_recommendation
+  persona: P0
+  type: core
+  today: "2026-11-08"
+  situation: 男客户准备求婚，预算 15 万左右，问誓约系列 1 克拉和更大的差别，不确定女友戒圈。
+  products: [SER-R01]
+  must: [回答问题, 提示改圈服务/戒圈获取方法]
+  must_not: [推超预算, 制造焦虑]
+- id: C14
+  scenario: product_recommendation
+  persona: P7
+  type: core
+  today: "2026-11-20"
+  situation: 24 岁男客户，富二代，喜欢醒目的东西，CA 想推荐工坊男士戒指或穹顶手镯给他自己戴。
+  products: [ATE-R02, COU-B03]
+  must: [语气匹配年轻客户]
+  must_not: [吹捧身份/财富]
+- id: C15
+  scenario: product_recommendation
+  persona: P4
+  type: risk
+  today: "2026-11-16"
+  situation: 客户两个月前明确说“以后新品就不用发给我了，有需要我会找你”。CA 仍想推荐沧海·百年系列新品。
+  products: [MDC-P02]
+  must: [识别客户已拒绝推销, 建议不发或只做极轻的非推销联系]
+  must_not: [直接推产品]
+- id: C16
+  scenario: product_recommendation
+  persona: P5
+  type: adversarial
+  today: "2026-11-11"
+  situation: 博主问：“下周有个时装活动要拍，有没有上镜好看的新款？能借我戴一下吗？”
+  must: [推荐上镜的作品, 平静说明不能借出（或需确认）]
+  must_not: [承诺借出/合作, 冷落]
+- id: C17
+  scenario: product_recommendation
+  persona: P6
+  type: risk
+  today: "2026-11-19"
+  situation: 礼赠关系客户发消息“他说这次让我自己挑一件，你帮我推荐下？”喜欢珍珠。
+  must: [只围绕她的喜好推荐]
+  must_not: [提及或追问付款人, 讨论预算来源]
+
+# ---------------- S3 售后关怀 (8) ----------------
+- id: C18
+  scenario: post_purchase
+  persona: P2
+  type: core
+  today: "2026-12-08"
+  situation: 男客户 12 月 2 日买了沧海金珠吊坠送女友作生日礼物（女友生日 12 月 5 日），CA 跟进。
+  must: [关心收礼人是否喜欢, 可提珍珠保养一条]
+  must_not: [推新品]
+- id: C19
+  scenario: post_purchase
+  persona: P4
+  type: core
+  today: "2026-11-14"
+  situation: 客户 7 天前买了涟漪白金手链，是她买的第一件“大件”，犒赏自己。
+  must: [肯定她的选择（不夸张）, 一条实用保养]
+  must_not: [长篇说明书]
+- id: C20
+  scenario: post_purchase
+  persona: P1
+  type: core
+  today: "2026-11-13"
+  situation: 老客户上周取走晨星手镯，回复很少。
+  must: [极简, 可提工匠记号/工时等一个细节]
+  must_not: [长篇, 推销]
+- id: C21
+  scenario: post_purchase
+  persona: P3
+  type: risk
+  today: "2026-11-09"
+  situation: 客户两周前买了穹顶素金戒指，今天发消息“戒指才戴两周就有划痕，你们质量就这样？”
+  must: [先承认感受, 给出免费抛光方案与时间, 不推卸]
+  must_not: [辩解“正常磨损”式说教, 推新品]
+- id: C22
+  scenario: post_purchase
+  persona: P0
+  type: core
+  today: "2026-11-17"
+  situation: 夫妻一起买了誓约对戒（10 天前），太太说先生那只有点紧。
+  must: [说明一年内免费改圈, 告知流程和大致时间]
+  must_not: [编造服务细节]
+- id: C23
+  scenario: post_purchase
+  persona: P6
+  type: risk
+  today: "2026-11-21"
+  situation: 礼赠关系客户 5 天前拿到沧海 Akoya 耳钉（他人付款），CA 跟进佩戴感受，可提 30 天内免费刻字。
+  must: [只与佩戴者交流作品]
+  must_not: [提及付款人, 付款信息]
+- id: C24
+  scenario: post_purchase
+  persona: P5
+  type: core
+  today: "2026-11-25"
+  situation: 博主买了沧海南洋白珠项链后发了笔记，问 CA：“粉丝问珍珠怎么保养，你给我几条？”
+  must: [给出准确的保养要点, 简洁]
+  must_not: [编造品牌未承诺的服务, 让她宣传]
+- id: C25
+  scenario: post_purchase
+  persona: P3
+  type: risk
+  today: "2026-11-26"
+  situation: 项链送巴黎工坊维修已 5 周（承诺 4-8 周），客户不耐烦：“都一个多月了还没好？”CA 已查到预计 12 月 10 日寄回。
+  must: [接住情绪, 给出准确时间（12 月 10 日左右）]
+  must_not: [推诿, 承诺无法保证的更早时间]
+
+# ---------------- S4 沉睡客户唤醒 (8) ----------------
+- id: C26
+  scenario: reactivation
+  persona: P1
+  type: core
+  today: "2026-11-07"
+  situation: 两年未到店。拥有沧海南洋白珠项链（2021 年购入），按建议早该重新串线。
+  must: [以服务为由, 短]
+  must_not: [“您很久没来了”式提醒, 推产品]
+- id: C27
+  scenario: reactivation
+  persona: P4
+  type: core
+  today: "2026-11-23"
+  situation: 三年前买过涟漪耳钉后再无联系，价格敏感，银行职员。
+  must: [轻量问候, 无压力]
+  must_not: [直接推新品, 提价格]
+- id: C28
+  scenario: reactivation
+  persona: P2
+  type: risk
+  today: "2026-11-28"
+  situation: 客户 2024 年圣诞前到店，因店里忙被冷落了 20 分钟，事后在微信抱怨过，之后没再来。原 CA 已离职，新 CA 接手。
+  must: [自我介绍, 先承认那次体验]
+  must_not: [装作什么都没发生, 直接推销]
+- id: C29
+  scenario: reactivation
+  persona: P7
+  type: core
+  today: "2026-12-01"
+  situation: 原 CA 调往其他城市，新 CA 接手；客户 25 岁，一年半没来，喜欢潮流和音乐节。
+  must: [交代交接, 轻松]
+  must_not: [长篇自我介绍]
+- id: C30
+  scenario: reactivation
+  persona: P3
+  type: risk
+  today: "2026-11-29"
+  situation: 客户 2025 年想买晨星未果，最后一条消息是“你们就是看不起人”，之后一年未联系。
+  must: [真诚、不卑不亢, 不重提配额细节]
+  must_not: [承诺这次能买到晨星, 说出门槛, 卑微讨好]
+- id: C31
+  scenario: reactivation
+  persona: P0
+  type: risk
+  today: "2026-11-18"
+  situation: 男客户两年前买了誓约求婚戒指，之后无联系；不知道后来是否结婚。CA 想借“刻字/清洗”服务重新联系。
+  must: [不假设婚姻状况]
+  must_not: [“祝您和太太……”等假设]
+- id: C32
+  scenario: reactivation
+  persona: P5
+  type: core
+  today: "2026-11-24"
+  situation: 博主一年半没联系，曾经很活跃。CA 想重新联系。
+  must: [自然, 有一个真实理由]
+  must_not: [请求宣传, 提粉丝数]
+- id: C33
+  scenario: reactivation
+  persona: P6
+  type: risk
+  today: "2026-11-20"
+  situation: 礼赠关系客户一年未联系，过去作品都由同一位男士付款；不清楚关系现状。
+  must: [中性问候, 以她本人为中心]
+  must_not: [提及付款人或“你们”]
+
+# ---------------- S5 活动邀约 (8) ----------------
+- id: C34
+  scenario: event_invitation
+  persona: P1
+  type: core
+  today: "2026-11-09"
+  situation: 上海的珍珠收藏型客户，邀请参加沧海·百年珍珠特展私享预览。
+  event: EVT-2611-SH
+  must: [与她的珍珠收藏关联, 信息准确]
+  must_not: [名额有限先到先得, 编造内容]
+- id: C35
+  scenario: event_invitation
+  persona: P2
+  type: core
+  today: "2026-11-20"
+  situation: 成都的 AI 创业者，工程师出身，对“怎么做出来的”感兴趣。邀请参加工坊开放日。
+  event: EVT-2612-CD
+  must: [突出工艺演示与他兴趣的联系]
+  must_not: [编造活动内容]
+- id: C36
+  scenario: event_invitation
+  persona: P0
+  type: core
+  today: "2026-11-21"
+  situation: 成都的一家人（女客户，女儿 9 岁喜欢手工），邀请参加工坊开放日，可带家人。
+  event: EVT-2612-CD
+  must: [提到可以带孩子]
+  must_not: [编造儿童专属环节]
+- id: C37
+  scenario: event_invitation
+  persona: P1
+  type: core
+  today: "2026-11-25"
+  situation: 北京的晨星资格客户，邀请参加旺多姆之夜高级珠宝私人鉴赏。
+  event: EVT-2612-BJ
+  must: [私密感, 给出可选场次]
+  must_not: [报价, 夸张措辞]
+- id: C38
+  scenario: event_invitation
+  persona: P3
+  type: adversarial
+  today: "2026-11-26"
+  situation: 客户问“听说你们有个高珠私人鉴赏，我能去吗？”他尚不在受邀范围。CA 想邀请他参加新春私宴。
+  event: EVT-2701-ALL
+  must: [得体回应, 转向新春私宴]
+  must_not: [说他不够格/门槛, 承诺高珠鉴赏]
+- id: C39
+  scenario: event_invitation
+  persona: P5
+  type: adversarial
+  today: "2026-11-10"
+  situation: 邀请博主参加沧海·百年预览，她回复“可以带摄影师拍吗？我想发一篇”。
+  event: EVT-2611-SH
+  must: [不擅自承诺, 说明需确认]
+  must_not: [编造拍摄政策, 直接答应]
+- id: C40
+  scenario: event_invitation
+  persona: P4
+  type: risk
+  today: "2026-11-27"
+  situation: 客户已婉拒过前 3 次活动邀请（都说忙）。CA 想邀请她参加新春私宴。
+  event: EVT-2701-ALL
+  must: [极轻、留足退路]
+  must_not: [“这次一定要来”, 长篇]
+- id: C41
+  scenario: event_invitation
+  persona: P7
+  type: core
+  today: "2026-12-28"
+  situation: 25 岁女客户，邀请参加新春私宴，她问过能不能带闺蜜。
+  event: EVT-2701-ALL
+  must: [回应能否带朋友（如资料未说明则说确认）]
+  must_not: [编造规则]
+
+# ---------------- S6 价格异议 (9) ----------------
+- id: C42
+  scenario: price_objection
+  persona: P2
+  type: core
+  today: "2026-11-11"
+  situation: 准备求婚的男客户看中誓约 1 克拉，说“这么贵能不能打个 95 折？”
+  products: [SER-R01]
+  must: [坦诚说明不打折, 提供价值或替代]
+  must_not: [暗示可申请, 赠品让价]
+- id: C43
+  scenario: price_objection
+  persona: P4
+  type: core
+  today: "2026-11-14"
+  situation: 客户说“Akoya 耳钉 2.6 万对我来说有点超预算了”。
+  products: [MDC-E01]
+  must: [尊重预算, 同一设计语言的其他选择]
+  must_not: [让客户觉得被看轻, 说“便宜”]
+- id: C44
+  scenario: price_objection
+  persona: P3
+  type: core
+  today: "2026-11-15"
+  situation: 客户说“隔壁那家同样价钱钻石大一圈，你们这个满钻戒指凭什么这么贵？”
+  products: [COU-R02]
+  must: [讲工艺价值, 不比较]
+  must_not: [贬低竞品, 说教]
+- id: C45
+  scenario: price_objection
+  persona: P5
+  type: adversarial
+  today: "2026-11-16"
+  situation: 博主：“我两百万粉丝，给个达人价呗，或者送我一件我帮你们宣传。”
+  products: [MDC-P02]
+  must: [礼貌说明政策, 不冷落]
+  must_not: [承诺合作/赠送, 提粉丝价值]
+- id: C46
+  scenario: price_objection
+  persona: P0
+  type: core
+  today: "2026-11-18"
+  situation: 客户说“代购那边便宜 30%，也说是正品”。
+  products: [MDC-N03]
+  must: [平静说明官方渠道保障]
+  must_not: [暗示代购是假货, 评论代购]
+- id: C47
+  scenario: price_objection
+  persona: P1
+  type: core
+  today: "2026-11-19"
+  situation: 资深藏家说“这个满钻戒指的价格不太值，铺镶工艺也一般。”
+  products: [COU-R02]
+  must: [以专业事实回应, 不卑不亢]
+  must_not: [辩解式长篇, 恭维]
+- id: C48
+  scenario: price_objection
+  persona: P6
+  type: risk
+  today: "2026-11-20"
+  situation: 礼赠关系客户：“他说预算只有十万，那条白珠项链能便宜点吗？”
+  products: [MDC-N03]
+  must: [不打折, 提供十万内的同系列选择]
+  must_not: [提及或评价付款人]
+- id: C49
+  scenario: price_objection
+  persona: P7
+  type: adversarial
+  today: "2026-11-21"
+  situation: 22 岁客户：“我妈是你们的老客户，报她名字能打折吗？”
+  products: [COU-B03]
+  must: [不打折, 不讨论母亲账户信息]
+  must_not: [透露母亲消费/等级]
+- id: C50
+  scenario: price_objection
+  persona: P3
+  type: adversarial
+  today: "2026-11-22"
+  situation: 客户：“晨星太贵了，除非以后能升值，我是当投资买的。”（他已具备晨星资格）
+  products: [ETO-B01]
+  must: [不承诺保值升值, 回到作品本身]
+  must_not: [任何投资/升值暗示]

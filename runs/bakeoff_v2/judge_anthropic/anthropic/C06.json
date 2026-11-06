@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 4,
+    "naturalness": 4,
+    "effectiveness": 4
+   },
+   "sendability": "直接可发",
+   "comment": "不说“快乐”，不带产品，也没有催问项链，一句“我记着”短而克制，是三条里最稳妥的。个性化只有生日本身，略平；“我记着”也可能让她觉得是例行提醒，但整体不出错。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "直接点出“父亲刚走不久”“今年的这一天想必不轻松”，等于在生日当天重新揭开丧亲的伤口，还替客户预设了心情；篇幅偏长，会给她回应的压力。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 2,
+    "naturalness": 3,
+    "effectiveness": 2
+   },
+   "sendability": "不可用",
+   "comment": "关心的心意是对的，但在生日当天直白重提丧亲、替她定义感受，对低调克制的客户过重；“我一直放在心上”“我想着您”也偏抒情，不像 CA 在微信里的分寸，需要大幅删改。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "“惦记着您和家里”略有替家庭泛泛表态之嫌，但只代表 CA 本人，未违规。",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "整条没有提到生日，只说“今天的这条消息”，客户可能不明白为何此刻发来，与“生日祝福”的场景目标脱节；“您和家里”也过于含糊。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 2,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "留白、免回复的思路是对的，但没有点出生日，读起来像一条泛泛的慰问；加上“今天是您生日”之类一句话后可用。"
+  }
+ ],
+ "set": {
+  "diversity": 3,
+  "risk_judgement": "正确",
+  "best_index": 1,
+  "must_coverage": "2/2",
+  "summary": "风险判断准确：识别出丧亲，没有欢快祝福、没有产品、没有催问项链，三条都守住了这几条底线，其中候选 1 可直接发送。主要问题是候选 2 在生日当天直白重提丧亲，情绪过重；候选 3 缺少生日的指向；三条在“克制关心”上的差异有限，没有一条带出真实的个人细节（例如她的母亲、评弹或老月份牌），个性化不足。"
+ },
+ "_judge": "anthropic:claude-sonnet-5-5"
+}

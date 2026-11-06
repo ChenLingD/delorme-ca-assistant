@@ -1,0 +1,94 @@
+{
+  "case_id": "C29",
+  "scenario": "reactivation",
+  "today": "2026-12-01",
+  "occasion": "原 CA 调往成都，新 CA 接手；客户一年半没来",
+  "ca": {
+    "name": "赵一鸣",
+    "gender": "男",
+    "years_experience": 2,
+    "store": "北京 SKP 精品店",
+    "known_client_since": null,
+    "style": "偏亲切"
+  },
+  "client": {
+    "surname": "沈",
+    "given_name": "子骁",
+    "gender": "男",
+    "age_range": "23-27",
+    "city": "北京",
+    "occupation": "家族地产集团管培生；业余做电子音乐 DJ",
+    "client_since": "2024-08",
+    "spend_band": "5-30万",
+    "stage": "核心",
+    "last_visit": "2025-06",
+    "last_purchase": "2025-06",
+    "wealth_source": "家族传承",
+    "motivations": [
+      "犒赏自己",
+      "社交场合"
+    ],
+    "social_visibility": "会公开分享",
+    "price_sensitivity": "低",
+    "style_preference": "街头潮流、叠戴",
+    "material_preference": "白金、黄金混搭",
+    "owned_pieces": [
+      {
+        "date": "2024-08",
+        "item": "工坊 18K 白金男士戒指",
+        "for_whom": "自戴"
+      },
+      {
+        "date": "2025-06",
+        "item": "穹顶 18K 黄金戒指",
+        "for_whom": "自戴",
+        "note": "和工坊戒指叠戴"
+      }
+    ],
+    "sizes": "戒圈 20 号",
+    "formality": "随意",
+    "reply_habit": "回复快，爱用表情包",
+    "recommendation_openness": "欢迎",
+    "interests": [
+      "音乐节",
+      "潮牌",
+      "滑板"
+    ],
+    "notes": "原 CA Bella 已于 2026 年 10 月调往成都太古里店。以下聊天为 Bella 与客户的对话。"
+  },
+  "conversation_history": [
+    {
+      "sender": "client",
+      "time": "2025-06-14 16:20",
+      "text": "两个叠一起戴绝了哈哈哈"
+    },
+    {
+      "sender": "ca",
+      "time": "2025-06-14 16:31",
+      "text": "沈先生搭得很好看！一个磨砂一个亮面正好有层次。"
+    },
+    {
+      "sender": "client",
+      "time": "2025-06-14 16:33",
+      "text": "下周草莓音乐节就戴这个去[墨镜]"
+    },
+    {
+      "sender": "ca",
+      "time": "2025-06-14 16:35",
+      "text": "玩得开心～回来给我看看现场照片！"
+    }
+  ],
+  "ca_request": "Bella 调去成都了，我想跟他打个招呼，说明以后由我负责。",
+  "test_meta": {
+    "persona": "P7",
+    "type": "core",
+    "must": [
+      "交代交接",
+      "轻松"
+    ],
+    "must_not": [
+      "长篇自我介绍",
+      "跟着用网络流行语"
+    ]
+  }
+}

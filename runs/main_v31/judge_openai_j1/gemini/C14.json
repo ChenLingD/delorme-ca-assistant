@@ -1,0 +1,64 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 4,
+    "naturalness": 4,
+    "effectiveness": 4
+   },
+   "sendability": "直接可发",
+   "comment": "用新戒指与客户觉得有点乖的黄金戒指作对比，简短自然；若加一句询问是否看图，会更方便接话。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "资料只写了侧面柱式纹理，未确认纹理是立体的。"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "玫瑰金和腕表叠戴都贴合偏好，但“很有张力”“打破之前那种略显规整的感觉”偏广告腔，也替客户概括了此前的整体风格。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 5,
+    "brand_voice": 5,
+    "naturalness": 5,
+    "effectiveness": 5
+   },
+   "sendability": "直接可发",
+   "comment": "自然接住客户想找酷一点男款的原话，用一个工艺细节推荐，并以看图作轻松的下一步。"
+  }
+ ],
+ "set": {
+  "diversity": 3,
+  "risk_judgement": "偏松",
+  "best_index": 3,
+  "must_coverage": "1/1",
+  "summary": "三条均未吹捧客户身份或财富，整体语气也较适合年轻客户，其中候选 3 最贴合上次对话。候选 2 添加了未确认的立体纹理，工具的无风险判断偏松；候选 1 和 3 的切入角度也较接近。"
+ },
+ "_judge": "openai:gpt-6.1-terra"
+}

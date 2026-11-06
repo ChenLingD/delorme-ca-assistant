@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "输入未提供产品目录，无法确认沧海系列有珍珠细手链或小珍珠戒指。",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 5,
+    "brand_voice": 4,
+    "naturalness": 4,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "从常戴的耳钉和珍珠偏好切入自然，但须先核实推荐款式。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "没有资料支持 CA 正在看新图稿，也无法确认所述18K玫瑰金单颗白珠戒指存在。",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 2
+   },
+   "sendability": "小改可发",
+   "comment": "搭配已有吊坠的思路贴合客户，但新图稿和戒指细节均需核实，“戴着心里也静”也略显替客户感受。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "客户已请 CA 推荐，此条只反问品类，没有给出具体建议；拟提供两三件也超出一次最多推荐两件的策略。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 2,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 2
+   },
+   "sendability": "小改可发",
+   "comment": "方向符合柔和、不太闪的偏好，但“真正属于自己的特别好”略空，且需要更明确地回应推荐请求。"
+  }
+ ],
+ "set": {
+  "diversity": 3,
+  "risk_judgement": "偏松",
+  "best_index": 1,
+  "must_coverage": "1/1",
+  "summary": "三条都围绕客户偏好，没有提及或追问付款人，也没有讨论预算来源。主要问题是候选1和2使用了未经证实的具体款式，候选3则缺少明确推荐，因此“无风险”的判断偏松。"
+ },
+ "_judge": "openai:gpt-6.1-terra"
+}

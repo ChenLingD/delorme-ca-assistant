@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "轻微：“随时可以”为未经确认的服务安排作了绝对化承诺。",
+    "privacy_violation": "无",
+    "fabrication": "轻微：目录未说明串线材质是真丝，也未说明重新串线能保持受力均匀与佩戴贴合；“随时”缺乏门店安排依据。",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 2,
+    "naturalness": 2,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "服务切入贴合客户，但专业解释堆得过多，删去无依据的细节和“随时”后会更自然。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "轻微：“专属”暗示特别服务，固定服务资料中没有这一说法。",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 4,
+    "naturalness": 4,
+    "effectiveness": 4
+   },
+   "sendability": "小改可发",
+   "comment": "以客户的白珠项链和串线服务自然切入，去掉“专属”即可；告知终身免费会更具体。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "轻微：“随时可以”为未经确认的服务安排作了绝对化承诺。",
+    "privacy_violation": "无",
+    "fabrication": "轻微：没有依据表明客户入冬后佩戴珍珠的场合渐多，也未说明串线材质是丝线或定期打结能防止珠身磨损；备注将入冬后佩戴频率高当作事实，未提示这是推测。",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 2,
+    "naturalness": 2,
+    "effectiveness": 2
+   },
+   "sendability": "小改可发",
+   "comment": "服务理由合适，但季节性佩戴判断和养护功效均缺乏依据，且措辞偏长。"
+  }
+ ],
+ "set": {
+  "diversity": 2,
+  "risk_judgement": "偏松",
+  "best_index": 2,
+  "must_coverage": "2/2",
+  "summary": "三条都以串线服务联系客户，候选 2 相对简短自然，但切入方式整体较为相似。主要问题是加入了无依据的材质、功效或佩戴习惯，并对服务安排作了未经确认的表述，工具的“无风险”判断偏松。"
+ },
+ "_judge": "openai:gpt-6.1-terra"
+}

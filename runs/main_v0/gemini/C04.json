@@ -1,0 +1,63 @@
+{
+ "case_id": "C04",
+ "version": "v0",
+ "model": "gemini:gemini-3.8-flash",
+ "risk": {
+  "level": "ok",
+  "flags": [],
+  "advice": ""
+ },
+ "candidates": [
+  {
+   "text": "何女士，圣诞快乐✨ 算起来那条涟漪吊坠陪您正好一整年了，平时工作忙碌，今晚和家人好好放松一下。",
+   "strategy": "温和纯粹的节日问候，自然呼应一年前升职犒赏自己的节点，不带销售目的，给予真诚陪伴感。",
+   "note_for_ca": "适合在平安夜傍晚发送。把去年的节点化作陪伴的时间感，契合她天天佩戴的心情，没有任何推销压力。"
+  },
+  {
+   "text": "何女士，圣诞快乐。吊坠不知不觉戴了一年，如果路过太古里，随时带它回来做个免费超声波清洗，几分钟就能恢复原本的光泽。",
+   "strategy": "节日问候结合品牌固定服务（免费清洗保养），实用且贴心，提供价值而非推销。",
+   "note_for_ca": "既送上祝福，又自然提醒了一年到期的日常保养服务。用词平实，不催促来店，适合周到细致的顾问形象。"
+  },
+  {
+   "text": "何女士，平安夜快乐。想起去年差不多这时候给您挑吊坠，转眼一年过去，祝您这个冬天温暖舒心。",
+   "strategy": "极简克制的朋友式问候，唤起去年的美好回忆，简短真挚。",
+   "note_for_ca": "短小自然，完全符合微信私聊习惯，对工作忙碌的职场客户来说阅读负担最小。"
+  }
+ ],
+ "checks": [
+  {
+   "pass": true,
+   "hard": [],
+   "soft": [],
+   "length": 46
+  },
+  {
+   "pass": true,
+   "hard": [],
+   "soft": [],
+   "length": 57
+  },
+  {
+   "pass": true,
+   "hard": [],
+   "soft": [],
+   "length": 44
+  }
+ ],
+ "trace": {
+  "seconds": 10.5,
+  "diversity_max_sim": 0.05952380952380952,
+  "calls": [
+   {
+    "requested": "gemini-3.8-flash",
+    "served": "gemini-3.8-flash",
+    "seconds": 10.5,
+    "attempt": 1,
+    "in_tokens": 2919,
+    "out_tokens": 371,
+    "reasoning_tokens": null,
+    "fingerprint": null
+   }
+  ]
+ }
+}

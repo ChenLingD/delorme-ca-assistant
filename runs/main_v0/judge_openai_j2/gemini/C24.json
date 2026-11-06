@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "轻微：输入未说明项链随盒配有细绒布。",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 4
+   },
+   "sendability": "小改可发",
+   "comment": "保养要点实用，串线服务也有依据；删除“随盒配的”，并适当精简即可。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "轻微：“好品质的珍珠项链都是单颗手工打结”缺乏依据，目录只说明该款手工打结串制。",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "日常保养建议较实用，但工艺判断过于绝对，串线服务宜说明终身免费及建议每一至两年一次。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "轻微：“体温润养是最好的保养”缺乏依据，不符合只用确知信息的原则。",
+    "privacy_violation": "无",
+    "fabrication": "轻微：将天然珍珠有生命力、体温润养视为保养事实，缺乏依据；香水、发胶也不宜一概称为酸碱物。",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 2,
+    "naturalness": 2,
+    "effectiveness": 2
+   },
+   "sendability": "小改可发",
+   "comment": "前半部分回应了保养问题，但“人养珠”的表述容易误导，删除末句并修正酸碱物的说法即可。"
+  }
+ ],
+ "set": {
+  "diversity": 2,
+  "risk_judgement": "偏松",
+  "best_index": 1,
+  "must_coverage": "2/2",
+  "summary": "三条都提供了保养要点，篇幅对客户索要多条建议的场景基本可接受，但切入角度较相近。主要问题是均有未经证实或过度概括的说法，工具标为“无风险”偏松。"
+ },
+ "_judge": "openai:gpt-6.1-terra"
+}

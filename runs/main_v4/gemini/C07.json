@@ -1,0 +1,323 @@
+{
+ "case_id": "C07",
+ "version": "v4",
+ "model": "gemini:gemini-3.8-flash",
+ "risk": {
+  "level": "ok",
+  "flags": [],
+  "advice": ""
+ },
+ "candidates": [
+  {
+   "text": "郑女士，生日快乐！新的一岁，继续尽情开心、闪闪发光🎂",
+   "strategy": "极简轻快",
+   "note_for_ca": "最干净、毫无社交负担的祝福，加了一个温和的蛋糕emoji很契合年轻客户的沟通风格。适合今天只做纯粹问候；缺点是没有带入之前的对话细节。"
+  },
+  {
+   "text": "郑女士，生日快乐！想到您之前说要去北海道滑雪，不知道出发了没有？祝您今年生日玩得尽兴，每一趟都滑得过瘾。",
+   "strategy": "呼应滑雪",
+   "note_for_ca": "顺着10月份她主动提起的滑雪话题切入，像朋友一样自然亲近，温度最高。微小风险：若客户最终因故取消或推迟了行程，可能会需要对方解释一句。"
+  },
+  {
+   "text": "郑女士，生日快乐！很开心德洛姆的金色能一直陪着您，看您把手镯和耳钉随性叠搭在一起，总是特别有自己的风格。新的一岁，愿您继续率性自在、尽兴闪耀。",
+   "strategy": "陪伴回顾",
+   "note_for_ca": "修正了感叹号超标的问题，全局仅保留开头1个感叹号。聚焦她主动分享过的叠戴风格与作品陪伴，既有品牌温度又得体尊重；相比第2条聊滑雪，这条更偏重品牌陪伴感，适合想强化作品与她个人风格联结的场景。"
+  }
+ ],
+ "checks": [
+  {
+   "pass": true,
+   "hard": [],
+   "soft": [],
+   "length": 26
+  },
+  {
+   "pass": true,
+   "hard": [],
+   "soft": [],
+   "length": 52
+  },
+  {
+   "pass": true,
+   "hard": [],
+   "soft": [],
+   "length": 71
+  }
+ ],
+ "trace": {
+  "rounds": [
+   {
+    "rule_checks": [
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 26
+     },
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 52
+     },
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 65
+     }
+    ],
+    "critic": {
+     "reviews": [
+      {
+       "index": 1,
+       "pass": true,
+       "issues": []
+      },
+      {
+       "index": 2,
+       "pass": true,
+       "issues": []
+      },
+      {
+       "index": 3,
+       "pass": false,
+       "issues": [
+        "直接提及“祝23岁”触犯了分寸红线。聊天记录中客户并未主动提过自身具体年龄（22岁/23岁属于档案与内部手记信息），直接道出具体岁数违背了“不提及客户不知道我们记录了的信息”原则，容易让年轻客户产生被后台建档监视的不适感。此外，“去年挑了耳钉、今年添了手镯”的句式过于刻意地按时间线盘点购买记录，有念档案感。建议删去具体年龄“23岁”（改为“新的一岁”），并自然带过叠戴风格，避免按时间流水账罗列作品。"
+       ]
+      }
+     ],
+     "set_issues": []
+    },
+    "to_fix": {
+     "3": [
+      "直接提及“祝23岁”触犯了分寸红线。聊天记录中客户并未主动提过自身具体年龄（22岁/23岁属于档案与内部手记信息），直接道出具体岁数违背了“不提及客户不知道我们记录了的信息”原则，容易让年轻客户产生被后台建档监视的不适感。此外，“去年挑了耳钉、今年添了手镯”的句式过于刻意地按时间线盘点购买记录，有念档案感。建议删去具体年龄“23岁”（改为“新的一岁”），并自然带过叠戴风格，避免按时间流水账罗列作品。"
+     ]
+    }
+   },
+   {
+    "rule_checks": [
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 26
+     },
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 52
+     },
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 71
+     }
+    ],
+    "critic": {
+     "reviews": [
+      {
+       "index": 1,
+       "pass": true,
+       "issues": []
+      },
+      {
+       "index": 2,
+       "pass": true,
+       "issues": []
+      },
+      {
+       "index": 3,
+       "pass": false,
+       "issues": [
+        "标点符号超出规范：品牌手册明确规定每条消息最多 1 个感叹号，当前草稿使用了 2 个感叹号（“生日快乐！”与“尽兴闪耀！”）。建议将结尾的感叹号改为句号，既符合格式规范，也更符合品牌克制温和的语气。"
+       ]
+      }
+     ],
+     "set_issues": []
+    },
+    "to_fix": {
+     "3": [
+      "标点符号超出规范：品牌手册明确规定每条消息最多 1 个感叹号，当前草稿使用了 2 个感叹号（“生日快乐！”与“尽兴闪耀！”）。建议将结尾的感叹号改为句号，既符合格式规范，也更符合品牌克制温和的语气。"
+     ]
+    }
+   },
+   {
+    "rule_checks": [
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 26
+     },
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 52
+     },
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 71
+     }
+    ],
+    "critic": {
+     "reviews": [
+      {
+       "index": 1,
+       "pass": true,
+       "issues": []
+      },
+      {
+       "index": 2,
+       "pass": true,
+       "issues": []
+      },
+      {
+       "index": 3,
+       "pass": true,
+       "issues": []
+      }
+     ],
+     "set_issues": []
+    },
+    "to_fix": {}
+   }
+  ],
+  "plan": {
+   "client_read": "郑女士是率真、热爱穿搭分享的年轻二代客户，沟通风格随性活泼；此刻正值她23岁生日，她最在意的是被当作朋友般真诚记住，享受当下纯粹的节日氛围，而非被推销。",
+   "risk": {
+    "level": "ok",
+    "flags": [],
+    "advice": ""
+   },
+   "key_choice": "是在纯粹祝福中自然接住她此前分享的北海道滑雪心愿，还是结合她喜爱的珠宝叠戴做温暖呼应，抑或保持极简轻快的短句问候。",
+   "directions": [
+    {
+     "label": "极简轻快",
+     "idea": "用一两句亲切自然的短句送上生日祝福，不加负担，利落纯粹。",
+     "tradeoff": "最保险且毫无销售感，但没有带入过往对话细节，略显中规中矩。"
+    },
+    {
+     "label": "呼应滑雪",
+     "idea": "自然聊起她10月提过的北海道滑雪心愿，祝她生日与旅程玩得尽兴。",
+     "tradeoff": "温度最高、最像朋友，但如果客户最终行程有变，可能会让对方略微尴尬。"
+    },
+    {
+     "label": "陪伴回顾",
+     "idea": "借由她22岁与23岁的两件金色作品，祝愿新的一岁继续闪耀随性。",
+     "tradeoff": "品牌仪式感强，强调了与品牌的共同成长，但稍微偏正式一点点。"
+    }
+   ],
+   "ca_commitments": [],
+   "usable_facts": [
+    "今天是郑女士生日（12月9日）",
+    "郑女士在10月聊天中提到生日要去北海道滑雪",
+    "郑女士喜欢将涟漪黄金耳钉与穹顶手镯叠戴",
+    "郑女士22岁生日时挑选了涟漪黄金耳钉"
+   ],
+   "do_not_mention": [
+    "客户资产、二代身份、内部等级与消费金额",
+    "任何推销、新品推荐或到店催促",
+    "未经CA明确提供的生日礼遇或赠品承诺",
+    "直呼全名或使用亲爱的/宝子等违规称呼"
+   ],
+   "products": []
+  },
+  "first_draft": [
+   {
+    "text": "郑女士，生日快乐！新的一岁，继续尽情开心、闪闪发光🎂",
+    "strategy": "极简轻快",
+    "note_for_ca": "最干净、毫无社交负担的祝福，加了一个温和的蛋糕emoji很契合年轻客户的沟通风格。适合今天只做纯粹问候；缺点是没有带入之前的对话细节。"
+   },
+   {
+    "text": "郑女士，生日快乐！想到您之前说要去北海道滑雪，不知道出发了没有？祝您今年生日玩得尽兴，每一趟都滑得过瘾。",
+    "strategy": "呼应滑雪",
+    "note_for_ca": "顺着10月份她主动提起的滑雪话题切入，像朋友一样自然亲近，温度最高。微小风险：若客户最终因故取消或推迟了行程，可能会需要对方解释一句。"
+   },
+   {
+    "text": "郑女士，生日快乐！去年这时候您挑了涟漪耳钉，今年又添了穹顶手镯，很喜欢看您把它们混搭在一起的样子。祝23岁继续率性自在，随心所欲。",
+    "strategy": "陪伴回顾",
+    "note_for_ca": "提到了她连续两年陪伴自己的金色作品及标志性的叠戴风格，强化品牌记忆与仪式感。语气克制温和，不催到店也不推新品。"
+   }
+  ],
+  "seconds": 88.1,
+  "diversity_max_sim": 0.0945945945945946,
+  "calls": [
+   {
+    "requested": "gemini-3.8-flash",
+    "served": "gemini-3.8-flash",
+    "seconds": 15.8,
+    "attempt": 1,
+    "in_tokens": 5482,
+    "out_tokens": 560,
+    "reasoning_tokens": null,
+    "fingerprint": null
+   },
+   {
+    "requested": "gemini-3.8-flash",
+    "served": "gemini-3.8-flash",
+    "seconds": 6.7,
+    "attempt": 1,
+    "in_tokens": 4579,
+    "out_tokens": 343,
+    "reasoning_tokens": null,
+    "fingerprint": null
+   },
+   {
+    "requested": "gemini-3.8-flash",
+    "served": "gemini-3.8-flash",
+    "seconds": 21.4,
+    "attempt": 1,
+    "in_tokens": 4546,
+    "out_tokens": 254,
+    "reasoning_tokens": null,
+    "fingerprint": null
+   },
+   {
+    "requested": "gemini-3.8-flash",
+    "served": "gemini-3.8-flash",
+    "seconds": 17.3,
+    "attempt": 1,
+    "in_tokens": 5095,
+    "out_tokens": 187,
+    "reasoning_tokens": null,
+    "fingerprint": null
+   },
+   {
+    "requested": "gemini-3.8-flash",
+    "served": "gemini-3.8-flash",
+    "seconds": 12.1,
+    "attempt": 1,
+    "in_tokens": 4595,
+    "out_tokens": 178,
+    "reasoning_tokens": null,
+    "fingerprint": null
+   },
+   {
+    "requested": "gemini-3.8-flash",
+    "served": "gemini-3.8-flash",
+    "seconds": 3.4,
+    "attempt": 1,
+    "in_tokens": 5073,
+    "out_tokens": 175,
+    "reasoning_tokens": null,
+    "fingerprint": null
+   },
+   {
+    "requested": "gemini-3.8-flash",
+    "served": "gemini-3.8-flash",
+    "seconds": 11.3,
+    "attempt": 1,
+    "in_tokens": 4583,
+    "out_tokens": 102,
+    "reasoning_tokens": null,
+    "fingerprint": null
+   }
+  ]
+ }
+}

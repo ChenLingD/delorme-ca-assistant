@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "轻微：只说需要几周，未给出手册中的4–8周参考范围，也未回应婚礼前使用的顾虑。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 4,
+    "naturalness": 4,
+    "effectiveness": 2
+   },
+   "sendability": "小改可发",
+   "comment": "免费改圈和重新量圈说清楚了，但需补充参考周期及婚期前能否完成需要核实。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "严重：未经核实便保证婚礼前能拿到，作出了不能由工具自行添加的时间承诺。",
+    "privacy_violation": "无",
+    "fabrication": "严重：编造4–6周周期，并保证改圈时完整保护内圈刻字，均无依据。",
+    "context_failure": "严重：对客户的婚期顾虑给出未经核实的确定答复，可能影响婚礼安排。",
+    "must_not_hit": "严重：编造服务细节，并承诺婚礼前一定能改好。"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 2,
+    "naturalness": 3,
+    "effectiveness": 1
+   },
+   "sendability": "不可用",
+   "comment": "虽回应了刻字和婚期，但用未经证实的保证安抚客户，风险很高。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "轻微：手册未明确说明改圈由工坊手工调整，“手工调整”缺少依据。",
+    "context_failure": "无",
+    "must_not_hit": "轻微：“手工调整”属于未经证实的服务细节。"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 4,
+    "naturalness": 4,
+    "effectiveness": 4
+   },
+   "sendability": "小改可发",
+   "comment": "免费服务、量圈、参考周期和婚期顾虑都已覆盖；删去“手工”，并补一句需确认具体时间更稳妥。"
+  }
+ ],
+ "set": {
+  "diversity": 2,
+  "risk_judgement": "正确",
+  "best_index": 3,
+  "must_coverage": "3/3",
+  "summary": "候选3覆盖全部必需信息，但仍需删去未经证实的操作细节，并核实具体时间节点。候选2编造周期和刻字保护措施，还保证婚礼前完成，是最主要的风险。"
+ },
+ "_judge": "openai:gpt-6.1-terra"
+}

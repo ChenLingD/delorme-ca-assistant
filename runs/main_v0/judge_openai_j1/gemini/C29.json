@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "Bella于10月调走，今天是12月1日，并非“上个月”；“天冷衣服穿得厚”描述了未经证实的外部情况。",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 2,
+    "naturalness": 3,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "交接和服务切入都合适，但应删除错误时间和天气描述，并压缩消息。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "没有依据表明Bella向赵一鸣提过客户的叠戴风格。",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "交接清楚，但借Bella转述来拉近关系缺乏依据，删去或改为自然提及叠戴即可。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "聊天记录只显示客户曾叠戴两枚戒指，不能推断其日常经常佩戴。",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 4,
+    "naturalness": 4,
+    "effectiveness": 4
+   },
+   "sendability": "小改可发",
+   "comment": "交接简洁、语气轻松，去掉对日常佩戴频率的推断后更稳妥。"
+  }
+ ],
+ "set": {
+  "diversity": 2,
+  "risk_judgement": "偏松",
+  "best_index": 3,
+  "must_coverage": "2/2",
+  "summary": "三条都交代了交接，整体语气较轻松，候选3最利落。主要问题是三条均加入了未经证实的信息，且切入方式都围绕交接和戒指保养，差异有限。"
+ },
+ "_judge": "openai:gpt-6.1-terra"
+}

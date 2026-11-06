@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "“工坊养护”缺少依据：手册说明维修与改制送巴黎工坊，未说明常规养护由工坊提供。",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "接住了比价顾虑，也提到免费串线，但措辞偏长，“工坊养护”需改为确知的服务。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "产品资料没有说明珍珠经过“一颗颗挑选配对成串”；尺寸渐变和手工打结串制不足以证明该细节。",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 2,
+    "naturalness": 2,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "证书和终身养护切合问题，但工艺细节有编造风险，“清清爽爽的心意”等表达也不够自然。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 4,
+    "naturalness": 4,
+    "effectiveness": 4
+   },
+   "sendability": "直接可发",
+   "comment": "官方证书、全球联保和免费串线说得清楚，也给了客户商量的空间；若先接住比价顾虑会更温和。"
+  }
+ ],
+ "set": {
+  "diversity": 2,
+  "risk_judgement": "偏松",
+  "best_index": 3,
+  "must_coverage": "2/2",
+  "summary": "三条都说明了官方渠道保障，整体语气温和，但切入方式和篇幅相近。候选1和2分别加入了缺少依据的养护及工艺细节，工具标记为无风险偏松。"
+ },
+ "_judge": "openai:gpt-6.1-terra"
+}

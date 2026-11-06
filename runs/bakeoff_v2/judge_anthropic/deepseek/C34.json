@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "轻微失准：写成“有一场私享预览”，资料里是 11-20 至 11-22 三天、每场 8 位，并非一场。",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 2,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 2
+   },
+   "sendability": "小改可发",
+   "comment": "短，也符合“轻量邀请”的角度，但没说为什么想到她，也没提她九月想看老图稿的心愿，换成任何客户都能发。没有日期、地点，也没有问她是否有兴趣再发详情，“想请您来看看”很干。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "“Henri Delorme 在上海画下的珍珠手绘稿”略有加工：资料只写“1920 年代上海珍珠手绘图稿原件”，“在上海画下”无依据，应改回资料原话。",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 5,
+    "brand_voice": 4,
+    "naturalness": 4,
+    "effectiveness": 4
+   },
+   "sendability": "小改可发",
+   "comment": "三条里最像为她挑的邀请：准确呼应她九月想亲眼看图稿的话，“首次公开”是具体细节，语气正式克制，符合 Grace 的风格。缺口是没有日期、人数和可选的退路，也没有回应 CA 想约人少时段的要求；改掉“在上海画下”并补一句时间和小规模，就可以发。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 2,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "日期、“每场 8 位”、下午茶都准确，也落实了 CA 要的“人少一些的场次”，并说明确认后再回复，没有越权承诺。但整条没说是哪个展、为什么邀她，直接说“私享预览”，缺乏上下文；最能打动她的老图稿一个字没提，串线师演示被放在末尾补一句，读起来像通知。"
+  }
+ ],
+ "set": {
+  "diversity": 4,
+  "risk_judgement": "偏松",
+  "best_index": 2,
+  "must_coverage": "2/3",
+  "summary": "三条在角度和篇幅上确实不同，没有踩“名额有限先到先得”和编造内容这两条红线，但没有一条同时具备“老图稿的心愿”和“日期、地点、小规模、可选择”。候选 2 缺后勤信息，候选 3 缺钩子，候选 1 两样都缺；与她珍珠收藏的关联也只停在“沧海”这个名字上，没有提到她自己的沧海作品。风险判断给“ok、无提醒”偏松：候选 2 的“在上海画下”需要核对，CA 想约人少时段，但资料里没有各场次的人数信息，应提示她先向门店确认。"
+ },
+ "_judge": "anthropic:claude-sonnet-5-5"
+}

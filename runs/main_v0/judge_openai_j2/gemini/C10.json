@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 4,
+    "naturalness": 3,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "接住了客户对晨星的兴趣，但“正式登记”和“第一时间”略显生硬，且缺少认识其他系列工艺的引导。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "严重：用“产量极少”强调稀缺性，违反品牌红线。",
+    "privacy_violation": "无",
+    "fabrication": "轻微：未经证实地称“没有现货排期”，并编造朋友佩戴“很衬”的观感。",
+    "context_failure": "轻微：邀请量手寸容易让客户误以为获取晨星已有实质进展，却没有清楚解释无法确定到货时间。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 2,
+    "brand_voice": 1,
+    "naturalness": 1,
+    "effectiveness": 1
+   },
+   "sendability": "不可用",
+   "comment": "话术不自然，稀缺表述和量手寸邀约都可能误导客户。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "轻微：“全程手工打磨”及“工坊有进展”缺乏资料依据。",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 2,
+    "brand_voice": 2,
+    "naturalness": 3,
+    "effectiveness": 2
+   },
+   "sendability": "小改可发",
+   "comment": "虽未承诺到货，但劝客户耐心等待略显说教，也没有引导认识其他系列工艺。"
+  }
+ ],
+ "set": {
+  "diversity": 2,
+  "risk_judgement": "偏松",
+  "best_index": 1,
+  "must_coverage": "2/3",
+  "summary": "候选 1 相对稳妥，三条均未拒绝客户或承诺晨星到货时间，也都有登记心愿的表述。整体缺少认识其他系列工艺的引导，候选 2 还触及稀缺红线，因此工具判断“无风险”偏松。"
+ },
+ "_judge": "openai:gpt-6.1-terra"
+}

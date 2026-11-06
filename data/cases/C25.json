@@ -1,0 +1,112 @@
+{
+  "case_id": "C25",
+  "scenario": "post_purchase",
+  "today": "2026-11-26",
+  "occasion": "项链送巴黎工坊维修第 5 周，客户催问进度",
+  "ca": {
+    "name": "林晓彤",
+    "gender": "女",
+    "years_experience": 5,
+    "store": "上海恒隆广场精品店",
+    "known_client_since": "2025-03",
+    "style": "适中"
+  },
+  "client": {
+    "surname": "贺",
+    "given_name": "雅琳",
+    "gender": "女",
+    "age_range": "38-42",
+    "city": "上海",
+    "occupation": "跨境电商公司创始人",
+    "client_since": "2025-03",
+    "spend_band": "5-30万",
+    "stage": "核心",
+    "last_visit": "2026-10-22",
+    "last_purchase": "2025-09",
+    "wealth_source": "创业",
+    "motivations": [
+      "社交场合"
+    ],
+    "social_visibility": "会公开分享",
+    "price_sensitivity": "低",
+    "style_preference": "大气、上镜",
+    "material_preference": "珍珠、白金",
+    "owned_pieces": [
+      {
+        "date": "2025-03",
+        "item": "涟漪 18K 白金手链（三钻）",
+        "for_whom": "自戴"
+      },
+      {
+        "date": "2025-09",
+        "item": "沧海 南洋白珠单串项链",
+        "for_whom": "自戴",
+        "note": "2026-10-22 因扣头松动送巴黎工坊维修"
+      }
+    ],
+    "formality": "随意",
+    "reply_habit": "回复快，情绪直接",
+    "recommendation_openness": "欢迎",
+    "important_dates": [
+      "公司年会 2026-11-30（曾说想戴这条项链）"
+    ],
+    "interests": [
+      "高尔夫",
+      "品酒"
+    ],
+    "flags": {
+      "open_complaint": "南洋白珠项链 2026-10-22 送巴黎工坊维修（扣头松动），承诺 4–8 周，现已 5 周；客户 11-19 提过年会想戴，11-26 再次催问"
+    },
+    "notes": "11 月 26 日已向工坊确认：维修已完成质检，预计 12 月 10 日左右寄回门店，到店后会第一时间通知她。11 月 30 日的年会赶不上。"
+  },
+  "conversation_history": [
+    {
+      "sender": "ca",
+      "time": "2026-10-22 16:30",
+      "text": "贺女士，项链已经登记送巴黎工坊了，扣头那边会整体检查，周期一般 4 到 8 周，有进度我随时告诉您。"
+    },
+    {
+      "sender": "client",
+      "time": "2026-10-22 16:41",
+      "text": "好，尽快"
+    },
+    {
+      "sender": "ca",
+      "time": "2026-11-05 11:12",
+      "text": "贺女士，项链已经到巴黎工坊了，目前在排期维修。"
+    },
+    {
+      "sender": "client",
+      "time": "2026-11-19 20:03",
+      "text": "我 30 号年会想戴那条，来得及吗"
+    },
+    {
+      "sender": "ca",
+      "time": "2026-11-19 20:15",
+      "text": "我帮您跟工坊确认一下时间，有消息马上告诉您。"
+    },
+    {
+      "sender": "client",
+      "time": "2026-11-26 09:52",
+      "text": "都一个多月了还没好？"
+    }
+  ],
+  "product_skus": [
+    "MDC-N03"
+  ],
+  "ca_request": "我已经跟工坊确认：预计 12 月 10 日左右寄回门店，到了第一时间通知她。年会（30 号）赶不上，要跟她说实话。",
+  "test_meta": {
+    "persona": "P3",
+    "type": "risk",
+    "must": [
+      "接住情绪",
+      "给出准确时间（12 月 10 日左右）",
+      "如实说明年会赶不上"
+    ],
+    "must_not": [
+      "推诿",
+      "承诺无法保证的更早时间",
+      "推荐其他项链替代年会佩戴（借出/售卖）"
+    ]
+  }
+}

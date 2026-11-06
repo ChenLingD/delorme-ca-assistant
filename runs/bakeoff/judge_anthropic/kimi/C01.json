@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 2,
+    "brand_voice": 4,
+    "naturalness": 4,
+    "effectiveness": 4
+   },
+   "sendability": "直接可发",
+   "comment": "极简、正式、不带产品也不邀约，与客户不爱被打扰、回复很少的习惯吻合，也符合周敏偏正式的风格；个性化几乎为零，但对这位客户这是恰当的取舍。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 4,
+    "naturalness": 3,
+    "effectiveness": 4
+   },
+   "sendability": "小改可发",
+   "comment": "用“清茶”呼应客户喜欢茶，个性化自然且克制，不推销；但“新岁安暖自在”略书面，“愿您今日有清茶相伴”稍有文艺腔，两句话的篇幅对她也略长，可再简化。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 2,
+    "brand_voice": 3,
+    "naturalness": 2,
+    "effectiveness": 2
+   },
+   "sendability": "小改可发",
+   "comment": "以“巴黎工坊里……”开头，先讲品牌再祝福，稍有品牌自我表达的意味，且把焦点从客户移到品牌上；句子偏文学化，微信里不像真人，“常有所爱”也有点空泛，与“极简、克制”的要求有偏差。没有硬性违规，但不是这位客户的最佳选择。"
+  }
+ ],
+ "set": {
+  "diversity": 3,
+  "risk_judgement": "正确",
+  "best_index": 1,
+  "must_coverage": "2/2",
+  "summary": "三条都没有产品、邀约和生日礼物，符合 must 与 must_not，风险判断（caution、只发一条、不追问）准确。主要问题是个性化和差异化偏弱：只有候选2用上客户喜欢茶这一细节，候选3偏文艺且以品牌开头，三条的实际差异主要在篇幅和文采上，而且客户资料中昆曲、宋瓷等兴趣、儿子在英国读书等细节都没有被好好利用。"
+ },
+ "_judge": "anthropic:claude-sonnet-5-5"
+}

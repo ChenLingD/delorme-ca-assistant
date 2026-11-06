@@ -1,0 +1,175 @@
+{
+ "case_id": "C34",
+ "version": "v3",
+ "model": "gemini:gemini-3.8-flash",
+ "risk": {
+  "level": "ok",
+  "flags": [],
+  "advice": ""
+ },
+ "candidates": [
+  {
+   "text": "沈女士，9月您提到的1920年代老图稿，下周起会在外滩源旗舰店的沧海百年特展中展出原件。11月20日至22日是私享预览，若您有兴趣，我来为您安排一个人少、安静的时段。",
+   "strategy": "极简",
+   "note_for_ca": "直奔手稿主题，克制得体，适合快节奏下确认意向。"
+  },
+  {
+   "text": "沈女士，Henri Delorme当年在上海采购珍珠时画下的手绘图稿原件，这次终于运抵外滩源三楼沙龙了。特展在20号至22日有小规模的私享预览，每场只有几位客人，想请您静心看看当年的笔迹与海浪纹样。",
+   "strategy": "走心",
+   "note_for_ca": "呼应其对老图稿与海浪纹由来的偏好，营造静心观展氛围。"
+  },
+  {
+   "text": "沈女士，沧海百年特展将于11月20日至22日在外滩源沙龙举行私享预览，届时会展出1920年代手稿原件。考虑到您偏好安静，这三天的上午或傍晚时段客人相对较少，不知您哪天的时间更合适？",
+   "strategy": "推进",
+   "note_for_ca": "给出具体预览日期并主动圈定安静时段，便于对方直接选择。"
+  }
+ ],
+ "checks": [
+  {
+   "pass": true,
+   "hard": [],
+   "soft": [],
+   "length": 83
+  },
+  {
+   "pass": true,
+   "hard": [],
+   "soft": [],
+   "length": 98
+  },
+  {
+   "pass": true,
+   "hard": [],
+   "soft": [],
+   "length": 90
+  }
+ ],
+ "trace": {
+  "rounds": [
+   {
+    "rule_checks": [
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 83
+     },
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 98
+     },
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 90
+     }
+    ],
+    "critic": {
+     "reviews": [
+      {
+       "index": 1,
+       "pass": true,
+       "issues": []
+      },
+      {
+       "index": 2,
+       "pass": true,
+       "issues": []
+      },
+      {
+       "index": 3,
+       "pass": true,
+       "issues": []
+      }
+     ],
+     "set_issues": []
+    },
+    "set_issues": [],
+    "to_fix": {}
+   }
+  ],
+  "plan": {
+   "client_read": "沈女士是一位严谨低调、偏爱年代感与海派文化的资深珍珠藏家。彼此相识八年且互信深厚，9月来店时她曾特别提及想看1920年代图稿原件，此刻正是兑现承诺的最佳契机。",
+   "risk": {
+    "level": "ok",
+    "flags": [],
+    "advice": ""
+   },
+   "ca_commitments": [
+    "帮她协调/预约人少一点的时段"
+   ],
+   "usable_facts": [
+    "9月来店交流时提及若有1920年代老图稿展出希望获知消息",
+    "偏爱安静，不喜欢人多的场合",
+    "长期收藏并佩戴沧海系列（耳钉、白珠项链、金珠吊坠）",
+    "平日习惯在上午沟通，行文偏向正式、字斟句酌"
+   ],
+   "do_not_mention": [
+    "累计消费金额（30-100万）与内部核心客户标签",
+    "“名额有限”、“先到先得”、“抢位”等催促与营销紧迫感措辞",
+    "把9月或更早前的事情当作刚发生来追问感受",
+    "天气或气温描述"
+   ],
+   "products": [],
+   "slots": {
+    "极简": "直接兑现9月的约定，说明当年手稿原件将于特展私享预览展出，轻量询问是否方便前往。",
+    "走心": "从她挂念的1920年代图稿原件切入，提及本次特展在外滩源三楼沙龙小范围预览，让对方感受到自己的审美兴趣被认真记取与尊重。",
+    "推进": "给出私享预览的具体日期（11月20日至22日），并主动提出为她协调安排相对清静、节奏从容的时段供其选择。"
+   }
+  },
+  "first_draft": [
+   {
+    "text": "沈女士，9月您提到的1920年代老图稿，下周起会在外滩源旗舰店的沧海百年特展中展出原件。11月20日至22日是私享预览，若您有兴趣，我来为您安排一个人少、安静的时段。",
+    "strategy": "极简",
+    "note_for_ca": "直奔手稿主题，克制得体，适合快节奏下确认意向。"
+   },
+   {
+    "text": "沈女士，Henri Delorme当年在上海采购珍珠时画下的手绘图稿原件，这次终于运抵外滩源三楼沙龙了。特展在20号至22日有小规模的私享预览，每场只有几位客人，想请您静心看看当年的笔迹与海浪纹样。",
+    "strategy": "走心",
+    "note_for_ca": "呼应其对老图稿与海浪纹由来的偏好，营造静心观展氛围。"
+   },
+   {
+    "text": "沈女士，沧海百年特展将于11月20日至22日在外滩源沙龙举行私享预览，届时会展出1920年代手稿原件。考虑到您偏好安静，这三天的上午或傍晚时段客人相对较少，不知您哪天的时间更合适？",
+    "strategy": "推进",
+    "note_for_ca": "给出具体预览日期并主动圈定安静时段，便于对方直接选择。"
+   }
+  ],
+  "seconds": 28.6,
+  "diversity_max_sim": 0.15555555555555556,
+  "calls": [
+   {
+    "requested": "gemini-3.8-flash",
+    "served": "gemini-3.8-flash",
+    "seconds": 19.5,
+    "attempt": 1,
+    "in_tokens": 5733,
+    "out_tokens": 458,
+    "reasoning_tokens": null,
+    "fingerprint": null
+   },
+   {
+    "requested": "gemini-3.8-flash",
+    "served": "gemini-3.8-flash",
+    "seconds": 6.1,
+    "attempt": 1,
+    "in_tokens": 5164,
+    "out_tokens": 377,
+    "reasoning_tokens": null,
+    "fingerprint": null
+   },
+   {
+    "requested": "gemini-3.8-flash",
+    "served": "gemini-3.8-flash",
+    "seconds": 2.9,
+    "attempt": 1,
+    "in_tokens": 5083,
+    "out_tokens": 74,
+    "reasoning_tokens": null,
+    "fingerprint": null
+   }
+  ]
+ }
+}

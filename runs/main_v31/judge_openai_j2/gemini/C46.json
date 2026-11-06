@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 2,
+    "brand_voice": 4,
+    "naturalness": 4,
+    "effectiveness": 4
+   },
+   "sendability": "直接可发",
+   "comment": "平静说明证书、联保和珍珠串线服务，没有评判代购；开头略显泛泛，但整体清楚得体。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "轻微：把留给孙女的心愿说成“还要完整交到”她手里的责任，容易给客户压力。",
+    "privacy_violation": "无",
+    "fabrication": "严重：声称会在官方工坊留下完整记录，输入中没有这项服务依据。",
+    "context_failure": "轻微：没有清楚说明证书、联保等官方保障，未充分回应客户的比价疑问。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 2,
+    "naturalness": 2,
+    "effectiveness": 1
+   },
+   "sendability": "不可用",
+   "comment": "抓住了纪念与传承的真实动机，但措辞过重，且加入了未经证实的工坊记录。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "轻微：没有说明官方渠道保障，未充分回应客户的代购比价疑问。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 4,
+    "naturalness": 4,
+    "effectiveness": 2
+   },
+   "sendability": "小改可发",
+   "comment": "语气温和，也给了客户考虑空间，但应先补充官方证书或售后保障，再谈试戴。"
+  }
+ ],
+ "set": {
+  "diversity": 4,
+  "risk_judgement": "偏松",
+  "best_index": 1,
+  "must_coverage": "2/2",
+  "summary": "候选1同时做到温和易读和说明官方保障，是最稳妥的回复。整体主要问题是候选2编造工坊记录，而风险提示将官方保障称为“专有权益”也缺乏依据。"
+ },
+ "_judge": "openai:gpt-6.1-terra"
+}

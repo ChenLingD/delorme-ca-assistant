@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 2,
+    "brand_voice": 4,
+    "naturalness": 4,
+    "effectiveness": 4
+   },
+   "sendability": "直接可发",
+   "comment": "简短亲切，生日蛋糕 emoji 也合适，只是除生日外没有用到客户的具体信息。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "轻微：客户只说过生日要去北海道滑雪，不能确定此刻已经在雪道上。",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "滑雪计划切入自然，但应避免猜测客户此刻的行程，结尾也可更简短。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "轻微：生日祝福后转而追问作品搭配，让祝福变成了互动引子，不符合本场景以祝福为目的的策略。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 2,
+    "naturalness": 2,
+    "effectiveness": 2
+   },
+   "sendability": "小改可发",
+   "comment": "耳钉和叠戴都有依据，但搭配提问抢了祝福的重点，“被您开发出”也不够自然。"
+  }
+ ],
+ "set": {
+  "diversity": 4,
+  "risk_judgement": "偏松",
+  "best_index": 1,
+  "must_coverage": "1/1",
+  "summary": "候选 1 简短得体，最适合直接发送，也做到了年轻但不失格。整体风险判断偏松：候选 2 猜测了客户当前行程，候选 3 则把生日祝福转成了产品搭配追问。"
+ },
+ "_judge": "openai:gpt-6.1-terra"
+}

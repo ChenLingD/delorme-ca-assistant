@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "严重：目录未说明这款双串项链依照当年的图样制作，不能自行补充设计来源。",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 3
+   },
+   "sendability": "不可用",
+   "comment": "历史切入贴合客户兴趣，但须删除未经证实的图样来源，并补充已有藏品关联和退路。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "严重：没有到店信息，也没有“老式手工铰扣”的资料；客户偏好经典，但未说过偏爱双串的佩戴感。",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 1,
+    "brand_voice": 2,
+    "naturalness": 3,
+    "effectiveness": 2
+   },
+   "sendability": "不可用",
+   "comment": "有具体珠径和到店退路，但关键工艺及客户偏好均有臆造，也未关联已有藏品。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "严重：突出“全球限量百件”作为推荐卖点，制造稀缺感。",
+    "privacy_violation": "无",
+    "fabrication": "严重：没有刚刚抵店或扣头雕花的资料；将作品描述为具有老上海时期韵味也缺少依据。",
+    "context_failure": "轻微：客户通常不回复产品图，这条却以发图作为主要后续动作，未利用她对品牌上海往事的兴趣。",
+    "must_not_hit": "严重：以“全球限量百件”突出稀缺。"
+   },
+   "scores": {
+    "personalization": 1,
+    "brand_voice": 1,
+    "naturalness": 2,
+    "effectiveness": 1
+   },
+   "sendability": "不可用",
+   "comment": "有征询发图的退路，但整体偏营销，既缺少真实的个人关联，也加入了未经证实的细节。"
+  }
+ ],
+ "set": {
+  "diversity": 3,
+  "risk_judgement": "偏松",
+  "best_index": 1,
+  "must_coverage": "2/3",
+  "summary": "三条合起来覆盖了具体故事或细节及退路，但都未关联客户已有藏品；候选1最贴合她的兴趣。整体不能判为无风险：三条均有未经证实的事实，候选3还突出限量制造稀缺感。"
+ },
+ "_judge": "openai:gpt-6.1-terra"
+}

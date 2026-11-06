@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 4,
+    "naturalness": 3,
+    "effectiveness": 4
+   },
+   "sendability": "小改可发",
+   "comment": "围绕客户已有耳钉提供养护信息，没有推销；但“固件检测”不够自然，建议改为“检查镶嵌是否牢固”。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "严重：未经 CA 确认，承诺清洗或检测十几分钟就能完成。",
+    "privacy_violation": "无",
+    "fabrication": "严重：资料没有提供十几分钟的服务时长，属于自行添加时间承诺。",
+    "context_failure": "轻微：根据职业推测年底差旅和重要场合较多，与客户已知情况没有直接依据。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 2,
+    "naturalness": 2,
+    "effectiveness": 2
+   },
+   "sendability": "不可用",
+   "comment": "虽未推销，但场合切入缺乏依据，且未经确认的时长承诺需要删除。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "轻微：“深度清洗”及搭扣松动的具体处理方式未在资料中确认，“随时为您处理”容易造成门店可即时处理的预期。",
+    "privacy_violation": "无",
+    "fabrication": "轻微：自行引入未明确列出的“深度清洗”服务，需确认后再表述。",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "以已有手链的护理提醒切入，没有直接推销；建议去掉未经确认的深度清洗说法，并对松动问题先做检查。"
+  }
+ ],
+ "set": {
+  "diversity": 2,
+  "risk_judgement": "偏松",
+  "best_index": 1,
+  "must_coverage": "1/1",
+  "summary": "三条均避开了新品推销，候选 1 的售后切入最稳妥，但角度都集中在珠宝护理，差异有限。工具将风险判为“ok；无”偏松，尤其漏掉了候选 2 擅自承诺服务时长的问题。"
+ },
+ "_judge": "openai:gpt-6.1-terra"
+}

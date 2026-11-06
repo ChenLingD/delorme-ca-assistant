@@ -1,0 +1,186 @@
+{
+ "case_id": "C01",
+ "version": "v4",
+ "model": "gemini:gemini-3.8-flash",
+ "risk": {
+  "level": "ok",
+  "flags": [],
+  "advice": ""
+ },
+ "candidates": [
+  {
+   "text": "沈女士，祝您生辰快乐，岁岁安舒顺遂。",
+   "strategy": "极简真诚",
+   "note_for_ca": "篇幅极短，没有任何营销与寒暄负担，最贴合沈女士少言、注重分寸的习惯。风险是较为克制，缺乏更多个人化细节。"
+  },
+  {
+   "text": "沈女士，今天是您的生日，祝您生辰吉乐。初冬时节，愿您日日清朗从容。",
+   "strategy": "清雅温和",
+   "note_for_ca": "融入立冬后的时令意境，用词典雅克制，符合她偏好素雅与传统审美的性格，且不涉及具体天气或私事。"
+  },
+  {
+   "text": "沈女士，祝您生日快乐。转眼认识您第五年了，很感谢一直以来的相伴，愿您新岁诸事舒心。",
+   "strategy": "岁月留白",
+   "note_for_ca": "从认识五年的长期陪伴切入，既表达了庄重敬意，又维系了老朋友般的分寸感。需注意沈女士若极少与CA互动，提及年限可能会略显正式庄重。"
+  }
+ ],
+ "checks": [
+  {
+   "pass": true,
+   "hard": [],
+   "soft": [],
+   "length": 18
+  },
+  {
+   "pass": true,
+   "hard": [],
+   "soft": [],
+   "length": 33
+  },
+  {
+   "pass": true,
+   "hard": [],
+   "soft": [],
+   "length": 41
+  }
+ ],
+ "trace": {
+  "rounds": [
+   {
+    "rule_checks": [
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 18
+     },
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 33
+     },
+     {
+      "pass": true,
+      "hard": [],
+      "soft": [],
+      "length": 41
+     }
+    ],
+    "critic": {
+     "reviews": [
+      {
+       "index": 1,
+       "pass": true,
+       "issues": []
+      },
+      {
+       "index": 2,
+       "pass": true,
+       "issues": []
+      },
+      {
+       "index": 3,
+       "pass": true,
+       "issues": []
+      }
+     ],
+     "set_issues": []
+    },
+    "to_fix": {}
+   }
+  ],
+  "plan": {
+   "client_read": "沈女士是讲究边界、审美极素净的资深核心客户，平时沟通极简且不喜打扰。此刻只宜送上纯粹、克制而有分寸的生日祝福，无需任何营销与下一步引导。",
+   "risk": {
+    "level": "ok",
+    "flags": [],
+    "advice": ""
+   },
+   "key_choice": "是在极简得体的一两句祝福中完全留白，还是融入一丝符合其审美的清雅意境与老朋友般的陪伴感。",
+   "directions": [
+    {
+     "label": "极简真诚",
+     "idea": "仅用一两句正式克制的语句表达生日祝福，干净纯粹，不附带任何多余话题。",
+     "tradeoff": "最符合客户少言克制的习惯，绝无打扰感；但情感浓度较低，偏向常规礼节。"
+    },
+    {
+     "label": "清雅温和",
+     "idea": "结合时节流转与宁静致远的心境送上祝愿，语言典雅克制，契合其素雅审美品味。",
+     "tradeoff": "更有文化温度与审美共鸣；但若文字稍有失度容易显刻意，需保持极简笔墨。"
+    },
+    {
+     "label": "岁月留白",
+     "idea": "以相识多年的熟稔与尊重致意，感谢长久相伴，祝愿岁岁安舒从容。",
+     "tradeoff": "体现长期客户的专属分寸感与庄重敬意；但相较极简款略显郑重。"
+    }
+   ],
+   "ca_commitments": [],
+   "usable_facts": [
+    "今天是沈女士的生日（11月18日）",
+    "CA 周敏与沈女士相识已逾五年（自2021年）",
+    "客户沟通风格正式、喜静，习惯回复极短",
+    "当前节令在立冬后、小雪前"
+   ],
+   "do_not_mention": [
+    "任何珠宝作品推荐或到店邀约",
+    "礼物、礼品、茶点或预留等未经承诺的福利",
+    "客户家庭、企业背景及家人具体情况（先生、在英国读研的儿子）",
+    "累计消费金额、VIP/核心等级标签",
+    "具体天气、降温或气温描述"
+   ],
+   "products": []
+  },
+  "first_draft": [
+   {
+    "text": "沈女士，祝您生辰快乐，岁岁安舒顺遂。",
+    "strategy": "极简真诚",
+    "note_for_ca": "篇幅极短，没有任何营销与寒暄负担，最贴合沈女士少言、注重分寸的习惯。风险是较为克制，缺乏更多个人化细节。"
+   },
+   {
+    "text": "沈女士，今天是您的生日，祝您生辰吉乐。初冬时节，愿您日日清朗从容。",
+    "strategy": "清雅温和",
+    "note_for_ca": "融入立冬后的时令意境，用词典雅克制，符合她偏好素雅与传统审美的性格，且不涉及具体天气或私事。"
+   },
+   {
+    "text": "沈女士，祝您生日快乐。转眼认识您第五年了，很感谢一直以来的相伴，愿您新岁诸事舒心。",
+    "strategy": "岁月留白",
+    "note_for_ca": "从认识五年的长期陪伴切入，既表达了庄重敬意，又维系了老朋友般的分寸感。需注意沈女士若极少与CA互动，提及年限可能会略显正式庄重。"
+   }
+  ],
+  "seconds": 39.0,
+  "diversity_max_sim": 0.09302325581395349,
+  "calls": [
+   {
+    "requested": "gemini-3.8-flash",
+    "served": "gemini-3.8-flash",
+    "seconds": 13.1,
+    "attempt": 1,
+    "in_tokens": 5454,
+    "out_tokens": 582,
+    "reasoning_tokens": null,
+    "fingerprint": null
+   },
+   {
+    "requested": "gemini-3.8-flash",
+    "served": "gemini-3.8-flash",
+    "seconds": 6.2,
+    "attempt": 1,
+    "in_tokens": 4573,
+    "out_tokens": 311,
+    "reasoning_tokens": null,
+    "fingerprint": null
+   },
+   {
+    "requested": "gemini-3.8-flash",
+    "served": "gemini-3.8-flash",
+    "seconds": 19.7,
+    "attempt": 1,
+    "in_tokens": 4500,
+    "out_tokens": 102,
+    "reasoning_tokens": null,
+    "fingerprint": null
+   }
+  ]
+ }
+}

@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "未确认门店是否有两种尺寸可供对比，却表示可以拿出来；大小差异的观感也不能一概而论。",
+    "context_failure": "回答了大小问题，但没有回应戒圈和保密方面的顾虑。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 4,
+    "naturalness": 4,
+    "effectiveness": 2
+   },
+   "sendability": "小改可发",
+   "comment": "切中了尺寸比较，也提到悬浮镶，但应补充改圈服务，并避免未经确认就承诺两种尺寸都能看。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "“有个大概的范围就够了，之后还能再调”暗示戒圈一定能调整到合适尺寸，现有信息不足以支持。",
+    "context_failure": "回应了戒圈顾虑，却没有回答 1 克拉与 1.5 克拉的视觉差异。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 4,
+    "naturalness": 4,
+    "effectiveness": 2
+   },
+   "sendability": "小改可发",
+   "comment": "改圈服务有针对性，但应去掉未经确认的尺寸保证，并补答大小差异。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "两个问题都没有回答，也没有提供戒圈方法或改圈服务信息。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 2,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 1
+   },
+   "sendability": "不可用",
+   "comment": "只有笼统的暂缓回复，未解决客户眼下的任何问题。"
+  }
+ ],
+ "set": {
+  "diversity": 4,
+  "risk_judgement": "偏紧",
+  "best_index": 1,
+  "must_coverage": "2/2（分散在候选 1 和 2 中，没有单条同时做到）",
+  "summary": "三条切入点不同，但没有一条完整回答客户的两个问题；候选 1 和 2 还各有未经确认的承诺或保证。风险提醒对预算、保密和紧迫感的把握基本恰当，但限制只能谈改圈、不能提任何获取戒圈的方法偏严，也未提醒核实试戴库存及改圈范围。"
+ },
+ "_judge": "openai:gpt-6.1-terra"
+}

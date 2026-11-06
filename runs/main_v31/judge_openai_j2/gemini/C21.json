@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "轻微：“随时”未限定维修师傅在店时间；“恢复原来的光泽”超出了已知的抛光效果。",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 4,
+    "naturalness": 4,
+    "effectiveness": 4
+   },
+   "sendability": "小改可发",
+   "comment": "先接住了情绪，也给出免费抛光和所需时间；去掉“随时”和效果保证，并补充师傅在店时间即可。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "严重：承诺明天完成抛光并送还；CA 只授权去公司取件，未授权送还，也未确认取件后的完成时间。",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 3,
+    "naturalness": 4,
+    "effectiveness": 3
+   },
+   "sendability": "不可用",
+   "comment": "关怀和取件方案贴合投诉，但自行承诺了后续安排，还遗漏了现场约 40 分钟的信息。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "轻微：用“别担心”直接带过投诉，未先承认客户对新戒指出现划痕的不满。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 3,
+    "naturalness": 4,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "方案、师傅在店时间和现场耗时都清楚，但应先接住情绪，再询问客户方便的处理方式。"
+  }
+ ],
+ "set": {
+  "diversity": 3,
+  "risk_judgement": "正确",
+  "best_index": 1,
+  "must_coverage": "3/3",
+  "summary": "候选 1 已覆盖承认感受、免费抛光及时间，三条也都没有说教或推卸责任。主要问题是候选 1 和 2 含未经确认的效果或服务承诺，候选 3 则缺少对投诉情绪的回应。"
+ },
+ "_judge": "openai:gpt-6.1-terra"
+}

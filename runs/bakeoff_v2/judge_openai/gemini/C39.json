@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "“有结果马上告诉您”作了即时反馈的时间承诺，CA 未提供此承诺。",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 4,
+    "naturalness": 4,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "答复简洁清楚，但略显冷淡；可接住客户的分享热情，并去掉“马上”。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "将摄影师报备与展出手绘原件直接关联，输入没有说明这是报备的原因。",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 4
+   },
+   "sendability": "小改可发",
+   "comment": "接住了客户想分享的热情，但应删去未经证实的报备原因，“满意的答复”也容易抬高预期。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "“今天去”是未经 CA 授权的具体时间承诺；“一起定下来”暗示可确定场次，下午是否有场次也未经证实。",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 2,
+    "naturalness": 3,
+    "effectiveness": 2
+   },
+   "sendability": "小改可发",
+   "comment": "虽说明会确认拍摄，但过早推进场次，还自行承诺今天协调和确定时间。"
+  }
+ ],
+ "set": {
+  "diversity": 4,
+  "risk_judgement": "正确",
+  "best_index": 1,
+  "must_coverage": "3/3",
+  "summary": "三条都没有直接答应拍摄，候选 2 接住了客户的热情，整体覆盖了全部 must；风险判断也抓住了需要公关确认的核心。主要问题是候选中仍有未经授权的时间或场次承诺，以及对报备原因的推测；候选 1 最简洁，调整后更适合发送。"
+ },
+ "_judge": "openai:gpt-6.1-terra"
+}

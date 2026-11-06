@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "轻微：客户已表示有需要会主动联系，目前没有明确的售后需求，主动发送一般性养护邀约并非必要信息。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 3
+   },
+   "sendability": "不可用",
+   "comment": "切入了客户已有的耳钉和固定服务，但缺少必要的售后事由；“固件检测”也不够自然。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "严重：自行承诺清洗或检测可在十几分钟内完成，超出允许的固定服务范围。",
+    "privacy_violation": "无",
+    "fabrication": "严重：没有依据承诺“十几分钟就能处理好”；备注虽解释了写法，但未指出时间未经确认。",
+    "context_failure": "轻微：客户没有提出售后需求，且根据其职业揣测年底差旅和重要场合，容易让人觉得被套模板。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 2,
+    "naturalness": 2,
+    "effectiveness": 1
+   },
+   "sendability": "不可用",
+   "comment": "用了客户的两件藏品，但场合揣测和未经确认的处理时长都不妥。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "轻微：客户未反馈搭扣或清洗问题，这是一条主动发送的泛化护理提醒，并非必要售后信息。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 2
+   },
+   "sendability": "不可用",
+   "comment": "没有推销，但护理提醒较泛，也缺少联系客户的必要事由。"
+  }
+ ],
+ "set": {
+  "diversity": 2,
+  "risk_judgement": "偏松",
+  "best_index": 1,
+  "must_coverage": "1/1",
+  "summary": "工具识别了拒绝推销的边界，三条均未直接推产品，但都是缺少明确必要性的主动售后联系，建议本次不发。风险判断标为“ok；无”过于宽松，尤其漏掉了候选2未经确认的处理时长承诺。"
+ },
+ "_judge": "openai:gpt-6.1-terra"
+}

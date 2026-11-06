@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "“工作忙碌”推定了客户当前的工作状态，档案中没有依据。",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 3,
+    "naturalness": 3,
+    "effectiveness": 4
+   },
+   "sendability": "小改可发",
+   "comment": "有致歉和不催回复的分寸，但表达偏长、抒情重复，删去工作状态的推测并精简即可。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "“戴了有一阵子”推定了实际佩戴情况；“随时寄到店里”涉及未确认的邮寄服务安排。",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 4,
+    "brand_voice": 3,
+    "naturalness": 2,
+    "effectiveness": 2
+   },
+   "sendability": "小改可发",
+   "comment": "虽引用了真实藏品，也先道了歉，但随即转向保养服务，容易冲淡纯粹问候的诚意，“没敢”和“负责到底”也显得用力。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "“带着情绪离开”容易把客户感受到的轻视简化为情绪，也可能让人误以为上次是不愉快地离店，而记录显示争执发生在微信上。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 2,
+    "naturalness": 2,
+    "effectiveness": 2
+   },
+   "sendability": "小改可发",
+   "comment": "有致歉和不催回复的意图，但措辞没有准确接住被轻视的感受，且反复强调自己的自责，不够自然。"
+  }
+ ],
+ "set": {
+  "diversity": 3,
+  "risk_judgement": "偏紧",
+  "best_index": 1,
+  "must_coverage": "2/2",
+  "summary": "候选 1 相对最适合：有致歉和留白，也未重提配额细节，但仍需缩短并删除对客户工作状态的推测。整体风险提示把“主动提晨星”一概禁止过于绝对；可以在不涉及配额细节或作出承诺的前提下，谨慎回应过去的不愉快。"
+ },
+ "_judge": "openai:gpt-6.1-terra"
+}

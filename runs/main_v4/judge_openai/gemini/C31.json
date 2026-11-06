@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "严重：手册和目录没有说明悬浮镶需要特定的爪位受力，也没有“两年左右检测一次”的建议；“深度清洗”亦超出已知固定服务的描述。",
+    "context_failure": "轻微：询问钱先生是否佩戴习惯，暗含他是佩戴者；戒指是为求婚购入，实际佩戴情况未知。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 2,
+    "naturalness": 2,
+    "effectiveness": 2
+   },
+   "sendability": "小改可发",
+   "comment": "服务切入方向合适，但应删去未经证实的检测周期和工艺说法，也不宜默认钱先生本人佩戴。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "轻微：没有依据将“日常氧化”作为这枚铂金戒指可能需要保养的理由；铂金在日常环境下也不易氧化。",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 4,
+    "naturalness": 4,
+    "effectiveness": 4
+   },
+   "sendability": "小改可发",
+   "comment": "自我介绍和清洗服务切入自然，删去“日常氧化”并略作精简即可。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "严重：没有资料支持工坊建议两年后做爪位紧固检测和深度超声清洗，也没有确认该戒指适用此清洗方式。",
+    "context_failure": "轻微：一次提及检测、清洗、微调和刻字，偏离唤醒场景一次只说一件事的策略。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 2,
+    "naturalness": 2,
+    "effectiveness": 2
+   },
+   "sendability": "不可用",
+   "comment": "虽未承诺免费刻字，但未经证实的工坊建议和清洗方式不能发送，且服务点堆得过多。"
+  }
+ ],
+ "set": {
+  "diversity": 2,
+  "risk_judgement": "偏松",
+  "best_index": 2,
+  "must_coverage": "1/1",
+  "summary": "三条都没有假设婚姻状况，风险提醒也正确指出免费刻字期已过，但基本都以清洗检测切入，差异有限。最主要的问题是候选 1 和 3 编造检测周期或工坊建议，工具备注却未识别这些风险；候选 2 最接近可发，需删去“日常氧化”。"
+ },
+ "_judge": "openai:gpt-6.1-terra"
+}

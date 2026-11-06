@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 2,
+    "brand_voice": 5,
+    "naturalness": 5,
+    "effectiveness": 4
+   },
+   "sendability": "直接可发",
+   "comment": "简洁直接，演示内容与客户兴趣契合，但没有点明他之前想看现场操作。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "活动资料未确认可以与师傅现场探讨公差和工艺。",
+    "context_failure": "无",
+    "must_not_hit": "暗示了未经活动资料确认的现场互动内容。"
+   },
+   "scores": {
+    "personalization": 5,
+    "brand_voice": 4,
+    "naturalness": 4,
+    "effectiveness": 4
+   },
+   "sendability": "小改可发",
+   "comment": "准确连接了客户想看现场的兴趣，删除或先确认与师傅探讨公差的表述即可。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 2,
+    "brand_voice": 4,
+    "naturalness": 4,
+    "effectiveness": 3
+   },
+   "sendability": "直接可发",
+   "comment": "携带家人的信息准确，但未点出客户对现场操作的兴趣；建议用资料中的“看不见的镶爪”替代“隐形镶嵌”。"
+  }
+ ],
+ "set": {
+  "diversity": 3,
+  "risk_judgement": "偏松",
+  "best_index": 2,
+  "must_coverage": "2/2",
+  "summary": "候选2最能体现为客户挑选邀请，但需去掉未经确认的现场探讨表述；候选1可直接发送，却少了一句明确的兴趣连接。整体语气简洁，但三条均是直接邀约，切入角度的差异有限。"
+ },
+ "_judge": "openai:gpt-6.1-terra"
+}

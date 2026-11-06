@@ -1,0 +1,66 @@
+{
+ "candidates": [
+  {
+   "index": 1,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 4,
+    "naturalness": 4,
+    "effectiveness": 4
+   },
+   "sendability": "直接可发",
+   "comment": "简短克制，点到了生日并表达记挂；“愿您安稳”略显笼统，但分寸合适。"
+  },
+  {
+   "index": 2,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "无",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 3,
+    "brand_voice": 3,
+    "naturalness": 2,
+    "effectiveness": 3
+   },
+   "sendability": "小改可发",
+   "comment": "认识六年属实，但特意强调年数和“不说客套话”显得刻意，“清静”也有替客户设想的意味。"
+  },
+  {
+   "index": 3,
+   "red_flags": {
+    "brand_violation": "无",
+    "privacy_violation": "无",
+    "fabrication": "无",
+    "context_failure": "未明确点出生日，“不用赶在这一天说什么”也暗示客户面临表达压力，与现有聊天情境脱节。",
+    "must_not_hit": "无"
+   },
+   "scores": {
+    "personalization": 2,
+    "brand_voice": 3,
+    "naturalness": 2,
+    "effectiveness": 2
+   },
+   "sendability": "小改可发",
+   "comment": "有留退路的善意，但开头莫名替客户设定压力，也没有让人感受到生日被记得。"
+  }
+ ],
+ "set": {
+  "diversity": 2,
+  "risk_judgement": "正确",
+  "best_index": 1,
+  "must_coverage": "2/2",
+  "summary": "整体识别了近期丧亲风险，三条均避开欢快语气、产品和送修话题，但角度比较接近，后两条措辞偏刻意。风险判断中的“hold”与“照常发”方向不够清晰，应明确是暂缓联系还是可以克制地发送。"
+ },
+ "_judge": "openai:gpt-6.1-terra"
+}
